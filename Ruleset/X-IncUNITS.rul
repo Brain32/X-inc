@@ -68,6 +68,75 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
+  - type: STR_TIGERCALW_FEMGOON
+    race: STR_TIGERCALW
+    rank: STR_LIVE_SOLDIER
+    stats:  #balance me
+      tu: 80
+      stamina: 90
+      health: 60
+      bravery: 70
+      reactions: 80
+      firing: 90
+      throwing: 60
+      strength: 45
+      psiStrength: 55
+      psiSkill: 0
+      melee: 70
+    armor: STR_TIGERCALW_FEMGOON
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+  - type: STR_TIGERCALW_GOON
+    race: STR_TIGERCALW
+    rank: STR_LIVE_SOLDIER
+    stats:  #balance me
+      tu: 80
+      stamina: 90
+      health: 60
+      bravery: 70
+      reactions: 80
+      firing: 90
+      throwing: 60
+      strength: 45
+      psiStrength: 55
+      psiSkill: 0
+      melee: 70
+    armor: STR_TIGERCALW_GOON
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+  - type: STR_TIGERCALW_WARCHEEF
+    race: STR_TIGERCALW
+    rank: STR_NAVIGATOR
+    stats:  #balance me
+      tu: 80
+      stamina: 90
+      health: 60
+      bravery: 70
+      reactions: 80
+      firing: 90
+      throwing: 60
+      strength: 45
+      psiStrength: 55
+      psiSkill: 0
+      melee: 70
+    armor: STR_TIGERCALW_WARCHEEF
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
 
 ###Robots###
 

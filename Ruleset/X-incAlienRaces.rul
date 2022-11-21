@@ -11,4 +11,15 @@ alienRaces:
       - STR_WASTELAND_BOSS
       - STR_WASTELAND_BOSS
     retaliationAggression: -100
-
+  - id: STR_TIGERCALW
+    members:
+      - STR_TIGERCALW_FEMGOON
+      - STR_TIGERCALW_FEMGOON
+      - STR_TIGERCALW_GOON
+      - STR_TIGERCALW_GOON
+      - STR_TIGERCALW_GOON
+      - STR_TIGERCALW_GOON
+      - STR_TIGERCALW_GOON
+      - STR_TIGERCALW_WARCHEEF
+      - STR_TIGERCALW_WARCHEEF
+    retaliationAggression: -100
