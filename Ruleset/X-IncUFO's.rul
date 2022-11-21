@@ -1,0 +1,22 @@
+ufos:
+  - type: STR_SNEED_SHACK
+    size: STR_SMALL
+    sprite: 0
+    damageMax: 500
+    speedMax: 5000
+    accel: 10
+    power: 40
+    range: 20
+    score: 700
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: STR_SNEED_SHACK
+      mapDataSets:
+        - BLANKS
+        - FARM_SHOP_DECO
+      mapBlocks:
+        - name: SNEED_SHACK
+          width: 10
+          length: 10
+

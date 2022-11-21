@@ -1,0 +1,5 @@
+soldiers:
+  - type: STR_SOLDIER
+    costBuy: 50000
+    costSalary: 10000
+    armor: STR_RUNNERCOAT_UC

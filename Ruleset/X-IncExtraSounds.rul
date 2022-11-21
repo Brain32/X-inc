@@ -1,0 +1,69 @@
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      100: Resources/Sounds/Fire/SMG_HEAVY.wav
+      101: Resources/Sounds/Reload/SHOTGUN_1.wav
+      102: Resources/Sounds/Reload/SHOTGUN_2.wav
+      103: Resources/Sounds/Fire/SHOTGUNFIRE_1.wav
+      104: Resources/Sounds/Fire/SHOTGUNFIREAUTO_1.wav
+      105: Resources/Sounds/Fire/PISTOL.wav
+      106: Resources/Sounds/Fire/RIFLE_1.wav
+      107: Resources/Sounds/Reload/RIFLE_2.wav
+      108: Resources/Sounds/Fire/SHOTGUNFIRE_3.wav
+      109: Resources/Sounds/Reload/SHOTGUNAUTO_2.wav
+      110: Resources/Sounds/Fire/PLASMA_2.wav
+      111: Resources/Sounds/Fire/LASER_2.ogg
+      112: Resources/Sounds/Fire/PepperFire.wav
+      113: Resources/Sounds/Reload/PepperReload.wav
+      114: Resources/Sounds/Fire/Pistol_Fire2.wav
+      115: Resources/Sounds/Reload/Reload_Insert.wav
+      116: Resources/Sounds/Fire/PISTOL_HEAVY_1.wav
+      117: Resources/Sounds/Fire/PISTOL_HEAVY_2.wav
+      118: Resources/Sounds/Reload/PISTOL_3.wav
+      119: Resources/Sounds/Reload/Revolver_1.wav
+      120: Resources/Sounds/Reload/SHOTGUN_PUMP.wav
+      121: Resources/Sounds/Fire/SMG_FIRE_1.wav
+      122: Resources/Sounds/Fire/SHOTGUNFIRE_2.wav
+      123: Resources/Sounds/Reload/SHOTGUNAUTO_2.wav
+      124: Resources/Sounds/Fire/HMG.wav
+      125: Resources/Sounds/Reload/AR2_RELOAD.wav
+      126: Resources/Sounds/Fire/SNIPER_FIRE.ogg
+      127: Resources/Sounds/Fire/SNIPER_FIRE_HEAVY.wav
+      128: Resources/Sounds/Reload/SNIPER_SINGLE.wav
+      129: Resources/Sounds/Reload/357_RELOAD.wav
+      130: Resources/Sounds/Fire/PISTOL45.wav
+      131: Resources/Sounds/Reload/PISTOL45.wav
+      132: Resources/Sounds/Fire/SMG_LIGHT_SINGLE.wav
+      133: Resources/Sounds/Reload/SMGLIGHT_1.wav
+      134: Resources/Sounds/Heal/Inject1.wav
+      135: Resources/Sounds/Reload/RIFLE_LONG.wav
+      136: Resources/Sounds/Fire/RIFLE_2.wav
+      137: Resources/Sounds/Reload/RIFLE_3.wav
+      138: Resources/Sounds/Fire/GL.wav
+      139: Resources/Sounds/Reload/GL.wav
+      140: Resources/Sounds/Hit/GL.wav
+      141: Resources/Sounds/Fire/SMG_BURST.wav
+      142: Resources/Sounds/Reload/SMART_1.wav
+      143: Resources/Sounds/Reload/PistolLightReload.wav
+      144: Resources/Sounds/Reload/PISTOL_4.wav
+      145: Resources/Sounds/Fire/flaregun_fire.wav
+      146: Resources/Sounds/Reload/flaregun_reload.wav
+      147: Resources/Sounds/Fire/DD.ogg
+      148: Resources/Sounds/Reload/DDSmart.wav
+      149: Resources/Sounds/Fire/Taser_Fire.ogg
+      150: Resources/Sounds/Reload/Taser_Reload.ogg
+      151: Resources/Sounds/Reload/LeverShotgun.wav
+      152: Resources/Sounds/Hit/ClubHit.wav
+      153: Resources/Sounds/Hit/Electro_Hit_Weak.wav
+      154: Resources/Sounds/Hit/Electro_Hit_Stong.ogg
+      155: Resources/Sounds/Hit/StabHit.wav
+      156: Resources/Sounds/Hit/Bonk.wav
+      157: Resources/Sounds/Death/SECBOT_DEAD.wav
+      158: Resources/Sounds/Reload/GEPGunRL.wav
+      159: Resources/Sounds/Fire/GEPGunFire.wav
+      160: Resources/Sounds/Explosion/Ex_1.wav
+      161: Resources/Sounds/Explosion/Fire.wav
+
+  - type: GEO.CAT
+    files:
+      0: Resources/Sounds/Menu/Click.wav

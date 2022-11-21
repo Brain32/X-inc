@@ -1,0 +1,119 @@
+﻿alienDeployments:
+  - type: STR_WASTELAND_GANG
+    width: 50
+    length: 50
+    height: 10
+    alert: STR_ALERT_WASTELAND_GANG
+    alertBackground: BACKMISSION_1.SCR
+    alertDescription: STR_WASTELAND_GANG_DESCRIPTION
+    briefing:
+      background: BACKMISSION_2.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_WASTELAND_GANG_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 40
+    abortPenalty: 40
+    music:
+      - GMTACTIC
+    terrains:
+      - URBAN
+      - NUKE_ZONE
+      - INDUSTRIALSLUM
+      - URBAN_WASTE
+    data:
+      - alienRank: 4
+        lowQty: 5
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+            - STR_PIPEBOMB
+          -
+            - STR_JUNKY_SAWED_OFF
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+          -
+            - STR_OLD_SHOTGUN
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+          -
+            - STR_TEC9
+            - STR_TEC9_CLIP
+            - STR_TEC9_CLIP
+      - alienRank: 3
+        lowQty: 5
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+            - STR_PIPEBOMB
+          -
+            - STR_JUNKY_SAWED_OFF
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+          -
+            - STR_OLD_SHOTGUN
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+          -
+            - STR_TEC9
+            - STR_TEC9_CLIP
+            - STR_TEC9_CLIP
+
+  - type: STR_SNEEDS_YOUR_FEEDS
+    width: 40
+    length: 40
+    height: 10
+    customUfo: STR_SNEED_SHACK
+    alert: STR_ALERT_SNEEDS_YOUR_FEEDS
+    alertBackground: SNEED.SCR
+    alertDescription: STR_SNEEDS_YOUR_FEEDS_DESCRIPTION
+    briefing:
+      background: SNEED.SCR
+      palette: 2
+      music: SNEED
+      briefing: STR_SNEEDS_YOUR_FEEDS_BRIEFING
+      showTarget: false
+    points: 9000
+    markerName: STR_SNEEDS_YOUR_FEEDS
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 300
+    music:
+      - SNEED
+    terrains:
+      - NUKE_ZONE
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO

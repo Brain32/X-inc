@@ -1,0 +1,95 @@
+units:
+  - type: STR_WASTELAND_GOON
+    race: STR_WASTELAND_RAIDER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 60
+      health: 40
+      bravery: 70
+      reactions: 40
+      firing: 55
+      throwing: 50
+      strength: 40
+      psiStrength: 25
+      psiSkill: 0
+      melee: 65
+    armor: STR_WASTELAND_GOON_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+  - type: STR_WASTELAND_BOSS
+    race: STR_WASTELAND_RAIDER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 74
+      stamina: 80
+      health: 50
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 55
+      strength: 60
+      psiStrength: 35
+      psiSkill: 0
+      melee: 80
+    armor: STR_WASTELAND_BOSS_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+  - type: STR_WASTELAND_SCOUT
+    race: STR_WASTELAND_RAIDER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 90
+      health: 60
+      bravery: 70
+      reactions: 80
+      firing: 90
+      throwing: 60
+      strength: 45
+      psiStrength: 55
+      psiSkill: 0
+      melee: 70
+    armor: STR_WASTELAND_SCOUT_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+
+###Robots###
+
+  - type: STR_SECBOT_MK1
+    race: STR_SECBOT_MK1
+    stats:
+      tu: 65
+      stamina: 100
+      health: 60
+      bravery: 110
+      reactions: 60
+      firing: 75
+      throwing: 0
+      strength: 180
+      psiStrength: 20
+      psiSkill: 0
+      melee: 0
+      mana: 50
+    armor: STR_SECBOT_MK1_UC
+    standHeight: 25
+    kneelHeight: 18
+    value: 8
+    deathSound: 157
+    specab: 0
+    energyRecovery: 25

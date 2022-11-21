@@ -1,0 +1,535 @@
+terrains:
+  - name: NUKE_ZONE
+    script: NUKE_ZONE
+    mapDataSets:
+      - BLANKS
+      - Nuke1
+      - Nuke2
+      - Nuke3
+      - NUKE_WATER_2
+      - NUKE_UNDERGROUND
+    mapBlocks:
+      - name: NUKE00
+        width: 10
+        length: 10
+        groups: 0 # std
+      - name: NUKE01
+        width: 10
+        length: 10
+        groups: 6  # Buildings
+      - name: NUKE02
+        width: 10
+        length: 10
+        groups: 0 # std
+      - name: NUKE03
+        width: 10
+        length: 10
+        groups: 0 # std
+      - name: NUKE04
+        width: 10
+        length: 10
+        groups: [0, 1, 2, 3, 4] # std, LZ
+      - name: NUKE05
+        width: 10
+        length: 10
+        groups: [0, 1, 2, 3, 4] # std, LZ
+      - name: NUKE06
+        width: 10
+        length: 10
+        groups: [0, 1, 2, 3, 4] # std, LZ
+      - name: NUKE07
+        width: 10
+        length: 10
+        groups: 0 # std
+      - name: NUKE08
+        width: 10
+        length: 10
+        groups: 0 # std
+      - name: NUKE09
+        width: 10
+        length: 10
+        groups: 0 # std
+      - name: NUKE10
+        width: 10
+        length: 10
+        groups: 6  # Buildings
+      - name: NUKE11
+        width: 10
+        length: 10
+        groups: 0 # std
+      - name: NUKE12
+        width: 10
+        length: 10
+        groups: 0 # std
+      - name: NUKE13
+        width: 10
+        length: 10
+        groups: 0 # std
+      - name: NUKE14
+        width: 10
+        length: 10
+        groups: 0 # std
+      - name: NUKE15
+        width: 10
+        length: 10
+        groups: 0 # std
+      - name: NUKE16
+        width: 10
+        length: 10
+        groups: 6  # Buildings
+      - name: NUKE17
+        width: 10
+        length: 10
+        groups: 6  # Buildings
+      - name: NUKE18
+        width: 10
+        length: 10
+        groups: 6  # Buildings
+      - name: NUKE19
+        width: 20
+        length: 20
+        groups: 0 # std
+  - name: INDUSTRIALSLUM
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - INDUSLUM
+      - ROADS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
+    script: INDUSTRIALSLUM
+    mapBlocks: &AnchorIndustrialSlum
+      - name: INDUSTRIALSLUM00
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM01
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM02
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM03
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM04
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM05
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM06
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM07
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM08
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM09
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM10
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM11
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM12
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM13
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM14
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM15
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM16
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUM17
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUM18
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUM19
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM30
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM31
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM32
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM33
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM34
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM35
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO10
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUMDIO14
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO15
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO16
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO17
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUMDIO18
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUMDIO19
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUMDIO20
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO21
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO22
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO23
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMROADWE2
+        width: 10
+        length: 10
+        groups: 2
+      - name: INDUSTRIALSLUMROADNS2
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALSLUMROADCROSS2
+        width: 10
+        length: 10
+        groups: 4
+      - name: INDUSTRIALSLUMROADRAILNS
+        width: 10
+        length: 10
+        groups: 7
+      - name: INDUSTRIALSLUMROADRAILCROSS
+        width: 10
+        length: 10
+        groups: 8
+  - name: URBAN_WASTE
+    mapDataSets:
+      - BLANKS
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    script: URBAN
+    mapBlocks:
+      - name: URBANWASTE00
+        width: 10
+        length: 10
+      - name: URBANWASTE01
+        width: 10
+        length: 10
+      - name: URBANWASTE02
+        width: 10
+        length: 10
+      - name: URBANWASTE03
+        width: 20
+        length: 20
+      - name: URBANWASTE04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANWASTE05
+        width: 10
+        length: 10
+      - name: URBANWASTE06
+        width: 10
+        length: 10
+      - name: URBANWASTE07
+        width: 10
+        length: 10
+      - name: URBANWASTE08
+        width: 20
+        length: 20
+      - name: URBANWASTE09
+        width: 10
+        length: 10
+      - name: URBANWASTE10
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANWASTE11
+        width: 10
+        length: 10
+      - name: URBANWASTE12
+        width: 20
+        length: 20
+      - name: URBANWASTE13
+        width: 10
+        length: 10
+      - name: URBANWASTE14
+        width: 20
+        length: 20
+      - name: URBANWASTE15
+        width: 10
+        length: 10
+      - name: URBANWASTE16
+        width: 10
+        length: 10
+      - name: URBANWASTE17
+        width: 10
+        length: 10
+      - name: URBANWASTE18
+        width: 10
+        length: 10
+      - name: URBANWASTE19
+        width: 10
+        length: 10
+      - name: URBANWASTE20
+        width: 10
+        length: 10
+      - name: URBANWASTE21
+        width: 10
+        length: 10
+      - name: URBANWASTE22
+        width: 20
+        length: 20
+      - name: URBANWASTE23
+        width: 10
+        length: 10
+      - name: URBANWASTE24
+        width: 20
+        length: 20
+      - name: URBANWASTE25
+        width: 20
+        length: 20
+      - name: URBANWASTE26
+        width: 10
+        length: 10
+      - name: URBANWASTE27
+        width: 10
+        length: 10
+      - name: URBANWASTE28
+        width: 10
+        length: 10
+      - name: URBANWASTE29
+        width: 10
+        length: 10
+      - name: URBANWASTE30
+        width: 20
+        length: 20
+      - name: URBANWASTE31
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANWASTE32
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANWASTE33
+        width: 10
+        length: 10
+      - name: URBANWASTE34
+        width: 10
+        length: 10
+      - name: URBANWASTEHUGE35
+        width: 30
+        length: 30
+      - name: URBANWASTEHUGE36
+        width: 30
+        length: 30
+      - name: URBANWASTE37
+        width: 10
+        length: 10
+      - name: URBANWASTE38
+        width: 10
+        length: 10
+      - name: URBANWASTE39
+        width: 10
+        length: 10
+      - name: URBANWASTE40
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANWASTE42
+        width: 10
+        length: 10
+      - name: URBANWASTE43
+        width: 10
+        length: 10
+      - name: URBANWASTE44
+        width: 10
+        length: 10
+      - name: URBANWASTE45
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANWASTEHUGE46
+        width: 30
+        length: 30
+      - name: URBANWASTE47
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANWASTE48
+        width: 20
+        length: 20
+      - name: URBANWASTEROAD_WE01
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANWASTEROAD_WE02
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANWASTEROAD_WE03
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANWASTEROAD_WE04
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANWASTEROAD_WE05
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANWASTEROAD_WE06
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANWASTEROAD_NS01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANWASTEROAD_NS02
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANWASTEROAD_NS03
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANWASTEROAD_NS04
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANWASTEROAD_NS05
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANWASTEROAD_NS06
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANWASTEROAD_CROSS01
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBANWASTEROAD_CROSS02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBANWASTEROAD_CROSS03
+        width: 10
+        length: 10
+        groups: 4
+  - name: XBASE
+    mapDataSets:
+      - BLANKS
+      - XBASE1
+      - XBASE2
+      - XCOMWALL
+      - XCOMBITS
+    mapBlocks:
+      - name: XBASE_00
+        width: 10
+        length: 10
+      - name: XBASE_01
+        width: 10
+        length: 10
+      - name: XBASE_02
+        width: 10
+        length: 10
+      - name: XBASE_03 # Workshop
+        width: 10
+        length: 10
+      - name: XBASE_04
+        width: 10
+        length: 10
+      - name: XBASE_05
+        width: 10
+        length: 10
+      - name: XBASE_06
+        width: 10
+        length: 10
+      - name: XBASE_07
+        width: 10
+        length: 10
+      - name: XBASE_08
+        width: 10
+        length: 10
+      - name: XBASE_09
+        width: 10
+        length: 10
+      - name: XBASE_10
+        width: 10
+        length: 10
+      - name: XBASE_11
+        width: 10
+        length: 10
+      - name: XBASE_12
+        width: 10
+        length: 10
+      - name: XBASE_13
+        width: 10
+        length: 10
+      - name: XBASE_14
+        width: 10
+        length: 10
+      - name: XBASE_15
+        width: 10
+        length: 10
+      - name: XBASE_16
+        width: 10
+        length: 10
+      - name: XBASE_17
+        width: 10
+        length: 10
+      - name: XBASE_18
+        width: 10
+        length: 10
+      - name: XBASE_19
+        width: 10
+        length: 10
+      - name: XBASE_20
+        width: 10
+        length: 10
+      - name: XBASS_23 # Gym
+        width: 10
+        length: 10
+      - name: XBASS_27 # Prison Cells
+        width: 10
+        length: 10

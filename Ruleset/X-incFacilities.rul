@@ -1,0 +1,21 @@
+facilities:
+  - type: STR_PRISON_CELLS
+    spriteShape: 1
+    spriteFacility: 870
+    buildCost: 120000
+    buildTime: 16
+    monthlyCost: 8000
+    aliens: 12
+    prisonType: 1
+    mapName: XBASS_27
+    listOrder: 7030
+  - type: STR_GYM
+    spriteShape: 1
+    spriteFacility: 866
+    provideBaseFunc: [GYM]
+    buildCost: 140000
+    buildTime: 20
+    monthlyCost: 35000
+    trainingRooms: 10
+    mapName: XBASS_23
+    listOrder: 6960

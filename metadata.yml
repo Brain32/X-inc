@@ -1,0 +1,12 @@
+name: "X-inc."
+version: "0.0.001 Dev Only !"
+author: "Brain_228"
+description: "The Year 2200, you run a private security organization, and deal with aftermath of alien war on earth."
+id: X_inc
+master: xcom1
+isMaster: true
+resourceConfig: Ruleset/X-inc.rul
+loadResources:
+  - UFO
+reservedSpace: 2
+requiredExtendedVersion: "7.0.0"

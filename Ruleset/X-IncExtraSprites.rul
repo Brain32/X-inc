@@ -1,0 +1,832 @@
+extraSprites:
+  - type: BACK01.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Cover_Art_Geo.png
+  - type: BACK05.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Back_Lab.png
+  - type: BACK08.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BG_EQ1.png
+  - type: BACK09.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BG_Base01.png
+  - type: BACKMISSION_1.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Gang_brawl_01.png
+  - type: BACKMISSION_2.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Gang_brawl_02.png
+  - type: SNEED.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Sneed.png
+  - type: BACK10.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BG_2.png
+# Player inv pics
+  - typeSingle: HUMAN_RUNNER__7__RUNNER_COAT_M
+    fileSingle: Resources/Armours/RunnerCoat/RunnerCoat_M.png
+  - typeSingle: HUMAN_RUNNER__7__RUNNER_COAT_F
+    fileSingle: Resources/Armours/RunnerCoat/RunnerCoat_F.png
+  - typeSingle: HUMAN_RUNNER__7__DEFENDER_SUIT_M
+    fileSingle: Resources/Armours/Defender/Inv_Defender.png
+#Defender
+  - typeSingle: HUMAN_RUNNER__7__DEFENDER_SUIT_M
+    fileSingle: Resources/Armours/Defender/Inv_Defender.png
+  - typeSingle: HUMAN_RUNNER__7__DEFENDER_SUIT_F
+    fileSingle: Resources/Armours/Defender/Inv_Defender.png
+  - typeSingle: HUMAN_RUNNER__11__DEFENDER_SUIT_VISOR
+    fileSingle: Resources/Armours/Defender/Inv_Defender_Visor.png
+#CombatArmour
+  - typeSingle: HUMAN_RUNNER__7__COMBAT_ARMOUR_MK1
+    fileSingle: Resources/Armours/Combat Armour/Inv_CombarArmour_Mk1.png
+  - typeSingle: HUMAN_RUNNER__11__COMBAT_ARMOUR_HELMET_MK1
+    fileSingle: Resources/Armours/Combat Armour/Inv_CombarArmour_Helmet_Mk1.png
+#CombatArmourMk2
+  - typeSingle: HUMAN_RUNNER__7__COMBAT_ARMOUR_MK2
+    fileSingle: Resources/Armours/Combat Armour/Inv_CombarArmour_Mk2.png
+  - typeSingle: HUMAN_RUNNER__11__COMBAT_ARMOUR_HELMET_MK2
+    fileSingle: Resources/Armours/Combat Armour/Inv_CombarArmour_Helmet_Mk2.png
+  - type: MAN_20.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/Buldozer/Inv_Bulldozer.png
+  - type: MAN_21.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/Defender/Inv_Defender.png
+  - type: MAN_22.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/Deflector/Inv_Deflector.png
+  - type: MAN_23.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/Combat Armour/Inv_CombarArmour_Mk1.png
+  - type: MAN_24.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/Combat Armour/Inv_CombarArmour_Mk2.png
+#SecBot_Inv
+  - type: ROBO_1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/AI/SecBot/inv_SecBot_12MM.png
+# Enemies inv pics
+  - type: inventory_WASTELAND_GOON
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Wasteland/inventory_HIGHWAY_GANGER.png
+  - type: inventory_WASTELAND_BOSS
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Wasteland/inventory_HIGHWAY_BOSS.png
+  - type: inventory_HIGHWAY_SCOUT
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Wasteland/inventory_HIGHWAY_SCOUT.png
+
+# Bigobj (invenotry)
+  - type: BIGOBS.PCK
+    files:
+      62: Resources/Armours/RunnerCoat/bigob_RunnerCoat.png
+      63: Resources/Weapons/SmartWeapons/G11.png
+      64: Resources/Weapons/SmartWeapons/G11E.png
+      65: Resources/Weapons/SmartWeapons/bigob_G11Clip.png
+      66: Resources/Weapons/JunkWeapons/bigob_JunkSawedOff.png
+      67: Resources/Weapons/JunkWeapons/bigob_Buckshot.png
+      68: Resources/Weapons/JunkWeapons/bigob_JunkColt.png
+      69: Resources/Weapons/JunkWeapons/bigob_Colt45_Ammo.png
+      70: Resources/Weapons/JunkWeapons/bigob_Luger.png
+      71: Resources/Weapons/JunkWeapons/bigob_LugerClip.png
+      72: Resources/Weapons/JunkWeapons/bigob_TAC9.png
+      73: Resources/Weapons/JunkWeapons/bigob_9MMSMGClip.png
+      74: Resources/Weapons/JunkWeapons/bigob_Old_AutoRifle.png
+      75: Resources/Weapons/JunkWeapons/bigob_RifleAmmo.png
+      76: Resources/Weapons/JunkWeapons/bigob_HuntingRifle.png
+      77: Resources/Weapons/JunkWeapons/bigob_HuntingRifleClip.png
+      78: Resources/Weapons/JunkWeapons/bigob_OldShotgun.png
+      79: Resources/Weapons/JunkWeapons/bigob_8_ShotgunShells.png
+      80: Resources/Weapons/JunkWeapons/bigob_8_ShotgunSlugs.png
+      81: Resources/Weapons/JunkWeapons/bigob_PipeBomb.png
+      82: Resources/FactionPack/Wasteland/bigob_HUGHWAYGANGER.png
+      83: Resources/Weapons/CityWeapons/bigob_PS94.png
+      84: Resources/Weapons/CityWeapons/bigob_CivPhaser.png
+      85: Resources/Weapons/CityWeapons/bigob_PPSpray.png
+      86: Resources/Weapons/BlackOps/bigob_SyndicateCompact.png
+      87: Resources/Weapons/BlackOps/bigob_SyndicateCompact_Clip.png
+      88: Resources/Weapons/BlackOps/bigob_SyndicateCompact_Clip_AA.png
+      89: Resources/Weapons/BlackOps/bigob_SyndicatePistol.png
+      90: Resources/Weapons/BlackOps/bigob_SyndicatePistol_Clip.png
+      91: Resources/Weapons/BlackOps/bigob_SyndicatePistol_Clip_AA.png
+      92: Resources/Weapons/BlackOps/bigob_SyndicateSmartPistol.png
+      93: Resources/Weapons/BlackOps/bigob_SyndicateCommandoPistol.png
+      94: Resources/Weapons/BlackOps/bigob_SyndicateCommandoPistol_Clip.png
+      95: Resources/Weapons/BlackOps/bigob_SyndicateCommandoPistol_Clip_AA.png
+      96: Resources/Weapons/BlackOps/bigob_SyndicateMagnum.png
+      97: Resources/Weapons/BlackOps/bigob_Magnum_Speedloader.png
+      98: Resources/Weapons/BlackOps/bigob_Magnum_Speedloader_AA.png
+      99: Resources/Weapons/BlackOps/Rifle_AA_Clip.png
+      100: Resources/Weapons/BlackOps/Rifle_Clip.png
+      101: Resources/Weapons/BlackOps/bigob_SyndicateClassicRifle.png
+      102: Resources/Weapons/BlackOps/bigob_SyndicateShortRilfe.png
+      103: Resources/FactionPack/Wasteland/bigob_HIGHWAYBOSS.png
+      104: Resources/Armours/Buldozer/bigob_BULDOZER.png
+      105: Resources/Weapons/BlackOps/bigob_SyndicateAdvSMG.png
+      106: Resources/Weapons/BlackOps/bigob_AdvSMG_Clip.png
+      107: Resources/Weapons/BlackOps/bigob_AdvSMG_Clip_AA.png
+      108: Resources/Weapons/BlackOps/bigob_SyndicateShotgun.png
+      109: Resources/Weapons/BlackOps/bigob_ShotgunShells.png
+      110: Resources/Weapons/BlackOps/bigob_ShotgunShells_AA.png
+      111: Resources/Weapons/BlackOps/bigob_ShotgunShells_BS.png
+      112: Resources/Weapons/BlackOps/bigob_ShotgunShells_BS_AA.png
+      113: Resources/Weapons/BlackOps/bigob_ShotgunShells_Baton.png
+      114: Resources/Weapons/BlackOps/bigob_ShotgunShells_Chem.png
+      115: Resources/Weapons/BlackOps/bigob_ShotgunShells_Nuke.png
+      116: Resources/Weapons/BlackOps/bigob_SyndicateSuperShotty.png
+      117: Resources/Armours/Defender/bigob_DEFENDER.png
+      118: Resources/Armours/Deflector/bigob_DEFLECTOR_SUIT.png
+      119: Resources/Weapons/BlackOps/bigob_SyndicateTactiCOOLShotgun.png
+      120: Resources/Weapons/BlackOps/bigob_SyndicateTactiCOOLShotgun_Clip.png
+      121: Resources/Weapons/BlackOps/bigob_SyndicateTactiCOOLShotgun_Clip_AA.png
+      122: Resources/Weapons/BlackOps/bigob_SyndicateTactiCOOLShotgun_Clip_Big.png
+      123: Resources/Weapons/BlackOps/bigob_SyndicateTactiCOOLShotgun_Clip_Big_AA.png
+      124: Resources/Weapons/BlackOps/bigob_SyndicateLMG.png
+      125: Resources/Weapons/BlackOps/bigob_SyndicateLMG_Clip.png
+      126: Resources/Weapons/BlackOps/bigob_SyndicateLMG_Clip_AP.png
+      127: Resources/Weapons/BlackOps/bigob_SyndicateLMG_Clip_AA.png
+      128: Resources/Weapons/BlackOps/bigob_SyndicateSniperRifle.png
+      129: Resources/Weapons/BlackOps/bigob_SyndicateSniperRifle_clip.png
+      130: Resources/Weapons/BlackOps/bigob_SyndicateSniperRifle_clip_AP.png
+      131: Resources/Weapons/BlackOps/bigob_SyndicateSniperRifle_clip_AA.png
+      132: Resources/Weapons/BlackOps/bigob_SyndicateHeavySniperRifle.png
+      133: Resources/Weapons/BlackOps/bigob_SyndicateHeavySniperRifle_clip.png
+      134: Resources/Weapons/BlackOps/bigob_SyndicateHeavySniperRifle_clip_AP.png
+      135: Resources/Weapons/BlackOps/bigob_SyndicateHeavySniperRifle_clip_AA.png
+      136: Resources/Weapons/PreWarWeapons/bigob_Magnum.png
+      137: Resources/Weapons/PreWarWeapons/bigob_Colt45.png
+      138: Resources/Weapons/SmartWeapons/bigob_RebelColt45.png
+      139: Resources/Weapons/PreWarWeapons/bigob_Clip_Colt45.png
+      140: Resources/Weapons/PreWarWeapons/bigob_Clip_Colt45_AA.png
+      141: Resources/Weapons/PreWarWeapons/bigob_Clip_Colt45_Ext.png
+      142: Resources/Weapons/PreWarWeapons/bigob_Clip_Colt45_Ext_AA.png
+      143: Resources/Weapons/PreWarWeapons/bigob_MicroUzi.png
+      144: Resources/Weapons/PreWarWeapons/bigob_MicroUzi_clip.png
+      145: Resources/MedicalShit/bigob_Medikit_Small.png
+      146: Resources/MedicalShit/bigob_Medikit.png
+      147: Resources/MedicalShit/bigob_Stim.png
+      148: Resources/Weapons/PreWarWeapons/bigob_Ruger.png
+      149: Resources/Weapons/PreWarWeapons/bigob_M16.png
+      150: Resources/Weapons/PreWarWeapons/bigob_M16_Scarface.png
+      151: Resources/Weapons/PreWarWeapons/bigob_GrenadeLauncher.png
+      152: Resources/Weapons/PreWarWeapons/bigob_GrenadeLauncherVice.png
+      153: Resources/Weapons/SmartWeapons/bigob_AdvancedGL.png
+      154: Resources/Weapons/PreWarWeapons/bigob_GL_Frag.png
+      155: Resources/Weapons/PreWarWeapons/bigob_GL_Incendiary.png
+      156: Resources/Weapons/PreWarWeapons/bigob_GL_Smoke.png
+      157: Resources/Weapons/PreWarWeapons/bigob_GL_SuperIncendiary.png
+      158: Resources/Weapons/PreWarWeapons/bigob_GL_SuperFrag.png
+      159: Resources/Weapons/PreWarWeapons/bigob_GL_Gas.png
+      160: Resources/Weapons/PreWarWeapons/bigob_GL_EMP.png
+      161: Resources/Weapons/PreWarWeapons/bigob_GL_Chem.png
+      162: Resources/Weapons/BlackOps/bigob_Smartrifle.png
+      163: Resources/Weapons/BlackOps/bigob_SmartrifleClip.png
+      164: Resources/Weapons/BlackOps/bigob_SmartrifleClipAA.png
+      165: Resources/Weapons/CityWeapons/bigob_PocketPistol_LT.png
+      166: Resources/Weapons/CityWeapons/bigob_PocketPistol_LT_clip.png
+      167: Resources/Weapons/CityWeapons/bigob_PocketPistol_LT_SLAYER_clip.png
+      168: Resources/Weapons/CityWeapons/bigob_PocketPistol_HV.png
+      169: Resources/Weapons/CityWeapons/bigob_PocketPistol_HV_Clip.png
+      170: Resources/Weapons/CityWeapons/bigob_Pistol_Glock_RTT76.png
+      171: Resources/Weapons/CityWeapons/bigob_Pistol_Glock_RTT76_Clip.png
+      172: Resources/Weapons/CityWeapons/bigob_Pistol_Glock_RTT76_ClipBig.png
+      173: Resources/Weapons/CityWeapons/bigob_Pistol_Glock_RTT76_ExtraBig.png
+      174: Resources/Weapons/CityWeapons/bigob_Pistol_MiliTech_HiPower_93.png
+      175: Resources/Weapons/CityWeapons/bigob_Pistol_MiliTech_HiPower_93_ALT.png
+      176: Resources/Weapons/CityWeapons/bigob_Pistol_MiliTech_HiPower_93_Clip.png
+      177: Resources/Weapons/CityWeapons/bigob_Pistol_ColtKJ583.png
+      178: Resources/Weapons/CityWeapons/bigob_Pistol_ColtKJ583_Clip.png
+      179: Resources/Weapons/CityWeapons/bigob_Slaught-O-Matic.png
+      181: Resources/Weapons/CityWeapons/bigob_FlarePistol.png
+      182: Resources/Weapons/CityWeapons/bigob_FlareClip_1.png
+      183: Resources/Weapons/CityWeapons/bigob_FlareClip_2.png
+      184: Resources/Weapons/CityWeapons/bigob_Taser.png
+      185: Resources/Weapons/CityWeapons/bigob_Taser_Clip.png
+      186: Resources/Weapons/CityWeapons/bigob_Taser_Super_Clip.png
+      187: Resources/Weapons/CityWeapons/bigob_SmallShotgun.png
+      188: Resources/Weapons/CityWeapons/bigob_CivilShotty.png
+      189: Resources/Weapons/CityWeapons/bigob_SmallShotgunShells.png
+      190: Resources/Weapons/CityWeapons/bigob_SmallShotgunShellsAP.png
+      191: Resources/Weapons/X-IncGuns/bigob_SuperShotty.png
+      192: Resources/Weapons/X-IncGuns/bigob_SuperShottyStock.png
+      193: Resources/FactionPack/Wasteland/bigob_HUGHWAYSCOUT.png
+      194: Resources/Weapons/JunkWeapons/bigob_JunkWinchester.png
+      195: Resources/Armours/Combat Armour/bigob_COMBAT_ARMOUR_MK1.png
+      196: Resources/Armours/Combat Armour/bigob_COMBAT_ARMOUR_MK2.png
+      197: Resources/Weapons/MeleeWeapons/bigobj_BrassKnuckles.png
+      198: Resources/Weapons/MeleeWeapons/bigob_PoliceClub.png
+      199: Resources/Weapons/MeleeWeapons/bigobj_Shiv.png
+      200: Resources/Weapons/MeleeWeapons/bigobj_StabKnife.png
+      201: Resources/Weapons/MeleeWeapons/bigobj_Machete.png
+      202: Resources/Weapons/MeleeWeapons/bigobj_BanditKnife.png
+      203: Resources/Weapons/MeleeWeapons/bigobj_CombatKnife.png
+      204: Resources/Weapons/MeleeWeapons/bigobj_LeadPipe.png
+      205: Resources/Weapons/MeleeWeapons/bigobj_Crowbar.png
+      206: Resources/Weapons/MeleeWeapons/bigobj_Wrench.png
+      207: Resources/Weapons/MeleeWeapons/bigob_Sabre.png
+      208: Resources/Armours/AI/SecBot/bigob_SecBot.png
+      209: Resources/Weapons/_HWP_Guns/bigob_SecBot_12MM.png
+      210: Resources/Weapons/_HWP_Guns/bigob_SecBot12MMAmmo.png
+      211: Resources/FactionPack/City_Gang/bigobj_Tygers Claw_Goon.png
+      212: Resources/Weapons/HeavyWeapons/bigob_GEP_Gun.png
+      213: Resources/Weapons/HeavyWeapons/bigob_GEP_Gun_R1.png
+      214: Resources/Weapons/HeavyWeapons/bigob_GEP_Gun_R2.png
+      #215: Resources/Weapons/HeavyWeapons/bigob_GEP_Gun_R3.png
+      216: Resources/Weapons/JunkWeapons/bigob_DBShotgun.png
+      217: Resources/Weapons/MeleeWeapons/bigobj_Bat.png
+
+
+# Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      128: Resources/Weapons/ImprovedHandObs/Handob_PRifleClip.png
+      136: Resources/Weapons/SmartWeapons/handob_G11.png
+      144: Resources/Weapons/SmartWeapons/handob_G11E.png
+      152: Resources/Weapons/JunkWeapons/handob_SawedOff.png
+      160: Resources/Weapons/SmartWeapons/handob_Itemblank.png
+      168: Resources/Weapons/JunkWeapons/handob_Colt.png
+      176: Resources/Weapons/JunkWeapons/handob_Luger.png
+      184: Resources/Weapons/JunkWeapons/HandOb_TAC9.png
+      192: Resources/Weapons/JunkWeapons/handob_OldAutoRifle.png
+      200: Resources/Weapons/JunkWeapons/handob_HuntingRifle.png
+      208: Resources/Weapons/JunkWeapons/handob_OldShotgun.png
+      216: Resources/Weapons/JunkWeapons/handob_PipeBomb.png
+      216: Resources/Weapons/JunkWeapons/handob_PipeBomb.png
+      224: Resources/Weapons/CityWeapons/handob_PS94.png
+      232: Resources/Weapons/BlackOps/handob_SyndicateCompact.png
+      240: Resources/Weapons/BlackOps/HandOb_SyndicatePistol.png
+      248: Resources/Weapons/BlackOps/HandOb_SyndicateSmartPistol.png
+      256: Resources/Weapons/BlackOps/handob_SyndicateCommando.png
+      264: Resources/Weapons/BlackOps/handob_SyndicateMagnum.png
+      272: Resources/Weapons/BlackOps/HandOb_Syndicate_SyndicateShortRilfe.png
+      280: Resources/Weapons/BlackOps/handob_SyndicateAdvSMG.png
+      288: Resources/Weapons/BlackOps/handob_BlackopsShotgun.png
+      296: Resources/Weapons/BlackOps/handob_SyndicateSuperShotty.png
+      304: Resources/Weapons/BlackOps/handob_SyndicateTactiCOOLShotgun.png
+      312: Resources/Weapons/BlackOps/handob_SyndicateLMG.png
+      320: Resources/Weapons/BlackOps/handob_BOSniperRifle.png
+      328: Resources/Weapons/BlackOps/handob_BOHeavySniperRifle.png
+      336: Resources/Weapons/PreWarWeapons/handob_Magnum.png
+      344: Resources/Weapons/PreWarWeapons/HandOb_MicroUzi.png
+      352: Resources/MedicalShit/Handob_Stimpack.png
+      360: Resources/MedicalShit/Handob_Medikit_Small.png
+      368: Resources/MedicalShit/Handob_Medikit_Mid.png
+      376: Resources/Weapons/PreWarWeapons/handob_Ruger.png
+      384: Resources/Weapons/PreWarWeapons/handob_M16.png
+      392: Resources/Weapons/PreWarWeapons/handob_M16_Scarface.png
+      400: Resources/Weapons/PreWarWeapons/handob_GL.png
+      408: Resources/Weapons/PreWarWeapons/handob_GL_Vice.png
+      416: Resources/Weapons/SmartWeapons/handob_AdvancedGL.png
+      424: Resources/Weapons/BlackOps/handob_SmartRifle.png
+      432: Resources/Weapons/CityWeapons/handob_Pistol_LT.png
+      440: Resources/Weapons/CityWeapons/handob_YellowPistol.png
+      448: Resources/Weapons/CityWeapons/handob_FlarePistol.png
+      456: Resources/Weapons/X-IncGuns/HandOb_SuperShotty.png
+      464: Resources/Weapons/X-IncGuns/HandOb_SuperShottyStock.png
+      472: Resources/Weapons/CityWeapons/HandOb_Taser.png
+      480: Resources/Weapons/CityWeapons/handob_SmallShotgun.png
+      488: Resources/Weapons/CityWeapons/handob_CivilShotty.png
+      496: Resources/Weapons/JunkWeapons/handob_JunkWinchester.png
+      504: Resources/Weapons/MeleeWeapons/handob_PoliceClub.png
+      512: Resources/Weapons/MeleeWeapons/handob_Shiv.png
+      520: Resources/Weapons/MeleeWeapons/handob_Machete.png
+      528: Resources/Weapons/MeleeWeapons/handob_Knife.png
+      536: Resources/Weapons/MeleeWeapons/handob_LeadPipe.png
+      544: Resources/Weapons/MeleeWeapons/handob_Crowbar.png
+      552: Resources/Weapons/MeleeWeapons/handob_Wrench.png
+      560: Resources/Weapons/MeleeWeapons/handob_Sabre.png
+      568: Resources/Weapons/HeavyWeapons/handob_GEP_Gun.png
+      576: Resources/Weapons/JunkWeapons/handob_DBShotgun.png
+      584: Resources/Weapons/MeleeWeapons/handob_Bat.png
+
+
+# FloorBattlescape (FLOOR)
+  - type: FLOOROB.PCK
+    files:
+      70: Resources/Armours/RunnerCoat/floorob_RunnerCoat.png
+      71: Resources/Weapons/SmartWeapons/floorob_G11.png
+      72: Resources/Weapons/SmartWeapons/floorob_G11E.png
+      73: Resources/Weapons/SmartWeapons/floorob_G11Clip.png
+      74: Resources/Weapons/JunkWeapons/floorob_JunkSawedOff.png
+      75: Resources/Weapons/JunkWeapons/floorob_Buckshot.png
+      76: Resources/Weapons/JunkWeapons/floorob_JunkColt.png
+      77: Resources/Weapons/JunkWeapons/floorob_Colt45Ammo.png
+      78: Resources/Weapons/JunkWeapons/floorob_Luger.png
+      79: Resources/Weapons/JunkWeapons/floorob_LugerClip.png
+      80: Resources/Weapons/JunkWeapons/floorob_TAC9.png
+      81: Resources/Weapons/JunkWeapons/floorob_Tec9Clip.png
+      82: Resources/Weapons/JunkWeapons/floorob_oldAutoRifle.png
+      83: Resources/Weapons/JunkWeapons/floorob_clip.png
+      84: Resources/Weapons/JunkWeapons/floorob_HuntingRifle.png
+      85: Resources/Weapons/JunkWeapons/floorob_HuntingRifleClip.png
+      86: Resources/Weapons/JunkWeapons/floorob_OldShotgun.png
+      87: Resources/Weapons/JunkWeapons/floorob_ShotgunShells.png
+      88: Resources/Weapons/JunkWeapons/floorob_PipeBomb.png
+      89: Resources/FactionPack/Wasteland/floorob_HIGHWAYGANGER_CORPSE.png
+      90: Resources/Weapons/CityWeapons/floorob_PS94.png
+      91: Resources/Weapons/CityWeapons/floorob_CivPhaser.png
+      92: Resources/Weapons/CityWeapons/floorob_PPSpray.png
+      93: Resources/Weapons/BlackOps/floorob_Clip.png
+      94: Resources/Weapons/BlackOps/floorob_ClipSmall.png
+      95: Resources/Weapons/BlackOps/floorob_SyndicateCompact.png
+      96: Resources/Weapons/BlackOps/floorob_SyndicateCommandoPistol.png
+      97: Resources/Weapons/BlackOps/floorob_SyndicateMagnum.png
+      98: Resources/Weapons/BlackOps/floorob_SyndicateShortRilfe.png
+      99: Resources/FactionPack/Wasteland/floorob_HIGHWAYBOSS_CORPSE.png
+      100: Resources/Armours/Buldozer/floorob_BULDOZER.png
+      101: Resources/Weapons/BlackOps/floorob_SyndicateAdvSMG.png
+      102: Resources/Weapons/BlackOps/floorob_SyndicateShotgun.png
+      103: Resources/Weapons/BlackOps/floorob_ShotgunAAShells.png
+      104: Resources/Weapons/BlackOps/floorob_ShotgunShells.png
+      105: Resources/Weapons/BlackOps/floorob_ShotgunBSShells.png
+      106: Resources/Weapons/BlackOps/floorob_SyndicateSuperShotty.png
+      107: Resources/Armours/Defender/floorob_Defender.png
+      108: Resources/Armours/Deflector/floorob_Deflector.png
+      109: Resources/Weapons/BlackOps/floorob_ClipDrum.png
+      110: Resources/Weapons/BlackOps/floorob_LMG.png
+      111: Resources/Weapons/BlackOps/floorob_LMGDrum.png
+      112: Resources/Weapons/BlackOps/floorob_BO_SniperRifle.png
+      113: Resources/Weapons/BlackOps/floorob_BO_Heavy_SniperRifle.png
+      114: Resources/Weapons/BlackOps/floorob_ClipSquare.png
+      115: Resources/Weapons/PreWarWeapons/floorob_Magnum.png
+      116: Resources/Weapons/PreWarWeapons/floorob_MagnumDrum.png
+      117: Resources/Weapons/BlackOps/floorob_SyndicateTactiCOOLShotgun.png
+      118: Resources/Weapons/PreWarWeapons/floorob_MicroUzi.png
+      119: Resources/MedicalShit/floorob_Medikit_Small.png
+      120: Resources/Weapons/PreWarWeapons/floorob_Ruger.png
+      121: Resources/Weapons/PreWarWeapons/floorob_M16.png
+      122: Resources/Weapons/PreWarWeapons/floorob_GL.png
+      123: Resources/Weapons/PreWarWeapons/floorob_GL_Vice.png
+      124: Resources/Weapons/SmartWeapons/floorob_AdvancedGL.png
+      125: Resources/Weapons/PreWarWeapons/floorob_GLAmmo.png
+      126: Resources/Weapons/BlackOps/floorob_ClipSmartRifle.png
+      127: Resources/Weapons/BlackOps/floorob_SmartRifle.png
+      128: Resources/Weapons/CityWeapons/floorob_Pistol_LT.png
+      129: Resources/Weapons/CityWeapons/floorob_YellowPistol.png
+      130: Resources/Weapons/CityWeapons/floorob_FlarePistol.png
+      131: Resources/Weapons/CityWeapons/floorob_FlamethrowerClip.png
+      132: Resources/Weapons/X-IncGuns/floorob_SuperShotty.png
+      133: Resources/Weapons/X-IncGuns/floorob_SuperShottyStock.png
+      133: Resources/Weapons/CityWeapons/floorob_Taser.png
+      134: Resources/Weapons/CityWeapons/floorob_Taser_Clip.png
+      135: Resources/Weapons/CityWeapons/floorob_Taser_Super_Clip.png
+      136: Resources/Weapons/CityWeapons/floorob_SmallShotgun.png
+      137: Resources/Weapons/CityWeapons/floorob_CivilShotty.png
+      138: Resources/FactionPack/Wasteland/floorob_HIGHWAYSCOUT_CORPSE.png
+      139: Resources/Weapons/JunkWeapons/floorob_JunkWinchester.png
+      140: Resources/Armours/Combat Armour/floorob_COMBAT_ARMOUR_MK1.png
+      141: Resources/Armours/Combat Armour/floorob_COMBAT_ARMOUR_MK2.png
+      142: Resources/Weapons/MeleeWeapons/floorob_BrassKnuckles.png
+      143: Resources/Weapons/MeleeWeapons/floorob_PoliceClub.png
+      144: Resources/Weapons/MeleeWeapons/floorob_StabKnife.png
+      145: Resources/Weapons/MeleeWeapons/floorob_Machete.png
+      146: Resources/Weapons/MeleeWeapons/FloorOb_Knife.png
+      147: Resources/Weapons/MeleeWeapons/floorob_LeadPipe.png
+      148: Resources/Weapons/MeleeWeapons/floorob_Crowbar.png
+      149: Resources/Weapons/MeleeWeapons/floorob_Wrench.png
+      150: Resources/Weapons/MeleeWeapons/floorob_Sabre.png
+      151: Resources/Armours/AI/SecBot/floorob_SecBot.png
+      152: Resources/Weapons/_HWP_Guns/floorob_SecBot12MMAmmo.png
+      153: Resources/FactionPack/City_Gang/floorob_TygersClaw_Goon.png
+      154: Resources/Weapons/HeavyWeapons/floorob_GEP_Gun.png
+      155: Resources/Weapons/HeavyWeapons/floorob_GEP_Gun_R1.png
+      #156: Resources/Weapons/HeavyWeapons/floorob_GEP_Gun_R2.png
+      #157: Resources/Weapons/HeavyWeapons/floorob_GEP_Gun_R3.png
+      158: Resources/Weapons/JunkWeapons/floorob_DB_Shotgun.png
+      159: Resources/Weapons/MeleeWeapons/floorob_bat.png
+
+# Sprite sheet (Battlescape)
+  - type: XCOM_36.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/RunnerCoat/RUNNER_COAT.png
+  - type: XCOM_37.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/Buldozer/BULDOZER.png
+  - type: XCOM_38.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/Defender/DEFENDER.png
+  - type: XCOM_39.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/Deflector/DEFLECTOR_SUIT.png
+  - type: XCOM_40.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/Combat Armour/Combat Armor Mk1.png
+  - type: XCOM_41.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/Combat Armour/Combat Armor Mk2.png
+
+                                                                  ###SecBotSheet###
+
+  - type: ROBO_1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/AI/SecBot/SecBot_12mm.png
+
+                                                                  ###WastelandRaider###
+
+  - type: RAIDER_01.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Wasteland/HIGHWAY_GANGER.png
+  - type: RAIDER_02.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Wasteland/HIGHWAY_BOSS.png
+  - type: RAIDER_03.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Wasteland/HIGHWAY_SCOUT.png
+
+                                                                  ###CityGang###
+
+  - type: GANG_1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/City_Gang/TYGERS_CLAW_GOON.png
+
+
+#Explotion same as Hand Obj with IDs
+  - type: X1.PCK
+    width: 1024
+    height: 64
+    subX: 128
+    subY: 64
+    files:
+      80: Resources/Weapons/ExplosionAnimations/Triple_Ripple_exp.png
+      88: Resources/Weapons/ExplosionAnimations/Grey_Skull_exp.png
+      96: Resources/Weapons/ExplosionAnimations/EMP_Explosion.png
+      104: Resources/Weapons/ExplosionAnimations/Red_Skull_exp.png
+      112: Resources/Weapons/ExplosionAnimations/Green_Skull_exp.png
+      120: Resources/Weapons/ExplosionAnimations/Flames_exp.png
+      128: Resources/Weapons/ExplosionAnimations/Purple_Skull_exp.png
+      136: Resources/Weapons/ExplosionAnimations/Flames2b_exp.png
+      144: Resources/Weapons/ExplosionAnimations/Flames3_exp.png
+      152: Resources/Weapons/ExplosionAnimations/Arcanoid_exp.png
+      160: Resources/Weapons/ExplosionAnimations/Sonic_exp.png
+      168: Resources/Weapons/ExplosionAnimations/Blue_Skull_exp.png
+
+         #Bodies Male Humans
+  - typeSingle: HUMAN_RUNNER__2__M0_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_M0.png
+  - typeSingle: HUMAN_RUNNER__2__M1_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_M1.png
+  - typeSingle: HUMAN_RUNNER__2__M2_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_M2.png
+  - typeSingle: HUMAN_RUNNER__2__M3_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_M3.png
+  - typeSingle: HUMAN_RUNNER__2__M4_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_M4.png
+  - typeSingle: HUMAN_RUNNER__2__M5_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_M5.png
+  - typeSingle: HUMAN_RUNNER__2__M6_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_M6.png
+  - typeSingle: HUMAN_RUNNER__2__M7_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_M7.png
+
+         #Bodies Female Humans
+  - typeSingle: HUMAN_RUNNER__2__F0_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_F0.png
+  - typeSingle: HUMAN_RUNNER__2__F1_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_F1.png
+  - typeSingle: HUMAN_RUNNER__2__F2_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_F2.png
+  - typeSingle: HUMAN_RUNNER__2__F3_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_F3.png
+  - typeSingle: HUMAN_RUNNER__2__F4_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_F4.png
+  - typeSingle: HUMAN_RUNNER__2__F5_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_F5.png
+  - typeSingle: HUMAN_RUNNER__2__F6_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_F6.png
+  - typeSingle: HUMAN_RUNNER__2__F7_NUDE
+    fileSingle: Resources/Armours/Nude/Humans/body551_F7.png
+
+         #Head Male Humans
+  - typeSingle: HUMAN_RUNNER__10__M0_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_M0.png
+  - typeSingle: HUMAN_RUNNER__10__M1_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_M1.png
+  - typeSingle: HUMAN_RUNNER__10__M2_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_M2.png
+  - typeSingle: HUMAN_RUNNER__10__M3_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_M3.png
+  - typeSingle: HUMAN_RUNNER__10__M4_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_M4.png
+  - typeSingle: HUMAN_RUNNER__10__M5_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_M5.png
+  - typeSingle: HUMAN_RUNNER__10__M6_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_M6.png
+  - typeSingle: HUMAN_RUNNER__10__M7_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_M7.png
+        
+         #Head Female Humans
+  - typeSingle: HUMAN_RUNNER__10__F0_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_F0.png
+  - typeSingle: HUMAN_RUNNER__10__F1_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_F1.png
+  - typeSingle: HUMAN_RUNNER__10__F2_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_F2.png
+  - typeSingle: HUMAN_RUNNER__10__F3_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_F3.png
+  - typeSingle: HUMAN_RUNNER__10__F4_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_F4.png
+  - typeSingle: HUMAN_RUNNER__10__F5_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_F5.png
+  - typeSingle: HUMAN_RUNNER__10__F6_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_F6.png
+  - typeSingle: HUMAN_RUNNER__10__F7_HEAD
+    fileSingle: Resources/Armours/Heads/Humans/HEAD_F7.png
+
+         #Crafts
+         #Interception
+  - type: INTICON.PCK
+    files:
+      797: Resources/Vessels/Inticon/HoverScooter_minimised.png
+      798: Resources/Vessels/Inticon/Car1_minimised.png
+      808: Resources/Vessels/Inticon/HoverScooter_dogfight.png
+      809: Resources/Vessels/Inticon/Car1_dogfight.png
+      868: Resources/Vessels/Inticon/Cicada_minimised.png
+      879: Resources/Vessels/Inticon/Cicada_dogfight.png
+
+
+         #InBase and facileties
+  - type: BASEBITS.PCK
+    files:
+      830: Resources/Vessels/Basebits/HoverScooter_base.png
+      831: Resources/Vessels/Basebits/Car1_base.png
+      866: Resources/BaseSprites/Gym.png
+      870: Resources/BaseSprites/Prison.png
+      901: Resources/Vessels/Basebits/Cicada_base.png
+         
+                           ###UFOPEDIA###
+
+         #Crafts
+  - type: UFOPEDIA_HOVERSCOOTER_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vessels/Ufopedia/FAGGIO_UFOPEDIA_CPAL.png
+  - type: UFOPEDIA_CAR1.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vessels/Ufopedia/BANSHEE_UFOPEDIA.png
+  - type: UFOPEDIA_CAR1.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vessels/Ufopedia/BANSHEE_UFOPEDIA.png
+  - type: Cicada_ufopedia_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0:  Resources/Vessels/Ufopedia/Cicada_ufopedia_CPAL.png
+
+#Factions
+  - type: FAC_SMUGLERS_UFOPEDIA_OG_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/FAC_SMUGLERS_UFOPEDIA_GUNS_CPAL.png
+  - type: FAC_SMUGLERS_UFOPEDIA_GUNS_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/FAC_SMUGLERS_UFOPEDIA_OG_CPAL.png
+
+
+#Base stuff
+  - type: BASEBITS.PCK
+    files:
+      0: Resources/BaseSprites/Bedrock.png
+      18: Resources/BaseSprites/LQ_0.png
+      24: Resources/BaseSprites/GS_0.png
+
+#TypeSingle
+  - typeSingle: RAIDER_GOON_UFOPEDIA_PICTURE
+    fileSingle: Resources/UFOpedia/UNITS/UPed_Raider_Goon.png
+  - typeSingle: RAIDER_BOSS_UFOPEDIA_PICTURE
+    fileSingle: Resources/UFOpedia/UNITS/UPed_Raider_boss.png
+  - typeSingle: RAIDER_SCOUT_UFOPEDIA_PICTURE
+    fileSingle: Resources/UFOpedia/UNITS/UPed_Raider_Scout.png
+  - typeSingle: SEC_BOT_12MM_UFOPEDIA_PICTURE
+    fileSingle: Resources/UFOpedia/UNITS/Uped_SecBot_12MM.png
+
+# HUD
+  - type: ICONS.PCK
+    singleImage: true
+    files:
+      0: Resources/UI/BattlescapeToolbar_XINK.png
+  - type: KneelButton
+    width: 32
+    height: 32
+    subX: 32
+    subY: 16
+    files:
+      0: Resources/UI/kneelButton.png
+#UI n'stuff
+  - type: BigBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/StatusEffect/burning.png
+  - type: BigStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/StatusEffect/Zzz.png
+  - type: BigWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/StatusEffect/Bleed.png
+  - type: BigShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/StatusEffect/Shock.png
+  - type: FloorBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/StatusEffect/burning.png
+  - type: FloorStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/StatusEffect/Zzz.png
+  - type: FloorWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/StatusEffect/Bleed.png
+  - type: FloorShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/StatusEffect/Shock.png
+  - type: CustomArmorPreviews
+    width: 876
+    height: 60
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/UI/GUI_Soldiers.png
+#Projectiles
+  - type: Projectiles
+    height: 3
+    width: 65
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Weapons/Projectiles/LMG_bullet.png #11
+      420: Resources/Weapons/Projectiles/Magnum_bullet.png #12
+      455: Resources/Weapons/Projectiles/Taser_bullet.png #13
+      490: Resources/Weapons/Projectiles/Sniper_bullet.png #14
+      525: Resources/Weapons/Projectiles/Toxic_bullet.png #15
+      560: Resources/Weapons/Projectiles/PsiBeam_bullet.png #16
+      595: Resources/Weapons/Projectiles/SMG_bullet.png #17
+      630: Resources/Weapons/Projectiles/Gauss_bullet.png #18
+      665: Resources/Weapons/Projectiles/MassDriver_bullet.png #19
+      700: Resources/Weapons/Projectiles/BlueLaser_bullet.png #20
+      735: Resources/Weapons/Projectiles/BlueHeavyLaser_bullet.png #21
+      770: Resources/Weapons/Projectiles/ThrowingKnife_bullet.png #22
+      805: Resources/Weapons/Projectiles/Arrow_bullet.png #23
+      840: Resources/Weapons/Projectiles/Fireball_bullet.png #24
+      875: Resources/Weapons/Projectiles/SonicPistol_bullet.png #25
+      910: Resources/Weapons/Projectiles/PurpleLaser_bullet.png #26
+      945: Resources/Weapons/Projectiles/PurpleHeavyLaser_bullet.png #27
+      980: Resources/Weapons/Projectiles/RedLightLaser_bullet.png #28
+      1015: Resources/Weapons/Projectiles/RedMediumLaser_bullet.png #29
+      1050: Resources/Weapons/Projectiles/RedHeavyLaser_bullet.png #30
+      1085: Resources/Weapons/Projectiles/Boomeroid_bullet.png #31
+      1120: Resources/Weapons/Projectiles/Cero_green_bullet.png #32
+      1155: Resources/Weapons/Projectiles/Cero_red_bullet.png #33
+      1190: Resources/Weapons/Projectiles/Dreamsprite_bullet.png #34
+      1225: Resources/Weapons/Projectiles/ElectroPlasma_bullet.png #35
+      1260: Resources/Weapons/Projectiles/Harpoon_bullet.png #36
+      1295: Resources/Weapons/Projectiles/Purple_Fireball_bullet.png #37
+      1330: Resources/Weapons/Projectiles/Green_Hellish_bullet.png #38, unused
+      1365: Resources/Weapons/Projectiles/Ghost_Terror_bullet.png #39
+      1400: Resources/Weapons/Projectiles/Ghost_Telekinetic_Fling_bullet.png #40
+      1435: Resources/Weapons/Projectiles/Thanatonautian_Grasp_bullet.png #41
+      1470: Resources/Weapons/Projectiles/Katapeltes_Shot_bullet.png #42
+      1505: Resources/Weapons/Projectiles/Ghostbuster_bullet.png #43
+
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      56: Resources/Weapons/HitAnimations/Taser_hit.png
+      66: Resources/Weapons/HitAnimations/Toxic_hit.png
+      76: Resources/Weapons/HitAnimations/PsiBeam_hit.png
+      86: Resources/Weapons/HitAnimations/BlueLaser_hit.png
+      96: Resources/Weapons/HitAnimations/DagonStaff_hit.png
+      106: Resources/Weapons/HitAnimations/SonicPistol_hit.png
+      116: Resources/Weapons/HitAnimations/Gauss_hit.png
+      126: Resources/Weapons/HitAnimations/PurpleLaser_hit.png
+      136: Resources/Weapons/HitAnimations/Electro_hit.png
+      146: Resources/Weapons/HitAnimations/OrangeSkull_hit.png
+      156: Resources/Weapons/HitAnimations/RedSkull_hit.png
+      166: Resources/Weapons/HitAnimations/GreenSkull_hit.png
+      176: Resources/Weapons/HitAnimations/BlackSkull_hit.png
+      186: Resources/Weapons/HitAnimations/RedLaser_hit.png
+      196: Resources/Weapons/HitAnimations/Flames_hit.png
+      206: Resources/Weapons/HitAnimations/Sound_hit.png
+      216: Resources/Weapons/HitAnimations/LaserCutter_hit.png
+      226: Resources/Weapons/HitAnimations/Green_Hellish_hit.png
+      236: Resources/Weapons/HitAnimations/Ectoplasm_hit.png
+
+  - type: HIT.PCK
+    height: 40
+    width: 128
+    subX: 32
+    subY: 40
+    files:
+      4: Resources/Weapons/MeleeAnimations/StunRod.png
+      8: Resources/Weapons/MeleeAnimations/Sword.png
+      12: Resources/Weapons/MeleeAnimations/Claws.png
+      16: Resources/Weapons/MeleeAnimations/Hit_PlasmaBlade.png
+      20: Resources/Weapons/MeleeAnimations/Hit_PlasmaSword.png
+      24: Resources/Weapons/MeleeAnimations/Hit_BloodBlade.png
+      28: Resources/Weapons/MeleeAnimations/Hit_BloodSword.png
+      32: Resources/Weapons/MeleeAnimations/Hit_EnergySword.png
+      36: Resources/Weapons/MeleeAnimations/SwordRed.png
+      40: Resources/Weapons/MeleeAnimations/SwordOrange.png

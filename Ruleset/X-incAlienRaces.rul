@@ -1,0 +1,14 @@
+alienRaces:
+  - id: STR_WASTELAND_RAIDERS
+    members:
+      - STR_WASTELAND_GOON
+      - STR_WASTELAND_GOON
+      - STR_WASTELAND_GOON
+      - STR_WASTELAND_GOON
+      - STR_WASTELAND_SCOUT
+      - STR_WASTELAND_SCOUT
+      - STR_WASTELAND_SCOUT
+      - STR_WASTELAND_BOSS
+      - STR_WASTELAND_BOSS
+    retaliationAggression: -100
+

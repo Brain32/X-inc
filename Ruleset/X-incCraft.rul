@@ -1,0 +1,101 @@
+crafts:
+  - type: STR_HOVERSCOOTER
+    sprite: 797
+    fuelMax: 9999
+    damageMax: 5
+    speedMax: 85
+    accel: 1 
+    soldiers: 1
+    vehicles: 0
+    pilots: 1
+    maxItems: 15
+    costBuy: 10000
+    costRent: 1000
+    costSell: 7000
+    refuelRate: 9999
+    repairRate: 1
+    radarRange: 10
+    radarChance: 25
+    sightRange: 400
+    transferTime: 8
+    score: 5
+    undetectable: true
+    battlescapeTerrainData:
+      name: HOVERSCOOTER
+      mapDataSets:
+        - BLANKS
+        - SCI_FI_CARS_TILESET
+      mapBlocks:
+        - name: HOVER_SCOOTER
+          width: 10
+          length: 10
+    listOrder: 7294
+  - type: STR_FUTURECAR1
+    sprite: 798
+    fuelMax: 9999
+    damageMax: 20
+    speedMax: 200
+    accel: 1
+    soldiers: 2
+    vehicles: 0
+    pilots: 1
+    maxItems: 50
+    costBuy: 50000
+    costRent: 20000
+    costSell: 10000
+    refuelRate: 5000
+    repairRate: 1
+    radarRange: 45
+    radarChance: 40
+    sightRange: 500
+    transferTime: 1
+    score: 5
+    undetectable: true
+    battlescapeTerrainData:
+      name: SCIFI_CAR_1
+      mapDataSets:
+        - BLANKS
+        - SCI_FI_CARS_TILESET
+      mapBlocks:
+        - name: X_SCIFICAR_1
+          width: 10
+          length: 10
+    listOrder: 7300
+  - type: STR_CICADA_CRAFT
+    sprite: 868 # this sprite is the number for minimized in INTICON.pck
+    soldiers: 8
+    pilots: 1
+    vehicles: 0
+    costBuy: 240000
+    costRent: 7000
+    costSell: 90000
+    refuelRate: 500
+    repairRate: 4
+    transferTime: 72
+    score: 100
+    maxItems: 999
+    fuelMax: 1500 #FOR BALLANCEING!!!
+    damageMax: 50
+    speedMax: 630
+    accel: 1
+    radarRange: 200
+    battlescapeTerrainData:
+      name: CICADA_CRAFT
+      mapDataSets:
+        - BLANKS
+        - CICADA_CRAFT
+      mapBlocks:
+        - name: CICADA_CRAFT
+          width: 10
+          length: 10
+    craftInventoryTile: [4, 3, 0]
+    deployment:
+      - [5, 6, 0, 2]
+      - [4, 6, 0, 6]
+      - [5, 5, 0, 2]
+      - [4, 5, 0, 6]
+      - [5, 4, 0, 2]
+      - [4, 4, 0, 6]
+      - [5, 3, 0, 2]
+      - [4, 3, 0, 6]
+    listOrder: 382
