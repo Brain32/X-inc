@@ -11,6 +11,46 @@
     prisonType: 0
     costSell: 6000
     listOrder: 151010
+  - type: STR_WASTELAND_SCOUT
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 6000 #balcance me
+    listOrder: 151020
+  - type: STR_WASTELAND_BOSS
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 6000 #balcance me
+    listOrder: 151030
+  - type: STR_TIGERCALW_FEMGOON
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 6000 #balcance me
+    listOrder: 151040
+  - type: STR_TIGERCALW_GOON
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 6000 #balcance me
+    listOrder: 151050
+  - type: STR_TIGERCALW_WARCHEEF
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 6000 #balcance me
+    listOrder: 151060
 
 #AliveR0bots
 
@@ -190,6 +230,54 @@
     battleType: 11
     armor: 30
     recoveryPoints: 10
+    recover: true
+    recoverCorpse: false
+  - type: STR_TIGERCALW_FEMGOON_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 218
+    floorSprite: 218
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10 #balance me
+    recover: true
+    recoverCorpse: false
+  - type: STR_TIGERCALW_GOON_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 219
+    floorSprite: 219
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10 #balance me
+    recover: true
+    recoverCorpse: false
+  - type: STR_TIGERCALW_WARCHEEF_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 220
+    floorSprite: 220
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10 #balance me
     recover: true
     recoverCorpse: false
 

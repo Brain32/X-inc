@@ -3,4 +3,15 @@ research:
     cost: 10
     points: 20
     listOrder: 151010
-
+  - name: STR_TIGERCALW_FEMGOON #pedia?
+    cost: 10 #balance me
+    points: 20
+    listOrder: 151020
+  - name: STR_TIGERCALW_GOON
+    cost: 10 #balance me
+    points: 20
+    listOrder: 151030
+  - name: STR_TIGERCALW_WARCHEEF
+    cost: 10 #balance me
+    points: 20
+    listOrder: 151040

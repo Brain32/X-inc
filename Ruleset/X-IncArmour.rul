@@ -616,3 +616,132 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
 
+  - type: STR_TIGERCALW_FEMGOON
+    spriteSheet: TIGER_CLAW_1.PCK
+    spriteInv: inventory_TygersClaw_FemGoon
+    corpseBattle:
+      - STR_TIGERCALW_FEMGOON_CORPSE
+    visibilityAtDark: 14 #balance me
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 22
+    underArmor: 18
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0
+      - 0.8
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_TIGERCALW_GOON
+    spriteSheet: TIGER_CLAW_2.PCK
+    spriteInv: inventory_TygersClaw_Goon
+    corpseBattle:
+      - STR_TIGERCALW_GOON_CORPSE
+    visibilityAtDark: 14 #balance me
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 22
+    underArmor: 18
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0
+      - 0.8
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_TIGERCALW_WARCHEEF
+    spriteSheet: TIGER_CLAW_3.PCK
+    spriteInv: inventory_TygersClaw_Goon
+    corpseBattle:
+      - STR_TIGERCALW_WARCHEEF_CORPSE
+    visibilityAtDark: 14 #balance me
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 22
+    underArmor: 18
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0
+      - 0.8
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
