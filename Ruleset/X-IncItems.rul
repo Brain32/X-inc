@@ -11,7 +11,7 @@
     prisonType: 0
     costSell: 6000
     listOrder: 151010
-  - type: STR_TIGERCALW_FEMGOON
+  - type: STR_WASTELAND_SCOUT
     categories: [STR_HUMANS]
     size: 0.0
     recover: true
@@ -19,7 +19,7 @@
     prisonType: 0
     costSell: 6000 #balcance me
     listOrder: 151020
-  - type: STR_TIGERCALW_GOON
+  - type: STR_WASTELAND_BOSS
     categories: [STR_HUMANS]
     size: 0.0
     recover: true
@@ -27,7 +27,7 @@
     prisonType: 0
     costSell: 6000 #balcance me
     listOrder: 151030
-  - type: STR_TIGERCALW_WARCHEEF
+  - type: STR_TIGERCALW_FEMGOON
     categories: [STR_HUMANS]
     size: 0.0
     recover: true
@@ -35,6 +35,22 @@
     prisonType: 0
     costSell: 6000 #balcance me
     listOrder: 151040
+  - type: STR_TIGERCALW_GOON
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 6000 #balcance me
+    listOrder: 151050
+  - type: STR_TIGERCALW_WARCHEEF
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 6000 #balcance me
+    listOrder: 151060
 
 #AliveR0bots
 
