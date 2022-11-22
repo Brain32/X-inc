@@ -85,7 +85,7 @@
       background: BACKMISSION_2.SCR
       palette: 2
       music: GMTACTIC
-    markerName: STR_BURGLARY_APPREHENSION
+    markerName: STR_BURGLARY_APPREHENSION 
     duration: [60, 120]
     despawnPenalty: 40
     abortPenalty: 40
@@ -97,6 +97,40 @@
       - alienRank: 4
         lowQty: 2
         highQty: 3
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SHIV
+          -
+            - STR_PIPE
+          -
+            - STR_CROWBAR
+          -
+            - STR_BATTO
+                                                ### City Gang_1_Mid ###
+  - type: STR_GANG_HOOD
+    width: 40
+    length: 40
+    height: 10
+    alert: STR_ALERT_GANG_HOOD
+    alertBackground: BACKMISSION_1.SCR
+    alertDescription: STR_GANG_BURGLARY_DESCRIPTION
+    briefing:
+      background: BACKMISSION_2.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_HOOD_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 100
+    music:
+      - GMTACTIC
+    terrains:
+      - INDUSTRIALSLUM
+    data:
+      - alienRank: 4
+        lowQty: 7
+        highQty: 9
         percentageOutsideUfo: 70
         itemSets:
           -

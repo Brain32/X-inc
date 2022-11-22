@@ -46,4 +46,20 @@ missionScripts:
     startDelay: 20
     randomDelay: 43500
 
+  - type: CityGangHoodApprehension
+    firstMonth: 0
+    executionOdds: 70
+    missionWeights:
+      0:
+        STR_GANG_HOOD_APPREHENSION: 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+
 
