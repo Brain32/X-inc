@@ -10,6 +10,8 @@ missionScripts:
   - delete: superhumanRetaliation
   - delete: recurringTerror
 
+                                                          ### Radiers ###
+
   - type: WastelandGang
     firstMonth: 0
     executionOdds: 70
@@ -25,3 +27,23 @@ missionScripts:
     useTable: false
     startDelay: 20
     randomDelay: 43500
+
+                                                          ### CityGangs ###
+
+  - type: WastelandGang
+    firstMonth: 0
+    executionOdds: 70
+    missionWeights:
+      0:
+        STR_BURGLARY_APPREHENSION: 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+
+

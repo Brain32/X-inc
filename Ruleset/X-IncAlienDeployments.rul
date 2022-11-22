@@ -71,6 +71,46 @@
             - STR_TEC9_CLIP
             - STR_TEC9_CLIP
 
+
+                                                ### City Gang_1_Small ###
+
+  - type: STR_GANG_BURGLARY
+    width: 40
+    length: 40
+    height: 10
+    alert: STR_ALERT_GANG_BURGLARY
+    alertBackground: BACKMISSION_1.SCR
+    alertDescription: STR_GANG_BURGLARY_DESCRIPTION
+    briefing:
+      background: BACKMISSION_2.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_BURGLARY_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 40
+    abortPenalty: 40
+    music:
+      - GMTACTIC
+    terrains:
+      - INDUSTRIALSLUM
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SHIV
+          -
+            - STR_PIPE
+          -
+            - STR_CROWBAR
+          -
+            - STR_BATTO
+
+
+                                                ### Sneed ###
+
   - type: STR_SNEEDS_YOUR_FEEDS
     width: 40
     length: 40
