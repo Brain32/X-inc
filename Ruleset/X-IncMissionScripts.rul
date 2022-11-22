@@ -30,7 +30,7 @@ missionScripts:
 
                                                           ### CityGangs ###
 
-  - type: WastelandGang
+  - type: GangBurglaryApprehension
     firstMonth: 0
     executionOdds: 70
     missionWeights:
