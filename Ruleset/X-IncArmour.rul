@@ -704,7 +704,7 @@ armors:
     loftempsSet: [ 3 ]
   - type: STR_TIGERCALW_WARCHEEF
     spriteSheet: TIGER_CLAW_3.PCK
-    spriteInv: inventory_TygersClaw_Goon
+    spriteInv: inventory_TygersClaw_Warcheef
     corpseBattle:
       - STR_TIGERCALW_WARCHEEF_CORPSE
     visibilityAtDark: 14 #balance me
