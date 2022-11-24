@@ -1526,7 +1526,7 @@
     clipSize: 3
     arcingShot: true
     invWidth: 1
-    invHeight: 2
+    invHeight: 1
     maxRange: 3
     bulletSpeed: 80
     kneelBonus: 100

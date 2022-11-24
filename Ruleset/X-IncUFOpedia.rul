@@ -76,8 +76,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_KNUCKLES_UFOPEDIA
-#Начало-начал ЛистОрдеров для пушек и оружия
-    listOrder: 12001
+    listOrder: 12001  #<--- Начало-начал ЛистОрдеров для пушек и оружия
   - id: STR_STUN_BATON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -545,6 +544,11 @@ ufopaedia:
   - id: STR_GEP_GUN_ROCKET_2
     type_id: 4
     section: STR_NOT_AVAILABLE
+                                  #OtherCrap
+  - id: STR_PEPPER_GUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PEPPER_GUN_UFOPEDIA
 
 
 #factions

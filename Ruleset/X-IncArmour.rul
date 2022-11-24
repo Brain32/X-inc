@@ -615,17 +615,17 @@ armors:
       - 0.0
       - 1.0
     loftempsSet: [ 3 ]
-
+                                                        ###CityGangKarateGuys###
   - type: STR_TIGERCALW_FEMGOON
     spriteSheet: TIGER_CLAW_1.PCK
     spriteInv: inventory_TygersClaw_FemGoon
     corpseBattle:
       - STR_TIGERCALW_FEMGOON_CORPSE
     visibilityAtDark: 14 #balance me
-    frontArmor: 25
-    sideArmor: 20
-    rearArmor: 22
-    underArmor: 18
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
     recovery:
       health:
         stunNormalized: -0.1
@@ -665,10 +665,10 @@ armors:
     corpseBattle:
       - STR_TIGERCALW_GOON_CORPSE
     visibilityAtDark: 14 #balance me
-    frontArmor: 25
-    sideArmor: 20
-    rearArmor: 22
-    underArmor: 18
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
     recovery:
       health:
         stunNormalized: -0.1
@@ -708,10 +708,10 @@ armors:
     corpseBattle:
       - STR_TIGERCALW_WARCHEEF_CORPSE
     visibilityAtDark: 14 #balance me
-    frontArmor: 25
-    sideArmor: 20
-    rearArmor: 22
-    underArmor: 18
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
     recovery:
       health:
         stunNormalized: -0.1
