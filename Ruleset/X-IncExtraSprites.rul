@@ -1,4 +1,8 @@
 extraSprites:
+  - type: AvatarBackground
+    singleImage: true
+    files:
+      0: Resources/UI/avatar-background.png
   - type: BACK01.SCR
     singleImage: true
     width: 320
