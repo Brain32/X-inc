@@ -26,7 +26,6 @@ armors:
       F6: ["", "", "F6_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F6_HEAD", "", "", ""]
       F7: ["", "", "F7_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F7_HEAD", "", "", ""]
     customArmorPreviewIndex: 1
-    storeItem: STR_RUNNER_COAT
     weight: 3
     storeItem: STR_NONE
     corpseBattle:

@@ -9,6 +9,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Cover_Art_Geo.png
+  - type: MEDIBORD.PCK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UI/MEDIBORD.png
   - type: BACK05.SCR
     singleImage: true
     width: 320

@@ -1,7 +1,4 @@
 ufopaedia:
-#weapons
-        #Blaster (smartmagnum)
-        #Robocop Gun (preditor)
 #HWP
   - id: STR_SEC_BOT_12MM
     type_id: 3 #it must be type 3 to work

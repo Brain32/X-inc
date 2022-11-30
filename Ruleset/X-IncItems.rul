@@ -3355,7 +3355,7 @@
     power: 28
     damageType: 1
     damageAlter:
-      ArmorEffectiveness: 1.15
+      ArmorEffectiveness: 0.9
     clipSize: 8
     costThrow:
       energy: 4
@@ -3374,14 +3374,16 @@
     bulletSprite: 1
     fireSound: 114
     hitSound: 13
-    power: 15
+    power: 18
     damageType: 1
     damageAlter:
       RandomType: 2
     accuracySnap: 62
     accuracyCloseQuarters: 125
     tuSnap: 16
-    clipSize: 12
+    damageAlter:
+      ArmorEffectiveness: 0.95
+    clipSize: 8
     battleType: 1
     invWidth: 1
     invHeight: 2
@@ -3774,13 +3776,11 @@
     compatibleAmmo:
       - STR_GEP_GUN_ROCKET_1
       - STR_GEP_GUN_ROCKET_2
-    accuracySnap: 70
     accuracyAimed: 120
     accuracyCloseQuarters: 50
     noLOSAccuracyPenalty: 67
-    tuSnap: 55
-    tuAimed: 75
-    tuLoad: 25
+    tuAimed: 78
+    tuLoad: 35
     costThrow:
       energy: 18
       time: 40
