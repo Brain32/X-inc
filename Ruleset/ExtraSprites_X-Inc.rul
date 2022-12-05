@@ -541,7 +541,7 @@ extraSprites:
     subY: 40
     files:
       0: Resources/FactionPack/Syndicate/SyndicateSoldier.png
-  - type: SYNDICATE_ASSAULT_BREACHER.PCK
+  - type: SYNDICATE_BREACHER.PCK
     width: 512
     height: 720
     subX: 32
