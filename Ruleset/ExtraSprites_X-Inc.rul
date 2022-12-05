@@ -131,8 +131,20 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionPack/City_Gang/TygerClaw/inventory_TygersClaw_Warcheef.png
+  - type: inventory_SyndicateSoldier
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Syndicate/inventory_SyndicateSoldier.png
+  - type: inventory_SyndicateBreacher
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Syndicate/inventory_SyndicateBreacher.png
+  - type: inventory_SyndicateCommando
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Syndicate/inventory_SyndicateCommando.png
 
-# Bigobj (invenotry)
+# Bigobj (inventory)
   - type: BIGOBS.PCK
     files:
       62: Resources/Armours/RunnerCoat/bigob_RunnerCoat.png
@@ -292,6 +304,9 @@ extraSprites:
       218: Resources/FactionPack/City_Gang/TygerClaw/bigobj_TygersClaw_FemGoon.png
       219: Resources/FactionPack/City_Gang/TygerClaw/bigobj_TygersClaw_Goon.png
       220: Resources/FactionPack/City_Gang/TygerClaw/bigobj_TygersClaw_WarCheef.png
+      221: Resources/FactionPack/Syndicate/bigob_SyndicateSoldier.png
+      222: Resources/FactionPack/Syndicate/bigob_SyndicateBreacher.png
+      223: Resources/FactionPack/Syndicate/bigob_SyndicateCommando.png
 
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
@@ -458,6 +473,9 @@ extraSprites:
       218: Resources/FactionPack/City_Gang/TygerClaw/floorob_TygersClaw_FemGoon.png
       219: Resources/FactionPack/City_Gang/TygerClaw/floorob_TygersClaw_Goon.png
       220: Resources/FactionPack/City_Gang/TygerClaw/floorob_TygersClaw_WarCheef.png
+      221: Resources/FactionPack/Syndicate/floorob_SyndicateSoldier.png
+      222: Resources/FactionPack/Syndicate/floorob_SyndicateBreacher.png
+      223: Resources/FactionPack/Syndicate/floorob_SyndicateCommando.png
 
 
 # Sprite sheet (Battlescape)
@@ -513,6 +531,30 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Armours/AI/SecBot/SecBot_12mm.png
+
+                                                                  ###Syndicate###
+
+  - type: SYNDICATE_SOLDIER.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Syndicate/SyndicateSoldier.png
+  - type: SYNDICATE_ASSAULT_BREACHER.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Syndicate/SyndicateAssaultBreacher.png
+  - type: SYNDICATE_COMMANDO.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Syndicate/SyndicateCommando.png
 
                                                                   ###WastelandRaider###
 
