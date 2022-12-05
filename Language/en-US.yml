@@ -17,7 +17,20 @@ en-US:
   STR_CROWBAR_UFOPEDIA: "The weapon of choice of MIT graduates."
   STR_CUTLASS: "Cutlass"
   STR_CUTLASS_UFOPEDIA: "Awaken an urge within you to became a pirate. YARRR!"
-#gun
+#Melee
+  STR_KNUCKLES: "Brass knuckles"
+  STR_KNUCKLES_UFOPEDIA: "Popular among thugs of all stripes street melee weapons. Fits in a pocket and smashes faces no worse than clubs. It requires a certain skill and strength."
+  STR_STUN_BATON: "Stun Baton"
+  STR_STUN_BATON_UFOPEDIA: "Even though we are a private mercenary organization, Magapol did authorize the use of such electric batons. The shock isn’t lethal, but it still causes some damage to the target’s health."
+  STR_STABKNIFE: "Punch dagger"
+  STR_STABKNIFE_UFOPEDIA: "This particular type of knife relies more on the strength of the wearer than on their skill."
+  STR_MACHETE: "Machete"
+  STR_MACHETE_UFOPEDIA: "A wide and long dagger, intended for cutting vegetation."
+  STR_CROWBAR: "Crowbar"
+  STR_CROWBAR_UFOPEDIA: "The weapon of choice of MIT graduates."
+  STR_CUTLASS: "Cutlass"
+  STR_CUTLASS_UFOPEDIA: "Awaken an urge within you to became a pirate. YARRR!"
+#Gun
   STR_G11: "G11"
   STR_G11E: "G11E"
   STR_G11_CLIP: "G11 Magazine"
