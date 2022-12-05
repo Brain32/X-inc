@@ -51,6 +51,30 @@
     prisonType: 0
     costSell: 6000 #balcance me
     listOrder: 151060
+  - type: STR_SYNDICATE_SOLDIER
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 10000 #balcance me
+    listOrder: ???
+  - type: STR_SYNDICATE_BREACHER
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 14000 #balcance me
+    listOrder: ???
+  - type: STR_SYNDICATE_COMMANDO
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 18000 #balcance me
+    listOrder: ???
 
 #AliveR0bots
 
@@ -271,6 +295,54 @@
     weight: 35
     bigSprite: 220
     floorSprite: 220
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10 #balance me
+    recover: true
+    recoverCorpse: false
+  - type: STR_SYNDICATE_SOLDIER_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 221
+    floorSprite: 221
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10 #balance me
+    recover: true
+    recoverCorpse: false
+  - type: STR_SYNDICATE_BREACHER_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 222
+    floorSprite: 222
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10 #balance me
+    recover: true
+    recoverCorpse: false
+  - type: STR_SYNDICATE_COMMANDO_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 223
+    floorSprite: 223
     invWidth: 2
     invHeight: 3
     costThrow:

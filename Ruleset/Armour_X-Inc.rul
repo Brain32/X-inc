@@ -614,6 +614,138 @@ armors:
       - 0.0
       - 1.0
     loftempsSet: [ 3 ]
+
+# Enemy - Syndicate
+
+  - type: STR_SYNDICATE_SOLDIER_ARMOR
+    spriteSheet: SYNDICATE_SOLDIER.PCK
+    spriteInv: inventory_SYNDICATE_SOLDIER
+    corpseBattle:
+      - STR_SYNDICATE_SOLDIER_CORPSE
+    visibilityAtDark: 7
+    frontArmor: 30
+    sideArmor: 22
+    rearArmor: 28
+    underArmor: 16
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: # balance me
+      - 1.0
+      - 0.7
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_SYNDICATE_BREACHER_ARMOR
+    spriteSheet: SYNDICATE_BREACHER.PCK
+    spriteInv: inventory_SYNDICATE_BREACHER
+    corpseBattle:
+      - STR_SYNDICATE_BREACHER_CORPSE
+    visibilityAtDark: 7
+    frontArmor: 40
+    sideArmor: 35
+    rearArmor: 38
+    underArmor: 30
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: # balance me
+      - 1.0
+      - 0.7
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_SYNDICATE_COMMANDO_ARMOR
+    spriteSheet: SYNDICATE_COMMANDO.PCK
+    spriteInv: inventory_SYNDICATE_COMMANDO
+    corpseBattle:
+      - STR_SYNDICATE_COMMANDO_CORPSE
+    visibilityAtDark: 7
+    frontArmor: 44
+    sideArmor: 36
+    rearArmor: 44
+    underArmor: 33
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: # balance me
+      - 1.0
+      - 0.7
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
                                                         ###CityGangKarateGuys###
   - type: STR_TIGERCALW_FEMGOON
     spriteSheet: TIGER_CLAW_1.PCK

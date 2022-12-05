@@ -23,3 +23,15 @@ alienRaces:
       - STR_TIGERCALW_WARCHEEF
       - STR_TIGERCALW_WARCHEEF
     retaliationAggression: -100
+  - id: STR_SYNDICATE
+    members:
+      - STR_SYNDICATE_SOLDIER # 0; placeholder
+      - STR_SYNDICATE_SOLDIER # 1; placeholder
+      - STR_SYNDICATE_SOLDIER # 2; placeholder
+      - STR_SYNDICATE_COMMANDO # 3
+      - STR_SYNDICATE_BREACHER # 4
+      - STR_SYNDICATE_SOLDIER # 5
+      - STR_SYNDICATE_SOLDIER # 6; placeholder
+      - STR_SYNDICATE_SOLDIER # 7; placeholder
+      - STR_SYNDICATE_SOLDIER # 8; placeholder
+    retaliationAggression: -100

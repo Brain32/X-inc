@@ -137,6 +137,75 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
+  - type: STR_SYNDICATE_SOLDIER
+    race: STR_SYNDICATE
+    rank: STR_SOLDIER
+    stats:  #balance me
+      tu: 80
+      stamina: 90
+      health: 60
+      bravery: 70
+      reactions: 80
+      firing: 90
+      throwing: 60
+      strength: 45
+      psiStrength: 55
+      psiSkill: 0
+      melee: 70
+    armor: STR_SYNDICATE_SOLDIER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+  - type: STR_SYNDICATE_BREACHER
+    race: STR_SYNDICATE
+    rank: STR_SOLDIER
+    stats:  #balance me
+      tu: 80
+      stamina: 90
+      health: 60
+      bravery: 70
+      reactions: 80
+      firing: 90
+      throwing: 60
+      strength: 45
+      psiStrength: 55
+      psiSkill: 0
+      melee: 70
+    armor: STR_SYNDICATE_BREACHER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+  - type: STR_SYNDICATE_COMMANDO
+    race: STR_SYNDICATE
+    rank: STR_SOLDIER
+    stats:  #balance me
+      tu: 80
+      stamina: 90
+      health: 60
+      bravery: 70
+      reactions: 80
+      firing: 90
+      throwing: 60
+      strength: 45
+      psiStrength: 55
+      psiSkill: 0
+      melee: 70
+    armor: STR_SYNDICATE_COMMANDO_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
 
 ###Robots###
 

@@ -131,15 +131,15 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionPack/City_Gang/TygerClaw/inventory_TygersClaw_Warcheef.png
-  - type: inventory_SyndicateSoldier
+  - type: inventory_SYNDICATE_SOLDIER
     singleImage: true
     files:
       0: Resources/FactionPack/Syndicate/inventory_SyndicateSoldier.png
-  - type: inventory_SyndicateBreacher
+  - type: inventory_SYNDICATE_BREACHER
     singleImage: true
     files:
       0: Resources/FactionPack/Syndicate/inventory_SyndicateBreacher.png
-  - type: inventory_SyndicateCommando
+  - type: inventory_SYNDICATE_COMMANDO
     singleImage: true
     files:
       0: Resources/FactionPack/Syndicate/inventory_SyndicateCommando.png
