@@ -615,7 +615,7 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
 
-# Enemy - Syndicate
+                                                        ###SyndicateGuys###
 
   - type: STR_SYNDICATE_SOLDIER_ARMOR
     spriteSheet: SYNDICATE_SOLDIER.PCK
