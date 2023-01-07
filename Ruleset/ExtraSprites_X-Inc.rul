@@ -307,6 +307,9 @@ extraSprites:
       221: Resources/FactionPack/Syndicate/bigob_SyndicateSoldier.png
       222: Resources/FactionPack/Syndicate/bigob_SyndicateBreacher.png
       223: Resources/FactionPack/Syndicate/bigob_SyndicateCommando.png
+      224: Resources/Weapons/PreWarWeapons/bigob_M60.png
+      225: Resources/Weapons/PreWarWeapons/bigob_M60Clip.png
+      226: Resources/Weapons/PreWarWeapons/bigob_M60ClipBig.png
 
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
@@ -375,6 +378,7 @@ extraSprites:
       568: Resources/Weapons/HeavyWeapons/handob_GEP_Gun.png
       576: Resources/Weapons/JunkWeapons/handob_DBShotgun.png
       584: Resources/Weapons/MeleeWeapons/handob_Bat.png
+      592: Resources/Weapons/PreWarWeapons/handob_M60.png
 
 
 # FloorBattlescape (FLOOR)
@@ -476,6 +480,9 @@ extraSprites:
       221: Resources/FactionPack/Syndicate/floorob_SyndicateSoldier.png
       222: Resources/FactionPack/Syndicate/floorob_SyndicateBreacher.png
       223: Resources/FactionPack/Syndicate/floorob_SyndicateCommando.png
+      224: Resources/Weapons/PreWarWeapons/floorob_M60.png
+      225: Resources/Weapons/PreWarWeapons/floorob_M60Clip.png
+      226: Resources/Weapons/PreWarWeapons/floorob_M60ClipBig.png
 
 
 # Sprite sheet (Battlescape)
@@ -742,6 +749,12 @@ extraSprites:
     height: 200
     files:
       0:  Resources/Vessels/Ufopedia/Cicada_ufopedia_CPAL.png
+  - type: Cicada_ufopedia_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0:  Resources/Vessels/Ufopedia/Highway_Star.png
 
 #Factions
   - type: FAC_SMUGLERS_UFOPEDIA_OG_CPAL.SPK

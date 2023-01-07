@@ -82,6 +82,11 @@ en-US:
   STR_CHEAP_3DPISTOL: "Slaught-O-Matic"
   STR_CHEAP_3DPISTOL_UFOPEDIA: "Don't have enough green for a normal gun? This cheap and disposable gun will satisfy any member of the social pyramid! Made with a 3D printer, this piece of plastic tends to jam, break and fall appart right in owner's hands. Don't even bother to ask about the stopping power. Reloading is impossible."
   STR_FLARE_PISTOL: "Flare Gun"
+#HMG
+  STR_M60: "M60"
+  STR_M60_CLIP_SMALL: "M60 Belt"
+  STR_M60_CLIP_BIG: "M60 Crate"
+  STR_M60_UFOPEDIA: "Ancient but well-assembled 7.62 mm machine gun. Not a bad for a fire support weapon, but in the XXIV century, morally outdated compared to similar weapon classes."
 #Rocket Launchers
   STR_GEP_GUN: "GEP Gun"
   STR_GEP_GUN_UFOPEDIA: "Guided Explosive Projectile Launcher, or just a GEP Gun. This weapon can launch rockets with a simple, yet accurate trajectory (2 waypoints)."

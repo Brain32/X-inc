@@ -63,6 +63,9 @@ extraSounds:
       159: Resources/Sounds/Fire/GEPGunFire.wav
       160: Resources/Sounds/Explosion/Ex_1.wav
       161: Resources/Sounds/Explosion/Fire.wav
+      162: Resources/Sounds/Fire/M60.wav
+      163: Resources/Sounds/Reload/HMG_1.wav
+      164: Resources/Sounds/Hit/Rico_1.wav
 
   - type: GEO.CAT
     files:

@@ -99,3 +99,34 @@ crafts:
       - [5, 3, 0, 2]
       - [4, 3, 0, 6]
     listOrder: 382
+  - type: STR_HIGHWAY_STAR
+    sprite: 230
+    fuelMax: 9999
+    damageMax: 40
+    speedMax: 525
+    accel: 4
+    maxAltitude: 1
+    pilots: 1
+    soldiers: 1
+    vehicles: 0
+    undetectable: true
+    costBuy: 500000
+    costSell: 450000
+    costRent: 10000
+    refuelRate: 9999
+    sightRange: 100
+    radarRange: 100
+    radarChance: 80
+    transferTime: 12
+    score: 75
+    battlescapeTerrainData:
+      name: HIGHSTAR
+      mapDataSets:
+        - BLANKS
+        - HIGHSTAR
+      mapBlocks:
+        - name: HIGHSTAR
+          width: 10
+          length: 10
+          items:
+    listOrder: 383

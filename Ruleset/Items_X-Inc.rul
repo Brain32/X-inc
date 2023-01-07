@@ -1032,6 +1032,88 @@
 
                                       #######   Heavy Weapons   #######
 
+  - type: STR_M60
+    size: 0.5
+    costBuy: 26000
+    costSell: 12500
+    weight: 36
+    bigSprite: 224
+    floorSprite: 224
+    handSprite: 592
+    bulletSprite: 3
+    fireSound: 162
+    reloadSound: 163
+    compatibleAmmo:
+      - STR_M60_CLIP_SMALL
+      - STR_M60_CLIP_BIG
+    accuracyAuto: 40
+    accuracySnap: 35
+    accuracyCloseQuarters: 40
+    accuracyMultiplier:
+      firing: 0.65
+      flatHundred: 0.35
+    tuAuto: 45
+    tuSnap: 35
+    confSnap:
+      name: STR_BURST
+      shots: 3
+    tuLoad: 25
+    battleType: 1
+    twoHanded: true
+    sprayWaypoints: 2
+    invWidth: 2
+    invHeight: 3
+    armor: 45
+    bulletSpeed: 16
+    autoShots: 5
+    autoRange: 24
+    snapRange: 20
+    attraction: 15
+    experienceTrainingMode: 5
+    listOrder: 13430
+  - type: STR_M60_CLIP_SMALL
+    size: 0.15
+    costBuy: 2000
+    costSell: 800
+    weight: 6
+    bigSprite: 225
+    floorSprite: 80
+    hitSound: 164
+    hitAnimation: 26
+    hitAnimFrames: 3
+    power: 48
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.9
+      ToStun: 0.5
+    clipSize: 35
+    battleType: 2
+    armor: 35
+    invWidth: 2
+    invHeight: 1
+    listOrder: 13431
+  - type: STR_M60_CLIP_BIG
+    size: 0.35
+    costBuy: 4500
+    costSell: 2300
+    weight: 15
+    bigSprite: 226
+    floorSprite: 226
+    hitSound: 164
+    hitAnimation: 26
+    hitAnimFrames: 3
+    power: 48
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.9
+      ToStun: 0.5
+    clipSize: 75
+    battleType: 2
+    armor: 35
+    invWidth: 2
+    invHeight: 2
+    listOrder: 13432
+
                                       #######   Rrocket Launchers   #######
 
                                       #######   Grenades   #######

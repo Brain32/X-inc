@@ -530,6 +530,17 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_DOUBLE_BARRELE_UFOPEDIA
+  - id: STR_M60
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M60_UFOPEDIA
+  - id: STR_M60_CLIP_SMALL
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M60_CLIP_BIG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
                                   #RocketLaunchers
   - id: STR_GEP_GUN
     type_id: 4
