@@ -8,6 +8,4 @@ startingTime:
   month: 1 
   year: 2200
 extraNerdyPediaInfoType: 1
-
-recommendedUserOptions:
-  playIntro: false 
+playIntro: false 

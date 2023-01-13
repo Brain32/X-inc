@@ -1,0 +1,9 @@
+cutscenes:
+  - delete: intro
+  - type: intro #c1
+    useUfoAudioSequence: false
+    videos:
+      - Resources/ANIMS/intro.FLC
+    audioTracks:
+      - MISCOM
+

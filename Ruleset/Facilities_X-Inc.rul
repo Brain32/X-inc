@@ -1,4 +1,15 @@
 facilities:
+  - type: STR_GENERAL_STORES
+    spriteShape: 1
+    spriteFacility: 24
+    buildCost: 180000
+    buildTime: 8
+    monthlyCost: 5000
+    aliens: 20
+    prisonType: 4
+    storage: 75
+    mapName: XBASE_07
+    listOrder: 6850
   - type: STR_PRISON_CELLS
     spriteShape: 1
     spriteFacility: 870
