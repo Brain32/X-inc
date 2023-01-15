@@ -310,6 +310,9 @@ extraSprites:
       224: Resources/Weapons/PreWarWeapons/bigob_M60.png
       225: Resources/Weapons/PreWarWeapons/bigob_M60Clip.png
       226: Resources/Weapons/PreWarWeapons/bigob_M60ClipBig.png
+      227: Resources/MedicalShit/bigob_SmallMedKit.png
+      228: Resources/Weapons/CityWeapons/bigob_SMG_Linda.png
+      229: Resources/OtherItems/bigob_PaperFlare.png
 
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
@@ -379,6 +382,10 @@ extraSprites:
       576: Resources/Weapons/JunkWeapons/handob_DBShotgun.png
       584: Resources/Weapons/MeleeWeapons/handob_Bat.png
       592: Resources/Weapons/PreWarWeapons/handob_M60.png
+      600: Resources/MedicalShit/handob_SmallMedKit.png
+      608: Resources/Weapons/CityWeapons/handob_SMG_Linda.png
+      616: Resources/OtherItems/handob_Paper_Flare.png
+
 
 
 # FloorBattlescape (FLOOR)
@@ -483,6 +490,8 @@ extraSprites:
       224: Resources/Weapons/PreWarWeapons/floorob_M60.png
       225: Resources/Weapons/PreWarWeapons/floorob_M60Clip.png
       226: Resources/Weapons/PreWarWeapons/floorob_M60ClipBig.png
+      227: Resources/Weapons/CityWeapons/floorob_SMG_Linda.png
+      228: Resources/OtherItems/floorob_PaperFlare.png
 
 
 # Sprite sheet (Battlescape)

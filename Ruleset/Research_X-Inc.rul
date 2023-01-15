@@ -19,3 +19,7 @@ research:
     cost: 1 
     points: 420
     listOrder: 151050
+  - name: STR_ADVANCED_CIVILIAN_WEAPONS
+    cost: 50 
+    points: 40
+    listOrder: 151060

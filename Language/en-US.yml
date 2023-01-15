@@ -82,6 +82,9 @@ en-US:
   STR_CHEAP_3DPISTOL: "Slaught-O-Matic"
   STR_CHEAP_3DPISTOL_UFOPEDIA: "Don't have enough green for a normal gun? This cheap and disposable gun will satisfy any member of the social pyramid! Made with a 3D printer, this piece of plastic tends to jam, break and fall appart right in owner's hands. Don't even bother to ask about the stopping power. Reloading is impossible."
   STR_FLARE_PISTOL: "Flare Gun"
+  STR_SMG_LINDA: "SMG Linda"
+  STR_SMG_LINDA_UFOPEDIA: "Civilian SMG, uses Glock's mags."
+
 #HMG
   STR_M60: "M60"
   STR_M60_CLIP_SMALL: "M60 Belt"
@@ -90,6 +93,10 @@ en-US:
 #Rocket Launchers
   STR_GEP_GUN: "GEP Gun"
   STR_GEP_GUN_UFOPEDIA: "Guided Explosive Projectile Launcher, or just a GEP Gun. This weapon can launch rockets with a simple, yet accurate trajectory (2 waypoints)."
+
+#Meds
+  STR_STIMM: "St"
+
 #Crafts
   STR_FUTURECAR1: "BANSHEE"
   STR_FUTURECAR1_UFOPEDIA: "An elegant and reliable means of transportation in this dystopian world. Two-seated. Can only carry 50 units of equipment."

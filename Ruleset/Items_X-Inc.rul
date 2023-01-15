@@ -648,7 +648,46 @@
     blastRadius: 11
 
 # SupportShit
-
+  - type: STR_PAPER_FLARE
+    size: 0.05
+    costBuy: 350
+    costSell: 80
+    weight: 2
+    bigSprite: 229
+    floorSprite: 228
+    handSprite: 616
+    fuseType: 3
+    isExplodingInHands: true
+    power: 20
+    invWidth: 1
+    invHeight: 2
+    battleType: 10
+  - type: STR_SMALL_MEDKIT
+    size: 0.1
+    costBuy: 10000
+    costSell: 5000
+    weight: 4
+    bigSprite: 227
+    floorSprite: 119
+    handSprite: 600
+    battleType: 6
+    painKiller: 2
+    heal: 2
+    stimulant: 2
+    woundRecovery: 2
+    healthRecovery: 2
+    stunRecovery: 15
+    costUse:
+      time: 12
+      morale: -5
+    costThrow:
+      energy: 8
+    recoveryPoints: 1
+    flatRate: true
+    invWidth: 2
+    invHeight: 1
+    experienceTrainingMode: 19
+    listOrder: 48110
   - type: STR_MEDIPACK_SMALL
     requiresBuy:
       - STR_IDDQD
@@ -2343,7 +2382,7 @@
       ArmorEffectiveness: 1.0
       ToTile: 0.0
     clipSize: 2
-
+    listOrder: 18920
                                       #######   Shotguns   #######
   - type: STR_JUNKY_SAWED_OFF
     categories: [STR_SHOTGUNS]
@@ -2844,8 +2883,8 @@
     listOrder: 22460
   - type: STR_SMALL_SHOTGUN
     size: 0.2
-    costBuy: 1700
-    costSell: 1200
+    costBuy: 2800
+    costSell: 800
     weight: 6
     bigSprite: 187
     floorSprite: 136
@@ -2876,7 +2915,7 @@
     listOrder: 22350
   - type: STR_DOMESTIC_SHOTGUN
     size: 0.2
-    costBuy: 1200
+    costBuy: 3200
     costSell: 900
     weight: 8
     bigSprite: 188
@@ -3136,6 +3175,50 @@
     battleType: 2
     armor: 25
     listOrder: 12696
+  - type: STR_SMG_LINDA
+    categories: [STR_SMGS]
+    size: 0.1
+    costBuy: 2700
+    costSell: 900
+    weight: 7
+    bigSprite: 228
+    floorSprite: 227
+    handSprite: 608
+    bulletSprite: 1
+    fireSound: 100
+    compatibleAmmo:
+      - STR_GLOCK_NEO_CLIP
+      - STR_GLOCK_NEO_LARGE_CLIP
+      - STR_GLOCK_NEO_LARGE_DRUM
+    accuracySnap: 32
+    accuracyAimed: 62
+    accuracyAuto: 40
+    accuracyCloseQuarters: 110
+    accuracyMultiplier:
+      firing: 0.75
+      flatHundred: 0.25
+    tuSnap: 23
+    tuAimed: 32
+    tuAuto: 38
+    confSnap:
+      name: STR_BURST
+      shots: 3
+    costThrow:
+      energy: 10
+      time: 40
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 25
+    sprayWaypoints: 2
+    bulletSpeed: 12
+    autoShots: 5
+    autoRange: 9
+    snapRange: 12
+    aimRange: 20
+    kneelBonus: 110
+    attraction: 11
+    listOrder: 12695
   - type: STR_BLACKOPS_ADV_SMG
     categories: [STR_SMGS]
     requiresBuy:

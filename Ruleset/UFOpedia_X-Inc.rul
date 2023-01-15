@@ -1,17 +1,6 @@
 ufopaedia:
 #HWP
-  - id: STR_SEC_BOT_12MM
-    type_id: 3 #it must be type 3 to work
-    section: STR_HEAVY_WEAPONS_PLATFORMS
-    text: STR_SEC_BOT_12MM_UFOPEDIA
-    weapon: STR_GUN_SEC_BOT_12MM_UFOPEDIA #it's only a string to describe the gun itself on the pedia entry
-    image_id: SEC_BOT_12MM_UFOPEDIA_PICTURE
-    listOrder: 1
-  - id: STR_SEC_BOT_12MM_ARMOR #remove the whole entry if MMB click is not desired for the armor. Downside is no specials regarding resistences can be displayed.
-    type_id: 5
-    section: STR_HEAVY_WEAPONS_PLATFORMS
-    text: STR_SEC_BOT_12MM_ARMOR_UFOPEDIA
-    listOrder: 1
+
 #armours
         #Humans
   - id: STR_RUNNERCOAT_UC
@@ -62,12 +51,18 @@ ufopaedia:
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS
     listOrder: 163121
+
 #MedicalShit
   - id: STR_STIMM
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_STIMM_UFOPEDIA
     listOrder: 48000
+  - id: STR_SMALL_MEDKIT
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SMALL_MEDKIT_UFOPEDIA
+    listOrder: 48110
   - id: STR_MEDIPACK_SMALL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -78,6 +73,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MEDIPACK_MID_UFOPEDIA
     listOrder: 48125
+
 #Melee
   - id: STR_KNUCKLES
     type_id: 4
@@ -748,6 +744,10 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
+  - id: STR_SMG_LINDA
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SMG_LINDA_UFOPEDIA
 
 #Vanilla#
   - id: STR_RIFLE
@@ -897,6 +897,53 @@ ufopaedia:
     text: STR_RAIDER_SCOUT_UFOPEDIA
     text_width: 180
     listOrder: 20140
+
+#Craft Weapons#
+  - id: STR_STINGRAY
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: UP006.SPK
+    text: STR_STINGRAY_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_AVALANCHE
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: UP007.SPK
+    text: STR_AVALANCHE_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_CANNON_UC
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: UP008.SPK
+    text: STR_CANNON_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_FUSION_BALL_UC
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_FUSION_MISSILE
+    image_id: UP009.SPK
+    text: STR_FUSION_BALL_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_LASER_CANNON_UC
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_IDDQD
+    image_id: UP010.SPK
+    text: STR_LASER_CANNON_UFOPEDIA
+  - id: STR_PLASMA_BEAM_UC
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_IDDQD
+    image_id: UP011.SPK
+    text: STR_PLASMA_BEAM_UFOPEDIA
+
 #Craft
   - id: STR_HOVERSCOOTER
     type_id: 1
