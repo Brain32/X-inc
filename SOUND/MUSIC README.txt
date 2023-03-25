@@ -10,7 +10,7 @@ GMSTORY - Skaven252 - Fourth Symmetriad
 
 GMLOSE - Skaven252 - Deep in her Eyes
 
-GMWIN -  Skaven252 Snow Frontier
+GMWIN -  Skaven252 - Snow Frontier
 
 
 NINTH - Crusader no remorse - Ninth Crusade

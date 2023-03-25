@@ -17,10 +17,9 @@
     music:
       - GMTACTIC
     terrains:
-      - URBAN
       - NUKE_ZONE
-      - INDUSTRIALSLUM
       - URBAN_WASTE
+      - FORESTWASTE
     data:
       - alienRank: 4
         lowQty: 5
@@ -120,6 +119,40 @@
       palette: 2
       music: GMTACTIC
     markerName: STR_HOOD_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 100
+    music:
+      - GMTACTIC
+    terrains:
+      - INDUSTRIALSLUM
+    data:
+      - alienRank: 4
+        lowQty: 7
+        highQty: 9
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SHIV
+          -
+            - STR_PIPE
+          -
+            - STR_CROWBAR
+          -
+            - STR_BATTO
+                                                ### WASTELADN FACTORY ###
+  - type: STR_WASTELAND_FACTORY_RAID
+    width: 50
+    length: 50
+    height: 10
+    alert: STR_ALERT_WASTELAND_FACTORY
+    alertBackground: BACKMISSION_1.SCR
+    alertDescription: STR_GANG_BURGLARY_DESCRIPTION
+    briefing:
+      background: BACKMISSION_2.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_WASTELAND_FACTORY_APPREHENSION
     duration: [60, 120]
     despawnPenalty: 200
     abortPenalty: 100

@@ -19,4 +19,24 @@ ufos:
         - name: SNEED_SHACK
           width: 10
           length: 10
+  - type: STR_RAIDER_FACTORY
+    size: STR_SMALL
+    sprite: 0
+    damageMax: 500
+    speedMax: 5000
+    accel: 10
+    power: 40
+    range: 20
+    score: 700
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: STR_RAIDER_FACTORY
+      mapDataSets:
+        - BLANKS
+        - WASTEFACTORY
+      mapBlocks:
+        - name: SNEED_SHACK
+          width: 20
+          length: 20
 

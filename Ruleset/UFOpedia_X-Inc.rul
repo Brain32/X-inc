@@ -53,26 +53,31 @@ ufopaedia:
     listOrder: 163121
 
 #MedicalShit
-  - id: STR_STIMM
+  - id: STR_MEDI_PATCH
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_STIMM_UFOPEDIA
-    listOrder: 48000
+    text: STR_MEDI_PATCH_UFOPEDIA
+    listOrder: 48125
   - id: STR_SMALL_MEDKIT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SMALL_MEDKIT_UFOPEDIA
-    listOrder: 48110
+    listOrder: 48130
   - id: STR_MEDIPACK_SMALL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MEDIPACK_SMALL_UFOPEDIA
-    listOrder: 48120
+    listOrder: 48140
   - id: STR_MEDIPACK_MID
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MEDIPACK_MID_UFOPEDIA
-    listOrder: 48125
+    listOrder: 48150
+  - id: STR_STIMM
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_STIMM_UFOPEDIA
+    listOrder: 48160
 
 #Melee
   - id: STR_KNUCKLES
@@ -80,7 +85,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_KNUCKLES_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_WEAPON_SHOPPING
     listOrder: 12001  #<--- Начало-начал ЛистОрдеров для пушек и оружия
   - id: STR_STUN_BATON
     type_id: 4
@@ -265,10 +270,14 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PS94_UFOPEDIA
+    requires:
+      - WEAPON_SHOPPING
   - id: STR_LASER_CIVIPHASER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_CIVIPHASER_UFOPEDIA
+    requires:
+      - WEAPON_SHOPPING
   - id: STR_BLACKOPS_COMPACT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -624,14 +633,20 @@ ufopaedia:
   - id: STR_PISTOL_LT_CLIP_SLAYER
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_WEAPON_SHOPPING
   - id: STR_CIV_PISTOL_HW
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_CIV_PISTOL_HW_UFOPEDIA
+    requires:
+      - STR_WEAPON_SHOPPING
     listOrder: 19650
   - id: STR_PISTOL_HW_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_WEAPON_SHOPPING
   - id: STR_GLOCK_NEO
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -667,6 +682,8 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_CHEAP_3DPISTOL_UFOPEDIA
     listOrder: 19750
+    requires:
+      - WEAPON_SHOPPING
   - id: STR_FLARE_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -748,6 +765,8 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SMG_LINDA_UFOPEDIA
+    requires:
+      - WEAPON_SHOPPING
 
 #Vanilla#
   - id: STR_RIFLE
@@ -803,7 +822,42 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
-
+  - id: STR_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GRENADE_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_SMOKE_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SMOKE_GRENADE_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_PROXIMITY_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PROXIMITY_GRENADE_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_HIGH_EXPLOSIVE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HIGH_EXPLOSIVE_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_ELECTRO_FLARE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ELECTRO_FLARE_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_STUN_ROD
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_STUN_ROD_UFOPEDIA
+    requires:
+      - STR_IDDQD
 ##
                                   #RocketLaunchers
   - id: STR_ROCKET_LAUNCHER
@@ -844,10 +898,16 @@ ufopaedia:
     requires:
       - STR_IDDQD
                                   #OtherCrap
+  - id: STR_PAPER_FLARE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PAPER_FLARE_UFOPEDIA
   - id: STR_PEPPER_GUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PEPPER_GUN_UFOPEDIA
+    requires:
+      - WEAPON_SHOPPING
 
 #facilities
   - id: STR_PRISON_CELLS
@@ -875,6 +935,25 @@ ufopaedia:
     section: STR_FACTIONS_UC
     text: STR_SMUGLERS_GUNS_UFOPEDIA
     listOrder: 270610
+  - id: STR_SMUGLERS_BELIVES
+    type_id: 7
+    image_id: FAC_SMUGLERS_UFOPEDIA_BELIVES_CPAL.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: STR_SMUGLERS_BELIVES_UFOPEDIA
+    listOrder: 270620
+
+#Tech Tree
+  - id: STR_WEAPON_SHOPPING
+    type_id: 7
+    image_id: ADVANCED_CIVILIAN_WEAPONS_CPAL.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: STR_WEAPON_SHOPPING_UFOPEDIA
+    requires:
+      - STR_WEAPON_SHOPPING
+    listOrder: 270630
+
 #EnemySoldiers
   - id: STR_RAIDER_GOON
     type_id: 7

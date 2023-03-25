@@ -17,7 +17,7 @@ missionScripts:
     executionOdds: 70
     missionWeights:
       0:
-        STR_STR_WASTELAND_GANG_APPREHENSION: 100
+        STR_WASTELAND_GANG_APPREHENSION: 100
     regionWeights: &WastelandRegions
       0:
         STR_SOUTH_EAST_ASIA: 175

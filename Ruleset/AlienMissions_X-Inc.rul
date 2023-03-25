@@ -2,7 +2,19 @@ alienMissions:
 
                               ### Raider Bois ###
 
-  - type: STR_STR_WASTELAND_GANG_APPREHENSION
+  - type: STR_WASTELAND_GANG_APPREHENSION
+    objective: 3
+    spawnZone: 3
+    raceWeights:
+      0:
+          STR_WASTELAND_RAIDERS: 100
+    waves:
+      - ufo: STR_WASTELAND_FACTORY
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+  - type: STR_WASTELAND_GANG_APPREHENSION
     objective: 3
     spawnZone: 3
     raceWeights:

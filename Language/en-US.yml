@@ -61,7 +61,6 @@ en-US:
   STR_OLD_SHOTGUN_UFOPEDIA: "This shotgun has definitely seen better days."
   STR_PIPEBOMB: "Pipe bomb"
   STR_PIPEBOMB_UFOPEDIA: "This bomb was made from scrap materials that can barely be found in the Wastes. Used mainly by raiders and rebels."
-  STR_SMUGLERS_GUNS_UFOPEDIA: "Smugglers use old pre-war weapons in their operations. These guns were most likely 3D-printed."
   STR_PS94: "PS94"
   STR_PS94_UFOPEDIA: "A small disposable device that you can easily put in your pocket. It releases a small plasma projectile but has a limited range. Despite the inconvenience and high price, this thing is very popular among ordinary citizens."
   STR_LASER_CIVIPHASER: "Pocket Laser"
@@ -95,7 +94,9 @@ en-US:
   STR_GEP_GUN_UFOPEDIA: "Guided Explosive Projectile Launcher, or just a GEP Gun. This weapon can launch rockets with a simple, yet accurate trajectory (2 waypoints)."
 
 #Meds
-  STR_STIMM: "St"
+  STR_STIMM: "Stimm"
+  STR_MEDI_PATCH: "Med patch"
+  STR_MEDI_PATCH_UFOPEDIA: "Medical patch produced by 'Med Tech' corp. When applied to the wound injects a complex of chemicals that stop the bleeding. Can be used for self-applience."
 
 #Crafts
   STR_FUTURECAR1: "BANSHEE"
@@ -108,6 +109,9 @@ en-US:
 #UFOPedia_Factions
   STR_SMUGLERS: "Faction: Smugglers"
   STR_SMUGLERS_UFOPEDIA: "Smugglers are a group of desperate people who got bored with boring life in mega cities. These guys make a living by transporting and selling drugs, guns and all kinds of illegal corporate crap all over the world. Needless to say, this is a hell of a way of life. Do not let that dumb pre-war outfit fool you - those guys are determined and well-armed. They never use elerium-powered crafts in their shipping, so tracking them will be a hell of a task."
+  STR_SMUGLERS_GUNS_UFOPEDIA: "Smugglers use old pre-war weapons in their operations. These guns were most likely 3D-printed."
+  STR_SMUGLERS_BELIVES: "Beliefs of the Smugglers"
+  STR_SMUGLERS_BELIVES_UFOPEDIA: "After questioning few smugglers, we began to notice some strange ditales. Unlike other mafia syndicates, smugglers stick to prewar ideolos. They drive old cars, wear old suits, and use old weapons, even though it’s the XXIV century! Smugglers believe in the style and passion of their work. Even, a little romanticizing their illigal craft."
 #Tech Shit
   STR_DAMAGE_10: "EMP"
   STR_DAMAGE_11: "ELECTRIC"
@@ -124,5 +128,10 @@ en-US:
   STR_SNEEDS_YOUR_FEEDS_BRIEFING: "SNEED. FEED AND SEED. CHUCK. FUCK AND SUCK. WE GET IT. HAHAHAHA! SO FUNNY! BECAUSE FUCK AND SUCK FUCK! WHOOOOOA BRO LIKE HAVING INTERCOURSE AND FELLATIO! HOLY WOW HOW DID THE SIMPSONS GET AWAY WITH THIS ONE?! GOLLY GEE WILLIKERS WHAT THE FUCK IT'S ABSOLUTELY HILARIOUS AHAHAHAHAHA! BECAUSE SNEED SELLS FEED AND SEED WHICH IS TOTALLY NORMAL BUT CHUCK, CHUCKY, CHUCK SELLS FUCK AND SUCK! CHUCK SELLS FUCK AND SUCK! FUCK AND SUCK!"
   STR_WASTELAND_GANG: "Wasteland Gang"
   STR_WASTELAND_GANG_BRIEFING: "We have located a small group of raiders in this area, neutralize them all!"
+
+#Tech Tree
+  STR_WEAPON_SHOPPING: "Weapon Shopping"
+  STR_WEAPON_SHOPPING_UFOPEDIA: "We've go through many shops in the mega cityies, looking for more suitable guns for our organization. As expected, we ain't find anything interesting except some useless junk. However, this search has led us to think of going deeper into the Black Market. Of course, we will not immediately put on a cool military equipment, and it will take a lot of time to build up contacts, but it is still worth trying. {NEWLINE}(You can check new weapons in CyberPredia)"
+
 #BadBoys
   STR_SYNDICATE: "Syndicate"

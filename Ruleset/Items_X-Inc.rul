@@ -658,15 +658,89 @@
     handSprite: 616
     fuseType: 3
     isExplodingInHands: true
-    power: 20
+    power: 15
     invWidth: 1
     invHeight: 2
     battleType: 10
+    listOrder: 48100
+  - type: STR_ELECTRO_FLARE
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.1
+    costBuy: 280
+    costSell: 120
+    weight: 3
+    bigSprite: 55
+    floorSprite: 72
+    power: 10
+    battleType: 10
+    armor: 8
+  #- type: STR_HANDCUFFS
+    #size: 0.1
+    #costBuy: 150
+    #costSell: 120
+    #weight: 3
+    #bigSprite: 231
+    #floorSprite: 230
+    #hitSound: 297
+    #battleType: 6
+    #invWidth: 1
+    #invHeight: 1
+    #medikitType: 2 # stimulant only
+    #medikitTargetSelf: false
+    #medikitTargetImmune: true
+    #medikitTargetMatrix: 21
+    #medikitActionName: STR_HANDCUFFS_ACTION
+    #stimulant: 1
+    #stunRecovery: 0
+    #isConsumable: true
+    #costUse:
+      #time: 40
+      #energy: 10
+    #costThrow:
+      #time: 30
+      #energy: 4
+    #flatRate: true
+    #twoHanded: true
+    #blockBothHands: true
+    #listOrder: 45690
+    #tags:
+      #HANDCUFF_POWER: 40
+    #attraction: 10
+
+
+# MediStuff
+  - type: STR_MEDI_PATCH
+    size: 0.1
+    costBuy: 500
+    costSell: 50
+    weight: 2
+    bigSprite: 230
+    floorSprite: 229
+    handSprite: 624
+    hitSound: 134
+    battleType: 6
+    painKiller: 0
+    heal: 2
+    stimulant: 0
+    woundRecovery: 1
+    healthRecovery: 2
+    costUse:
+      time: 15
+      morale: -5
+    costThrow:
+      energy: 6
+      time: 40
+    isConsumable: true
+    experienceTrainingMode: 19
+    medikitTargetSelf: true
+    flatRate: true
+    listOrder: 48125
   - type: STR_SMALL_MEDKIT
     size: 0.1
     costBuy: 10000
     costSell: 5000
-    weight: 4
+    weight: 6
     bigSprite: 227
     floorSprite: 119
     handSprite: 600
@@ -674,11 +748,11 @@
     painKiller: 2
     heal: 2
     stimulant: 2
-    woundRecovery: 2
-    healthRecovery: 2
-    stunRecovery: 15
+    woundRecovery: 1
+    healthRecovery: 1
+    stunRecovery: 8
     costUse:
-      time: 12
+      time: 20
       morale: -5
     costThrow:
       energy: 8
@@ -687,7 +761,7 @@
     invWidth: 2
     invHeight: 1
     experienceTrainingMode: 19
-    listOrder: 48110
+    listOrder: 48130
   - type: STR_MEDIPACK_SMALL
     requiresBuy:
       - STR_IDDQD
@@ -712,7 +786,7 @@
     recoveryPoints: 1
     flatRate: true
     experienceTrainingMode: 19
-    listOrder: 48120
+    listOrder: 48140
   - type: STR_MEDIPACK_MID
     requiresBuy:
       - STR_IDDQD
@@ -739,7 +813,7 @@
     invWidth: 1
     invHeight: 2
     experienceTrainingMode: 19
-    listOrder: 48125
+    listOrder: 14750
   - type: STR_STIMM
     size: 0.05
     costBuy: 2750
@@ -763,14 +837,14 @@
       time: 40
     flatRate: true
     isConsumable: true
-    listOrder: 48000
+    listOrder: 48160
 
                                   #######   Melee   #####
 
   - type: STR_KNUCKLES
     categories: [STR_MELEE]
-    requiresBuy:
-      - STR_IDDQD
+    requires:
+      - STR_WEAPON_SHOPPING
     size: 0.01
     costBuy: 75
     costSell: 50
@@ -1276,6 +1350,27 @@
     experienceTrainingMode: 13
     attraction: 7
     listOrder: 12050
+  - type: STR_STUN_ROD
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.1
+    costBuy: 1260
+    costSell: 945
+    weight: 6
+    bigSprite: 26
+    floorSprite: 26
+    handSprite: 80
+    meleeSound: 54
+    power: 65
+    damageType: 6
+    accuracyMelee: 100
+    tuMelee: 30
+    battleType: 3
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    skillApplied: false
+    clipSize: -1
 
                                       #######   Melee Special   #######
 
@@ -1315,7 +1410,7 @@
   - type: STR_PISTOL_LT_CLIP
     categories: [STR_PISTOLS]
     size: 0.05
-    costBuy: 60
+    costBuy: 70
     costSell: 35
     weight: 2
     bigSprite: 166
@@ -1330,9 +1425,11 @@
     listOrder: 19630
   - type: STR_PISTOL_LT_CLIP_SLAYER
     categories: [STR_PISTOLS]
+    requiresBuy:
+      - STR_WEAPON_SHOPPING
     size: 0.05
-    costBuy: 160
-    costSell: 35
+    costBuy: 230
+    costSell: 75
     weight: 2
     bigSprite: 167
     floorSprite: 4
@@ -1349,6 +1446,8 @@
     listOrder: 19640
   - type: STR_CIV_PISTOL_HW
     categories: [STR_PISTOLS]
+    requiresBuy:
+      - STR_WEAPON_SHOPPING
     size: 0.15
     costBuy: 675
     costSell: 250
@@ -1376,9 +1475,11 @@
     listOrder: 19650
   - type: STR_PISTOL_HW_CLIP
     categories: [STR_PISTOLS]
+    requiresBuy:
+      - STR_WEAPON_SHOPPING
     size: 0.05
-    costBuy: 60
-    costSell: 35
+    costBuy: 120
+    costSell: 45
     weight: 2
     bigSprite: 169
     floorSprite: 4
@@ -1449,8 +1550,8 @@
   - type: STR_GLOCK_NEO_LARGE_CLIP
     categories: [STR_PISTOLS]
     size: 0.03
-    costBuy: 140
-    costSell: 25
+    costBuy: 380
+    costSell: 110
     weight: 3
     bigSprite: 172
     floorSprite: 4
@@ -1470,8 +1571,8 @@
   - type: STR_GLOCK_NEO_LARGE_DRUM
     categories: [STR_PISTOLS]
     size: 0.05
-    costBuy: 140
-    costSell: 25
+    costBuy: 850
+    costSell: 300
     weight: 5
     bigSprite: 173
     floorSprite: 4
@@ -1491,7 +1592,7 @@
   - type: STR_MILITECH_PISTOL_HP93S
     categories: [STR_PISTOLS]
     size: 0.08
-    costBuy: 800
+    costBuy: 875
     costSell: 450
     weight: 4
     bigSprite: 174
@@ -1556,7 +1657,7 @@
     accuracySnap: 75
     accuracyAimed: 80
     tuSnap: 19
-    tuAimed: 34
+    tuAimed: 24
     tuLoad: 18
     aimRange: 18
     dropoff: 3
@@ -1590,6 +1691,8 @@
     listOrder: 19740
   - type: STR_CHEAP_3DPISTOL
     categories: [STR_PISTOLS]
+    requiresBuy:
+      - STR_WEAPON_SHOPPING
     size: 0.01
     costBuy: 75
     costSell: 5
@@ -3177,6 +3280,8 @@
     listOrder: 12696
   - type: STR_SMG_LINDA
     categories: [STR_SMGS]
+    requiresBuy:
+      - STR_WEAPON_SHOPPING
     size: 0.1
     costBuy: 2700
     costSell: 900
@@ -3218,7 +3323,7 @@
     aimRange: 20
     kneelBonus: 110
     attraction: 11
-    listOrder: 12695
+    listOrder: 19675
   - type: STR_BLACKOPS_ADV_SMG
     categories: [STR_SMGS]
     requiresBuy:
@@ -4512,6 +4617,60 @@
     armor: 60
     attraction: 18
     listOrder: 38200
+  - type: STR_GRENADE
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.1
+    costBuy: 300
+    costSell: 240
+    weight: 3
+    bigSprite: 19
+    floorSprite: 19
+    power: 50
+    damageType: 3
+    battleType: 4
+    blastRadius: 5
+  - type: STR_SMOKE_GRENADE
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.1
+    costBuy: 150
+    costSell: 120
+    weight: 3
+    bigSprite: 20
+    floorSprite: 20
+    power: 60
+    damageType: 9
+    battleType: 4
+    blastRadius: 5
+  - type: STR_PROXIMITY_GRENADE
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.1
+    costBuy: 500
+    costSell: 400
+    weight: 3
+    bigSprite: 21
+    floorSprite: 21
+    power: 70
+    damageType: 3
+    battleType: 5
+    blastRadius: 5
+  - type: STR_HIGH_EXPLOSIVE
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.2
+    costBuy: 1500
+    costSell: 1200
+    weight: 6
+    bigSprite: 22
+    floorSprite: 22
+    power: 110
+    damageType: 3
+    battleType: 4
+    invWidth: 2
+    invHeight: 1
+    blastRadius: 5
 
                                       #######   Mines   #######
 
@@ -4522,10 +4681,12 @@
                                       #######   Medical   #######
 
   - type: STR_PS94
+    requiresBuy:
+      - STR_WEAPON_SHOPPING
     size: 0.05
     costBuy: 15000
     costSell: 4000
-    weight: 4
+    weight: 5
     bigSprite: 83
     floorSprite: 90
     handSprite: 224
@@ -4558,6 +4719,8 @@
     attraction: 15
     listOrder: 12596
   - type: STR_LASER_CIVIPHASER
+    requiresBuy:
+      - STR_WEAPON_SHOPPING
     size: 0.05
     costBuy: 15000
     costSell: 7000
@@ -4598,6 +4761,8 @@
     attraction: 12
     listOrder: 12548
   - type: STR_PEPPER_GUN
+    requiresBuy:
+      - STR_WEAPON_SHOPPING
     size: 0.2
     costBuy: 5000
     costSell: 2500
@@ -4628,7 +4793,6 @@
     experienceTrainingMode: 21
     attraction: 15
     listOrder: 45650
-
   - type: STR_GRENADE_LAUNCHER
     size: 0.2
     requiresBuy:

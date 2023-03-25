@@ -40,11 +40,16 @@ startingBase:
         STR_SMALL_SHOTGUN_SHELLS: 6
         STR_SMALL_MEDKIT: 1
         STR_STUN_BATON: 2
+        STR_PAPER_FLARE: 2
+        STR_COMBAT_KNIFE: 2
       status: STR_READY
   items:
     STR_STUN_BATON: 4
     STR_SMALL_MEDKIT: 1
     STR_GLOCK_NEO: 4
     STR_GLOCK_NEO_CLIP: 14
+    STR_PAPER_FLARE: 10
+    STR_MEDI_PATCH: 5
+    STR_COMBAT_KNIFE: 4
   scientists: 5
   engineers: 5

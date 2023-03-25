@@ -533,3 +533,138 @@ terrains:
       - name: XBASS_27 # Prison Cells
         width: 10
         length: 10
+  - name: FORESTWASTE
+    script: STANDARDMAX
+    mapDataSets: SECTION_FORESTWASTE_DATASETS
+      - BLANKS
+      - FOREST_WASTE
+      - FORESTBITSWASTE
+      - ROADS_WASTE
+      - FORESTSWAMP_WASTE
+    mapBlocks: &SECTION_FOREST_NOITEMS_MAPS
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+      - name: SOLFOREST12
+        width: 10
+        length: 10
+      - name: SOLFOREST13
+        width: 10
+        length: 10
+      - name: SOLFOREST14
+        width: 10
+        length: 10
+      - name: SOLFOREST15
+        width: 10
+        length: 10
+      - name: SOLFOREST16
+        width: 10
+        length: 10
+      - name: SOLFOREST17
+        width: 20
+        length: 20
+      - name: FINNIKFOREST00
+        width: 10
+        length: 10
+      - name: FINNIKFOREST01
+        width: 10
+        length: 10
+      - name: FINNIKFOREST02
+        width: 10
+        length: 10
+      - name: FINNIKFOREST03
+        width: 10
+        length: 10
+      - name: FINNIKFOREST04
+        width: 10
+        length: 10
+      - name: FINNIKFOREST05
+        width: 10
+        length: 10
+      - name: FINNIKFOREST06
+        width: 10
+        length: 10
+      - name: BRAINFOREST00
+        width: 20
+        length: 20
+      - name: CIVFOREST00
+        width: 20
+        length: 20
+      - name: CIVFOREST01
+        width: 10
+        length: 10
+      - name: CIVFOREST02
+        width: 10
+        length: 10
+      - name: CIVFOREST03
+        width: 20
+        length: 20
+      - name: SOLFORESTHUGE00
+        width: 30
+        length: 30
+      - name: SOLFORESTHUGE01
+        width: 30
+        length: 30
+      - name: FOREST_ROAD_WE00
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_WE01
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_WE02
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_SN00
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_SN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_SN02
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_XX00
+        width: 10
+        length: 10
+        groups: 4
