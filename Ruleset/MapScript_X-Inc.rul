@@ -152,3 +152,81 @@ mapScripts:
     - type: addBlock
       size: 3
     - type: fillArea
+  - type: WASTEOUTOPST
+    commands:
+    - type: addUFO
+      UFOName: STR_WASTE_GANG_OUTOPST
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 7
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 7
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      executionChances: 10
+      direction: both
+    - type: addBlock
+      size: 3
+      groups: 0
+      executionChances: 75
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+  - type: RADIERFACTORY
+    commands:
+    - type: addUFO
+      UFOName: STR_GUN_FACTORY
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 7
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 7
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      executionChances: 10
+      direction: both
+    - type: addBlock
+      size: 3
+      groups: 0
+      executionChances: 75
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+  - type: RADIERFACTORY_BIG
+    commands:
+    - type: addUFO
+      UFOName: STR_GUN_FACTORY_BIG
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 7
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 7
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      executionChances: 10
+      direction: both
+    - type: addBlock
+      size: 3
+      groups: 0
+      executionChances: 75
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea

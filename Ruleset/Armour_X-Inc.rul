@@ -424,6 +424,77 @@ armors:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
+  - type: STR_CIVILVEST_ARMOUR_UC
+    spriteSheet: XCOM_42.PCK
+    layersDefaultPrefix: HUMAN_RUNNER
+    layersDefinition:
+      M0: ["", "", "M0_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_MALE_SMALL", "", "", "", "", "", ""]
+      M1: ["", "", "M1_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_MALE_SMALL", "", "", "", "", "", ""]
+      M2: ["", "", "M2_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_MALE_SMALL", "", "", "", "", "", ""]
+      M3: ["", "", "M3_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_MALE_SMALL", "", "", "", "", "", ""]
+      M4: ["", "", "M4_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_MALE_SMALL", "", "", "", "", "", ""]
+      M5: ["", "", "M5_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_MALE_SMALL", "", "", "", "", "", ""]
+      M6: ["", "", "M6_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_MALE_SMALL", "", "", "", "", "", ""]
+      M7: ["", "", "M7_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_MALE_SMALL", "", "", "", "", "", ""]
+      F0: ["", "", "F0_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_FEM_SMALL", "", "", "", "", "", ""]
+      F1: ["", "", "F1_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_FEM_SMALL", "", "", "", "", "", ""]
+      F2: ["", "", "F2_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_FEM_SMALL", "", "", "", "", "", ""]
+      F3: ["", "", "F3_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_FEM_SMALL", "", "", "", "", "", ""]
+      F4: ["", "", "F4_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_FEM_SMALL", "", "", "", "", "", ""]
+      F5: ["", "", "F5_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_FEM_SMALL", "", "", "", "", "", ""]
+      F6: ["", "", "F6_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_FEM_SMALL", "", "", "", "", "", ""]
+      F7: ["", "", "F7_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_FEM_SMALL", "", "", "", "", "", ""]
+    customArmorPreviewIndex: 55
+    corpseBattle:
+      - STR_CORPSE_CIV_VEST
+    storeItem: STR_CIV_VEST
+    visibilityAtDark: 16
+    personalLight: 5
+    weight: 4
+    forcedTorso: 1
+    stats:
+      tu: -5
+      stamina: -5
+    frontArmor: 22
+    sideArmor: 18
+    rearArmor: 20
+    underArmor: 16
+    meleeDodge:
+      reactions: 0.15
+    recovery:
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 10
+        healthCurrent: 0.25
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.85
+      - 1.20
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.1
+      - 1.1
+      - 1.0
+      - 1.5
+      - 0.0
+      - 1.0
+    units:
+      - STR_SOLDIER
+    loftempsSet: [ 3 ]
+
 # Robots
 
   - type: STR_SECBOT_MK1_UC
@@ -483,7 +554,7 @@ armors:
       - 0.0
     loftempsSet: [ 3 ]
 
-# Enemy - Wasteland
+# Enemy - Wasteland Raider
 
   - type: STR_WASTELAND_GOON_INV
     spriteSheet: RAIDER_01.PCK
@@ -577,10 +648,10 @@ armors:
     corpseBattle:
       - STR_WASTELAND_SCOUT_CORPSE
     visibilityAtDark: 14
-    frontArmor: 25
-    sideArmor: 20
+    frontArmor: 18
+    sideArmor: 18
     rearArmor: 22
-    underArmor: 18
+    underArmor: 16
     recovery:
       health:
         stunNormalized: -0.1
@@ -598,7 +669,7 @@ armors:
     allowsRunning: true
     damageModifier: 
       - 1.0
-      - 0.8
+      - 0.85
       - 1.2
       - 1.0
       - 1.0
@@ -614,6 +685,53 @@ armors:
       - 0.0
       - 1.0
     loftempsSet: [ 3 ]
+
+                                                        ### Enemy - Wasteland Gunnrunners ###
+
+  - type: STR_GUNRUNNERS_WORKER_INV
+    spriteSheet: GUNRUNNER_WORKER.PCK
+    spriteInv: inventory_GUNRUNNER_WORKER
+    corpseBattle:
+      - STR_GUNRUNNERS_WORKER_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 12
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0
+      - 0.9
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
+
 
                                                         ###SyndicateGuys###
 

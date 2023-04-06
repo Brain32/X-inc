@@ -33,6 +33,22 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BG_Base01.png
+
+                                                      #MissionBG
+
+
+  - type: BACKMISSION_WASTE_1.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Waste_Wreck.png
+  - type: BACKMISSION_WASTE_2.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Waste_Wasteland_Cover.png
   - type: BACKMISSION_1.SCR
     singleImage: true
     width: 320
@@ -51,6 +67,21 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Sneed.png
+  - type: CITY1_BG.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/City_1.png
+  - type: CITY2_BG.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/City_2.png
+
+
+
   - type: BACK10.SCR
     singleImage: true
     width: 320
@@ -81,6 +112,18 @@ extraSprites:
     fileSingle: Resources/Armours/Combat Armour/Inv_CombarArmour_Mk2.png
   - typeSingle: HUMAN_RUNNER__11__COMBAT_ARMOUR_HELMET_MK2
     fileSingle: Resources/Armours/Combat Armour/Inv_CombarArmour_Helmet_Mk2.png
+#CivilianVest
+  - typeSingle: HUMAN_RUNNER__6__CIVIL_JUMPSUIT_MALE_SMALL
+    fileSingle: Resources/Armours/CivilVest/Civilian_Bottom_MaleSmall.png
+  - typeSingle: HUMAN_RUNNER__6__CIVIL_JUMPSUIT_FEM_SMALL
+    fileSingle: Resources/Armours/CivilVest/Civilian_Bottom_FemSmall.png
+  - typeSingle: HUMAN_RUNNER__7__CIVIL_VEST_MALE_SMALL
+    fileSingle: Resources/Armours/CivilVest/Civilian_Vest_MaleSmall.png
+  - typeSingle: HUMAN_RUNNER__7__CIVIL_VEST_FEM_SMALL
+    fileSingle: Resources/Armours/CivilVest/Civilian_Vest_FemSmall.png
+
+
+
   - type: MAN_20.SPK
     singleImage: true
     files:
@@ -101,12 +144,31 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Armours/Combat Armour/Inv_CombarArmour_Mk2.png
+  - type: MAN_25_JUMPSUIT_M.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/CivilVest/Civilian_Bottom_MaleSmall.png
+  - type: MAN_25_JUMPSUIT_F.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/CivilVest/Civilian_Bottom_FemSmall.png
+  - type: MAN_25_VEST_M.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/CivilVest/Civilian_Vest_MaleSmall.png
+  - type: MAN_25_VEST_F.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/CivilVest/Civilian_Vest_FemSmall.png
+
 #SecBot_Inv
   - type: ROBO_1.SPK
     singleImage: true
     files:
       0: Resources/Armours/AI/SecBot/inv_SecBot_12MM.png
+
 # Enemies inv pics
+
   - type: inventory_WASTELAND_GOON
     singleImage: true
     files:
@@ -119,6 +181,15 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionPack/Wasteland/inventory_HIGHWAY_SCOUT.png
+
+#WASTELAND - GUNNRUNNER
+
+  - type: inventory_GUNRUNNER_WORKER
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Wasteland/inventory_GUNRUNNER_WORKER.png
+
+
   - type: inventory_TygersClaw_FemGoon
     singleImage: true
     files:
@@ -143,6 +214,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionPack/Syndicate/inventory_SyndicateCommando.png
+
 
 # Bigobj (inventory)
   - type: BIGOBS.PCK
@@ -315,6 +387,26 @@ extraSprites:
       229: Resources/OtherItems/bigob_PaperFlare.png
       230: Resources/MedicalShit/bigob_MediPatch.png
       231: Resources/OtherItems/bigob_HandCuffs.png
+      232: Resources/Weapons/HeavyWeapons/bigob_RPG.png
+      233: Resources/Weapons/HeavyWeapons/bigob_RPG_R1.png
+      234: Resources/Weapons/HeavyWeapons/bigob_RPG_R2.png
+      235: Resources/Weapons/HeavyWeapons/bigob_RPG_R3.png
+      236: Resources/OtherItems/bigob_BOX_Weapon_Cheap.png
+      237: Resources/Weapons/JunkWeapons/bigob_HuntingRifleScoped.png
+      238: Resources/Weapons/JunkWeapons/bigob_10MMPistol.png
+      239: Resources/Weapons/JunkWeapons/bigob_10MMPistol_Mag.png
+      240: Resources/Weapons/JunkWeapons/bigob_10MMPistol_Mag_AA.png
+      241: Resources/Weapons/Grenades/bigob_Molotov.png
+      242: Resources/Weapons/JunkWeapons/bigob_10MM_SMG.png
+      243: Resources/Weapons/JunkWeapons/bigob_10MM_SMG_MAG.png
+      244: Resources/Weapons/JunkWeapons/bigob_10MM_SMG_MAG_AA.png
+      245: Resources/Weapons/JunkWeapons/bigob_Buckshot_Slug.png
+      246: Resources/Weapons/JunkWeapons/bigob_CowRifle.png
+      247: Resources/Weapons/JunkWeapons/bigob_CowRifle_clip.png
+      248: Resources/Weapons/JunkWeapons/bigob_CowRifle_clip_aa.png
+      249: Resources/FactionPack/Wasteland/bigob_GUNRUNNER_WORKER.png
+      250: Resources/Weapons/Grenades/bigob_smoke.png
+      251: Resources/Armours/CivilVest/bigob_Civivest_corpse.png
 
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
@@ -388,6 +480,13 @@ extraSprites:
       608: Resources/Weapons/CityWeapons/handob_SMG_Linda.png
       616: Resources/OtherItems/handob_Paper_Flare.png
       624: Resources/MedicalShit/Handob_MediPatch.png
+      632: Resources/Weapons/HeavyWeapons/Handob_RPG.png
+      640: Resources/Weapons/JunkWeapons/handob_HuntingRifleScoped.png
+      648: Resources/Weapons/JunkWeapons/HandOb_10MMPistol.png
+      656: Resources/Weapons/Grenades/handob_Molotov.png
+      664: Resources/Weapons/JunkWeapons/HandOb_10MM_SMG.png
+      672: Resources/Weapons/JunkWeapons/handob_CowRifle.png
+      680: Resources/Weapons/Grenades/handob_Smoke.png
 
 
 # FloorBattlescape (FLOOR)
@@ -496,6 +595,21 @@ extraSprites:
       228: Resources/OtherItems/floorob_PaperFlare.png
       229: Resources/MedicalShit/floorob_MediPatch.png
       230: Resources/OtherItems/floorob_HandCuffs.png
+      231: Resources/Weapons/HeavyWeapons/floorob_RPG.png
+      232: Resources/Weapons/HeavyWeapons/floorob_RPG_R1.png
+      233: Resources/Weapons/HeavyWeapons/floorob_RPG_R2.png
+      234: Resources/Weapons/HeavyWeapons/floorob_RPG_R3.png
+      235: Resources/OtherItems/floorob_BOX_Weapon_Cheap.png
+      236: Resources/Weapons/JunkWeapons/floorob_HuntingRifleScoped.png
+      237: Resources/Weapons/JunkWeapons/floorob_10MMPistol.png
+      238: Resources/Weapons/Grenades/floorob_Molotov.png
+      239: Resources/Weapons/JunkWeapons/floorob_10MM_SMG.png
+      240: Resources/Weapons/JunkWeapons/floorob_10MM_SMG_MAG.png
+      241: Resources/Weapons/JunkWeapons/floorob_Buckshot_Slug.png
+      242: Resources/Weapons/JunkWeapons/floorob_CowRifle.png
+      243: Resources/FactionPack/Wasteland/floorob_GUNRUNNER_WORKER_CORPSE.png
+      244: Resources/Weapons/Grenades/floorob_smoke.png
+      245: Resources/Armours/CivilVest/floorob_CivVest_corps.png
 
 # Sprite sheet (Battlescape)
   - type: XCOM_36.PCK
@@ -540,6 +654,13 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Armours/Combat Armour/Combat Armor Mk2.png
+  - type: XCOM_42.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/CivilVest/Civ_Vest.png
 
                                                                   ###SecBotSheet###
 
@@ -598,6 +719,16 @@ extraSprites:
     subY: 40
     files:
       0: Resources/FactionPack/Wasteland/HIGHWAY_SCOUT.png
+
+                                                                  ###WastelandGunrunners###
+
+  - type: GUNRUNNER_WORKER.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Wasteland/GUNRUNNER_WORKER.png
 
                                                                   ###CityGang###
   - type: TIGER_CLAW_1.PCK
@@ -795,6 +926,38 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/TechieShop_CPAL.png
+  - type: ADVANCED_CIVILIAN_WEAPONS_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/TechieShop_CPAL.png
+  - type: WASTELAND_MISSIONS_BG_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/WASTE_MISSIONS_CPAL.png
+  - type: WASTELAND_WEAPON_FACTORY_BG_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/WASTE_FACTORY_SMALL_CPAL.png
+  - type: WASTELAND_LORE_1_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/WASTE_1_CPAL.png
+  - type: INTEL_OFFICER_1.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/Intel_Officer_1.png
+
+
 
 #Base stuff
   - type: BASEBITS.PCK
@@ -810,6 +973,8 @@ extraSprites:
     fileSingle: Resources/UFOpedia/UNITS/UPed_Raider_boss.png
   - typeSingle: RAIDER_SCOUT_UFOPEDIA_PICTURE
     fileSingle: Resources/UFOpedia/UNITS/UPed_Raider_Scout.png
+  - typeSingle: GUNRUNNER_WORKER_UFOPEDIA_PICTURE
+    fileSingle: Resources/UFOpedia/UNITS/UPed_Gunrunner_Worker.png
   - typeSingle: SEC_BOT_12MM_UFOPEDIA_PICTURE
     fileSingle: Resources/UFOpedia/UNITS/Uped_SecBot_12MM.png
 

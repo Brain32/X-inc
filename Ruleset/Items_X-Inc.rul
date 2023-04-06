@@ -194,6 +194,18 @@
     battleType: 11
     armor: 45
     recover: false
+  - type: STR_CORPSE_CIV_VEST
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.5
+    weight: 50
+    bigSprite: 251
+    floorSprite: 245
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 35
+    recover: false
 
      #Dead Robots
 
@@ -211,6 +223,7 @@
     recover: false
 
      # Dead bad guys
+          #Raiders
 
   - type: STR_WASTELAND_GOON_CORPSE
     name: STR_CORPSE
@@ -357,6 +370,25 @@
     recover: true
     recoverCorpse: false
 
+          #GUNRUNNERS
+
+  - type: STR_GUNRUNNERS_WORKER_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 249
+    floorSprite: 243
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 45
+    recoveryPoints: 15
+    recover: true
+    recoverCorpse: false
+
 #Armours
 
   - type: STR_BULDOZER_SUIT
@@ -406,6 +438,14 @@
     size: 3.5
     costBuy: 100000
     costSell: 65000
+    listOrder: 16890
+  - type: STR_CIV_VEST
+    categories: [STR_OUTFITS]
+    requiresBuy:
+      - STR_CIVIL_VEST_ARMOR_STUDY
+    size: 0.8
+    costBuy: 16500
+    costSell: 6000
     listOrder: 16890
 
                                   #######   CraftGuns   #####
@@ -1775,6 +1815,79 @@
       time: 40
     battleType: 2
     listOrder: 12421
+
+  - type: STR_PISTOL_10MM
+    categories: [STR_PISTOLS]
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.15
+    costSell: 975
+    weight: 8
+    bigSprite: 238
+    floorSprite: 237
+    handSprite: 648
+    bulletSprite: 1
+    fireSound: 105
+    reloadSound: 101
+    compatibleAmmo:
+      - STR_PISTOL_10MM_MAG
+      - STR_PISTOL_10MM_MAG_AA
+    accuracySnap: 65
+    accuracyAimed: 90
+    tuSnap: 19
+    tuAimed: 25
+    costThrow:
+      energy: 8
+      time: 40
+    battleType: 1
+    snapRange: 14
+    aimRange: 18
+    attraction: 10
+    kneelBonus: 110
+    invWidth: 1
+    invHeight: 2
+    listOrder: 12420
+  - type: STR_PISTOL_10MM_MAG
+    categories: [STR_PISTOLS]
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.025
+    costSell: 200
+    weight: 3
+    bigSprite: 239
+    floorSprite: 79
+    hitSound: 22
+    hitAnimation: 26
+    power: 28
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    armor: 35
+    attraction: 15
+    listOrder: 20090
+  - type: STR_PISTOL_10MM_MAG_AA
+    categories: [STR_PISTOLS]
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.025
+    costSell: 575
+    weight: 3
+    bigSprite: 240
+    floorSprite: 79
+    hitSound: 22
+    hitAnimation: 26
+    power: 34
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.85
+      ToStun: 0.5
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    armor: 35
+    attraction: 15
+    listOrder: 20090
+
   - type: STR_LUGER
     categories: [STR_PISTOLS]
     requiresBuy:
@@ -2503,6 +2616,7 @@
     reloadSound: 101
     compatibleAmmo:
       - STR_DOUBLE_BARRELED_BUCKSHOT
+      - STR_DOUBLE_BARRELED_BUCKSHOT_SLUG
     accuracyCloseQuarters: 150
     accuracyMultiplier:
       firing: 0.5
@@ -2537,6 +2651,10 @@
     hitAnimation: 26
     power: 15
     damageType: 1
+    damageAlter:
+      ToStun: 0.5
+      ToWound: 0.1
+      RandomWound: false
     clipSize: 2
     battleType: 2
     armor: 20
@@ -2545,6 +2663,30 @@
     shotgunPellets: 7
     attraction: 15
     listOrder: 22710
+  - type: STR_DOUBLE_BARRELED_BUCKSHOT_SLUG
+    categories: [STR_SHOTGUNS]
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.01
+    costBuy: 26
+    costSell: 15
+    weight: 2
+    bigSprite: 245
+    floorSprite: 241
+    hitSound: 13
+    hitAnimation: 26
+    power: 25
+    damageType: 1
+    damageAlter:
+      ToStun: 0.5
+      ToWound: 0.1
+      RandomWound: false
+    clipSize: 2
+    battleType: 2
+    armor: 20
+    shotgunPellets: 4
+    attraction: 15
+    listOrder: 22715
   - type: STR_OLD_SHOTGUN
     categories: [STR_SHOTGUNS]
     requiresBuy:
@@ -2963,6 +3105,7 @@
     reloadSound: 151
     compatibleAmmo:
       - STR_DOUBLE_BARRELED_BUCKSHOT
+      - STR_DOUBLE_BARRELED_BUCKSHOT_SLUG
     accuracyCloseQuarters: 100
     accuracySnap: 130
     accuracyAimed: 200
@@ -3122,7 +3265,7 @@
     tuLoad: 30
     battleType: 1
     twoHanded: true
-    oneHandedPenalty: 75
+    oneHandedPenalty: 50
     shotgunChoke: 100
     invWidth: 1
     invHeight: 3
@@ -3223,11 +3366,12 @@
     handSprite: 184
     bulletSprite: 1
     fireSound: 100
+    reloadSound: 107
     compatibleAmmo:
       - STR_TEC9_CLIP
-    accuracySnap: 45
+    accuracySnap: 48
     accuracyAimed: 60
-    accuracyAuto: 45
+    accuracyAuto: 38
     accuracyCloseQuarters: 110
     accuracyMultiplier:
       firing: 0.75
@@ -3259,6 +3403,8 @@
     requiresBuy:
       - STR_IDDQD
     size: 0.05
+    requiresBuy:
+      - IDDQD
     costBuy: 300
     costSell: 90
     weight: 3
@@ -3278,6 +3424,111 @@
     battleType: 2
     armor: 25
     listOrder: 12696
+  - type: STR_SMG_10MM
+    size: 0.18
+    requiresBuy:
+      - STR_SMG_10MM
+    costSell: 3500
+    weight: 12
+    bigSprite: 242
+    floorSprite: 239
+    handSprite: 664
+    bulletSprite: 1
+    fireSound: 100
+    reloadSound: 107
+    compatibleAmmo:
+      - STR_SMG_10MM_CLIP
+      - STR_SMG_10MM_CLIP_AA
+    accuracyAuto: 45
+    accuracySnap: 75
+    accuracyAimed: 80
+    accuracyCloseQuarters: 95
+    tuAuto: 32
+    tuSnap: 24
+    tuAimed: 48
+    costThrow:
+      energy: 20
+      time: 40
+    sprayWaypoints: 2
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 75
+    invWidth: 1
+    invHeight: 2
+    armor: 40
+    autoRange: 13
+    autoShots: 4
+    aimRange: 25
+    attraction: 12
+    listOrder: 12915
+  - type: STR_SMG_10MM_CLIP
+    size: 0.02
+    requiresBuy:
+      - STR_SMG_10MM
+    costBuy: 1800
+    costSell: 400
+    weight: 4
+    bigSprite: 243
+    floorSprite: 240
+    hitSound: 22
+    hitAnimation: 26
+    power: 35
+    damageType: 1
+    damageAlter:
+      ToStun: 0.5
+    clipSize: 32
+    costThrow:
+      energy: 8
+      time: 40
+    battleType: 2
+    armor: 40
+    listOrder: 12916
+  - type: STR_SMG_10MM_CLIP
+    size: 0.02
+    requiresBuy:
+      - STR_SMG_10MM
+    costBuy: 1800
+    costSell: 400
+    weight: 2
+    bigSprite: 243
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 32
+    damageType: 1
+    damageAlter:
+      ToStun: 0.5
+    clipSize: 32
+    costThrow:
+      energy: 8
+      time: 40
+    battleType: 2
+    armor: 40
+    bulletSpeed: 10
+    listOrder: 12917
+  - type: STR_SMG_10MM_CLIP_AA
+    size: 0.02
+    requiresBuy:
+      - STR_SMG_10MM
+    costBuy: 1800
+    costSell: 400
+    weight: 2
+    bigSprite: 244
+    floorSprite: 240
+    hitSound: 22
+    hitAnimation: 26
+    power: 38
+    damageType: 1
+    damageAlter:
+      ToStun: 0.5
+    clipSize: 32
+    costThrow:
+      energy: 8
+      time: 40
+    battleType: 2
+    armor: 40
+    bulletSpeed: 10
+    listOrder: 12917
   - type: STR_SMG_LINDA
     categories: [STR_SMGS]
     requiresBuy:
@@ -3931,6 +4182,81 @@
     listOrder: 13042
                                       #######   Sniper Rifles   #######
 
+  - type: STR_COWRIFLE
+    size: 0.2
+    costSell: 2140
+    weight: 7
+    bigSprite: 246
+    floorSprite: 242
+    handSprite: 672
+    bulletSprite: 1
+    fireSound: 167
+    reloadSound: 168
+    compatibleAmmo:
+      - STR_COWRIFLE_AMMO
+      - STR_COWRIFLE_AMMO_AA
+    accuracySnap: 90
+    accuracyAimed: 120
+    accuracyAuto: 28
+    accuracyCloseQuarters: 95
+    tuSnap: 35
+    tuAimed: 45
+    tuAuto: 77
+    confAuto:
+      name: STR_BURST
+      shots: 5
+    tuLoad: 30
+    costThrow:
+      energy: 12
+      time: 40
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 70
+    aimRange: 23
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    attraction: 12
+    listOrder: 13194
+  - type: STR_COWRIFLE_AMMO
+    size: 0.02
+    costSell: 105
+    weight: 2
+    bigSprite: 247
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 27
+    damageType: 1
+    damageAlter:
+      ToStun: 0.5
+    clipSize: 7
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    armor: 30
+    listOrder: 13195
+  - type: STR_COWRIFLE_AMMO_AA
+    size: 0.02
+    costSell: 230
+    weight: 2
+    bigSprite: 248
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 32
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.85
+      ToStun: 0.5
+    clipSize: 7
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    armor: 30
+    listOrder: 13200
   - type: STR_OLD_HUNTING_RIFLE
     categories: [STR_SNIPER_RIFLES]
     requiresBuy:
@@ -3965,6 +4291,42 @@
     armor: 30
     attraction: 12
     listOrder: 13200
+  - type: STR_SCOPED_HUNTING_RIFLE
+    categories: [STR_SNIPER_RIFLES]
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.2
+    costBuy: 8000
+    costSell: 2400
+    weight: 9
+    bigSprite: 237
+    floorSprite: 236
+    handSprite: 640
+    bulletSprite: 2
+    fireSound: 136
+    reloadSound: 135
+    compatibleAmmo:
+      - STR_HUNTING_RIFLE_CLIP
+    accuracySnap: 80
+    accuracyAimed: 150
+    accuracyCloseQuarters: 70
+    tuSnap: 33
+    tuAimed: 72
+    tuLoad: 20
+    costThrow:
+      energy: 16
+      time: 40
+    snapRange: 22
+    minRange: 10
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    snapRange: 18
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    attraction: 12
+    listOrder: 13205
   - type: STR_HUNTING_RIFLE_CLIP
     categories: [STR_SNIPER_RIFLES]
     requiresBuy:
@@ -3988,7 +4350,7 @@
       time: 40
     battleType: 2
     armor: 30
-    listOrder: 13203
+    listOrder: 132010
   - type: STR_BO_SNIPER_RIFLE
     categories: [STR_SNIPER_RIFLES]
     requiresBuy:
@@ -4423,7 +4785,122 @@
     listOrder: 13414
 
                                       #######   Rrocket Launchers   #######
-
+  - type: STR_RPG
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.2
+    costBuy: 50000
+    costSell: 6600
+    weight: 14
+    bigSprite: 232
+    floorSprite: 231
+    handSprite: 632
+    bulletSprite: 0
+    fireSound: 165
+    reloadSound: 166
+    compatibleAmmo:
+      - STR_SMALL_ROCKET_RPG
+      - STR_SMALL_ROCKET_ADV
+      - STR_SMALL_ROCKET_FAE
+    accuracySnap: 55
+    accuracyAimed: 90
+    accuracyCloseQuarters: 60
+    tuSnap: 45
+    tuAimed: 70
+    tuLoad: 20
+    costThrow:
+      energy: 18
+      time: 40
+    snapRange: 9
+    aimRange: 25
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    attraction: 12
+    armor: 40
+    listOrder: 13800
+  - type: STR_SMALL_ROCKET_RPG
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.15
+    costBuy: 4500
+    costSell: 1580
+    weight: 6
+    bigSprite: 233
+    floorSprite: 232
+    hitAnimation: 0
+    power: 100
+    damageType: 3
+    damageAlter:
+      IgnoreOverKill: false
+      IgnoreSelfDestruct: false
+      ArmorEffectiveness: 0.85
+      ToTile: 0.625
+      ToStun: 1.0
+    clipSize: 1
+    blastRadius: 5
+    costThrow:
+      energy: 12
+      time: 40
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    listOrder: 13805
+  - type: STR_SMALL_ROCKET_ADV
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.15
+    costBuy: 8000
+    costSell: 2690
+    weight: 6
+    bigSprite: 234
+    floorSprite: 233
+    hitAnimation: 0
+    power: 100
+    damageType: 3
+    damageAlter:
+      IgnoreOverKill: false
+      IgnoreSelfDestruct: false
+      ArmorEffectiveness: 0.5
+      ToStun: 0.75
+      RadiusReduction: 25
+    clipSize: 1
+    blastRadius: 2
+    costThrow:
+      energy: 12
+      time: 40
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    listOrder: 13810
+  - type: STR_SMALL_ROCKET_FAE
+    size: 0.15
+    costSell: 1810
+    weight: 6
+    bigSprite: 235
+    floorSprite: 234
+    hitAnimation: 0
+    explosionHitSound: 160
+    power: 120
+    damageType: 2
+    damageAlter:
+      FireBlastCalc: false 
+      IgnoreSelfDestruct: false
+      FixRadius: 8
+      ToMorale: 40.0
+      ToStun: 4.0
+      ToHealth: 4.0
+      ToTile: 0.5
+      ToItem: 0.5
+    clipSize: 1
+    costThrow:
+      energy: 12
+      time: 40
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    listOrder: 13815
   - type: STR_ROCKET_LAUNCHER
     requiresBuy:
       - STR_IDDQD
@@ -4586,6 +5063,48 @@
 
                                       #######   Grenades   #######
 
+  - type: STR_MOLOTOV
+    size: 0.03
+    costSell: 50
+    weight: 3
+    bigSprite: 241
+    floorSprite: 238
+    handSprite: 656
+    bulletSprite: 17
+    fireSound: 39
+    hitAnimation: 168
+    power: 20
+    damageType: 2
+    damageAlter:
+      FireBlastCalc: false 
+      IgnoreSelfDestruct: false
+      FixRadius: 1
+      ToMorale: 20.0
+      ToTime: 1.0
+      ToItem: 2.0
+    accuracyAimed: 90
+    accuracyCloseQuarters: 80
+    accuracyMultiplier:
+      firing: 0.0
+      throwing: 1.0
+    costAimed:
+      time: 50
+      energy: 6
+    confAimed:
+      name: STR_LIT_AND_THROW
+    costThrow:
+      energy: 6
+      time: 40
+    clipSize: 1
+    battleType: 1
+    arcingShot: true
+    maxRange: 20
+    aimRange: 15
+    dropoff: 4
+    bulletSpeed: -2
+    kneelBonus: 100
+    attraction: 10
+    listOrder: 14050
   - type: STR_PIPEBOMB
     categories: [STR_EXPLOSIVES]
     requiresBuy:
@@ -4637,8 +5156,9 @@
     costBuy: 150
     costSell: 120
     weight: 3
-    bigSprite: 20
-    floorSprite: 20
+    bigSprite: 250
+    handSprite: 680
+    floorSprite: 244
     power: 60
     damageType: 9
     battleType: 4
@@ -5092,4 +5612,14 @@
     invWidth: 2
     invHeight: 1
 
-
+                                  #######  LOOT BOXES   #####
+  - type: STR_WEAPON_LOOTBOX_CHEAP
+    size: 0.5
+    costSell: 6200
+    bigSprite: 236
+    floorSprite: 235
+    weight: 24
+    invWidth: 2
+    invHeight: 2
+    armor: 65
+    listOrder: 15556

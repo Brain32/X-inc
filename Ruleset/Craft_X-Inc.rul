@@ -79,9 +79,9 @@ crafts:
     soldiers: 2
     vehicles: 0
     pilots: 1
-    maxItems: 50
+    maxItems: 75
     costBuy: 50000
-    costRent: 20000
+    costRent: 2000
     costSell: 10000
     refuelRate: 5000
     repairRate: 1

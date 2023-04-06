@@ -11,6 +11,16 @@ alienRaces:
       - STR_WASTELAND_BOSS
       - STR_WASTELAND_BOSS
     retaliationAggression: -100
+  - id: STR_GUNRUNNERS
+    members:
+      - STR_GUNRUNNER_WORKER
+      - STR_GUNRUNNER_WORKER
+      - STR_GUNRUNNER_WORKER
+      - STR_GUNRUNNER_WORKER
+      - STR_GUNRUNNER_WORKER
+      - STR_GUNRUNNER_WORKER
+      - STR_GUNRUNNER_WORKER
+    retaliationAggression: -100
   - id: STR_TIGERCALW
     members:
       - STR_TIGERCALW_FEMGOON

@@ -1,0 +1,13 @@
+eventScripts:
+  - type: STR_TEST_EVENT
+    oneTimeRandomEvents:
+      STR_TEST_EVENT: 100
+    firstMonth: 0
+events:
+  - name: STR_TEST_EVENT
+    description: STR_TEST_EVENT_DESCRIPTION
+    background: CITY2_BG.SCR
+    music: HOTLINEPIZ
+    points: 50
+    timer: 60
+    timerRandom: 300

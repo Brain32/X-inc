@@ -66,6 +66,10 @@ extraSounds:
       162: Resources/Sounds/Fire/M60.wav
       163: Resources/Sounds/Reload/HMG_1.wav
       164: Resources/Sounds/Hit/Rico_1.wav
+      165: Resources/Sounds/Fire/RL_FIRE.wav
+      166: Resources/Sounds/Reload/RL_RELOAD.wav
+      167: Resources/Sounds/Fire/cowrifle_fire.wav
+      168: Resources/Sounds/Reload/COWRIFLE.wav
 
   - type: GEO.CAT
     files:

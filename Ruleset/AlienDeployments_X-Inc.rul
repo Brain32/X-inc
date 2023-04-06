@@ -1,13 +1,13 @@
 ﻿alienDeployments:
   - type: STR_WASTELAND_GANG
-    width: 50
-    length: 50
+    width: 40
+    length: 40
     height: 10
     alert: STR_ALERT_WASTELAND_GANG
-    alertBackground: BACKMISSION_1.SCR
+    alertBackground: BACKMISSION_WASTE_2.SCR
     alertDescription: STR_WASTELAND_GANG_DESCRIPTION
     briefing:
-      background: BACKMISSION_2.SCR
+      background: BACKMISSION_WASTE_2.SCR
       palette: 2
       music: GMTACTIC
     markerName: STR_WASTELAND_GANG_APPREHENSION
@@ -16,16 +16,18 @@
     abortPenalty: 40
     music:
       - GMTACTIC
+    script: WASTEOUTOPST
     terrains:
       - NUKE_ZONE
       - URBAN_WASTE
       - FORESTWASTE
+      - FORESTSWAMP_WASTE
     data:
-      - alienRank: 4
-        lowQty: 5
-        highQty: 8
-        dQty: 2
-        percentageOutsideUfo: 70
+      - alienRank: 2
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 0
         itemSets:
           -
             - STR_COLT_REVOLVER
@@ -45,31 +47,6 @@
             - STR_TEC9
             - STR_TEC9_CLIP
             - STR_TEC9_CLIP
-      - alienRank: 3
-        lowQty: 5
-        highQty: 8
-        dQty: 2
-        percentageOutsideUfo: 70
-        itemSets:
-          -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
-            - STR_PIPEBOMB
-          -
-            - STR_JUNKY_SAWED_OFF
-            - STR_DOUBLE_BARRELED_BUCKSHOT
-            - STR_DOUBLE_BARRELED_BUCKSHOT
-            - STR_DOUBLE_BARRELED_BUCKSHOT
-          -
-            - STR_OLD_SHOTGUN
-            - STR_OLD_SHOTGUN_SHELLS
-            - STR_OLD_SHOTGUN_SHELLS
-          -
-            - STR_TEC9
-            - STR_TEC9_CLIP
-            - STR_TEC9_CLIP
-
 
                                                 ### City Gang_1_Small ###
 
@@ -146,10 +123,10 @@
     length: 50
     height: 10
     alert: STR_ALERT_WASTELAND_FACTORY
-    alertBackground: BACKMISSION_1.SCR
-    alertDescription: STR_GANG_BURGLARY_DESCRIPTION
+    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertDescription: STR_WASTELAND_FACTORY_DESCRIPTION
     briefing:
-      background: BACKMISSION_2.SCR
+      background: BACKMISSION_WASTE_1.SCR
       palette: 2
       music: GMTACTIC
     markerName: STR_WASTELAND_FACTORY_APPREHENSION
@@ -158,12 +135,15 @@
     abortPenalty: 100
     music:
       - GMTACTIC
+    script: RADIERFACTORY
     terrains:
-      - INDUSTRIALSLUM
+      - FORESTWASTE
+      - URBAN_WASTE
+      - FORESTSWAMP_WASTE
     data:
       - alienRank: 4
-        lowQty: 7
-        highQty: 9
+        lowQty: 9
+        highQty: 12
         percentageOutsideUfo: 70
         itemSets:
           -
@@ -174,7 +154,114 @@
             - STR_CROWBAR
           -
             - STR_BATTO
-
+    reinforcements:
+      - type: gunrunner
+        turns: [0]
+        maxRuns: 1
+        mapBlockFilterType: 0
+        useSpawnNodes: true
+        minDistanceFromXcomUnits: 10
+        data:
+          - alienRank: 5
+            customUnitType:  STR_GUNRUNNER_WORKER
+            lowQty: 1
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets: &AnchorEmptyInventoryReinforcements
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+  - type: STR_WASTELAND_BIG_FACTORY_RAID
+    width: 60
+    length: 60
+    height: 10
+    alert: STR_ALERT_WASTELAND_BIG_FACTORY
+    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertDescription: STR_WASTELAND_BIG_FACTORY_DESCRIPTION
+    briefing:
+      background: BACKMISSION_WASTE_1.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_WASTELAND_BIG_FACTORY_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 100
+    music:
+      - GMTACTIC
+    script: RADIERFACTORY_BIG
+    terrains:
+      - FORESTWASTE
+      - URBAN_WASTE
+      - FORESTSWAMP_WASTE
+    data:
+      - alienRank: 4
+        lowQty: 14
+        highQty: 18
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SHIV
+          -
+            - STR_PIPE
+          -
+            - STR_CROWBAR
+          -
+            - STR_BATTO
+    reinforcements:
+      - type: gunrunner
+        turns: [0]
+        maxRuns: 1
+        mapBlockFilterType: 0
+        useSpawnNodes: true
+        minDistanceFromXcomUnits: 10
+        data:
+          - alienRank: 5
+            customUnitType:  STR_GUNRUNNER_WORKER
+            lowQty: 3
+            highQty: 5
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets: &AnchorEmptyInventoryReinforcements
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
 
                                                 ### Sneed ###
 

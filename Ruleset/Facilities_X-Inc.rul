@@ -1,4 +1,16 @@
 facilities:
+  - type: STR_HANGAR
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 200000
+    buildTime: 25
+    monthlyCost: 25000
+    crafts: 1
+    workshops: 5
+    storage: 5 #OXCE bonus because of change in handling craft storage
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBASE_16
   - type: STR_GENERAL_STORES
     spriteShape: 1
     spriteFacility: 24

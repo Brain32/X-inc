@@ -37,6 +37,12 @@ ufopaedia:
     text: STR_COMBAT_ARMOUR_MK2_UFOPEDIA
     requires:
       - STR_IDDQD
+  - id: STR_CIVILVEST_ARMOUR_UC
+    type_id: 5
+    section: STR_ARMOUR
+    text: STR_CIVILVEST_ARMOUR_UFOPEDIA
+    requires:
+      - STR_CIVIL_VEST_ARMOR_STUDY
 
         #Baddies
   - id: STR_WASTELAND_GOON_INV
@@ -48,6 +54,10 @@ ufopaedia:
     section: STR_ALIEN_LIFE_FORMS
     listOrder: 163121
   - id: STR_WASTELAND_SCOUT_INV
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    listOrder: 163121
+  - id: STR_GUNRUNNERS_WORKER_INV
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS
     listOrder: 163121
@@ -161,7 +171,11 @@ ufopaedia:
       - STR_IDDQD
     listOrder: 12050
 
-#Guns
+   #Guns
+
+                                    ###Pistols###
+
+
   - id: STR_G11
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -186,6 +200,11 @@ ufopaedia:
     requires:
       - STR_IDDQD
   - id: STR_DOUBLE_BARRELED_BUCKSHOT
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_DOUBLE_BARRELED_BUCKSHOT_SLUG
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -244,6 +263,12 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
+  - id: STR_SCOPED_HUNTING_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SCOPED_HUNTING_RIFLE_UFOPEDIA
+    requires:
+      - STR_IDDQD
   - id: STR_OLD_SHOTGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -258,12 +283,6 @@ ufopaedia:
   - id: STR_OLD_SHOTGUN_SHELLS_SLUG
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
-  - id: STR_PIPEBOMB
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_PIPEBOMB_UFOPEDIA
     requires:
       - STR_IDDQD
   - id: STR_PS94
@@ -766,9 +785,63 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SMG_LINDA_UFOPEDIA
     requires:
-      - WEAPON_SHOPPING
+      - STR_IDDQD
+  - id: STR_PISTOL_10MM
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PISTOL_10MM_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_PISTOL_10MM_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_PISTOL_10MM_MAG_AA
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
 
-#Vanilla#
+  - id: STR_COWRIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_COWRIFLE_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_COWRIFLE_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_COWRIFLE_AMMO_AA
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+
+
+
+
+                                  #SMGs#
+  - id: STR_SMG_10MM
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SMG_10MM_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_SMG_10MM_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_SMG_10MM_CLIP_AA
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+                                  #Vanilla#
+
   - id: STR_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -858,8 +931,9 @@ ufopaedia:
     text: STR_STUN_ROD_UFOPEDIA
     requires:
       - STR_IDDQD
-##
-                                  #RocketLaunchers
+
+                                  #RocketLaunchers#
+
   - id: STR_ROCKET_LAUNCHER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -881,6 +955,27 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
+  - id: STR_RPG
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_RPG_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_SMALL_ROCKET_RPG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_SMALL_ROCKET_ADV
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_SMALL_ROCKET_FAE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
   - id: STR_GEP_GUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -897,7 +992,32 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
+
+                                  #Grenades#
+
+  - id: STR_PIPEBOMB
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PIPEBOMB_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_MOLOTOV
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MOLOTOV_UFOPEDIA
+    requires:
+      - STR_IDDQD
+
+                                  #O
+
+
+  - id: STR_SMOKE_GRENADE
+    requires:
+      - STR_SMOKE_GRENADE
+    listOrder: 14410
+
                                   #OtherCrap
+
   - id: STR_PAPER_FLARE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -908,6 +1028,21 @@ ufopaedia:
     text: STR_PEPPER_GUN_UFOPEDIA
     requires:
       - WEAPON_SHOPPING
+  - id: STR_SMOKE_GRENADE
+    requires:
+      - STR_SMOKE_GRENADE
+    listOrder: 14410
+
+
+                                  #LOOTBOXES
+
+  - id: STR_WEAPON_LOOTBOX_CHEAP
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_WEAPON_LOOTBOX_CHEAP
+    text: STR_WEAPON_LOOTBOX_CHEAP_UFOPEDIA
+    listOrder: 15560
 
 #facilities
   - id: STR_PRISON_CELLS
@@ -944,6 +1079,15 @@ ufopaedia:
     listOrder: 270620
 
 #Tech Tree
+  - id: STR_INTEL_OFFICER_1
+    type_id: 7
+    image_id: INTEL_OFFICER_1.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: INTEL_OFFICER_INTRODUCTION_UFOPEDIA
+    requires:
+      - STR_WEAPON_SHOPPING
+    listOrder: 270620
   - id: STR_WEAPON_SHOPPING
     type_id: 7
     image_id: ADVANCED_CIVILIAN_WEAPONS_CPAL.SPK
@@ -953,6 +1097,27 @@ ufopaedia:
     requires:
       - STR_WEAPON_SHOPPING
     listOrder: 270630
+  - id: STR_WASTELAND_MISSIONS
+    type_id: 7
+    image_id: WASTELAND_MISSIONS_BG_CPAL.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: STR_WASTELAND_MISSIONS_UFOPEDIA
+    listOrder: 270640
+  - id: STR_WASTELAND_WEAPON_FACTORY_PED
+    type_id: 7
+    image_id: WASTELAND_WEAPON_FACTORY_BG_CPAL.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: STR_WASTELAND_WEAPON_FACTORY_UFOPEDIA
+    listOrder: 270650
+  - id: STR_WASTELAND_LORE_1_PED
+    type_id: 7
+    image_id: WASTELAND_LORE_1_CPAL.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: STR_WASTELAND_LORE_1_UFOPEDIA
+    listOrder: 270650
 
 #EnemySoldiers
   - id: STR_RAIDER_GOON
@@ -974,6 +1139,13 @@ ufopaedia:
     section: STR_ALIEN_LIFE_FORMS
     image_id: RAIDER_SCOUT_UFOPEDIA_PICTURE
     text: STR_RAIDER_SCOUT_UFOPEDIA
+    text_width: 180
+    listOrder: 20140
+  - id: STR_GUNRUNNER_WORKER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: GUNRUNNER_WORKER_UFOPEDIA_PICTURE
+    text: STR_GUNRUNNER_WORKER_UFOPEDIA
     text_width: 180
     listOrder: 20140
 

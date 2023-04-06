@@ -1,0 +1,17 @@
+CLOTHING LAYERS:
+0 - background
+1 - rear clothes
+2 - body
+3 - underwear
+4 - body accessories 1
+5 - body accessories 2
+6 - inner clothes
+7 - outer clothes, armor & boots
+8 - accessories 1
+9 - accessories 2
+10 - face
+11 - facial accessories 1 (masks)
+12 - facial accessories 2 (goggles)
+13 - frontal hair
+14 - helmet
+15 - shield

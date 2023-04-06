@@ -19,7 +19,43 @@ research:
     cost: 1 
     points: 420
     listOrder: 151050
+
+#TechTree
   - name: STR_WEAPON_SHOPPING
     cost: 50 
     points: 40
     listOrder: 151060
+#Armour
+  - name: STR_CIVIL_VEST_ARMOR_STUDY
+    cost: 10 
+    points: 50
+    listOrder: 151060
+    dependencies:
+      - STR_WEAPON_SHOPPING
+#Guns
+
+#LootBox
+  - name: STR_WEAPON_LOOTBOX_CHEAP
+    cost: 5
+    points: 10
+    needItem: true
+    listOrder: 151070
+
+  - name: STR_TEST_EVENT
+    dependencies:
+      - STR_TEST_EVENT
+
+
+  - name: STR_SMOKE_GRENADE
+    cost: 5
+    points: 15
+    needItem: true
+    listOrder: 151070
+
+                                    #GUNS SMG's#
+
+  - name: STR_SMG_10MM
+    cost: 10
+    points: 10
+    needItem: true
+    listOrder: 151070

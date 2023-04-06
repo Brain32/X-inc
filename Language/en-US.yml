@@ -9,14 +9,9 @@ en-US:
   STR_COMBAT_ARMOUR_MK1: "Combat Armour mk. 1"
   STR_COMBAT_ARMOUR_MK1_UC: "COMBAT ARMOUR MK 1" 
   STR_COMBAT_ARMOUR_MK1_UFOPEDIA: "Made from advanced polymers and alloys, this armor provides excellent protection against small bullets and buckshot. The night vision device built into the visor allows good orientation at night."
-  STR_STABKNIFE: "Punch dagger"
-  STR_STABKNIFE_UFOPEDIA: "This particular type of knife relies more on the strength of the wearer than on their skill."
-  STR_MACHETE: "Machete"
-  STR_MACHETE_UFOPEDIA: "A wide and long dagger, intended for cutting vegetation."
-  STR_CROWBAR: "Crowbar"
-  STR_CROWBAR_UFOPEDIA: "The weapon of choice of MIT graduates."
-  STR_CUTLASS: "Cutlass"
-  STR_CUTLASS_UFOPEDIA: "Awaken an urge within you to became a pirate. YARRR!"
+  STR_CIVILVEST_ARMOUR_UC: "CIVIL VEST"
+  STR_CIVILVEST_ARMOUR_UFOPEDIA: "A simple bulletproof vest that you can buy almost everywhere. A thin layer of Kevlar is able to stop small bullets, although the design is a little uncomfortable to wear."
+
 #Melee
   STR_KNUCKLES: "Brass knuckles"
   STR_KNUCKLES_UFOPEDIA: "Popular among thugs of all stripes street melee weapons. Fits in a pocket and smashes faces no worse than clubs. It requires a certain skill and strength."
@@ -83,6 +78,20 @@ en-US:
   STR_FLARE_PISTOL: "Flare Gun"
   STR_SMG_LINDA: "SMG Linda"
   STR_SMG_LINDA_UFOPEDIA: "Civilian SMG, uses Glock's mags."
+  STR_SCOPED_HUNTING_RIFLE: "Scope Rifle"
+  STR_SCOPED_HUNTING_RIFLE_UFOPEDIA: "This polished hunting rifle is now have a scope ! Beri cool !"
+  STR_PISTOL_10MM: "Bandit Pistol"
+  STR_PISTOL_10MM_UFOPEDIA: "Brutal-looking semi-automatic pistol assembled in the dingy corners of the Wasteland. Despite that, it suprsingly well assembled and has impressive accuracy and stopping ability."
+  STR_SMG_10MM: "Bandit SMG"
+  STR_SMG_10MM_UFOPEDIA: "Widely loved among the inhabitants of the wasteland is the 10mm Submachine Gun."
+  STR_SMG_10MM_CLIP: "Mag. 10mm SMG"
+  STR_SMG_10MM_CLIP_AA: "Mag. 10mm SMG/AA"
+
+#Sniper Rifles
+  STR_COWRIFLE: "Lever Rifle"
+  STR_COWRIFLE_UFOPEDIA: "A very interesting, for a Wasteland, rifle with a tubular underbarrel magazine. An experienced and dexterous shooter, can empty almost the entire mag in one go!"
+  STR_COWRIFLE_AMMO: "Ammo Lever Rifle"
+  STR_COWRIFLE_AMMO_AA: "Ammo Lever Rifle/AA"
 
 #HMG
   STR_M60: "M60"
@@ -97,6 +106,9 @@ en-US:
   STR_STIMM: "Stimm"
   STR_MEDI_PATCH: "Med patch"
   STR_MEDI_PATCH_UFOPEDIA: "Medical patch produced by 'Med Tech' corp. When applied to the wound injects a complex of chemicals that stop the bleeding. Can be used for self-applience."
+#Boxes and containers
+  STR_WEAPON_LOOTBOX_CHEAP: "Decrepit weapon crate"
+  STR_WEAPON_LOOTBOX_CHEAP_UFOPEDIA: "A dilapidated weapon storage box. Usually, raiders and other wasteland weaponsmiths store their guns in it for transportation to salvage and dismantling, but sometimes we can find newly minted weapons here."
 
 #Crafts
   STR_FUTURECAR1: "BANSHEE"
@@ -106,12 +118,33 @@ en-US:
   STR_CICADA_CRAFT: "CICADA"
   STR_CICADA_UFOPEDIA: "A SMALL VTOL ATTACK VESSEL, CAPABLE OF CARRYING A SMALL TEAM ON BOARD."
 
+#ŒÔËÒ‡ÌËÂ ˛ÌËÚÓ‚ ‚ ﬁ‘ŒÔÂ‰ËË
+  #Raiders
+  STR_RAIDER_BOSS_UFOPEDIA: "Woah those guys have metal armour ! Better use someting heavy against those faggots !"
+  STR_RAIDER_BOSS: "Raider Boss"
+  STR_WASTELAND_BOSS_INV: "Raider Boss: Analysis"
+  STR_RAIDER_GOON_UFOPEDIA: "Those assholes just a cannon fodder for local radier gangs ! Piss easy !"
+  STR_RAIDER_GOON: "Raider goon"
+  STR_WASTELAND_GOON_INV: "Raider goon: Analysis"
+  STR_RAIDER_SCOUT: "Raider Scout"
+  STR_RAIDER_SCOUT_UFOPEDIA: "Those whores have Night vision. Can you belive that ?! That's mean they can snipe you even at night ! Dsgustiong !"
+  STR_WASTELAND_SCOUT_INV: "Raider Scout: Analysis"
+  #GunRunners
+  STR_GUNRUNNER_WORKER: "Gunrunner Worker"
+  STR_GUNRUNNER_WORKER_UFOPEDIA: "Brute force of gunrunners. These guys are not very bright, but they are very diligent with lathe and other hardware. Usually, they are hired by various bandit factions of the Wasteland to help with production of more solid guns, unlike those that can be found in the ruins. Basically, their job is to control the production line so that some moron would not press someting that shouldn't be pressed."
+  STR_GUNRUNNERS_WORKER_INV: "Gunrunner Worker: Analysis"
+
 #UFOPedia_Factions
   STR_SMUGLERS: "Faction: Smugglers"
   STR_SMUGLERS_UFOPEDIA: "Smugglers are a group of desperate people who got bored with boring life in mega cities. These guys make a living by transporting and selling drugs, guns and all kinds of illegal corporate crap all over the world. Needless to say, this is a hell of a way of life. Do not let that dumb pre-war outfit fool you - those guys are determined and well-armed. They never use elerium-powered crafts in their shipping, so tracking them will be a hell of a task."
   STR_SMUGLERS_GUNS_UFOPEDIA: "Smugglers use old pre-war weapons in their operations. These guns were most likely 3D-printed."
   STR_SMUGLERS_BELIVES: "Beliefs of the Smugglers"
   STR_SMUGLERS_BELIVES_UFOPEDIA: "After questioning few smugglers, we began to notice some strange ditales. Unlike other mafia syndicates, smugglers stick to prewar ideolos. They drive old cars, wear old suits, and use old weapons, even though itís the XXIV century! Smugglers believe in the style and passion of their work. Even, a little romanticizing their illigal craft."
+  STR_WASTELAND_MISSIONS: "Foray into Wasteland"
+  STR_WASTELAND_MISSIONS_UFOPEDIA: "Wasteland is a place of opportunity, even itís a stinking shitholehole fuilled by mutants, bandits, and other outcasts of society. Locals would be very interested doing business with people from mega-cities, like us. Besides, it wouldn't hurt to have more associates, right? {NEWLINE}{NEWLINE}If our informants find someting anything out, we'll let you know, Chief."
+  STR_INTEL_OFFICER_1: "Introduction"
+  INTEL_OFFICER_INTRODUCTION_UFOPEDIA: "Greetings Boss! I hope your recovery from the cryosymosis went smoothly. Since youve been in the freezer for almost 150 years, please let me fill you in. Our organization is a private police force that specializes in culling scum around mega-cities. We also collaborate with Megapol and other Earth power structures. But since our organization has been in decline for the past few years, the board of directors has decided to appoint a new commander - you!{NEWLINE} I really hope you can handle this task, Chief. "
+
 #Tech Shit
   STR_DAMAGE_10: "EMP"
   STR_DAMAGE_11: "ELECTRIC"
