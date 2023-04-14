@@ -1,0 +1,362 @@
+﻿alienDeployments:
+  - type: STR_WASTELAND_GANG
+    width: 40
+    length: 40
+    height: 10
+    alert: STR_ALERT_WASTELAND_GANG
+    alertBackground: BACKMISSION_WASTE_2.SCR
+    alertDescription: STR_WASTELAND_GANG_DESCRIPTION
+    briefing:
+      background: BACKMISSION_WASTE_2.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_WASTELAND_GANG_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 40
+    abortPenalty: 40
+    music:
+      - GMTACTIC
+    script: WASTEOUTOPST
+    terrains:
+      - NUKE_ZONE
+      - URBAN_WASTE
+      - FORESTWASTE
+      - FORESTSWAMP_WASTE
+    data:
+      - alienRank: 2
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+            - STR_PIPEBOMB
+          -
+            - STR_JUNKY_SAWED_OFF
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+          -
+            - STR_OLD_SHOTGUN
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+          -
+            - STR_TEC9
+            - STR_TEC9_CLIP
+            - STR_TEC9_CLIP
+
+                                                ### City Gang_1_Small ###
+
+  - type: STR_GANG_BURGLARY
+    width: 40
+    length: 40
+    height: 10
+    alert: STR_ALERT_GANG_BURGLARY
+    alertBackground: BACKMISSION_1.SCR
+    alertDescription: STR_GANG_BURGLARY_DESCRIPTION
+    briefing:
+      background: BACKMISSION_2.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_BURGLARY_APPREHENSION 
+    duration: [60, 120]
+    despawnPenalty: 40
+    abortPenalty: 40
+    music:
+      - GMTACTIC
+    terrains:
+      - INDUSTRIALSLUM
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SHIV
+          -
+            - STR_PIPE
+          -
+            - STR_CROWBAR
+          -
+            - STR_BATTO
+                                                ### City Gang_1_Mid ###
+  - type: STR_GANG_HOOD
+    width: 40
+    length: 40
+    height: 10
+    alert: STR_ALERT_GANG_HOOD
+    alertBackground: BACKMISSION_1.SCR
+    alertDescription: STR_GANG_BURGLARY_DESCRIPTION
+    briefing:
+      background: BACKMISSION_2.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_HOOD_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 100
+    music:
+      - GMTACTIC
+    terrains:
+      - INDUSTRIALSLUM
+    data:
+      - alienRank: 4
+        lowQty: 7
+        highQty: 9
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SHIV
+          -
+            - STR_PIPE
+          -
+            - STR_CROWBAR
+          -
+            - STR_BATTO
+                                                ### WASTELADN FACTORY ###
+  - type: STR_WASTELAND_FACTORY_RAID
+    width: 50
+    length: 50
+    height: 10
+    alert: STR_ALERT_WASTELAND_FACTORY
+    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertDescription: STR_WASTELAND_FACTORY_DESCRIPTION
+    briefing:
+      background: BACKMISSION_WASTE_1.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_WASTELAND_FACTORY_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 100
+    music:
+      - GMTACTIC
+    script: RADIERFACTORY
+    terrains:
+      - FORESTWASTE
+      - URBAN_WASTE
+      - FORESTSWAMP_WASTE
+    data:
+      - alienRank: 4
+        lowQty: 9
+        highQty: 12
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SHIV
+          -
+            - STR_PIPE
+          -
+            - STR_CROWBAR
+          -
+            - STR_BATTO
+    reinforcements:
+      - type: gunrunner
+        turns: [0]
+        maxRuns: 1
+        mapBlockFilterType: 0
+        useSpawnNodes: true
+        minDistanceFromXcomUnits: 10
+        data:
+          - alienRank: 5
+            customUnitType:  STR_GUNRUNNER_WORKER
+            lowQty: 1
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets: &AnchorEmptyInventoryReinforcements
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+  - type: STR_WASTELAND_BIG_FACTORY_RAID
+    width: 60
+    length: 60
+    height: 10
+    alert: STR_ALERT_WASTELAND_BIG_FACTORY
+    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertDescription: STR_WASTELAND_BIG_FACTORY_DESCRIPTION
+    briefing:
+      background: BACKMISSION_WASTE_1.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_WASTELAND_BIG_FACTORY_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 100
+    music:
+      - GMTACTIC
+    script: RADIERFACTORY_BIG
+    terrains:
+      - FORESTWASTE
+      - URBAN_WASTE
+      - FORESTSWAMP_WASTE
+    data:
+      - alienRank: 4
+        lowQty: 14
+        highQty: 18
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SHIV
+          -
+            - STR_PIPE
+          -
+            - STR_CROWBAR
+          -
+            - STR_BATTO
+    reinforcements:
+      - type: gunrunner
+        turns: [0]
+        maxRuns: 1
+        mapBlockFilterType: 0
+        useSpawnNodes: true
+        minDistanceFromXcomUnits: 10
+        data:
+          - alienRank: 5
+            customUnitType:  STR_GUNRUNNER_WORKER
+            lowQty: 3
+            highQty: 5
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets: &AnchorEmptyInventoryReinforcements
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+
+                                                ### Smugler ###
+
+  - type: STR_SMUGLER_CLUB
+    width: 30
+    length: 30
+    height: 3
+    alert: STR_ALERT_NIGHT_CLUB
+    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertDescription: STR_NIGHT_CLUB
+    briefing:
+      background: BACKMISSION_WASTE_1.SCR
+      palette: 2
+      music: CLUB
+      briefing: STR_NIGHT_CLUB_BRIEFING
+      showTarget: false
+    points: 50
+    markerName: STR_NIGHT_CLUB_MARK
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 300
+    music:
+      - CLUB
+    terrains:
+      - CLUBMALIBU
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+
+                                                ### Sneed ###
+
+
+  - type: STR_SNEEDS_YOUR_FEEDS
+    width: 40
+    length: 40
+    height: 10
+    customUfo: STR_SNEED_SHACK
+    alert: STR_ALERT_SNEEDS_YOUR_FEEDS
+    alertBackground: SNEED.SCR
+    alertDescription: STR_SNEEDS_YOUR_FEEDS_DESCRIPTION
+    briefing:
+      background: SNEED.SCR
+      palette: 2
+      music: SNEED
+      briefing: STR_SNEEDS_YOUR_FEEDS_BRIEFING
+      showTarget: false
+    points: 9000
+    markerName: STR_SNEEDS_YOUR_FEEDS
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 300
+    music:
+      - SNEED
+    terrains:
+      - NUKE_ZONE
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
