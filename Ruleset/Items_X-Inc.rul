@@ -3770,6 +3770,78 @@
     battleType: 2
     armor: 30
     listOrder: 12999
+  - type: STR_BANDIT_RIFLE
+    size: 0.2
+    costSell: 2500
+    weight: 12
+    bigSprite: 252
+    floorSprite: 246
+    handSprite: 688
+    bulletSprite: 2
+    fireSound: 136
+    reloadSound: 169
+    compatibleAmmo:
+      - STR_BANDIT_RIFLE_CLIP
+      - STR_BANDIT_RIFLE_CLIP_AP
+    accuracyAuto: 35
+    accuracySnap: 75
+    accuracyAimed: 130
+    accuracyCloseQuarters: 75
+    tuAuto: 38
+    tuSnap: 28
+    tuAimed: 70
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    autoRange: 11
+    snapRange: 18
+    attraction: 12
+    listOrder: 13026
+  - type: STR_BANDIT_RIFLE_CLIP
+    size: 0.05
+    costSell: 175
+    weight: 4
+    bigSprite: 253
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 36
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.85
+      ToStun: 0.5
+    clipSize: 20
+    costThrow:
+      energy: 8
+      time: 40
+    battleType: 2
+    armor: 30
+    listOrder: 13027
+  - type: STR_BANDIT_RIFLE_CLIP_AP
+    size: 0.05
+    costSell: 210
+    weight: 4
+    bigSprite: 254
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 36
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.7
+      ToHealth: 0.9
+    clipSize: 15
+    costThrow:
+      energy: 8
+      time: 40
+    battleType: 2
+    armor: 30
+    listOrder: 13028
   - type: STR_G11
     categories: [STR_RIFLES]
     requiresBuy:
@@ -3857,6 +3929,96 @@
     battleType: 2
     attraction: 15
     listOrder: 21280
+  - type: STR_OICW
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.3
+    costBuy: 53000
+    costSell: 41500
+    transferTime: 48
+    bigSprite: 255
+    floorSprite: 247
+    handSprite: 696
+    bulletSprite: 2
+    fireSound: 170
+    reloadSound: 171
+    accuracyAimed: 95
+    accuracySnap: 65
+    accuracyAuto: 35
+    accuracyCloseQuarters: 100
+    twoHanded: true
+    oneHandedPenalty: 60
+    kneelBonus: 120 #adds stability
+    aimRange: 18
+    snapRange: 16
+    autoRange: 8
+    dropoff: 3
+    ammo:
+      0:
+        compatibleAmmo: [STR_RIFLE_M16_CLIP]
+        tuLoad: 15
+        tuUnload: 8
+      1:
+        compatibleAmmo: [STR_OICW_GRENADE_CLIP]
+        tuLoad: 24
+        tuUnload: 14
+    confAimed:
+      shots: 1
+      name: STR_LAUNCH_GRENADE
+      ammoSlot: 1
+      arcing: false
+    confSnap:
+      shots: 1
+      name: STR_SNAP_SHOT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 3
+      name: STR_AUTO_SHOT
+      ammoSlot: 0
+      arcing: false
+    tuSnap: 25
+    tuAuto: 35
+    tuAimed: 38
+    costThrow:
+      energy: 20
+    experienceTrainingMode: 4
+    weight: 15
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    landOnly: true
+    battleType: 1
+    attraction: 20
+    listOrder: 21230
+  - type: STR_OICW_GRENADE_CLIP
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.1
+    costBuy: 8000
+    costSell: 5000
+    transferTime: 48
+    bigSprite: 256
+    bulletSprite: 4
+    bulletSpeed: 5
+    fireSound: 138
+    hitSound: 0
+    hitAnimation: 0
+    power: 45
+    damageType: 3
+    damageAlter:
+      FixRadius: 2
+      IgnoreDirection: true
+      IgnoreOverKill: false
+    clipSize: 6
+    weight: 4
+    invWidth: 1
+    invHeight: 1
+    armor: 50
+    landOnly: true
+    battleType: 2
+    attraction: 15
+    listOrder: 21232
   - type: STR_BLACKOPS_SHORTRIFLE
     categories: [STR_RIFLES]
     requiresBuy:

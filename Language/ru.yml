@@ -220,6 +220,8 @@ ru:
   STR_COWRIFLE_UFOPEDIA: "Весьма интересная, для Пустышей, винтовка с трубчатым подствольным магазином. Опытный и ловкий стрелок, может опустошить почти весь магазин одним залпом!"
   STR_COWRIFLE_AMMO: "Патр. Рычажной винтовки"
   STR_COWRIFLE_AMMO_AA: "Патр. Рычажной винтовки/ПС"
+  STR_OICW:  "OICW"
+  STR_OICW_UFOPEDIA: "Le Funny Half Life 2 beta AR2 !!!1!  THIS IS SO EPIC GUYS, DARK AND GRITY XD"
 
 #HMG
   STR_M60: "M60"

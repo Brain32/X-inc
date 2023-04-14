@@ -70,6 +70,9 @@ extraSounds:
       166: Resources/Sounds/Reload/RL_RELOAD.wav
       167: Resources/Sounds/Fire/cowrifle_fire.wav
       168: Resources/Sounds/Reload/COWRIFLE.wav
+      169: Resources/Sounds/Reload/RIFLE_4.wav
+      170: Resources/Sounds/Fire/OICW.wav
+      171: Resources/Sounds/Reload/OICW_REL.wav
 
   - type: GEO.CAT
     files:

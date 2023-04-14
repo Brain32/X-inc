@@ -230,3 +230,9 @@ mapScripts:
       size: 2
       executions: 4
     - type: fillArea
+  - type: CLUBMALIBU
+    commands:
+    - type: addBlock
+      groups: 1
+      size: 3
+      executions: 1

@@ -263,7 +263,57 @@
               -
                 []
 
+                                                ### Smugler ###
+
+  - type: STR_SMUGLER_CLUB
+    width: 30
+    length: 30
+    height: 3
+    alert: STR_ALERT_NIGHT_CLUB
+    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertDescription: STR_NIGHT_CLUB
+    briefing:
+      background: BACKMISSION_WASTE_1.SCR
+      palette: 2
+      music: CLUB
+      briefing: STR_NIGHT_CLUB_BRIEFING
+      showTarget: false
+    points: 50
+    markerName: STR_NIGHT_CLUB_MARK
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 300
+    script: CLUBMALIBU
+    music:
+      - CLUB
+    terrains:
+      - CLUBMALIBU
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+
                                                 ### Sneed ###
+
 
   - type: STR_SNEEDS_YOUR_FEEDS
     width: 40

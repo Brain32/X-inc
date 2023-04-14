@@ -407,7 +407,11 @@ extraSprites:
       249: Resources/FactionPack/Wasteland/bigob_GUNRUNNER_WORKER.png
       250: Resources/Weapons/Grenades/bigob_smoke.png
       251: Resources/Armours/CivilVest/bigob_Civivest_corpse.png
-
+      252: Resources/Weapons/JunkWeapons/bigob_FallAutoRifle.png
+      253: Resources/Weapons/JunkWeapons/bigob_FallAutoRifle_MAG.png
+      254: Resources/Weapons/JunkWeapons/bigob_FallAutoRifle_MAG_AA.png
+      255: Resources/Weapons/SmartWeapons/bigob_OICW.png
+      256: Resources/Weapons/SmartWeapons/bigob_OICW_HE_clip.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -487,6 +491,8 @@ extraSprites:
       664: Resources/Weapons/JunkWeapons/HandOb_10MM_SMG.png
       672: Resources/Weapons/JunkWeapons/handob_CowRifle.png
       680: Resources/Weapons/Grenades/handob_Smoke.png
+      688: Resources/Weapons/JunkWeapons/handob_FallAutoRifle.png
+      696: Resources/Weapons/SmartWeapons/handob_OICW.png
 
 
 # FloorBattlescape (FLOOR)
@@ -610,6 +616,8 @@ extraSprites:
       243: Resources/FactionPack/Wasteland/floorob_GUNRUNNER_WORKER_CORPSE.png
       244: Resources/Weapons/Grenades/floorob_smoke.png
       245: Resources/Armours/CivilVest/floorob_CivVest_corps.png
+      246: Resources/Weapons/JunkWeapons/floorob_FallAutoRifle.png
+      247: Resources/Weapons/SmartWeapons/floorob_OICW.png
 
 # Sprite sheet (Battlescape)
   - type: XCOM_36.PCK

@@ -252,6 +252,33 @@ ufopaedia:
   - id: STR_RIFLE_M16_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_BANDIT_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BANDIT_RIFLE_UFOPEDIA
+    requires:
+      - STR_IDDQD
+    listOrder: 12999
+  - id: STR_BANDIT_RIFLE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BANDIT_RIFLE_CLIP_AP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_OICW
+    requiresBuy:
+      - STR_IDDQD
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_OICW_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_OICW_GRENADE_CLIP
+    requiresBuy:
+      - STR_IDDQD
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
   - id: STR_OLD_HUNTING_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT

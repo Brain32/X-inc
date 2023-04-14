@@ -867,4 +867,18 @@ terrains:
       - name: FORESTSWAMPHUGE21
         width: 30
         length: 30
+  - name: CLUBMALIBU
+    mapDataSets:
+      - XCOMENTRY
+      - XCOMEXIT
+      - CLUBMALIBU1
+      - CLUBMALIBU2
+    script: CLUBMALIBU
+    mapBlocks:
+      - name: CLUBMALIBU_PB1
+        width: 30
+        length: 30
+        groups: [0, 1]
+
+
 
