@@ -235,4 +235,3 @@ mapScripts:
     - type: addBlock
       groups: 1
       size: 3
-      executions: 1

@@ -869,6 +869,7 @@ terrains:
         length: 30
   - name: CLUBMALIBU
     mapDataSets:
+      - BLANKS
       - XCOMENTRY
       - XCOMEXIT
       - CLUBMALIBU1
