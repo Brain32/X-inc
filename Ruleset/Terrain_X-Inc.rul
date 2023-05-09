@@ -244,225 +244,315 @@ terrains:
       - FRNITURE_WASTE
       - MADDECOR_WASTE
     script: URBAN
-    mapBlocks:
-      - name: URBANWASTE00
-        width: 10
-        length: 10
-      - name: URBANWASTE01
-        width: 10
-        length: 10
-      - name: URBANWASTE02
-        width: 10
-        length: 10
-      - name: URBANWASTE03
-        width: 20
-        length: 20
-      - name: URBANWASTE04
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: URBANWASTE05
-        width: 10
-        length: 10
-      - name: URBANWASTE06
-        width: 10
-        length: 10
-      - name: URBANWASTE07
-        width: 10
-        length: 10
-      - name: URBANWASTE08
-        width: 20
-        length: 20
-      - name: URBANWASTE09
-        width: 10
-        length: 10
-      - name: URBANWASTE10
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: URBANWASTE11
-        width: 10
-        length: 10
-      - name: URBANWASTE12
-        width: 20
-        length: 20
-      - name: URBANWASTE13
-        width: 10
-        length: 10
-      - name: URBANWASTE14
-        width: 20
-        length: 20
-      - name: URBANWASTE15
-        width: 10
-        length: 10
-      - name: URBANWASTE16
-        width: 10
-        length: 10
-      - name: URBANWASTE17
-        width: 10
-        length: 10
-      - name: URBANWASTE18
-        width: 10
-        length: 10
-      - name: URBANWASTE19
-        width: 10
-        length: 10
-      - name: URBANWASTE20
-        width: 10
-        length: 10
-      - name: URBANWASTE21
-        width: 10
-        length: 10
-      - name: URBANWASTE22
-        width: 20
-        length: 20
-      - name: URBANWASTE23
-        width: 10
-        length: 10
-      - name: URBANWASTE24
-        width: 20
-        length: 20
-      - name: URBANWASTE25
-        width: 20
-        length: 20
-      - name: URBANWASTE26
-        width: 10
-        length: 10
-      - name: URBANWASTE27
-        width: 10
-        length: 10
-      - name: URBANWASTE28
-        width: 10
-        length: 10
-      - name: URBANWASTE29
-        width: 10
-        length: 10
-      - name: URBANWASTE30
-        width: 20
-        length: 20
-      - name: URBANWASTE31
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: URBANWASTE32
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: URBANWASTE33
-        width: 10
-        length: 10
-      - name: URBANWASTE34
-        width: 10
-        length: 10
-      - name: URBANWASTEHUGE35
-        width: 30
-        length: 30
-      - name: URBANWASTEHUGE36
-        width: 30
-        length: 30
-      - name: URBANWASTE37
-        width: 10
-        length: 10
-      - name: URBANWASTE38
-        width: 10
-        length: 10
-      - name: URBANWASTE39
-        width: 10
-        length: 10
-      - name: URBANWASTE40
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: URBANWASTE42
-        width: 10
-        length: 10
-      - name: URBANWASTE43
-        width: 10
-        length: 10
-      - name: URBANWASTE44
-        width: 10
-        length: 10
-      - name: URBANWASTE45
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: URBANWASTEHUGE46
-        width: 30
-        length: 30
-      - name: URBANWASTE47
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: URBANWASTE48
-        width: 20
-        length: 20
-      - name: URBANWASTE49
-        width: 20
-        length: 20
-      - name: URBANWASTE50
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: URBANWASTEROAD_WE01
-        width: 10
-        length: 10
-        groups: 2
-      - name: URBANWASTEROAD_WE02
-        width: 10
-        length: 10
-        groups: 2
-      - name: URBANWASTEROAD_WE03
-        width: 10
-        length: 10
-        groups: 2
-      - name: URBANWASTEROAD_WE04
-        width: 10
-        length: 10
-        groups: 2
-      - name: URBANWASTEROAD_WE05
-        width: 10
-        length: 10
-        groups: 2
-      - name: URBANWASTEROAD_WE06
-        width: 10
-        length: 10
-        groups: 2
-      - name: URBANWASTEROAD_NS01
-        width: 10
-        length: 10
-        groups: 3
-      - name: URBANWASTEROAD_NS02
-        width: 10
-        length: 10
-        groups: 3
-      - name: URBANWASTEROAD_NS03
-        width: 10
-        length: 10
-        groups: 3
-      - name: URBANWASTEROAD_NS04
-        width: 10
-        length: 10
-        groups: 3
-      - name: URBANWASTEROAD_NS05
-        width: 10
-        length: 10
-        groups: 3
-      - name: URBANWASTEROAD_NS06
-        width: 10
-        length: 10
-        groups: 3
-      - name: URBANWASTEROAD_CROSS01
-        width: 10
-        length: 10
-        groups: 4
-      - name: URBANWASTEROAD_CROSS02
-        width: 10
-        length: 10
-        groups: 4
-      - name: URBANWASTEROAD_CROSS03
-        width: 10
-        length: 10
-        groups: 4
+    mapBlocks: 
+  - name: URBANWASTE00
+    width: 10
+    length: 10
+  - name: URBANWASTE01
+    width: 10
+    length: 10
+  - name: URBANWASTE02
+    width: 10
+    length: 10
+  - name: URBANWASTE03
+    width: 20
+    length: 20
+  - name: URBANWASTE04
+    width: 10
+    length: 10
+    groups: [0, 1]
+  - name: URBANWASTE05
+    width: 10
+    length: 10
+  - name: URBANWASTE06
+    width: 10
+    length: 10
+  - name: URBANWASTE07
+    width: 10
+    length: 10
+  - name: URBANWASTE08
+    width: 20
+    length: 20
+  - name: URBANWASTE09
+    width: 10
+    length: 10
+  - name: URBANWASTE10
+    width: 10
+    length: 10
+    groups: [0, 1]
+  - name: URBANWASTE11
+    width: 10
+    length: 10
+  - name: URBANWASTE12
+    width: 20
+    length: 20
+  - name: URBANWASTE13
+    width: 10
+    length: 10
+  - name: URBANWASTE14
+    width: 20
+    length: 20
+  - name: URBANWASTE15
+    width: 10
+    length: 10
+  - name: URBANWASTE16
+    width: 10
+    length: 10
+  - name: URBANWASTE17
+    width: 10
+    length: 10
+  - name: URBANWASTE18
+    width: 10
+    length: 10
+  - name: URBANWASTE19
+    width: 10
+    length: 10
+  - name: URBANWASTE20
+    width: 10
+    length: 10
+  - name: URBANWASTE21
+    width: 10
+    length: 10
+  - name: URBANWASTE22
+    width: 20
+    length: 20
+  - name: URBANWASTE23
+    width: 10
+    length: 10
+  - name: URBANWASTE24
+    width: 20
+    length: 20
+  - name: URBANWASTE25
+    width: 20
+    length: 20
+  - name: URBANWASTE26
+    width: 10
+    length: 10
+  - name: URBANWASTE27
+    width: 10
+    length: 10
+  - name: URBANWASTE28
+    width: 10
+    length: 10
+  - name: URBANWASTE29
+    width: 10
+    length: 10
+  - name: URBANWASTE30
+    width: 20
+    length: 20
+  - name: URBANWASTE31
+    width: 10
+    length: 10
+    groups: [0, 1]
+  - name: URBANWASTE32
+    width: 10
+    length: 10
+    groups: [0, 1]
+  - name: URBANWASTE33
+    width: 10
+    length: 10
+  - name: URBANWASTE34
+    width: 10
+    length: 10
+  - name: URBANWASTEHUGE35
+    width: 30
+    length: 30
+  - name: URBANWASTEHUGE36
+    width: 30
+    length: 30
+  - name: URBANWASTE37
+    width: 10
+    length: 10
+  - name: URBANWASTE38
+    width: 10
+    length: 10
+  - name: URBANWASTE39
+    width: 10
+    length: 10
+  - name: URBANWASTE40
+    width: 10
+    length: 10
+    groups: [0, 1]
+  - name: URBANWASTE41
+    width: 10
+    length: 10
+  - name: URBANWASTE42
+    width: 10
+    length: 10
+  - name: URBANWASTE43
+    width: 10
+    length: 10
+  - name: URBANWASTE44
+    width: 10
+    length: 10
+  - name: URBANWASTE45
+    width: 10
+    length: 10
+    groups: [0, 1]
+  - name: URBANWASTEHUGE46
+    width: 30
+    length: 30
+  - name: URBANWASTE47
+    width: 10
+    length: 10
+    groups: [0, 1]
+  - name: URBANWASTE48
+    width: 20
+    length: 20
+  - name: URBANWASTE49
+    width: 20
+    length: 20
+  - name: URBANWASTE50
+    width: 10
+    length: 10
+    groups: [0, 1]
+  - name: URBANWASTE51
+    width: 10
+    length: 10
+  - name: URBANWASTE52
+    width: 10
+    length: 10
+  - name: URBANWASTE53
+    width: 10
+    length: 10
+  - name: URBANWASTE54
+    width: 10
+    length: 10
+  - name: URBANWASTE55
+    width: 10
+    length: 10
+  - name: URBANWASTE56
+    width: 20
+    length: 20
+  - name: URBANWASTE57
+    width: 20
+    length: 20
+  - name: URBANWASTE58
+    width: 10
+    length: 10
+    groups: [0, 1]
+  - name: URBANWASTE59
+    width: 10
+    length: 10
+  - name: URBANWASTE60
+    width: 10
+    length: 10
+  - name: URBANWASTE61
+    width: 20
+    length: 20
+  - name: URBANWASTE62
+    width: 30
+    length: 30
+  - name: URBANWASTE63
+    width: 10
+    length: 10
+  - name: URBANWASTE64
+    width: 10
+    length: 10
+  - name: URBANWASTEROAD_WE01
+    width: 10
+    length: 10
+    groups: 2
+  - name: URBANWASTEROAD_WE02
+    width: 10
+    length: 10
+    groups: 2
+  - name: URBANWASTEROAD_WE03
+    width: 10
+    length: 10
+    groups: 2
+  - name: URBANWASTEROAD_WE04
+    width: 10
+    length: 10
+    groups: 2
+  - name: URBANWASTEROAD_WE05
+    width: 10
+    length: 10
+    groups: 2
+  - name: URBANWASTEROAD_WE06
+    width: 10
+    length: 10
+    groups: 2
+  - name: URBANWASTEROAD_WE07
+    width: 10
+    length: 10
+    groups: 2
+  - name: URBANWASTEROAD_WE08
+    width: 10
+    length: 10
+    groups: 2
+  - name: URBANWASTEROAD_WE09
+    width: 10
+    length: 10
+    groups: 2
+  - name: URBANWASTEROAD_WE10
+    width: 10
+    length: 10
+    groups: 2
+  - name: URBANWASTEROAD_NS01
+    width: 10
+    length: 10
+    groups: 3
+  - name: URBANWASTEROAD_NS02
+    width: 10
+    length: 10
+    groups: 3
+  - name: URBANWASTEROAD_NS03
+    width: 10
+    length: 10
+    groups: 3
+  - name: URBANWASTEROAD_NS04
+    width: 10
+    length: 10
+    groups: 3
+  - name: URBANWASTEROAD_NS05
+    width: 10
+    length: 10
+    groups: 3
+  - name: URBANWASTEROAD_NS06
+    width: 10
+    length: 10
+    groups: 3
+  - name: URBANWASTEROAD_NS07
+    width: 10
+    length: 10
+    groups: 3
+  - name: URBANWASTEROAD_NS08
+    width: 10
+    length: 10
+    groups: 3
+  - name: URBANWASTEROAD_NS09
+    width: 10
+    length: 10
+    groups: 3
+  - name: URBANWASTEROAD_NS10
+    width: 10
+    length: 10
+    groups: 3
+  - name: URBANWASTEROAD_CROSS01
+    width: 10
+    length: 10
+    groups: 4
+  - name: URBANWASTEROAD_CROSS02
+    width: 10
+    length: 10
+    groups: 4
+  - name: URBANWASTEROAD_CROSS03
+    width: 10
+    length: 10
+    groups: 4
+  - name: URBANWASTEROAD_CROSS04
+    width: 10
+    length: 10
+    groups: 4
+  - name: URBANWASTEROAD_CROSS05
+    width: 10
+    length: 10
+    groups: 4
+  - name: URBANWASTEROAD_CROSS06
+    width: 10
+    length: 10
+    groups: 4
   - name: XBASE
     mapDataSets:
       - BLANKS

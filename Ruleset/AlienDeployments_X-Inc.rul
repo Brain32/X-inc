@@ -283,34 +283,35 @@
     duration: [60, 120]
     despawnPenalty: 200
     abortPenalty: 300
-    script: CLUBMALIBU
+    shade: 2
     music:
       - CLUB
     terrains:
       - CLUBMALIBU
     data:
       - alienRank: 5
-        lowQty: 1
-        highQty: 1
-        dQty: 0
+        lowQty: 4
+        highQty: 6
+        dQty: 2
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT45
+            - STR_COLT45_CLIP
+            - STR_COLT45_CLIP
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_RUGER_RIFLE
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
+            - STR_GRENADE
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT45
+            - STR_COLT45_CLIP
+            - STR_COLT45_CLIP
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_RIFLE_M16
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
 
                                                 ### Sneed ###
 

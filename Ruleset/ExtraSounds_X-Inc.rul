@@ -73,6 +73,8 @@ extraSounds:
       169: Resources/Sounds/Reload/RIFLE_4.wav
       170: Resources/Sounds/Fire/OICW.wav
       171: Resources/Sounds/Reload/OICW_REL.wav
+      172: Resources/Sounds/Fire/PIZZA_SHOT.wav
+      173: Resources/Sounds/Reload/PIZZA_LOAD.wav
 
   - type: GEO.CAT
     files:

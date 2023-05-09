@@ -3349,6 +3349,70 @@
     armor: 40
     attraction: 18
     listOrder: 22700
+  - type: STR_DEBUGUN
+    categories: [STR_SHOTGUNS]
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.2
+    costBuy: 420
+    costSell: 420
+    weight: 12
+    bigSprite: 257
+    floorSprite: 248
+    handSprite: 704
+    bulletSprite: 1
+    fireSound: 172
+    reloadSound: 173
+    compatibleAmmo:
+      - STR_DEBUGUN_CLIP
+    accuracyCloseQuarters: 100
+    accuracySnap: 155
+    accuracyAuto: 145
+    tuSnap: 10
+    tuAuto: 12
+    snapRange: 3
+    autoRange: 3
+    dropoff: 4
+    kneelBonus: 150
+    autoShots: 2
+    sprayWaypoints: 2
+    tuLoad: 15
+    battleType: 1
+    oneHandedPenalty: 50
+    twoHanded: true
+    shotgunChoke: 85
+    invWidth: 1
+    invHeight: 3
+    armor: 40
+    attraction: 18
+    listOrder: 22690
+  - type: STR_DEBUGUN_CLIP
+    categories: [STR_SHOTGUNS]
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.01
+    costBuy: 25
+    costSell: 25
+    weight: 5
+    bigSprite: 258
+    floorSprite: 249
+    hitSound: 13
+    hitAnimation: 26
+    power: 255
+    damageType: 1
+    damageAlter:
+      ToStun: 0.5
+      ToWound: 0.1
+      RandomWound: false
+    clipSize: 4
+    battleType: 2
+    armor: 20
+    shotgunBehavior: 1
+    shotgunSpread: 25
+    shotgunPellets: 7
+    attraction: 15
+    listOrder: 22710
+
 
 
                                       #######   Submachine Guns   #######

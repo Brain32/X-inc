@@ -412,6 +412,8 @@ extraSprites:
       254: Resources/Weapons/JunkWeapons/bigob_FallAutoRifle_MAG_AA.png
       255: Resources/Weapons/SmartWeapons/bigob_OICW.png
       256: Resources/Weapons/SmartWeapons/bigob_OICW_HE_clip.png
+      257: Resources/Weapons/Unused/PizzaGun.png
+      258: Resources/Weapons/Unused/PizzaGun_clip.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -493,6 +495,7 @@ extraSprites:
       680: Resources/Weapons/Grenades/handob_Smoke.png
       688: Resources/Weapons/JunkWeapons/handob_FallAutoRifle.png
       696: Resources/Weapons/SmartWeapons/handob_OICW.png
+      704: Resources/Weapons/Unused/HandOb_PizzaGun.png
 
 
 # FloorBattlescape (FLOOR)
@@ -618,6 +621,8 @@ extraSprites:
       245: Resources/Armours/CivilVest/floorob_CivVest_corps.png
       246: Resources/Weapons/JunkWeapons/floorob_FallAutoRifle.png
       247: Resources/Weapons/SmartWeapons/floorob_OICW.png
+      248: Resources/Weapons/Unused/floorob_PizzaGun.png
+      249: Resources/Weapons/Unused/floorob_PizzaGun_clip.png
 
 # Sprite sheet (Battlescape)
   - type: XCOM_36.PCK

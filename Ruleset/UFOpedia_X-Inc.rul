@@ -279,6 +279,22 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 
+                                ###SHOTGUNS####
+  - id: STR_DEBUGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_DEBUGUN_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_DEBUGUN_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+
+
+
+
   - id: STR_OLD_HUNTING_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT

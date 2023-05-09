@@ -87,7 +87,12 @@ en-US:
   STR_SMG_10MM_CLIP: "Mag. 10mm SMG"
   STR_SMG_10MM_CLIP_AA: "Mag. 10mm SMG/AA"
   STR_OICW:  "OICW"
-  STR_OICW_UFOPEDIA: "Le Funny Half Life 2 beta AR2 !!!1!  THIS IS SO EPIC GUYS, DARK AND GRITY XD"
+  STR_OICW_UFOPEDIA: "Even before the World War III, this rifle considered overdesigned and expensive to manufacture. But high precision and built-in grenade launcher allow this rifle to be flexible at almost any military situation."
+
+#Shotfuns
+  STR_DEBUGUN: "DebuGun"
+  STR_DEBUGUN_CLIP: "DebuGun Clip"
+  STR_DEBUGUN_UFOPEDIA: "An excellent choice for defending your diner from mutants, bandits and pizza monsters. {NEWLINE} {NEWLINE} {NEWLINE} If you reading this, you probably a cheater xoxo... "
 
 #Sniper Rifles
   STR_COWRIFLE: "Lever Rifle"
