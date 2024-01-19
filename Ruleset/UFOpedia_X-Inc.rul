@@ -43,8 +43,14 @@ ufopaedia:
     text: STR_CIVILVEST_ARMOUR_UFOPEDIA
     requires:
       - STR_CIVIL_VEST_ARMOR_STUDY
+  - id: STR_SECVEST_ARMOUR_UC
+    type_id: 5
+    section: STR_ARMOUR
+    text: STR_SECVEST_ARMOUR_UFOPEDIA
+    requires:
+      - STR_ARMOUR_SECVEST_STUDY
 
-        #Baddies
+        #Bad guys
   - id: STR_WASTELAND_GOON_INV
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS
@@ -62,6 +68,51 @@ ufopaedia:
     section: STR_ALIEN_LIFE_FORMS
     listOrder: 163121
 
+  - id: STR_OLD_LIGHT_DRONE_ARMOR
+    type_id: 5
+    requires:
+      - STR_CORPSE_OLD_LIGHT_DRONE
+    section: STR_ALIEN_LIFE_FORMS
+    listOrder: 163122
+  - id: STR_OLD_TURRET_MINIGUN_ARMOR
+    type_id: 5
+    requires:
+      - STR_CORPSE_OLD_TURRET_MINIGUN
+    section: STR_ALIEN_LIFE_FORMS
+    listOrder: 163123
+  - id: STR_OLD_SEC_ROBOT_ARMOR
+    type_id: 5
+    requires:
+      - STR_CORPSE_OLD_SEC_ROBOT
+    section: STR_ALIEN_LIFE_FORMS
+    listOrder: 163124
+
+#Componets
+  - id: STR_OPTRONIC_PARTS
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_OPTRONIC_PARTS_UFOPEDIA
+    listOrder: 48125
+  - id: STR_ALIEN_ALLOYS
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_ALIEN_ALLOYS_UFOPEDIA
+    listOrder: 48125
+  - id: STR_AQUA_PLASTICS
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_AQUA_PLASTICS_UFOPEDIA
+    listOrder: 48125
+  - id: STR_SC_WIRE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_SC_WIRE_UFOPEDIA
+    listOrder: 48125
+  - id: STR_GRAV_MODULE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_GRAV_MODULE_UFOPEDIA
+    listOrder: 48125
 #MedicalShit
   - id: STR_MEDI_PATCH
     type_id: 4
@@ -170,10 +221,71 @@ ufopaedia:
     requires:
       - STR_IDDQD
     listOrder: 12050
-
+  - id: STR_FIRE_AX
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_FIRE_AX_UFOPEDIA
+    requires:
+      - STR_WEAPON_SHOPPING
+    listOrder: 12055
+  - id: STR_CARBONBLADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_CARBONBLADE_UFOPEDIA
+    requires:
+      - STR_WEAPON_SHOPPING
+    listOrder: 12060
    #Guns
 
                                     ###Pistols###
+
+  - id: STR_LIBIRATOR_JUNK
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LIBIRATOR_JUNK_UFOPEDIA
+    requires:
+      - STR_LIBIRATOR_JUNK
+  - id: STR_10MM_TRIPLE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_COLT_REVOLVER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_COLT_REVOLVER_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_COLT_REVOLVER_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_LUGER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LUGER_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_LUGER_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+      
+### GAUSS TIER
+
+  - id: STR_HB_GAUSS_PISTOL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HB_GAUSS_PISTOL_UFOPEDIA
+    requires:
+      - STR_HB_GAUSS_PISTOL
+  - id: STR_HB_GAUSS_PISTOL_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_HB_GAUSS_PISTOL
 
 
   - id: STR_G11
@@ -209,29 +321,6 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
-  - id: STR_COLT_REVOLVER
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_COLT_REVOLVER_UFOPEDIA
-    requires:
-      - STR_IDDQD
-  - id: STR_COLT_REVOLVER_AMMO
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
-  - id: STR_LUGER
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LUGER_UFOPEDIA
-    requires:
-      - STR_IDDQD
-  - id: STR_LUGER_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
-  - id: STR_TEC9
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TEC9_UFOPEDIA
@@ -279,6 +368,8 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 
+
+
                                 ###SHOTGUNS####
   - id: STR_DEBUGUN
     type_id: 4
@@ -291,9 +382,95 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
+  - id: STR_SHOTGUN_STREETCLEANER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_STREETCLEANER_UFOPEDIA
+    requires:
+      - STR_SHOTGUN_STREETCLEANER
+  - id: STR_STREETCLEANER_CLIP1
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_SHOTGUN_STREETCLEANER
+  - id: STR_STREETCLEANER_CLIP2
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_SHOTGUN_STREETCLEANER
+
+  - id: STR_AUTOSHOTGUN1
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUTOSHOTGUN1_UFOPEDIA
+    requires:
+      - STR_AUTOSHOTGUN1
+  - id: STR_AUTOSHOTGUN1_CLIP1
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_AUTOSHOTGUN1
+  - id: STR_AUTOSHOTGUN1_CLIP2
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_SHOTGUN_STREETCLEANER
+
+
+                                ###RIFLES####
+
+  - id: STR_RIFLE_AK
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_RIFLE_AK_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_RIFLE_AK_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_M52S_AJAX_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M52S_AJAX_RIFLE_UFOPEDIA
+    requires:
+      - STR_M52S_AJAX_RIFLE
+  - id: STR_M52S_AJAX_RIFLE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+      
+### GAUSS TIER
+  - id: STR_HB_GAUSS_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HB_GAUSS_RIFLE_UFOPEDIA
+    requires:
+      - STR_HB_GAUSS_RIFLE
+  - id: STR_HB_GAUSS_RIFLE_MOD
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HB_GAUSS_RIFLE_MOD_UFOPEDIA
+    requires:
+      - STR_HB_GAUSS_RIFLE_MOD
+  - id: STR_HB_GAUSS_RIFLE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
 
 
 
+                                  #SniperRifles#
+
+  - id: STR_PIPERIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PIPERIFLE_UFOPEDIA
+    requires:
+      - STR_IDDQD
 
   - id: STR_OLD_HUNTING_RIFLE
     type_id: 4
@@ -528,6 +705,17 @@ ufopaedia:
     requires:
       - STR_IDDQD
   - id: STR_BO_LMG_CLIP_AA
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_SNIPER_RIFLE_LT
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SNIPER_RIFLE_LT_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_SNIPER_RIFLE_LT_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -834,12 +1022,13 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PISTOL_10MM_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_PISTOL_10MM
   - id: STR_PISTOL_10MM_MAG
     type_id: 4
-    section: STR_NOT_AVAILABLE
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PISTOL_10MM_MAG_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_PISTOL_10MM
   - id: STR_PISTOL_10MM_MAG_AA
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -872,7 +1061,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SMG_10MM_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_SMG_10MM
   - id: STR_SMG_10MM_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -883,6 +1072,43 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
+
+  - id: STR_FN_P90_NEO
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_FN_P90_NEO_UFOPEDIA
+    requires:
+      - STR_FN_P90_NEO
+  - id: STR_FN_P90_NEO_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+
+                                  ###MINIGUNS####
+  - id: STR_MINIGUN_1
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MINIGUN_1_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_MINIGUN_1_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_MINIGUN_2
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MINIGUN_2_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_MINIGUN_2_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+
                                   #Vanilla#
 
   - id: STR_RIFLE
@@ -975,6 +1201,24 @@ ufopaedia:
     requires:
       - STR_IDDQD
 
+                                  #Flamethrowers#
+  - id: STR_FLAMETHROWER_DIY
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_FLAMETHROWER_DIY_UFOPEDIA
+    requires:
+      - STR_FLAMETHROWER_DIY
+  - id: STR_FLAMETHROWER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_FLAMETHROWER_UFOPEDIA
+    requires:
+      - STR_FLAMETHROWER
+  - id: STR_FLAMETHROWER_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_FLAMETHROWER
                                   #RocketLaunchers#
 
   - id: STR_ROCKET_LAUNCHER
@@ -1036,6 +1280,13 @@ ufopaedia:
     requires:
       - STR_IDDQD
 
+                                  #Mines#
+  - id: STR_MINE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MINE_UFOPEDIA
+    requires:
+      - STR_IDDQD
                                   #Grenades#
 
   - id: STR_PIPEBOMB
@@ -1050,6 +1301,12 @@ ufopaedia:
     text: STR_MOLOTOV_UFOPEDIA
     requires:
       - STR_IDDQD
+  - id: STR_EMP_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_EMP_GRENADE_UFOPEDIA
+    requires:
+      - STR_IDDQD
 
                                   #O
 
@@ -1060,7 +1317,10 @@ ufopaedia:
     listOrder: 14410
 
                                   #OtherCrap
-
+  - id: STR_FLASHLIGHT
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_FLASHLIGHT_UFOPEDIA
   - id: STR_PAPER_FLARE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1086,6 +1346,13 @@ ufopaedia:
       - STR_WEAPON_LOOTBOX_CHEAP
     text: STR_WEAPON_LOOTBOX_CHEAP_UFOPEDIA
     listOrder: 15560
+  - id: STR_LOOTBOX6
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_LOOTBOX6
+    text: STR_LOOTBOX6_UFOPEDIA
+    listOrder: 15561
 
 #facilities
   - id: STR_PRISON_CELLS
@@ -1098,7 +1365,28 @@ ufopaedia:
     section: STR_BASE_FACILITIES
     text: STR_GYM_UFOPEDIA
     listOrder: 6870
-#factions
+  - id: STR_MEDBAY
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_MEDBAY_UFOPEDIA
+    listOrder: 6870
+  - id: STR_ADVANCED_MEDBAY
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_ADVANCED_MEDBAY_UFOPEDIA
+    listOrder: 6870
+  - id: STR_HQ
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_HQ_UFOPEDIA
+    listOrder: 6870
+  - id: STR_CORRIDOR
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_CORRIDOR_UFOPEDIA
+    listOrder: 6870
+#--------------------------------------------------Factions
+#Smuglers
   - id: STR_SMUGLERS
     type_id: 7
     image_id: FAC_SMUGLERS_UFOPEDIA_OG_CPAL.SPK
@@ -1121,6 +1409,14 @@ ufopaedia:
     text: STR_SMUGLERS_BELIVES_UFOPEDIA
     listOrder: 270620
 
+#Wasteland Bilers
+  - id: STR_BIKERS_FAC_UFOPEDIA
+    type_id: 7
+    image_id: FAC_WASTE_BIKERS_UFOPEDIA.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: STR_BIKERS_UFOPEDIA
+    listOrder: 270620
 #Tech Tree
   - id: STR_INTEL_OFFICER_1
     type_id: 7
@@ -1140,6 +1436,15 @@ ufopaedia:
     requires:
       - STR_WEAPON_SHOPPING
     listOrder: 270630
+  - id: STR_MILITARY_SUPPLIES_UFOPED
+    type_id: 7
+    image_id: MILIT_SUPPLIES.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: STR_MILITARY_SUPPLIES_UFOPEDIA
+    requires:
+      - STR_WEAPON_SHOPPING
+    listOrder: 270620
   - id: STR_WASTELAND_MISSIONS
     type_id: 7
     image_id: WASTELAND_MISSIONS_BG_CPAL.SPK
@@ -1162,7 +1467,32 @@ ufopaedia:
     text: STR_WASTELAND_LORE_1_UFOPEDIA
     listOrder: 270650
 
-#EnemySoldiers
+  - id: STR_TRNS_BASICSHOOTING_PED
+    type_id: 7
+    image_id: TRNS_BASICSHOOTING_CPAL.SPK
+    text_width: 154
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_BASICSHOOTING_UFOPEDIA
+    listOrder: 270650
+#Missions
+  - id: OLD_MILBASE_MISSION_PED
+    type_id: 7
+    image_id: OLD_MILBASE_CPAL.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC                           #<--------FIX ME !!!!!!
+    text: STR_OLD_MILBASE_MISSION_READY_UFOPEDIA
+    requires:
+      - STR_SCAVENGERS_OLD_MILBASE_MISSION_RES
+    listOrder: 270650
+
+#EnemySoldiersUpedia
+  - id: STR_STREETGANG_TG_GOON
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: STREETGANG_TG_GOON_UFOPEDIA_PICTURE
+    text: STR_STREETGANG_TG_GOON_UFOPEDIA
+    text_width: 180
+    listOrder: 20110
   - id: STR_RAIDER_GOON
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
@@ -1191,6 +1521,30 @@ ufopaedia:
     text: STR_GUNRUNNER_WORKER_UFOPEDIA
     text_width: 180
     listOrder: 20140
+
+  - id: STR_OLD_LIGHT_DRONE
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: OLD_DRONE_UFOPEDIA_PICTURE
+    text: STR_OLD_LIGHT_DRONE_UFOPEDIA
+    text_width: 180
+    listOrder: 20140
+  - id: STR_OLD_SEC_ROBOT
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: OLD_SEC_ROBOT_UFOPEDIA_PICTURE
+    text: STR_OLD_SEC_ROBOT_UFOPEDIA
+    text_width: 180
+    listOrder: 20140
+  - id: STR_OLD_TURRET_MINIGUN
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: OLD_TURRET_UFOPEDIA_PICTURE
+    text: STR_OLD_TURRET_MINIGUN_UFOPEDIA
+    text_width: 180
+    listOrder: 20140
+
+
 
 #Craft Weapons#
   - id: STR_STINGRAY
@@ -1288,4 +1642,22 @@ ufopaedia:
     text: STR_CICADA_UFOPEDIA
     listOrder: 382
 
+                           ###REWARDS AND COMENDATIONS###
+
+  - id: STR_MELEE_PSYCHO_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: MEDAL_RICHARD_CPAL
+    text: STR_MELEE_PSYCHO_UFOPEDIA
+    text_width: 158
+    listOrder: 360210
+  - id: STR_OLD_WOLRD_ENJOYER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: MEDAL_MIAMIVICE_CPAL
+    text: STR_OLD_WOLRD_ENJOYER_UFOPEDIA
+    text_width: 158
+    listOrder: 360210
 

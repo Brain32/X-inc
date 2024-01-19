@@ -1,5 +1,53 @@
 ﻿manufacture:
-                                                                ##BOXES EXTRACTION##
+
+
+                                                           ##ROBOT DISASSEMBLY##
+#Old Robots          
+  - name: STR_CORPSE_OLD_LIGHT_DRONE_DISASSEMBLY
+    category: STR_ROBOT_DISASSEMBLY
+    requires:
+      - STR_CORPSE_OLD_LIGHT_DRONE
+    space: 5
+    time: 50
+    cost: 100
+    requiredItems:
+      STR_CORPSE_OLD_LIGHT_DRONE: 1
+    producedItems:
+      STR_OPTRONIC_PARTS: 2
+      STR_AQUA_PLASTICS: 3
+      STR_GRAV_MODULE: 1
+      STR_SC_WIRE: 2
+  - name: STR_CORPSE_OLD_TURRET_MINIGUN_DISASSEMBLY
+    category: STR_ROBOT_DISASSEMBLY
+    requires:
+      - STR_CORPSE_OLD_TURRET_MINIGUN
+    space: 5
+    time: 50
+    cost: 100
+    requiredItems:
+      STR_CORPSE_OLD_TURRET_MINIGUN: 1
+    producedItems:
+      STR_OPTRONIC_PARTS: 2
+      STR_ALIEN_ALLOYS: 2
+      STR_AQUA_PLASTICS: 1
+      STR_SC_WIRE: 2
+  - name: STR_CORPSE_OLD_SEC_ROBOT_DISASSEMBLY
+    category: STR_ROBOT_DISASSEMBLY
+    requires:
+      - STR_CORPSE_OLD_SEC_ROBOT
+    space: 5
+    time: 50
+    cost: 100
+    requiredItems:
+      STR_CORPSE_OLD_SEC_ROBOT: 1
+    producedItems:
+      STR_OPTRONIC_PARTS: 4
+      STR_ALIEN_ALLOYS: 6
+      STR_AQUA_PLASTICS: 7
+      STR_SC_WIRE: 5
+
+                                                           ##BOXES EXTRACTION##
+#LootBox                                                                
   - name: STR_WEAPON_LOOTBOX_CHEAP_EX
     category: STR_EXTRACTION
     requires:
@@ -17,7 +65,7 @@
       - [1, {STR_DOUBLE_BARRELE_SHOTGUN: 2, STR_DOUBLE_BARRELED_BUCKSHOT: 35}]
       - [1, {STR_DOUBLE_BARRELE_SHOTGUN: 2, STR_DOUBLE_BARRELED_BUCKSHOT_SLUG: 15, STR_DOUBLE_BARRELED_BUCKSHOT: 15}]
       - [1, {STR_OLD_SHOTGUN: 2, STR_OLD_SHOTGUN_SHELLS: 26}]
-      - [1, {STR_PIPEBOMB: 20}]
+      - [1, {STR_PIPEBOMB: 8}]
       - [1, {STR_OLD_HUNTING_RIFLE: 2, STR_HUNTING_RIFLE_CLIP: 26}]
       - [1, {STR_GRENADE_LAUNCHER: 1, STR_GL_HE: 15, STR_GL_INCENDIARY: 15}]
       - [1, {STR_SCOPED_HUNTING_RIFLE: 1, STR_HUNTING_RIFLE_CLIP: 38}]
@@ -33,5 +81,30 @@
       - [1, {STR_LUGER: 4, STR_LUGER_CLIP: 42}]
       - [1, {STR_COWRIFLE: 2, STR_COWRIFLE_AMMO: 28}]
       - [1, {STR_BANDIT_RIFLE: 2, STR_BANDIT_RIFLE_CLIP: 16, STR_BANDIT_RIFLE_CLIP_AP: 16}]
+      - [1, {STR_MINE: 2, STR_GRENADE: 8}]
+      - [1, {STR_FLAMETHROWER_DIY: 1, STR_FLAMETHROWER_CLIP: 4}]
 
     listOrder: 15560
+  - name: STR_LOOTBOX6_EX
+    category: STR_EXTRACTION
+    requires:
+      - STR_LOOTBOX6
+    space: 0
+    time: 1
+    cost: 10
+    requiredItems:
+      STR_LOOTBOX6: 1
+    producedItems: {}
+    randomProducedItems:
+      - [1, {STR_GRENADE_LAUNCHER_VICE: 1, STR_GL_HE: 10, STR_GL_INCENDIARY: 10}]
+      - [1, {STR_HIGH_EXPLOSIVE: 10}]
+      - [1, {STR_M60: 2, STR_M60_CLIP_SMALL: 20}]
+      - [1, {STR_G11: 2, STR_G11_CLIP: 15}]
+      - [1, {STR_G11E: 1, STR_G11_CLIP: 25}]
+      - [1, {STR_OICW: 2, STR_RIFLE_M16_CLIP: 20, STR_OICW_GRENADE_CLIP: 10}]
+      - [1, {STR_MICRO_UZI: 4, STR_UZI_CLIP: 30}]
+      - [1, {STR_COMBAT_ARMOUR_MK1: 2}]
+      - [1, {STR_COMBAT_ARMOUR_MK1: 1}]
+      - [1, {STR_COMBAT_ARMOUR_MK2: 1}]
+      - [1, {STR_SNIPER_RIFLE_LT: 1, STR_SNIPER_RIFLE_LT_CLIP: 20}]
+    listOrder: 15561

@@ -230,8 +230,111 @@ mapScripts:
       size: 2
       executions: 4
     - type: fillArea
+
+#Bar Club
+
   - type: CLUBMALIBU
     commands:
     - type: addBlock
       groups: 1
       size: 3
+#Old base
+
+  - type: CYBERSLUM_HRHOUSE
+    commands:
+    - type: addBlock
+      size: [3,3]
+#Old base
+
+  - type: ABANDONED_BASE
+    commands:
+    - type: addBlock
+      size: [5,3]
+
+  - type: CYBERSLUMS1
+    commands:
+    - type: addBlock #three wall blocks spawned here
+      size: 2
+      groups: 9
+      rects:
+        - [0, 0, 2, 2]
+    - type: addBlock
+      size: 2
+      groups: 9
+      rects:
+        - [0, 2, 2, 2]
+    - type: addBlock
+      size: 2
+      groups: 9
+      rects:
+        - [0, 4, 2, 2]
+    - type: addBlock #crossing of wall and high road
+      size: 2
+      terrain: CYBERSLUMS_ROADS_CANALS
+      groups: 6
+      rects:
+        - [0, 6, 2, 2] #X coord. 0, Y coord. 0, size of area in X 2, in Y 2
+    - type: addBlock #three NS low road blocks spawned 2 tiles to the right from wall
+      size: 2
+      terrain: CYBERSLUMS_ROADS_CANALS
+      groups: 3
+      rects:
+        - [2, 0, 2, 2]
+    - type: addBlock
+      size: 2
+      terrain: CYBERSLUMS_ROADS_CANALS
+      groups: 3
+      rects:
+        - [2, 2, 2, 2]
+    - type: addBlock
+      size: 2
+      terrain: CYBERSLUMS_ROADS_CANALS
+      groups: 3
+      rects:
+        - [2, 4, 2, 2]
+    - type: addBlock #crossing of high road with low road
+      size: 2
+      terrain: CYBERSLUMS_ROADS_CANALS
+      groups: 4
+      rects:
+        - [2, 6, 2, 2]
+    - type: addBlock #crossing of high road with generic terrain
+      size: 2
+      terrain: CYBERSLUMS_ROADS_CANALS
+      groups: 2
+      rects:
+        - [4, 6, 2, 2]
+    - type: addBlock #crossing of high road with canal
+      size: 2
+      terrain: CYBERSLUMS_ROADS_CANALS
+      groups: 5
+      rects:
+        - [6, 6, 2, 2]
+    - type: fillArea #canal
+      terrain: CYBERSLUMS_ROADS_CANALS
+      groups: 7
+      rects:
+        - [7, 0, 1, 6] #start at coordinates x7 y0, spawn blocks in area 1 wide WE, 6 wide NS
+    - type: addCraft #tries to spawn craft 1 tile above ground and spawn landing map under it; added only now because the fixed elements of the map we need to have generated first and craft not get in their way
+      size: [1, 1, 10] #needed for verticalLevels
+      verticalLevels:
+      - type: ground
+        groups: 1
+        size: [1, 1, 1]
+      - type: craft
+        size: [1, 1, 9]
+    - type: addBlock #2x2 buildings
+      size: 2
+      executionChances: 90
+    - type: addBlock
+      size: 2
+      executionChances: 70
+    - type: addBlock
+      size: 2
+      executionChances: 40
+    - type: addBlock
+      size: 2
+      executionChances: 10
+    - type: fillArea #fill up the rest
+
+

@@ -1,13 +1,54 @@
+#===============================================Scripts===============================================#
 eventScripts:
   - type: STR_TEST_EVENT
     oneTimeRandomEvents:
       STR_TEST_EVENT: 100
     firstMonth: 0
+
+  - type: STR_SC_34_NEWS
+    eventWeights:
+      0:
+        STR_GNN_NEWS_001: 100
+        STR_GNN_NEWS_002: 100
+    researchTriggers:
+       STR_SC_34: true
+    executionOdds: 100
+
+####################test script
+#  - type: STR_TEST_EVENT
+#    eventWeights:
+#      0:
+#        STR_BLACKMARCH_GNOME_EVENT: 100
+#####################################
+
+
+#===============================================Events===============================================#
+
 events:
   - name: STR_TEST_EVENT
     description: STR_TEST_EVENT_DESCRIPTION
     background: CITY2_BG.SCR
+    everyMultiItemList:
+      STR_LOOTBOX6: 3
+    researchList: [STR_LOOTBOX6]
     music: HOTLINEPIZ
     points: 50
     timer: 60
     timerRandom: 300
+
+#>>>News=====#
+
+  - name: STR_GNN_NEWS_001
+    description: STR_GNN_MURDER_1_DESCRIPTION
+    description: STR_GNN_MURDER_1
+    background: NEWS_BG.SCR
+    timer: 60
+    timerRandom: 300
+  - name: STR_GNN_NEWS_002
+    description: STR_GNN_MURDER_2_DESCRIPTION
+    description: STR_GNN_MURDER_2
+    background: NEWS_BG.SCR
+    timer: 60
+    timerRandom: 300
+
+

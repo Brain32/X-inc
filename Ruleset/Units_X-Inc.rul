@@ -1,5 +1,68 @@
 units:
 
+                                             ### Friends ###
+                               ## Rangers ## 
+
+  - type: STR_RANGER01
+    race: STR_WASTELAND_RANGERS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 75
+      health: 50
+      bravery: 60
+      reactions: 50
+      firing: 60
+      throwing: 50
+      strength: 40
+      psiStrength: 25
+      psiSkill: 0
+      melee: 65
+    armor: STR_RANGER01_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_OLD_RIFLE_M16
+        - STR_RIFLE_M16_CLIP
+        - STR_RIFLE_M16_CLIP
+        - STR_RIFLE_M16_CLIP
+        - STR_GRENADE
+        - STR_GRENADE
+      - - STR_OLD_SHOTGUN
+        - STR_OLD_SHOTGUN_SHELLS_SLUG
+        - STR_OLD_SHOTGUN_SHELLS_SLUG
+        - STR_OLD_SHOTGUN_SHELLS
+        - STR_OLD_SHOTGUN_SHELLS
+        - STR_PIPEBOMB
+      - - STR_OLD_HUNTING_RIFLE
+        - STR_HUNTING_RIFLE_CLIP
+        - STR_HUNTING_RIFLE_CLIP
+        - STR_HUNTING_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_GRENADE
+      - - STR_COWRIFLE
+        - STR_COWRIFLE_AMMO
+        - STR_COWRIFLE_AMMO
+        - STR_COWRIFLE_AMMO
+        - STR_COWRIFLE_AMMO
+        - STR_GRENADE
+        - STR_PIPEBOMB
+      - - STR_PIPERIFLE
+        - STR_10MM_TRIPLE_CLIP
+        - STR_10MM_TRIPLE_CLIP
+        - STR_10MM_TRIPLE_CLIP
+        - STR_10MM_TRIPLE_CLIP
+        - STR_GRENADE
+        - STR_PIPEBOMB
+
 # Wasteland - Radiers
 
   - type: STR_WASTELAND_GOON
@@ -7,11 +70,11 @@ units:
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 60
-      stamina: 60
-      health: 40
+      stamina: 70
+      health: 55
       bravery: 70
-      reactions: 40
-      firing: 55
+      reactions: 50
+      firing: 60
       throwing: 50
       strength: 40
       psiStrength: 25
@@ -25,6 +88,9 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
   - type: STR_WASTELAND_BOSS
     race: STR_WASTELAND_RAIDER
     rank: STR_LIVE_SOLDIER
@@ -48,6 +114,9 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
   - type: STR_WASTELAND_SCOUT
     race: STR_WASTELAND_RAIDER
     rank: STR_LIVE_SOLDIER
@@ -71,6 +140,10 @@ units:
     intelligence: 2
     aggression: 2
     canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [44, 45, 46]
 
 # Wasteland - Gunrunners
 
@@ -97,6 +170,12 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+
+
 
   - type: STR_TIGERCALW_FEMGOON
     race: STR_TIGERCALW
@@ -121,6 +200,10 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [44, 45, 46]
   - type: STR_TIGERCALW_GOON
     race: STR_TIGERCALW
     rank: STR_LIVE_SOLDIER
@@ -144,6 +227,10 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
   - type: STR_TIGERCALW_WARCHEEF
     race: STR_TIGERCALW
     rank: STR_NAVIGATOR
@@ -167,6 +254,10 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
   - type: STR_SYNDICATE_SOLDIER
     race: STR_SYNDICATE
     rank: STR_SOLDIER
@@ -190,6 +281,7 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
+    deathSound: [41, 42, 43]
   - type: STR_SYNDICATE_BREACHER
     race: STR_SYNDICATE
     rank: STR_SOLDIER
@@ -213,6 +305,10 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: 10
   - type: STR_SYNDICATE_COMMANDO
     race: STR_SYNDICATE
     rank: STR_SOLDIER
@@ -220,7 +316,7 @@ units:
       tu: 80
       stamina: 90
       health: 60
-      bravery: 70
+      bravery: 100
       reactions: 80
       firing: 90
       throwing: 60
@@ -235,6 +331,274 @@ units:
     energyRecovery: 30
     intelligence: 2
     aggression: 3
+    canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: 10
+
+# Smuglers
+
+  - type: STR_SMUGLER_GOON
+    race: STR_SMUGLER
+    rank: STR_LIVE_SOLDIER
+    stats:  
+      tu: 70
+      stamina: 90
+      health: 50
+      bravery: 60
+      reactions: 70
+      firing: 70
+      throwing: 50
+      strength: 60
+      psiStrength: 60
+      psiSkill: 0
+      melee: 70
+    armor: STR_SMUGLER_GOON_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+  - type: STR_SMUGLER_NEGOTIATOR
+    race: STR_SMUGLER
+    rank: STR_NAVIGATOR
+    stats:  
+      tu: 80
+      stamina: 100
+      health: 70
+      bravery: 80
+      reactions: 70
+      firing: 90
+      throwing: 60
+      strength: 70
+      psiStrength: 60
+      psiSkill: 0
+      melee: 80
+    armor: STR_SMUGLER_NEGOTIATOR_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+  - type: STR_SMUGLER_LANCE
+    race: STR_SMUGLER
+    rank: STR_LIVE_MEDIC
+    stats:  
+      tu: 70
+      stamina: 90
+      health: 70
+      bravery: 80
+      reactions: 70
+      firing: 90
+      throwing: 50
+      strength: 60
+      psiStrength: 60
+      psiSkill: 0
+      melee: 70
+    armor: STR_SMUGLER_LANCE_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+  - type: STR_SMUGLER_FIXER
+    race: STR_SMUGLER
+    rank: STR_LIVE_LEADER
+    stats:  
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 60
+      reactions: 80
+      firing: 100
+      throwing: 60
+      strength: 50
+      psiStrength: 60
+      psiSkill: 0
+      melee: 80
+    armor: STR_SMUGLER_FIXER_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+
+# Wasteland - Bikers
+
+  - type: STR_WST_BIKER_1
+    race: STR_BIKERS
+    rank: STR_LIVE_SOLDIER
+    stats:  
+      tu: 56
+      stamina: 80
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 55
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 60
+      mana: 80
+    armor: STR_WST_BIKER_1_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+    spotter: 2
+    sniper: 45
+    canSurrender: true
+  - type: STR_WST_BIKER_2
+    race: STR_BIKERS
+    rank: STR_LIVE_NAVIGATOR
+    stats:  
+      tu: 68
+      stamina: 90
+      health: 35
+      bravery: 70
+      reactions: 58
+      firing: 60
+      throwing: 60
+      strength: 60
+      psiStrength: 35
+      psiSkill: 0
+      melee: 50
+      mana: 80
+    armor: STR_WST_BIKER_2_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+    spotter: 2
+    sniper: 45
+    canSurrender: true
+  - type: STR_WST_BIKER_3
+    race: STR_BIKERS
+    rank: STR_LIVE_MEDIC
+    stats:  
+      tu: 78
+      stamina: 90
+      health: 45
+      bravery: 80
+      reactions: 65
+      firing: 75
+      throwing: 75
+      strength: 65
+      psiStrength: 45
+      psiSkill: 0
+      melee: 60
+      mana: 80
+    armor: STR_WST_BIKER_3_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+    spotter: 2
+    sniper: 60
+    canSurrender: true
+  - type: STR_WST_BIKER_4
+    race: STR_BIKERS
+    rank: STR_LIVE_ENGINEER
+    stats:  
+      tu: 66
+      stamina: 70
+      health: 30
+      bravery: 60
+      reactions: 70
+      firing: 70
+      throwing: 60
+      strength: 45
+      psiStrength: 50
+      psiSkill: 0
+      melee: 60
+      mana: 80
+    armor: STR_WST_BIKER_4_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [44, 45, 46]
+    spotter: 2
+    sniper: 50
+    canSurrender: true
+  - type: STR_WST_BIKER_5
+    race: STR_BIKERS
+    rank: STR_LIVE_LEADER
+    stats:  
+      tu: 80
+      stamina: 90
+      health: 55
+      bravery: 90
+      reactions: 80
+      firing: 80
+      throwing: 75
+      strength: 65
+      psiStrength: 65
+      psiSkill: 0
+      melee: 80
+      mana: 80
+    armor: STR_WST_BIKER_5_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+    spotter: 2
+    sniper: 75
     canSurrender: true
 
 ###Robots###
@@ -261,3 +625,88 @@ units:
     deathSound: 157
     specab: 0
     energyRecovery: 25
+
+###OldRobots###
+
+  - type: STR_OLD_LIGHT_DRONE
+    race: STR_OLDROBOT
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 75
+      stamina: 130
+      health: 30
+      bravery: 110
+      reactions: 65
+      firing: 75
+      throwing: 0
+      strength: 30
+      psiStrength: 110
+      psiSkill: 0
+      melee: 0
+    armor: STR_OLD_LIGHT_DRONE_ARMOR
+    standHeight: 11
+    kneelHeight: 16
+    floatHeight: 12
+    value: 5
+    deathSound: 23
+    moveSound: 40
+    intelligence: 1
+    aggression: 0
+    spotter: 1
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_LIGHTDRONE_LASER_WEAPON
+  - type: STR_OLD_MINIGUN_TURRET
+    race: STR_OLDROBOT
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 75
+      stamina: 50
+      health: 50
+      bravery: 110
+      reactions: 75
+      firing: 85
+      throwing: 0
+      strength: 200
+      psiStrength: 110
+      psiSkill: 0
+      melee: 0
+    armor: STR_OLD_TURRET_MINIGUN_ARMOR
+    standHeight: 11
+    kneelHeight: 16
+    floatHeight: 12
+    value: 5
+    deathSound: 23
+    moveSound: 40
+    intelligence: 1
+    aggression: 0
+    spotter: 1
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_TURRET_MINIGUN1
+  - type: STR_OLD_SEC_ROBOT
+    race: STR_OLDROBOT
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 68
+      stamina: 80
+      health: 80
+      bravery: 110
+      reactions: 80
+      firing: 75
+      throwing: 50
+      strength: 100
+      psiStrength: 110
+      psiSkill: 0
+      melee: 0
+    armor: STR_OLD_SEC_ROBOT_ARMOR
+    standHeight: 24
+    kneelHeight: 14
+    floatHeight: 1
+    value: 5
+    deathSound: 178
+    moveSound: 40
+    intelligence: 2
+    aggression: 1
+    spotter: 1
+

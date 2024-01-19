@@ -1,0 +1,22 @@
+soldierTransformation:
+  - name: STR_BASIC_FIREARMS_TRAINING
+    requires:
+      - STR_BASIC_FIREARMS_TRAINING
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    forbiddenPreviousTransformations:
+      - STR_BASIC_FIREARMS_TRAINING
+    cost: 7000
+    recoveryTime: 6
+    soldierBonusType: STR_BASIC_FIREARMS_TRAINING
+    flatOverallStatChange:
+      reactions: 4
+      firing: 12
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true

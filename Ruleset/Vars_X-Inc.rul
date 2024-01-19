@@ -1,4 +1,4 @@
-initialFunding: 25
+initialFunding: 30
 #Responded for your starting date at the begginig
 startingTime: 
   second: 0 
@@ -6,7 +6,11 @@ startingTime:
   hour: 12 
   weekday: 5 
   day: 1 
-  month: 1 
-  year: 2200
+  month: 2 
+  year: 2120
 extraNerdyPediaInfoType: 1
 playIntro: false 
+maxViewDistance: 40
+surrenderMode: 2
+constants:
+  extendedTerrainMelee: 4

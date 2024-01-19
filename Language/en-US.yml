@@ -12,19 +12,11 @@ en-US:
   STR_CIVILVEST_ARMOUR_UC: "CIVIL VEST"
   STR_CIVILVEST_ARMOUR_UFOPEDIA: "A simple bulletproof vest that you can buy almost everywhere. A thin layer of Kevlar is able to stop small bullets, although the design is a little uncomfortable to wear."
 
+                    ############# WEAPONS #############
+
+
 #Melee
-  STR_KNUCKLES: "Brass knuckles"
-  STR_KNUCKLES_UFOPEDIA: "Popular among thugs of all stripes street melee weapons. Fits in a pocket and smashes faces no worse than clubs. It requires a certain skill and strength."
-  STR_STUN_BATON: "Stun Baton"
-  STR_STUN_BATON_UFOPEDIA: "Even though we are a private mercenary organization, Magapol did authorize the use of such electric batons. The shock isnít lethal, but it still causes some damage to the targetís health."
-  STR_STABKNIFE: "Punch dagger"
-  STR_STABKNIFE_UFOPEDIA: "This particular type of knife relies more on the strength of the wearer than on their skill."
-  STR_MACHETE: "Machete"
-  STR_MACHETE_UFOPEDIA: "A wide and long dagger, intended for cutting vegetation."
-  STR_CROWBAR: "Crowbar"
-  STR_CROWBAR_UFOPEDIA: "The weapon of choice of MIT graduates."
-  STR_CUTLASS: "Cutlass"
-  STR_CUTLASS_UFOPEDIA: "Awaken an urge within you to became a pirate. YARRR!"
+#Bows
 #Gun
   STR_G11: "G11"
   STR_G11E: "G11E"
@@ -89,10 +81,33 @@ en-US:
   STR_OICW:  "OICW"
   STR_OICW_UFOPEDIA: "Even before the World War III, this rifle considered overdesigned and expensive to manufacture. But high precision and built-in grenade launcher allow this rifle to be flexible at almost any military situation."
 
-#Shotfuns
+#Melee
+  STR_KNUCKLES: "Brass knuckles"
+  STR_KNUCKLES_UFOPEDIA: "Popular among thugs of all stripes street melee weapons. Fits in a pocket and smashes faces no worse than clubs. It requires a certain skill and strength."
+  STR_STUN_BATON: "Stun Baton"
+  STR_STUN_BATON_UFOPEDIA: "Even though we are a private mercenary organization, Magapol did authorize the use of such electric batons. The shock isnít lethal, but it still causes some damage to the targetís health."
+  STR_STABKNIFE: "Punch dagger"
+  STR_STABKNIFE_UFOPEDIA: "This particular type of knife relies more on the strength of the wearer than on their skill."
+  STR_MACHETE: "Machete"
+  STR_MACHETE_UFOPEDIA: "A wide and long dagger, intended for cutting vegetation."
+  STR_CROWBAR: "Crowbar"
+  STR_CROWBAR_UFOPEDIA: "The weapon of choice of MIT graduates."
+  STR_CUTLASS: "Cutlass"
+  STR_CUTLASS_UFOPEDIA: "Awaken an urge within you to became a pirate. YARRR!"
+
+#Shotguns
   STR_DEBUGUN: "DebuGun"
   STR_DEBUGUN_CLIP: "DebuGun Clip"
   STR_DEBUGUN_UFOPEDIA: "An excellent choice for defending your diner from mutants, bandits and pizza monsters. {NEWLINE} {NEWLINE} {NEWLINE} If you reading this, you probably a cheater xoxo... "
+  STR_SHOTGUN_STREETCLEANER: "Street cleaner Shotgun"
+  STR_STREETCLEANER_CLIP1: "Street cleaner mag."
+  STR_STREETCLEANER_CLIP2: "Street cleaner mag./AA"
+  STR_STREETCLEANER_UFOPEDIA: "Combat shotgun. Fast and perfect for crampted spaces." 
+  STR_AUTOSHOTGUN1: "Combat Shotgun"
+  STR_AUTOSHOTGUN1_UFOPEDIA: "Cool Auto Shotty !"
+  STR_AUTOSHOTGUN1_CLIP1: "Combat Shotgun Drum"
+  STR_AUTOSHOTGUN1_CLIP2: "Combat Shotgun Drum/Slug"
+
 
 #Sniper Rifles
   STR_COWRIFLE: "Lever Rifle"
@@ -105,9 +120,19 @@ en-US:
   STR_M60_CLIP_SMALL: "M60 Belt"
   STR_M60_CLIP_BIG: "M60 Crate"
   STR_M60_UFOPEDIA: "Ancient but well-assembled 7.62 mm machine gun. Not a bad for a fire support weapon, but in the XXIV century, morally outdated compared to similar weapon classes."
+
+#Flamethrowers
+  STR_FLAMETHROWER_DIY: "Makeshift flamethrower"
+  STR_FLAMETHROWER_DIY_UFOPEDIA: "A pipe here, a pipe there, a couple of screws, and from this pile of scrap metal you get a decent flamethrower."
+  STR_FLAMETHROWER: "Combat flamethrower"
+  STR_FLAMETHROWER_UFOPEDIA: "Heavy flamethrower intended for military use. It has a high rate of fire but limited range."
+  STR_FLAMETHROWER_CLIP: "Fuel bottle"
+
 #Rocket Launchers
   STR_GEP_GUN: "GEP Gun"
   STR_GEP_GUN_UFOPEDIA: "Guided Explosive Projectile Launcher, or just a GEP Gun. This weapon can launch rockets with a simple, yet accurate trajectory (2 waypoints)."
+
+                    ############# Support Shit #############
 
 #Meds
   STR_STIMM: "Stimm"
@@ -125,7 +150,7 @@ en-US:
   STR_CICADA_CRAFT: "CICADA"
   STR_CICADA_UFOPEDIA: "A SMALL VTOL ATTACK VESSEL, CAPABLE OF CARRYING A SMALL TEAM ON BOARD."
 
-#ŒÔËÒ‡ÌËÂ ˛ÌËÚÓ‚ ‚ ﬁ‘ŒÔÂ‰ËË
+#Unit Description
   #Raiders
   STR_RAIDER_BOSS_UFOPEDIA: "Woah those guys have metal armour ! Better use someting heavy against those faggots !"
   STR_RAIDER_BOSS: "Raider Boss"
@@ -152,7 +177,12 @@ en-US:
   STR_INTEL_OFFICER_1: "Introduction"
   INTEL_OFFICER_INTRODUCTION_UFOPEDIA: "Greetings Boss! I hope your recovery from the cryosymosis went smoothly. Since youve been in the freezer for almost 150 years, please let me fill you in. Our organization is a private police force that specializes in culling scum around mega-cities. We also collaborate with Megapol and other Earth power structures. But since our organization has been in decline for the past few years, the board of directors has decided to appoint a new commander - you!{NEWLINE} I really hope you can handle this task, Chief. "
 
+#Transformation
+  STR_TRNS_BASICSHOOTING_PED: "Basic firearms training"
+  STR_BASICSHOOTING_UFOPEDIA: "After talking to recutment department,to your dismay you learn to that none of the new recruits are going through basic marksmanship training! We had to fiddle a bit with resources from outside to organize normal training.{NEWLINE}{NEWLINE}Now our operatives can take shooting courses which will increase their Accuracy by 12 and Reaction by 4. Training lasts 6 days and costs 7000 credits, Gym required."
+
 #Tech Shit
+  STR_TRANSFORMATIONS_AND_AUGS_UC: "TRANSFORMATIONS AND AUGMENTATIONS"
   STR_DAMAGE_10: "EMP"
   STR_DAMAGE_11: "ELECTRIC"
   STR_DAMAGE_12: "PSI"
@@ -162,6 +192,7 @@ en-US:
   STR_SHOT_TYPE_AUTO: "Auto (x{0})"
   STR_SHOT_TYPE_SNAP: "Snap (x{0})"
   STR_SHOT_TYPE_AIMED: "Aimed (x{0})"
+
 #Mission Breeefing
   STR_SNEEDS_YOUR_FEEDS: "Sneed your feeds"
   STR_SNEEDS_YOUR_FEEDS_DESCRIPTION: "One of the members of a dangerous hacker group known as Federation of Asshole Gamers (F.A.G. in short) has been spotted in this area! We have to capture him at all costs!"
@@ -172,6 +203,22 @@ en-US:
 #Tech Tree
   STR_WEAPON_SHOPPING: "Weapon Shopping"
   STR_WEAPON_SHOPPING_UFOPEDIA: "We've go through many shops in the mega cityies, looking for more suitable guns for our organization. As expected, we ain't find anything interesting except some useless junk. However, this search has led us to think of going deeper into the Black Market. Of course, we will not immediately put on a cool military equipment, and it will take a lot of time to build up contacts, but it is still worth trying. {NEWLINE}(You can check new weapons in CyberPredia)"
+#Events
+  STR_GNN_NEWS_001: "Shadow Channle"
+  STR_GNN_MURDER_1_DESCRIPTION: "{NEWLINE}{NEWLINE}Last morning, at {0} abandoned dumps, bodies of three high-level corruption enforcers were found. Megapol refutes the theory of political murder, saying that these dead individuals should spend more resources on their own security than on stupid things like fighting corruption. "
+
+#Commendatiosna and rewards
+
+  STR_MELEE_PSYCHO_NAME: "Melee psycho"
+  STR_MELEE_PSYCHO_UFOPEDIA: "You REALLY like hurt other people. Deliver justice using non-standard melee weapons such as bats, axes, knives or brass knuckles.{NEWLINE}{NEWLINE} Every even level: +1 to TU.{NEWLINE} Every odd level: +2 to stamina.{NEWLINE} On Level 5: + 1 stamina regen per turn.{NEWLINE} On Level 10: +10 Bravery."
+  STR_OLD_WOLRD_ENJOYER_NAME: "Old world enjoyer"
+  STR_OLD_WOLRD_ENJOYER_UFOPEDIA: "Whats the point of using all these fancy new guns, if good ol Colt is still kicking? Besides, using those weapon gives you a strange sense of nostalgia that you've never had before... Use pre-war weapons to uphold law and order on Earth.{NEWLINE}{NEWLINE}Gives +1 to Accuracy and Reactions alternately.{NEWLINE}At level V: +5 to Concentration.{NEWLINE}At level X: + 1 stamina regen per turn and +10 Bravery. "
+
 
 #BadBoys
   STR_SYNDICATE: "Syndicate"
+
+
+
+#Game Over dude
+  STR_YOU_SUCK: "{NEWLINE}{NEWLINE}{NEWLINE}Congratulations! You lost and now all of humanity is doomed all thanks to your shitty incompetence. Now load your last save or start all over again, you fucking moron. {NEWLINE}{NEWLINE}YOU SUCK!"

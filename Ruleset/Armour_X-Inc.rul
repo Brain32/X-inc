@@ -444,7 +444,7 @@ armors:
       F5: ["", "", "F5_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_FEM_SMALL", "", "", "", "", "", ""]
       F6: ["", "", "F6_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_FEM_SMALL", "", "", "", "", "", ""]
       F7: ["", "", "F7_NUDE", "", "", "", "CIVIL_JUMPSUIT_MALE_SMALL", "CIVIL_VEST_FEM_SMALL", "", "", "", "", "", ""]
-    customArmorPreviewIndex: 55
+    customArmorPreviewIndex: 2
     corpseBattle:
       - STR_CORPSE_CIV_VEST
     storeItem: STR_CIV_VEST
@@ -491,6 +491,77 @@ armors:
       - 1.5
       - 0.0
       - 1.0
+    units:
+      - STR_SOLDIER
+    loftempsSet: [ 3 ]
+
+  - type: STR_SECVEST_ARMOUR_UC
+    spriteSheet: XCOM_43.PCK
+    layersDefaultPrefix: HUMAN_RUNNER
+    layersDefinition:
+      M0: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M1: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M2: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M3: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M4: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M5: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M6: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M7: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F0: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F1: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F2: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F3: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F4: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F5: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F6: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F7: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+    customArmorPreviewIndex: 3
+    corpseBattle:
+      - STR_CORPSE_SECVEST
+    storeItem: STR_ARMOUR_SECVEST
+    visibilityAtDark: 10
+    personalLight: 5
+    weight: 8
+    forcedTorso: 1
+    stats:
+      tu: -6
+      stamina: -8
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 25
+    underArmor: 10
+    meleeDodge:
+      reactions: 0.15
+    recovery:
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 10
+        healthCurrent: 0.25
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0   #Null
+      - 0.80  #Bullets
+      - 1.2   #Fire
+      - 0.8   #High Explosive
+      - 0.85   #Laser
+      - 1.0   #Plasma
+      - 1.0  #Stun
+      - 0.8   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 0.2   #EMP
+      - 0.5   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -554,8 +625,177 @@ armors:
       - 0.0
     loftempsSet: [ 3 ]
 
-# Enemy - Wasteland Raider
+#OldRobots
 
+  - type: STR_OLD_LIGHT_DRONE_ARMOR
+    spriteSheet: OLDROBO_1.PCK
+    spriteInv: OLDROBO_1.SPK
+    corpseBattle:
+      - STR_CORPSE_OLD_LIGHT_DRONE
+    visibilityAtDark: 16
+    heatVision: 60
+    frontArmor: 40
+    sideArmor: 35
+    rearArmor: 40
+    underArmor: 30
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    movementType: 1
+    drawingRoutine: 19
+    createsMeleeThreat: false
+    overKill: 1.5
+    psiDefence: 
+      flatHundred: 10.0
+    damageModifier:
+      - 1.0   #Null
+      - 0.85  #Bullets
+      - 0.6   #Fire
+      - 0.8   #High Explosive
+      - 0.9   #Laser
+      - 1.0   #Plasma
+      - 0.25  #Stun
+      - 0.9   #Melee
+      - 0.9   #Acid
+      - 0.0   #Smoke
+      - 1.2   #EMP
+      - 1.1   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    loftempsSet: [ 2 ]
+  - type: STR_OLD_TURRET_MINIGUN_ARMOR
+    spriteSheet: OLDTURRET_1.PCK
+    spriteInv: OLDTURRET_1.SPK
+    corpseBattle:
+      - STR_CORPSE_OLD_TURRET_MINIGUN
+    visibilityAtDark: 16
+    heatVision: 60
+    frontArmor: 45
+    sideArmor: 45
+    rearArmor: 45
+    underArmor: 40
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    allowsMoving: false
+    createsMeleeThreat: false
+    movementType: 1
+    drawingRoutine: 19
+    createsMeleeThreat: false
+    overKill: 1.5
+    psiDefence: 
+      flatHundred: 10.0
+    damageModifier:
+      - 1.0   #Null
+      - 0.85  #Bullets
+      - 0.5   #Fire
+      - 0.75   #High Explosive
+      - 0.9   #Laser
+      - 1.0   #Plasma
+      - 0.25  #Stun
+      - 0.9   #Melee
+      - 0.9   #Acid
+      - 0.0   #Smoke
+      - 1.2   #EMP
+      - 1.1   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    loftempsSet: [ 2 ]
+
+  - type: STR_OLD_SEC_ROBOT_ARMOR
+    spriteSheet: OLDROBO_2.PCK
+    spriteInv: OLDROBO_2.SPK
+    corpseBattle:
+      - STR_CORPSE_OLD_SEC_ROBOT
+    visibilityAtDark: 18
+    heatVision: 70
+    frontArmor: 80
+    sideArmor: 70
+    rearArmor: 75
+    underArmor: 65
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    createsMeleeThreat: false
+    movementType: 1
+    drawingRoutine: 0
+    createsMeleeThreat: false
+    overKill: 1.5
+    psiDefence: 
+      flatHundred: 10.0
+    damageModifier:
+      - 1.0   #Null
+      - 0.70  #Bullets
+      - 0.2   #Fire
+      - 0.6   #High Explosive
+      - 0.75  #Laser
+      - 0.8   #Plasma
+      - 0.25  #Stun
+      - 0.9   #Melee
+      - 0.9   #Acid
+      - 0.0   #Smoke
+      - 1.25  #EMP
+      - 1.15  #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    loftempsSet: [ 4 ]
+                                             ### Friends ###
+                               ## Rangers ## 
+  - type: STR_RANGER01_INV
+    spriteSheet: RANGER01.PCK
+    spriteInv: inv_RANGER01
+    corpseBattle:
+      - STR_RANGER01_CORPSE
+    visibilityAtDark: 8
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 10
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.85  #Bullets
+      - 1.5   #Fire
+      - 1.0   #High Explosive
+      - 0.9   #Laser
+      - 0.9   #Plasma
+      - 1.0  #Stun
+      - 0.9   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 1.0   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    loftempsSet: [ 3 ]
+
+                                             ### Enemy ###
+                               ## Raiders ## 
   - type: STR_WASTELAND_GOON_INV
     spriteSheet: RAIDER_01.PCK
     spriteInv: inventory_WASTELAND_GOON
@@ -583,7 +823,7 @@ armors:
     allowsRunning: true
     damageModifier: 
       - 1.0
-      - 0.7
+      - 0.95
       - 1.2
       - 1.0
       - 1.0
@@ -626,7 +866,7 @@ armors:
     allowsRunning: true
     damageModifier: 
       - 1.0
-      - 0.95
+      - 0.85
       - 1.2
       - 1.0
       - 1.0
@@ -650,7 +890,7 @@ armors:
     visibilityAtDark: 14
     frontArmor: 18
     sideArmor: 18
-    rearArmor: 22
+    rearArmor: 15
     underArmor: 16
     recovery:
       health:
@@ -669,7 +909,7 @@ armors:
     allowsRunning: true
     damageModifier: 
       - 1.0
-      - 0.85
+      - 1.0
       - 1.2
       - 1.0
       - 1.0
@@ -694,9 +934,9 @@ armors:
     corpseBattle:
       - STR_GUNRUNNERS_WORKER_CORPSE
     visibilityAtDark: 9
-    frontArmor: 20
-    sideArmor: 20
-    rearArmor: 20
+    frontArmor: 18
+    sideArmor: 18
+    rearArmor: 18
     underArmor: 12
     recovery:
       health:
@@ -892,7 +1132,7 @@ armors:
     allowsRunning: true
     damageModifier: 
       - 1.0
-      - 0.8
+      - 1.0
       - 1.2
       - 1.0
       - 1.0
@@ -935,7 +1175,7 @@ armors:
     allowsRunning: true
     damageModifier: 
       - 1.0
-      - 0.8
+      - 1.0
       - 1.2
       - 1.0
       - 1.0
@@ -978,7 +1218,7 @@ armors:
     allowsRunning: true
     damageModifier: 
       - 1.0
-      - 0.8
+      - 0.95
       - 1.2
       - 1.0
       - 1.0
@@ -993,4 +1233,398 @@ armors:
       - 1.0
       - 0.0
       - 1.0
+    loftempsSet: [ 3 ]
+
+#Smuglers
+
+  - type: STR_SMUGLER_GOON_INV
+    spriteSheet: SMUG_1.PCK
+    spriteInv: inventory_Smugler_goon
+    corpseBattle:
+      - STR_SMUGLER_GOON_CORPSE
+    visibilityAtDark: 8
+    frontArmor: 12
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 12
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_SMUGLER_NEGOTIATOR_INV
+    spriteSheet: SMUG_2.PCK
+    spriteInv: inventory_Smugler_tommy
+    corpseBattle:
+      - STR_SMUGLER_NEGOTIATOR_CORPSE
+    visibilityAtDark: 8
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_SMUGLER_LANCE_INV
+    spriteSheet: SMUG_3.PCK
+    spriteInv: inventory_Smugler_lance
+    corpseBattle:
+      - STR_SMUGLER_LANCE_CORPSE
+    visibilityAtDark: 10
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_SMUGLER_FIXER_INV
+    spriteSheet: SMUG_4.PCK
+    spriteInv: inventory_Smugler_diaz
+    corpseBattle:
+      - STR_SMUGLER_FIXER_CORPSE
+    visibilityAtDark: 10
+    frontArmor: 28
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 15
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0
+      - 0.8
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
+
+                                                        ###Bikers###
+
+  - type: STR_WST_BIKER_1_INV
+    spriteSheet: WST_BIKER1.PCK
+    spriteInv: inventory_Biker01
+    corpseBattle:
+      - STR_WST_BIKER_1_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 8
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.01
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.95  #Bullets
+      - 1.2   #Fire
+      - 1.0   #High Explosive
+      - 1.0   #Laser
+      - 1.0   #Plasma
+      - 1.0  #Stun
+      - 1.0   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 1.0   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WST_BIKER_2_INV
+    spriteSheet: WST_BIKER2.PCK
+    spriteInv: inventory_Biker02
+    corpseBattle:
+      - STR_WST_BIKER_2_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 10
+    sideArmor: 7
+    rearArmor: 7
+    underArmor: 8
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.01
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.95  #Bullets
+      - 1.2   #Fire
+      - 1.0   #High Explosive
+      - 1.0   #Laser
+      - 1.0   #Plasma
+      - 1.0  #Stun
+      - 1.0   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 1.0   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WST_BIKER_3_INV
+    spriteSheet: WST_BIKER3.PCK
+    spriteInv: inventory_Biker03
+    corpseBattle:
+      - STR_WST_BIKER_3_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 25
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 12
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.01
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.95  #Bullets
+      - 1.2   #Fire
+      - 1.0   #High Explosive
+      - 1.0   #Laser
+      - 1.0   #Plasma
+      - 1.0  #Stun
+      - 1.0   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 1.0   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WST_BIKER_4_INV
+    spriteSheet: WST_BIKER3.PCK
+    spriteInv: inventory_Biker04
+    corpseBattle:
+      - STR_WST_BIKER_4_CORPSE
+    forcedTorso: 2
+    visibilityAtDark: 9
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 8
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.01
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.95  #Bullets
+      - 1.2   #Fire
+      - 1.0   #High Explosive
+      - 1.0   #Laser
+      - 1.0   #Plasma
+      - 1.0  #Stun
+      - 1.0   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 1.0   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WST_BIKER_5_INV
+    spriteSheet: WST_BIKER4.PCK
+    spriteInv: inventory_Biker05
+    corpseBattle:
+      - STR_WST_BIKER_5_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 8
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.01
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.95  #Bullets
+      - 1.2   #Fire
+      - 1.0   #High Explosive
+      - 1.0   #Laser
+      - 1.0   #Plasma
+      - 1.0  #Stun
+      - 1.0   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 1.0   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
     loftempsSet: [ 3 ]

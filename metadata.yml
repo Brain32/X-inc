@@ -1,7 +1,7 @@
 name: "X-inc."
-version: "0.0.001 Dev Only !"
+version: "0.0.500 Dev Build"
 author: "Brain_228"
-description: "The Year 2200, you run a private security organization, and deal with aftermath of alien war on earth."
+description: "Became a private military organization in dystopian cyberpunk world and deal with aftermath of alien war on earth."
 id: X_inc
 master: xcom1
 isMaster: true
@@ -9,4 +9,4 @@ resourceConfig: Ruleset/X-inc.rul
 loadResources:
   - UFO
 reservedSpace: 2
-requiredExtendedVersion: "7.0.0"
+requiredExtendedVersion: "7.9.23"

@@ -1,8 +1,50 @@
 research:
+#Enemies
+  - name: STR_WASTELAND_SCOUT
+    cost: 15
+    points: 25
+    listOrder: 151010
+    getOneFree:
+      - STR_LIBIRATOR_JUNK
+      - STR_LUGER
+      - STR_COLT_REVOLVER
+      - STR_PISTOL_10MM
+      - STR_TEC9
+      - STR_SMG_10MM
+      - STR_JUNKY_SAWED_OFF
+      - STR_OLD_SHOTGUN
+      - STR_RIFLE_AK
+      - STR_OLD_RIFLE_M16
+      - STR_BANDIT_RIFLE
+      - STR_PIPERIFLE
+      - STR_COWRIFLE
+      - STR_OLD_HUNTING_RIFLE
+      - STR_PIPEBOMB
+      - STR_MOLOTOV
   - name: STR_WASTELAND_GOON
-    cost: 10
+    cost: 15
     points: 20
     listOrder: 151010
+    getOneFree:
+      - STR_LIBIRATOR_JUNK
+      - STR_LUGER
+      - STR_COLT_REVOLVER
+      - STR_PISTOL_10MM
+      - STR_TEC9
+      - STR_SMG_10MM
+      - STR_JUNKY_SAWED_OFF
+      - STR_OLD_SHOTGUN
+      - STR_RIFLE_AK
+      - STR_OLD_RIFLE_M16
+      - STR_BANDIT_RIFLE
+      - STR_PIPERIFLE
+      - STR_COWRIFLE
+      - STR_OLD_HUNTING_RIFLE
+      - STR_PIPEBOMB
+      - STR_MOLOTOV
+
+
+
   - name: STR_TIGERCALW_FEMGOON #pedia?
     cost: 10 #balance me
     points: 20
@@ -12,32 +54,283 @@ research:
     points: 20
     listOrder: 151030
   - name: STR_TIGERCALW_WARCHEEF
-    cost: 10 #balance me
+    cost: 15
     points: 20
     listOrder: 151040
   - name: STR_IDDQD
     cost: 1 
     points: 420
     listOrder: 151050
+#DeadRobots
+  - name: STR_CORPSE_OLD_LIGHT_DRONE
+    cost: 25 
+    points: 10
+    needItem: true
+    listOrder: 151050
+  - name: STR_CORPSE_OLD_TURRET_MINIGUN
+    cost: 25
+    points: 10
+    needItem: true
+    listOrder: 151050
+  - name: STR_CORPSE_OLD_SEC_ROBOT
+    cost: 40
+    points: 15
+    needItem: true
+    listOrder: 151050
+#Facileties
+  - name: STR_MEDBAY
+    cost: 50 
+    points: 20
+    dependencies:
+      - STR_WEAPON_SHOPPING
+    listOrder: 151060
+  - name: STR_ADVANCED_MEDBAY
+    cost: 65 
+    points: 30
+    dependencies:
+      - STR_MEDBAY
+    listOrder: 151060
 
 #TechTree
+  - name: STR_SC_34
+
   - name: STR_WEAPON_SHOPPING
     cost: 50 
     points: 40
     listOrder: 151060
+
 #Armour
   - name: STR_CIVIL_VEST_ARMOR_STUDY
     cost: 10 
-    points: 50
+    points: 5
     listOrder: 151060
     dependencies:
       - STR_WEAPON_SHOPPING
-#Guns
+  - name: STR_ARMOUR_SECVEST_STUDY
+    cost: 25
+    points: 25
+    listOrder: 151070
+    dependencies:
+      - STR_CIVIL_VEST_ARMOR_STUDY
+      - STR_WEAPON_SHOPPING
+
+#Items - components
+  - name: STR_OPTRONIC_PARTS
+    cost: 50
+    points: 5
+    needItem: true
+    listOrder: 151070
+  - name: STR_ALIEN_ALLOYS
+    cost: 50
+    points: 5
+    needItem: true
+    listOrder: 151070
+  - name: STR_AQUA_PLASTICS
+    cost: 50
+    points: 5
+    needItem: true
+    listOrder: 151070
+  - name: STR_SC_WIRE
+    cost: 50
+    points: 5
+    needItem: true
+    listOrder: 151070
+  - type: STR_GRAV_MODULE
+    cost: 50
+    points: 5
+    needItem: true
+    listOrder: 151070
+#Guns - Melee
+
+#Guns - Bows
+
+#Guns - Pistols
+        #JunkTier
+  - name: STR_LIBIRATOR_JUNK
+    cost: 3
+    points: 5
+    needItem: true
+    listOrder: 151070
+  - name: STR_PISTOL_10MM
+    cost: 5
+    points: 10
+    needItem: true
+    listOrder: 151070
+  - name: STR_LUGER
+    cost: 3
+    points: 5
+    needItem: true
+    listOrder: 151070
+  - name: STR_COLT_REVOLVER
+    cost: 3
+    points: 5
+    needItem: true
+    listOrder: 151070
+        #GaussTier
+  - name: STR_HB_GAUSS_PISTOL
+    cost: 15
+    points: 5
+    needItem: true
+    listOrder: 151070
+
+#Guns - Shotguns
+        #JunkTier
+  - name: STR_JUNKY_SAWED_OFF
+    cost: 1
+    points: 5
+    needItem: true
+    listOrder: 151070
+  - name: STR_OLD_SHOTGUN
+    cost: 3
+    points: 5
+    needItem: true
+    listOrder: 151070
+        #MilitaryTier
+  - name: STR_SHOTGUN_STREETCLEANER
+    cost: 5
+    points: 5
+    needItem: true
+    listOrder: 151070
+  - name: STR_AUTOSHOTGUN1
+    cost: 5
+    points: 5
+    needItem: true
+    listOrder: 151070
+
+
+#Guns - SMG
+        #JunkTier
+  - name: STR_SMG_10MM
+    cost: 10
+    points: 10
+    needItem: true
+    listOrder: 151070
+  - name: STR_TEC9
+    cost: 3
+    points: 5
+    needItem: true
+    listOrder: 151070
+  - name: STR_FN_P90_NEO
+    cost: 3
+    points: 5
+    needItem: true
+    listOrder: 151070
+
+
+#Guns - Rifles
+        #JunkTier
+  - name: STR_OLD_RIFLE_M16
+    cost: 2
+    points: 5
+    needItem: true
+    destroyItem: true
+  - name: STR_RIFLE_AK
+    cost: 3
+    points: 5
+    needItem: true
+    destroyItem: true
+  - name: STR_BANDIT_RIFLE
+    cost: 5
+    points: 10
+    needItem: true
+    destroyItem: true
+  - name: STR_M52S_AJAX_RIFLE
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+        #GaussTier
+  - name: STR_HB_GAUSS_RIFLE
+    cost: 20
+    points: 15
+    needItem: true
+    destroyItem: true
+  - name: STR_HB_GAUSS_RIFLE_MOD
+    cost: 25
+    points: 15
+    needItem: true
+    destroyItem: true
+
+#Guns - SniperRifles
+        #JunkTier
+  - name: STR_PIPERIFLE
+    cost: 3
+    points: 5
+    needItem: true
+    destroyItem: true
+  - name: STR_COWRIFLE
+    cost: 5
+    points: 10
+    needItem: true
+    destroyItem: true
+  - name: STR_OLD_HUNTING_RIFLE
+    cost: 5
+    points: 10
+    needItem: true
+    destroyItem: true
+
+#Guns - Grenades
+  - name: STR_PIPEBOMB
+    cost: 3
+    points: 10
+    needItem: true
+    listOrder: 151070
+  - name: STR_MOLOTOV
+    cost: 3
+    points: 5
+    needItem: true
+    listOrder: 151070
+  - name: STR_SMOKE_GRENADE
+    cost: 5
+    points: 15
+    needItem: true
+    listOrder: 151070
+  - name: STR_GRENADE
+    cost: 5
+    points: 15
+    needItem: true
+    listOrder: 151070
+
+#Guns - Minigun
+  - name: STR_FLAMETHROWER_DIY
+    cost: 10
+    points: 5
+    needItem: true
+    destroyItem: true
+  - name: STR_FLAMETHROWER
+    cost: 20
+    points: 20
+    needItem: true
+    destroyItem: true
+
+#Guns - Minigun
+  - name: STR_MINIGUN
+    cost: 15
+    points: 20
+    needItem: true
+    destroyItem: true
+  - name: STR_MINIGUN_2
+    cost: 20
+    points: 30
+    needItem: true
+    destroyItem: true
+
+#Mines
+  - name: STR_MINE
+    cost: 5
+    points: 10
+    needItem: true
+    listOrder: 151070
 
 #LootBox
   - name: STR_WEAPON_LOOTBOX_CHEAP
-    cost: 5
+    cost: 1
     points: 10
+    needItem: true
+    listOrder: 151070
+  - name: STR_LOOTBOX6
+    cost: 1
+    points: 15
     needItem: true
     listOrder: 151070
 
@@ -45,17 +338,13 @@ research:
     dependencies:
       - STR_TEST_EVENT
 
-
-  - name: STR_SMOKE_GRENADE
-    cost: 5
-    points: 15
-    needItem: true
+#MissionTrigger
+  - name: STR_SCAVENGERS_OLD_MILBASE_MISSION_RES
+    cost: 5                                            #<--- Fix Me Fag
+    points: 20
     listOrder: 151070
 
-                                    #GUNS SMG's#
-
-  - name: STR_SMG_10MM
-    cost: 10
-    points: 10
-    needItem: true
-    listOrder: 151070
+#TransforamtionsNatural
+  - name: STR_BASIC_FIREARMS_TRAINING
+    cost: 15
+    points: 25

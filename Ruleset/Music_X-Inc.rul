@@ -6,3 +6,5 @@ musics:
   - type: MISCOM
   - type: HOTLINEPIZ
   - type: CLUB
+  - type: MOVEIT
+  - type: END

@@ -7,8 +7,8 @@ facilities:
     buildTime: 25
     monthlyCost: 25000
     crafts: 1
-    workshops: 5
-    storage: 5 #OXCE bonus because of change in handling craft storage
+    workshops: 5 #Cuz you start with no worspace
+    storage: 10 #OXCE bonus because of change in handling craft storage
     storageTiles: [[-1, -1, -1]]
     mapName: XBASE_16
   - type: STR_GENERAL_STORES
@@ -17,8 +17,6 @@ facilities:
     buildCost: 180000
     buildTime: 8
     monthlyCost: 5000
-    aliens: 20
-    prisonType: 4
     storage: 75
     mapName: XBASE_07
     listOrder: 6850
@@ -29,16 +27,67 @@ facilities:
     buildTime: 16
     monthlyCost: 8000
     aliens: 12
-    prisonType: 1
     mapName: XBASS_27
     listOrder: 7030
   - type: STR_GYM
     spriteShape: 1
     spriteFacility: 866
     provideBaseFunc: [GYM]
-    buildCost: 140000
-    buildTime: 20
+    buildCost: 150000
+    buildTime: 22
     monthlyCost: 35000
-    trainingRooms: 10
+    trainingRooms: 8
     mapName: XBASS_23
     listOrder: 6960
+  - type: STR_MEDBAY
+    requires:
+      - STR_MEDBAY
+    spriteShape: 1
+    spriteFacility: 868
+    provideBaseFunc: [MEDICAL_BAY]
+    buildCost: 170000
+    buildTime: 24
+    monthlyCost: 23000
+    sickBayAbsoluteBonus: 0.55
+    sickBayRelativeBonus: 0.5
+    mapName: XBASS_25                            #<---------- Fix me !
+    rightClickActionType: 6
+    listOrder: 6960
+  - type: STR_ADVANCED_MEDBAY
+    requires:
+      - STR_ADVANCED_MEDBAY
+    spriteShape: 1
+    spriteFacility: 869
+    provideBaseFunc: [ADV_MEDICAL_BAY]
+    buildCost: 600000
+    buildTime: 30
+    monthlyCost: 48000
+    sickBayAbsoluteBonus: 0.85
+    sickBayRelativeBonus: 1.4
+    mapName: XBASS_25                            #<---------- Fix me !
+    rightClickActionType: 6
+    listOrder: 6960
+
+  - type: STR_HQ
+    spriteShape: 1
+    spriteFacility: 317
+    provideBaseFunc: [HQ]
+    buildCost: 2600000
+    buildTime: 42
+    monthlyCost: 27000
+    canBeBuiltOver: true
+    labs: 10
+    rightClickActionType: 3
+    radarRange: 995
+    radarChance: 2
+    mapName: XBASS_22                            #<---------- Fix me !
+    listOrder: 6830
+  - type: STR_CORRIDOR
+    spriteShape: 3
+    spriteFacility: 867
+    buildCost: 75000
+    buildTime: 6
+    monthlyCost: 2000
+    canBeBuiltOver: true
+    mapName: XBASS_24
+    listOrder: 6810

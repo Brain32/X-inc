@@ -1,0 +1,75 @@
+soldierBonuses:
+  - name: STR_BASIC_FIREARMS_TRAINING
+    stats:
+      mana: 1
+  - name: STR_MELEE_PSYCHO_1
+    stats:
+      stamina: 2
+  - name: STR_MELEE_PSYCHO_2
+    stats:
+      tu: 1
+  - name: STR_MELEE_PSYCHO_3
+    stats:
+      stamina: 2
+  - name: STR_MELEE_PSYCHO_4
+    stats:
+      tu: 1
+  - name: STR_MELEE_PSYCHO_5
+    stats:
+      stamina: 2
+    recovery:
+      energy:
+        flatOne: 2
+  - name: STR_MELEE_PSYCHO_6
+    stats:
+      tu: 1
+  - name: STR_MELEE_PSYCHO_7
+    stats:
+      stamina: 2
+  - name: STR_MELEE_PSYCHO_8
+    stats:
+      tu: 1
+  - name: STR_MELEE_PSYCHO_9
+    stats:
+      stamina: 2
+  - name: STR_MELEE_PSYCHO_10
+    stats:
+      tu: 1
+      stamina: 2
+      bravery: 10
+  - name: STR_OLD_WOLRD_ENJOYER_1
+    stats:
+      firing: 1
+  - name: STR_OLD_WOLRD_ENJOYER_2
+    stats:
+      reactions: 1
+  - name: STR_OLD_WOLRD_ENJOYER_3
+    stats:
+      firing: 1
+  - name: STR_OLD_WOLRD_ENJOYER_4
+    stats:
+      reactions: 1
+  - name: STR_OLD_WOLRD_ENJOYER_5
+    stats:
+      firing: 1
+      mana: 5
+  - name: STR_OLD_WOLRD_ENJOYER_6
+    stats:
+      reactions: 1
+  - name: STR_OLD_WOLRD_ENJOYER_7
+    stats:
+      firing: 1
+  - name: STR_OLD_WOLRD_ENJOYER_8
+    stats:
+      reactions: 1
+  - name: STR_OLD_WOLRD_ENJOYER_9
+    stats:
+      stamina: 2
+  - name: STR_OLD_WOLRD_ENJOYER_10
+    stats:
+      firing: 1
+    recovery:
+      energy:
+        flatOne: 2
+      bravery: 10
+

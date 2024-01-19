@@ -1,5 +1,5 @@
 ufos:
-  - type: STR_SNEED_SHACK
+  - type: STR_SNEED_SHACK_UFO
     size: STR_SMALL
     sprite: 0
     damageMax: 500
@@ -297,3 +297,89 @@ ufos:
               - [17, 7, 0]
               - [14, 2, 1]
               - [13, 2, 1]
+
+#Old Base
+  - type: STR_ABANDAND_MILITARY_BASE_UFO
+    size: STR_SMALL
+    sprite: 0
+    damageMax: 500
+    speedMax: 5000
+    accel: 10
+    power: 40
+    range: 20
+    score: 700
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: STR_RAIDER_OUTPOST
+      mapDataSets:
+      - BLANKS
+      - XCOMENTRY
+      - ABAMILBASE_WALLS
+      - ABAMILBASE_INTER
+      - ABAMILBASE_EXTRA
+    mapBlocks:
+      - name: ABANDONED_BASE_01
+        width: 50
+        length: 30
+        items:
+            STR_SPAWN_OLD_TURRET:
+              - [22, 22, 3]
+              - [22, 27, 3]
+              - [2, 17, 3]
+              - [2, 8, 3]
+              - [2, 17, 1]
+              - [2, 8, 1]
+              - [23, 27, 1]
+              - [23, 2, 1]
+              - [27, 10, 1]
+              - [42, 2, 1]
+              - [47, 14, 1]
+              - [47, 21, 1]
+            STR_SPAWN_RANGER01:
+              - [42, 11, 3]
+              - [44, 20, 3]
+              - [43, 10, 3]
+              - [41, 24, 3]
+              - [47, 14, 3]
+            STR_EMP_GRENADE:
+              - [2, 25, 3]
+              - [7, 11, 2]
+              - [8, 20, 1]
+      - name: ABANDONED_BASE_02
+        width: 50
+        length: 30
+        items:
+            STR_SPAWN_OLD_TURRET:
+              - [22, 2, 4]
+              - [22, 5, 4]
+              - [2, 11, 4]
+              - [2, 21, 4]
+              - [18, 27, 2]
+              - [22, 27, 2]
+              - [31, 8, 2]
+              - [11, 11, 2]
+              - [35, 2, 2]
+              - [41, 8, 2]
+              - [47, 21, 2]
+              - [38, 27, 0]
+              - [38, 2, 0]
+            STR_SPAWN_RANGER01:
+              - [42, 13, 4]
+              - [40, 5, 4]
+              - [45, 15, 4]
+              - [45, 1, 4]
+              - [44, 13, 4]
+            STR_EMP_GRENADE:
+              - [1, 23, 4]
+              - [1, 22, 3]
+              - [11, 23, 2]
+              - [13, 8, 2]
+              - [39, 26, 2]
+      - name: ABANDONED_BASE_03
+        width: 50
+        length: 30
+        items:
+            STR_SPAWN_OLD_TURRET:
+              - [22, 8, 4]
+              - [27, 8, 4]

@@ -624,7 +624,16 @@ terrains:
       - name: XBASE_20
         width: 10
         length: 10
+      - name: XBASS_22 # HQ
+        width: 10
+        length: 10
       - name: XBASS_23 # Gym
+        width: 10
+        length: 10
+      - name: XBASS_24 # Corridor
+        width: 10
+        length: 10
+      - name: XBASS_25 # Sick bay
         width: 10
         length: 10
       - name: XBASS_27 # Prison Cells
@@ -970,6 +979,329 @@ terrains:
         width: 30
         length: 30
         groups: [0, 1]
-
-
-
+#Cyberslums Hires Building
+  - name: CYBERSLUM_HRHOUSE
+    mapDataSets:
+      - BLANKS
+      - XCOMENTRY
+      - CYBERSLUMS
+      - CYBERSLUMS_FURNITURE
+      - CYBERSLUMS_MEDDICORE
+    script: CYBERSLUM_HRHOUSE
+    mapBlocks:
+      - name: CYBERSLUM_HRHOUSE_01
+        width: 30
+        length: 30
+#Cyberslums RegularTerrain
+  - name: CYBERSLUMS
+    mapDataSets:
+      - BLANKS
+      - CYBERSLUMS
+      - CYBERSLUMS_FURNITURE
+      - CYBERSLUMS_MEDDICORE
+    script: CYBERSLUMS1
+    mapBlocks:
+      - name: CYBERSLUMS01
+        width: 10
+        length: 10
+        groups: [0,1]
+      - name: CYBERSLUMS02
+        width: 10
+        length: 10
+        groups: [0,1]
+      - name: CYBERSLUMS03
+        width: 10
+        length: 10
+        groups: [0,1]
+      - name: CYBERSLUMS04
+        width: 10
+        length: 10
+        groups: [0,1]
+      - name: CYBERSLUMS05
+        width: 10
+        length: 10
+        groups: [0,1]
+      - name: CYBERSLUMS06
+        width: 10
+        length: 10
+      - name: CYBERSLUMS07
+        width: 10
+        length: 10
+      - name: CYBERSLUMS08
+        width: 10
+        length: 10
+      - name: CYBERSLUMS09
+        width: 10
+        length: 10
+      - name: CYBERSLUMS10
+        width: 10
+        length: 10
+      - name: CYBERSLUMS11
+        width: 10
+        length: 10
+      - name: CYBERSLUMS12
+        width: 10
+        length: 10
+      - name: CYBERSLUMS13
+        width: 10
+        length: 10
+      - name: CYBERSLUMS14
+        width: 10
+        length: 10
+      - name: CYBERSLUMS15
+        width: 10
+        length: 10
+      - name: CYBERSLUMS16
+        width: 10
+        length: 10
+      - name: CYBERSLUMS17
+        width: 10
+        length: 10
+      - name: CYBERSLUMS18
+        width: 10
+        length: 10
+      - name: CYBERSLUMS19
+        width: 10
+        length: 10
+      - name: CYBERSLUMS20
+        width: 20
+        length: 20
+      - name: CYBERSLUMS21
+        width: 20
+        length: 20
+      - name: CYBERSLUMS22
+        width: 20
+        length: 20
+      - name: CYBERSLUMS23
+        width: 20
+        length: 20
+      - name: CYBERSLUMS24
+        width: 20
+        length: 20
+      - name: CYBERSLUMS25
+        width: 20
+        length: 20
+      - name: CYBERSLUMS_WALL_01
+        width: 20
+        length: 20
+        groups: 9
+      - name: CYBERSLUMS_WALL_02
+        width: 20
+        length: 20
+        groups: 9
+      - name: CYBERSLUMS_WALL_03
+        width: 20
+        length: 20
+        groups: 9
+      - name: CYBERSLUMS_WALL_04
+        width: 20
+        length: 20
+        groups: 9
+      - name: CYBERSLUMS_WALL_05
+        width: 20
+        length: 20
+        groups: 9
+      - name: CYBERSLUMS_WALL_06
+        width: 20
+        length: 20
+        groups: 9
+  - name: CYBERSLUMS_ROADS_CANALS
+    mapDataSets:
+      - BLANKS
+      - CYBERSLUMS_CANAL
+      - CYBERSLUMS_CARS
+      - CYBERSLUMS_ROAD
+      - CYBERSLUMS_MEDDICORE
+    mapBlocks:
+      - name: CYBERSLUMS_CANAL_01
+        width: 10
+        length: 10
+        groups: 7
+      - name: CYBERSLUMS_CANAL_02
+        width: 10
+        length: 10
+        groups: 7
+      - name: CYBERSLUMS_CANAL_03
+        width: 10
+        length: 10
+        groups: 7
+      - name: CYBERSLUMS_CANAL_04
+        width: 10
+        length: 10
+        groups: 7
+      - name: CYBERSLUMS_CANAL_05
+        width: 10
+        length: 10
+        groups: 7
+      - name: CYBERSLUMS_CANAL_06
+        width: 10
+        length: 10
+        groups: 7
+      - name: CYBERSLUMS_ROAD_01
+        width: 20
+        length: 20
+        groups: 3
+      - name: CYBERSLUMS_ROAD_02
+        width: 20
+        length: 20
+        groups: 3
+      - name: CYBERSLUMS_ROAD_03
+        width: 20
+        length: 20
+        groups: 3
+      - name: CYBERSLUMS_ROAD_04
+        width: 20
+        length: 20
+        groups: 3
+      - name: CYBERSLUMS_ROAD_05
+        width: 20
+        length: 20
+        groups: 3
+      - name: CYBERSLUMS_ROAD_06
+        width: 20
+        length: 20
+        groups: 3
+      - name: CYBERSLUMS_ROAD_07
+        width: 20
+        length: 20
+        groups: 3
+      - name: CYBERSLUMS_ROAD_08
+        width: 20
+        length: 20
+        groups: 3
+      - name: CYBERSLUMS_CROSSROAD_01 #crossing of 2 roads
+        width: 20
+        length: 20
+        groups: 4
+      - name: CYBERSLUMS_CROSSROAD_02 #crossing of 2 roads
+        width: 20
+        length: 20
+        groups: 4
+      - name: CYBERSLUMS_CROSSROAD_B_01 #crossing of high road with normal terrain
+        width: 20
+        length: 20
+        groups: 2
+      - name: CYBERSLUMS_CROSSROAD_B_02 #crossing of high road with normal terrain
+        width: 20
+        length: 20
+        groups: 2
+      - name: CYBERSLUMS_CROSSROAD_CANAL_01 #crossing of high road with canal
+        width: 20
+        length: 20
+        groups: 5
+      - name: CYBERSLUMS_CROSSROAD_CANAL_02 #crossing of high road with canal
+        width: 20
+        length: 20
+        groups: 5
+      - name: CYBERSLUMS_CROSSROAD_C_01 #crossing of high road with wall
+        width: 20
+        length: 20
+        groups: 6
+#Old MilitaryBase 
+  - name: ABANDONED_BASE
+    mapDataSets:
+      - BLANKS
+      - XCOMENTRY
+      - ABAMILBASE_WALLS
+      - ABAMILBASE_INTER
+      - ABAMILBASE_EXTRA
+    script: ABANDONED_BASE
+    mapBlocks:
+      - name: ABANDONED_BASE_01
+        width: 50
+        length: 30
+        items:
+            STR_SPAWN_OLD_TURRET:
+              - [22, 22, 3]
+              - [22, 27, 3]
+              - [2, 17, 3]
+              - [2, 8, 3]
+              - [2, 17, 1]
+              - [2, 8, 1]
+              - [23, 27, 1]
+              - [23, 2, 1]
+              - [27, 10, 1]
+              - [42, 2, 1]
+              - [47, 14, 1]
+              - [47, 21, 1]
+            STR_SPAWN_RANGER01:
+              - [42, 11, 3]
+              - [44, 20, 3]
+              - [43, 10, 3]
+              - [41, 24, 3]
+              - [47, 14, 3]
+            STR_EMP_GRENADE:
+              - [2, 25, 3]
+              - [7, 11, 2]
+              - [8, 12, 1]
+              - [8, 20, 1]
+              - [17, 22, 1]
+      - name: ABANDONED_BASE_02
+        width: 50
+        length: 30
+        items:
+            STR_SPAWN_OLD_TURRET:
+              - [22, 2, 4]
+              - [22, 5, 4]
+              - [2, 11, 4]
+              - [2, 21, 4]
+              - [18, 27, 2]
+              - [22, 27, 2]
+              - [31, 8, 2]
+              - [11, 11, 2]
+              - [35, 2, 2]
+              - [41, 8, 2]
+              - [47, 21, 2]
+              - [38, 27, 0]
+              - [38, 2, 0]
+            STR_SPAWN_RANGER01:
+              - [42, 13, 4]
+              - [40, 5, 4]
+              - [45, 15, 4]
+              - [45, 1, 4]
+              - [44, 13, 4]
+            STR_EMP_GRENADE:
+              - [1, 23, 4]
+              - [1, 22, 3]
+              - [14, 11, 4]
+              - [11, 23, 2]
+              - [13, 8, 2]
+              - [39, 26, 2]
+      - name: ABANDONED_BASE_03
+        width: 50
+        length: 30
+        items:
+            STR_SPAWN_OLD_TURRET:
+              - [22, 8, 4]
+              - [27, 8, 4]
+              - [15, 10, 4]
+              - [2, 24, 4]
+              - [2, 11, 2]
+              - [9, 23, 2]
+              - [17, 15, 2]
+              - [17, 2, 2]
+              - [24, 2, 2]
+              - [23, 9, 2]
+              - [23, 22, 2]
+              - [30, 20, 2]
+              - [41, 19, 2]
+              - [34, 2, 2]
+              - [2, 6, 1]
+              - [9, 2, 1]
+              - [19, 2, 1]
+              - [26, 6, 1]
+            STR_SPAWN_RANGER01:
+              - [35, 13, 4]
+              - [36, 16, 4]
+              - [37, 14, 4]
+              - [38, 17, 4]
+              - [40, 13, 4]
+            STR_EMP_GRENADE:
+              - [29, 17, 4]
+              - [26, 26, 4]
+              - [15, 20, 4]
+              - [1, 6, 3]
+              - [4, 5, 2]
+              - [34, 21, 2]
+              - [36, 4, 2]
+              - [21, 12, 1]

@@ -1,5 +1,5 @@
 alienRaces:
-  - id: STR_WASTELAND_RAIDERS
+  - id: STR_RACE_WASTELAND_RAIDERS
     members:
       - STR_WASTELAND_GOON
       - STR_WASTELAND_GOON
@@ -11,7 +11,7 @@ alienRaces:
       - STR_WASTELAND_BOSS
       - STR_WASTELAND_BOSS
     retaliationAggression: -100
-  - id: STR_GUNRUNNERS
+  - id: STR_RACE_GUNRUNNERS
     members:
       - STR_GUNRUNNER_WORKER
       - STR_GUNRUNNER_WORKER
@@ -21,19 +21,19 @@ alienRaces:
       - STR_GUNRUNNER_WORKER
       - STR_GUNRUNNER_WORKER
     retaliationAggression: -100
-  - id: STR_TIGERCALW
+  - id: STR_RACE_TIGERCALW
     members:
+      - STR_TIGERCALW_GOON
+      - STR_TIGERCALW_GOON
+      - STR_TIGERCALW_GOON
+      - STR_TIGERCALW_GOON
       - STR_TIGERCALW_FEMGOON
       - STR_TIGERCALW_FEMGOON
-      - STR_TIGERCALW_GOON
-      - STR_TIGERCALW_GOON
-      - STR_TIGERCALW_GOON
-      - STR_TIGERCALW_GOON
-      - STR_TIGERCALW_GOON
+      - STR_TIGERCALW_FEMGOON
       - STR_TIGERCALW_WARCHEEF
       - STR_TIGERCALW_WARCHEEF
     retaliationAggression: -100
-  - id: STR_SYNDICATE
+  - id: STR_RACE_SYNDICATE
     members:
       - STR_SYNDICATE_SOLDIER # 0; placeholder
       - STR_SYNDICATE_SOLDIER # 1; placeholder
@@ -44,4 +44,41 @@ alienRaces:
       - STR_SYNDICATE_SOLDIER # 6; placeholder
       - STR_SYNDICATE_SOLDIER # 7; placeholder
       - STR_SYNDICATE_SOLDIER # 8; placeholder
+    retaliationAggression: -100
+  - id: STR_RACE_SMUGLERS
+    members:
+      - STR_SMUGLER_GOON # 0; placeholder
+      - STR_SMUGLER_GOON # 1; placeholder
+      - STR_SMUGLER_GOON # 2; placeholder
+      - STR_SMUGLER_NEGOTIATOR # 3
+      - STR_SMUGLER_NEGOTIATOR # 4
+      - STR_SMUGLER_LANCE # 5
+      - STR_SMUGLER_LANCE # 6; placeholder
+      - STR_SMUGLER_FIXER # 7; placeholder
+      - STR_SMUGLER_FIXER # 8; placeholder
+    retaliationAggression: -100
+  - id: STR_RACE_BIKERS
+    members:
+      - STR_WST_BIKER_5
+      - STR_WST_BIKER_4
+      - STR_WST_BIKER_3
+      - STR_WST_BIKER_3
+      - STR_WST_BIKER_2
+      - STR_WST_BIKER_2
+      - STR_WST_BIKER_1
+      - STR_WST_BIKER_1
+      - STR_WST_BIKER_1
+
+
+  - id: STR_RACE_OLD_ROBOTS
+    members:
+      - STR_OLD_SEC_ROBOT
+      - STR_OLD_SEC_ROBOT
+      - STR_OLD_SEC_ROBOT
+      - STR_OLD_LIGHT_DRONE
+      - STR_OLD_LIGHT_DRONE
+      - STR_OLD_LIGHT_DRONE
+      - STR_OLD_LIGHT_DRONE
+      - STR_OLD_LIGHT_DRONE
+      - STR_OLD_LIGHT_DRONE
     retaliationAggression: -100

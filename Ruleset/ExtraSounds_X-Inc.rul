@@ -75,7 +75,17 @@ extraSounds:
       171: Resources/Sounds/Reload/OICW_REL.wav
       172: Resources/Sounds/Fire/PIZZA_SHOT.wav
       173: Resources/Sounds/Reload/PIZZA_LOAD.wav
-
+      174: Resources/Sounds/Hit/SniperHit.wav
+      175: Resources/Sounds/Fire/SniperFire.wav
+      176: Resources/Sounds/Fire/MINIGUNFIRE.wav
+      177: Resources/Sounds/Reload/Minigun.wav
+      178: Resources/Sounds/Death/ROBOT_2.wav
+      179: Resources/Sounds/Fire/Gauss1.wav
+      180: Resources/Sounds/Reload/GaussRL.wav
+      181: Resources/Sounds/Fire/Flamerburst.wav
+      182: Resources/Sounds/Reload/flamethrower_r.wav
+      183: Resources/Sounds/Activation/Mine1.wav
+      184: Resources/Sounds/Hit/BluntHit.wav
   - type: GEO.CAT
     files:
       0: Resources/Sounds/Menu/Click.wav

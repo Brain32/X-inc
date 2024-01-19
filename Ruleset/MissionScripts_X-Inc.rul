@@ -92,4 +92,39 @@ missionScripts:
     startDelay: 20
     randomDelay: 43500
 
+  - type: CityGangHRTakeover
+    firstMonth: 0
+    executionOdds: 100 
+    missionWeights:
+      0:
+        STR_GANG_HI_RISE_HOUSE_TAKEOVER: 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
 
+                                                          ### OldRobots ###
+
+  - type: OldMilitaryBaseApprehension
+    firstMonth: 0
+    executionOdds: 65
+    missionWeights:
+      0:
+        STR_ABANDAND_MILITARY_APPREHENSION: 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+    useTable: false
+    maxRuns: 6
+    varName: MilBaseMaxRuns
+    researchTriggers: STR_SCAVENGERS_OLD_MILBASE_MISSION_RES
+    startDelay: 20
+    randomDelay: 43500

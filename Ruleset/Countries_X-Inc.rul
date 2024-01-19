@@ -1,6 +1,6 @@
 countries:
   - type: STR_USA
-    fundingBase: 50
+    fundingBase: 120
     fundingCap: 6000
     labelLon: 260
     labelLat: -40
@@ -12,7 +12,7 @@ countries:
       - [277.5, 286, -44, -32]
       - [286, 292.5, -45.5, -40]
   - type: STR_RUSSIA
-    fundingBase: 35
+    fundingBase: 90
     fundingCap: 4000
     labelLon: 60
     labelLat: -60
@@ -23,28 +23,28 @@ countries:
       - [75, 165, -80, -50]
       - [165, 170, -70, -59]
   - type: STR_UK
-    fundingBase: 25
+    fundingBase: 70
     fundingCap: 8500
     labelLon: 358
     labelLat: -53.625
     areas:
       - [352, 2, -60, -50]
   - type: STR_FRANCE
-    fundingBase: 25
+    fundingBase: 80
     fundingCap: 8000
     labelLon: 2.5
     labelLat: -46.5
     areas:
       - [355, 7, -50, -43]
   - type: STR_GERMANY
-    fundingBase: 25
+    fundingBase: 75
     fundingCap: 9000
     labelLon: 11.5
     labelLat: -50
     areas:
       - [6, 15, -55, -47.5]
   - type: STR_ITALY
-    fundingBase: 25
+    fundingBase: 60
     fundingCap: 6000
     labelLon: 12.5
     labelLat: -43.875
@@ -52,7 +52,7 @@ countries:
       - [7, 15, -46.5, -43]
       - [11, 18, -43, -37]
   - type: STR_SPAIN
-    fundingBase: 15
+    fundingBase: 55
     fundingCap: 5000
     labelLon: 357.5
     labelLat: -42.625
@@ -60,7 +60,7 @@ countries:
       - [353, 3, -43, -36.5]
       - [351, 353, -43, -42.25]
   - type: STR_CHINA
-    fundingBase: 20
+    fundingBase: 130
     fundingCap: 7000
     labelLon: 100
     labelLat: -35
@@ -69,7 +69,7 @@ countries:
       - [98, 122, -50, -22]
       - [122, 133, -54, -40]
   - type: STR_JAPAN
-    fundingBase: 16
+    fundingBase: 90
     fundingCap: 50000
     labelLon: 138
     labelLat: -38.25
@@ -77,7 +77,7 @@ countries:
       - [130, 143, -40, -30]
       - [138, 147, -46, -40]
   - type: STR_INDIA
-    fundingBase: 15
+    fundingBase: 75
     fundingCap: 5000
     labelLon: 80
     labelLat: -24
@@ -86,7 +86,7 @@ countries:
       - [74, 79, -35, -30]
       - [85, 95, -27, -20]
   - type: STR_BRAZIL
-    fundingBase: 10
+    fundingBase: 50
     fundingCap: 2000
     labelLon: 305
     labelLat: 5
@@ -96,7 +96,7 @@ countries:
       - [310, 325, 0, 24]
       - [305, 313, 22, 32]
   - type: STR_AUSTRALIA
-    fundingBase: 18
+    fundingBase: 45
     fundingCap: 4500
     labelLon: 135
     labelLat: 25
@@ -110,7 +110,7 @@ countries:
     areas:
       - [3, 14, -14, -4]
   - type: STR_SOUTH_AFRICA
-    fundingBase: 12
+    fundingBase: 45
     fundingCap: 3000
     labelLon: 25
     labelLat: 30
@@ -118,14 +118,14 @@ countries:
       - [15, 25, 26, 35]
       - [25, 32.5, 22, 35]
   - type: STR_EGYPT
-    fundingBase: 15
+    fundingBase: 65
     fundingCap: 2000
     labelLon: 29
     labelLat: -26
     areas:
       - [25, 35, -32, -22]
   - type: STR_CANADA
-    fundingBase: 10
+    fundingBase: 70
     fundingCap: 4000
     labelLon: 260
     labelLat: -55
