@@ -451,7 +451,7 @@
               -
                 []
                                                 ### FullHouse ###
-  - type: STR_GANG_HR_TAKEOVER
+  - type: STR_GANG_HI_RISE_HOUSE_TAKEOVER
     width: 30
     length: 30
     height: 16
