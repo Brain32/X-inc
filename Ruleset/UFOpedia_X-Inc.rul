@@ -1,6 +1,19 @@
 ufopaedia:
 #HWP
-
+  - id: STR_TANK_CANNON
+    type_id: 3
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: STR_TANK_CANNON_UFOPEDIA
+    weapon: STR_CANNON
+    requires:
+      - STR_IDDQD
+  - id: STR_TANK_ROCKET_LAUNCHER
+    type_id: 3
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: STR_TANK_ROCKET_LAUNCHER_UFOPEDIA
+    weapon: STR_ROCKET_LAUNCHER
+    requires:
+      - STR_IDDQD
 #armours
         #Humans
   - id: STR_RUNNERCOAT_UC
@@ -232,6 +245,20 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_CARBONBLADE_UFOPEDIA
+    requires:
+      - STR_WEAPON_SHOPPING
+    listOrder: 12060
+  - id: STR_HAMMER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HAMMER_UFOPEDIA
+    requires:
+      - STR_WEAPON_SHOPPING
+    listOrder: 12060
+  - id: STR_SUPER_HAMMER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SUPER_HAMMER_UFOPEDIA
     requires:
       - STR_WEAPON_SHOPPING
     listOrder: 12060
@@ -471,7 +498,6 @@ ufopaedia:
     text: STR_PIPERIFLE_UFOPEDIA
     requires:
       - STR_IDDQD
-
   - id: STR_OLD_HUNTING_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -716,6 +742,17 @@ ufopaedia:
     requires:
       - STR_IDDQD
   - id: STR_SNIPER_RIFLE_LT_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_MSR770
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MSR770_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_MSR770_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1279,7 +1316,12 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
-
+  - id: STR_SSRL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SSRL_UFOPEDIA
+    requires:
+      - STR_IDDQD
                                   #Mines#
   - id: STR_MINE
     type_id: 4
@@ -1308,7 +1350,7 @@ ufopaedia:
     requires:
       - STR_IDDQD
 
-                                  #O
+                                  #SupportShit
 
 
   - id: STR_SMOKE_GRENADE
@@ -1384,6 +1426,11 @@ ufopaedia:
     type_id: 6
     section: STR_BASE_FACILITIES
     text: STR_CORRIDOR_UFOPEDIA
+    listOrder: 6870
+  - id: STR_POWER_PLANT
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_POWER_PLANT_UFOPEDIA
     listOrder: 6870
 #--------------------------------------------------Factions
 #Smuglers
@@ -1473,6 +1520,8 @@ ufopaedia:
     text_width: 154
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_BASICSHOOTING_UFOPEDIA
+    requires:
+      - STR_BASIC_FIREARMS_TRAINING
     listOrder: 270650
 #Missions
   - id: OLD_MILBASE_MISSION_PED
@@ -1641,6 +1690,40 @@ ufopaedia:
       height: 56
     text: STR_CICADA_UFOPEDIA
     listOrder: 382
+  - id: STR_SKYRANGER
+    type_id: 1
+    requires:
+      - STR_IDDQD
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: UP004.SPK
+    rect_stats:
+      x: 160
+      y: 5
+      width: 160
+      height: 60
+    rect_text:
+      x: 5
+      y: 40
+      width: 140
+      height: 100
+    text: STR_SKYRANGER_UFOPEDIA
+  - id: STR_INTERCEPTOR
+    type_id: 1
+    requires:
+      - STR_IDDQD
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: UP002.SPK
+    rect_stats:
+      x: 5
+      y: 110
+      width: 160
+      height: 60
+    rect_text:
+      x: 5
+      y: 40
+      width: 210
+      height: 60
+    text: STR_INTERCEPTOR_UFOPEDIA
 
                            ###REWARDS AND COMENDATIONS###
 

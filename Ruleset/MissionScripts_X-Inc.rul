@@ -13,7 +13,7 @@ missionScripts:
                                                           ### Radiers ###
 
   - type: WastelandGang
-    firstMonth: 0
+    firstMonth: 1
     executionOdds: 70
     missionWeights:
       0:
@@ -28,7 +28,7 @@ missionScripts:
     startDelay: 20
     randomDelay: 43500
   - type: Wastelandfactory
-    firstMonth: 0
+    firstMonth: 2
     executionOdds: 70
     missionWeights:
       0:
@@ -43,7 +43,7 @@ missionScripts:
     startDelay: 20
     randomDelay: 43500
   - type: Wastelandfactory_big
-    firstMonth: 0
+    firstMonth: 2
     executionOdds: 70
     missionWeights:
       0:
@@ -111,7 +111,7 @@ missionScripts:
                                                           ### OldRobots ###
 
   - type: OldMilitaryBaseApprehension
-    firstMonth: 0
+    firstMonth: 4
     executionOdds: 65
     missionWeights:
       0:
@@ -128,3 +128,24 @@ missionScripts:
     researchTriggers: STR_SCAVENGERS_OLD_MILBASE_MISSION_RES
     startDelay: 20
     randomDelay: 43500
+
+                                                          ### UFOMission ###
+
+  - type: SyndocateFlyBy
+    firstMonth: 2
+    executionOdds: 95
+    missionWeights:
+      0:
+        STR_SYNDICATE_FLYBY: 100
+    targetBaseOdds: 100
+    startDelay: 4500
+    randomDelay: 700
+  - type: SyndocateSupply
+    firstMonth: 4
+    executionOdds: 75
+    missionWeights:
+      0:
+        STR_SYNDICATE_SUPPLY: 100
+    targetBaseOdds: 100
+    startDelay: 8000
+    randomDelay: 1200

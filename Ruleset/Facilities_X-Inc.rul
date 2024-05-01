@@ -7,10 +7,18 @@ facilities:
     buildTime: 25
     monthlyCost: 25000
     crafts: 1
-    workshops: 5 #Cuz you start with no worspace
+    workshops: 5 #Cuz you start with no workspace
     storage: 10 #OXCE bonus because of change in handling craft storage
     storageTiles: [[-1, -1, -1]]
     mapName: XBASE_16
+  - type: STR_LIVING_QUARTERS
+    spriteShape: 1
+    spriteFacility: 18
+    buildCost: 360000
+    buildTime: 18
+    monthlyCost: 11500
+    personnel: 35
+    mapName: XBASE_01
   - type: STR_GENERAL_STORES
     spriteShape: 1
     spriteFacility: 24
@@ -20,6 +28,18 @@ facilities:
     storage: 75
     mapName: XBASE_07
     listOrder: 6850
+  - type: STR_HYPER_WAVE_DECODER
+    requires:
+      - STR_HYPER_WAVE_DECODER
+    hyper: true
+    spriteShape: 2
+    spriteFacility: 32
+    buildCost: 1400000
+    buildTime: 26
+    monthlyCost: 30000
+    radarRange: 10800
+    radarChance: 100
+    mapName: XBASE_15
   - type: STR_PRISON_CELLS
     spriteShape: 1
     spriteFacility: 870
@@ -91,3 +111,19 @@ facilities:
     canBeBuiltOver: true
     mapName: XBASS_24
     listOrder: 6810
+  - type: STR_POWER_PLANT
+    spriteShape: 1
+    spriteFacility: 874
+    buildCost: 870000
+    buildTime: 28
+    monthlyCost: -150000
+    refundValue: 350000
+    provideBaseFunc: [PWR]
+    buildCostItems:
+      STR_UFO_POWER_SOURCE:
+        build: 2
+        refund: 2
+    requires:
+      - STR_POWER_PLANT
+    mapName: XBASS_22  
+    listOrder: 9800

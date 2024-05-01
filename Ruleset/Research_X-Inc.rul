@@ -1,4 +1,23 @@
 research:
+  - name: STR_UNAVAILABLE
+    needItem: true
+
+#Vanilla
+  - name: STR_LASER_WEAPONS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_IDDQD
+  - name: STR_MOTION_SCANNER
+    cost: 180
+    points: 20
+    dependencies:
+      - STR_IDDQD
+  - name: STR_MEDI_KIT
+    cost: 210
+    points: 20
+    dependencies:
+      - STR_IDDQD
 #Enemies
   - name: STR_WASTELAND_SCOUT
     cost: 15
@@ -92,11 +111,15 @@ research:
     listOrder: 151060
 
 #TechTree
-  - name: STR_SC_34
-
   - name: STR_WEAPON_SHOPPING
     cost: 50 
     points: 40
+    listOrder: 151060
+  - name: STR_MILITARY_SUPLIES
+    cost: 50 
+    points: 40
+    dependencies:
+      - STR_WEAPON_SHOPPING
     listOrder: 151060
 
 #Armour
@@ -340,9 +363,24 @@ research:
 
 #MissionTrigger
   - name: STR_SCAVENGERS_OLD_MILBASE_MISSION_RES
-    cost: 5                                            #<--- Fix Me Fag
+    cost: 25                                            #<--- Fix Me Fag
     points: 20
     listOrder: 151070
+
+  - name: STR_WEAPON_FACIL_RES
+    cost: 45                                            #<--- Fix Me Fag
+    points: 20
+    listOrder: 151070
+    dependencies:
+      - STR_WASTELAND_GOON
+      - STR_WASTELAND_SCOUT
+  - name: STR_BIG_WEAPON_FACIL_RES
+    cost: 45                                            #<--- Fix Me Fag
+    points: 20
+    listOrder: 151070
+    dependencies:
+      - STR_WASTELAND_GOON
+      - STR_WASTELAND_SCOUT
 
 #TransforamtionsNatural
   - name: STR_BASIC_FIREARMS_TRAINING

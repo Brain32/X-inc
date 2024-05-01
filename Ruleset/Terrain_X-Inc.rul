@@ -979,7 +979,9 @@ terrains:
         width: 30
         length: 30
         groups: [0, 1]
+
 #Cyberslums Hires Building
+
   - name: CYBERSLUM_HRHOUSE
     mapDataSets:
       - BLANKS
@@ -1197,7 +1199,9 @@ terrains:
         width: 20
         length: 20
         groups: 6
+
 #Old MilitaryBase 
+
   - name: ABANDONED_BASE
     mapDataSets:
       - BLANKS
@@ -1305,3 +1309,4 @@ terrains:
               - [34, 21, 2]
               - [36, 4, 2]
               - [21, 12, 1]
+

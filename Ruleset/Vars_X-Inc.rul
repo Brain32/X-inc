@@ -12,5 +12,6 @@ extraNerdyPediaInfoType: 1
 playIntro: false 
 maxViewDistance: 40
 surrenderMode: 2
+alienFuel: [STR_ELERIUM_115, 25]
 constants:
   extendedTerrainMelee: 4

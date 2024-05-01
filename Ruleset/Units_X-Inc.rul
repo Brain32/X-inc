@@ -621,9 +621,8 @@ units:
     armor: STR_SECBOT_MK1_UC
     standHeight: 25
     kneelHeight: 18
-    value: 8
+    value: 50
     deathSound: 157
-    specab: 0
     energyRecovery: 25
 
 ###OldRobots###

@@ -46,6 +46,38 @@ extraSprites:
     files:
       0: Resources/Backgrounds/CitySlum1.png
 
+                                                      #Icons
+
+#  - type: GlobeMarkers
+#    width: 266
+#    height: 7
+#    subX: 7
+#    subY: 7
+#    files:
+#      0: Resources/UI/UFO_Icons.png
+
+                                                      #InterWin
+
+  - type: InterceptionJam
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/inter_StrawberyJam.png
+  - type: InterceptionSyndicatePH1
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/PH_SYNDICATECRAFT_1.png
+  - type: InterceptionSyndicatePH2
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/PH_SYNDICATECRAFT_2.png
+
+
                                                       #MissionBG
 
 
@@ -143,6 +175,14 @@ extraSprites:
   - typeSingle: HUMAN_RUNNER__11__SECVEST_ARMOUR_HELMET
     fileSingle: Resources/Armours/SecVest/Inv_Helmet.png
 
+#NONE
+  - typeSingle: HUMAN_RUNNER__6__SECVEST_ARMOUR_SHIRT_MALE
+    fileSingle: Resources/Armours/NONE/Inv_NONE.png
+
+  - type: MAN_99.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/NONE/Inv_NONE.png
 
                            ###InvPics### 
 
@@ -327,6 +367,7 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
+      15: Resources/Weapons/HeavyWeapons/bigob_RL.png
       62: Resources/Armours/RunnerCoat/bigob_RunnerCoat.png
       63: Resources/Weapons/SmartWeapons/G11.png
       64: Resources/Weapons/SmartWeapons/G11E.png
@@ -547,8 +588,8 @@ extraSprites:
       281: Resources/Weapons/Grenades/bigob_EMP_Grenade.png
       282: Resources/Weapons/MilitWeapons/bigob_AR1.png
       283: Resources/Weapons/MilitWeapons/bigob_AR1_clip.png
-      284: Resources/Weapons/MilitWeapons/bigob_M1077.png
-      285: Resources/Weapons/MilitWeapons/bigob_M1077_clip.png
+      284: Resources/Weapons/MilitWeapons/bigob_MSR770.png
+      285: Resources/Weapons/MilitWeapons/bigob_MSR770_clip.png
       286: Resources/Weapons/MilitWeapons/bigob_P90.png
       287: Resources/Weapons/MilitWeapons/bigob_P90_clip.png
       288: Resources/Weapons/MilitWeapons/bigob_StreetCleaner.png
@@ -595,6 +636,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
+      72: Resources/Weapons/HeavyWeapons/handob_RL.png
       128: Resources/Weapons/ImprovedHandObs/Handob_PRifleClip.png
       136: Resources/Weapons/SmartWeapons/handob_G11.png
       144: Resources/Weapons/SmartWeapons/handob_G11E.png
@@ -677,7 +719,7 @@ extraSprites:
       760: Resources/Weapons/Grenades/handob_FG.png
       768: Resources/Weapons/Grenades/handob_EMP_G.png
       776: Resources/Weapons/MilitWeapons/handob_AR1.png
-      784: Resources/Weapons/MilitWeapons/handob_M1077.png
+      784: Resources/Weapons/MilitWeapons/handob_MSR770.png
       792: Resources/Weapons/MilitWeapons/handob_P90.png
       800: Resources/Weapons/MilitWeapons/handob_StreetCleaner.png
       808: Resources/Weapons/MilitWeapons/handob_AS.png
@@ -699,6 +741,7 @@ extraSprites:
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
     files:
+      15: Resources/Weapons/HeavyWeapons/floorob_RL.png
       70: Resources/Armours/RunnerCoat/floorob_RunnerCoat.png
       71: Resources/Weapons/SmartWeapons/floorob_G11.png
       72: Resources/Weapons/SmartWeapons/floorob_G11E.png
@@ -843,7 +886,7 @@ extraSprites:
       269: Resources/OtherItems/floorob_Blank.png
       270: Resources/Weapons/Grenades/floorob_EMP_Grenade.png
       271: Resources/Weapons/MilitWeapons/Floorob_AR1.png
-      272: Resources/Weapons/MilitWeapons/Floorob_M1077.png
+      272: Resources/Weapons/MilitWeapons/Floorob_MSR770.png
       273: Resources/Weapons/MilitWeapons/Floorob_P90.png
       274: Resources/Weapons/MilitWeapons/Floorob_StreetCleaner.png
       275: Resources/Weapons/MilitWeapons/Floorob_AS.png
@@ -876,6 +919,7 @@ extraSprites:
       302: Resources/Weapons/MeleeWeapons/floorob_Hammer.png 
       303: Resources/Weapons/MeleeWeapons/FloorOb_SuperSledge.png 
       304: Resources/Weapons/HeavyWeapons/floorob_LAW.png
+      305: Resources/Weapons/MilitWeapons/Floorob_MSR770_Clip.png
 
                                    ### Sprite sheet (Battlescape) ###
 

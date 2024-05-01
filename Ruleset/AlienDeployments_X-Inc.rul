@@ -709,3 +709,113 @@
             - STR_COLT_REVOLVER_AMMO
             - STR_COLT_REVOLVER_AMMO
 
+
+                                                ### UFO ###
+
+  - type: STR_SYNDICATE_ERLY_SHIP_1
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIP_AA
+            - STR_RIFLE_CLIP
+            - STR_RIFLE_CLIP
+          -
+            - STR_BLACKOPS_ADV_SMG
+            - STR_BLACKOPS_ADV_SMG_AA_CLIP
+            - STR_BLACKOPS_ADV_SMG_CLIP
+            - STR_BLACKOPS_ADV_SMG_CLIP
+          -
+            - STR_BLACKOPS_SHOTGUN
+            - STR_SHOTGUN_AA_SHELLS
+            - STR_SHOTGUN_SHELLS
+            - STR_SHOTGUN_SHELLS
+          -
+            - STR_BO_LMG
+            - STR_BO_LMG_CLIP_AA
+            - STR_BO_LMG_CLIP
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIP_AA
+            - STR_RIFLE_CLIP
+            - STR_RIFLE_CLIP
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIP_AA
+            - STR_PISTOL_CLIP
+            - STR_PISTOL_CLIP
+
+    width: 40
+    length: 40
+    height: 6
+
+  - type: STR_SYNDICATE_ERLY_SHIP_2
+    data:
+      - alienRank: 5
+        lowQty: 10
+        highQty: 28
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_BLACKOPS_SHOTGUN
+            - STR_SHOTGUN_AA_SHELLS
+            - STR_SHOTGUN_SHELLS
+            - STR_SHOTGUN_SHELLS
+          -
+            - STR_BLACKOPS_ADV_SMG
+            - STR_BLACKOPS_ADV_SMG_AA_CLIP
+            - STR_BLACKOPS_ADV_SMG_CLIP
+            - STR_BLACKOPS_ADV_SMG_CLIP
+          -
+            - STR_BLACKOPS_TACTICOOL_SHOTGUN
+            - STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM_AA
+            - STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM
+            - STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIP_AA
+            - STR_RIFLE_CLIP
+            - STR_RIFLE_CLIP
+          -
+            - STR_BO_SNIPER_RIFLE
+            - STR_BO_SNIPER_RIFLE_CLIP_AA
+            - STR_BO_SNIPER_RIFLE_CLIP
+          -
+            - STR_BO_LMG
+            - STR_BO_LMG_CLIP_AA
+            - STR_BO_LMG_CLIP
+          -
+            - STR_BLACKOPS_COMMANDO
+            - STR_BLACKOPS_COMMANDO_CLIP_AA
+            - STR_BLACKOPS_COMMANDO_CLIP
+            - STR_BLACKOPS_COMMANDO_CLIP
+
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SMART_PISTOL
+            - STR_PISTOL_CLIP_AA
+            - STR_PISTOL_CLIP
+          -
+            - STR_SMARTRIFLE
+            - STR_SMARTRIFLE_CLIP_AA
+            - STR_SMARTRIFLE_CLIP
+          -
+            - STR_SMARTRIFLE
+            - STR_SMARTRIFLE_CLIP_AA
+            - STR_SMARTRIFLE_CLIP
+
+    width: 60
+    length: 60
+    height: 6
+

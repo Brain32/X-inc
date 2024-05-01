@@ -15,7 +15,7 @@ en-US:
                     ############# WEAPONS #############
 
 
-#Melee
+
 #Bows
 #Gun
   STR_G11: "G11"
@@ -23,9 +23,6 @@ en-US:
   STR_G11_CLIP: "G11 Magazine"
   STR_G11_UFOPEDIA: "This pre-war submachine gun was developed in the 20th century. Even though these guns are old and pain-in-the-ass to maintain, they are still popular among some experienced chief security officers around the world."
   STR_G11E_UFOPEDIA: "This advanced version of G11 is equipped with an automatic stabilazer, a balistic computer and an optronic scope. In short - aim faster and worry less about the recoil!"
-  STR_JUNKY_SAWED_OFF_UFOPEDIA: "Shoddy double barreled shotgun, widely used by Wastelanders. The assembly of this decrepit gun uses low quality parts, but it doesn't seem to bother the creator."
-  STR_JUNKY_SAWED_OFF: "Cheap Sawed-Off"
-  STR_DOUBLE_BARRELED_BUCKSHOT: "8. Buckshot"
   STR_COLT_REVOLVER: "Old Revolver"
   STR_COLT_REVOLVER_AMMO: ".45 Colt Ammo"
   STR_COLT_REVOLVER_UFOPEDIA: "Despite its age, this revolver works almost perfectly."
@@ -67,7 +64,6 @@ en-US:
   STR_REBEL_COLT45_UFOPEDIA: "Manufactured by the Resistance, this modified version of the M1911, with built-in laser sights, can fire in automatic mode due to its improved constitution."
   STR_CHEAP_3DPISTOL: "Slaught-O-Matic"
   STR_CHEAP_3DPISTOL_UFOPEDIA: "Don't have enough green for a normal gun? This cheap and disposable gun will satisfy any member of the social pyramid! Made with a 3D printer, this piece of plastic tends to jam, break and fall appart right in owner's hands. Don't even bother to ask about the stopping power. Reloading is impossible."
-  STR_FLARE_PISTOL: "Flare Gun"
   STR_SMG_LINDA: "SMG Linda"
   STR_SMG_LINDA_UFOPEDIA: "Civilian SMG, uses Glock's mags."
   STR_SCOPED_HUNTING_RIFLE: "Scope Rifle"
@@ -84,21 +80,65 @@ en-US:
 #Melee
   STR_KNUCKLES: "Brass knuckles"
   STR_KNUCKLES_UFOPEDIA: "Popular among thugs of all stripes street melee weapons. Fits in a pocket and smashes faces no worse than clubs. It requires a certain skill and strength."
+  STR_SHIV: "Shiv"
+  STR_SHIV_UFOPEDIA: "A small piece of metal sharpened to cause small but painful wounds."
   STR_STUN_BATON: "Stun Baton"
   STR_STUN_BATON_UFOPEDIA: "Even though we are a private mercenary organization, Magapol did authorize the use of such electric batons. The shock isnТt lethal, but it still causes some damage to the targetТs health."
+  STR_COMBAT_KNIFE: "Combat Knife"
+  STR_COMBAT_KNIFE_UFOPEDIA: "A high quality steel knife for close range combat. Effective use requires strength and melee skill."
+
   STR_STABKNIFE: "Punch dagger"
   STR_STABKNIFE_UFOPEDIA: "This particular type of knife relies more on the strength of the wearer than on their skill."
   STR_MACHETE: "Machete"
   STR_MACHETE_UFOPEDIA: "A wide and long dagger, intended for cutting vegetation."
+  STR_PIPE: "Lead pipe"
+  STR_PIPE_UFOPEDIA: "A pice of lead that can be handy to bash someone if you don't have someting else around."
   STR_CROWBAR: "Crowbar"
   STR_CROWBAR_UFOPEDIA: "The weapon of choice of MIT graduates."
+  STR_WRENCH: "Wernch"
+  STR_WRENCH_UFOPEDIA: "Throw a wrench into competitors plans, by using this handy-dandy tool!{NEWLINE}They don't make once like this anymore..."
   STR_CUTLASS: "Cutlass"
   STR_CUTLASS_UFOPEDIA: "Awaken an urge within you to became a pirate. YARRR!"
+  STR_BATTO: "Baseballl bat"
+  STR_BATTO_UFOPEDIA: "In former times it was used for the popular game of hitting the ball. Now popular among thugs for beating off skulls."
+
+#Pistols
+  STR_CIV_PISTOL_LT: "Pocket pistol"
+  STR_CIV_PISTOL_LT_UFOPEDIA: "MiliTek's successful attempt to conquer the civilian market. This small UTF-57 pistol fits in your pocket and is very easy to use. For exquisite violence appriciaters pistol supports lethal ammunition with a smaller magazine capacity."
+  STR_PISTOL_LT_CLIP: "Mag. Pocket pistol/LETH"
+  STR_PISTOL_LT_CLIP_SLAYER: "Mag. Pocket pistol"
+  STR_GLOCK_NEO: "Glock RTT76"
+  STR_GLOCK_NEO_CLIP: "Glock clip"
+  STR_GLOCK_NEO_LARGE_CLIP: "Large Glock clip"
+  STR_GLOCK_NEO_LARGE_DRUM: "Drum Glock clip"
+  STR_GLOCK_NEO_UFOPEDIA: "This Austrian pistol became a sensation in the world of civilian weapons after the end of the nuclear war. The low power is compensated by the rate of fire. Supports big. (33) and drum (50) magaz."
+  STR_MILITECH_PISTOL_HP93S: "MiliTech P93S"
+  STR_MILITECH_PISTOL_HP93S_CLIP: "MiliTech P93S clip"
+  STR_MILITECH_PISTOL_HP93S_UFOPEDIA: "If you need a trusty and reliable pistol without any fancy toys, then MiliTech Corp has exacly what you need! This pistol is used by almost everyone who lives within mega-cities, and is the Уgolden meanФ among pistols."
+  STR_COLT_KJ58S: "Colt KJ58S"
+  STR_COLT_KJ58S_CLIP: "Colt KJ58S clip"
+  STR_COLT_KJ58S_UFOPEDIA: "The newly reorganized Colt Company, in conjunction with the US government, is proud to introduce its new pistol, the KJ-58-S model. The noticeable power of this barrel is perfect for neutralizing more heavily armored opponents."
+  STR_CHEAP_3DPISTOL: "Slaught-o-matic"
+  STR_CHEAP_3DPISTOL_UFOPEDIA: "Not enough green for a normal gun? This cheap-ass disposable pistol is available for every member of the social pyramid! 3D printed, this piece of plastic tends to jam, break and fall apart in the owner's hands. Don't even ask about the power of this fart. Cannot be reloaded."
+  STR_TASER: "Taser"
+  STR_TASER_CLIP: "Taser cartridge"
+  STR_TASER_SUPER_CLIP: "Taser mega cartridge"
+  STR_TASER_UFOPEDIA: "A non-lethal device capable of cutting off a poorly armored thug."
 
 #Shotguns
+  STR_SMALL_SHOTGUN: "Small Shotgun"
+  STR_SMALL_SHOTGUN_SHELLS: "Birdshot"
+  STR_SMALL_SHOTGUN_SHELLS_SLUG: "Birdshot (Slug)"
+  STR_SMALL_SHOTGUN_UFOPEDIA: "Compact pump-action shotgun manufactured by Ryder Arms Corporation. Its firing range is not so great, but it can be hidden under clothes."
+  STR_DOMESTIC_SHOTGUN: "Domestic shotgun"
+  STR_DOMESTIC_SHOTGUN_UFOPEDIA: "A simple pump-action shotgun for civilian use. The only advantage of this piece of scrap metal is its somewhat decent firing range. Uses birdshot."
+  STR_JUNKY_SAWED_OFF_UFOPEDIA: "Shoddy double barreled shotgun, widely used by Wastelanders. The assembly of this decrepit gun uses low quality parts, but it doesn't seem to bother the creator."
+  STR_JUNKY_SAWED_OFF: "Cheap Sawed-Off"
+  STR_DOUBLE_BARRELED_BUCKSHOT: "8. Buckshot"
+
   STR_DEBUGUN: "DebuGun"
   STR_DEBUGUN_CLIP: "DebuGun Clip"
-  STR_DEBUGUN_UFOPEDIA: "An excellent choice for defending your diner from mutants, bandits and pizza monsters. {NEWLINE} {NEWLINE} {NEWLINE} If you reading this, you probably a cheater xoxo... "
+  STR_DEBUGUN_UFOPEDIA: "An excellent choice for defending your diner from mutants, bandits and pizza monsters. {NEWLINE} {NEWLINE} {NEWLINE} If you reading this, you probably a cheater, or a dev xoxo... "
   STR_SHOTGUN_STREETCLEANER: "Street cleaner Shotgun"
   STR_STREETCLEANER_CLIP1: "Street cleaner mag."
   STR_STREETCLEANER_CLIP2: "Street cleaner mag./AA"
@@ -108,10 +148,21 @@ en-US:
   STR_AUTOSHOTGUN1_CLIP1: "Combat Shotgun Drum"
   STR_AUTOSHOTGUN1_CLIP2: "Combat Shotgun Drum/Slug"
 
+#Rifle
+  STR_RIFLE_AK: "Kalashnikov"
+  STR_RIFLE_AK_UFOPEDIA: "This rusty machine gun, glued together with snot, still hits hard, although not accurately."
+  STR_RIFLE_AK_CLIP: "AK Clip"
+  STR_M52S_AJAX_RIFLE: "AJAX Rifle"
+  STR_M52S_AJAX_RIFLE_CLIP: "AJAX Rifle clip" 
+  STR_M52S_AJAX_RIFLE_UFOPEDIA: "Sleek assault rifle M52S-AJAX, popular with military forces and private police forces around the globe. Smooth trigger and red dot sight provide near perfect fire control."
+  STR_BANDIT_RIFLE: "Bandit rifle"
+  STR_BANDIT_RIFLE_UFOPEDIA: "Well built rifle, ideal for caravan robbery."
 
 #Sniper Rifles
+  STR_PIPERIFLE: "Piperifle"
+  STR_PIPERIFLE_UFOPEDIA: "This wreck shoots armor-piercing rounds, which is surprisingly considering how accurate it is."
   STR_COWRIFLE: "Lever Rifle"
-  STR_COWRIFLE_UFOPEDIA: "A very interesting, for a Wasteland, rifle with a tubular underbarrel magazine. An experienced and dexterous shooter, can empty almost the entire mag in one go!"
+  STR_COWRIFLE_UFOPEDIA: "A very interesting, for a Wasteland, rifle with a tubular underbarrel magazine. An experienced and fast shooter, can empty almost the entire mag in one go!"
   STR_COWRIFLE_AMMO: "Ammo Lever Rifle"
   STR_COWRIFLE_AMMO_AA: "Ammo Lever Rifle/AA"
 
@@ -132,13 +183,37 @@ en-US:
   STR_GEP_GUN: "GEP Gun"
   STR_GEP_GUN_UFOPEDIA: "Guided Explosive Projectile Launcher, or just a GEP Gun. This weapon can launch rockets with a simple, yet accurate trajectory (2 waypoints)."
 
-                    ############# Support Shit #############
+#Nades
+  STR_PIPEBOMB: "Pipe bomb"
+  STR_PIPEBOMB_UFOPEDIA: "This bomb was made from scrap materials that can barely be found in the Wastes. Used mainly by raiders and rebels."
+  STR_MOLOTOV: "Molotov"
+  STR_MOLOTOV_UFOPEDIA: "Favorite coctail f anarchists and other pesky terrorists. Just light it and throw it!{NEWLINE}{NEWLINE}Range:20"
+  STR_EMP_GRENADE: "EMP grenade"
+  STR_EMP_GRENADE_UFOPEDIA: "A small device that, when activated, emits a powerful electromagnetic pulse. Harmless for humans but devestaed for robots and mechs."
 
+                    ############# Support Shit #############
+#SemiGuns
+  STR_FLARE_PISTOL: "Flare Gun"
+  STR_FLARE_PISTOL_UFOPEDIA: "A simple self-propelled pistol. Fires flares to send distress signals... OR to illuminate and set the area on fire. It's hard to believe that even after almost 300 years, the design of this pistol has hardly changed."
+  STR_FLARE_PISTOL_CLIP: "Flare rocket"
+  STR_FLARE_PISTOL_SUPER_CLIP: "Super flare rocket"
+#Light
+  STR_FLASHLIGHT: "Flashlight"
+  STR_FLASHLIGHT_UFOPEDIA: "Device powered by small Elerium battery that allows illumination of the area around. Careful when you turn this thing on at night, cuz enemies can see and shoot you!"
+  STR_PAPER_FLARE: "Paper flare"
+  STR_PAPER_FLARE_UFOPEDIA: "Paper flare that can light area around for short period (3 turns), but after that became completely useless. Just open the cover and pull the pin away! {NEWLINE}{NEWLINE} WARNING: Cannot be turned off after activation."
 #Meds
+  STR_SMALL_MEDKIT: "Small Medkit"
+  STR_SMALL_MEDKIT_UFOPEDIA: "A small first aid kit with a basic set of medications for treating wounds on the battlefield. In order to use it, face the operative who needs treatment and use it."
+  STR_MEDIPACK_SMALL: "Small Medipack"
+  STR_MEDIPACK_SMALL_UFOPEDIA: "Device, containing small amount of medicine for use at the battlefield. The dosage of medications is enough for 2 applications. (Heals 2HP per use). Also contains 2 doses of painkillers (restores morale) and 2 doses of stimulant (restores 25 stun).{NEWLINE}Cannot be used for self healing."
   STR_STIMM: "Stimm"
+  STR_STIMM_UFOPEDIA: "This injector contains a stimulant that can bring him to his senses. Restores 50 stamina and removes 25 Stun points."
   STR_MEDI_PATCH: "Med patch"
   STR_MEDI_PATCH_UFOPEDIA: "Medical patch produced by 'Med Tech' corp. When applied to the wound injects a complex of chemicals that stop the bleeding. Can be used for self-applience."
-#Boxes and containers
+
+
+                    #############  Boxes and containers #############
   STR_WEAPON_LOOTBOX_CHEAP: "Decrepit weapon crate"
   STR_WEAPON_LOOTBOX_CHEAP_UFOPEDIA: "A dilapidated weapon storage box. Usually, raiders and other wasteland weaponsmiths store their guns in it for transportation to salvage and dismantling, but sometimes we can find newly minted weapons here."
 
@@ -181,6 +256,25 @@ en-US:
   STR_TRNS_BASICSHOOTING_PED: "Basic firearms training"
   STR_BASICSHOOTING_UFOPEDIA: "After talking to recutment department,to your dismay you learn to that none of the new recruits are going through basic marksmanship training! We had to fiddle a bit with resources from outside to organize normal training.{NEWLINE}{NEWLINE}Now our operatives can take shooting courses which will increase their Accuracy by 12 and Reaction by 4. Training lasts 6 days and costs 7000 credits, Gym required."
 
+
+#Base moduels
+  STR_ACCESS_LIFT_UFOPEDIA: "The basis is the basis of any base. Personnel and necessary equipment are delivered here directly underground. Unfortunately, it is a vulnerable part of our base for enemies and adversaries, since we cannot completely secure the entrance from the surface. Provides 15 storage space.{NEWLINE}Rest: 1"
+  STR_LIVING_QUARTERS_UFOPEDIA: "The personnel of our base live and rest here: scientists, engineers and agients. Each module is designed for 35 residential places.{NEWLINE}Vacation: 5"
+  STR_PRISON_CELLS: "Prison cells"
+  STR_PRISON_CELLS_UFOPEDIA: "All the ignorant and other riffraff that we can get through life we throw here. Have 12 spaces."
+  STR_GYM: "Gym"
+  STR_GYM_UFOPEDIA: "This module provides training space for our agents. Can only train 8 units simultaneously."
+  STR_MEDBAY: "Med bay"
+  STR_MEDBAY_UFOPEDIA: "The medical bay allows us to hospitalize our operatives directly at our base, which reduces the recovery period. Facilety also includes equipment and services of a fixer who can perform cyber augmentations for our agents."
+  STR_ADVANCED_MEDBAY: "Advanced medbay"
+  STR_ADVANCED_MEDBAY_UFOPEDIA: "Med bay but even cooler with more flashy eqipemnt that make recovery for our agents even shorter! Fixer how can make advanced augmentations for our agents."
+  STR_CORRIDOR: "Corridor"
+  STR_CORRIDOR_UFOPEDIA: "A simple corridor, nuff said. You can build other modules on top of this to make building time shorter."
+  STR_HQ: "HQ"
+  STR_HQ_UFOPEDIA: "This module handles our customer requests. It is also equipped with a simple radar and lab for 10 scientists that can carry simple interrogations or research." 
+  STR_POWER_PLANT: "Power plant"
+  STR_POWER_PLANT_UFOPEDIA: "This small power plant is needed for some facileties at our base. Incredibly expensive to build, but upon completion, we can sell the excesses can be sold to nearby settlements.{NEWLINE}Requires 2 Core Engines to build."
+
 #Tech Shit
   STR_TRANSFORMATIONS_AND_AUGS_UC: "TRANSFORMATIONS AND AUGMENTATIONS"
   STR_DAMAGE_10: "EMP"
@@ -203,22 +297,36 @@ en-US:
 #Tech Tree
   STR_WEAPON_SHOPPING: "Weapon Shopping"
   STR_WEAPON_SHOPPING_UFOPEDIA: "We've go through many shops in the mega cityies, looking for more suitable guns for our organization. As expected, we ain't find anything interesting except some useless junk. However, this search has led us to think of going deeper into the Black Market. Of course, we will not immediately put on a cool military equipment, and it will take a lot of time to build up contacts, but it is still worth trying. {NEWLINE}(You can check new weapons in CyberPredia)"
+  STR_BASIC_FIREARMS_TRAINING: "Basic fire arms training"
+  STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: "!Old Military base raid!"
 #Events
-  STR_GNN_NEWS_001: "Shadow Channle"
-  STR_GNN_MURDER_1_DESCRIPTION: "{NEWLINE}{NEWLINE}Last morning, at {0} abandoned dumps, bodies of three high-level corruption enforcers were found. Megapol refutes the theory of political murder, saying that these dead individuals should spend more resources on their own security than on stupid things like fighting corruption. "
+  STR_TEST_EVENT: "TEST"
+  STR_TEST_EVENT_DESCRIPTION: "{NEWLINE}This test event is working! If you see this, you going to be granted 2 weapon boxes. Goood Luck"
+#Events - News
+  STR_GNN_NEWS_001: "GNN Report"
+  STR_GNN_NEWS_002: "GNN Report"
+  STR_GNN_NEWS_003: "GNN Report"
+  STR_GNN_MURDER_1_DESCRIPTION: "{NEWLINE}{NEWLINE}ѕрошлым утром, на одной из заброшенных свалок города {0} было найдены трупы трЄх видимых делателей по борьбе с коррупцией в высших эшелонах власти. ћегапол опровергает версию о политическом убийстве, за€вив что данным лицам следовало бы тратить больше денег на собственную безопасность нежели на глупые вещи вроде борьбы с коррупцией."
+  STR_GNN_MURDER_2_DESCRIPTION: "{NEWLINE}Ќа прошлой неделе, был найден труп журналистки причастной к расследованию на одном из предпри€тии Ђƒзайбацуї. ≈Є череп был проломлен а на теле были найдены следы изнасиловани€. Ќа недавней конференции представительница корпорации Ђƒзайбацуї с си€ющей улыбкой на лице прокомментировала данное событие и посоветовала медиа компани€м меньше обращать внимани€ на обычные нападени€ головорезов."
+  STR_GNN_MURDER_3_DESCRIPTION: "{NEWLINE}{NEWLINE}ќжесточЄнные бои произошли в городе {0} между силовыми структурами и террористической групировкой ЂSINї. —иловики ћегапола потерпели значительные потери, но смогли сдержать погромы терророристов. ќдин из анонимных солдат сообщает что атакующие имели продвинутые виды вооружени€."
 
-#Commendatiosna and rewards
+#Missions
+  STR_OLD_MILBASE_MISSION_PED: "!Old Military base raid!"
+  STR_OLD_MILBASE_MISSION_READY_UFOPEDIA: "We speak with a few wasteland rangers warchiefs and they agreed to let us in in their old military base expeditions.But they warn us that this facility would be filled with mutants and old security robots that will shred anyone who dares to step inside. So they suggest us be prepared, they let us know if opportunity arise.But some of our shareholders won't be happy about this type of... liberties that we are taking."
+
+#Commendations and rewards
 
   STR_MELEE_PSYCHO_NAME: "Melee psycho"
   STR_MELEE_PSYCHO_UFOPEDIA: "You REALLY like hurt other people. Deliver justice using non-standard melee weapons such as bats, axes, knives or brass knuckles.{NEWLINE}{NEWLINE} Every even level: +1 to TU.{NEWLINE} Every odd level: +2 to stamina.{NEWLINE} On Level 5: + 1 stamina regen per turn.{NEWLINE} On Level 10: +10 Bravery."
   STR_OLD_WOLRD_ENJOYER_NAME: "Old world enjoyer"
   STR_OLD_WOLRD_ENJOYER_UFOPEDIA: "Whats the point of using all these fancy new guns, if good ol Colt is still kicking? Besides, using those weapon gives you a strange sense of nostalgia that you've never had before... Use pre-war weapons to uphold law and order on Earth.{NEWLINE}{NEWLINE}Gives +1 to Accuracy and Reactions alternately.{NEWLINE}At level V: +5 to Concentration.{NEWLINE}At level X: + 1 stamina regen per turn and +10 Bravery. "
 
-
 #BadBoys
   STR_SYNDICATE: "Syndicate"
-
-
+  STR_SMUGLERS: "Smuglers"
 
 #Game Over dude
-  STR_YOU_SUCK: "{NEWLINE}{NEWLINE}{NEWLINE}Congratulations! You lost and now all of humanity is doomed all thanks to your shitty incompetence. Now load your last save or start all over again, you fucking moron. {NEWLINE}{NEWLINE}YOU SUCK!"
+  STR_YOU_SUCK: "{NEWLINE}{NEWLINE}{NEWLINE}Congratulations! You lost and now all of humanity is doomed all thanks to your shitty incompetence. Load your last save or start all over again, you fucking moron. {NEWLINE}{NEWLINE}YOU SUCK!"
+
+#OtherShit
+  STR_IDDQD: "GOD MODE ENGAED"

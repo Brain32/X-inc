@@ -1,25 +1,74 @@
 ufos:
-  - type: STR_SNEED_SHACK_UFO
-    size: STR_SMALL
-    sprite: 0
-    damageMax: 500
-    speedMax: 5000
-    accel: 10
-    power: 40
-    range: 20
-    score: 700
-    reload: 32
-    breakOffTime: 500
+#  - type: STR_SNEED_SHACK_UFO
+#    size: STR_SMALL
+#    sprite: 0
+#    damageMax: 500
+#    speedMax: 5000
+#    accel: 10
+#    power: 40
+#    range: 20
+#    score: 700
+#    reload: 32
+#    breakOffTime: 500
+#    battlescapeTerrainData:
+#      name: STR_SNEED_SHACK
+#     mapDataSets:
+#       - BLANKS
+#        - FARM_SHOP_DECO
+#     mapBlocks:
+#        - name: SNEED_SHACK
+#          width: 10
+#          length: 10
+
+#################### Actual UFOs ####################
+
+  - type: STR_SYNDICATE_ERLY_SHIP_1
+    size: STR_VERY_SMALL 
+    modSprite: InterceptionSyndicatePH1
+    damageMax: 250
+    speedMax: 500
+    accel: 5
+    power: 10
+    range: 34
+    score: 50
+    reload: 70
+    breakOffTime: 600
+    hitBonus: 10
     battlescapeTerrainData:
-      name: STR_SNEED_SHACK
+      name: UFO_120
       mapDataSets:
         - BLANKS
-        - FARM_SHOP_DECO
+        - ERLYSYNDCRAFT_2
+        - ERLYSYNDCRAFT_1
       mapBlocks:
-        - name: SNEED_SHACK
+        - name: PLACEHOLDER_SHIP1
           width: 10
           length: 10
 
+  - type: STR_SYNDICATE_ERLY_SHIP_2
+    size: STR_VERY_SMALL 
+    modSprite: InterceptionSyndicatePH1
+    damageMax: 250
+    speedMax: 500
+    accel: 5
+    power: 10
+    range: 34
+    score: 50
+    reload: 70
+    breakOffTime: 600
+    hitBonus: 10
+    battlescapeTerrainData:
+      name: UFO_120
+      mapDataSets:
+        - BLANKS
+        - ERLYSYNDCRAFT_2
+        - ERLYSYNDCRAFT_1
+      mapBlocks:
+        - name: PLACEHOLDER_SHIP2
+          width: 20
+          length: 20
+
+#################### Mission UFOs ####################
   - type: STR_RAIDER_OUTPOST
     size: STR_SMALL
     sprite: 0

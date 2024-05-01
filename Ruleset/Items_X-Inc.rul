@@ -1,4 +1,19 @@
 ﻿items:
+  - type: TROLLIUM
+    size: 9999
+    recover: false
+    requires:
+      - STR_UNAVAILABLE
+    supportedInventorySections: &InventorySectionsStandard
+      - STR_RIGHT_HAND
+      - STR_LEFT_HAND
+      - STR_BELT
+      - STR_RIGHT_LEG
+      - STR_LEFT_LEG
+      - STR_RIGHT_SHOULDER
+      - STR_LEFT_SHOULDER
+      - STR_BACK_PACK
+      - STR_QD_SLOT
 # armour
   - type: STR_RUNNER_COAT
 
@@ -722,6 +737,8 @@
 
 
                                   #########################################  _______  A R M O U R   _______  #########################################
+  - type: STR_NONE_UC
+
 
   - type: STR_BULDOZER_SUIT
     categories: [STR_OUTFITS]
@@ -5883,6 +5900,69 @@
     hitSound: 174
     hitAnimation: 26
     power: 25
+    damageType: 1
+    damageBonus:
+      firing: 0.2
+    damageAlter:
+      RandomType: 7
+      ArmorEffectiveness: 0.8
+      ToArmor: 0
+      ToStun: 0.5
+    clipSize: 7
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    armor: 30
+    listOrder: 13243
+  - type: STR_MSR770
+    categories: [STR_SNIPER_RIFLES]
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.16
+    costBuy: 23000
+    costSell: 12000
+    weight: 16
+    bigSprite: 284
+    floorSprite: 272
+    handSprite: 784
+    bulletSprite: 2
+    fireSound: 136
+    reloadSound: 135
+    compatibleAmmo:
+      - STR_MSR770_CLIP
+    accuracySnap: 70
+    accuracyAimed: 175
+    accuracyCloseQuarters: 70
+    tuSnap: 28
+    tuAimed: 80
+    tuLoad: 16
+    costThrow:
+      energy: 16
+      time: 40
+    snapRange: 30
+    minRange: 8
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    snapRange: 18
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    attraction: 12
+    listOrder: 13205
+  - type: STR_MSR770_CLIP
+    requires:
+      - STR_IDDQD
+    size: 0.05
+    costBuy: 1200
+    costSell: 200
+    weight: 4
+    bigSprite: 285
+    floorSprite: 305
+    hitSound: 174
+    hitAnimation: 26
+    power: 30
     damageType: 1
     damageBonus:
       firing: 0.2
