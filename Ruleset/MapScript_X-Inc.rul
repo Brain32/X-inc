@@ -336,5 +336,24 @@ mapScripts:
       size: 2
       executionChances: 10
     - type: fillArea #fill up the rest
+ 
 
+  - type: NUKEFARM1
+    commands:
+    - type: addCraft
+    - type: addUFO
+    - type: addBlock
+      size: 3
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: addBlock
+      size: 2
+      executions: 2
+    - type: addBlock
+      size: 1
+      executions: 3
+    - type: addBlock
+      size: 2
+    - type: fillArea
 

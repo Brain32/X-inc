@@ -3,7 +3,8 @@ eventScripts:
   - type: STR_TEST_EVENT
     oneTimeRandomEvents:
       STR_TEST_EVENT: 100
-    firstMonth: 0
+    firstMonth: 1
+    executionOdds: 40
 
   - type: STR_SC_34_NEWS
     eventWeights:
@@ -32,9 +33,9 @@ events:
       STR_LOOTBOX6: 3
     researchList: [STR_LOOTBOX6]
     music: HOTLINEPIZ
-    points: 50
-    timer: 60
-    timerRandom: 300
+    points: 25
+    timer: 10000
+    timerRandom: 20000
 
 #>>>News=====#
 

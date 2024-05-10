@@ -43,6 +43,24 @@
     prisonType: 0
     costSell: 6000 #balcance me
     listOrder: 151030
+# -------------------------------- GUNRUNNER
+  - type: STR_GUNRUNNER_WORKER
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 5400
+    listOrder: ???
+  - type: STR_GUNRUNNER_MASTER
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 11750
+    listOrder: ???
+
 # -------------------------------- CitySlacker - Warriors
   - type: STR_TIGERCALW_FEMGOON
     categories: [STR_HUMANS]
@@ -194,7 +212,7 @@
     costSell: 18000
     listOrder: ???
 
-#AliveRobots
+# -------------------------------- AliveRobots
 
   - type: STR_SECBOT_MK1
     requiresBuy:
@@ -338,6 +356,8 @@
     armor: 50
     recover: false
 
+
+
 # -------------------------------- Dead Civies
      #Rangers
 
@@ -353,6 +373,41 @@
     battleType: 11
     armor: 60
     recover: false
+
+# -------------------------------- Dead friendly robots
+     #Turrets
+
+  - type: HUMVEE_TURRET_CORPSE_1
+    floorSprite: 308
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+  - type: HUMVEE_TURRET_CORPSE_2
+    floorSprite: 309
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: HUMVEE_TURRET_CORPSE_3
+    floorSprite: 310
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: HUMVEE_TURRET_CORPSE_4
+    floorSprite: 311
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+     # PAY UP MOTHERFUCKER
+  - type: STR_HUMVEE_TURRET_CORPSE
+    categories: [STR_BAT_CAT_LIABILITIES]
+    costSell: -25000
+    monthlySalary: -10000
+    size: 25
 
 # -------------------------------- Dead Robots
 
@@ -584,6 +639,22 @@
     recoveryPoints: 15
     recover: true
     recoverCorpse: false
+  - type: STR_GUNRUNNERS_MASTER_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 324
+    floorSprite: 307
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 45
+    recoveryPoints: 15
+    recover: true
+    recoverCorpse: false
 
 #Smuglers
 
@@ -652,7 +723,7 @@
     recover: true
     recoverCorpse: false
 
-#WwastelandBikers
+#WastelandBikers
 
   - type: STR_WST_BIKER_1_CORPSE
     name: STR_CORPSE
@@ -775,8 +846,8 @@
   - type: STR_COMBAT_ARMOUR_MK1
     categories: [STR_OUTFITS]
     requiresBuy:
-      - STR_IDDQD
-    size: 3.0
+      - STR_COMBAT_ARMOUR_MK1_STUDY 
+    size: 2.5
     costBuy: 100000
     costSell: 65000
     listOrder: 16890
@@ -979,6 +1050,33 @@
     clipSize: 30
     battleType: 2
 
+  - type: AUX_HUMVEE_GUN
+    weight: 125
+    bigSprite: 325
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 4
+    fireSound: 12
+    hitAnimation: 26
+    hitAnimFrames: 3
+    power: 50
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 1.6
+      ToArmorPre: 0.04
+      ToStun: 0.75
+    clipSize: 150
+    accuracyAuto: 35
+    tuAuto: 40
+    battleType: 1
+    fixedWeapon: true
+    recover: false
+    sprayWaypoints: 2
+    invWidth: 2
+    invHeight: 3
+    autoRange: 25
+    autoShots: 6
+    bulletSpeed: 30
   - type: STR_LIGHTDRONE_LASER_WEAPON
     categories: [STR_BUILT_INS]
     weight: 5
@@ -1338,7 +1436,7 @@
     listOrder: 48130
   - type: STR_MEDIPACK_SMALL
     requiresBuy:
-      - STR_IDDQD
+      - STR_BLACK_MARKET_ACCES
     size: 0.1
     costSell: 5000
     weight: 4
@@ -1616,7 +1714,7 @@
     battleType: 3
     clipSize: -1
     invWidth: 1
-    invHeight: 2
+    invHeight: 3
     armor: 60
     experienceTrainingMode: 13
     attraction: 7
@@ -5508,7 +5606,7 @@
   - type: STR_M52S_AJAX_RIFLE
     categories: [STR_HUMAN_TECH, STR_FIREARMS, STR_RIFLES, STR_LAND]
     requiresBuy:
-      - STR_M52S_AJAX_RIFLE
+      - STR_MILITARY_SUPLIES
     size: 0.15
     costBuy: 14600
     costSell: 6250
@@ -5542,7 +5640,7 @@
     listOrder: 21290
   - type: STR_M52S_AJAX_RIFLE_CLIP
     requiresBuy:
-      - STR_M52S_AJAX_RIFLE
+      - STR_MILITARY_SUPLIES
     size: 0.05
     costBuy: 450
     costSell: 210
@@ -6821,6 +6919,8 @@
     invHeight: 2
     listOrder: 13922
   - type: STR_SSRL
+    requiresBuy:
+      - STR_MILITARY_SUPLIES
     size: 0.25
     costBuy: 16000
     costSell: 5700
@@ -7030,6 +7130,29 @@
     unprimeActionName: STR_UNPRIME_GRENADE
     battleType: 4
     listOrder: 38550
+  - type: STR_NITRO_GRENADE
+    requires:
+      - STR_NITRO_GRENADE
+    size: 0.1
+    costSell: 10780
+    weight: 5
+    bigSprite: 323
+    handSprite: 920
+    floorSprite: 306
+    power: 80
+    damageType: 3
+    damageAlter:
+      ResistType: 5
+      IgnoreOverKill: false
+      IgnoreSelfDestruct: false
+      FireThreshold: 10
+      ToMorale: 0.5
+      ToEnergy: 0.5
+      ToTime: 0.5
+      ToStun: 0.5
+    battleType: 4
+    recoveryPoints: 1
+    blastRadius: 4
 
                                       #######   Mines   #######
 
@@ -7606,7 +7729,35 @@
     invWidth: 2
     invHeight: 1
 
+                                  ####### Misc Items #######
+
+  - type: STR_MONEY_BRIEFCASE
+    categories: [STR_HUMAN_TECH, STR_EVIDENCE, STR_LAND]
+    size: 0.1
+    costSell: 100000
+    weight: 4
+    bigSprite: 326
+    floorSprite: 312
+    battleType: 0
+    invWidth: 2
+    invHeight: 2
+    armor: 35
+    listOrder: 57350
+  - type: STR_MONEY_BAG
+    categories: [STR_HUMAN_TECH, STR_EVIDENCE, STR_LAND]
+    size: 0.2
+    costSell: 500000
+    weight: 12
+    bigSprite: 327
+    floorSprite: 313
+    battleType: 0
+    invWidth: 2
+    invHeight: 2
+    armor: 40
+    listOrder: 57400
+
                                   ####### Bad Guys #######
+
   - type: STR_WASTELAND_GOON
     size: 0.0
     recover: true
@@ -7622,12 +7773,6 @@
     recover: true
     liveAlien: true
     costSell: 11600
-
-  - type: STR_GUNRUNNER_WORKER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 7000
 
   - type: STR_TIGERCALW_FEMGOON
     size: 0.0
@@ -7684,6 +7829,23 @@
     listOrder: 15557
 
                                   #######  Handy-Dandy script #####
+
+  - type: STR_SPAWN_HUMVEE_TURRET_ARMOR
+    spawnUnit: STR_HUMVEE_TURRET_ARMOR
+    spawnUnitFaction: 0
+    battleType: 4
+    floorSprite: 269
+    invWidth: 0
+    invHeight: 0
+    armor: 250
+    recover: false
+    hiddenOnMinimap: true
+    scripts:
+      createItem: |
+        var int fuseLength;
+        battle_game.randomRange fuseLength 0 0;
+        item.setFuseTimer fuseLength;
+        return;
 
   - type: STR_SPAWN_OLD_TURRET
     spawnUnit: STR_OLD_MINIGUN_TURRET #what unit spawns

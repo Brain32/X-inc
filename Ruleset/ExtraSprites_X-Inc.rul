@@ -45,6 +45,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/CitySlum1.png
+  - type: CLUB1.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/CLUB1.png
 
                                                       #Icons
 
@@ -76,6 +82,12 @@ extraSprites:
     height: 52
     files:
       0: Resources/Interwin/PH_SYNDICATECRAFT_2.png
+  - type: InterceptionRaiderBuggy
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/RAIDER_SCOUT_CAR.png
 
 
                                                       #MissionBG
@@ -175,9 +187,6 @@ extraSprites:
   - typeSingle: HUMAN_RUNNER__11__SECVEST_ARMOUR_HELMET
     fileSingle: Resources/Armours/SecVest/Inv_Helmet.png
 
-#NONE
-  - typeSingle: HUMAN_RUNNER__6__SECVEST_ARMOUR_SHIRT_MALE
-    fileSingle: Resources/Armours/NONE/Inv_NONE.png
 
   - type: MAN_99.SPK
     singleImage: true
@@ -247,6 +256,14 @@ extraSprites:
     files:
       0: Resources/Armours/SecVest/Inv_Helmet.png
 
+                                                      #### Your Turrets ####
+
+#SecBot_Inv
+  - type: HUMVEE_TURRET.SPK
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Turrets/Inv_HamveeTurret.png
+
                                                       #### Robots ####
 
 #SecBot_Inv
@@ -289,7 +306,11 @@ extraSprites:
   - type: inventory_GUNRUNNER_WORKER
     singleImage: true
     files:
-      0: Resources/FactionPack/Wasteland/inventory_GUNRUNNER_WORKER.png
+      0: Resources/FactionPack/WST_Gunrunner/inventory_GUNRUNNER_WORKER.png
+  - type: inventory_GUNRUNNER_MASTER
+    singleImage: true
+    files:
+      0: Resources/FactionPack/WST_Gunrunner/Inv_GunrunnerMaster.png
 
 #WASTELAND RANGERS
   - type: inv_RANGER01
@@ -553,7 +574,7 @@ extraSprites:
       246: Resources/Weapons/JunkWeapons/bigob_CowRifle.png
       247: Resources/Weapons/JunkWeapons/bigob_CowRifle_clip.png
       248: Resources/Weapons/JunkWeapons/bigob_CowRifle_clip_aa.png
-      249: Resources/FactionPack/Wasteland/bigob_GUNRUNNER_WORKER.png
+      249: Resources/FactionPack/WST_Gunrunner/bigob_GUNRUNNER_WORKER.png
       250: Resources/Weapons/Grenades/bigob_smoke.png
       251: Resources/Armours/CivilVest/bigob_Civivest_corpse.png
       252: Resources/Weapons/JunkWeapons/bigob_FallAutoRifle.png
@@ -627,6 +648,11 @@ extraSprites:
       320: Resources/Weapons/MeleeWeapons/bigobj_Hammer.png
       321: Resources/Weapons/MeleeWeapons/bigobj_SuperSledge.png
       322: Resources/Weapons/HeavyWeapons/bigob_LAW.png
+      323: Resources/Weapons/Grenades/bigob_NitroPack.png
+      324: Resources/FactionPack/WST_Gunrunner/bigob_GUNRUNNER_MASTER.png
+      325: Resources/Weapons/_HWP_Guns/bigob_HamGun.png
+      326: Resources/OtherItems/bigob_MoneyCase.png
+      327: Resources/OtherItems/bigob_MoneyBag.png
 
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
@@ -736,6 +762,8 @@ extraSprites:
       896: Resources/Weapons/MeleeWeapons/handob_Hammer.png 
       904: Resources/Weapons/MeleeWeapons/handob_SuperHammer.png 
       912: Resources/Weapons/HeavyWeapons/handob_LAW.png
+      920: Resources/Weapons/Grenades/handob_NitroPack.png
+
 
 
 # FloorBattlescape (FLOOR)
@@ -857,7 +885,7 @@ extraSprites:
       240: Resources/Weapons/JunkWeapons/floorob_10MM_SMG_MAG.png
       241: Resources/Weapons/JunkWeapons/floorob_Buckshot_Slug.png
       242: Resources/Weapons/JunkWeapons/floorob_CowRifle.png
-      243: Resources/FactionPack/Wasteland/floorob_GUNRUNNER_WORKER_CORPSE.png
+      243: Resources/FactionPack/WST_Gunrunner/floorob_GUNRUNNER_WORKER_CORPSE.png
       244: Resources/Weapons/Grenades/floorob_smoke.png
       245: Resources/Armours/CivilVest/floorob_CivVest_corps.png
       246: Resources/Weapons/JunkWeapons/floorob_FallAutoRifle.png
@@ -920,6 +948,16 @@ extraSprites:
       303: Resources/Weapons/MeleeWeapons/FloorOb_SuperSledge.png 
       304: Resources/Weapons/HeavyWeapons/floorob_LAW.png
       305: Resources/Weapons/MilitWeapons/Floorob_MSR770_Clip.png
+      306: Resources/Weapons/Grenades/Floorob_NitroPack.png
+      307: Resources/FactionPack/WST_Gunrunner/floorob_GUNRUNNER_MASTER_CORPSE.png
+      308: Resources/FactionPack/Turrets/floorob_Ham_DeadC1.png
+      309: Resources/FactionPack/Turrets/floorob_Ham_DeadC2.png
+      310: Resources/FactionPack/Turrets/floorob_Ham_DeadC3.png
+      311: Resources/FactionPack/Turrets/floorob_Ham_DeadC4.png
+      312: Resources/OtherItems/Floorob_MoneyCase.png
+      313: Resources/OtherItems/floorob_BagOMoney.png
+
+
 
                                    ### Sprite sheet (Battlescape) ###
 
@@ -982,6 +1020,13 @@ extraSprites:
     files:
       0: Resources/Armours/SecVest/SecVest.png
 
+  - type: HAM_TURRET_SHEET.PCK
+    width: 256
+    height: 840
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Turrets/Ham_Sheet.png
                                                                   ###SecBotSheet###
 
   - type: ROBO_1.PCK
@@ -1079,7 +1124,14 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/FactionPack/Wasteland/GUNRUNNER_WORKER.png
+      0: Resources/FactionPack/WST_Gunrunner/GUNRUNNER_WORKER.png
+  - type: GUNRUNNER_MASTER.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/WST_Gunrunner/GUNRUNNER_MASTER.png
 
                                                                   ###CityGang###
   - type: TIGER_CLAW_1.PCK
@@ -1267,6 +1319,8 @@ extraSprites:
       809: Resources/Vessels/Inticon/Car1_dogfight.png
       868: Resources/Vessels/Inticon/Cicada_minimised.png
       879: Resources/Vessels/Inticon/Cicada_dogfight.png
+      870: Resources/Vessels/Inticon/Hamvee_minimised.png
+      881: Resources/Vessels/Inticon/Hamvee_dogfight.png
 
 
          #InBase and facileties
@@ -1290,6 +1344,7 @@ extraSprites:
       875: Resources/BaseSprites/SERVER_ADV.png
 
       901: Resources/Vessels/Basebits/Cicada_base.png
+      903: Resources/Vessels/Basebits/Hamvee_base.png
          
                            ###UFOPEDIA###
 
@@ -1324,8 +1379,22 @@ extraSprites:
     height: 200
     files:
       0:  Resources/Vessels/Ufopedia/Highway_Star.png
+  - type: FUTUREHAMVEE_ufopedia_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0:  Resources/Vessels/Ufopedia/Gunwagon_P1_CPAL.png
 
-#Factions
+  #Lore#
+  - type: LORE_OURORIGINS_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/CITYFIRST_CPAL.png
+
+  #Factions#
   - type: FAC_SMUGLERS_UFOPEDIA_OG_CPAL.SPK
     singleImage: true
     width: 320
@@ -1394,6 +1463,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/MILIT_SUPPLIES.png
+  - type: BLACKMARKET_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/BlackMarket_CPAL.png
 # Missions
   - type: OLD_MILBASE_CPAL.SPK
     singleImage: true

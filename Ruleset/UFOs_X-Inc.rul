@@ -35,7 +35,7 @@ ufos:
     breakOffTime: 600
     hitBonus: 10
     battlescapeTerrainData:
-      name: UFO_120
+      name: UFO_130
       mapDataSets:
         - BLANKS
         - ERLYSYNDCRAFT_2
@@ -58,7 +58,7 @@ ufos:
     breakOffTime: 600
     hitBonus: 10
     battlescapeTerrainData:
-      name: UFO_120
+      name: UFO_140
       mapDataSets:
         - BLANKS
         - ERLYSYNDCRAFT_2
@@ -68,7 +68,35 @@ ufos:
           width: 20
           length: 20
 
+  - type: STR_RAIDER_BUGGY1
+    size: STR_VERY_SMALL 
+    modSprite: InterceptionRaiderBuggy
+    damageMax: 250
+    speedMax: 500
+    accel: 5
+    power: 15
+    range: 20
+    score: 10
+    reload: 70
+    breakOffTime: 600
+    hitBonus: 5
+    battlescapeTerrainData:
+      name: UFO_150
+      mapDataSets:
+        - BLANKS
+        - RAIDER_BUGGY
+      mapBlocks:
+        - name: RAIDER_BUGGY1
+          width: 10
+          length: 10
+
 #################### Mission UFOs ####################
+
+######## Smugler ########
+
+
+
+######## Wasteland ########
   - type: STR_RAIDER_OUTPOST
     size: STR_SMALL
     sprite: 0

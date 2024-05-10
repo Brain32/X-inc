@@ -190,6 +190,8 @@ en-US:
   STR_MOLOTOV_UFOPEDIA: "Favorite coctail f anarchists and other pesky terrorists. Just light it and throw it!{NEWLINE}{NEWLINE}Range:20"
   STR_EMP_GRENADE: "EMP grenade"
   STR_EMP_GRENADE_UFOPEDIA: "A small device that, when activated, emits a powerful electromagnetic pulse. Harmless for humans but devestaed for robots and mechs."
+  STR_NITRO_GRENADE: "Nitro Pack"
+  STR_NITRO_GRENADE_UFOPEDIA: "Small but very deadly explosive."
 
                     ############# Support Shit #############
 #SemiGuns
@@ -212,8 +214,15 @@ en-US:
   STR_MEDI_PATCH: "Med patch"
   STR_MEDI_PATCH_UFOPEDIA: "Medical patch produced by 'Med Tech' corp. When applied to the wound injects a complex of chemicals that stop the bleeding. Can be used for self-applience."
 
+                    #############  Other crap #############
+  STR_MONEY_BRIEFCASE: "Money case"
+  STR_MONEY_BRIEFCASE_UFOPEDIA: "Some of our clients do not have much confidence in financial systems and banking transactions and will sometimes demand cash directly. This suitcase contains 100000 credits. If we are lucky we can find such suitcases during missions."
+  STR_MONEY_BAG: "Bag of money"
+  STR_MONEY_BAG_UFOPEDIA: "Some of our clients do not have much confidence in financial systems and banking transactions and will sometimes demand cash directly. This bag contains 500000 credits. If we are lucky we can find such bags during missions."
+
 
                     #############  Boxes and containers #############
+
   STR_WEAPON_LOOTBOX_CHEAP: "Decrepit weapon crate"
   STR_WEAPON_LOOTBOX_CHEAP_UFOPEDIA: "A dilapidated weapon storage box. Usually, raiders and other wasteland weaponsmiths store their guns in it for transportation to salvage and dismantling, but sometimes we can find newly minted weapons here."
 
@@ -293,15 +302,24 @@ en-US:
   STR_SNEEDS_YOUR_FEEDS_BRIEFING: "SNEED. FEED AND SEED. CHUCK. FUCK AND SUCK. WE GET IT. HAHAHAHA! SO FUNNY! BECAUSE FUCK AND SUCK FUCK! WHOOOOOA BRO LIKE HAVING INTERCOURSE AND FELLATIO! HOLY WOW HOW DID THE SIMPSONS GET AWAY WITH THIS ONE?! GOLLY GEE WILLIKERS WHAT THE FUCK IT'S ABSOLUTELY HILARIOUS AHAHAHAHAHA! BECAUSE SNEED SELLS FEED AND SEED WHICH IS TOTALLY NORMAL BUT CHUCK, CHUCKY, CHUCK SELLS FUCK AND SUCK! CHUCK SELLS FUCK AND SUCK! FUCK AND SUCK!"
   STR_WASTELAND_GANG: "Wasteland Gang"
   STR_WASTELAND_GANG_BRIEFING: "We have located a small group of raiders in this area, neutralize them all!"
+  STR_WASTELAND_FARM_RAID: "Raider farm attack"
+  STR_WASTELAND_FARM_RAID_ALERT: "Raider farm attack"
+  STR_WASTELAND_FARM_RAID_DESCRIPTION: "One of our clients contacted us and asked for help. His small farm is often attacked by various thugs from the Wasteland. It got to the point that they started shooting directly at the farm workers! It's time to teach these fuckers a lesson and earn our paychek. We will be accompanied by several armed farmers, try to save their lives if possible."
+  STR_WASTELAND_FARM_RAID_BRIEFING: "One of our clients contacted us and asked for help. His small farm is often attacked by various thugs from the Wasteland. It got to the point that they started shooting directly at the farm workers! It's time to teach these fuckers a lesson and earn our paychek. We will be accompanied by several armed farmers, try to save their lives if possible. To abort the mission return X-Com operatives to the exit area and click on the 'Abort Mission' icon."
+
 
 #Tech Tree
+  STR_OURORIGINS: "Our origins"
+  STR_OURORIGINS_UFOPEDIA: ""
   STR_WEAPON_SHOPPING: "Weapon Shopping"
   STR_WEAPON_SHOPPING_UFOPEDIA: "We've go through many shops in the mega cityies, looking for more suitable guns for our organization. As expected, we ain't find anything interesting except some useless junk. However, this search has led us to think of going deeper into the Black Market. Of course, we will not immediately put on a cool military equipment, and it will take a lot of time to build up contacts, but it is still worth trying. {NEWLINE}(You can check new weapons in CyberPredia)"
   STR_BASIC_FIREARMS_TRAINING: "Basic fire arms training"
   STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: "!Old Military base raid!"
+  STR_MILITARY_SUPPLIES: "Military Supplies"
+  STR_MILITARY_SUPPLIES_UFOPEDIA: "Now that we have extensive connections with the military, we don’t have to worry about the lack of supply of normal weapons and armor! Now we can buy standard military weapons and armor for our needs."
 #Events
-  STR_TEST_EVENT: "TEST"
-  STR_TEST_EVENT_DESCRIPTION: "{NEWLINE}This test event is working! If you see this, you going to be granted 2 weapon boxes. Goood Luck"
+  STR_TEST_EVENT: "Pleasent suprise"
+  STR_TEST_EVENT_DESCRIPTION: "{NEWLINE}The base we work on is quite old, but it still keeps its secrets. It looks like the previous team before us left some equipment in one of the compartments!{NEWLINE} [3 military boxes found!]"
 #Events - News
   STR_GNN_NEWS_001: "GNN Report"
   STR_GNN_NEWS_002: "GNN Report"

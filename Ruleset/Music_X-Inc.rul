@@ -8,3 +8,6 @@ musics:
   - type: CLUB
   - type: MOVEIT
   - type: END
+  - type: GMINTER01
+  - type: GMINTER02
+  - type: GMINTER03

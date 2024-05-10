@@ -1,9 +1,9 @@
-‏XW^]‏_]ZZ^‏][
-Y\]Z[‏ZXZ^
-[W[Z[‏[ZWXWZ^[]\[Y][Z[‏
-][][ZW[^[_^W[][]‏][ZW][ZWZX	[	[
-^]‏[
-Y[WWX[^]YZ^]‏[
+‏XWYX‏_]ZYX‏][
+Y\]YX‏ZXZ^
+[WYZX‏[ZWXWZ^[]\[Y][XW‏
+][][ZW[^[_^W[]ZY‏][ZW][ZWZX	[	[
+ZX‏[
+Y[WWX[^]YYZX‏[
 
 [
 	[XXXY
@@ -11,12 +11,14 @@ Y\]Z[‏ZXZ^
 Z[
 
 Y
-WWZZY[‏
+YWZZY[‏
 	
 	]\
 WZ[Z‏	\[\
 [Y‏^X\^[
-‏[Z^ÿ‏ZUUZ‏WUWWWWWZ‏UXXWUXUX[WWU‏UWZUXUXWWXZU[WZZ‏VUW[WVZXZZZXררררפWWû‏
+‏[Z^‏
+
+ÿ‏ZUUZ‏WUWWWWWZ‏UXXWUXUX[WWU‏UWZUXUXWWXZU[WZZ‏VUW[WVZXZZZXררררפWWû‏
 ZZWZZZXרררWUWZצרררררZרûû‏ZZZZVWUWWרתרקרZWZררצרררצרתרת‏WZZVZWUWWZVUררררררXWZתררררררררתצ‏WZZUWUZXVXZZץרקררתZWרצרûרתרר‏UZUZWXWXZZרררררררקררûרתר‏
 רתרWZ[Z[Xץרררץרררררר‏ץררשXUXררתררררצר‏רררצרXררץררר‏רררררררר‏תרץרÿ‏
 ZUUZ‏

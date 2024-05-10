@@ -51,7 +51,38 @@ alienMissions:
         trajectory: CA_SPAWN
         timer: 9000
         objective: true
+
+  - type: STR_WASTELAND_FARM_RAID
+    objective: 3
+    spawnZone: 1
+    raceWeights:
+      0:
+          STR_RACE_WASTELAND_RAIDERS: 100
+    waves:
+      - ufo: STR_WASTELAND_FARM_RAID
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+
+
+                              ### Smuglers ###
+
+  - type: STR_SMUGLER_CLUB
+    objective: 3
+    spawnZone: 3
+    raceWeights:
+      0:
+          STR_RACE_SMUGLERS: 100
+    waves:
+      - ufo: STR_SMUGLER_CLUB
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+
                               ### CityGang Bois ###
+
   - type: STR_BURGLARY_APPREHENSION
     objective: 3
     spawnZone: 3
@@ -90,7 +121,9 @@ alienMissions:
         trajectory: CA_SPAWN
         timer: 9000
         objective: true
+
                               ### Old Mil Base ###
+
   - type: STR_ABANDAND_MILITARY_APPREHENSION
     objective: 3
     spawnZone: 1
@@ -107,6 +140,7 @@ alienMissions:
       - STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: true
                          
                               ### CraftMissions ###
+
 #Synicate
   - type: STR_SYNDICATE_FLYBY
     objective: 3

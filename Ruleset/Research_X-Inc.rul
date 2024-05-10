@@ -19,10 +19,12 @@ research:
     dependencies:
       - STR_IDDQD
 #Enemies
+# ---- Wasteland niggas
   - name: STR_WASTELAND_SCOUT
     cost: 15
-    points: 25
+    points: 10
     listOrder: 151010
+    needItem: true
     getOneFree:
       - STR_LIBIRATOR_JUNK
       - STR_LUGER
@@ -42,8 +44,56 @@ research:
       - STR_MOLOTOV
   - name: STR_WASTELAND_GOON
     cost: 15
-    points: 20
+    points: 10
     listOrder: 151010
+    needItem: true
+    getOneFree:
+      - STR_LIBIRATOR_JUNK
+      - STR_LUGER
+      - STR_COLT_REVOLVER
+      - STR_PISTOL_10MM
+      - STR_TEC9
+      - STR_SMG_10MM
+      - STR_JUNKY_SAWED_OFF
+      - STR_OLD_SHOTGUN
+      - STR_RIFLE_AK
+      - STR_OLD_RIFLE_M16
+      - STR_BANDIT_RIFLE
+      - STR_PIPERIFLE
+      - STR_COWRIFLE
+      - STR_OLD_HUNTING_RIFLE
+      - STR_PIPEBOMB
+      - STR_MOLOTOV
+  - name: STR_WASTELAND_BOSS
+    cost: 25
+    points: 15
+    listOrder: 151010
+    needItem: true
+    getOneFree:
+      - STR_LIBIRATOR_JUNK
+      - STR_LUGER
+      - STR_COLT_REVOLVER
+      - STR_PISTOL_10MM
+      - STR_TEC9
+      - STR_SMG_10MM
+      - STR_JUNKY_SAWED_OFF
+      - STR_OLD_SHOTGUN
+      - STR_RIFLE_AK
+      - STR_OLD_RIFLE_M16
+      - STR_BANDIT_RIFLE
+      - STR_PIPERIFLE
+      - STR_COWRIFLE
+      - STR_OLD_HUNTING_RIFLE
+      - STR_PIPEBOMB
+      - STR_MOLOTOV
+
+# ---- Gunrunners niggas
+
+  - name: STR_GUNRUNNER_WORKER
+    cost: 25
+    points: 15
+    listOrder: 151010
+    needItem: true
     getOneFree:
       - STR_LIBIRATOR_JUNK
       - STR_LUGER
@@ -63,23 +113,29 @@ research:
       - STR_MOLOTOV
 
 
+# ---- TigerClaw niggas
 
   - name: STR_TIGERCALW_FEMGOON #pedia?
     cost: 10 #balance me
     points: 20
+    needItem: true
     listOrder: 151020
   - name: STR_TIGERCALW_GOON
     cost: 10 #balance me
     points: 20
+    needItem: true
     listOrder: 151030
   - name: STR_TIGERCALW_WARCHEEF
     cost: 15
     points: 20
+    needItem: true
     listOrder: 151040
   - name: STR_IDDQD
     cost: 1 
     points: 420
+    needItem: true
     listOrder: 151050
+
 #DeadRobots
   - name: STR_CORPSE_OLD_LIGHT_DRONE
     cost: 25 
@@ -96,6 +152,21 @@ research:
     points: 15
     needItem: true
     listOrder: 151050
+#Crafts
+  - name: STR_FUTUREHAMVEE_BUY
+    cost: 50 
+    points: 50
+    dependencies:
+      - STR_WEAPON_SHOPPING
+    listOrder: 151060
+  - name: STR_CICADA_CRAFT_BUY
+    cost: 100 
+    points: 50
+    dependencies:
+      - STR_FUTUREHAMVEE_BUY
+      - STR_MILITARY_SUPLIES
+    listOrder: 151060
+
 #Facileties
   - name: STR_MEDBAY
     cost: 50 
@@ -112,12 +183,18 @@ research:
 
 #TechTree
   - name: STR_WEAPON_SHOPPING
+    cost: 25 
+    points: 10
+    listOrder: 151060
+  - name: STR_BLACK_MARKET_ACCES
     cost: 50 
     points: 40
+    dependencies:
+      - STR_WEAPON_SHOPPING
     listOrder: 151060
   - name: STR_MILITARY_SUPLIES
-    cost: 50 
-    points: 40
+    cost: 75 
+    points: 100
     dependencies:
       - STR_WEAPON_SHOPPING
     listOrder: 151060
@@ -130,12 +207,19 @@ research:
     dependencies:
       - STR_WEAPON_SHOPPING
   - name: STR_ARMOUR_SECVEST_STUDY
-    cost: 25
+    cost: 35
     points: 25
     listOrder: 151070
     dependencies:
       - STR_CIVIL_VEST_ARMOR_STUDY
-      - STR_WEAPON_SHOPPING
+      - STR_BLACK_MARKET_ACCES
+  - name: STR_COMBAT_ARMOUR_MK1_STUDY 
+    cost: 35
+    points: 25
+    listOrder: 151070
+    dependencies:
+      - STR_ARMOUR_SECVEST_STUDY
+      - STR_MILITARY_SUPLIES
 
 #Items - components
   - name: STR_OPTRONIC_PARTS
@@ -313,6 +397,11 @@ research:
     points: 15
     needItem: true
     listOrder: 151070
+  - name: STR_NITRO_GRENADE
+    cost: 50
+    points: 15
+    needItem: true
+    listOrder: 151070
 
 #Guns - Minigun
   - name: STR_FLAMETHROWER_DIY
@@ -363,24 +452,27 @@ research:
 
 #MissionTrigger
   - name: STR_SCAVENGERS_OLD_MILBASE_MISSION_RES
-    cost: 25                                            #<--- Fix Me Fag
+    cost: 25                                            #<--- Fix Me Faggot
     points: 20
     listOrder: 151070
 
   - name: STR_WEAPON_FACIL_RES
-    cost: 45                                            #<--- Fix Me Fag
+    cost: 45                                            #<---  Fix Me Faggot
     points: 20
     listOrder: 151070
     dependencies:
-      - STR_WASTELAND_GOON
       - STR_WASTELAND_SCOUT
+      - STR_WASTELAND_GOON
+      - STR_PIPERIFLE
+      - STR_PISTOL_10MM
+      - STR_SMG_10MM
   - name: STR_BIG_WEAPON_FACIL_RES
-    cost: 45                                            #<--- Fix Me Fag
+    cost: 45                                            #<---  Fix Me Faggot
     points: 20
     listOrder: 151070
     dependencies:
-      - STR_WASTELAND_GOON
-      - STR_WASTELAND_SCOUT
+      - STR_GUNRUNNER_WORKER
+      - STR_BANDIT_RIFLE
 
 #TransforamtionsNatural
   - name: STR_BASIC_FIREARMS_TRAINING

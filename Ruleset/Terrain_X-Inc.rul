@@ -89,6 +89,145 @@ terrains:
         width: 20
         length: 20
         groups: 0 # std
+
+  - name: NUKEFARM
+    script: NUKEFARM1
+    mapDataSets:
+      - BLANKS
+      - NUKEFARM1
+      - NUKEFARM2
+    mapBlocks:
+      - name: NUKEFARM00
+        width: 10
+        length: 10
+        groups: [1]
+      - name: NUKEFARM01
+        width: 10
+        length: 10
+      - name: NUKEFARM02
+        width: 10
+        length: 10
+      - name: NUKEFARM03
+        width: 10
+        length: 10
+      - name: NUKEFARM04
+        width: 10
+        length: 10
+      - name: NUKEFARM05
+        width: 10
+        length: 10
+      - name: NUKEFARM06
+        width: 10
+        length: 10
+      - name: NUKEFARM07
+        width: 10
+        length: 10
+      - name: NUKEFARM08
+        width: 10
+        length: 10
+      - name: NUKEFARM09
+        width: 10
+        length: 10
+      - name: NUKEFARM10
+        width: 10
+        length: 10
+      - name: NUKEFARM11
+        width: 10
+        length: 10
+      - name: NUKEFARM12
+        width: 10
+        length: 10
+      - name: NUKEFARM13
+        width: 10
+        length: 10
+      - name: NUKEFARM14
+        width: 10
+        length: 10
+      - name: NUKEFARM15
+        width: 10
+        length: 10
+      - name: NUKEFARM16
+        width: 10
+        length: 10
+      - name: NUKEFARM17
+        width: 10
+        length: 10
+      - name: NUKEFARM18
+        width: 10
+        length: 10
+      - name: NUKEFARM19
+        width: 10
+        length: 10
+      - name: NUKEFARM20
+        width: 10
+        length: 10
+      - name: NUKEFARM21
+        width: 20
+        length: 20
+      - name: NUKEFARM22
+        width: 20
+        length: 20
+      - name: NUKEFARM23
+        width: 20
+        length: 20
+      - name: NUKEFARM24
+        width: 20
+        length: 20
+      - name: NUKEFARM25
+        width: 20
+        length: 20
+      - name: NUKEFARM26
+        width: 20
+        length: 20
+      - name: NUKEFARM27
+        width: 20
+        length: 20
+      - name: NUKEFARM28
+        width: 20
+        length: 20
+      - name: NUKEFARM29
+        width: 10
+        length: 10
+        groups: [1]
+      - name: NUKEFARM30
+        width: 10
+        length: 10
+      - name: NUKEFARM31
+        width: 10
+        length: 10
+        groups: [1]
+      - name: NUKEFARM32
+        width: 10
+        length: 10
+        groups: [1]
+      - name: NUKEFARM33
+        width: 10
+        length: 10
+        groups: [1]
+      - name: NUKEFARM34
+        width: 10
+        length: 10
+        groups: [1]
+      - name: NUKEFARM35
+        width: 20
+        length: 20
+        groups: [1]
+      - name: NUKEFARM36
+        width: 30
+        length: 30
+      - name: NUKEFARM37
+        width: 30
+        length: 30
+      - name: NUKEFARM38
+        width: 30
+        length: 30
+      - name: NUKEFARM39
+        width: 30
+        length: 30
+      - name: NUKEFARM40
+        width: 30
+        length: 30
+
   - name: INDUSTRIALSLUM
     mapDataSets:
       - BLANKS
@@ -979,6 +1118,30 @@ terrains:
         width: 30
         length: 30
         groups: [0, 1]
+        items:
+          STR_MONEY_BRIEFCASE:
+            - [0, 7, 2]
+            - [14, 3, 2]
+            - [0, 27, 2]
+          STR_MONEY_BAG:
+            - [6, 15, 0]
+          STR_LOOTBOX6:
+            - [9, 17, 0]
+            - [11, 15, 0]
+      - name: CLUBMALIBU_PB4
+        width: 30
+        length: 30
+        groups: [0, 1]
+        items:
+          STR_MONEY_BRIEFCASE:
+            - [22, 23, 2]
+            - [22, 16, 2]
+            - [12, 12, 2]
+          STR_MONEY_BAG:
+            - [25, 0, 2]
+          STR_LOOTBOX6:
+            - [22, 26, 2]
+            - [15, 10, 0]
 
 #Cyberslums Hires Building
 

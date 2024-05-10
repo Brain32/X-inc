@@ -63,6 +63,76 @@ units:
         - STR_GRENADE
         - STR_PIPEBOMB
 
+#VanillaCivies
+
+  - type: MALE_CIVILIAN
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVM_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_DOMESTIC_SHOTGUN
+        - STR_SMALL_SHOTGUN_SHELLS
+        - STR_SMALL_SHOTGUN_SHELLS
+        - STR_SMALL_SHOTGUN_SHELLS
+      - - STR_CIV_PISTOL_LT
+        - STR_PISTOL_LT_CLIP
+        - STR_PISTOL_LT_CLIP
+        - STR_PISTOL_LT_CLIP
+      - - STR_CIV_PISTOL_HW
+        - STR_PISTOL_HW_CLIP
+        - STR_PISTOL_HW_CLIP
+        - STR_PISTOL_HW_CLIP
+  - type: FEMALE_CIVILIAN
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVF_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      - - STR_DOMESTIC_SHOTGUN
+        - STR_SMALL_SHOTGUN_SHELLS
+        - STR_SMALL_SHOTGUN_SHELLS
+        - STR_SMALL_SHOTGUN_SHELLS
+      - - STR_CIV_PISTOL_LT
+        - STR_PISTOL_LT_CLIP
+        - STR_PISTOL_LT_CLIP
+        - STR_PISTOL_LT_CLIP
+      - - STR_CIV_PISTOL_HW
+        - STR_PISTOL_HW_CLIP
+        - STR_PISTOL_HW_CLIP
+        - STR_PISTOL_HW_CLIP
 # Wasteland - Radiers
 
   - type: STR_WASTELAND_GOON
@@ -153,7 +223,7 @@ units:
     stats:
       tu: 55
       stamina: 60
-      health: 35
+      health: 40
       bravery: 50
       reactions: 60
       firing: 75
@@ -161,8 +231,35 @@ units:
       strength: 35
       psiStrength: 65
       psiSkill: 0
-      melee: 70
+      melee: 40
     armor: STR_GUNRUNNERS_WORKER_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+  - type: STR_GUNRUNNER_MASTER
+    race: STR_GUNRUNNERS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 70
+      health: 50
+      bravery: 70
+      reactions: 70
+      firing: 90
+      throwing: 65
+      strength: 45
+      psiStrength: 75
+      psiSkill: 0
+      melee: 50
+    armor: STR_GUNRUNNERS_MASTER_INV
     standHeight: 22
     kneelHeight: 14
     value: 25
@@ -600,6 +697,38 @@ units:
     spotter: 2
     sniper: 75
     canSurrender: true
+
+###YourTurrets###
+
+  - type: STR_HUMVEE_TURRET_ARMOR
+    race: STR_WAR_MACHINES
+    rank: STR_LIVE_TERRORIST
+    stats: &SECTION_TRUCK_TURRET_STATS
+      tu: 50
+      stamina: 1
+      health: 75
+      bravery: 110
+      reactions: 30
+      firing: 55
+      throwing: 0
+      strength: 75
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    armor: HUMVEE_TURRET_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    energyRecovery: 1
+    value: 100
+    intelligence: 2
+    aggression: 8
+    specab: 1
+    spotter: 1
+    sniper: 75
+    deathSound: 23
+    livingWeapon: true
+    capturable: false
 
 ###Robots###
 

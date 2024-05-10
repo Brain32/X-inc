@@ -7,30 +7,30 @@ soldiers:
     avatarOffsetX: 68
     avatarOffsetY: 48
     minStats:
-      tu: 60
-      stamina: 50
-      health: 35
+      tu: 50
+      stamina: 40
+      health: 30
       bravery: 10
-      reactions: 40
-      firing: 50
-      throwing: 50
-      strength: 30
+      reactions: 30
+      firing: 40
+      throwing: 40
+      strength: 15
       psiStrength: 30
       psiSkill: 0
       melee: 40
-      mana: 70
+      mana: 40
     maxStats:
-      tu: 70
-      stamina: 60
-      health: 60
-      bravery: 60
-      reactions: 60
-      firing: 70
-      throwing: 80
-      strength: 40
+      tu: 60
+      stamina: 50
+      health: 40
+      bravery: 50
+      reactions: 50
+      firing: 60
+      throwing: 50
+      strength: 30
       psiStrength: 100
       psiSkill: 16
-      melee: 60
+      melee: 50
       mana: 100
     statCaps:
       tu: 120

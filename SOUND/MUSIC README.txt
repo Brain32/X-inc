@@ -16,9 +16,10 @@ GMWIN -  Skaven252 - Snow Frontier
 
 NINTH - Crusader no remorse - Ninth Crusade
 
-GMINTER01 - Allister Brimble - miami_chase_-_ing1.mod
-GMINTER02 - Allister Brimble - miami_chase_-_ing2.mod
-GMINTER03 - Allister Brimble - miami_chase_-_ing3.mod
+GMINTER - Allister Brimble - miami_chase_-_ing1.mod
+GMINTER01 - Allister Brimble - miami_chase_-_ing2.mod
+GMINTER02 - Allister Brimble - miami_chase_-_ing3.mod
+GMINTER03 - Patrick Phelan - Lotus 3 - Metal Machine
 
 GMTACTIC  - Khans of New California
 GMTACTIC1 - Traider's Life

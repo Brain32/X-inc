@@ -504,21 +504,21 @@ armors:
     layersDefaultPrefix: HUMAN_RUNNER
     layersDefinition:
       M0: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      M1: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      M2: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      M3: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      M4: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      M5: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      M6: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      M7: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      F0: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      F1: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      F2: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      F3: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      F4: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      F5: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      F6: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-      F7: ["", "", "M0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M1: ["", "", "M1_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M2: ["", "", "M2_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M3: ["", "", "M3_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M4: ["", "", "M4_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M5: ["", "", "M5_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M6: ["", "", "M6_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      M7: ["", "", "M7_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_MALE", "SECVEST_ARMOUR_VEST_MALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F0: ["", "", "F0_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F1: ["", "", "F1_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F2: ["", "", "F2_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F3: ["", "", "F3_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F4: ["", "", "F4_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F5: ["", "", "F5_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F6: ["", "", "F6_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
+      F7: ["", "", "F7_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
     customArmorPreviewIndex: 3
     corpseBattle:
       - STR_CORPSE_SECVEST
@@ -571,6 +571,7 @@ armors:
     loftempsSet: [ 3 ]
 
 # Your Robots
+
   - type: STR_SECBOT_MK1_UC
     spriteSheet: ROBO_1.PCK
     spriteInv: ROBO_1.SPK
@@ -626,6 +627,59 @@ armors:
       - 0.0
       - 0.0
     loftempsSet: [ 3 ]
+
+# Your turrets
+
+  - type: HUMVEE_TURRET_ARMOR
+    spriteSheet: HAM_TURRET_SHEET.PCK
+    spriteInv: HUMVEE_TURRET.SPK
+    allowInv: false
+    corpseBattle:
+      - HUMVEE_TURRET_CORPSE_1
+      - HUMVEE_TURRET_CORPSE_2
+      - HUMVEE_TURRET_CORPSE_3
+      - HUMVEE_TURRET_CORPSE_4
+    corpseGeo: STR_HUMVEE_TURRET_CORPSE
+    weight: -250
+    visibilityAtDay: 30
+    visibilityAtDark: 9
+    fearImmune: true
+    allowsMoving: false
+    ignoresMeleeThreat: false
+    createsMeleeThreat: false
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    drawingRoutine: 5
+    size: 2
+    overKill: 3.0
+    psiDefence:
+      flatHundred: 2.0
+    damageModifier: &SECTION_TRUCK_TURRET_RESISTANCES
+      - 0.0
+      - 0.9
+      - 0.3
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.5
+      - 0.5
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.5
+      - 0.5
+      - 1.0
+      - 0.0
+      - 0.5
+      - 0.0
+      - 0.0
+    builtInWeapons:
+      - AUX_HUMVEE_GUN
+      - AUX_HUMVEE_GUN
+    loftempsSet: [ 92, 89, 90, 91 ]
 
 #OldRobots
 
@@ -975,6 +1029,49 @@ armors:
     loftempsSet: [ 3 ]
 
 
+  - type: STR_GUNRUNNERS_MASTER_INV
+    spriteSheet: GUNRUNNER_MASTER.PCK
+    spriteInv: inventory_GUNRUNNER_MASTER
+    corpseBattle:
+      - STR_GUNRUNNERS_MASTER_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 18
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0 #Null
+      - 0.8 #Bullets
+      - 1.4 #Fire
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 4.0 #Smoke
+      - 0.2 #EMP
+      - 0.7 #Electro
+      - 1.0 #PSI
+      - 4.0 #WRAP
+      - 0.0 #E511
+      - 1.0 #Bio
+    loftempsSet: [ 3 ]
                                                         ###SyndicateGuys###
 
   - type: STR_SYNDICATE_SOLDIER_ARMOR

@@ -43,7 +43,7 @@ ufopaedia:
     section: STR_ARMOUR
     text: STR_COMBAT_ARMOUR_MK1_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_COMBAT_ARMOUR_MK1_STUDY
   - id: STR_COMBAT_ARMOUR_MK2_UC
     type_id: 5
     section: STR_ARMOUR
@@ -103,26 +103,36 @@ ufopaedia:
 #Componets
   - id: STR_OPTRONIC_PARTS
     type_id: 4
+    requires:
+      - STR_OPTRONIC_PARTS
     section: STR_ALIEN_ARTIFACTS
     text: STR_OPTRONIC_PARTS_UFOPEDIA
     listOrder: 48125
   - id: STR_ALIEN_ALLOYS
     type_id: 4
+    requires:
+      - STR_ALIEN_ALLOYS
     section: STR_ALIEN_ARTIFACTS
     text: STR_ALIEN_ALLOYS_UFOPEDIA
     listOrder: 48125
   - id: STR_AQUA_PLASTICS
     type_id: 4
+    requires:
+      - STR_AQUA_PLASTICS
     section: STR_ALIEN_ARTIFACTS
     text: STR_AQUA_PLASTICS_UFOPEDIA
     listOrder: 48125
   - id: STR_SC_WIRE
     type_id: 4
+    requires:
+      - STR_SC_WIRE
     section: STR_ALIEN_ARTIFACTS
     text: STR_SC_WIRE_UFOPEDIA
     listOrder: 48125
   - id: STR_GRAV_MODULE
     type_id: 4
+    requires:
+      - STR_GRAV_MODULE
     section: STR_ALIEN_ARTIFACTS
     text: STR_GRAV_MODULE_UFOPEDIA
     listOrder: 48125
@@ -1349,6 +1359,12 @@ ufopaedia:
     text: STR_EMP_GRENADE_UFOPEDIA
     requires:
       - STR_IDDQD
+  - id: STR_NITRO_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_NITRO_GRENADE_UFOPEDIA
+    requires:
+      - STR_NITRO_GRENADE
 
                                   #SupportShit
 
@@ -1379,6 +1395,16 @@ ufopaedia:
     listOrder: 14410
 
 
+  - id: STR_MONEY_BRIEFCASE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_MONEY_BRIEFCASE_UFOPEDIA
+    listOrder: 15560
+  - id: STR_MONEY_BAG
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_MONEY_BAG_UFOPEDIA
+    listOrder: 15561
                                   #LOOTBOXES
 
   - id: STR_WEAPON_LOOTBOX_CHEAP
@@ -1432,6 +1458,16 @@ ufopaedia:
     section: STR_BASE_FACILITIES
     text: STR_POWER_PLANT_UFOPEDIA
     listOrder: 6870
+
+
+#--------------------------------------------------Lore
+  - id: STR_OURORIGINS
+    type_id: 7
+    image_id: LORE_OURORIGINS_CPAL.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: STR_OURORIGINS_UFOPEDIA
+    listOrder: 270600
 #--------------------------------------------------Factions
 #Smuglers
   - id: STR_SMUGLERS
@@ -1483,6 +1519,15 @@ ufopaedia:
     requires:
       - STR_WEAPON_SHOPPING
     listOrder: 270630
+  - id: STR_BLACK_MARKET_ACCES
+    type_id: 7
+    image_id: BLACKMARKET_CPAL.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: STR_BLACK_MARKET_UFOPEDIA
+    requires:
+      - STR_BLACK_MARKET_ACCES
+    listOrder: 270630
   - id: STR_MILITARY_SUPPLIES_UFOPED
     type_id: 7
     image_id: MILIT_SUPPLIES.SPK
@@ -1490,7 +1535,7 @@ ufopaedia:
     section: STR_FACTIONS_UC
     text: STR_MILITARY_SUPPLIES_UFOPEDIA
     requires:
-      - STR_WEAPON_SHOPPING
+      - STR_BLACK_MARKET_ACCES
     listOrder: 270620
   - id: STR_WASTELAND_MISSIONS
     type_id: 7
@@ -1505,6 +1550,8 @@ ufopaedia:
     text_width: 154
     section: STR_FACTIONS_UC
     text: STR_WASTELAND_WEAPON_FACTORY_UFOPEDIA
+    requires:
+      - STR_WEAPON_FACIL_RES
     listOrder: 270650
   - id: STR_WASTELAND_LORE_1_PED
     type_id: 7
@@ -1674,6 +1721,7 @@ ufopaedia:
       height: 120
     text: STR_FUTURECAR1_UFOPEDIA
     listOrder: 7292
+
   - id: STR_CICADA_CRAFT
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -1690,6 +1738,26 @@ ufopaedia:
       height: 56
     text: STR_CICADA_UFOPEDIA
     listOrder: 382
+
+  - id: STR_FUTUREHAMVEE
+    requires:
+      - STR_FUTUREHAMVEE_BUY
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: FUTUREHAMVEE_ufopedia_CPAL
+    rect_stats:
+      x: 160
+      y: 5
+      width: 160
+      height: 60
+    rect_text:
+      x: 5
+      y: 40
+      width: 140
+      height: 100
+    text: STR_FUTUREHAMVEE_UFOPEDIA
+    listOrder: 382
+
   - id: STR_SKYRANGER
     type_id: 1
     requires:

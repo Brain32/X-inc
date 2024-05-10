@@ -1,8 +1,84 @@
 ﻿alienDeployments:
+                                                ### WastelandFarmRaid ###
+  - type: STR_WASTELAND_FARM_RAID
+    width: 50
+    length: 50
+    height: 10
+    alert: STR_ALERT_WASTELAND_FARM_RAID_GANG
+    alertBackground: BACKMISSION_WASTE_2.SCR
+    alertDescription: STR_WASTELAND_FARM_RAID_DESCRIPTION
+    briefing:
+      background: BACKMISSION_WASTE_2.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_WASTELAND_FARM_RAID_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 2
+    abortPenalty: 2
+    civilians: 4
+    terrains:
+      - NUKEFARM
+    data:
+      - alienRank: 2
+        lowQty: 6
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+            - STR_PIPEBOMB
+          -
+            - STR_JUNKY_SAWED_OFF
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+          -
+            - STR_OLD_SHOTGUN
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+          -
+            - STR_TEC9
+            - STR_TEC9_CLIP
+            - STR_TEC9_CLIP
+          -
+            - STR_PIPERIFLE
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+      - alienRank: 6
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PISTOL_10MM
+            - STR_PISTOL_10MM_MAG
+            - STR_PISTOL_10MM_MAG
+            - STR_PISTOL_10MM_MAG
+          -
+            - STR_OL_WINCHESTER
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+          -
+            - STR_OLD_HUNTING_RIFLE
+            - STR_HUNTING_RIFLE_CLIP
+            - STR_HUNTING_RIFLE_CLIP
+            - STR_HUNTING_RIFLE_CLIP
+          -
+            - STR_COWRIFLE
+            - STR_COWRIFLE_AMMO
+            - STR_COWRIFLE_AMMO
+            - STR_COWRIFLE_AMMO
                                                 ### WastelandOutpost ###
   - type: STR_WASTELAND_GANG
-    width: 40
-    length: 40
+    width: 50
+    length: 50
     height: 10
     alert: STR_ALERT_WASTELAND_GANG
     alertBackground: BACKMISSION_WASTE_2.SCR
@@ -13,8 +89,8 @@
       music: GMTACTIC
     markerName: STR_WASTELAND_GANG_APPREHENSION
     duration: [60, 120]
-    despawnPenalty: 40
-    abortPenalty: 40
+    despawnPenalty: 5
+    abortPenalty: 5
     music:
       - GMTACTIC
     script: WASTEOUTOPST
@@ -23,6 +99,7 @@
       - URBAN_WASTE
       - FORESTWASTE
       - FORESTSWAMP_WASTE
+      - NUKEFARM
     data:
       - alienRank: 2
         lowQty: 6
@@ -69,8 +146,8 @@
       music: GMTACTIC
     markerName: STR_BURGLARY_APPREHENSION 
     duration: [60, 120]
-    despawnPenalty: 40
-    abortPenalty: 40
+    despawnPenalty: 5
+    abortPenalty: 5
     civilians: 6
     music:
       - GMTACTIC
@@ -117,10 +194,8 @@
       music: GMTACTIC
     markerName: STR_HOOD_APPREHENSION
     duration: [60, 120]
-    despawnPenalty: 200
-    abortPenalty: 100
-    music:
-      - GMTACTIC
+    despawnPenalty: 5
+    abortPenalty: 5
     terrains:
       - INDUSTRIALSLUM
     data:
@@ -177,8 +252,8 @@
       music: GMTACTIC
     markerName: STR_WASTELAND_FACTORY_APPREHENSION
     duration: [60, 120]
-    despawnPenalty: 200
-    abortPenalty: 100
+    despawnPenalty: 5
+    abortPenalty: 5
     music:
       - GMTACTIC
     script: RADIERFACTORY
@@ -300,8 +375,8 @@
       music: GMTACTIC
     markerName: STR_WASTELAND_BIG_FACTORY_APPREHENSION
     duration: [60, 120]
-    despawnPenalty: 200
-    abortPenalty: 100
+    despawnPenalty: 5
+    abortPenalty: 5
     music:
       - GMTACTIC
     script: RADIERFACTORY_BIG
@@ -423,7 +498,7 @@
         minDistanceFromXcomUnits: 10
         data:
           - alienRank: 5
-            customUnitType:  STR_GUNRUNNER_WORKER
+            customUnitType:  STR_GUNRUNNER_MASTER
             lowQty: 3
             highQty: 5
             dQty: 0
@@ -463,11 +538,11 @@
       palette: 2
       briefing: STR_GANG_HR_TAKEOVER_BRIEFING
       showTarget: false
-    points: 200
+    points: 1
     markerName: STR_GANG_HR_TAKEOVER_MARK
     duration: [60, 120]
-    despawnPenalty: 150
-    abortPenalty: 50
+    despawnPenalty: 5 
+    abortPenalty: 5
     shade: 0
     civilians: 12
     terrains:
@@ -524,19 +599,19 @@
     length: 30
     height: 3
     alert: STR_ALERT_NIGHT_CLUB
-    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertBackground: CLUB1.SCR
     alertDescription: STR_NIGHT_CLUB
     briefing:
-      background: BACKMISSION_WASTE_1.SCR
+      background: CLUB1.SCR
       palette: 2
       music: CLUB
       briefing: STR_NIGHT_CLUB_BRIEFING
       showTarget: false
-    points: 50
+    points: 1
     markerName: STR_NIGHT_CLUB_MARK
     duration: [60, 120]
-    despawnPenalty: 200
-    abortPenalty: 300
+    despawnPenalty: 5
+    abortPenalty: 5
     shade: 2
     music:
       - CLUB
@@ -621,10 +696,10 @@
       palette: 2
       briefing: STR_SCAVANGER_HUNT_OLD_BASE_BRIEFING
       showTarget: false
-    points: -100
+    points: 1
     markerName: STR_SCAVANGER_HUNT_MARK
     duration: [60, 120]
-    despawnPenalty: -100
+    despawnPenalty: 5
     abortPenalty: 5
     shade: 11
     terrains:
@@ -676,11 +751,11 @@
       music: SNEED
       briefing: STR_SNEEDS_YOUR_FEEDS_BRIEFING
       showTarget: false
-    points: 9000
+    points: 1
     markerName: STR_SNEEDS_YOUR_FEEDS
     duration: [60, 120]
-    despawnPenalty: 200
-    abortPenalty: 300
+    despawnPenalty: 5
+    abortPenalty: 5
     music:
       - SNEED
     terrains:
@@ -782,6 +857,7 @@
             - STR_RIFLE_CLIP_AA
             - STR_RIFLE_CLIP
             - STR_RIFLE_CLIP
+            - STR_NITRO_GRENADE
           -
             - STR_BO_SNIPER_RIFLE
             - STR_BO_SNIPER_RIFLE_CLIP_AA
@@ -790,6 +866,7 @@
             - STR_BO_LMG
             - STR_BO_LMG_CLIP_AA
             - STR_BO_LMG_CLIP
+            - STR_NITRO_GRENADE
           -
             - STR_BLACKOPS_COMMANDO
             - STR_BLACKOPS_COMMANDO_CLIP_AA
@@ -801,6 +878,36 @@
         highQty: 5
         dQty: 2
         percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SMART_PISTOL
+            - STR_PISTOL_CLIP_AA
+            - STR_PISTOL_CLIP
+            - STR_NITRO_GRENADE
+          -
+            - STR_SMARTRIFLE
+            - STR_SMARTRIFLE_CLIP_AA
+            - STR_SMARTRIFLE_CLIP
+            - STR_NITRO_GRENADE
+          -
+            - STR_SMARTRIFLE
+            - STR_SMARTRIFLE_CLIP_AA
+            - STR_SMARTRIFLE_CLIP
+            - STR_NITRO_GRENADE
+
+    width: 60
+    length: 60
+    height: 6
+
+#WastelandBuggi
+
+  - type: STR_RAIDER_BUGGY1
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 50
         itemSets:
           -
             - STR_SMART_PISTOL
@@ -818,4 +925,3 @@
     width: 60
     length: 60
     height: 6
-

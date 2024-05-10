@@ -42,6 +42,8 @@ missionScripts:
     useTable: false
     startDelay: 20
     randomDelay: 43500
+    researchTriggers:
+      STR_WEAPON_FACIL_RES: true
   - type: Wastelandfactory_big
     firstMonth: 2
     executionOdds: 70
@@ -50,12 +52,35 @@ missionScripts:
         STR_WASTELAND_FACTORY_BIG: 100
     regionWeights: &WastelandRegions
       0:
+        STR_EUROPE: 250
         STR_SOUTH_EAST_ASIA: 175
         STR_AUSTRALASIA: 40
         STR_PACIFIC: 20
         STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
     useTable: false
     startDelay: 20
+    randomDelay: 43500
+    researchTriggers: 
+      STR_BIG_WEAPON_FACIL_RES: true
+  - type: WastelandFarmRaid
+    firstMonth: 2
+    executionOdds: 85
+    missionWeights:
+      0:
+        STR_WASTELAND_FARM_RAID: 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_EUROPE: 250
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
+    useTable: false
+    startDelay: 120
     randomDelay: 43500
 
                                                           ### CityGangs ###
@@ -68,10 +93,13 @@ missionScripts:
         STR_BURGLARY_APPREHENSION: 100
     regionWeights: &WastelandRegions
       0:
+        STR_EUROPE: 250
         STR_SOUTH_EAST_ASIA: 175
         STR_AUSTRALASIA: 40
         STR_PACIFIC: 20
         STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
     useTable: false
     startDelay: 20
     randomDelay: 43500
@@ -84,26 +112,52 @@ missionScripts:
         STR_GANG_HOOD_APPREHENSION: 100
     regionWeights: &WastelandRegions
       0:
+        STR_EUROPE: 250
         STR_SOUTH_EAST_ASIA: 175
         STR_AUSTRALASIA: 40
         STR_PACIFIC: 20
         STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
     useTable: false
     startDelay: 20
     randomDelay: 43500
 
   - type: CityGangHRTakeover
     firstMonth: 0
-    executionOdds: 100 
+    executionOdds: 65 
     missionWeights:
       0:
         STR_GANG_HI_RISE_HOUSE_TAKEOVER: 100
     regionWeights: &WastelandRegions
       0:
+        STR_EUROPE: 250
         STR_SOUTH_EAST_ASIA: 175
         STR_AUSTRALASIA: 40
         STR_PACIFIC: 20
         STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+                                                          ### Smuglers ###
+
+  - type: SmuglerClub
+    firstMonth: 3
+    executionOdds: 55 
+    missionWeights:
+      0:
+        STR_SMUGLER_CLUB: 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_EUROPE: 250
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
     useTable: false
     startDelay: 20
     randomDelay: 43500
@@ -118,14 +172,18 @@ missionScripts:
         STR_ABANDAND_MILITARY_APPREHENSION: 100
     regionWeights: &WastelandRegions
       0:
+        STR_EUROPE: 250
         STR_SOUTH_EAST_ASIA: 175
         STR_AUSTRALASIA: 40
         STR_PACIFIC: 20
         STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
     useTable: false
     maxRuns: 6
     varName: MilBaseMaxRuns
-    researchTriggers: STR_SCAVENGERS_OLD_MILBASE_MISSION_RES
+    researchTriggers: 
+      STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: true
     startDelay: 20
     randomDelay: 43500
 
@@ -142,7 +200,7 @@ missionScripts:
     randomDelay: 700
   - type: SyndocateSupply
     firstMonth: 4
-    executionOdds: 75
+    executionOdds: 65
     missionWeights:
       0:
         STR_SYNDICATE_SUPPLY: 100
