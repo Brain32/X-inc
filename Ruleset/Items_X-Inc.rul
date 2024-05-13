@@ -355,7 +355,18 @@
     battleType: 11
     armor: 50
     recover: false
-
+  - type: STR_CORPSE_ICARUS_COAT
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.5
+    weight: 60
+    bigSprite: 301
+    floorSprite: 283
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 50
+    recover: false
 
 
 # -------------------------------- Dead Civies
@@ -856,7 +867,6 @@
     requiresBuy:
       - STR_IDDQD
     size: 3.5
-    costBuy: 100000
     costSell: 65000
     listOrder: 16890
   - type: STR_CIV_VEST
@@ -876,6 +886,13 @@
     floorSprite: 284
     costBuy: 28000
     costSell: 12000
+    listOrder: 16890
+  - type: STR_ICARUS_COAT
+    categories: [STR_OUTFITS]
+    size: 0.8
+    bigSprite: 302
+    floorSprite: 284
+    costSell: 36000
     listOrder: 16890
 
                                   #########################################  _______  Parts and components   _______  #########################################
@@ -6016,7 +6033,7 @@
   - type: STR_MSR770
     categories: [STR_SNIPER_RIFLES]
     requiresBuy:
-      - STR_IDDQD
+      - STR_MILITARY_SUPLIES
     size: 0.16
     costBuy: 23000
     costSell: 12000
@@ -6050,9 +6067,9 @@
     attraction: 12
     listOrder: 13205
   - type: STR_MSR770_CLIP
-    requires:
-      - STR_IDDQD
     size: 0.05
+    requiresBuy:
+      - STR_MILITARY_SUPLIES
     costBuy: 1200
     costSell: 200
     weight: 4
@@ -6060,7 +6077,7 @@
     floorSprite: 305
     hitSound: 174
     hitAnimation: 26
-    power: 30
+    power: 38
     damageType: 1
     damageBonus:
       firing: 0.2
@@ -6069,7 +6086,7 @@
       ArmorEffectiveness: 0.8
       ToArmor: 0
       ToStun: 0.5
-    clipSize: 7
+    clipSize: 10
     costThrow:
       energy: 6
       time: 40

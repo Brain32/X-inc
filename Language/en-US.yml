@@ -310,7 +310,7 @@ en-US:
 
 #Tech Tree
   STR_OURORIGINS: "Our origins"
-  STR_OURORIGINS_UFOPEDIA: ""
+  STR_OURORIGINS_UFOPEDIA: "More than 200 years have passed since the X-com space defense fleet of the Earth destroyed the last strongholds of aliens in our solar system.A lot has changed since then, and humanity has mastered deep space and begun to sow colonies in the nearest corners of the galaxy.{NEWLINE}Who are we exacly? A bunch of enterprising mercenaries who rent a small military base on Earth. Our corporate leadership has chosen you, a cryoprisoner from 2068, to lead our mercenary army! You had experience in leading such organizations, right?"
   STR_WEAPON_SHOPPING: "Weapon Shopping"
   STR_WEAPON_SHOPPING_UFOPEDIA: "We've go through many shops in the mega cityies, looking for more suitable guns for our organization. As expected, we ain't find anything interesting except some useless junk. However, this search has led us to think of going deeper into the Black Market. Of course, we will not immediately put on a cool military equipment, and it will take a lot of time to build up contacts, but it is still worth trying. {NEWLINE}(You can check new weapons in CyberPredia)"
   STR_BASIC_FIREARMS_TRAINING: "Basic fire arms training"

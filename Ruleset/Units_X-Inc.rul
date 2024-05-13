@@ -248,8 +248,8 @@ units:
     race: STR_GUNRUNNERS
     rank: STR_LIVE_SOLDIER
     stats:
-      tu: 55
-      stamina: 70
+      tu: 65
+      stamina: 75
       health: 50
       bravery: 70
       reactions: 70
@@ -278,12 +278,12 @@ units:
     race: STR_TIGERCALW
     rank: STR_LIVE_SOLDIER
     stats:  #balance me
-      tu: 80
-      stamina: 90
-      health: 45
+      tu: 60
+      stamina: 70
+      health: 35
       bravery: 70
-      reactions: 80
-      firing: 90
+      reactions: 60
+      firing: 50
       throwing: 60
       strength: 45
       psiStrength: 55
@@ -305,12 +305,12 @@ units:
     race: STR_TIGERCALW
     rank: STR_LIVE_SOLDIER
     stats:  #balance me
-      tu: 80
-      stamina: 90
-      health: 60
-      bravery: 70
-      reactions: 80
-      firing: 90
+      tu: 50
+      stamina: 65
+      health: 40
+      bravery: 60
+      reactions: 70
+      firing: 60
       throwing: 60
       strength: 45
       psiStrength: 55
@@ -332,7 +332,7 @@ units:
     race: STR_TIGERCALW
     rank: STR_NAVIGATOR
     stats:  #balance me
-      tu: 80
+      tu: 70
       stamina: 90
       health: 60
       bravery: 70

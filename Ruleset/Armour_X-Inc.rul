@@ -570,6 +570,89 @@ armors:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
+  - type: STR_ICARUS_COAT_UC
+    spriteSheet: XCOM_44.PCK
+    layersDefaultPrefix: HUMAN_RUNNER
+    layersDefinition:
+      M0: ["", "", "M0_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M0_HEAD", "", "", ""]
+      M1: ["", "", "M1_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M1_HEAD", "", "", ""]
+      M2: ["", "", "M2_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M2_HEAD", "", "", ""]
+      M3: ["", "", "M3_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M3_HEAD", "", "", ""]
+      M4: ["", "", "M4_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M4_HEAD", "", "", ""]
+      M5: ["", "", "M5_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M5_HEAD", "", "", ""]
+      M6: ["", "", "M6_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M6_HEAD", "", "", ""]
+      M7: ["", "", "M7_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M7_HEAD", "", "", ""]
+      F0: ["", "", "F0_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F0_HEAD", "", "", ""]
+      F1: ["", "", "F1_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F1_HEAD", "", "", ""]
+      F2: ["", "", "F2_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F2_HEAD", "", "", ""]
+      F3: ["", "", "F3_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F3_HEAD", "", "", ""]
+      F4: ["", "", "F4_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F4_HEAD", "", "", ""]
+      F5: ["", "", "F5_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F5_HEAD", "", "", ""]
+      F6: ["", "", "F6_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F6_HEAD", "", "", ""]
+      F7: ["", "", "F7_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F7_HEAD", "", "", ""]
+    customArmorPreviewIndex: 1
+    weight: 7
+    storeItem: STR_ICARUS_COAT
+    corpseBattle:
+      - STR_CORPSE_ICARUS_COAT
+    visibilityAtDark: 16
+    personalLight: 5
+    stats:
+      tu: 8
+      stamina: 18
+      reactions: 10
+      firing: 18
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 35
+    underArmor: 20
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.4
+      moraleCurrent: 0.33
+      bravery: 0.2
+    meleeDodge:
+      reactions: 0.4 # bonus for leather coat badassery
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 20
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        manaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0   #Null
+      - 0.80  #Bullets
+      - 0.8   #Fire
+      - 0.8   #High Explosive
+      - 0.85   #Laser
+      - 1.0   #Plasma
+      - 1.0  #Stun
+      - 0.8   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 0.2   #EMP
+      - 0.5   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    units:
+      - STR_SOLDIER
+    loftempsSet: [ 3 ]
+
 # Your Robots
 
   - type: STR_SECBOT_MK1_UC

@@ -62,6 +62,12 @@ ufopaedia:
     text: STR_SECVEST_ARMOUR_UFOPEDIA
     requires:
       - STR_ARMOUR_SECVEST_STUDY
+  - id: STR_ICARUS_COAT_UC
+    type_id: 5
+    section: STR_ARMOUR
+    text: STR_ICARUS_COAT_UFOPEDIA
+    requires:
+      - STR_ICARUS_COAT_STUDY
 
         #Bad guys
   - id: STR_WASTELAND_GOON_INV
@@ -149,11 +155,15 @@ ufopaedia:
     listOrder: 48130
   - id: STR_MEDIPACK_SMALL
     type_id: 4
+    requires:
+      - STR_MEDIPACK_SMALL
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MEDIPACK_SMALL_UFOPEDIA
     listOrder: 48140
   - id: STR_MEDIPACK_MID
     type_id: 4
+    requires:
+      - STR_MEDIPACK_MID
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MEDIPACK_MID_UFOPEDIA
     listOrder: 48150
@@ -1457,6 +1467,16 @@ ufopaedia:
     type_id: 6
     section: STR_BASE_FACILITIES
     text: STR_POWER_PLANT_UFOPEDIA
+    listOrder: 6870
+  - id:  STR_ALLOY_FACTORY
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text:  STR_ALLOY_FACTORY_UFOPEDIA
+    listOrder: 6870
+  - id: STR_ROBOT_WORKSHOP
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_ROBOT_WORKSHOP_UFOPEDIA
     listOrder: 6870
 
 

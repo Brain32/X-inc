@@ -1,0 +1,8 @@
+startingConditions:
+  - type: STR_STARCON_SMUGLER_CLUB
+    defaultArmor:
+      STR_SOLDIER:
+        STR_RUNNERCOAT_UC: 100
+    allowedArmors:
+      - STR_RUNNERCOAT_UC
+      - STR_ICARUS_COAT_UC

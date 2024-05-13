@@ -28,6 +28,19 @@ facilities:
     storage: 75
     mapName: XBASE_07
     listOrder: 6850
+  - type: STR_WORKSHOP
+    requires:
+      - STR_WORKSHOP
+    spriteShape: 1
+    spriteFacility: 20
+    provideBaseFunc: [WORKS]
+    buildCost: 800000
+    workshops: 40
+    buildTime: 32
+    monthlyCost: 50000
+    workshops: 50
+    mapName: XBASE_03
+    listOrder: 6980
   - type: STR_HYPER_WAVE_DECODER
     requires:
       - STR_HYPER_WAVE_DECODER
@@ -126,4 +139,33 @@ facilities:
     requires:
       - STR_POWER_PLANT
     mapName: XBASS_22  
+    listOrder: 9800
+  - type: STR_ALLOY_FACTORY
+    spriteShape: 1
+    spriteFacility: 884
+    buildCost: 1500000
+    buildTime: 32
+    monthlyCost: 12000
+    workshops: 20
+    refundValue: 9000000
+    requiresBaseFunc: [PWR]
+    provideBaseFunc: [ALLOYMANUF]
+    requires:
+      - STR_ALLOY_FACTORY
+    mapName: XBASS_22  
+    listOrder: 9800
+  - type: STR_ROBOT_WORKSHOP
+    spriteShape: 320
+    size: 2
+    spriteFacility: 884
+    buildCost: 2800000
+    buildTime: 40
+    monthlyCost: 30000
+    workshops: 80
+    refundValue: 1000000
+    requiresBaseFunc: [PWR]
+    provideBaseFunc: [ROBOWORK]
+    requires:
+      - STR_ROBOT_WORKSHOP
+    mapName: XBASS_36
     listOrder: 9800

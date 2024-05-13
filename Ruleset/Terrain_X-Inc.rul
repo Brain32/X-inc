@@ -778,6 +778,18 @@ terrains:
       - name: XBASS_27 # Prison Cells
         width: 10
         length: 10
+      - name: XBASS_36 # Robot Workshop 1
+        width: 10
+        length: 10
+      - name: XBASS_37 # Robot Workshop 2
+        width: 10
+        length: 10
+      - name: XBASS_38 # Robot Workshop 3
+        width: 10
+        length: 10
+      - name: XBASS_39 # Robot Workshop 4
+        width: 10
+        length: 10
   - name: FORESTWASTE
     script: STANDARDMAX
     mapDataSets: &SECTION_FORESTWASTE_DATASETS

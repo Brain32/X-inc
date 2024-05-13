@@ -601,6 +601,7 @@
     alert: STR_ALERT_NIGHT_CLUB
     alertBackground: CLUB1.SCR
     alertDescription: STR_NIGHT_CLUB
+    startingCondition: STR_STARCON_SMUGLER_CLUB
     briefing:
       background: CLUB1.SCR
       palette: 2

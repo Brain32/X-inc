@@ -13,6 +13,11 @@ research:
     points: 20
     dependencies:
       - STR_IDDQD
+  - name: STR_PERSONAL_ARMOR
+    cost: 180
+    points: 20
+    dependencies:
+      - STR_IDDQD
   - name: STR_MEDI_KIT
     cost: 210
     points: 20
@@ -111,7 +116,28 @@ research:
       - STR_OLD_HUNTING_RIFLE
       - STR_PIPEBOMB
       - STR_MOLOTOV
-
+  - name: STR_GUNRUNNER_MASTER
+    cost: 25
+    points: 15
+    listOrder: 151010
+    needItem: true
+    getOneFree:
+      - STR_LIBIRATOR_JUNK
+      - STR_LUGER
+      - STR_COLT_REVOLVER
+      - STR_PISTOL_10MM
+      - STR_TEC9
+      - STR_SMG_10MM
+      - STR_JUNKY_SAWED_OFF
+      - STR_OLD_SHOTGUN
+      - STR_RIFLE_AK
+      - STR_OLD_RIFLE_M16
+      - STR_BANDIT_RIFLE
+      - STR_PIPERIFLE
+      - STR_COWRIFLE
+      - STR_OLD_HUNTING_RIFLE
+      - STR_PIPEBOMB
+      - STR_MOLOTOV
 
 # ---- TigerClaw niggas
 
@@ -180,7 +206,25 @@ research:
     dependencies:
       - STR_MEDBAY
     listOrder: 151060
-
+  - name: STR_WORKSHOP
+    cost: 100 
+    points: 30
+    dependencies:
+      - STR_GUNRUNNER_MASTER
+    listOrder: 151060
+  - name: STR_ALLOY_FACTORY
+    cost: 100 
+    points: 30
+    dependencies:
+      - STR_ALIEN_ALLOYS
+      - STR_WORKSHOP
+    listOrder: 151060
+  - name: STR_ROBOT_WORKSHOP
+    cost: 100 
+    points: 30
+    dependencies:
+      - STR_ALLOY_FACTORY
+    listOrder: 151060
 #TechTree
   - name: STR_WEAPON_SHOPPING
     cost: 25 
@@ -220,6 +264,22 @@ research:
     dependencies:
       - STR_ARMOUR_SECVEST_STUDY
       - STR_MILITARY_SUPLIES
+  - name: STR_COMBAT_ARMOUR_UPGRATE_PROJECT
+    cost: 200
+    points: 50
+    listOrder: 151070
+    dependencies:
+      - STR_COMBAT_ARMOUR_MK1_STUDY 
+      - STR_OPTRONIC_PARTS
+      - STR_ALIEN_ALLOYS
+  - name: STR_ICARUS_COAT_STUDY
+    cost: 250
+    points: 50
+    listOrder: 151070
+    dependencies:
+      - STR_COMBAT_ARMOUR_MK1_STUDY 
+      - STR_OPTRONIC_PARTS
+      - STR_ALIEN_ALLOYS
 
 #Items - components
   - name: STR_OPTRONIC_PARTS
@@ -228,8 +288,8 @@ research:
     needItem: true
     listOrder: 151070
   - name: STR_ALIEN_ALLOYS
-    cost: 50
-    points: 5
+    cost: 150
+    points: 20
     needItem: true
     listOrder: 151070
   - name: STR_AQUA_PLASTICS

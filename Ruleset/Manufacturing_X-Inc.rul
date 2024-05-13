@@ -45,6 +45,21 @@
       STR_ALIEN_ALLOYS: 6
       STR_AQUA_PLASTICS: 7
       STR_SC_WIRE: 5
+                                                           ##Armour##
+
+  - name: STR_COMBAT_ARMOUR_UPGRATE
+    category: STR_ARMOUR
+    requires:
+      - STR_COMBAT_ARMOUR_UPGRATE_PROJECT
+    space: 10
+    time: 1000
+    cost: 50000
+    requiredItems:
+      STR_COMBAT_ARMOUR_MK1: 1
+      STR_ALIEN_ALLOYS: 7
+      STR_OPTRONIC_PARTS: 2
+    producedItems:
+      STR_COMBAT_ARMOUR_MK2: 1
 
                                                            ##BOXES EXTRACTION##
 #LootBox                                                                
