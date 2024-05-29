@@ -493,6 +493,13 @@ research:
     points: 10
     needItem: true
     listOrder: 151070
+#Medical Shit
+
+  - name: STR_PIZZA_SLICE
+    cost: 10
+    points: 10
+    needItem: true
+    listOrder: 151070
 
 #LootBox
   - name: STR_WEAPON_LOOTBOX_CHEAP

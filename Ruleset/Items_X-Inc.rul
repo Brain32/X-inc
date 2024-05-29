@@ -1527,6 +1527,33 @@
     flatRate: true
     isConsumable: true
     listOrder: 48160
+  - type: STR_PIZZA_SLICE
+    size: 0.01
+    costSell: 10000
+    weight: 1
+    bigSprite: 330
+    handSprite: 936
+    floorSprite: 316
+    hitSound: 185
+    battleType: 6
+    medikitType: 2
+    medikitTargetSelf: true
+    medikitTargetMatrix: 31
+    medikitActionName: STR_EAT
+    stimulant: 1
+    woundRecovery: 1
+    stunRecovery: 25
+    energyRecovery: 30
+    manaRecovery: 40
+    tuUse: 5
+    invWidth: 2
+    invHeight: 1
+    costThrow:
+      energy: 6
+      time: 40
+    flatRate: true
+    isConsumable: true
+    listOrder: 48160
 
 
                                   #########################################  _______  W E A P O N S   _______  #########################################
@@ -2000,6 +2027,50 @@
     experienceTrainingMode: 13
     attraction: 8
     listOrder: 12045
+  - type: STR_GOLF_STICK
+    categories: [STR_MELEE]
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.2
+    costBuy: 300
+    costSell: 150
+    weight: 6
+    bigSprite: 329
+    floorSprite: 315
+    handSprite: 928
+    meleeHitSound: 156
+    meleeAnimation: 0
+    power: 20
+    damageType: 6
+    damageBonus:
+      strength: 0.3
+      throwing: 0.3
+    damageAlter:
+      RandomType: 2
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.0
+      ToHealth: 0.8
+      ToTile: 0.4
+    accuracyMelee: 80
+    meleeMultiplier:
+      flatHundred: 0.34
+      melee: 0.65
+    costMelee:
+      time: 14
+      energy: 4
+    costThrow:
+      energy: 12
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 60
+    experienceTrainingMode: 13
+    attraction: 20
+    listOrder: 17813
   - type: STR_BATTO
     categories: [STR_MELEE]
     requiresBuy:

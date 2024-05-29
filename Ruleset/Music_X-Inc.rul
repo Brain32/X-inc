@@ -6,8 +6,11 @@ musics:
   - type: MISCOM
   - type: HOTLINEPIZ
   - type: CLUB
+  - type: CLUB01
   - type: MOVEIT
   - type: END
   - type: GMINTER01
   - type: GMINTER02
   - type: GMINTER03
+  - type: GMMARS01
+  - type: GMMARS02

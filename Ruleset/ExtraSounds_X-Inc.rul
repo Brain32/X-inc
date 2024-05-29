@@ -86,6 +86,7 @@ extraSounds:
       182: Resources/Sounds/Reload/flamethrower_r.wav
       183: Resources/Sounds/Activation/Mine1.wav
       184: Resources/Sounds/Hit/BluntHit.wav
+      185: Resources/Sounds/Heal/PT_Crunch.ogg
   - type: GEO.CAT
     files:
       0: Resources/Sounds/Menu/Click.wav

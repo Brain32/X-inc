@@ -141,6 +141,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BG_2.png
+  - type: ITSPIZZATIME.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/PizzaTime.png
 
 # Player inv pics
   - typeSingle: HUMAN_RUNNER__7__RUNNER_COAT_M
@@ -662,6 +668,8 @@ extraSprites:
       326: Resources/OtherItems/bigob_MoneyCase.png
       327: Resources/OtherItems/bigob_MoneyBag.png
       328: Resources/Armours/IcarusCoat/bigob_Icarus.png
+      329: Resources/Weapons/MeleeWeapons/bigobj_golfClub.png
+      330: Resources/MedicalShit/bigob_Pizza.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -771,7 +779,8 @@ extraSprites:
       904: Resources/Weapons/MeleeWeapons/handob_SuperHammer.png 
       912: Resources/Weapons/HeavyWeapons/handob_LAW.png
       920: Resources/Weapons/Grenades/handob_NitroPack.png
-
+      928: Resources/Weapons/MeleeWeapons/handob_golfClub.png
+      936: Resources/MedicalShit/Handob_Pizza.png
 
 
 # FloorBattlescape (FLOOR)
@@ -964,8 +973,9 @@ extraSprites:
       311: Resources/FactionPack/Turrets/floorob_Ham_DeadC4.png
       312: Resources/OtherItems/Floorob_MoneyCase.png
       313: Resources/OtherItems/floorob_BagOMoney.png
-      314: Resources/Armours/IcarusCoat/bigob_Icarus.png
-
+      314: Resources/Armours/IcarusCoat/floorob_Icarus.png
+      315: Resources/Weapons/MeleeWeapons/floorob_golfClub.png
+      316: Resources/MedicalShit/floorob_Pizza.png
 
                                    ### Sprite sheet (Battlescape) ###
 

@@ -99,6 +99,8 @@ en-US:
   STR_WRENCH_UFOPEDIA: "Throw a wrench into competitors plans, by using this handy-dandy tool!{NEWLINE}They don't make once like this anymore..."
   STR_CUTLASS: "Cutlass"
   STR_CUTLASS_UFOPEDIA: "Awaken an urge within you to became a pirate. YARRR!"
+  STR_GOLF_STICK: "Golf club"
+  STR_GOLF_STICK_UFOPEDIA: "This summer...{NEWLINE} Prepare to...{NEWLINE} ...GOLF!{NEWLINE}{NEWLINE}You gonna need a bigger club."
   STR_BATTO: "Baseballl bat"
   STR_BATTO_UFOPEDIA: "In former times it was used for the popular game of hitting the ball. Now popular among thugs for beating off skulls."
 
@@ -213,6 +215,8 @@ en-US:
   STR_STIMM_UFOPEDIA: "This injector contains a stimulant that can bring him to his senses. Restores 50 stamina and removes 25 Stun points."
   STR_MEDI_PATCH: "Med patch"
   STR_MEDI_PATCH_UFOPEDIA: "Medical patch produced by 'Med Tech' corp. When applied to the wound injects a complex of chemicals that stop the bleeding. Can be used for self-applience."
+  STR_PIZZA_SLICE: "Slice of Pizza"
+  STR_PIZZA_SLICE_UFOPEDIA: "Cheese, pepperoni, tomato sauce, a little oregano seasoning and... unknown dough recipe. This mysterious gift was delivered to us right at the base entrance, which is alarming, because someone knows the location of our hideout! But who got the idea of delivering a pizza trough the Wasteland to God-knows where? At least, the encouraging thing is that in this dark era of synthetic slop, there are people around there who know how to make good-ass Pizza."
 
                     #############  Other crap #############
   STR_MONEY_BRIEFCASE: "Money case"

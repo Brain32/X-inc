@@ -5,6 +5,14 @@ eventScripts:
       STR_TEST_EVENT: 100
     firstMonth: 1
     executionOdds: 40
+  - type: STR_PIZZA_TIME_SCRIPT
+    eventWeights:
+      0:
+        STR_PIZZA_TIME_EVENT: 100
+    counterMin: 0
+    counterMax: 6
+    executionOdds: 23
+    firstMonth: 0
 
   - type: STR_SC_34_NEWS
     eventWeights:
@@ -37,6 +45,17 @@ events:
     timer: 10000
     timerRandom: 20000
 
+#!!!! ITS PIZZA TiME !!!!=====#
+  - name: STR_PIZZA_TIME_EVENT
+    description: STR_PIZZA_TIME_EVENT_DESCRIPTION
+    background: ITSPIZZATIME.SCR
+    everyMultiItemList:
+      STR_PIZZA_SLICE: 6
+    researchList: [STR_PIZZA_SLICE]
+    music: HOTLINEPIZ
+    points: 10
+    timer: 10000
+    timerRandom: 20000
 #>>>News=====#
 
   - name: STR_GNN_NEWS_001

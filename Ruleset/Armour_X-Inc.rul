@@ -574,22 +574,22 @@ armors:
     spriteSheet: XCOM_44.PCK
     layersDefaultPrefix: HUMAN_RUNNER
     layersDefinition:
-      M0: ["", "", "M0_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M0_HEAD", "", "", ""]
-      M1: ["", "", "M1_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M1_HEAD", "", "", ""]
-      M2: ["", "", "M2_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M2_HEAD", "", "", ""]
-      M3: ["", "", "M3_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M3_HEAD", "", "", ""]
-      M4: ["", "", "M4_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M4_HEAD", "", "", ""]
-      M5: ["", "", "M5_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M5_HEAD", "", "", ""]
-      M6: ["", "", "M6_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M6_HEAD", "", "", ""]
-      M7: ["", "", "M7_NUDE", "", "", "", "", "RUNNER_COAT_M", "", "", "M7_HEAD", "", "", ""]
-      F0: ["", "", "F0_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F0_HEAD", "", "", ""]
-      F1: ["", "", "F1_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F1_HEAD", "", "", ""]
-      F2: ["", "", "F2_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F2_HEAD", "", "", ""]
-      F3: ["", "", "F3_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F3_HEAD", "", "", ""]
-      F4: ["", "", "F4_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F4_HEAD", "", "", ""]
-      F5: ["", "", "F5_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F5_HEAD", "", "", ""]
-      F6: ["", "", "F6_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F6_HEAD", "", "", ""]
-      F7: ["", "", "F7_NUDE", "", "", "", "", "RUNNER_COAT_F", "", "", "F7_HEAD", "", "", ""]
+      M0: ["", "", "M0_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_MALE", "", "", "", "M0_HEAD", "ICARUS_SUNGLASSES_MALE", "", ""]
+      M1: ["", "", "M1_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_MALE", "", "", "", "M1_HEAD", "ICARUS_SUNGLASSES_MALE", "", ""]
+      M2: ["", "", "M2_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_MALE", "", "", "", "M2_HEAD", "ICARUS_SUNGLASSES_MALE", "", ""]
+      M3: ["", "", "M3_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_MALE", "", "", "", "M3_HEAD", "ICARUS_SUNGLASSES_MALE", "", ""]
+      M4: ["", "", "M4_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_MALE", "", "", "", "M4_HEAD", "ICARUS_SUNGLASSES_MALE", "", ""]
+      M5: ["", "", "M5_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_MALE", "", "", "", "M5_HEAD", "ICARUS_SUNGLASSES_MALE", "", ""]
+      M6: ["", "", "M6_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_MALE", "", "", "", "M6_HEAD", "ICARUS_SUNGLASSES_MALE", "", ""]
+      M7: ["", "", "M7_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_MALE", "", "", "", "M7_HEAD", "ICARUS_SUNGLASSES_MALE", "", ""]
+      F0: ["", "", "F0_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_FEMALE", "", "", "", "F0_HEAD", "ICARUS_SUNGLASSES_FEMALE", "", ""]
+      F1: ["", "", "F1_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_FEMALE", "", "", "", "F1_HEAD", "ICARUS_SUNGLASSES_FEMALE", "", ""]
+      F2: ["", "", "F2_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_FEMALE", "", "", "", "F2_HEAD", "ICARUS_SUNGLASSES_FEMALE", "", ""]
+      F3: ["", "", "F3_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_FEMALE", "", "", "", "F3_HEAD", "ICARUS_SUNGLASSES_FEMALE", "", ""]
+      F4: ["", "", "F4_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_FEMALE", "", "", "", "F4_HEAD", "ICARUS_SUNGLASSES_FEMALE", "", ""]
+      F5: ["", "", "F5_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_FEMALE", "", "", "", "F5_HEAD", "ICARUS_SUNGLASSES_FEMALE", "", ""]
+      F6: ["", "", "F6_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_FEMALE", "", "", "", "F6_HEAD", "ICARUS_SUNGLASSES_FEMALE", "", ""]
+      F7: ["", "", "F7_NUDE", "", "", "", "ICARUS_ARMOUR_COAT_FEMALE", "", "", "", "F7_HEAD", "ICARUS_SUNGLASSES_FEMALE", "", ""]
     customArmorPreviewIndex: 1
     weight: 7
     storeItem: STR_ICARUS_COAT
