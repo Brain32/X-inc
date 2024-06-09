@@ -240,7 +240,7 @@ research:
     cost: 75 
     points: 100
     dependencies:
-      - STR_WEAPON_SHOPPING
+      - STR_BLACK_MARKET_ACCES
     listOrder: 151060
 
 #Armour
@@ -512,7 +512,27 @@ research:
     points: 15
     needItem: true
     listOrder: 151070
-
+  - name: STR_SYNDICATE_SUPBOX
+    cost: 10
+    points: 15
+    needItem: true
+    listOrder: 151070
+  - name: STR_AUG_CONTAINTER_1
+    cost: 10
+    points: 2
+    needItem: true
+    listOrder: 151070
+  - name: STR_AUG_CONTAINTER_2
+    cost: 25
+    points: 8
+    needItem: true
+    listOrder: 151070
+  - name: STR_AUG_CONTAINTER_3
+    cost: 45
+    points: 12
+    needItem: true
+    listOrder: 151070
+#Events
   - name: STR_TEST_EVENT
     dependencies:
       - STR_TEST_EVENT
@@ -540,6 +560,71 @@ research:
     dependencies:
       - STR_GUNRUNNER_WORKER
       - STR_BANDIT_RIFLE
+
+                    ###TransforamtionsAugs###
+#TechRelated
+  - name: STR_AUGMENTATION_BASICS
+    needItem: true
+    cost: 50
+    points: 4
+    dependencies:
+      - STR_MEDBAY
+#Eye
+  - name: STR_AUG_EYE_MK1
+    needItem: true
+    cost: 20
+    points: 4
+  - name: STR_AUG_EYE_MK2
+    needItem: true
+    cost: 35
+    points: 8
+    dependencies:
+      - STR_AUG_EYE_MK1
+  - name: STR_AUG_EYE_MK3
+    needItem: true
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AUG_EYE_MK2
+#Arm
+  - name: STR_AUG_ARM_MK1
+    needItem: true
+    cost: 20
+    points: 4
+  - name: STR_AUG_ARM_MK2
+    needItem: true
+    cost: 35
+    points: 8
+  - name: STR_AUG_ARM_MK2
+    needItem: true
+    cost: 50
+    points: 10
+#leg
+  - name: STR_AUG_LEG_MK1
+    needItem: true
+    cost: 20
+    points: 4
+  - name: STR_AUG_LEG_MK2
+    needItem: true
+    cost: 35
+    points: 8
+  - name: STR_AUG_LEG_MK2
+    needItem: true
+    cost: 50
+    points: 10
+#Brain
+  - name: STR_AUG_BRAIN_MK1
+    needItem: true
+    cost: 20
+    points: 4
+  - name: STR_AUG_BRAIN_MK2
+    needItem: true
+    cost: 35
+    points: 8
+  - name: STR_AUG_BRAIN_MK2
+    needItem: true
+    cost: 50
+    points: 10
 
 #TransforamtionsNatural
   - name: STR_BASIC_FIREARMS_TRAINING

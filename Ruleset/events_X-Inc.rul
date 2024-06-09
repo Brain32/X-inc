@@ -11,7 +11,7 @@ eventScripts:
         STR_PIZZA_TIME_EVENT: 100
     counterMin: 0
     counterMax: 6
-    executionOdds: 23
+    executionOdds: 14
     firstMonth: 0
 
   - type: STR_SC_34_NEWS

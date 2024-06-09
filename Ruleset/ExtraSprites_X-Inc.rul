@@ -670,6 +670,33 @@ extraSprites:
       328: Resources/Armours/IcarusCoat/bigob_Icarus.png
       329: Resources/Weapons/MeleeWeapons/bigobj_golfClub.png
       330: Resources/MedicalShit/bigob_Pizza.png
+      331: Resources/OtherItems/bigob_SyndicateSupplyBox.png
+      332: Resources/OtherItems/Augs/bigob_Eye_MK1.png
+      333: Resources/OtherItems/Augs/bigob_Eye_MK2.png
+      334: Resources/OtherItems/Augs/bigob_Eye_MK3.png
+      335: Resources/OtherItems/Augs/bigob_Arm_Mk1.png
+      336: Resources/OtherItems/Augs/bigob_Arm_Mk2.png
+      337: Resources/OtherItems/Augs/bigob_Arm_Mk3.png
+      338: Resources/OtherItems/Augs/bigob_Leg_MK1.png
+      339: Resources/OtherItems/Augs/bigob_Leg_MK2.png
+      340: Resources/OtherItems/Augs/bigob_Leg_MK3.png
+      341: Resources/OtherItems/Augs/bigob_Brain_MK1.png
+      342: Resources/OtherItems/Augs/bigob_Brain_MK2.png
+      343: Resources/OtherItems/Augs/bigob_Brain_MK3.png
+      344: Resources/OtherItems/Augs/bigob_CHEST_MK1.png
+      345: Resources/OtherItems/Augs/bigob_CHEST_MK2.png
+      346: Resources/OtherItems/Augs/bigob_CHEST_MK3.png
+      347: Resources/OtherItems/Augs/bigob_Lung_MK1.png
+      348: Resources/OtherItems/Augs/bigob_Lung_MK2.png
+      349: Resources/OtherItems/Augs/bigob_Lung_MK3.png
+      350: Resources/OtherItems/Augs/bigob_Heart_MK1.png
+      351: Resources/OtherItems/Augs/bigob_Heart_MK2.png
+      352: Resources/OtherItems/Augs/bigob_Heart_MK3.png
+      353: Resources/OtherItems/Augs/bigob_MillNeuro.png
+      354: Resources/OtherItems/bigob_AugBox1.png
+      355: Resources/OtherItems/bigob_AugBox2.png
+      356: Resources/OtherItems/bigob_AugBox3.png
+
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -976,6 +1003,10 @@ extraSprites:
       314: Resources/Armours/IcarusCoat/floorob_Icarus.png
       315: Resources/Weapons/MeleeWeapons/floorob_golfClub.png
       316: Resources/MedicalShit/floorob_Pizza.png
+      317: Resources/OtherItems/floorob_SyndicateSypplyBox.png
+      318: Resources/OtherItems/floorob_AugBox1.png
+      319: Resources/OtherItems/floorob_AugBox2.png
+      320: Resources/OtherItems/floorob_AugBox3.png
 
                                    ### Sprite sheet (Battlescape) ###
 
@@ -1513,6 +1544,12 @@ extraSprites:
       0: Resources/UFOpedia/OLD_MILBASE_CPAL.png
 
                            ###Transforamtions###
+  - type: AUGMENTATION_BASICS_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/Terminator_CPAL.png
   - type: TRNS_BASICSHOOTING_CPAL.SPK
     singleImage: true
     width: 320

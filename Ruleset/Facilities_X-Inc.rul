@@ -1,4 +1,14 @@
 facilities:
+  - type: STR_ACCESS_LIFT
+    placeSound: 37
+    monthlyCost: 10000
+    missileAttraction: 0
+    manaRecoveryPerDay: 1
+    sightRange: 400
+    storage: 25
+    storageTiles:
+      - [8, 2, 1]
+    listOrder: 9000
   - type: STR_HANGAR
     spriteShape: 9
     spriteFacility: 9
@@ -10,6 +20,7 @@ facilities:
     workshops: 5 #Cuz you start with no workspace
     storage: 10 #OXCE bonus because of change in handling craft storage
     storageTiles: [[-1, -1, -1]]
+    placeSound: 37
     mapName: XBASE_16
   - type: STR_LIVING_QUARTERS
     spriteShape: 1
@@ -18,6 +29,7 @@ facilities:
     buildTime: 18
     monthlyCost: 11500
     personnel: 35
+    placeSound: 37
     mapName: XBASE_01
   - type: STR_GENERAL_STORES
     spriteShape: 1
@@ -26,6 +38,7 @@ facilities:
     buildTime: 8
     monthlyCost: 5000
     storage: 75
+    placeSound: 37
     mapName: XBASE_07
     listOrder: 6850
   - type: STR_WORKSHOP
@@ -39,6 +52,7 @@ facilities:
     buildTime: 32
     monthlyCost: 50000
     workshops: 50
+    placeSound: 37
     mapName: XBASE_03
     listOrder: 6980
   - type: STR_HYPER_WAVE_DECODER
@@ -52,6 +66,7 @@ facilities:
     monthlyCost: 30000
     radarRange: 10800
     radarChance: 100
+    placeSound: 37
     mapName: XBASE_15
   - type: STR_PRISON_CELLS
     spriteShape: 1
@@ -60,6 +75,7 @@ facilities:
     buildTime: 16
     monthlyCost: 8000
     aliens: 12
+    placeSound: 37
     mapName: XBASS_27
     listOrder: 7030
   - type: STR_GYM
@@ -70,6 +86,7 @@ facilities:
     buildTime: 22
     monthlyCost: 35000
     trainingRooms: 8
+    placeSound: 37
     mapName: XBASS_23
     listOrder: 6960
   - type: STR_MEDBAY
@@ -83,6 +100,7 @@ facilities:
     monthlyCost: 23000
     sickBayAbsoluteBonus: 0.55
     sickBayRelativeBonus: 0.5
+    placeSound: 37
     mapName: XBASS_25                            #<---------- Fix me !
     rightClickActionType: 6
     listOrder: 6960
@@ -97,6 +115,7 @@ facilities:
     monthlyCost: 48000
     sickBayAbsoluteBonus: 0.85
     sickBayRelativeBonus: 1.4
+    placeSound: 37
     mapName: XBASS_25                            #<---------- Fix me !
     rightClickActionType: 6
     listOrder: 6960
@@ -113,6 +132,7 @@ facilities:
     rightClickActionType: 3
     radarRange: 995
     radarChance: 2
+    placeSound: 37
     mapName: XBASS_22                            #<---------- Fix me !
     listOrder: 6830
   - type: STR_CORRIDOR
@@ -122,6 +142,7 @@ facilities:
     buildTime: 6
     monthlyCost: 2000
     canBeBuiltOver: true
+    placeSound: 37
     mapName: XBASS_24
     listOrder: 6810
   - type: STR_POWER_PLANT
@@ -138,6 +159,7 @@ facilities:
         refund: 2
     requires:
       - STR_POWER_PLANT
+    placeSound: 37
     mapName: XBASS_22  
     listOrder: 9800
   - type: STR_ALLOY_FACTORY
@@ -152,6 +174,7 @@ facilities:
     provideBaseFunc: [ALLOYMANUF]
     requires:
       - STR_ALLOY_FACTORY
+    placeSound: 37
     mapName: XBASS_22  
     listOrder: 9800
   - type: STR_ROBOT_WORKSHOP
@@ -167,5 +190,6 @@ facilities:
     provideBaseFunc: [ROBOWORK]
     requires:
       - STR_ROBOT_WORKSHOP
+    placeSound: 37
     mapName: XBASS_36
     listOrder: 9800

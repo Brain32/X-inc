@@ -1,4 +1,5 @@
 soldierTransformation:
+
   - name: STR_BASIC_FIREARMS_TRAINING
     requires:
       - STR_BASIC_FIREARMS_TRAINING
@@ -17,6 +18,84 @@ soldierTransformation:
     flatOverallStatChange:
       reactions: 4
       firing: 12
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+                   ###  Augmentations  ###
+#Eye
+  - name: STR_AUG_EYE_MK1
+    requires:
+      - STR_AUG_EYE_MK1
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    forbiddenPreviousTransformations:
+      - STR_AUG_EYE_MK1
+    requiresBaseFunc:
+      - MEDICAL_BAY
+    cost: 12000
+    requiredItems:
+      STR_AUG_EYE_MK1: 1
+    recoveryTime: 5
+    soldierBonusType: STR_AUG_EYE_MK1
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_EYE_MK2
+    requires:
+      - STR_AUG_EYE_MK2
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_EYE_MK1
+    forbiddenPreviousTransformations:
+      - STR_AUG_EYE_MK2
+    requiresBaseFunc:
+      - MEDICAL_BAY
+    cost: 34000
+    requiredItems:
+      STR_AUG_EYE_MK2: 1
+    recoveryTime: 5
+    soldierBonusType: STR_AUG_EYE_MK2
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_EYE_MK2
+    requires:
+      - STR_AUG_EYE_MK2
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_EYE_MK2
+    forbiddenPreviousTransformations:
+      - STR_AUG_EYE_MK3
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 52000
+    requiredItems:
+      STR_AUG_EYE_MK3: 1
+    recoveryTime: 5
+    soldierBonusType: STR_AUG_EYE_MK3
+    flatOverallStatChange:
+      mana: 1
     lowerBoundAtMinStats: true
     upperBoundAtMaxStats: true
     includeBonusesForMinStats: true

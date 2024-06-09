@@ -7844,6 +7844,235 @@
     armor: 40
     listOrder: 57400
 
+                                  ####### Augminations #######
+#Eye
+  - type: STR_AUG_EYE_MK1
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.1
+    costSell: 34000
+    bigSprite: 332
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+  - type: STR_AUG_EYE_MK2
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.1
+    costSell: 56000
+    bigSprite: 333
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+  - type: STR_AUG_EYE_MK3
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.1
+    costSell: 85000
+    bigSprite: 334
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+#Arm
+  - type: STR_AUG_ARM_MK1
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.15
+    costSell: 34000
+    bigSprite: 335
+    battleType: 0
+    invWidth: 2
+    invHeight: 3
+    listOrder: 57400
+  - type: STR_AUG_ARM_MK2
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.15
+    costSell: 57400
+    bigSprite: 336
+    battleType: 0
+    invWidth: 2
+    invHeight: 3
+    listOrder: 57400
+  - type: STR_AUG_ARM_MK3
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.15
+    costSell: 85000
+    bigSprite: 337
+    battleType: 0
+    invWidth: 2
+    invHeight: 3
+    listOrder: 57400
+#Leg
+  - type: STR_AUG_LEG_MK1
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.15
+    costSell: 34000
+    bigSprite: 338
+    battleType: 0
+    invWidth: 2
+    invHeight: 3
+    listOrder: 57400
+  - type: STR_AUG_LEG_MK2
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.15
+    costSell: 57400
+    bigSprite: 339
+    battleType: 0
+    invWidth: 2
+    invHeight: 3
+    listOrder: 57400
+  - type: STR_AUG_LEG_MK3
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.15
+    costSell: 85000
+    bigSprite: 340
+    battleType: 0
+    invWidth: 2
+    invHeight: 3
+    listOrder: 57400
+#Brain
+  - type: STR_AUG_BRAIN_MK1
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.15
+    costSell: 34000
+    bigSprite: 341
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+  - type: STR_AUG_BRAIN_MK2
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.05
+    costSell: 57400
+    bigSprite: 342
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+  - type: STR_AUG_BRAIN_MK3
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.05
+    costSell: 105000
+    bigSprite: 343
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+#Сhest
+  - type: STR_AUG_CHEST_MK1
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.2
+    costSell: 34000
+    bigSprite: 344
+    battleType: 0
+    invWidth: 2
+    invHeight: 2
+    listOrder: 57400
+  - type: STR_AUG_CHEST_MK2
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.2
+    costSell: 57400
+    bigSprite: 345
+    battleType: 0
+    invWidth: 2
+    invHeight: 2
+    listOrder: 57400
+  - type: STR_AUG_CHEST_MK3
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.2
+    costSell: 105000
+    bigSprite: 346
+    battleType: 0
+    invWidth: 2
+    invHeight: 2
+    listOrder: 57400
+#Lung
+  - type: STR_AUG_LUNG_MK1
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.05
+    costSell: 34000
+    bigSprite: 347
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+  - type: STR_AUG_LUNG_MK2
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.05
+    costSell: 57400
+    bigSprite: 348
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+  - type: STR_AUG_LUNG_MK3
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.05
+    costSell: 105000
+    bigSprite: 349
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+#Heart
+  - type: STR_AUG_HEART_MK1
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.05
+    costSell: 34000
+    bigSprite: 350
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+  - type: STR_AUG_HEART_MK2
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.05
+    costSell: 57400
+    bigSprite: 351
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+  - type: STR_AUG_HEART_MK3
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.05
+    costSell: 105000
+    bigSprite: 352
+    battleType: 0
+    invWidth: 1
+    invHeight: 1
+    listOrder: 57400
+#NeiroImplant
+  - type: STR_AUG_MIL_NEIROIMPLANT
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.05
+    costSell: 175000
+    bigSprite: 353
+    battleType: 0
+    invWidth: 2
+    invHeight: 1
+    listOrder: 57400
                                   ####### Bad Guys #######
 
   - type: STR_WASTELAND_GOON
@@ -7914,6 +8143,49 @@
     invWidth: 2
     invHeight: 2
     armor: 65
+    listOrder: 15557
+  - type: STR_SYNDICATE_SUPBOX
+    size: 0.5
+    costSell: 7200
+    bigSprite: 331
+    floorSprite: 317
+    weight: 30
+    invWidth: 2
+    invHeight: 2
+    armor: 65
+    listOrder: 15557
+  - type: STR_AUG_CONTAINTER_1
+    size: 0.4
+    CostBuy: 10
+    costSell: 23000
+    bigSprite: 354
+    floorSprite: 318
+    weight: 15
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    listOrder: 15557
+  - type: STR_AUG_CONTAINTER_2
+    size: 0.4
+    CostBuy: 10
+    costSell: 47000
+    bigSprite: 355
+    floorSprite: 319
+    weight: 15
+    invWidth: 1
+    invHeight: 2
+    armor: 40
+    listOrder: 15557
+  - type: STR_AUG_CONTAINTER_3
+    size: 0.4
+    CostBuy: 10
+    costSell: 71000
+    bigSprite: 356
+    floorSprite: 320
+    weight: 15
+    invWidth: 1
+    invHeight: 2
+    armor: 55
     listOrder: 15557
 
                                   #######  Handy-Dandy script #####

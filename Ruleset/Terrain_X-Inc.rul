@@ -1169,6 +1169,9 @@ terrains:
       - name: CYBERSLUM_HRHOUSE_01
         width: 30
         length: 30
+        items:
+          STR_AUG_CONTAINTER_1:
+            - [8, 2, 13]
 #Cyberslums RegularTerrain
   - name: CYBERSLUMS
     mapDataSets:

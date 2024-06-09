@@ -265,7 +265,15 @@ en-US:
   STR_INTEL_OFFICER_1: "Introduction"
   INTEL_OFFICER_INTRODUCTION_UFOPEDIA: "Greetings Boss! I hope your recovery from the cryosymosis went smoothly. Since youve been in the freezer for almost 150 years, please let me fill you in. Our organization is a private police force that specializes in culling scum around mega-cities. We also collaborate with Megapol and other Earth power structures. But since our organization has been in decline for the past few years, the board of directors has decided to appoint a new commander - you!{NEWLINE} I really hope you can handle this task, Chief. "
 
-#Transformation
+              ### Transformation ###
+#Augs
+  STR_AUG_EYE_MK1: "Eye Implants Mk1"
+  STR_AUG_EYE_MK1_UFOPEDIA: "Complete eyeballs replacemant with artificial ones is such a savagery  nowdays! These cheap implants are placed on top of the eyeball and act like contact lenses with a simple cyber interface. The model is quite cheap and basic, so don't expect much.{NEWLINE}{NEWLINE} +3 Accuracy"
+  STR_AUG_EYE_MK2: "Eye Implants Mk2"
+  STR_AUG_EYE_MK2_UFOPEDIA: "Глазной имплант военного образца заточенный на боевые ситуации. Новый интерфейс будет немного пидрить голову пользователю. {NEWLINE}{NEWLINE}+4 к точности. {NEWLINE}-1 Регенерации Концетрации за ход."
+  STR_AUG_EYE_MK3: "Eye Implants Mk3"
+  STR_AUG_EYE_MK3_UFOPEDIA: "Очень дорогой и редкий экземпляр военных глазных имплантов. ОС интерфейса была обновлена для поддержки с текущим железом а пользователю дана возможность видить в ночное время суток ! {NEWLINE}{NEWLINE}+5 к точности.{NEWLINE}+ 2 НВ"
+#NaturalTransforamtions
   STR_TRNS_BASICSHOOTING_PED: "Basic firearms training"
   STR_BASICSHOOTING_UFOPEDIA: "After talking to recutment department,to your dismay you learn to that none of the new recruits are going through basic marksmanship training! We had to fiddle a bit with resources from outside to organize normal training.{NEWLINE}{NEWLINE}Now our operatives can take shooting courses which will increase their Accuracy by 12 and Reaction by 4. Training lasts 6 days and costs 7000 credits, Gym required."
 
@@ -328,9 +336,9 @@ en-US:
   STR_GNN_NEWS_001: "GNN Report"
   STR_GNN_NEWS_002: "GNN Report"
   STR_GNN_NEWS_003: "GNN Report"
-  STR_GNN_MURDER_1_DESCRIPTION: "{NEWLINE}{NEWLINE}Прошлым утром, на одной из заброшенных свалок города {0} было найдены трупы трёх видимых делателей по борьбе с коррупцией в высших эшелонах власти. Мегапол опровергает версию о политическом убийстве, заявив что данным лицам следовало бы тратить больше денег на собственную безопасность нежели на глупые вещи вроде борьбы с коррупцией."
+  STR_GNN_MURDER_1_DESCRIPTION: "{NEWLINE}Прошлым утром, на одной из заброшенных свалок города {0} было найдены трупы трёх видимых делателей по борьбе с коррупцией в высших эшелонах власти. Мегапол опровергает версию о политическом убийстве, заявив что данным лицам следовало бы тратить больше денег на собственную безопасность нежели на глупые вещи вроде борьбы с коррупцией."
   STR_GNN_MURDER_2_DESCRIPTION: "{NEWLINE}На прошлой неделе, был найден труп журналистки причастной к расследованию на одном из предприятии «Дзайбацу». Её череп был проломлен а на теле были найдены следы изнасилования. На недавней конференции представительница корпорации «Дзайбацу» с сияющей улыбкой на лице прокомментировала данное событие и посоветовала медиа компаниям меньше обращать внимания на обычные нападения головорезов."
-  STR_GNN_MURDER_3_DESCRIPTION: "{NEWLINE}{NEWLINE}Ожесточённые бои произошли в городе {0} между силовыми структурами и террористической групировкой «SIN». Силовики Мегапола потерпели значительные потери, но смогли сдержать погромы терророристов. Один из анонимных солдат сообщает что атакующие имели продвинутые виды вооружения."
+  STR_GNN_MURDER_3_DESCRIPTION: "{NEWLINE}Ожесточённые бои произошли в городе {0} между силовыми структурами и террористической групировкой «SIN». Силовики Мегапола потерпели значительные потери, но смогли сдержать погромы терророристов. Один из анонимных солдат сообщает что атакующие имели продвинутые виды вооружения."
 
 #Missions
   STR_OLD_MILBASE_MISSION_PED: "!Old Military base raid!"

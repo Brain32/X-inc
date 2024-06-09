@@ -114,7 +114,7 @@ CityCleaner - Shotgun Straight from Fallout 1-2 Have better range. Can use Alloy
 Light, (DUGHHH) have zero penalty to TU,Energy regen or reactions (Somtimes even boosts it) Allowed everywhere. 
      Strating coat -> Booletproof west -> Advanced Coat -> Armoured coat -> Super Cyber coat (JC style).
   >Middle armour
-Have decent protection. A light penalty to TU, reactions and Energy regen. Have more inventary slots. Cannot be allowed in infiltartion missions.
+Have decent protection. A light penalty to TU, reactions and Energy regen. Have more inventary slots. Cannot be allowed in infiltartion missions. Add  an decent armour at the start ?
      Armoured  vest -> TT west -> Personal armour -> Combat Armour -> Advanced aquaplastiqe suit -> Arasaka Black Ops Armour -> light power west
   >Heavy armour
 Heavy, but not as good as power armour. Allows cheap protaction against bullet and laser.
@@ -186,7 +186,7 @@ Structure:
 
 
 >City Gangs 
- - Mostly for player to grind on erly levels. Based on gangs in "The Warriors". 
+ - Mostly for player to grind on erly levels. Based on gangs in "The Warriors"\Mannhunt. 
 Use mostly melee and few weak civilian guns.
    Structure: 
               - Goon
@@ -226,13 +226,13 @@ Mostly poor-armed civies.
    Aim: - MONEY. Money is the goddamned point.
    Structure: 
               - Basic Goon 
-              - Elite goons
+              - Elite goons (Based on Lance Vance Dance)
               - Fixer (Based On Diaz form Vice City (Graphics is done))
-              - Heavy goons
-              - Kingpin
+              - Heavy goons (Maybe someone more armoured)
+              - Kingpin (Power armour ? Proabably WAY too cheap )
 
 Resistence members
-- Hate governments. Works against them through terrorist attacks. Recruit people through nomads and Wasteland habitats.
+- Hate governments. Works against them through terrorist attacks. Recruit people through nomads and Wasteland habitats. Manipulated by Aliens\Corpos\MJ12
    Structure: 
               - Soldier
               - Scout
@@ -246,11 +246,11 @@ Resistence members
               - Elite Heavy Trooper (Have PA)
               - Car Pilot (HWP)
 
-Nomads. 
+Nomads\Bikers
 - Hate cities, respects freedom. Sometimes helps resistance members, but not fully dedicated to them.
    Structure: 
-              - Citizen
-              - 
+              - Biker
+              - Goon
               - Mechanic
 
 Corpos - One of the powerfull forces on Earth. Have money and influence.
@@ -265,7 +265,7 @@ Corpos - One of the powerfull forces on Earth. Have money and influence.
    - Syndicate
 
    - UAC
-
+           >SPACE exploartion
    - Zaibatsu Corporation
            >made meds and drugs
 Space Nazis.
@@ -275,15 +275,16 @@ Space Nazis.
 
 >Cyborg Arc
 Someone mass-produced cyberg-drones. Tough as nails those cyborg killers roamas amoung civillian populas and kills specific targets. After some reassearch and investigation you learn that they are made by Cyberweb. You find thir HQ in Demansion X and blow fuckers up.
+>IonFury Arc
+EvilCo sell cheap augs. Those augmentations make user mad to target SPECIFIC targets\people\places. Interiagtion leads to the cybercult that made by same copo that manuyfacturing those augs. The cyber cult leads to the same corporation. The EvilCo starts activly attack your bases. You got the high priest and he leads you to the CEO of EvilCo in the big ass mansion. Final mission is 3 part mission of Mountain terrain\ Mansion Terrain and undergorund lab.
 
 >Gang arc
-Very-Very basic arc, for starting grind. You receive reports of groups of bandits around megacities that do various crimes. After innerigations of some low-ranked members you learn that they raids are orgonized and you go after more high-ranked members.
-
+Very-Very basic arc, for starting grind. You receive reports of groups of bandits around megacities that do various crimes. After innerigations of some low-ranked members you learn that they raids are orgonized and you go after more high-ranked members. Missions are mostly based of petty crime like stealing\ bulgrering of your clients and so on.
 >Rebel Arc
-You recive reports of groups of anarchists that distorbs goverment and corporation operations around the Wastelands (Mostly) Slowly but surely you discoverd that they are very orgonized groups of rebbels.
+You recive reports of groups of anarchists that distorbs goverment and corporation operations around the Wastelands (Mostly) Slowly but surely you discoverd that they are very orgonized groups of rebbels. You Destroy outposts\ small bases but then learn that they have big claokced ship like in NU-COM2. You sloughter those fuckers and get the respect from illuminaties.
 
 >Officer Tenpenny arc
-After few months of your acttivety, you get contaced with one of the high-ranked MegaPol officer for more "advanced" tasks. He mostly uses and treats you like shit (shows trough random events like giving you civilian corpses and negative score penalty.) After few of those missions you get intel of his illigal activety. Digging further you find more heavy evedence of him colobiration with MarcSek (Or maybe some other corporation that makes iliggal deadly drugs ?) After getting eneough evidence and premmision of goverment, you storm his office. In the End you either kill him or arrest him  (Trugh capturing or killing in battllescape, dugh.) End of this arc give you next tech level and promotion.
+After few months of your acttivety, you get contaced with one of the high-ranked MegaPol officer for more "advanced" tasks. He mostly uses to do dorty job for him (shows trough random events like giving you civilian corpses and negative score penalty.) After few of those missions you get intel of his illigal activety. Digging further you find more heavy evedence of him colobiration with MarcSek (Or maybe some other corporation that makes iliggal deadly drugs ?) After getting eneough evidence and premmision of goverment, you storm his office. In the End you either kill him or arrest him  (Trugh capturing or killing in battllescape, dugh.) End of this arc give you next tech level and promotion.
 
 Note: His entire charecter based on Officer Tenpenny from San Andreas or detective Harris form "Training day". I'm not sure if swearing or insluting player will be tolerated in Mod.oi, but who gives a shit :^)
 
@@ -293,10 +294,10 @@ Evil corporation do evil things, you stop them. Simple as that.
 
 >Syndicate Arc
 
-Syndicate is your arch-nemesis.
+Syndicate is your arch-nemesis. They a bit more advanced and mostly funded by MiB MJ12. At some point they start attacking youy but not TOO regulary. You can't defeat them, they are alwasy there... watching... even when you sleep !
 
 >Black Sun
-NAZIS IN SPACE ! You receive reports of highly trained soldiers with high-tech equipment killing inesents people and disturbing government operations. Raidning, unerground bases you learn that they main HQ located on the moon, so you go there and blow the fuckers !
+NAZIS IN SPACE ! You receive reports of highly trained soldiers with high-tech equipment killing inesents people and disturbing government operations. Raidning, unerground bases you learn that they main HQ located on the moon, so you go there and blow the fuckers! Made them more meancecing like in Half-Life: Timeline 2 (Where Nazis did ACTUALL fucked up shit like screawing current timeline or smth simular.) unlike in nu media.
 
 >M.A.G.M.A arc
 -Starts after Officer Tenpenny arc when you get more exposer and reputation.
@@ -310,7 +311,7 @@ a villain organzation, pulling the strings (the big bad, showing up occasionally
 various bad guys tied to them in some way (the ones you fight on a daily basis)
 a sponsor (should be well written; my idea is a Clint Eastwood lookalike as a government agent)
 a twist - these two forces have something in common, like some deals
-a traitor (maybe Clint Eastwood?)
+a traitor (Solar Note: maybe Clint Eastwood?)
 lots of tension
 
 > Villain organzation. - Start form Syndicate (Kinda Like Ninjas or MiB, Well funded and always ahead of you), then Marcsec and Aliens (ONLY mentioned in text, never acted directly.)

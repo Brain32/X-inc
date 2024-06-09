@@ -45,8 +45,12 @@ startingBase:
         STR_STUN_BATON: 2
         STR_PAPER_FLARE: 2
         STR_COMBAT_KNIFE: 2
+        STR_FLASHLIGHT: 1
       status: STR_READY
   items:
+    STR_AUG_EYE_MK1: 10
+    STR_AUG_EYE_MK2: 10
+    STR_AUG_EYE_MK3: 10
     STR_STUN_BATON: 4
     STR_SMALL_MEDKIT: 1
     STR_GLOCK_NEO: 4
@@ -54,5 +58,6 @@ startingBase:
     STR_PAPER_FLARE: 10
     STR_MEDI_PATCH: 5
     STR_COMBAT_KNIFE: 4
+    STR_FLASHLIGHT: 1
   scientists: 5
   engineers: 5

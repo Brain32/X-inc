@@ -87,6 +87,8 @@ extraSounds:
       183: Resources/Sounds/Activation/Mine1.wav
       184: Resources/Sounds/Hit/BluntHit.wav
       185: Resources/Sounds/Heal/PT_Crunch.ogg
+      186: Resources/Sounds/Buildings/const.wav
   - type: GEO.CAT
     files:
       0: Resources/Sounds/Menu/Click.wav
+      37: Resources/Sounds/Buildings/const.wav

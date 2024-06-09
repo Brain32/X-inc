@@ -142,7 +142,9 @@ ufopaedia:
     section: STR_ALIEN_ARTIFACTS
     text: STR_GRAV_MODULE_UFOPEDIA
     listOrder: 48125
-#MedicalShit
+
+                                        ### MedicalShit ###
+
   - id: STR_MEDI_PATCH
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -179,7 +181,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PIZZA_SLICE_UFOPEDIA
     listOrder: 48180
-#Melee
+                                        ### Melee ###
   - id: STR_KNUCKLES
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -522,8 +524,8 @@ ufopaedia:
       - STR_IDDQD
 
 
-
                                   #SniperRifles#
+
 
   - id: STR_PIPERIFLE
     type_id: 4
@@ -1122,10 +1124,8 @@ ufopaedia:
     requires:
       - STR_IDDQD
 
-
-
-
                                   #SMGs#
+
   - id: STR_SMG_10MM
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1156,6 +1156,7 @@ ufopaedia:
       - STR_IDDQD
 
                                   ###MINIGUNS####
+
   - id: STR_MINIGUN_1
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1397,6 +1398,114 @@ ufopaedia:
       - STR_SMOKE_GRENADE
     listOrder: 14410
 
+                                  #Augmintations
+#TransforamtionAugmentations
+  - id: STR_AUGMENTATION_BASICS
+    type_id: 7
+    image_id: AUGMENTATION_BASICS_CPAL.SPK
+    text_width: 154
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUGMENTATION_BASICS_UFOPEDIA
+    requires:
+      - STR_AUGMENTATION_BASICS
+    listOrder: 240650
+#Eye
+  - id: STR_AUG_EYE_MK1
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_EYE_MK1_UFOPEDIA
+  - id: STR_AUG_EYE_MK2
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_EYE_MK2_UFOPEDIA
+  - id: STR_AUG_EYE_MK3
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_EYE_MK3_UFOPEDIA
+#ARM
+  - id: STR_AUG_ARM_MK1
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_ARM_MK1_UFOPEDIA
+  - id: STR_AUG_ARM_MK2
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_ARM_MK2_UFOPEDIA
+  - id: STR_AUG_ARM_MK3
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_ARM_MK3_UFOPEDIA
+#Leg
+  - id: STR_AUG_LEG_MK1
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_LEG_MK1_UFOPEDIA
+  - id: STR_AUG_LEG_MK2
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_LEG_MK2_UFOPEDIA
+  - id: STR_AUG_LEG_MK3
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_LEG_MK3_UFOPEDIA
+#Brain
+  - id: STR_AUG_BRAIN_MK1
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_BRAIN_MK1_UFOPEDIA
+  - id: STR_AUG_BRAIN_MK2
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_BRAIN_MK2_UFOPEDIA
+  - id: STR_AUG_BRAIN_MK3
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_BRAIN_MK3_UFOPEDIA
+#Chest
+  - id: STR_AUG_CHEST_MK1
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_CHEST_MK1_UFOPEDIA
+  - id: STR_AUG_CHEST_MK2
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_CHEST_MK2_UFOPEDIA
+  - id: STR_AUG_CHEST_MK3
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_CHEST_MK3_UFOPEDIA
+#Lung
+  - id: STR_AUG_LUNG_MK1
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_LUNG_MK1_UFOPEDIA
+  - id: STR_AUG_LUNG_MK2
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_LUNG_MK2_UFOPEDIA
+  - id: STR_AUG_LUNG_MK3
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_LUNG_MK3_UFOPEDIA
+#Heart
+  - id: STR_AUG_HEART_MK1
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_HEART_MK1_UFOPEDIA
+  - id: STR_AUG_HEART_MK2
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_HEART_MK2_UFOPEDIA
+  - id: STR_AUG_HEART_MK3
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_HEART_MK3_UFOPEDIA
+#NeiroImplant
+  - id: STR_AUG_MIL_NEIROIMPLANT
+    type_id: 4
+    section: STR_TRANSFORMATIONS_AND_AUGS_UC
+    text: STR_AUG_MIL_NEIROIMPLANT_UFOPEDIA
+
                                   #OtherCrap
   - id: STR_FLASHLIGHT
     type_id: 4
@@ -1443,6 +1552,34 @@ ufopaedia:
     requires:
       - STR_LOOTBOX6
     text: STR_LOOTBOX6_UFOPEDIA
+    listOrder: 15561
+  - id: STR_SYNDICATE_SUPBOX
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SYNDICATE_SUPBOX
+    text: STR_SYNDICATE_SUPBOX_UFOPEDIA
+    listOrder: 15561
+  - id: STR_AUG_CONTAINTER_1
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_AUG_CONTAINTER_1
+    text: STR_AUG_CONTAINTER_1_UFOPEDIA
+    listOrder: 15561
+  - id: STR_AUG_CONTAINTER_2
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_AUG_CONTAINTER_2
+    text: STR_AUG_CONTAINTER_2_UFOPEDIA
+    listOrder: 15561
+  - id: STR_AUG_CONTAINTER_3
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_AUG_CONTAINTER_3
+    text: STR_AUG_CONTAINTER_3_UFOPEDIA
     listOrder: 15561
 
 #facilities
@@ -1594,6 +1731,7 @@ ufopaedia:
     text: STR_WASTELAND_LORE_1_UFOPEDIA
     listOrder: 270650
 
+#TransforamtionNatural
   - id: STR_TRNS_BASICSHOOTING_PED
     type_id: 7
     image_id: TRNS_BASICSHOOTING_CPAL.SPK
@@ -1603,7 +1741,7 @@ ufopaedia:
     requires:
       - STR_BASIC_FIREARMS_TRAINING
     listOrder: 270650
-#Missions
+                                                 ###Missions###
   - id: OLD_MILBASE_MISSION_PED
     type_id: 7
     image_id: OLD_MILBASE_CPAL.SPK

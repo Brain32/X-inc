@@ -1,7 +1,11 @@
 soldiers:
   - type: STR_SOLDIER
-    costBuy: 8000
-    costSalary: 5000
+    costBuy: 18000
+    costSalary: 4000
+    costSalarySergeant: 3500
+    costSalaryCaptain: 9000
+    costSalaryColonel: 25000
+    costSalaryCommander: 45000
     armor: STR_RUNNERCOAT_UC
     armorForAvatar: STR_RUNNERCOAT_UC
     avatarOffsetX: 68
@@ -45,3 +49,7 @@ soldiers:
       psiSkill: 100
       melee: 120
       mana: 200
+    dogfightExperience: 
+      bravery: 10
+      reactions: 75
+      firing: 75
