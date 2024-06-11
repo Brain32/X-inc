@@ -109,7 +109,7 @@ facilities:
       - STR_ADVANCED_MEDBAY
     spriteShape: 1
     spriteFacility: 869
-    provideBaseFunc: [ADV_MEDICAL_BAY]
+    provideBaseFunc: [ADV_MEDICAL_BAY, MEDICAL_BAY]
     buildCost: 600000
     buildTime: 30
     monthlyCost: 48000

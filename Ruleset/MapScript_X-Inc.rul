@@ -38,6 +38,16 @@ mapScripts:
       size: 2
       executions: 3
     - type: fillArea
+  - type: PORTTFTD
+    commands:
+    - type: addCraft
+    - type: addUFO
+    - type: addLine
+      direction: vertical
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
   - type: NUKE_ZONE
     commands:
     - type: addCraft

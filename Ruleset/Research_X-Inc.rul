@@ -194,7 +194,7 @@ research:
     listOrder: 151060
 
 #Facileties
-  - name: STR_MEDBAY
+  - name: STR_MEDBAY_FACILITY
     cost: 50 
     points: 20
     dependencies:
@@ -204,7 +204,7 @@ research:
     cost: 65 
     points: 30
     dependencies:
-      - STR_MEDBAY
+      - STR_MEDBAY_FACILITY
     listOrder: 151060
   - name: STR_WORKSHOP
     cost: 100 
@@ -564,16 +564,17 @@ research:
                     ###TransforamtionsAugs###
 #TechRelated
   - name: STR_AUGMENTATION_BASICS
-    needItem: true
     cost: 50
     points: 4
     dependencies:
-      - STR_MEDBAY
+      - STR_MEDBAY_FACILITY
 #Eye
   - name: STR_AUG_EYE_MK1
     needItem: true
     cost: 20
     points: 4
+    dependencies:
+      - STR_AUGMENTATION_BASICS
   - name: STR_AUG_EYE_MK2
     needItem: true
     cost: 35
@@ -591,40 +592,65 @@ research:
     needItem: true
     cost: 20
     points: 4
+    dependencies:
+      - STR_AUGMENTATION_BASICS
   - name: STR_AUG_ARM_MK2
     needItem: true
     cost: 35
     points: 8
-  - name: STR_AUG_ARM_MK2
+    dependencies:
+      - STR_AUG_ARM_MK1
+  - name: STR_AUG_ARM_MK3
     needItem: true
     cost: 50
     points: 10
+    dependencies:
+      - STR_AUG_ARM_MK2
 #leg
   - name: STR_AUG_LEG_MK1
     needItem: true
     cost: 20
     points: 4
+    dependencies:
+      - STR_AUGMENTATION_BASICS
   - name: STR_AUG_LEG_MK2
     needItem: true
     cost: 35
     points: 8
-  - name: STR_AUG_LEG_MK2
+    dependencies:
+      - STR_AUG_LEG_MK1
+  - name: STR_AUG_LEG_MK3
     needItem: true
     cost: 50
     points: 10
+    dependencies:
+      - STR_AUG_LEG_MK2
 #Brain
   - name: STR_AUG_BRAIN_MK1
     needItem: true
     cost: 20
     points: 4
+    dependencies:
+      - STR_AUGMENTATION_BASICS
   - name: STR_AUG_BRAIN_MK2
     needItem: true
     cost: 35
     points: 8
+    dependencies:
+      - STR_AUG_BRAIN_MK1
   - name: STR_AUG_BRAIN_MK2
     needItem: true
     cost: 50
     points: 10
+    dependencies:
+      - STR_AUG_BRAIN_MK2
+#Military Neiro Iplant
+  - name: STR_AUG_MIL_NEIROIMPLANT
+    needItem: true
+    cost: 100
+    points: 15
+    dependencies:
+      - STR_AUGMENTATION_BASICS
 
 #TransforamtionsNatural
   - name: STR_BASIC_FIREARMS_TRAINING

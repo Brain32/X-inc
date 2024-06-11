@@ -197,6 +197,7 @@
     despawnPenalty: 5
     abortPenalty: 5
     terrains:
+      - PORTTFTD
       - INDUSTRIALSLUM
     data:
       - alienRank: 4

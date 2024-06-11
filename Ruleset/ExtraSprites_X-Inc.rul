@@ -1583,10 +1583,14 @@ extraSprites:
     fileSingle: Resources/UFOpedia/UNITS/UPed_Raider_boss.png
   - typeSingle: RAIDER_SCOUT_UFOPEDIA_PICTURE
     fileSingle: Resources/UFOpedia/UNITS/UPed_Raider_Scout.png
+#Gunnrunners
   - typeSingle: GUNRUNNER_WORKER_UFOPEDIA_PICTURE
     fileSingle: Resources/UFOpedia/UNITS/UPed_Gunrunner_Worker.png
+  - typeSingle: GUNRUNNER_MASTER_UFOPEDIA_PICTURE
+    fileSingle: Resources/UFOpedia/UNITS/UPed_Gunrunner_Master.png
   - typeSingle: SEC_BOT_12MM_UFOPEDIA_PICTURE
     fileSingle: Resources/UFOpedia/UNITS/Uped_SecBot_12MM.png
+#Vice Smugglers
   - typeSingle: SMUG_DIAZ_UFOPEDIA_PICTURE
     fileSingle: Resources/UFOpedia/UNITS/UPed_SMUG_DIAZ.png
   - typeSingle: SMUG_GOON_UFOPEDIA_PICTURE

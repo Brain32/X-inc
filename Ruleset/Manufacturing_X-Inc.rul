@@ -51,8 +51,8 @@
     category: STR_ARMOUR
     requires:
       - STR_COMBAT_ARMOUR_UPGRATE_PROJECT
-    space: 10
-    time: 1000
+    space: 25
+    time: 800
     cost: 50000
     requiredItems:
       STR_COMBAT_ARMOUR_MK1: 1
@@ -60,6 +60,19 @@
       STR_OPTRONIC_PARTS: 2
     producedItems:
       STR_COMBAT_ARMOUR_MK2: 1
+  - name: STR_ICARUS_COAT_PROD
+    category: STR_ARMOUR
+    requires:
+      - STR_ICARUS_COAT_STUDY
+    space: 30
+    time: 1200
+    cost: 82000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 10
+      STR_AQUA_PLASTICS: 7
+      STR_OPTRONIC_PARTS: 5
+    producedItems:
+      STR_ICARUS_COAT: 1
 
                                                            ##BOXES EXTRACTION##
 #LootBox                                                                
@@ -154,13 +167,13 @@
       - [1, {STR_SC_WIRE: 4, STR_AQUA_PLASTICS: 5, STR_OPTRONIC_PARTS: 10, STR_ALIEN_ALLOYS: 10}]
       - [1, {STR_AQUA_PLASTICS: 20, STR_OPTRONIC_PARTS: 5, STR_ALIEN_ALLOYS: 20}]
     listOrder: 15561
-
+#AugBoxs
   - name: STR_AUG_CONTAINTER_1_EX
     category: STR_EXTRACTION
     requires:
       - STR_AUG_CONTAINTER_1
     space: 0
-    time: 1
+    time: 5
     cost: 10
     requiredItems:
       STR_AUG_CONTAINTER_1: 1
@@ -169,14 +182,58 @@
       - [1, {STR_AUG_BRAIN_MK1: 1, STR_AUG_HEART_MK1: 1}]
       - [1, {STR_AUG_LEG_MK1: 1, STR_AUG_HEART_MK1: 1}]
       - [1, {STR_AUG_BRAIN_MK1: 1, STR_AUG_HEART_MK1: 1}]
-      - [1, {STR_AUG_LEG_MK1: 1}]
+      - [1, {STR_AUG_LEG_MK1: 1, STR_AUG_ARM_MK1: 1}]
       - [1, {STR_AUG_LUNG_MK1: 1, STR_AUG_ARM_MK1: 1}]
       - [1, {STR_AUG_EYE_MK1: 1, STR_AUG_LUNG_MK1: 1}]
       - [1, {STR_AUG_BRAIN_MK1: 1}]
+      - [1, {STR_AUG_ARM_MK1: 1}]
       - [1, {STR_AUG_CHEST_MK1: 2}]
       - [1, {STR_AUG_CHEST_MK1: 1, STR_AUG_LUNG_MK1: 1}]
       - [1, {STR_AUG_HEART_MK1: 1}]
       - [1, {STR_AUG_EYE_MK1: 2}]
     listOrder: 15561
-
+  - name: STR_AUG_CONTAINTER_2_EX
+    category: STR_EXTRACTION
+    requires:
+      - STR_AUG_CONTAINTER_2
+    space: 0
+    time: 5
+    cost: 600
+    requiredItems:
+      STR_AUG_CONTAINTER_2: 1
+    producedItems: {}
+    randomProducedItems:
+      - [1, {STR_AUG_LEG_MK2: 1}]
+      - [1, {STR_AUG_LUNG_MK2: 1}]
+      - [1, {STR_AUG_ARM_MK2: 1, STR_AUG_HEART_MK2: 1}]
+      - [1, {STR_AUG_BRAIN_MK2: 1}]
+      - [1, {STR_AUG_CHEST_MK2: 1, STR_AUG_LUNG_MK2: 1}]
+      - [1, {STR_AUG_HEART_MK2: 1}]
+      - [1, {STR_AUG_EYE_MK2: 1}]
+      - [1, {STR_AUG_ARM_MK2: 1}]
+      - [1, {STR_AUG_BRAIN_MK2: 1, STR_AUG_LEG_MK2: 1}]
+    listOrder: 15561
+  - name: STR_AUG_CONTAINTER_3_EX
+    category: STR_EXTRACTION
+    requires:
+      - STR_AUG_CONTAINTER_3
+    space: 0
+    time: 5
+    cost: -5000
+    requiredItems:
+      STR_AUG_CONTAINTER_3: 1
+    producedItems: {}
+    randomProducedItems:
+      - [1, {STR_AUG_EYE_MK3: 1}]
+      - [1, {STR_AUG_ARM_MK3: 1, STR_AUG_LUNG_MK3: 1}]
+      - [1, {STR_AUG_EYE_MK3: 1, STR_AUG_CHEST_MK3: 1}]
+      - [1, {STR_AUG_CHEST_MK3: 1}]
+      - [1, {STR_AUG_LEG_MK3: 1}]
+      - [1, {STR_AUG_BRAIN_MK3: 1}]
+      - [1, {STR_AUG_MIL_NEIROIMPLANT: 1}]
+      - [1, {STR_AUG_EYE_MK3: 2}]
+      - [1, {STR_AUG_HEART_MK3: 1}]
+      - [1, {STR_AUG_LUNG_MK3: 1}]
+      - [1, {STR_AUG_LEG_MK3: 1, STR_AUG_ARM_MK3: 1}]
+    listOrder: 15561
 

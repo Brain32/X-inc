@@ -1,4 +1,152 @@
 terrains:
+#TFTD Port
+  - name: PORTTFTD
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
+      - SEABITS
+    script: PORTTFTD
+    mapBlocks: 
+      - name: PORTUFO00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO02
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO03
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO04
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO05
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO06
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO07
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO08
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO09
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO10
+        width: 10
+        length: 10
+      - name: PORTUFO11
+        width: 10
+        length: 10
+      - name: PORTUFO11B
+        width: 10
+        length: 10
+      - name: PORTUFO12
+        width: 10
+        length: 10
+      - name: PORTUFO13
+        width: 10
+        length: 10
+      - name: PORTUFO14
+        width: 10
+        length: 10
+      - name: PORTUFO15
+        width: 10
+        length: 10
+      - name: PORTUFO16
+        width: 10
+        length: 10
+      - name: PORTUFO17
+        width: 20
+        length: 20
+      - name: PORTUFO18
+        width: 20
+        length: 20
+      - name: PORTUFO19
+        width: 20
+        length: 20
+      - name: PORTUFO19B
+        width: 20
+        length: 20
+      - name: PORTUFO20
+        width: 20
+        length: 20
+      - name: PORTUFO20B
+        width: 20
+        length: 20
+      - name: PORTUFO21
+        width: 20
+        length: 20
+      - name: PORTUFO22
+        width: 20
+        length: 20
+      - name: PORTUFO23
+        width: 10
+        length: 10
+      - name: PORTUFO24
+        width: 10
+        length: 10
+      - name: PORTUFO25
+        width: 10
+        length: 10
+      - name: PORTUFO26
+        width: 10
+        length: 10
+      - name: PORTUFO27
+        width: 10
+        length: 10
+        groups: [3, 4]
+      - name: PORTUFO28
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO28B
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO29
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO30
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO31
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO31B
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO32
+        width: 20
+        length: 20
+      - name: PORTROAD_WE
+        width: 10
+        length: 10
+        groups: 2
+
   - name: NUKE_ZONE
     script: NUKE_ZONE
     mapDataSets:

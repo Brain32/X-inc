@@ -49,8 +49,8 @@ ufos:
               - [4, 5, 1]
 
   - type: STR_SYNDICATE_ERLY_SHIP_2
-    size: STR_VERY_SMALL 
-    modSprite: InterceptionSyndicatePH1
+    size: STR_SMALL 
+    modSprite: InterceptionSyndicatePH2
     damageMax: 250
     speedMax: 500
     accel: 5

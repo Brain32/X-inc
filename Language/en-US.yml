@@ -249,7 +249,17 @@ en-US:
   STR_RAIDER_SCOUT: "Raider Scout"
   STR_RAIDER_SCOUT_UFOPEDIA: "Those whores have Night vision. Can you belive that ?! That's mean they can snipe you even at night ! Dsgustiong !"
   STR_WASTELAND_SCOUT_INV: "Raider Scout: Analysis"
-  #GunRunners
+
+        #Vice Smugglers
+  STR_SMUGGLER_GOON: "Smuggler - Thug"
+  STR_SMUGGLER_GOON_UFOPEDIA: "Earning their living by transporting expensive junk around the globe to all sorts of goons, corporate sharks, or even representatives of various colonies. These are low-level smugglers, but do not underestimate them. They are well-versed in their business and are good at firing old weapons. Their old-fashioned costume of the past millennium offers no such advantage as underlining their pretentiousness."
+  STR_SMUGGLER_TOMMY: "Smuggler - Goon"
+  STR_SMUGGLER_TOMMY_UFOPEDIA: "Members of the lower ranks who show zeal and diligence can go as far as goons. The toughest, baddest bastards in their group are them. Good at almost any kind of weapon, excellent negotiators and can hit so hard that your head turns against its axis several times. By the way, whatТs wrong with their look? Do they think theyТre a strippers and beer party?"
+  STR_SMUGGLER_LANCE: "Smuggler - Entrepreneur"
+  STR_SMUGGLER_LANCE_UFOPEDIA: "Your name is Lance Vance? Poor basterd."
+  STR_SMUGGLER_DIAZ: "Smuggler - Boss"
+  STR_SMUGGLER_DIAZ_UFOPEDIA: "They have evryting. Money, hoes, respect - but they don't have smarts and arebn't particulary bright."
+        #GunRunners
   STR_GUNRUNNER_WORKER: "Gunrunner Worker"
   STR_GUNRUNNER_WORKER_UFOPEDIA: "Brute force of gunrunners. These guys are not very bright, but they are very diligent with lathe and other hardware. Usually, they are hired by various bandit factions of the Wasteland to help with production of more solid guns, unlike those that can be found in the ruins. Basically, their job is to control the production line so that some moron would not press someting that shouldn't be pressed."
   STR_GUNRUNNERS_WORKER_INV: "Gunrunner Worker: Analysis"
@@ -275,6 +285,7 @@ en-US:
   STR_AUG_EYE_MK3_UFOPEDIA: "ќчень дорогой и редкий экземпл€р военных глазных имплантов. ќ— интерфейса была обновлена дл€ поддержки с текущим железом а пользователю дана возможность видить в ночное врем€ суток ! {NEWLINE}{NEWLINE}+5 к точности.{NEWLINE}+ 2 Ќ¬"
 #NaturalTransforamtions
   STR_TRNS_BASICSHOOTING_PED: "Basic firearms training"
+  STR_BASIC_FIREARMS_TRAINING: "Basic firearms training"
   STR_BASICSHOOTING_UFOPEDIA: "After talking to recutment department,to your dismay you learn to that none of the new recruits are going through basic marksmanship training! We had to fiddle a bit with resources from outside to organize normal training.{NEWLINE}{NEWLINE}Now our operatives can take shooting courses which will increase their Accuracy by 12 and Reaction by 4. Training lasts 6 days and costs 7000 credits, Gym required."
 
 

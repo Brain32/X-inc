@@ -1781,6 +1781,36 @@ ufopaedia:
     text: STR_RAIDER_SCOUT_UFOPEDIA
     text_width: 180
     listOrder: 20140
+#Vice Smugglers
+  - id: STR_SMUGGLER_GOON
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: SMUG_GOON_UFOPEDIA_PICTURE
+    text: STR_SMUGGLER_GOON_UFOPEDIA
+    text_width: 180
+    listOrder: 20140
+  - id: STR_SMUGGLER_TOMMY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: SMUG_TOMMY_UFOPEDIA_PICTURE
+    text: STR_SMUGGLER_TOMMY_UFOPEDIA
+    text_width: 180
+    listOrder: 20140
+  - id: STR_SMUGGLER_LANCE
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: SMUG_LANCE_UFOPEDIA_PICTURE
+    text: STR_SMUGGLER_LANCE_UFOPEDIA
+    text_width: 180
+    listOrder: 20140
+  - id: STR_SMUGGLER_DIAZ
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: SMUG_DIAZ_UFOPEDIA_PICTURE
+    text: STR_SMUGGLER_DIAZ_UFOPEDIA
+    text_width: 180
+    listOrder: 20140
+#Gunnrunners
   - id: STR_GUNRUNNER_WORKER
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
@@ -1788,7 +1818,14 @@ ufopaedia:
     text: STR_GUNRUNNER_WORKER_UFOPEDIA
     text_width: 180
     listOrder: 20140
-
+  - id: STR_GUNRUNNER_MASTER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: GUNRUNNER_MASTER_UFOPEDIA_PICTURE
+    text: STR_GUNRUNNER_MASTER_UFOPEDIA
+    text_width: 180
+    listOrder: 20140
+#OldRobots
   - id: STR_OLD_LIGHT_DRONE
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS

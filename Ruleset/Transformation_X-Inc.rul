@@ -40,7 +40,7 @@ soldierTransformation:
     cost: 12000
     requiredItems:
       STR_AUG_EYE_MK1: 1
-    recoveryTime: 5
+    recoveryTime: 6
     soldierBonusType: STR_AUG_EYE_MK1
     flatOverallStatChange:
       mana: 1
@@ -66,16 +66,16 @@ soldierTransformation:
     cost: 34000
     requiredItems:
       STR_AUG_EYE_MK2: 1
-    recoveryTime: 5
+    recoveryTime: 6
     soldierBonusType: STR_AUG_EYE_MK2
     flatOverallStatChange:
       mana: 1
     lowerBoundAtMinStats: true
     upperBoundAtMaxStats: true
     includeBonusesForMinStats: true
-  - name: STR_AUG_EYE_MK2
+  - name: STR_AUG_EYE_MK3
     requires:
-      - STR_AUG_EYE_MK2
+      - STR_AUG_EYE_MK3
     keepSoldierArmor: true
     createsClone: false
     allowsDeadSoldiers: false
@@ -89,13 +89,501 @@ soldierTransformation:
       - STR_AUG_EYE_MK3
     requiresBaseFunc:
       - ADV_MEDICAL_BAY
-    cost: 52000
+    cost: 58000
     requiredItems:
       STR_AUG_EYE_MK3: 1
-    recoveryTime: 5
+    recoveryTime: 7
     soldierBonusType: STR_AUG_EYE_MK3
     flatOverallStatChange:
       mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+
+#Arm
+  - name: STR_AUG_ARM_MK1
+    requires:
+      - STR_AUG_ARM_MK1
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    forbiddenPreviousTransformations:
+      - STR_AUG_ARM_MK1
+    requiresBaseFunc:
+      - MEDICAL_BAY
+    cost: 18000
+    requiredItems:
+      STR_AUG_ARM_MK1: 1
+    recoveryTime: 8
+    soldierBonusType: STR_AUG_ARM_MK1
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_ARM_MK2
+    requires:
+      - STR_AUG_ARM_MK2
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_ARM_MK1
+    forbiddenPreviousTransformations:
+      - STR_AUG_ARM_MK2
+    requiresBaseFunc:
+      - MEDICAL_BAY
+    cost: 35000
+    requiredItems:
+      STR_AUG_ARM_MK2: 1
+    recoveryTime: 10
+    soldierBonusType: STR_AUG_ARM_MK2
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_ARM_MK3
+    requires:
+      - STR_AUG_ARM_MK3
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_ARM_MK2
+    forbiddenPreviousTransformations:
+      - STR_AUG_ARM_MK3
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 73000
+    requiredItems:
+      STR_AUG_ARM_MK3: 1
+    recoveryTime: 14
+    soldierBonusType: STR_AUG_ARM_MK3
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+#Leg
+  - name: STR_AUG_LEG_MK1
+    requires:
+      - STR_AUG_LEG_MK1
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    forbiddenPreviousTransformations:
+      - STR_AUG_LEG_MK1
+    requiresBaseFunc:
+      - MEDICAL_BAY
+    cost: 14000
+    requiredItems:
+      STR_AUG_LEG_MK1: 1
+    recoveryTime: 8
+    soldierBonusType: STR_AUG_LEG_MK1
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_LEG_MK2
+    requires:
+      - STR_AUG_LEG_MK2
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_LEG_MK1
+    forbiddenPreviousTransformations:
+      - STR_AUG_LEG_MK2
+    requiresBaseFunc:
+      - MEDICAL_BAY
+    cost: 21000
+    requiredItems:
+      STR_AUG_LEG_MK2: 1
+    recoveryTime: 10
+    soldierBonusType: STR_AUG_LEG_MK2
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_LEG_MK3
+    requires:
+      - STR_AUG_LEG_MK3
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_LEG_MK2
+    forbiddenPreviousTransformations:
+      - STR_AUG_LEG_MK3
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 21000
+    requiredItems:
+      STR_AUG_LEG_MK3: 1
+    recoveryTime: 10
+    soldierBonusType: STR_AUG_LEG_MK2
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+#Brain
+  - name: STR_AUG_BRAIN_MK1
+    requires:
+      - STR_AUG_BRAIN_MK1
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    forbiddenPreviousTransformations:
+      - STR_AUG_BRAIN_MK1
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 25000
+    requiredItems:
+      STR_AUG_BRAIN_MK1: 1
+    recoveryTime: 8
+    soldierBonusType: STR_AUG_LEG_MK1
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_BRAIN_MK2
+    requires:
+      - STR_AUG_BRAIN_MK2
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_BRAIN_MK1
+    forbiddenPreviousTransformations:
+      - STR_AUG_BRAIN_MK2
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 34000
+    requiredItems:
+      STR_AUG_BRAIN_MK2: 1
+    recoveryTime: 6
+    soldierBonusType: STR_AUG_BRAIN_MK2
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_BRAIN_MK3
+    requires:
+      - STR_AUG_BRAIN_MK3
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_BRAIN_MK2
+    forbiddenPreviousTransformations:
+      - STR_AUG_BRAIN_MK3
+    requiresBaseFunc:
+      - MEDICAL_BAY
+    cost: 34000
+    requiredItems:
+      STR_AUG_BRAIN_MK3: 1
+    recoveryTime: 6
+    soldierBonusType: STR_AUG_BRAIN_MK3
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+#Ñhest
+  - name: STR_AUG_CHEST_MK1
+    requires:
+      - STR_AUG_CHEST_MK1
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    forbiddenPreviousTransformations:
+      - STR_AUG_CHEST_MK1
+    requiresBaseFunc:
+      - MEDICAL_BAY
+    cost: 25000
+    requiredItems:
+      STR_AUG_CHEST_MK1: 1
+    recoveryTime: 8
+    soldierBonusType: STR_AUG_CHEST_MK1
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_CHEST_MK2
+    requires:
+      - STR_AUG_CHEST_MK2
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_CHEST_MK1
+    forbiddenPreviousTransformations:
+      - STR_AUG_CHEST_MK2
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 34000
+    requiredItems:
+      STR_AUG_BRAIN_MK2: 1
+    recoveryTime: 6
+    soldierBonusType: STR_AUG_CHEST_MK2
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_CHEST_MK3
+    requires:
+      - STR_AUG_CHEST_MK3
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_CHEST_MK2
+    forbiddenPreviousTransformations:
+      - STR_AUG_CHEST_MK3
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 34000
+    requiredItems:
+      STR_AUG_BRAIN_MK3: 1
+    recoveryTime: 6
+    soldierBonusType: STR_AUG_CHEST_MK3
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+#Lung
+  - name: STR_AUG_LUNG_MK1
+    requires:
+      - STR_AUG_LUNG_MK1
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    forbiddenPreviousTransformations:
+      - STR_AUG_LUNG_MK1
+    requiresBaseFunc:
+      - MEDICAL_BAY
+    cost: 12000
+    requiredItems:
+      STR_AUG_LUNG_MK1: 1
+    recoveryTime: 6
+    soldierBonusType: STR_AUG_LUNG_MK1
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_LUNG_MK2
+    requires:
+      - STR_AUG_LUNG_MK2
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_LUNG_MK1
+    forbiddenPreviousTransformations:
+      - STR_AUG_LUNG_MK2
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 34000
+    requiredItems:
+      STR_AUG_LUNG_MK2: 1
+    recoveryTime: 6
+    soldierBonusType: STR_AUG_LUNG_MK2
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_LUNG_MK3
+    requires:
+      - STR_AUG_LUNG_MK3
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_LUNG_MK2
+    forbiddenPreviousTransformations:
+      - STR_AUG_LUNG_MK3
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 34000
+    requiredItems:
+      STR_AUG_LUNG_MK3: 1
+    recoveryTime: 6
+    soldierBonusType: STR_AUG_LUNG_MK3
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+#Heart
+  - name: STR_AUG_HEART_MK1
+    requires:
+      - STR_AUG_HEART_MK1
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    forbiddenPreviousTransformations:
+      - STR_AUG_HEART_MK1
+    requiresBaseFunc:
+      - MEDICAL_BAY
+    cost: 12000
+    requiredItems:
+      STR_AUG_HEART_MK1: 1
+    recoveryTime: 6
+    soldierBonusType: STR_AUG_HEART_MK1
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_HEART_MK2
+    requires:
+      - STR_AUG_HEARTG_MK2
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_HEART_MK1
+    forbiddenPreviousTransformations:
+      - STR_AUG_HEART_MK2
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 34000
+    requiredItems:
+      STR_AUG_HEART_MK2: 1
+    recoveryTime: 6
+    soldierBonusType: STR_AUG_HEART_MK2
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+  - name: STR_AUG_HEART_MK3
+    requires:
+      - STR_AUG_HEARTG_MK3
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    requiredPreviousTransformations:
+      - STR_AUG_HEART_MK2
+    forbiddenPreviousTransformations:
+      - STR_AUG_HEART_MK3
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 34000
+    requiredItems:
+      STR_AUG_HEART_MK3: 1
+    recoveryTime: 6
+    soldierBonusType: STR_AUG_HEART_MK3
+    flatOverallStatChange:
+      mana: 1
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: true
+    includeBonusesForMinStats: true
+#SpecialImplants
+  - name: STR_AUG_MIL_NEIROIMPLANT
+    requires:
+      - STR_AUG_MIL_NEIROIMPLANT
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    forbiddenPreviousTransformations:
+      - STR_AUG_MIL_NEIROIMPLANT
+    requiresBaseFunc:
+      - ADV_MEDICAL_BAY
+    cost: 100000
+    requiredItems:
+      STR_AUG_MIL_NEIROIMPLANT: 1
+    recoveryTime: 15
+    soldierBonusType: STR_AUG_MIL_NEIROIMPLANT
+    flatOverallStatChange:
+      mana: 5
     lowerBoundAtMinStats: true
     upperBoundAtMaxStats: true
     includeBonusesForMinStats: true
