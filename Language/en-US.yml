@@ -86,7 +86,8 @@ en-US:
   STR_STUN_BATON_UFOPEDIA: "Even though we are a private mercenary organization, Magapol did authorize the use of such electric batons. The shock isn’t lethal, but it still causes some damage to the target’s health."
   STR_COMBAT_KNIFE: "Combat Knife"
   STR_COMBAT_KNIFE_UFOPEDIA: "A high quality steel knife for close range combat. Effective use requires strength and melee skill."
-
+  STR_KNIFE_BANDIT: "Bandit knife"
+  STR_KNIFE_BANDIT_UFOPEDIA: "This large knife is used by raiders and bandits. Requires determination to use it."
   STR_STABKNIFE: "Punch dagger"
   STR_STABKNIFE_UFOPEDIA: "This particular type of knife relies more on the strength of the wearer than on their skill."
   STR_MACHETE: "Machete"
@@ -99,6 +100,14 @@ en-US:
   STR_WRENCH_UFOPEDIA: "Throw a wrench into competitors plans, by using this handy-dandy tool!{NEWLINE}They don't make once like this anymore..."
   STR_CUTLASS: "Cutlass"
   STR_CUTLASS_UFOPEDIA: "Awaken an urge within you to became a pirate. YARRR!"
+  STR_FIRE_AX: "Fire axe"
+  STR_FIRE_AX_UFOPEDIA: "An Axe that used to destroy debris during fires."
+  STR_CARBONBLADE: "Carbon blade"
+  STR_CARBONBLADE_UFOPEDIA: "Nowadays, a blade made of carbon fibers is popular among punks who want to become street samurai."
+  STR_HAMMER: "Sledgehammer"
+  STR_HAMMER_UFOPEDIA: "If something gets in your way, just take it to the fuck out."
+  STR_SUPER_HAMMER: "Super Sledge"
+  STR_SUPER_HAMMER_UFOPEDIA: "Heavy bandura, with pneumatic booster."
   STR_GOLF_STICK: "Golf club"
   STR_GOLF_STICK_UFOPEDIA: "This summer...{NEWLINE} Prepare to...{NEWLINE} ...GOLF!{NEWLINE}{NEWLINE}You gonna need a bigger club."
   STR_BATTO: "Baseballl bat"
@@ -237,6 +246,9 @@ en-US:
   STR_HOVERSCOOTER: "FAGGIO"
   STR_CICADA_CRAFT: "CICADA"
   STR_CICADA_UFOPEDIA: "A SMALL VTOL ATTACK VESSEL, CAPABLE OF CARRYING A SMALL TEAM ON BOARD."
+  STR_FUTUREHAMVEE_BUY: "HUMVEE acquisition"
+  STR_FUTUREHAMVEE: "HUMVEE"
+  STR_FUTUREHAMVEE_UFOPEDIA: "A DURABLE CAR CAPABLE OF ACCOMMODATING A SMALL TEAM. ON TOP OF THIS, HAS AN AUTOMATIC TURRET RIGHT ON THE ROOF!"
 
 #Unit Description
   #Raiders
