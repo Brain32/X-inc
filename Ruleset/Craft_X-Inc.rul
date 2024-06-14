@@ -175,6 +175,8 @@ crafts:
       - [4, 3, 0, 6]
     listOrder: 382
   - type: STR_HIGHWAY_STAR
+    requires:
+      - STR_IDDQD
     sprite: 230
     fuelMax: 9999
     damageMax: 40

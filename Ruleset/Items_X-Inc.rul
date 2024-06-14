@@ -933,6 +933,8 @@
     recoveryPoints: 1
     listOrder: 61995
   - type: STR_SC_WIRE
+    requiresBuy:
+      - STR_BLACK_MARKET_ACCES
     categories: [STR_BAT_CAT_RESOURCE]
     size: 0.1
     weight: 8
