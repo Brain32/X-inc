@@ -15,3 +15,5 @@ surrenderMode: 2
 alienFuel: [STR_ELERIUM_115, 25]
 constants:
   extendedTerrainMelee: 4
+costHireScientist: 115000
+costScientist: 75000

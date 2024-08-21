@@ -38,6 +38,42 @@ mapScripts:
       size: 2
       executions: 3
     - type: fillArea
+  - type: URBANCYBER
+    commands:
+    - type: addCraft
+    - type: addUFO
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+      terrain: URBANCYBER_ROAD
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      terrain: URBANCYBER_ROAD
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      terrain: URBANCYBER_ROAD
+    - type: addBlock
+      size: 3
+      executionChances: 50
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: addBlock
+      size: 3
+    - type: addBlock
+      size: 2
+    - type: addBlock
+      size: 1
+      executions: 5
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
   - type: PORTTFTD
     commands:
     - type: addCraft

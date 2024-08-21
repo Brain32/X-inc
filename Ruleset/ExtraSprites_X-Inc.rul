@@ -53,7 +53,7 @@ extraSprites:
       0: Resources/Backgrounds/CLUB1.png
 
                                                       #Icons
-
+# Broken atm :P
 #  - type: GlobeMarkers
 #    width: 266
 #    height: 7
@@ -201,6 +201,12 @@ extraSprites:
     fileSingle: Resources/Armours/IcarusCoat/Inv_Sunglasses1.png
   - typeSingle: HUMAN_RUNNER__11__ICARUS_SUNGLASSES_FEMALE
     fileSingle: Resources/Armours/IcarusCoat/Inv_Sunglasses2.png
+#Taurus
+  - typeSingle: HUMAN_RUNNER__7__TAURUS_ARMOUR
+    fileSingle: Resources/Armours/Taurus/Inv_Taurus.png
+###Add_Female_Version_?###
+  - typeSingle: HUMAN_RUNNER__11__TAURUS_ARMOUR_HELMET
+    fileSingle: Resources/Armours/Taurus/Taurus_Hel.png
 
   - type: MAN_99.SPK
     singleImage: true
@@ -269,6 +275,15 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Armours/SecVest/Inv_Helmet.png
+#Taurus
+  - type: MAN_26_TAURUS.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/Taurus/Inv_Taurus.png
+  - type: MAN_26_TAURUS_HELMET.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/Taurus/Taurus_Hel.png
 
                                                       #### Your Turrets ####
 
@@ -301,7 +316,8 @@ extraSprites:
       0: Resources/FactionPack/OldRobots/inv_OldTurret.png
 
 
-# Enemies inv pics
+                                                      #### Enemies inv pics ####
+
   - type: inventory_WASTELAND_GOON
     singleImage: true
     files:
@@ -359,6 +375,14 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionPack/Syndicate/inventory_SyndicateCommando.png
+  - type: inventory_SYNDICATE_SHADOWOP
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Syndicate/Inv_SynNinja.png
+  - type: inventory_SYNDICATE_HEAVY_PA
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Syndicate/Inv_Syndicate_HEAVYPA.png
 #SMUGLERS
   - type: inventory_Smugler_goon
     singleImage: true
@@ -397,6 +421,23 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionPack/WST_Bikers/inv_Biker05.png
+#Terrorists
+  - type: INV_SIN01
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Terrorists/Inv_SiN_Trooper.png
+  - type: INV_SIN02
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Terrorists/Inv_SiN_Scout.png
+  - type: INV_SIN03
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Terrorists/Inv_SiN_Lieutenant.png
+  - type: INV_SIN04
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Terrorists/Inv_SiN_Spy.png
 
                          ### Bigobs (inventory) ### 
 
@@ -696,7 +737,26 @@ extraSprites:
       354: Resources/OtherItems/bigob_AugBox1.png
       355: Resources/OtherItems/bigob_AugBox2.png
       356: Resources/OtherItems/bigob_AugBox3.png
-
+      357: Resources/Armours/Taurus/Taurus_Hel.png
+      358: Resources/FactionPack/Terrorists/BigOb_SiN_Scout.png
+      359: Resources/FactionPack/Terrorists/BigOb_SiN_Serg.png
+      360: Resources/FactionPack/Terrorists/BigOb_SiN_Trooper.png
+      361: Resources/FactionPack/Terrorists/BigOb_SiN_Spy.png
+      362: Resources/OtherItems/bigob_Durathread.png
+      363: Resources/Weapons/Grenades/bigob_GG.png
+      364: Resources/Weapons/SmartWeapons/bigob_Crusher.png
+      365: Resources/Weapons/SmartWeapons/bigob_Crusher_Clip1.png
+      366: Resources/Weapons/SmartWeapons/bigob_Crusher_Clip2.png
+      367: Resources/Weapons/ResistanceGuns/bigob_LaserPistol.png
+      368: Resources/Weapons/ResistanceGuns/bigob_LaserPistol_Clip.png
+      369: Resources/Weapons/ResistanceGuns/bigob_LasCorobine.png
+      370: Resources/Weapons/ResistanceGuns/bigob_LasCorobine_Clip.png
+      371: Resources/Weapons/ResistanceGuns/bigob_LasRifle.png
+      372: Resources/Weapons/ResistanceGuns/bigob_LasRifle_Clip.png
+      373: Resources/Weapons/ResistanceGuns/bigob_LaserShotgun.png
+      374: Resources/Weapons/ResistanceGuns/bigob_LaserShotgun_Clip.png
+      375: Resources/Weapons/ResistanceGuns/bigob_LasSniperRifle.png
+      376: Resources/Weapons/ResistanceGuns/bigob_LasSniperRifle_Clip.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -808,8 +868,13 @@ extraSprites:
       920: Resources/Weapons/Grenades/handob_NitroPack.png
       928: Resources/Weapons/MeleeWeapons/handob_golfClub.png
       936: Resources/MedicalShit/Handob_Pizza.png
-
-
+      944: Resources/Weapons/Grenades/Handob_GG.png
+      952: Resources/Weapons/SmartWeapons/handob_Crusher.png
+      960: Resources/Weapons/ResistanceGuns/handob_LasPistol.png
+      968: Resources/Weapons/ResistanceGuns/handob_LasCorobine.png
+      976: Resources/Weapons/ResistanceGuns/handob_LasRifle.png
+      984: Resources/Weapons/ResistanceGuns/handob_LaserShotgun.png
+      992: Resources/Weapons/ResistanceGuns/handob_LasSniper.png
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
     files:
@@ -1007,6 +1072,24 @@ extraSprites:
       318: Resources/OtherItems/floorob_AugBox1.png
       319: Resources/OtherItems/floorob_AugBox2.png
       320: Resources/OtherItems/floorob_AugBox3.png
+      321: Resources/Armours/Taurus/floorob_Taurus.png
+      322: Resources/FactionPack/Terrorists/FloorOb_SiN_Scout.png
+      323: Resources/FactionPack/Terrorists/FloorOb_SiN_Trooper.png
+      324: Resources/FactionPack/Terrorists/FloorOb_SiN_Spy.png
+      325: Resources/OtherItems/Floorob_Durathread.png
+      326: Resources/Weapons/Grenades/Floorob_GG.png
+      327: Resources/Weapons/SmartWeapons/floorob_Crusher.png
+      328: Resources/Weapons/SmartWeapons/floorob_Crusher_Clip.png
+      329: Resources/Weapons/ResistanceGuns/floorob_LaserPistol.png
+      330: Resources/Weapons/ResistanceGuns/floorob_LaserPistol_clip.png
+      331: Resources/Weapons/ResistanceGuns/floorob_LasCorobine.png
+      332: Resources/Weapons/ResistanceGuns/floorob_LasCorobine_clip.png
+      333: Resources/Weapons/ResistanceGuns/floorob_LasRifle.png
+      334: Resources/Weapons/ResistanceGuns/floorob_LaserRifle_clip.png
+      335: Resources/Weapons/ResistanceGuns/floorob_LaserShotgun.png
+      336: Resources/Weapons/ResistanceGuns/floorob_LaserShotgun_clip.png
+      337: Resources/Weapons/ResistanceGuns/floorob_LasSniper.png
+      338: Resources/Weapons/ResistanceGuns/floorob_LasSniper_clip.png
 
                                    ### Sprite sheet (Battlescape) ###
 
@@ -1075,6 +1158,14 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Armours/IcarusCoat/Icarus.png
+#Taurus_Spritesheet
+  - type: XCOM_45.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/Taurus/TAURUS.png
 
   - type: HAM_TURRET_SHEET.PCK
     width: 256
@@ -1273,6 +1364,31 @@ extraSprites:
     files:
       0: Resources/FactionPack/WST_Bikers/Biker4.png 
 
+
+                                                                  ###SiN Niggers###
+  - type: TERRORIST_SIN01.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Terrorists/SiN_Trooper.png
+  - type: TERRORIST_SIN02.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Terrorists/SiN_Scout.png
+  - type: TERRORIST_SIN03.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Terrorists/SiN_Spy.png
+
+
 #Explotion same as Hand Obj with IDs
   - type: X1.PCK
     width: 1024
@@ -1395,6 +1511,14 @@ extraSprites:
       325: Resources/BaseSprites/RB2_b_2.png
       326: Resources/BaseSprites/RB3_b_3.png
       327: Resources/BaseSprites/RB4_b_4.png
+      328: Resources/BaseSprites/SC_1.png
+      329: Resources/BaseSprites/SC_2.png
+      330: Resources/BaseSprites/SC_3.png
+      331: Resources/BaseSprites/SC_4.png
+      332: Resources/BaseSprites/SC_b_1.png
+      333: Resources/BaseSprites/SC_b_2.png
+      334: Resources/BaseSprites/SC_b_3.png
+      335: Resources/BaseSprites/SC_b_4.png
       830: Resources/Vessels/Basebits/HoverScooter_base.png
       831: Resources/Vessels/Basebits/Car1_base.png
       866: Resources/BaseSprites/GYM.png
@@ -1409,6 +1533,7 @@ extraSprites:
       876: Resources/BaseSprites/SERVER_ADV.png
       877: Resources/BaseSprites/OUTPOST.png
       884: Resources/BaseSprites/ALLOYFAC.png
+      885: Resources/BaseSprites/LAB_T1.png
       901: Resources/Vessels/Basebits/Cicada_base.png
       903: Resources/Vessels/Basebits/Hamvee_base.png
          
@@ -1493,6 +1618,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/TechieShop_CPAL.png
+  - type: ELECTRONICS_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ELECTRONICS_CPAL.png
   - type: ADVANCED_CIVILIAN_WEAPONS_CPAL.SPK
     singleImage: true
     width: 320

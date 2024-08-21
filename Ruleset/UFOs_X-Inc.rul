@@ -1,24 +1,24 @@
 ufos:
-#  - type: STR_SNEED_SHACK_UFO
-#    size: STR_SMALL
-#    sprite: 0
-#    damageMax: 500
-#    speedMax: 5000
-#    accel: 10
-#    power: 40
-#    range: 20
-#    score: 700
-#    reload: 32
-#    breakOffTime: 500
-#    battlescapeTerrainData:
-#      name: STR_SNEED_SHACK
-#     mapDataSets:
-#       - BLANKS
-#        - FARM_SHOP_DECO
-#     mapBlocks:
-#        - name: SNEED_SHACK
-#          width: 10
-#          length: 10
+  - type: STR_SNEED_SHACK_UFO
+    size: STR_SMALL
+    sprite: 0
+    damageMax: 500
+    speedMax: 5000
+    accel: 10
+    power: 40
+    range: 20
+    score: 700
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: UFO_SNEED
+      mapDataSets:
+        - BLANKS
+        - FARM_SHOP_DECO
+      mapBlocks:
+        - name: SNEED_SHACK
+          width: 10
+          length: 10
 
 #################### Actual UFOs ####################
 
@@ -99,6 +99,31 @@ ufos:
         - name: RAIDER_BUGGY1
           width: 10
           length: 10
+
+######## PLACEHOLDER SHIP, SPAWNS TERROR MISSION ########
+
+  - type: STR_SIN_TERROR_SHIP
+    size: STR_LARGE
+    sprite: 5
+    damageMax: 1200
+    speedMax: 10000
+    power: 120
+    range: 42
+    score: 500
+    reload: 24
+    breakOffTime: 2000
+    battlescapeTerrainData:
+      name: UFO_150
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+      mapBlocks:
+        - name: UFO_150
+          width: 30
+          length: 20
 
 #################### Mission UFOs ####################
 

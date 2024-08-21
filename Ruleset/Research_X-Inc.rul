@@ -225,10 +225,31 @@ research:
     dependencies:
       - STR_ALLOY_FACTORY
     listOrder: 151060
+  - name: STR_CYBER_HQ
+    cost: 250
+    points: 40
+    dependencies:
+      - STR_OPTRONIC_PARTS
+      - STR_ALIEN_ALLOYS
+      - STR_BLACK_MARKET_ACCES
+    listOrder: 151060
+  - name: STR_LAB_T1
+    cost: 150
+    points: 30
+    dependencies:
+      - STR_ELECTRONICS
+    listOrder: 151060
+
 #TechTree
   - name: STR_WEAPON_SHOPPING
     cost: 25 
     points: 10
+    listOrder: 151060
+  - name: STR_ELECTRONICS
+    cost: 30 
+    points: 10
+    dependencies:
+      - STR_WEAPON_SHOPPING
     listOrder: 151060
   - name: STR_BLACK_MARKET_ACCES
     cost: 50 
@@ -277,15 +298,51 @@ research:
     points: 50
     listOrder: 151070
     dependencies:
-      - STR_COMBAT_ARMOUR_MK1_STUDY 
+      - STR_DEFENDER_SUIT_STUDY
       - STR_OPTRONIC_PARTS
       - STR_ALIEN_ALLOYS
-
+  - name: STR_BASIC_ARMOUR_DESIGN
+    cost: 200
+    points: 50
+    listOrder: 151070
+    dependencies:
+      - STR_COMBAT_ARMOUR_UPGRATE_PROJECT
+      - STR_ALIEN_ALLOYS
+  - name: STR_TAURUS_ARMOUR_STUDY
+    cost: 250
+    points: 50
+    listOrder: 151070
+    dependencies:
+      - STR_BASIC_ARMOUR_DESIGN
+      - STR_OPTRONIC_PARTS
+      - STR_ALIEN_ALLOYS
+  - name: STR_BULDOZER_SUIT_STUDY
+    cost: 150
+    points: 50
+    listOrder: 151070
+    dependencies:
+      - STR_TAURUS_ARMOUR_STUDY
+      - STR_AQUA_PLASTICS
+      - STR_ALIEN_ALLOYS
+  - name: STR_DEFENDER_SUIT_STUDY
+    cost: 200
+    points: 50
+    listOrder: 151070
+    dependencies:
+      - STR_TAURUS_ARMOUR_STUDY
+      - STR_OPTRONIC_PARTS
 #Items - components
+  - name: STR_DURATHREAD
+    cost: 30
+    points: 5
+    needItem: true
+    listOrder: 151070
   - name: STR_OPTRONIC_PARTS
     cost: 50
     points: 5
     needItem: true
+    dependencies:
+      - STR_ELECTRONICS
     listOrder: 151070
   - name: STR_ALIEN_ALLOYS
     cost: 150
@@ -449,6 +506,16 @@ research:
     listOrder: 151070
   - name: STR_SMOKE_GRENADE
     cost: 5
+    points: 15
+    needItem: true
+    listOrder: 151070
+  - name: STR_GAS_GRENADE
+    cost: 10
+    points: 15
+    needItem: true
+    listOrder: 151070
+  - name: STR_INCENDIARY_GRENADE
+    cost: 10
     points: 15
     needItem: true
     listOrder: 151070

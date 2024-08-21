@@ -186,6 +186,17 @@ missionScripts:
       STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: true
     startDelay: 20
     randomDelay: 43500
+                                                          ### SIN Terrior ###
+
+  - type: recurringTerrorEarly
+    firstMonth: 0
+    executionOdds: 100
+    missionWeights:
+      0:
+        STR_SIN_TERROR: 100
+    useTable: false
+    startDelay: 30
+    randomDelay: 43500   
 
                                                           ### UFOMission ###
 

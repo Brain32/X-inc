@@ -522,6 +522,210 @@ terrains:
         width: 10
         length: 10
         groups: 8
+  - name: URBANCYBER
+    mapDataSets:
+      - BLANKS
+      - CYBERSLUMS
+      - CYBERSLUMS_ROAD
+      - CYBERSLUMS_FURNITURE
+      - CYBERSLUMS_MEDDICORE
+    script: URBANCYBER
+    mapBlocks: 
+      - name: URBANCYBER00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANCYBER01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANCYBER02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANCYBER03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANCYBER04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANCYBER05
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBANCYBER06
+        width: 10
+        length: 10
+      - name: URBANCYBER07
+        width: 10
+        length: 10
+      - name: URBANCYBER08
+        width: 10
+        length: 10
+      - name: URBANCYBER09
+        width: 10
+        length: 10
+      - name: URBANCYBER10
+        width: 10
+        length: 10
+      - name: URBANCYBER11
+        width: 10
+        length: 10
+      - name: URBANCYBER12
+        width: 10
+        length: 10
+      - name: URBANCYBER13
+        width: 10
+        length: 10
+      - name: URBANCYBER14
+        width: 10
+        length: 10
+      - name: URBANCYBER15
+        width: 10
+        length: 10
+      - name: URBANCYBER16
+        width: 10
+        length: 10
+      - name: URBANCYBER17
+        width: 10
+        length: 10
+      - name: URBANCYBER18
+        width: 10
+        length: 10
+      - name: URBANCYBER19
+        width: 10
+        length: 10
+      - name: URBANCYBER20
+        width: 20
+        length: 20
+      - name: URBANCYBER21
+        width: 20
+        length: 20
+      - name: URBANCYBER22
+        width: 20
+        length: 20
+      - name: URBANCYBER23
+        width: 20
+        length: 20
+      - name: URBANCYBER24
+        width: 20
+        length: 20
+      - name: URBANCYBER25
+        width: 20
+        length: 20
+      - name: URBANCYBER26
+        width: 10
+        length: 10
+      - name: URBANCYBER27
+        width: 10
+        length: 10
+      - name: URBANCYBER28
+        width: 10
+        length: 10
+      - name: URBANCYBER29
+        width: 10
+        length: 10
+      - name: URBANCYBER30
+        width: 10
+        length: 10
+  - name: URBANCYBER_ROAD
+    mapDataSets:
+      - BLANKS
+      - CYBERSLUMS_CANAL
+      - CYBERSLUMS_CARS
+      - CYBERSLUMS_ROAD
+    script: URBANCYBER_ROAD
+    mapBlocks: 
+      - name: URBANCYBER_ROAD_NS01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANCYBER_ROAD_NS02
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANCYBER_ROAD_NS03
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANCYBER_ROAD_NS04
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANCYBER_ROAD_NS05
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANCYBER_ROAD_NS06
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANCYBER_ROAD_NS07
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANCYBER_ROAD_NS08
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANCYBER_ROAD_WE01
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANCYBER_ROAD_WE02
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANCYBER_ROAD_WE03
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANCYBER_ROAD_WE04
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANCYBER_ROAD_WE05
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANCYBER_ROAD_WE06
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANCYBER_ROAD_WE07
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANCYBER_ROAD_WE08
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANCYBER_ROAD_WE08
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANCYBER_ROAD_CROSS01
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBANCYBER_ROAD_CROSS02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBANCYBER_ROAD_CROSS03
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBANCYBER_ROAD_CROSS04
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBANCYBER_ROAD_CROSS05
+        width: 10
+        length: 10
+        groups: 4
   - name: URBAN_WASTE
     mapDataSets:
       - BLANKS

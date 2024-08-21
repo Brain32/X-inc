@@ -22,6 +22,16 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     placeSound: 37
     mapName: XBASE_16
+  - type: STR_LABORATORY
+    requires:
+      - STR_IDDQD
+    spriteShape: 1
+    spriteFacility: 19
+    buildCost: 750000
+    buildTime: 26
+    monthlyCost: 30000
+    labs: 50
+    mapName: XBASE_02
   - type: STR_LIVING_QUARTERS
     spriteShape: 1
     spriteFacility: 18
@@ -91,7 +101,7 @@ facilities:
     listOrder: 6960
   - type: STR_MEDBAY
     requires:
-      - STR_MEDBAY
+      - STR_MEDBAY_FACILITY
     spriteShape: 1
     spriteFacility: 868
     provideBaseFunc: [MEDICAL_BAY]
@@ -124,8 +134,8 @@ facilities:
     spriteShape: 1
     spriteFacility: 317
     provideBaseFunc: [HQ]
-    buildCost: 2600000
-    buildTime: 42
+    buildCost: 1850000
+    buildTime: 38
     monthlyCost: 27000
     canBeBuiltOver: true
     labs: 10
@@ -135,10 +145,26 @@ facilities:
     placeSound: 37
     mapName: XBASS_22                            #<---------- Fix me !
     listOrder: 6830
+  - type: STR_CYBER_HQ
+    spriteShape: 1
+    spriteFacility: 318
+    provideBaseFunc: [HQ, CYBER_HQ]
+    buildCost: 3600000
+    buildTime: 50
+    monthlyCost: 30000
+    buildOverFacilities: [ STR_HQ ]
+    canBeBuiltOver: true
+    labs: 15
+    rightClickActionType: 3
+    radarRange: 995
+    radarChance: 5
+    placeSound: 37
+    mapName: XBASS_22                            #<---------- Fix me !
+    listOrder: 6830
   - type: STR_CORRIDOR
     spriteShape: 3
     spriteFacility: 867
-    buildCost: 75000
+    buildCost: 78000
     buildTime: 6
     monthlyCost: 2000
     canBeBuiltOver: true
@@ -154,9 +180,9 @@ facilities:
     refundValue: 350000
     provideBaseFunc: [PWR]
     buildCostItems:
-      STR_UFO_POWER_SOURCE:
-        build: 2
-        refund: 2
+#      STR_UFO_POWER_SOURCE:
+#        build: 2
+#        refund: 2
     requires:
       - STR_POWER_PLANT
     placeSound: 37
@@ -168,6 +194,7 @@ facilities:
     buildCost: 1500000
     buildTime: 32
     monthlyCost: 12000
+    maxAllowedPerBase: 1
     workshops: 20
     refundValue: 9000000
     requiresBaseFunc: [PWR]
@@ -184,10 +211,58 @@ facilities:
     buildCost: 2800000
     buildTime: 40
     monthlyCost: 30000
+    maxAllowedPerBase: 1
     workshops: 80
     refundValue: 1000000
     requiresBaseFunc: [PWR]
     provideBaseFunc: [ROBOWORK]
+    requires:
+      - STR_ROBOT_WORKSHOP
+    placeSound: 37
+    mapName: XBASS_36
+    listOrder: 9800
+  - type: STR_COMM_CENTER
+    spriteShape: 1
+    spriteFacility: 875
+    buildCost: 795000
+    buildTime: 26
+    monthlyCost: 20000
+    maxAllowedPerBase: 1
+    canBeBuiltOver: true
+    labs: 5
+    provideBaseFunc: [COMMCENT]
+    rightClickActionType: 3
+    placeSound: 37
+    mapName: XBASS_22                            #<---------- Fix me !
+    listOrder: 6830
+  - type: STR_LAB_T1
+    spriteShape: 1
+    spriteFacility: 885
+    buildCost: 1350000
+    buildTime: 32
+    monthlyCost: 14000
+    maxAllowedPerBase: 1
+    canBeBuiltOver: true
+    labs: 10
+    provideBaseFunc: [BASIC_LAB]
+    rightClickActionType: 3
+    placeSound: 37
+    mapName: XBASS_22                            #<---------- Fix me !
+    listOrder: 6830
+  - type: STR_SCIENCE_CENTER
+    spriteShape: 328
+    size: 2
+    spriteFacility: 884
+    buildCost: 5000000
+    buildTime: 40
+    monthlyCost: 64000
+    sickBayAbsoluteBonus: 0.35
+    sickBayRelativeBonus: 0.2
+    maxAllowedPerBase: 1
+    labs: 35
+    refundValue: 850000
+    requiresBaseFunc: [PWR]
+    provideBaseFunc: [BASIC_LAB, B_LAB, MEDICAL_BAY]
     requires:
       - STR_ROBOT_WORKSHOP
     placeSound: 37

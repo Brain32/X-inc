@@ -69,6 +69,18 @@ alienRaces:
       - STR_WST_BIKER_1
       - STR_WST_BIKER_1
 
+  - id: STR_TERRORIST_SIN
+    members:
+      - STR_TERRORIST_SIN_3
+      - STR_TERRORIST_SIN_3
+      - STR_TERRORIST_SIN_2
+      - STR_TERRORIST_SIN_2
+      - STR_TERRORIST_SIN_2
+      - STR_TERRORIST_SIN_2
+      - STR_TERRORIST_SIN_1
+      - STR_TERRORIST_SIN_1
+      - STR_TERRORIST_SIN_1
+
 
   - id: STR_RACE_OLD_ROBOTS
     members:

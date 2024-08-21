@@ -25,19 +25,19 @@ ufopaedia:
     section: STR_ARMOUR
     text: STR_BULDOZER_SUIT_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_BULDOZER_SUIT_STUDY
   - id: STR_DEFENDER_SUIT_UC
     type_id: 5
     section: STR_ARMOUR
     text: STR_DEFENDER_SUIT_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_DEFENDER_SUIT_STUDY
   - id: STR_DEFLECTOR_SUIT_UC
     type_id: 5
     section: STR_ARMOUR
     text: STR_DEFLECTOR_SUIT_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_DEFENDER_SUIT_STUDY
   - id: STR_COMBAT_ARMOUR_MK1_UC
     type_id: 5
     section: STR_ARMOUR
@@ -49,7 +49,7 @@ ufopaedia:
     section: STR_ARMOUR
     text: STR_COMBAT_ARMOUR_MK2_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_COMBAT_ARMOUR_MK2_STUDY
   - id: STR_CIVILVEST_ARMOUR_UC
     type_id: 5
     section: STR_ARMOUR
@@ -68,6 +68,12 @@ ufopaedia:
     text: STR_ICARUS_COAT_UFOPEDIA
     requires:
       - STR_ICARUS_COAT_STUDY
+  - id: STR_TAURUS_ARMOUR_UC
+    type_id: 5
+    section: STR_ARMOUR
+    text: STR_TAURUS_ARMOUR_UFOPEDIA
+    requires:
+      - STR_TAURUS_ARMOUR_STUDY
 
         #Bad guys
   - id: STR_WASTELAND_GOON_INV
@@ -107,6 +113,13 @@ ufopaedia:
     listOrder: 163124
 
 #Componets
+  - id: STR_DURATHREAD
+    type_id: 4
+    requires:
+      - STR_DURATHREAD
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_DURATHREAD_UFOPEDIA
+    listOrder: 48125
   - id: STR_OPTRONIC_PARTS
     type_id: 4
     requires:
@@ -460,7 +473,6 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_SHOTGUN_STREETCLEANER
-
   - id: STR_AUTOSHOTGUN1
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -473,6 +485,22 @@ ufopaedia:
     requires:
       - STR_AUTOSHOTGUN1
   - id: STR_AUTOSHOTGUN1_CLIP2
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_SHOTGUN_STREETCLEANER
+  - id: STR_CRUSHER_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_CRUSHER_SHOTGUN_UFOPEDIA
+    requires:
+      - STR_AUTOSHOTGUN1
+  - id: STR_CRUSHER_SHOTGUN_CLIP1
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_AUTOSHOTGUN1
+  - id: STR_CRUSHER_SHOTGUN_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1235,12 +1263,7 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
-  - id: STR_GRENADE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_GRENADE_UFOPEDIA
-    requires:
-      - STR_IDDQD
+
   - id: STR_SMOKE_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1370,19 +1393,34 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PIPEBOMB_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_PIPEBOMB
   - id: STR_MOLOTOV
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MOLOTOV_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_MOLOTOV
+    listOrder: 14050
+  - id: STR_GAS_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GAS_GRENADE_UFOPEDIA
+    requires:
+      - STR_GAS_GRENADE
+    listOrder: 14100
+  - id: STR_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GRENADE_UFOPEDIA
+    requires:
+      - STR_GRENADE
+    listOrder: 14100
   - id: STR_EMP_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_EMP_GRENADE_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_EMP_GRENADE
   - id: STR_NITRO_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1628,8 +1666,26 @@ ufopaedia:
     section: STR_BASE_FACILITIES
     text: STR_ROBOT_WORKSHOP_UFOPEDIA
     listOrder: 6870
-
-
+  - id: STR_CYBER_HQ
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_CYBER_HQ_UFOPEDIA
+    listOrder: 6870
+  - id: STR_SCIENCE_CENTER
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_SCIENCE_CENTER_UFOPEDIA
+    listOrder: 6870
+  - id: STR_COMM_CENTER
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_COMM_CENTER_UFOPEDIA
+    listOrder: 6870
+  - id: STR_LAB_T1
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_LAB_T1_UFOPEDIA
+    listOrder: 6870
 #--------------------------------------------------Lore
   - id: STR_OURORIGINS
     type_id: 7
@@ -1706,6 +1762,15 @@ ufopaedia:
     text: STR_MILITARY_SUPPLIES_UFOPEDIA
     requires:
       - STR_BLACK_MARKET_ACCES
+    listOrder: 270620
+  - id: STR_ELECTRONICS_UFOPED
+    type_id: 7
+    image_id: ELECTRONICS_CPAL.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: STR_ELECTRONICS_UFOPEDIA
+    requires:
+      - STR_ELECTRONICS
     listOrder: 270620
   - id: STR_WASTELAND_MISSIONS
     type_id: 7

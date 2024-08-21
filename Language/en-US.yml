@@ -33,7 +33,7 @@ en-US:
   STR_TEC9: "Ghetto SMG"
   STR_TEC9_CLIP: "9mm SMG clip"
   STR_TEC9_UFOPEDIA: "A rusty submachine gun, uses 9x19 millimeter ammunition. Popular, as its name suggests, among ghetto residents."
-  STR_RIFLE_M16: "M16 Rifle"
+  STR_RIFLE_M16: "Scavenger rifle"
   STR_RIFLE_M16_CLIP: "Rifle M16 Clip"
   STR_RIFLE_M16_UFOPEDIA: "A shoddy rifle, used mostly by Wastelanders."
   STR_HUNTING_RIFLE_CLIP: "Rifle Ammo"
@@ -158,6 +158,10 @@ en-US:
   STR_AUTOSHOTGUN1_UFOPEDIA: "Cool Auto Shotty !"
   STR_AUTOSHOTGUN1_CLIP1: "Combat Shotgun Drum"
   STR_AUTOSHOTGUN1_CLIP2: "Combat Shotgun Drum/Slug"
+  STR_CRUSHER_SHOTGUN: "Crusher Shotgun"
+  STR_CRUSHER_SHOTGUN_CLIP1: "Crusher mag/Buck"
+  STR_CRUSHER_SHOTGUN_CLIP2: "Crusher mag/Slug"
+  STR_CRUSHER_SHOTGUN_UFOPEDIA: "A fashionable and stylish shotgun for dandies."
 
 #Rifle
   STR_RIFLE_AK: "Kalashnikov"
@@ -199,6 +203,8 @@ en-US:
   STR_PIPEBOMB_UFOPEDIA: "This bomb was made from scrap materials that can barely be found in the Wastes. Used mainly by raiders and rebels."
   STR_MOLOTOV: "Molotov"
   STR_MOLOTOV_UFOPEDIA: "Favorite coctail f anarchists and other pesky terrorists. Just light it and throw it!{NEWLINE}{NEWLINE}Range:20"
+  STR_GAS_GRENADE: "Gas Grenade"
+  STR_GAS_GRENADE_UFOPEDIA: "When detonated, a corrosive gas is released, which, when inhailed, causes mild poisoning and death. Better to have gas masks around against this shit."
   STR_EMP_GRENADE: "EMP grenade"
   STR_EMP_GRENADE_UFOPEDIA: "A small device that, when activated, emits a powerful electromagnetic pulse. Harmless for humans but devestaed for robots and mechs."
   STR_NITRO_GRENADE: "Nitro Pack"
@@ -352,15 +358,21 @@ en-US:
   STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: "!Old Military base raid!"
   STR_MILITARY_SUPPLIES: "Military Supplies"
   STR_MILITARY_SUPPLIES_UFOPEDIA: "Now that we have extensive connections with the military, we don’t have to worry about the lack of supply of normal weapons and armor! Now we can buy standard military weapons and armor for our needs."
+  STR_ELECTRONICS_UFOPED: "Electronics supplies"
+  STR_ELECTRONICS_UFOPEDIA: "In general, modern electronics of the 24th century is not something that complicated in order to understand or require to disassemble and research. General information is already available. All we need is to find good and reliable suppliers of such stuff. And now that the job is done, we can order specific types of electronics and equipment for our base."
+
 #Events
+  STR_PIZZA_TIME_EVENT: "It's Pizza time !"
+  STR_PIZZA_TIME_EVENT_DESCRIPTION: "Someone deliverd a pizza at the doors of your base !"
   STR_TEST_EVENT: "Pleasent suprise"
   STR_TEST_EVENT_DESCRIPTION: "{NEWLINE}The base we work on is quite old, but it still keeps its secrets. It looks like the previous team before us left some equipment in one of the compartments!{NEWLINE} [3 military boxes found!]"
+
 #Events - News
   STR_GNN_NEWS_001: "GNN Report"
   STR_GNN_NEWS_002: "GNN Report"
   STR_GNN_NEWS_003: "GNN Report"
-  STR_GNN_MURDER_1_DESCRIPTION: "{NEWLINE}Прошлым утром, на одной из заброшенных свалок города {0} было найдены трупы трёх видимых делателей по борьбе с коррупцией в высших эшелонах власти. Мегапол опровергает версию о политическом убийстве, заявив что данным лицам следовало бы тратить больше денег на собственную безопасность нежели на глупые вещи вроде борьбы с коррупцией."
-  STR_GNN_MURDER_2_DESCRIPTION: "{NEWLINE}На прошлой неделе, был найден труп журналистки причастной к расследованию на одном из предприятии «Дзайбацу». Её череп был проломлен а на теле были найдены следы изнасилования. На недавней конференции представительница корпорации «Дзайбацу» с сияющей улыбкой на лице прокомментировала данное событие и посоветовала медиа компаниям меньше обращать внимания на обычные нападения головорезов."
+  STR_GNN_MURDER_1_DESCRIPTION: "{NEWLINE}Last morning, in one of the abandoned junctures of {0} city, the bodies of three notible corruption division at the highest levels of power were found. Megapol refutes political assassination, saying that these noisy individuals should have spent more money and time on their own security than on stupid things like fighting corruption."
+  STR_GNN_MURDER_2_DESCRIPTION: "{NEWLINE}Last week, the corpse of a journalist involved in an investigation at one of Zaibatsu enterprises was found. Her skull was broken and there were signs of rape on the body. At a recent conference, the representative of «Zaibatsu» corporation with a bright smile on her face, commented on this event and advised media companies to pay less attention to the common attacks of thugs."
   STR_GNN_MURDER_3_DESCRIPTION: "{NEWLINE}Ожесточённые бои произошли в городе {0} между силовыми структурами и террористической групировкой «SIN». Силовики Мегапола потерпели значительные потери, но смогли сдержать погромы терророристов. Один из анонимных солдат сообщает что атакующие имели продвинутые виды вооружения."
 
 #Missions

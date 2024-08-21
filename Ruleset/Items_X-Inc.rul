@@ -170,6 +170,31 @@
     prisonType: 0
     costSell: 96000 
     listOrder: ???
+# -------------------------------- Terrorists - SiN
+  - type: STR_TERRORIST_SIN_1
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 20000
+    listOrder: ???
+  - type: STR_TERRORIST_SIN_2
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 43000
+    listOrder: ???
+  - type: STR_TERRORIST_SIN_3
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 76000 
+    listOrder: ???
 # -------------------------------- Wasteland Bikers
   - type: STR_WST_BIKER_1
     categories: [STR_HUMANS]
@@ -367,7 +392,18 @@
     battleType: 11
     armor: 50
     recover: false
-
+  - type: STR_CORPSE_TAURUS_ARMOUR
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.5
+    weight: 80
+    bigSprite: 357
+    floorSprite: 321
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 60
+    recover: false
 
 # -------------------------------- Dead Civies
      #Rangers
@@ -817,6 +853,56 @@
     recover: true
     recoverCorpse: false
 
+          #Terrorists
+
+  - type: STR_TERRORIST_SIN_1_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 360
+    floorSprite: 323
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 30
+    recover: true
+    recoverCorpse: false
+  - type: STR_TERRORIST_SIN_2_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 358
+    floorSprite: 322
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 30
+    recover: true
+    recoverCorpse: false
+  - type: STR_TERRORIST_SIN_3_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 359
+    floorSprite: 323
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 30
+    recover: true
+    recoverCorpse: false
 
                                   #########################################  _______  A R M O U R   _______  #########################################
   - type: STR_NONE_UC
@@ -881,7 +967,7 @@
     categories: [STR_OUTFITS]
     requiresBuy:
       - STR_ARMOUR_SECVEST_STUDY
-    size: 0.7
+    size: 0.6
     bigSprite: 302
     floorSprite: 284
     costBuy: 28000
@@ -889,13 +975,33 @@
     listOrder: 16890
   - type: STR_ICARUS_COAT
     categories: [STR_OUTFITS]
-    size: 0.8
+    size: 0.6
     bigSprite: 302
     floorSprite: 284
     costSell: 36000
     listOrder: 16890
+  - type: STR_TAURUS_ARMOUR
+    categories: [STR_OUTFITS]
+    size: 0.7
+    bigSprite: 302
+    floorSprite: 284
+    costSell: 67000
+    listOrder: 16890
 
                                   #########################################  _______  Parts and components   _______  #########################################
+  - type: STR_DURATHREAD
+    categories: [STR_BAT_CAT_RESOURCE]
+    size: 0.03
+    costSell: 2400
+    weight: 2
+    bigSprite: 362
+    floorSprite: 325
+    battleType: 0
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 3
+    attraction: 10
+    listOrder: 61170
   - type: STR_OPTRONIC_PARTS
     categories: [STR_BAT_CAT_RESOURCE]
     size: 0.05
@@ -3616,6 +3722,53 @@
     vaporDbabilitySurface: 100
     armor: 70
     listOrder: 12581
+                           ##LaserTier
+  - type: STR_LASER_PISTOL_SIN
+    size: 0.08
+    costSell: 8800
+    weight: 12
+    bigSprite: 367
+    floorSprite: 329
+    handSprite: 960
+    bulletSprite: 5
+    fireSound: 187
+    reloadSound: 188
+    compatibleAmmo:
+      - STR_LASER_PISTOL_SIN_CLIP
+    accuracyCloseQuarters: 133
+    accuracyAuto: 48
+    accuracySnap: 72
+    accuracyAimed: 98
+    tuAuto: 34
+    tuSnap: 28
+    tuAimed: 62
+    tuLoad: 15
+    aimRange: 30
+    dropoff: 3
+    kneelBonus: 105
+    invWidth: 1
+    invHeight: 2
+    battleType: 1
+    armor: 30
+    attraction: 15
+    listOrder: 20500
+  - type: STR_LASER_PISTOL_SIN_CLIP
+    size: 0.05
+    costSell: 15000
+    weight: 3
+    bigSprite: 368
+    floorSprite: 330
+    hitSound: 19
+    hitAnimation: 36
+    power: 40
+    damageAlter:
+      IgnoreOverKill: false
+    damageType: 4
+    clipSize: 24
+    battleType: 2
+    armor: 30
+    attraction: 15
+    listOrder: 20510
                                       #######   Shotguns   #######
   - type: STR_JUNKY_SAWED_OFF
     categories: [STR_SHOTGUNS]
@@ -4176,6 +4329,85 @@
     tuLoad: 20
     attraction: 16
     listOrder: 22350
+
+  - type: STR_CRUSHER_SHOTGUN
+    size: 0.35
+    costBuy: 37000
+    costSell: 12000
+    weight: 10
+    bigSprite: 364
+    floorSprite: 327
+    handSprite: 952
+    bulletSprite: 3
+    fireSound: 122
+    reloadSound: 109
+    compatibleAmmo:
+      - STR_CRUSHER_SHOTGUN_CLIP1
+      - STR_CRUSHER_SHOTGUN_CLIP2
+    accuracyCloseQuarters: 120
+    accuracySnap: 160
+    accuracyAuto: 90
+    accuracyAimed: 145
+    tuAuto: 44
+    tuSnap: 28
+    tuAimed: 48
+    snapRange: 3
+    aimRange: 3
+    dropoff: 6
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 80
+    shotgunChoke: 50
+    invWidth: 1
+    invHeight: 2
+    armor: 40
+    tuLoad: 20
+    attraction: 16
+    listOrder: 22350
+  - type: STR_CRUSHER_SHOTGUN_CLIP1
+    size: 0.08
+    costBuy: 520
+    costSell: 120
+    weight: 4
+    bigSprite: 365
+    floorSprite: 328
+    hitSound: 13
+    hitAnimation: 26
+    power: 26
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+    armor: 30
+    shotgunBehavior: 1
+    shotgunSpread: 30
+    shotgunPellets: 5
+    attraction: 15
+    listOrder: 22360
+    battleType: 2
+    armor: 30
+    attraction: 15
+    listOrder: 18911
+  - type: STR_CRUSHER_SHOTGUN_CLIP2
+    size: 0.08
+    costBuy: 720
+    costSell: 180
+    weight: 4
+    bigSprite: 366
+    floorSprite: 328
+    hitSound: 13
+    hitAnimation: 26
+    power: 35
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+    armor: 30
+    attraction: 15
+    listOrder: 22360
+    battleType: 2
+    armor: 30
+    attraction: 15
+    listOrder: 18911
+
   - type: STR_DOMESTIC_SHOTGUN
     size: 0.2
     costBuy: 3200
@@ -4584,7 +4816,58 @@
     shotgunPellets: 6
     attraction: 15
     listOrder: 22452
-
+                           ##LaserTier
+  - type: STR_LASER_SHOTGUN_SIN
+    size: 0.15
+    costSell: 78250
+    weight: 18
+    bigSprite: 373
+    floorSprite: 335
+    handSprite: 984
+    bulletSprite: 5
+    fireSound: 187
+    reloadSound: 188
+    compatibleAmmo:
+      - STR_LASER_SHOTGUN_SIN_CLIP
+    accuracyCloseQuarters: 95
+    accuracyAuto: 80
+    accuracySnap: 115
+    accuracyAimed: 140
+    tuAuto: 34
+    tuSnap: 29
+    tuAimed: 65
+    aimRange: 14
+    snapRange: 8
+    autoShots: 4
+    autoRange: 7
+    dropoff: 6
+    tuLoad: 20
+    battleType: 1
+    twoHanded: true
+    shotgunChoke: 100
+    invWidth: 1
+    invHeight: 3
+    armor: 40
+    attraction: 20
+    listOrder: 22451
+  - type: STR_LASER_SHOTGUN_SIN_CLIP
+    size: 0.07
+    costSell: 1400
+    weight: 6
+    bigSprite: 374
+    floorSprite: 336
+    hitSound: 19
+    hitAnimation: 36
+    power: 46
+    damageType: 4
+    clipSize: 8
+    battleType: 2
+    armor: 30
+    shotgunBehavior: 1
+    shotgunSpread: 25
+    shotgunPellets: 8
+    attraction: 15
+    listOrder: 22452
 
                                       #######   Submachine Guns   #######
 
@@ -4778,9 +5061,7 @@
     bulletSprite: 1
     fireSound: 100
     compatibleAmmo:
-      - STR_GLOCK_NEO_CLIP
-      - STR_GLOCK_NEO_LARGE_CLIP
-      - STR_GLOCK_NEO_LARGE_DRUM
+      - STR_TEC9_CLIP
     accuracySnap: 32
     accuracyAimed: 62
     accuracyAuto: 40
@@ -4799,7 +5080,7 @@
       time: 40
     battleType: 1
     invWidth: 1
-    invHeight: 2
+    invHeight: 3
     armor: 25
     sprayWaypoints: 2
     bulletSpeed: 12
@@ -4998,7 +5279,54 @@
     armor: 30
     attraction: 15
     listOrder: 20850
-
+                           ##LaserTier
+  - type: STR_LASER_SMG_SIN
+    size: 0.08
+    costSell: 18250
+    weight: 8
+    bigSprite: 369
+    floorSprite: 331
+    handSprite: 969
+    bulletSprite: 5
+    fireSound: 187
+    reloadSound: 188
+    compatibleAmmo:
+      - STR_LASER_SMG_SIN_CLIP
+    accuracyCloseQuarters: 125
+    accuracyAuto: 35
+    accuracySnap: 70
+    accuracyAimed: 90
+    tuAuto: 30
+    tuSnap: 20
+    tuAimed: 46
+    tuLoad: 15
+    aimRange: 30
+    dropoff: 3
+    kneelBonus: 105
+    invWidth: 1
+    invHeight: 3
+    battleType: 1
+    twoHanded: true
+    armor: 20
+    attraction: 15
+    listOrder: 20974
+  - type: STR_LASER_SMG_SIN_CLIP
+    size: 0.08
+    costSell: 12650
+    weight: 3
+    bigSprite: 370
+    floorSprite: 332
+    hitSound: 19
+    hitAnimation: 36
+    power: 35
+    damageAlter:
+      IgnoreOverKill: false
+    damageType: 4
+    clipSize: 12
+    battleType: 2
+    armor: 20
+    attraction: 15
+    listOrder: 20975
 
                                       #######   Rifles   #######
 
@@ -5836,6 +6164,50 @@
     vaporProbabilitySurface: 100
     armor: 70
     listOrder: 13151
+                           ##LaserTier
+  - type: STR_LASER_RIFLE_SIN
+    size: 0.2
+    costSell: 27500
+    weight: 10
+    bigSprite: 371
+    floorSprite: 333
+    handSprite: 976
+    bulletSprite: 5
+    fireSound: 187
+    reloadSound: 188
+    compatibleAmmo:
+      - STR_LASER_RIFLE_SIN_CLIP
+    accuracyCloseQuarters: 100
+    accuracyAuto: 50
+    accuracySnap: 87
+    accuracyAimed: 120
+    tuAuto: 34
+    tuSnap: 25
+    tuAimed: 60
+    snapRange: 16
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    attraction: 20
+    listOrder: 21789
+  - type: STR_LASER_RIFLE_SIN_CLIP
+    size: 0.05
+    costSell: 11620
+    weight: 4
+    bigSprite: 372
+    floorSprite: 334
+    hitSound: 19
+    hitAnimation: 36
+    power: 45
+    damageAlter:
+      IgnoreOverKill: false
+    damageType: 4
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    attraction: 15
+    listOrder: 21790
 
                                       #######   Sniper Rifles   #######
 
@@ -7146,9 +7518,40 @@
     damageType: 3
     battleType: 4
     blastRadius: 5
+  - type: STR_GAS_GRENADE
+    size: 0.05
+    costSell: 1400
+    weight: 3
+    bigSprite: 363
+    floorSprite: 326
+    handSprite: 944
+    fuseType: 0
+    power: 50
+    damageType: 9
+    damageAlter:
+      RandomType: 4
+      FixRadius: 4
+      ToHealth: 1.5
+      ToStun: 0.8
+      ToEnergy: 4.0
+      ToMorale: 3.0
+      ToMana: 4.0
+      RandomStun: false
+    battleType: 4
+    costPrime:
+      time: 30
+    costThrow:
+      energy: 6
+      time: 40
+    costUnprime:
+      time: 15
+    unprimeActionName: STR_UNPRIME_GRENADE
+    isExplodingInHands: true
+    armor: 250
+    listOrder: 14125
   - type: STR_SMOKE_GRENADE
     requiresBuy:
-      - STR_IDDQD
+      - STR_SMOKE_GRENADE
     size: 0.1
     costBuy: 150
     costSell: 120
@@ -7160,6 +7563,7 @@
     damageType: 9
     battleType: 4
     blastRadius: 5
+    listOrder: 14410
   - type: STR_PROXIMITY_GRENADE
     requiresBuy:
       - STR_IDDQD

@@ -73,6 +73,46 @@
       STR_OPTRONIC_PARTS: 5
     producedItems:
       STR_ICARUS_COAT: 1
+  - name: STR_TAURUS_ARMOUR_PROD
+    category: STR_ARMOUR
+    requires:
+      - STR_TAURUS_ARMOUR_STUDY
+    space: 15
+    time: 1000
+    cost: 62000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_AQUA_PLASTICS: 5
+    producedItems:
+      STR_TAURUS_ARMOUR: 1
+
+  - name: STR_BULDOZER_SUIT_PROD
+    category: STR_ARMOUR
+    requires:
+      - STR_BULDOZER_SUIT_STUDY
+    space: 15
+    time: 1500
+    cost: 80000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 14
+      STR_AQUA_PLASTICS: 8
+      STR_OPTRONIC_PARTS: 2
+    producedItems:
+      STR_BULDOZER_SUIT: 1
+
+  - name: STR_DEFENDER_SUIT_PROD
+    category: STR_ARMOUR
+    requires:
+      - STR_DEFENDER_SUIT_STUDY
+    space: 15
+    time: 1500
+    cost: 80000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 6
+      STR_AQUA_PLASTICS: 4
+      STR_OPTRONIC_PARTS: 5
+    producedItems:
+      STR_DEFENDER_SUIT: 1
 
                                                            ##BOXES EXTRACTION##
 #LootBox                                                                
@@ -158,10 +198,14 @@
       - [1, {STR_ALIEN_ALLOYS: 10, STR_AQUA_PLASTICS: 10}]
       - [1, {STR_AQUA_PLASTICS: 20}]
       - [1, {STR_OPTRONIC_PARTS: 8}]
+      - [1, {STR_DURATHREAD: 30}]
       - [1, {STR_OPTRONIC_PARTS: 14}]
       - [1, {STR_SC_WIRE: 5, STR_AQUA_PLASTICS: 10, STR_ALIEN_ALLOYS: 20}]
+      - [1, {STR_ALIEN_ALLOYS: 10, STR_DURATHREAD: 10}]
       - [1, {STR_SC_WIRE: 12}]
+      - [1, {STR_DURATHREAD: 20}]
       - [1, {STR_AQUA_PLASTICS: 18}]
+      - [1, {STR_AQUA_PLASTICS: 10, STR_DURATHREAD: 20}]
       - [1, {STR_GRAV_MODULE: 6}]
       - [1, {STR_GRAV_MODULE: 4, STR_AQUA_PLASTICS: 5, STR_OPTRONIC_PARTS: 5}]
       - [1, {STR_SC_WIRE: 4, STR_AQUA_PLASTICS: 5, STR_OPTRONIC_PARTS: 10, STR_ALIEN_ALLOYS: 10}]

@@ -11,16 +11,17 @@ eventScripts:
         STR_PIZZA_TIME_EVENT: 100
     counterMin: 0
     counterMax: 6
-    executionOdds: 20
+    executionOdds: 50
     firstMonth: 0
 
   - type: STR_SC_34_NEWS
     eventWeights:
       0:
-        STR_GNN_NEWS_001: 100
-        STR_GNN_NEWS_002: 100
+        STR_GNN_NEWS_001: 60
+        STR_GNN_NEWS_002: 60
+        STR_GNN_NEWS_003: 60
     researchTriggers:
-       STR_SC_34: true
+       STR_WEAPON_SHOPPING: true
     executionOdds: 100
 
 ####################test script
@@ -50,7 +51,7 @@ events:
     description: STR_PIZZA_TIME_EVENT_DESCRIPTION
     background: ITSPIZZATIME.SCR
     everyMultiItemList:
-      STR_PIZZA_SLICE: 6
+      STR_PIZZA_SLICE: 12
     researchList: [STR_PIZZA_SLICE]
     music: HOTLINEPIZ
     points: 10
@@ -60,14 +61,16 @@ events:
 
   - name: STR_GNN_NEWS_001
     description: STR_GNN_MURDER_1_DESCRIPTION
-    description: STR_GNN_MURDER_1
     background: NEWS_BG.SCR
+    music: NEWS
+    researchList: [STR_WEAPON_SHOPPING]
     timer: 60
     timerRandom: 300
   - name: STR_GNN_NEWS_002
     description: STR_GNN_MURDER_2_DESCRIPTION
-    description: STR_GNN_MURDER_2
+    music: NEWS
     background: NEWS_BG.SCR
+    researchList: [STR_WEAPON_SHOPPING]
     timer: 60
     timerRandom: 300
 
