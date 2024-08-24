@@ -78,5 +78,7 @@ startingBase:
     STR_MEDI_PATCH: 5
     STR_COMBAT_KNIFE: 4
     STR_FLASHLIGHT: 1
+    STR_WRECKED_SAVAGE_CRAFT: 1
+    STR_ELERIUM_115: 50
   scientists: 5
   engineers: 5

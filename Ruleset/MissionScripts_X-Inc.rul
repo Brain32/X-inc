@@ -189,7 +189,7 @@ missionScripts:
                                                           ### SIN Terrior ###
 
   - type: recurringTerrorEarly
-    firstMonth: 0
+    firstMonth: 2
     executionOdds: 100
     missionWeights:
       0:

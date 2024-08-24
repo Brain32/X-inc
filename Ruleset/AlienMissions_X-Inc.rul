@@ -1,6 +1,5 @@
-
 alienMissions:
-  - delete: STR_ALIEN_TERROR
+
                               ### Raider Bois ###
   - type: STR_WASTELAND_GANG_APPREHENSION
     objective: 3

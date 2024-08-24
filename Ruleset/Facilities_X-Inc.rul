@@ -65,6 +65,28 @@ facilities:
     placeSound: 37
     mapName: XBASE_03
     listOrder: 6980
+  - type: STR_SMALL_RADAR_SYSTEM
+    requires:
+      - STR_SMALL_RADAR_SYSTEM
+    spriteShape: 2
+    spriteFacility: 21
+    buildCost: 410000
+    monthlyCost: 8600
+    buildTime: 20
+    radarRange: 1525
+    radarChance: 70
+    mapName: XBASE_04
+  - type: STR_LARGE_RADAR_SYSTEM
+    requires:
+      - STR_LARGE_RADAR_SYSTEM
+    spriteShape: 1
+    spriteFacility: 22
+    buildCost: 820000
+    buildTime: 30
+    monthlyCost: 15000
+    radarRange: 2500
+    radarChance: 20
+    mapName: XBASE_05
   - type: STR_HYPER_WAVE_DECODER
     requires:
       - STR_HYPER_WAVE_DECODER
@@ -146,6 +168,8 @@ facilities:
     mapName: XBASS_22                            #<---------- Fix me !
     listOrder: 6830
   - type: STR_CYBER_HQ
+    requires:
+      - STR_CYBER_HQ
     spriteShape: 1
     spriteFacility: 318
     provideBaseFunc: [HQ, CYBER_HQ]
@@ -172,6 +196,8 @@ facilities:
     mapName: XBASS_24
     listOrder: 6810
   - type: STR_POWER_PLANT
+    requires:
+      - STR_POWER_PLANT
     spriteShape: 1
     spriteFacility: 874
     buildCost: 870000
@@ -236,6 +262,8 @@ facilities:
     mapName: XBASS_22                            #<---------- Fix me !
     listOrder: 6830
   - type: STR_LAB_T1
+    requires:
+      - STR_LAB_T1
     spriteShape: 1
     spriteFacility: 885
     buildCost: 1350000
@@ -250,6 +278,8 @@ facilities:
     mapName: XBASS_22                            #<---------- Fix me !
     listOrder: 6830
   - type: STR_SCIENCE_CENTER
+    requires:
+      - STR_SCIENCE_CENTER
     spriteShape: 328
     size: 2
     spriteFacility: 884

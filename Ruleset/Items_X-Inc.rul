@@ -8594,6 +8594,13 @@
     armor: 55
     listOrder: 15557
 
+                                  #######  misc shit #####
+
+  - type: STR_WRECKED_SAVAGE_CRAFT
+    size: 38
+    costSell: 520000
+    listOrder: 15557
+
                                   #######  Handy-Dandy script #####
 
   - type: STR_SPAWN_HUMVEE_TURRET_ARMOR

@@ -1,7 +1,19 @@
 ﻿manufacture:
 
 
-                                                           ##ROBOT DISASSEMBLY##
+
+                                                                              ##DO IT YOURSELF SHIP ##
+  - name: STR_SAVAGE_CRAFT
+    category: STR_CRAFT
+    requires:
+      - STR_WRECKED_SAVAGE_CRAFT
+    space: 5
+    time: 250
+    cost: 10000
+    requiredItems:
+      STR_WRECKED_SAVAGE_CRAFT: 1
+                                             
+                                                                              ##ROBOT DISASSEMBLY##
 #Old Robots          
   - name: STR_CORPSE_OLD_LIGHT_DRONE_DISASSEMBLY
     category: STR_ROBOT_DISASSEMBLY

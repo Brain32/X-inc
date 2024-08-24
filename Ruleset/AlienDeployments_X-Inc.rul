@@ -1,4 +1,5 @@
 ﻿alienDeployments:
+  - delete: STR_ALIEN_TERROR
                                                 ### WastelandFarmRaid ###
   - type: STR_WASTELAND_FARM_RAID
     width: 50
@@ -930,78 +931,108 @@
 
 #SINTerror
 
-  - type: STR_SIN_TERROR_MISSION
+  - type: STR_SIN_TERROR
+    alert: STR_ALERT_SIN_TERROR_MISSION
+    alertBackground: BACK03.SCR
+    alertDescription: STR_SIN_TERROR_MISSION_BRIEFING
+    briefing:
+      palette: 1
+      music: GMENBASE    
+      background: BACK03.SCR #<---- Fix it ?
+      showTarget: false
+      showCraft: false
+      title: STR_SIN_TERROR_MISSION
+      desc: STR_SIN_TERROR_MISSION_BRIEFING
+    markerName: STR_MARKER_SIN_TERROR_MISSION
+    duration: [7, 10]
+    civilians: 12
+    width: 70
+    length: 70
+    height: 9
+    terrains:
+      - URBAN
     data:
       - alienRank: 5
-        lowQty: 4
-        highQty: 6
-        dQty: 1
+        lowQty: 6
+        highQty: 8
+        dQty: 2
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_LASER_PISTOL_SIN
+            - STR_LASER_PISTOL_SIN_CLIP
+            - STR_LASER_PISTOL_SIN_CLIP
+            - STR_GAS_GRENADE
           -
             - STR_LASER_SHOTGUN_SIN
             - STR_LASER_SHOTGUN_SIN_CLIP
             - STR_LASER_SHOTGUN_SIN_CLIP
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_LASER_SMG_SIN
+            - STR_LASER_SMG_SIN_CLIP
+            - STR_LASER_SMG_SIN_CLIP
       - alienRank: 4
-        lowQty: 1
-        highQty: 2
+        lowQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_LASER_RIFLE_SIN
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_GRENADE_LAUNCHER_VICE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
           -
-            - STR_LASER_SHOTGUN_SIN
+            - STR_LASER_RIFLE_SIN
             - STR_LASER_SHOTGUN_SIN_CLIP
             - STR_LASER_SHOTGUN_SIN_CLIP
       - alienRank: 3
-        lowQty: 1
-        highQty: 1
+        lowQty: 3
+        highQty: 4
         dQty: 1
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_FLAMETHROWER
+            - STR_FLAMETHROWER_CLIP
+            - STR_FLAMETHROWER_CLIP
+            - STR_FLAMETHROWER_CLIP
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_LASER_RIFLE_SIN
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_GAS_GRENADE
           -
             - STR_LASER_SHOTGUN_SIN
             - STR_LASER_SHOTGUN_SIN_CLIP
             - STR_LASER_SHOTGUN_SIN_CLIP
       - alienRank: 2
-        lowQty: 1
-        highQty: 2
+        lowQty: 3
+        highQty: 4
         dQty: 0
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_LASER_RIFLE_SIN
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_GAS_GRENADE
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_GRENADE_LAUNCHER_VICE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
           -
-            - STR_LASER_SHOTGUN_SIN
+            - STR_LASER_RIFLE_SIN
             - STR_LASER_SHOTGUN_SIN_CLIP
             - STR_LASER_SHOTGUN_SIN_CLIP
       - alienRank: 1
@@ -1011,13 +1042,17 @@
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_LASER_RIFLE_SIN
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_GAS_GRENADE
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_LASER_RIFLE_SIN
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_GAS_GRENADE
           -
             - STR_LASER_SHOTGUN_SIN
             - STR_LASER_SHOTGUN_SIN_CLIP
@@ -1029,17 +1064,23 @@
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_LASER_RIFLE_SIN
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_GAS_GRENADE
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_LASER_RIFLE_SIN
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_GAS_GRENADE
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_GRENADE_LAUNCHER_VICE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
       - alienRank: 7
         lowQty: 1
         highQty: 3
@@ -1051,24 +1092,22 @@
             - STR_LASER_SHOTGUN_SIN_CLIP
             - STR_LASER_SHOTGUN_SIN_CLIP
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
+            - STR_LASER_RIFLE_SIN
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_GAS_GRENADE
           -
-            - STR_LASER_SHOTGUN_SIN
-            - STR_LASER_SHOTGUN_SIN_CLIP
-            - STR_LASER_SHOTGUN_SIN_CLIP
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
-    alert: STR_SIN_TERRORISE
+            - STR_LASER_RIFLE_SIN
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_GAS_GRENADE
+
     alertBackground: BACK03.SCR
     briefing:
       palette: 2
       music: GMENBASE
     markerName: STR_SIN_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 1000
+    despawnPenalty: 850

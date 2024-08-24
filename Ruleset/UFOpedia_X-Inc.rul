@@ -74,6 +74,14 @@ ufopaedia:
     text: STR_TAURUS_ARMOUR_UFOPEDIA
     requires:
       - STR_TAURUS_ARMOUR_STUDY
+  - id: STR_BASIC_ARMOUR_DESIGN
+    type_id: 7
+    image_id: BASICARMOURDESIGN.SPK
+    text_width: 154
+    section: STR_ARMOUR
+    text: STR_BASIC_ARMOUR_DESIGN_UFOPEDIA
+    requires:
+      - STR_BASIC_ARMOUR_DESIGN
 
         #Bad guys
   - id: STR_WASTELAND_GOON_INV
@@ -1727,6 +1735,13 @@ ufopaedia:
     text: STR_BIKERS_UFOPEDIA
     listOrder: 270620
 #Tech Tree
+  - id: STR_WRECKED_SAVAGE
+    type_id: 8
+    section: STR_FACTIONS_UC
+    text: STR_WRECKED_SAVAGE_UFOPEDIA
+    requires:
+      - STR_WRECKED_SAVAGE_CRAFT
+    listOrder: 270620
   - id: STR_INTEL_OFFICER_1
     type_id: 7
     image_id: INTEL_OFFICER_1.SPK

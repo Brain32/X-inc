@@ -111,6 +111,9 @@ ufos:
     range: 42
     score: 500
     reload: 24
+    raceBonus:
+      STR_TERRORIST_SIN:
+        missionCustomDeploy: STR_SIN_TERROR
     breakOffTime: 2000
     battlescapeTerrainData:
       name: UFO_150

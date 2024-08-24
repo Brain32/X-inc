@@ -1493,6 +1493,8 @@ extraSprites:
       879: Resources/Vessels/Inticon/Cicada_dogfight.png
       870: Resources/Vessels/Inticon/Hamvee_minimised.png
       881: Resources/Vessels/Inticon/Hamvee_dogfight.png
+      875: Resources/Vessels/Inticon/Savage_minimised.png
+      886: Resources/Vessels/Inticon/Savage_dogfight.png
 
 
          #InBase and facileties
@@ -1536,6 +1538,7 @@ extraSprites:
       885: Resources/BaseSprites/LAB_T1.png
       901: Resources/Vessels/Basebits/Cicada_base.png
       903: Resources/Vessels/Basebits/Hamvee_base.png
+      908: Resources/Vessels/Basebits/Savage_base.png
          
                            ###UFOPEDIA###
 
@@ -1666,6 +1669,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/BlackMarket_CPAL.png
+  - type: BASICARMOURDESIGN.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/BasicAlloyArmourDesign.png
 # Missions
   - type: OLD_MILBASE_CPAL.SPK
     singleImage: true

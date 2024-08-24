@@ -192,7 +192,11 @@ research:
       - STR_FUTUREHAMVEE_BUY
       - STR_MILITARY_SUPLIES
     listOrder: 151060
-
+  - name: STR_WRECKED_SAVAGE_CRAFT
+    cost: 35 
+    points: 10
+    needItem: true
+    listOrder: 151060
 #Facileties
   - name: STR_MEDBAY_FACILITY
     cost: 50 
@@ -238,6 +242,19 @@ research:
     points: 30
     dependencies:
       - STR_ELECTRONICS
+    listOrder: 151060
+  - name: STR_SMALL_RADAR_SYSTEM
+    cost: 175
+    points: 30
+    dependencies:
+      - STR_ELECTRONICS
+      - STR_MILITARY_SUPLIES
+    listOrder: 151060
+  - name: STR_LARGE_RADAR_SYSTEM
+    cost: 250
+    points: 30
+    dependencies:
+      - STR_SMALL_RADAR_SYSTEM
     listOrder: 151060
 
 #TechTree
@@ -332,6 +349,14 @@ research:
       - STR_TAURUS_ARMOUR_STUDY
       - STR_OPTRONIC_PARTS
 #Items - components
+  - name: STR_ELERIUM_115
+    dependencies:
+      - STR_IDDQD
+    cost: 30
+    points: 5
+    needItem: true
+    requiresBaseFunc: [BASIC_LAB]
+    listOrder: 151070
   - name: STR_DURATHREAD
     cost: 30
     points: 5

@@ -24,6 +24,7 @@ eventScripts:
        STR_WEAPON_SHOPPING: true
     executionOdds: 100
 
+
 ####################test script
 #  - type: STR_TEST_EVENT
 #    eventWeights:
@@ -68,6 +69,13 @@ events:
     timerRandom: 300
   - name: STR_GNN_NEWS_002
     description: STR_GNN_MURDER_2_DESCRIPTION
+    music: NEWS
+    background: NEWS_BG.SCR
+    researchList: [STR_WEAPON_SHOPPING]
+    timer: 60
+    timerRandom: 300
+  - name: STR_GNN_NEWS_003
+    description: STR_GNN_MURDER_3_DESCRIPTION
     music: NEWS
     background: NEWS_BG.SCR
     researchList: [STR_WEAPON_SHOPPING]

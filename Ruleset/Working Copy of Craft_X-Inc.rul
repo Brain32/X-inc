@@ -211,7 +211,7 @@ crafts:
   - type: STR_SAVAGE_CRAFT
     requires:
       - IDDQD
-    sprite: 875 # this sprite is the number for minimized in INTICON.pck
+    sprite: 871 # this sprite is the number for minimized in INTICON.pck
     soldiers: 10
     pilots: 1
     vehicles: 1
