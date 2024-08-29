@@ -296,6 +296,18 @@
     battleType: 11
     armor: 30
     recover: false
+  - type: STR_CORPSE_JUMPSUIT
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.5
+    weight: 35
+    bigSprite: 382
+    floorSprite: 344
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: false
   - type: STR_BULDOZER_SUIT_CORPSE
     categories: [STR_CORPSES]
     name: STR_CORPSE
@@ -404,7 +416,18 @@
     battleType: 11
     armor: 60
     recover: false
-
+  - type: STR_CORPSE_JUMPSUIT_JETPACK
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.5
+    weight: 45
+    bigSprite: 383
+    floorSprite: 345
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: false
 # -------------------------------- Dead Civies
      #Rangers
 
@@ -513,7 +536,39 @@
     battleType: 11
     armor: 90
 
-
+# -------------------------------- Police
+  - type: STR_AUTOCOP_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 45
+    bigSprite: 378
+    floorSprite: 340
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 60
+    recoveryPoints: -20
+    recover: true
+    recoverCorpse: false
+  - type: STR_MEGAPOL_COP_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 45
+    bigSprite: 379
+    floorSprite: 341
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 50
+    recoveryPoints: -20
+    recover: true
+    recoverCorpse: false
 # -------------------------------- Dead bad guys
           #Raiders
 
@@ -987,8 +1042,16 @@
     floorSprite: 284
     costSell: 67000
     listOrder: 16890
-
+  - type: STR_JUMPSUIT_JETPACK
+    categories: [STR_OUTFITS]
+    costBuy: 55700
+    costSell: 32500
+    requiresBuy:
+      - STR_JUMPSUIT_JETPACK_STUDY
+    size: 1.5
+    listOrder: 16890
                                   #########################################  _______  Parts and components   _______  #########################################
+
   - type: STR_DURATHREAD
     categories: [STR_BAT_CAT_RESOURCE]
     size: 0.03
@@ -1002,6 +1065,15 @@
     recoveryPoints: 3
     attraction: 10
     listOrder: 61170
+  - type: STR_ELERIUM_115
+    size: 0.1
+    costSell: 8000
+    weight: 3
+    bigSprite: 56
+    floorSprite: 37
+    invWidth: 1
+    invHeight: 1
+    recoveryPoints: 5
   - type: STR_OPTRONIC_PARTS
     categories: [STR_BAT_CAT_RESOURCE]
     size: 0.05
@@ -1419,7 +1491,7 @@
     size: 0.15
     costBuy: 300
     costSell: 120
-    weight: 8
+    weight: 6
     bigSprite: 260
     floorSprite: 251
     power: 21
@@ -1543,13 +1615,13 @@
     handSprite: 600
     battleType: 6
     painKiller: 2
-    heal: 2
+    heal: 3
     stimulant: 2
     woundRecovery: 1
     healthRecovery: 1
     stunRecovery: 8
     costUse:
-      time: 20
+      time: 15
       morale: -5
     costThrow:
       energy: 8
@@ -1563,6 +1635,7 @@
     requiresBuy:
       - STR_BLACK_MARKET_ACCES
     size: 0.1
+    costBuy: 7000
     costSell: 5000
     weight: 4
     bigSprite: 145
@@ -1570,7 +1643,7 @@
     handSprite: 360
     battleType: 6
     painKiller: 2
-    heal: 2
+    heal: 3
     stimulant: 2
     woundRecovery: 1
     healthRecovery: 2
@@ -1588,8 +1661,9 @@
     requiresBuy:
       - STR_IDDQD
     size: 0.1
+    costBuy: 19000
     costSell: 10000
-    weight: 4
+    weight: 6
     bigSprite: 146
     floorSprite: 119
     handSprite: 368
@@ -1611,6 +1685,36 @@
     invHeight: 2
     experienceTrainingMode: 19
     listOrder: 14750
+
+  - type: STR_ADV_MEDIPACK
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.3
+    costBuy: 76000
+    costSell: 50000
+    weight: 12
+    bigSprite: 377
+    floorSprite: 339
+    handSprite: 1000
+    battleType: 6
+    painKiller: 5
+    heal: 5
+    stimulant: 5
+    woundRecovery: 1
+    healthRecovery: 4
+    stunRecovery: 25
+    costUse:
+      time: 12
+      morale: -5
+    costThrow:
+      energy: 8
+    recoveryPoints: 1
+    flatRate: true
+    invWidth: 2
+    invHeight: 2
+    experienceTrainingMode: 19
+    listOrder: 14750
+
   - type: STR_STIMM
     size: 0.05
     costBuy: 2750
@@ -3672,7 +3776,74 @@
       ToTile: 0.0
     clipSize: 2
     listOrder: 18920
-                           ##GaussTier
+
+                           ##PoliceTier##
+
+  - type: STR_AUTO9_PISTOL
+    size: 0.1
+    requires:
+      - STR_AUTO9_PISTOL
+    costSell: 10000
+    weight: 12
+    bigSprite: 380
+    floorSprite: 342
+    handSprite: 1008
+    bulletSprite: 2
+    fireSound: 189
+    compatibleAmmo:
+      - STR_AUTO9_PISTOL_CLIP
+    accuracySnap: 57
+    accuracyAimed: 72
+    accuracyCloseQuarters: 105
+    accuracyMultiplier:
+      firing: 0.5
+      reactions: 0.5
+    tuSnap: 27
+    tuAimed: 35
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 1
+    shotgunChoke: 100
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    aimRange: 22
+    dropoff: 3
+    kneelBonus: 110
+    attraction: 13
+    listOrder: 12494
+  - type: STR_AUTO9_PISTOL_CLIP
+    categories: [STR_BAT_CAT_PISTOL, STR_BAT_CAT_INFILTRATION, STR_BAT_CAT_EXO, STR_BAT_CAT_MOSTLY_HARMLESS]
+    supportedInventorySections: *InventorySectionsStandard
+    requires:
+      - STR_AUTO9_PISTOL
+    size: 0.05
+    costSell: 625
+    weight: 3
+    bigSprite: 381
+    floorSprite: 343
+    hitSound: 22
+    hitAnimation: 26
+    power: 25
+    damageType: 1
+    damageBonus:
+      reactions: 0.15
+    damageAlter:
+      ToStun: 0.5
+    clipSize: 7
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    shotgunPellets: 4
+    shotgunSpread: 15
+    shotgunBehavior: 1
+    armor: 25
+    listOrder: 12495
+
+                           ##GaussTier##
+
   - type: STR_HB_GAUSS_PISTOL
     size: 0.1
     costSell: 25000
@@ -4331,6 +4502,8 @@
     listOrder: 22350
 
   - type: STR_CRUSHER_SHOTGUN
+    requiresBuy:
+      - STR_MILITARY_SUPLIES
     size: 0.35
     costBuy: 37000
     costSell: 12000
@@ -4365,6 +4538,8 @@
     attraction: 16
     listOrder: 22350
   - type: STR_CRUSHER_SHOTGUN_CLIP1
+    requiresBuy:
+      - STR_MILITARY_SUPLIES
     size: 0.08
     costBuy: 520
     costSell: 120
@@ -4388,6 +4563,8 @@
     attraction: 15
     listOrder: 18911
   - type: STR_CRUSHER_SHOTGUN_CLIP2
+    requiresBuy:
+      - STR_MILITARY_SUPLIES
     size: 0.08
     costBuy: 720
     costSell: 180
@@ -4919,10 +5096,8 @@
   - type: STR_TEC9_CLIP
     categories: [STR_SMGS]
     requiresBuy:
-      - STR_IDDQD
+      - STR_WEAPON_SHOPPING
     size: 0.05
-    requiresBuy:
-      - IDDQD
     costBuy: 300
     costSell: 90
     weight: 3
@@ -5427,6 +5602,8 @@
     attraction: 12
     listOrder: 13000
   - type: STR_RIFLE_AK_CLIP
+    requiresBuy:
+      - STR_RIFLE_AK
     size: 0.05
     costBuy: 1250
     costSell: 110
@@ -8601,6 +8778,13 @@
     costSell: 520000
     listOrder: 15557
 
+  - type: STR_JETPACK_CONTROLS
+    fixedWeapon: true
+    bigSprite: 384
+    invWidth: 2
+    invHeight: 3
+    costSell: 520000
+    listOrder: 15557
                                   #######  Handy-Dandy script #####
 
   - type: STR_SPAWN_HUMVEE_TURRET_ARMOR

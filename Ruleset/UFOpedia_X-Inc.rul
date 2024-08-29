@@ -20,6 +20,10 @@ ufopaedia:
     type_id: 5
     section: STR_ARMOUR
     text: STR_RUNNERCOAT_UFOPEDIA
+  - id: STR_JUMPSUIT_UC
+    type_id: 5
+    section: STR_ARMOUR
+    text: STR_JUMPSUIT_UFOPEDIA
   - id: STR_BULDOZER_SUIT_UC
     type_id: 5
     section: STR_ARMOUR
@@ -74,6 +78,13 @@ ufopaedia:
     text: STR_TAURUS_ARMOUR_UFOPEDIA
     requires:
       - STR_TAURUS_ARMOUR_STUDY
+  - id: STR_JUMPSUIT_JETPACK_UC
+    type_id: 5
+    section: STR_ARMOUR
+    text: STR_JUMPSUIT_JETPACK_UFOPEDIA
+    requires:
+      - STR_JUMPSUIT_JETPACK_STUDY
+
   - id: STR_BASIC_ARMOUR_DESIGN
     type_id: 7
     image_id: BASICARMOURDESIGN.SPK
@@ -522,12 +533,10 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_RIFLE_AK_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_RIFLE_AK
   - id: STR_RIFLE_AK_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
   - id: STR_M52S_AJAX_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -537,8 +546,6 @@ ufopaedia:
   - id: STR_M52S_AJAX_RIFLE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
       
 ### GAUSS TIER
   - id: STR_HB_GAUSS_RIFLE
@@ -574,12 +581,12 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_OLD_HUNTING_RIFLE_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_OLD_HUNTING_RIFLE
   - id: STR_HUNTING_RIFLE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
-      - STR_IDDQD
+      - STR_OLD_HUNTING_RIFLE
   - id: STR_SCOPED_HUNTING_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -607,13 +614,13 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PS94_UFOPEDIA
     requires:
-      - WEAPON_SHOPPING
+      - STR_WEAPON_SHOPPING
   - id: STR_LASER_CIVIPHASER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_CIVIPHASER_UFOPEDIA
     requires:
-      - WEAPON_SHOPPING
+      - STR_WEAPON_SHOPPING
   - id: STR_BLACKOPS_COMPACT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1041,7 +1048,7 @@ ufopaedia:
     text: STR_CHEAP_3DPISTOL_UFOPEDIA
     listOrder: 19750
     requires:
-      - WEAPON_SHOPPING
+      - STR_WEAPON_SHOPPING
   - id: STR_FLARE_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1124,7 +1131,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SMG_LINDA_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_WEAPON_SHOPPING
   - id: STR_PISTOL_10MM
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1566,7 +1573,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PEPPER_GUN_UFOPEDIA
     requires:
-      - WEAPON_SHOPPING
+      - STR_WEAPON_SHOPPING
   - id: STR_SMOKE_GRENADE
     requires:
       - STR_SMOKE_GRENADE
@@ -1927,8 +1934,21 @@ ufopaedia:
     text: STR_OLD_TURRET_MINIGUN_UFOPEDIA
     text_width: 180
     listOrder: 20140
-
-
+#Police
+  - id: STR_AUTOCOP_UPED
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: AUTOCOP_UFOPEDIA_PICTURE
+    text: STR_AUTOCOP_UFOPEDIA
+    text_width: 180
+    listOrder: 20140
+  - id: STR_COP1_UPED
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: COP1_UFOPEDIA_PICTURE
+    text: STR_COP1_UFOPEDIA
+    text_width: 180
+    listOrder: 20140
 
 #Craft Weapons#
   - id: STR_STINGRAY
@@ -2008,6 +2028,23 @@ ufopaedia:
       width: 160
       height: 120
     text: STR_FUTURECAR1_UFOPEDIA
+    listOrder: 7292
+
+  - id: STR_SAVAGE_CRAFT
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: UFOPEDIA_SAVAGE_CPAL.SPK
+    rect_stats:
+      x: 5
+      y: 130
+      width: 160
+      height: 56
+    rect_text:
+      x: 5
+      y: 40
+      width: 160
+      height: 120
+    text: STR_SAVAGE_UFOPEDIA
     listOrder: 7292
 
   - id: STR_CICADA_CRAFT

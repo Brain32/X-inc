@@ -14,7 +14,7 @@ missionScripts:
 
   - type: WastelandGang
     firstMonth: 1
-    executionOdds: 70
+    executionOdds: 85
     missionWeights:
       0:
         STR_WASTELAND_GANG_APPREHENSION: 100
@@ -29,7 +29,7 @@ missionScripts:
     randomDelay: 43500
   - type: Wastelandfactory
     firstMonth: 2
-    executionOdds: 70
+    executionOdds: 68
     missionWeights:
       0:
         STR_WASTELAND_FACTORY: 100
@@ -145,7 +145,7 @@ missionScripts:
 
   - type: SmuglerClub
     firstMonth: 3
-    executionOdds: 55 
+    executionOdds: 60 
     missionWeights:
       0:
         STR_SMUGLER_CLUB: 100
@@ -218,3 +218,13 @@ missionScripts:
     targetBaseOdds: 100
     startDelay: 8000
     randomDelay: 1200
+
+  - type: RaiderBuggy
+    firstMonth: 2
+    executionOdds: 70
+    missionWeights:
+      0:
+        STR_RAIDER_SCOUT_MISSION: 100
+    targetBaseOdds: 100
+    startDelay: 16000
+    randomDelay: 2400

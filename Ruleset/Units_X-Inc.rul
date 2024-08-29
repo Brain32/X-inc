@@ -133,6 +133,36 @@ units:
         - STR_PISTOL_HW_CLIP
         - STR_PISTOL_HW_CLIP
         - STR_PISTOL_HW_CLIP
+
+#Cops
+
+  - type: AUTO_COP
+    race: STR_CIVILIAN
+    stats:
+      tu: 80
+      stamina: 120
+      health: 70
+      bravery: 110
+      reactions: 70
+      firing: 80
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 60
+    armor: STR_AUTOCOP_INV
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: 10
+    builtInWeaponSets:
+      - - STR_AUTO9_PISTOL
+        - STR_AUTO9_PISTOL_CLIP
+        - STR_AUTO9_PISTOL_CLIP
+        - STR_AUTO9_PISTOL_CLIP
+        - STR_AUTO9_PISTOL_CLIP
 # Wasteland - Radiers
 
   - type: STR_WASTELAND_GOON
@@ -182,7 +212,7 @@ units:
     value: 25
     energyRecovery: 30
     intelligence: 2
-    aggression: 3
+    aggression: 5
     canSurrender: true
     recover: true
     prisonType: 1

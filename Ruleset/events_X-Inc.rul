@@ -42,7 +42,7 @@ events:
     everyMultiItemList:
       STR_LOOTBOX6: 3
     researchList: [STR_LOOTBOX6]
-    music: HOTLINEPIZ
+    music: HUNTER_CLUB
     points: 25
     timer: 10000
     timerRandom: 20000
@@ -54,7 +54,7 @@ events:
     everyMultiItemList:
       STR_PIZZA_SLICE: 12
     researchList: [STR_PIZZA_SLICE]
-    music: HOTLINEPIZ
+    music: JHONGUTTER
     points: 10
     timer: 10000
     timerRandom: 20000
@@ -65,6 +65,8 @@ events:
     background: NEWS_BG.SCR
     music: NEWS
     researchList: [STR_WEAPON_SHOPPING]
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    city: true
     timer: 60
     timerRandom: 300
   - name: STR_GNN_NEWS_002
@@ -72,6 +74,8 @@ events:
     music: NEWS
     background: NEWS_BG.SCR
     researchList: [STR_WEAPON_SHOPPING]
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    city: true
     timer: 60
     timerRandom: 300
   - name: STR_GNN_NEWS_003
@@ -79,6 +83,8 @@ events:
     music: NEWS
     background: NEWS_BG.SCR
     researchList: [STR_WEAPON_SHOPPING]
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    city: true
     timer: 60
     timerRandom: 300
 

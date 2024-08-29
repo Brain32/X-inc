@@ -155,6 +155,14 @@ extraSprites:
     fileSingle: Resources/Armours/RunnerCoat/RunnerCoat_F.png
   - typeSingle: HUMAN_RUNNER__7__DEFENDER_SUIT_M
     fileSingle: Resources/Armours/Defender/Inv_Defender.png
+#StartingJumpSuit
+  - typeSingle: HUMAN_RUNNER__6__JUMPSUIT_M
+    fileSingle: Resources/Armours/JumpSuit/Inv_Jumpsuit_M.png
+  - typeSingle: HUMAN_RUNNER__6__JUMPSUIT_F
+    fileSingle: Resources/Armours/JumpSuit/Inv_Jumpsuit_F.png
+#JetPack
+  - typeSingle: HUMAN_RUNNER__7__JETPACK_JUMPSUIT
+    fileSingle: Resources/Armours/JumpSuit_JetPack/Inv_JetPack.png
 #Defender
   - typeSingle: HUMAN_RUNNER__7__DEFENDER_SUIT_M
     fileSingle: Resources/Armours/Defender/Inv_Defender.png
@@ -173,14 +181,11 @@ extraSprites:
   - typeSingle: HUMAN_RUNNER__11__COMBAT_ARMOUR_HELMET_MK2
     fileSingle: Resources/Armours/Combat Armour/Inv_CombarArmour_Helmet_Mk2.png
 #CivilianVest
-  - typeSingle: HUMAN_RUNNER__6__CIVIL_JUMPSUIT_MALE_SMALL
-    fileSingle: Resources/Armours/CivilVest/Civilian_Bottom_MaleSmall.png
-  - typeSingle: HUMAN_RUNNER__6__CIVIL_JUMPSUIT_FEM_SMALL
-    fileSingle: Resources/Armours/CivilVest/Civilian_Bottom_FemSmall.png
   - typeSingle: HUMAN_RUNNER__7__CIVIL_VEST_MALE_SMALL
-    fileSingle: Resources/Armours/CivilVest/Civilian_Vest_MaleSmall.png
-  - typeSingle: HUMAN_RUNNER__7__CIVIL_VEST_FEM_SMALL
-    fileSingle: Resources/Armours/CivilVest/Civilian_Vest_FemSmall.png
+    fileSingle: Resources/Armours/CivilVest/Inv_CivilVest.png
+#Made a fem version ?
+#  - typeSingle: HUMAN_RUNNER__7__CIVIL_VEST_FEM_SMALL
+#    fileSingle: Resources/Armours/CivilVest/Civilian_Vest_FemSmall.png
 #SecVest
   - typeSingle: HUMAN_RUNNER__6__SECVEST_ARMOUR_SHIRT_MALE
     fileSingle: Resources/Armours/SecVest/Inv_Shirt_M.png
@@ -207,6 +212,7 @@ extraSprites:
 ###Add_Female_Version_?###
   - typeSingle: HUMAN_RUNNER__11__TAURUS_ARMOUR_HELMET
     fileSingle: Resources/Armours/Taurus/Taurus_Hel.png
+
 
   - type: MAN_99.SPK
     singleImage: true
@@ -235,24 +241,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Armours/Combat Armour/Inv_CombarArmour_Mk2.png
-
-
-  - type: MAN_25_JUMPSUIT_M.SPK
-    singleImage: true
-    files:
-      0: Resources/Armours/CivilVest/Civilian_Bottom_MaleSmall.png
-  - type: MAN_25_JUMPSUIT_F.SPK
-    singleImage: true
-    files:
-      0: Resources/Armours/CivilVest/Civilian_Bottom_FemSmall.png
-  - type: MAN_25_VEST_M.SPK
-    singleImage: true
-    files:
-      0: Resources/Armours/CivilVest/Civilian_Vest_MaleSmall.png
-  - type: MAN_25_VEST_F.SPK
-    singleImage: true
-    files:
-      0: Resources/Armours/CivilVest/Civilian_Vest_FemSmall.png
 
 #SecVest
   - type: MAN_26_VEST_M.SPK
@@ -315,6 +303,15 @@ extraSprites:
     files:
       0: Resources/FactionPack/OldRobots/inv_OldTurret.png
 
+                                                                  ###Police###
+  - type: Inv_AutoCop
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Police/Inv_AutoCop.png
+  - type: Inv_MegaPol_Cop
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Police/INV_Cop.png
 
                                                       #### Enemies inv pics ####
 
@@ -757,6 +754,14 @@ extraSprites:
       374: Resources/Weapons/ResistanceGuns/bigob_LaserShotgun_Clip.png
       375: Resources/Weapons/ResistanceGuns/bigob_LasSniperRifle.png
       376: Resources/Weapons/ResistanceGuns/bigob_LasSniperRifle_Clip.png
+      377: Resources/MedicalShit/bigob_AdvMedKit.png
+      378: Resources/FactionPack/Police/bigob_AutoCop.png
+      379: Resources/FactionPack/Police/Bigob_Cop.png
+      380: Resources/Weapons/PoliceWeapons/bigob_Auto9.png
+      381: Resources/Weapons/PoliceWeapons/bigob_Auto9_Clip.png
+      382: Resources/Armours/JumpSuit/bigob_JUMPSUIT.png
+      383: Resources/Armours/JumpSuit_JetPack/bigob_JUMPSUIT_JETPACK.png
+      384: Resources/Armours/JumpSuit_JetPack/bigob_JETPACK_CONTROLS.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -875,6 +880,8 @@ extraSprites:
       976: Resources/Weapons/ResistanceGuns/handob_LasRifle.png
       984: Resources/Weapons/ResistanceGuns/handob_LaserShotgun.png
       992: Resources/Weapons/ResistanceGuns/handob_LasSniper.png
+      1000: Resources/MedicalShit/Handob_AdvMedKit.png
+      1008: Resources/Weapons/PoliceWeapons/HandOb_Auto9.png
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
     files:
@@ -1090,9 +1097,24 @@ extraSprites:
       336: Resources/Weapons/ResistanceGuns/floorob_LaserShotgun_clip.png
       337: Resources/Weapons/ResistanceGuns/floorob_LasSniper.png
       338: Resources/Weapons/ResistanceGuns/floorob_LasSniper_clip.png
+      339: Resources/MedicalShit/floorob_MediPatch.png
+      340: Resources/FactionPack/Police/floor_AutoCop.png
+      341: Resources/FactionPack/Police/Floorob_Cop.png
+      342: Resources/Weapons/PoliceWeapons/floorob_Auto9.png
+      343: Resources/Weapons/PoliceWeapons/floorob_Auto9_clip.png
+      344: Resources/Armours/JumpSuit/floorob_JUMPSUIT.png
+      345: Resources/Armours/JumpSuit_JetPack/floorob_JUMPSUIT_JETPACK.png
 
                                    ### Sprite sheet (Battlescape) ###
-
+#StartingJumpSuit_Spritesheet
+  - type: XCOM_35.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/JumpSuit/JUMPSUIT.png
+#Runner_Spritesheet
   - type: XCOM_36.PCK
     width: 512
     height: 720
@@ -1166,6 +1188,15 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Armours/Taurus/TAURUS.png
+#JetPack_Spritesheet
+  - type: XCOM_46.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/JumpSuit_JetPack/JUMPSUIT_JETPACK.png
+
 
   - type: HAM_TURRET_SHEET.PCK
     width: 256
@@ -1184,6 +1215,23 @@ extraSprites:
     files:
       0: Resources/Armours/AI/SecBot/SecBot_12mm.png
 
+
+                                                                  ###Police###
+
+  - type: POLICEAUTOCOP.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Police/AUTOCOP.png
+  - type: POLICE1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Police/COP.png
                                                                   ###OldRobots###
   - type: OLDROBO_1.PCK
     width: 512
@@ -1555,6 +1603,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Vessels/Ufopedia/BANSHEE_UFOPEDIA.png
+  - type: UFOPEDIA_SAVAGE_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vessels/Ufopedia/SAVAGE_CPAL.png
   - type: UFOPEDIA_CAR1.SPK
     singleImage: true
     width: 320
@@ -1746,7 +1800,11 @@ extraSprites:
     fileSingle: Resources/UFOpedia/UNITS/UPed_Old_Turret.png
   - typeSingle: OLD_SEC_ROBOT_UFOPEDIA_PICTURE
     fileSingle: Resources/UFOpedia/UNITS/UPed_Old_Sec_Robot.png
-
+#Police
+  - typeSingle: AUTOCOP_UFOPEDIA_PICTURE
+    fileSingle: Resources/UFOpedia/UNITS/UPed_AUTOCOP.png
+  - typeSingle: COP1_UFOPEDIA_PICTURE
+    fileSingle: Resources/UFOpedia/UNITS/UPed_COP1.png
 
 # HUD
   - type: ICONS.PCK

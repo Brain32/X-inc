@@ -90,6 +90,7 @@ extraSounds:
       186: Resources/Sounds/Buildings/const.wav
       187: Resources/Sounds/Fire/LASER_PISTOL.wav
       188: Resources/Sounds/Reload/Las_reload_2.wav
+      189: Resources/Sounds/Fire/AlienRifle.wav
   - type: GEO.CAT
     files:
       0: Resources/Sounds/Menu/Click.wav

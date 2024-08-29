@@ -2,6 +2,9 @@ en-US:
 #Armours
   STR_RUNNER_COAT: "Runner Coat"
   STR_RUNNERCOAT_UC: "RUNNER COAT"
+  STR_JUMPSUIT: "Jumpsuit"
+  STR_JUMPSUIT_UC: "JUMPSUIT"
+  STR_JUMPSUIT_UFOPEDIA: "Light clothing made of a widely used material known as the Durthread. The layer is quite ridiculous to be considered a full-fledged armor, but the suit is quite light and does not constrain the movement of the operative, allowing to lessen the maximum mobility on the battlefield."
   STR_RUNNERCOAT_UFOPEDIA: "This trench coat is the latest fashion in the 23rd century! It's also made from durathread to protect our mercs from small caliber bullets."
   STR_BULDOZER_SUIT: "Bulldozer"
   STR_BULDOZER_SUIT_UC: "BULLDOZER"
@@ -11,9 +14,13 @@ en-US:
   STR_COMBAT_ARMOUR_MK1_UFOPEDIA: "Made from advanced polymers and alloys, this armor provides excellent protection against small bullets and buckshot. The night vision device built into the visor allows good orientation at night."
   STR_CIVILVEST_ARMOUR_UC: "CIVIL VEST"
   STR_CIVILVEST_ARMOUR_UFOPEDIA: "A simple bulletproof vest that you can buy almost everywhere. A thin layer of Kevlar is able to stop small bullets, although the design is a little uncomfortable to wear."
+  STR_JUMPSUIT_JETPACK: "Jetpack"
+  STR_JUMPSUIT_JETPACK_UC: "JETPACK"
+  STR_JUMPSUIT_JETPACK_UFOPEDIA: "Simple jetpack for commercial use. Mostly used for boring everyday affairs, but we could use it for our purposes.The controls take up one hand slot, so using two-handed weapons will be problematic."
+
+
 
                     ############# WEAPONS #############
-
 
 
 #Bows
@@ -277,11 +284,14 @@ en-US:
   STR_SMUGGLER_LANCE: "Smuggler - Entrepreneur"
   STR_SMUGGLER_LANCE_UFOPEDIA: "Your name is Lance Vance? Poor basterd."
   STR_SMUGGLER_DIAZ: "Smuggler - Boss"
-  STR_SMUGGLER_DIAZ_UFOPEDIA: "They have evryting. Money, hoes, respect - but they don't have smarts and arebn't particulary bright."
+  STR_SMUGGLER_DIAZ_UFOPEDIA: "Those guys are fixers. They buy and sell corpo shit. Sorry, Placeshodlder Text :("
         #GunRunners
   STR_GUNRUNNER_WORKER: "Gunrunner Worker"
   STR_GUNRUNNER_WORKER_UFOPEDIA: "Brute force of gunrunners. These guys are not very bright, but they are very diligent with lathe and other hardware. Usually, they are hired by various bandit factions of the Wasteland to help with production of more solid guns, unlike those that can be found in the ruins. Basically, their job is to control the production line so that some moron would not press someting that shouldn't be pressed."
   STR_GUNRUNNERS_WORKER_INV: "Gunrunner Worker: Analysis"
+
+  STR_AUTOCOP_UPED: "Auto Cop"
+  STR_AUTOCOP_UFOPEDIA: "These metal wardrobes were once the best of the finest officers in Megapol. But after, um...accidents at work, their remnants were cybernized so that their skills wouldn’t be wasted. Of course, such incidents are relatively rare, because. such cybernization projects are expensive. In fact - their armor is an automated power suit, which perfectly protects against bullets and shotguns. But the excess of electronics and servos make them almost useless against Electivity and EMP waves. Serve and protect until the grave - thats their motto."
 
 #UFOPedia_Factions
   STR_SMUGLERS: "Faction: Smugglers"
@@ -348,7 +358,9 @@ en-US:
   STR_WASTELAND_FARM_RAID_ALERT: "Raider farm attack"
   STR_WASTELAND_FARM_RAID_DESCRIPTION: "One of our clients contacted us and asked for help. His small farm is often attacked by various thugs from the Wasteland. It got to the point that they started shooting directly at the farm workers! It's time to teach these fuckers a lesson and earn our paychek. We will be accompanied by several armed farmers, try to save their lives if possible."
   STR_WASTELAND_FARM_RAID_BRIEFING: "One of our clients contacted us and asked for help. His small farm is often attacked by various thugs from the Wasteland. It got to the point that they started shooting directly at the farm workers! It's time to teach these fuckers a lesson and earn our paychek. We will be accompanied by several armed farmers, try to save their lives if possible. To abort the mission return X-Com operatives to the exit area and click on the 'Abort Mission' icon."
-
+  STR_GANG_HI_RISE_HOUSE_TAKEOVER: "Brothel cleaning service"
+  STR_GANG_HR_TAKEOVER_ALERT: "Brothel cleaning service"
+  STR_GANG_HI_RISE_HOUSE_TAKEOVER_BRIEFING: "Megapol contacted us and offerd a job. In this sector of the mega city, a gathering of stoned city goons was formed who did not want to get out of here at good terms. Why not teach these pricks a lesson and get them out of this building feet first? Besides, it wont be a bad PR move for our agency!"
 
 #Tech Tree
   STR_OURORIGINS: "Our origins"
@@ -362,7 +374,7 @@ en-US:
   STR_ELECTRONICS_UFOPED: "Electronics supplies"
   STR_ELECTRONICS_UFOPEDIA: "In general, modern electronics of the 24th century is not something that complicated in order to understand or require to disassemble and research. General information is already available. All we need is to find good and reliable suppliers of such stuff. And now that the job is done, we can order specific types of electronics and equipment for our base."
   STR_BASIC_ARMOUR_DESIGN: "Basic Armour Design"
-  STR_BASIC_ARMOUR_DESIGN_UFOPEDIA: "By studying the available armor models, we figured that they are mostly made of light but durable materials, such as polymers or plaststeel. They are usually well suited for the dispersion of kinetic energy. Having learned how to process these complex materials, we can develop our own conventional armour suits without buying them from those FUCKING greedy speculators who sells used crap."
+  STR_BASIC_ARMOUR_DESIGN_UFOPEDIA: "By studying the available armor models, we figured that they are mostly made of light but durable materials, such as polymers or plaststeel. They are usually well suited for the dispersion of kinetic energy. Having learned how to process these complex materials, we can develop our own conventional armour suits without buying them from those FUCKING greedy speculators who sells used and overpriced crap."
 
 
 #Events

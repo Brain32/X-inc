@@ -48,9 +48,9 @@ crafts:
     soldiers: 1
     vehicles: 0
     pilots: 1
-    costBuy: 10000
-    costRent: 1000
-    costSell: 7000
+    costBuy: 2400
+    costRent: 100
+    costSell: 760
     refuelRate: 9999
     repairRate: 1
     radarRange: 10
