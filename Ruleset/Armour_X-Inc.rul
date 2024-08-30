@@ -400,9 +400,10 @@ armors:
       stamina: -15
       reactions: -10
       melee: -10
-    frontArmor: 35
-    sideArmor: 25
-    rearArmor: 25
+      firing: 5
+    frontArmor: 36
+    sideArmor: 28
+    rearArmor: 30
     underArmor: 20
     meleeDodge:
       reactions: 0.15
@@ -475,8 +476,8 @@ armors:
       reactions: -5
       melee: -10
     frontArmor: 45
-    sideArmor: 30
-    rearArmor: 30
+    sideArmor: 32
+    rearArmor: 35
     underArmor: 25
     meleeDodge:
       reactions: 0.15
@@ -1085,14 +1086,14 @@ armors:
       - 1.0   #Null
       - 0.85  #Bullets
       - 0.6   #Fire
-      - 0.8   #High Explosive
+      - 0.9   #High Explosive
       - 0.9   #Laser
       - 1.0   #Plasma
       - 0.25  #Stun
       - 0.9   #Melee
       - 0.9   #Acid
       - 0.0   #Smoke
-      - 1.2   #EMP
+      - 1.35   #EMP
       - 1.1   #Electro
       - 0.0   #PSI
       - 2.0   #WRAP
@@ -1126,14 +1127,14 @@ armors:
       - 1.0   #Null
       - 0.85  #Bullets
       - 0.5   #Fire
-      - 0.75   #High Explosive
+      - 0.9  #High Explosive
       - 0.9   #Laser
       - 1.0   #Plasma
       - 0.25  #Stun
       - 0.9   #Melee
       - 0.9   #Acid
       - 0.0   #Smoke
-      - 1.2   #EMP
+      - 1.35   #EMP
       - 1.1   #Electro
       - 0.0   #PSI
       - 2.0   #WRAP
@@ -1167,14 +1168,14 @@ armors:
       - 1.0   #Null
       - 0.70  #Bullets
       - 0.2   #Fire
-      - 0.6   #High Explosive
+      - 0.9   #High Explosive
       - 0.75  #Laser
       - 0.8   #Plasma
       - 0.25  #Stun
       - 0.9   #Melee
       - 0.9   #Acid
       - 0.0   #Smoke
-      - 1.25  #EMP
+      - 1.35  #EMP
       - 1.15  #Electro
       - 0.0   #PSI
       - 2.0   #WRAP

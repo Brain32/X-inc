@@ -121,7 +121,7 @@
     prisonType: 0
     costSell: 25000 
     listOrder: ???
-  - type: STR_OLD_TURRET_MINIGUN
+  - type: STR_OLD_MINIGUN_TURRET
     categories: [STR_HUMANS]
     size: 0.4
     recover: true
@@ -1688,7 +1688,7 @@
 
   - type: STR_ADV_MEDIPACK
     requiresBuy:
-      - STR_IDDQD
+      - STR_MILITARY_SUPLIES
     size: 0.3
     costBuy: 76000
     costSell: 50000
@@ -4503,7 +4503,7 @@
 
   - type: STR_CRUSHER_SHOTGUN
     requiresBuy:
-      - STR_MILITARY_SUPLIES
+      - STR_BLACK_MARKET_ACCES
     size: 0.35
     costBuy: 37000
     costSell: 12000
@@ -4539,7 +4539,7 @@
     listOrder: 22350
   - type: STR_CRUSHER_SHOTGUN_CLIP1
     requiresBuy:
-      - STR_MILITARY_SUPLIES
+      - STR_BLACK_MARKET_ACCES
     size: 0.08
     costBuy: 520
     costSell: 120
@@ -4564,7 +4564,7 @@
     listOrder: 18911
   - type: STR_CRUSHER_SHOTGUN_CLIP2
     requiresBuy:
-      - STR_MILITARY_SUPLIES
+      - STR_BLACK_MARKET_ACCES
     size: 0.08
     costBuy: 720
     costSell: 180
@@ -5399,7 +5399,7 @@
     listOrder: 20690
   - type: STR_FN_P90_NEO
     requiresBuy:
-      - STR_FN_P90_NEO
+      - STR_MILITARY_SUPLIES
     size: 0.3
     costBuy: 12000
     costSell: 6000
@@ -5434,7 +5434,7 @@
     listOrder: 20840
   - type: STR_FN_P90_NEO_CLIP
     requiresBuy:
-      - STR_FN_P90_NEO
+      - STR_MILITARY_SUPLIES
     size: 0.05
     costBuy: 900
     costSell: 500
@@ -6590,7 +6590,7 @@
     listOrder: 132010
   - type: STR_SNIPER_RIFLE_LT
     requires:
-      - STR_IDDQD
+      - STR_BLACK_MARKET_ACCES
     size: 0.2
     costBuy: 31000
     costSell: 7250
@@ -6627,7 +6627,7 @@
     listOrder: 13242
   - type: STR_SNIPER_RIFLE_LT_CLIP
     requires:
-      - STR_IDDQD
+      - STR_BLACK_MARKET_ACCES
     size: 0.05
     costBuy: 1200
     costSell: 200

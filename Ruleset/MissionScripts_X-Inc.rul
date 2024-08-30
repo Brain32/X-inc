@@ -189,8 +189,8 @@ missionScripts:
                                                           ### SIN Terrior ###
 
   - type: recurringTerrorEarly
-    firstMonth: 2
-    executionOdds: 100
+    firstMonth: 4
+    executionOdds: 90
     missionWeights:
       0:
         STR_SIN_TERROR: 100

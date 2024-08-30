@@ -48,9 +48,9 @@ crafts:
     soldiers: 1
     vehicles: 0
     pilots: 1
-    costBuy: 2400
-    costRent: 100
-    costSell: 760
+    costBuy: 2500
+    costRent: 50
+    costSell: 670
     refuelRate: 9999
     repairRate: 1
     radarRange: 10
@@ -78,9 +78,9 @@ crafts:
     soldiers: 2
     vehicles: 0
     pilots: 1
-    costBuy: 17000
-    costRent: 2000
-    costSell: 10000
+    costBuy: 26000
+    costRent: 1600
+    costSell: 8000
     refuelRate: 5000
     repairRate: 1
     radarRange: 45
@@ -211,24 +211,24 @@ crafts:
   - type: STR_SAVAGE_CRAFT
     requires:
       - IDDQD
-    sprite: 875 # this sprite is the number for minimized in INTICON.pck
+    sprite: 871 # this sprite is the number for minimized in INTICON.pck
     soldiers: 10
-    pilots: 1
+    pilots: 2
     vehicles: 1
     costBuy: 240000
     costRent: 12000
-    costSell: 90000
-    fuelMax: 250
-    refuelRate: 5
+    costSell: 670000
+    fuelMax: 300
+    refuelRate: 12
     refuelItem: STR_ELERIUM_115
     repairRate: 10
     transferTime: 72
     score: 250
     maxItems: 999
     fuelMax: 1500 #FOR BALLANCEING!!!
-    damageMax: 50
-    speedMax: 630
-    accel: 1
+    damageMax: 260
+    speedMax: 500
+    accel: 4
     radarRange: 200
     battlescapeTerrainData:
       name: CICADA_CRAFT

@@ -190,7 +190,7 @@ ufopaedia:
   - id: STR_MEDIPACK_SMALL
     type_id: 4
     requires:
-      - STR_MEDIPACK_SMALL
+      - STR_BLACK_MARKET_ACCES
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MEDIPACK_SMALL_UFOPEDIA
     listOrder: 48140
@@ -201,11 +201,19 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MEDIPACK_MID_UFOPEDIA
     listOrder: 48150
+  - id: STR_ADV_MEDIPACK
+    type_id: 4
+    requires:
+      - STR_MILITARY_SUPLIES
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ADV_MEDIPACK_UFOPEDIA
+    listOrder: 48150
   - id: STR_STIMM
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_STIMM_UFOPEDIA
     listOrder: 48160
+
   - id: STR_PIZZA_SLICE
     type_id: 4
     requires:
@@ -513,12 +521,10 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_CRUSHER_SHOTGUN_UFOPEDIA
     requires:
-      - STR_AUTOSHOTGUN1
+      - STR_BLACK_MARKET_ACCES
   - id: STR_CRUSHER_SHOTGUN_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires:
-      - STR_AUTOSHOTGUN1
   - id: STR_CRUSHER_SHOTGUN_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -818,23 +824,19 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SNIPER_RIFLE_LT_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_BLACK_MARKET_ACCES
   - id: STR_SNIPER_RIFLE_LT_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
   - id: STR_MSR770
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MSR770_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_MILITARY_SUPLIES
   - id: STR_MSR770_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
   - id: STR_BO_SNIPER_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1191,12 +1193,11 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_FN_P90_NEO_UFOPEDIA
     requires:
-      - STR_FN_P90_NEO
+      - STR_MILITARY_SUPLIES
   - id: STR_FN_P90_NEO_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
+
 
                                   ###MINIGUNS####
 
