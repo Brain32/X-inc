@@ -240,6 +240,94 @@
             - STR_CROWBAR
           -
             - STR_BATTO
+
+                                                ### ButcherHouse ###
+
+  - type: STR_BUTCHER_HOUSE_RAID
+    width: 50
+    length: 50
+    height: 10
+    alert: STR_ALERT_BUTCHER_HOUSE
+    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertDescription: STR_BUTCHER_HOUSE_DESCRIPTION
+    briefing:
+      background: BACKMISSION_WASTE_1.SCR
+      palette: 2
+      music: GMTACTIC
+    markerName: STR_BUTCHER_HOUSE_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 5
+    abortPenalty: 5
+    music:
+      - GMTACTIC
+    script: BUTCHERHOUSE
+    terrains:
+      - INDUSTRIALSLUM
+    data:
+      - alienRank: 2
+        lowQty: 9
+        highQty: 12
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_OLD_RIFLE_M16
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
+            - STR_MOLOTOV
+          -
+            - STR_OLD_SHOTGUN
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+          -
+            - STR_RIFLE_AK
+            - STR_RIFLE_AK_CLIP
+            - STR_RIFLE_AK_CLIP
+            - STR_MOLOTOV
+          -
+            - STR_PIPERIFLE
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+          -
+            - STR_KNIFE_BANDIT
+            - STR_LIBIRATOR_JUNK
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+          -
+            - STR_JUNKY_SAWED_OFF
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+            - STR_PIPEBOMB
+          -
+            - STR_JUNKY_SAWED_OFF
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+          -
+            - STR_OLD_SHOTGUN
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+          -
+            - STR_TEC9
+            - STR_TEC9_CLIP
+            - STR_TEC9_CLIP
+
                                                 ### WASTELADN FACTORY ###
   - type: STR_WASTELAND_FACTORY_RAID
     width: 50
@@ -327,7 +415,6 @@
             - STR_TEC9
             - STR_TEC9_CLIP
             - STR_TEC9_CLIP
-
     reinforcements:
       - type: gunrunner
         turns: [0]

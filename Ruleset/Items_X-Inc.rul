@@ -178,6 +178,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 20000
+    recoveryPoints: 30
     listOrder: ???
   - type: STR_TERRORIST_SIN_2
     categories: [STR_HUMANS]
@@ -186,6 +187,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 43000
+    recoveryPoints: 35
     listOrder: ???
   - type: STR_TERRORIST_SIN_3
     categories: [STR_HUMANS]
@@ -194,6 +196,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 76000 
+    recoveryPoints: 40
     listOrder: ???
 # -------------------------------- Wasteland Bikers
   - type: STR_WST_BIKER_1
@@ -955,7 +958,7 @@
       energy: 20
     battleType: 11
     armor: 30
-    recoveryPoints: 30
+    recoveryPoints: 50
     recover: true
     recoverCorpse: false
 
@@ -977,38 +980,45 @@
       - STR_IDDQD
     size: 3.0
     costBuy: 100000
-    costSell: 65000
+    costSell: 85000
     listOrder: 16890
   - type: STR_DEFLECTOR_SUIT
     categories: [STR_OUTFITS]
     requiresBuy:
       - STR_IDDQD
     size: 2.0
+    weight: 40
+    bigSprite: 385
+    floorSprite: 346
     costBuy: 100000
-    costSell: 65000
-    listOrder: 16890
-  - type: STR_DEFLECTOR_SUIT
-    categories: [STR_OUTFITS]
-    requiresBuy:
-      - STR_IDDQD
-    size: 5.0
-    costBuy: 100000
-    costSell: 65000
+    costSell: 450000
+    invWidth: 2
+    invHeight: 3
     listOrder: 16890
   - type: STR_COMBAT_ARMOUR_MK1
     categories: [STR_OUTFITS]
     requiresBuy:
       - STR_COMBAT_ARMOUR_MK1_STUDY 
-    size: 2.5
-    costBuy: 100000
-    costSell: 65000
+    size: 2.0
+    costBuy: 95000
+    costSell: 45000
+    invWidth: 2
+    invHeight: 2
+    bigSprite: 386
+    floorSprite: 347
+    weight: 16
     listOrder: 16890
   - type: STR_COMBAT_ARMOUR_MK2
     categories: [STR_OUTFITS]
     requiresBuy:
       - STR_IDDQD
-    size: 3.5
+    size: 2.0
     costSell: 65000
+    invWidth: 2
+    invHeight: 2
+    bigSprite: 386
+    floorSprite: 347
+    weight: 12
     listOrder: 16890
   - type: STR_CIV_VEST
     categories: [STR_OUTFITS]
@@ -1062,7 +1072,7 @@
     battleType: 0
     invWidth: 2
     invHeight: 2
-    recoveryPoints: 3
+    recoveryPoints: 5
     attraction: 10
     listOrder: 61170
   - type: STR_ELERIUM_115
@@ -3721,8 +3731,8 @@
     listOrder: 18900
   - type: STR_TASER_CLIP
     size: 0.1
-    costBuy: 200
-    costSell: 100
+    costBuy: 230
+    costSell: 75
     weight: 2
     bigSprite: 185
     floorSprite: 134
@@ -3751,19 +3761,19 @@
     listOrder: 18910
   - type: STR_TASER_SUPER_CLIP
     size: 0.1
-    costBuy: 24000
-    costSell: 4650
+    costBuy: 5000
+    costSell: 560
     weight: 2
-    bigSprite: 186
-    floorSprite: 135
+    bigSprite: 185
+    floorSprite: 134
     hitSound: 54
     hitAnimation: 56
     blastRadius: 0
-    power: 55
+    power: 60
     damageType: 11
     damageAlter:
-      ToHealth: 0.1
-      ToStun: 1.0
+      ToHealth: 0.05
+      ToStun: 1.2
       ToArmor: 0.0
       ToWound: 0.0
       RandomWound: false
@@ -3774,8 +3784,11 @@
       IgnoreDirection: false
       ArmorEffectiveness: 1.0
       ToTile: 0.0
-    clipSize: 2
-    listOrder: 18920
+    clipSize: 5
+    battleType: 2
+    armor: 20
+    attraction: 15
+    listOrder: 18910
 
                            ##PoliceTier##
 
@@ -6297,10 +6310,10 @@
     reloadSound: 180
     compatibleAmmo:
       - STR_HB_GAUSS_RIFLE_CLIP
-    accuracySnap: 80
+    accuracySnap: 85
     accuracyAimed: 115
     accuracyCloseQuarters: 80
-    tuSnap: 35
+    tuSnap: 28
     tuAimed: 70
     costThrow:
       energy: 20
@@ -6310,7 +6323,7 @@
     invWidth: 1
     invHeight: 3
     armor: 70
-    recoveryPoints: 3
+    recoveryPoints: 10
     snapRange: 20
     bulletSpeed: 16
     attraction: 14
@@ -7662,10 +7675,10 @@
     floorSprite: 88
     handSprite: 216
     fuseType: -2
-    power: 70
+    power: 75
     damageAlter:
       IgnoreOverKill: false
-      ToTile: 0.66
+      ToArmor: 0.5
     damageType: 3
     costThrow:
       energy: 36
@@ -7771,7 +7784,7 @@
     blastRadius: 5
   - type: STR_EMP_GRENADE
     size: 0.1
-    costSell: 8000
+    costSell: 16000
     weight: 3
     bigSprite: 281
     floorSprite: 270

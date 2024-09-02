@@ -141,6 +141,18 @@ missionScripts:
     useTable: false
     startDelay: 20
     randomDelay: 43500
+
+                                                          ### Butcher House ###
+
+  - type: recurringTerrorEarly
+    firstMonth: 1
+    executionOdds: 90
+    missionWeights:
+      0:
+        STR_BUTCHER_HOUSE_RAID: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
                                                           ### Smuglers ###
 
   - type: SmuglerClub
@@ -189,7 +201,7 @@ missionScripts:
                                                           ### SIN Terrior ###
 
   - type: recurringTerrorEarly
-    firstMonth: 4
+    firstMonth: 5
     executionOdds: 90
     missionWeights:
       0:

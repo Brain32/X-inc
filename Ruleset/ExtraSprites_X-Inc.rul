@@ -762,6 +762,9 @@ extraSprites:
       382: Resources/Armours/JumpSuit/bigob_JUMPSUIT.png
       383: Resources/Armours/JumpSuit_JetPack/bigob_JUMPSUIT_JETPACK.png
       384: Resources/Armours/JumpSuit_JetPack/bigob_JETPACK_CONTROLS.png
+      385: Resources/Armours/Deflector/bigob_DEFLECTOR_SUIT_Item.png
+      386: Resources/Armours/Combat Armour/Bigob_Item.png
+
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -1104,6 +1107,8 @@ extraSprites:
       343: Resources/Weapons/PoliceWeapons/floorob_Auto9_clip.png
       344: Resources/Armours/JumpSuit/floorob_JUMPSUIT.png
       345: Resources/Armours/JumpSuit_JetPack/floorob_JUMPSUIT_JETPACK.png
+      346: Resources/Armours/Deflector/floorob_Deflector_Item.png
+      347: Resources/Armours/Combat Armour/Floor_Armor.png
 
                                    ### Sprite sheet (Battlescape) ###
 #StartingJumpSuit_Spritesheet

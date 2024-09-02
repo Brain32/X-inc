@@ -1806,10 +1806,40 @@ terrains:
       - ABAMILBASE_EXTRA
     script: ABANDONED_BASE
     mapBlocks:
-      - name: ABANDONED_BASE_01
+                             ### ARMOUR AND MATERIAL BASE #### 
+      - name: ABANDONED_BASE_01 
         width: 50
         length: 30
+        randomizedItems:
+          - position: [38, 12, 1]
+            amount: 10
+            itemList: [STR_ALIEN_ALLOYS]
+          - position: [32, 5, 1]
+            amount: 35
+            itemList: [STR_ALIEN_ALLOYS]
+          - position: [40, 25, 1]
+            amount: 20
+            itemList: [STR_ALIEN_ALLOYS]
+          - position: [32, 5, 1]
+            amount: 30
+            itemList: [STR_AQUA_PLASTICS]
+          - position: [47, 27, 1]
+            amount: 20
+            itemList: [STR_DURATHREAD]
+          - position: [18, 7, 1]
+            amount: 20
+            itemList: [STR_DURATHREAD]
+          - position: [8, 20, 1]
+            amount: 7
+            itemList: [STR_HB_GAUSS_RIFLE_CLIP]
         items:
+            STR_ELERIUM_115:
+              - [6, 19, 3]
+              - [4, 19, 3]
+              - [4, 19, 3]
+              - [2, 19, 3]
+              - [43, 15, 2]
+              - [48, 15, 2]
             STR_SPAWN_OLD_TURRET:
               - [22, 22, 3]
               - [22, 27, 3]
@@ -1832,13 +1862,56 @@ terrains:
             STR_EMP_GRENADE:
               - [2, 25, 3]
               - [7, 11, 2]
+              - [5, 4, 2]
+              - [13, 4, 2]
               - [8, 12, 1]
               - [8, 20, 1]
               - [17, 22, 1]
+              - [18, 17, 1]
+              - [29, 12, 1]
+            STR_ROCKET_LAUNCHER:
+              - [27, 9, 0]
+            STR_HB_GAUSS_RIFLE:
+              - [8, 20, 1]
+            STR_COMBAT_ARMOUR_MK1:
+              - [19, 16, 1]
+            STR_COMBAT_ARMOUR_MK2:
+              - [40, 26, 1]
+              - [37, 4, 1]
+            STR_DEFLECTOR_SUIT:
+              - [40, 20, 1]
+              - [38, 10, 1]
+                             ### GUN RESEARCH FACILETY #### 
       - name: ABANDONED_BASE_02
         width: 50
         length: 30
+        randomizedItems:
+          - position: [26, 10, 0]
+            amount: 6
+            itemList: [STR_HB_GAUSS_RIFLE_CLIP]
+          - position: [12, 16, 2]
+            amount: 4
+            itemList: [STR_HB_GAUSS_RIFLE_CLIP]
+          - position: [34, 6, 0]
+            amount: 6
+            itemList: [STR_HB_GAUSS_RIFLE_CLIP]
+          - position: [13, 10, 2]
+            amount: 8
+            itemList: [STR_HB_GAUSS_RIFLE_CLIP]
+          - position: [43, 2, 2]
+            amount: 6
+            itemList: [STR_EMP_GRENADE]
+          - position: [31, 7, 0]
+            amount: 5
+            itemList: [STR_MINIGUN_1_AMMO]
         items:
+            STR_ELERIUM_115:
+              - [8, 23, 4]
+              - [6, 23, 4]
+              - [4, 23, 4]
+              - [4, 23, 4]
+              - [43, 15, 2]
+              - [48, 15, 2]
             STR_SPAWN_OLD_TURRET:
               - [22, 2, 4]
               - [22, 5, 4]
@@ -1866,10 +1939,54 @@ terrains:
               - [11, 23, 2]
               - [13, 8, 2]
               - [39, 26, 2]
+            STR_ROCKET_LAUNCHER:
+              - [27, 9, 0]
+              - [25, 3, 2]
+            STR_SMALL_ROCKET:
+              - [25, 3, 2]
+              - [25, 3, 2]
+              - [25, 3, 2]
+              - [31, 4, 2]
+              - [31, 4, 2]
+              - [31, 4, 2]
+            STR_LARGE_ROCKET:
+              - [27, 9, 0]
+              - [27, 12, 0]
+              - [27, 12, 0]
+              - [27, 12, 0]
+            STR_MINIGUN_1:
+              - [31, 7, 0]
+            STR_MINIGUN_2:
+              - [38, 2, 2]
+            STR_MINIGUN_2_AMMO:
+              - [38, 2, 2]
+              - [38, 2, 2]
+              - [38, 2, 2]
+            STR_HB_GAUSS_RIFLE_MOD:
+              - [46, 12, 0]
+              - [34, 6, 0]
+              - [26, 10, 0]
+            STR_DEFLECTOR_SUIT:
+              - [24, 1, 0]
+                             ### MEDICAL FACLIETY #### 
       - name: ABANDONED_BASE_03
         width: 50
         length: 30
+        randomizedItems:
+          - position: [5, 11, 1]
+            amount: 15
+            itemList: [STR_ALIEN_ALLOYS]
         items:
+            STR_MONEY_BRIEFCASE:
+              - [4, 18, 2]
+              - [4, 18, 2]
+            STR_MONEY_BAG:
+              - [8, 9, 2]
+            STR_ELERIUM_115:
+              - [11, 25, 4]
+              - [13, 25, 4]
+              - [15, 25, 4]
+              - [15, 25, 4]
             STR_SPAWN_OLD_TURRET:
               - [22, 8, 4]
               - [27, 8, 4]
@@ -1895,13 +2012,26 @@ terrains:
               - [37, 14, 4]
               - [38, 17, 4]
               - [40, 13, 4]
+            STR_AUG_CONTAINTER_2:
+              - [25, 11, 2]
+              - [37, 13, 2]
+              - [34, 9, 2]
+              - [34, 9, 2]
+              - [34, 11, 2]
+            STR_AUG_CONTAINTER_3:
+              - [46, 12, 2]
+              - [46, 9, 2]
+              - [46, 6, 2]
             STR_EMP_GRENADE:
               - [29, 17, 4]
               - [26, 26, 4]
               - [15, 20, 4]
+              - [6, 14, 4]
               - [1, 6, 3]
+              - [5, 6, 2]
               - [4, 5, 2]
               - [34, 21, 2]
               - [36, 4, 2]
               - [21, 12, 1]
-
+            STR_DEFLECTOR_SUIT:
+              - [20, 13, 1]

@@ -1,7 +1,10 @@
 en-US:
-#Armours
+                    ############# Armours #############
   STR_RUNNER_COAT: "Runner Coat"
   STR_RUNNERCOAT_UC: "RUNNER COAT"
+  STR_DEFLECTOR_SUIT: "Deflector"
+  STR_DEFLECTOR_SUIT_UC: "DEFLECTOR"
+  STR_DEFLECTOR_SUIT_UFOPEDIA: "An old model of power armor developed during the First Alien Invasion."
   STR_JUMPSUIT: "Jumpsuit"
   STR_JUMPSUIT_UC: "JUMPSUIT"
   STR_JUMPSUIT_UFOPEDIA: "Light clothing made of a widely used material known as the Durthread. The layer is quite ridiculous to be considered a full-fledged armor, but the suit is quite light and does not constrain the movement of the operative, allowing to lessen the maximum mobility on the battlefield."
@@ -18,7 +21,10 @@ en-US:
   STR_JUMPSUIT_JETPACK_UC: "JETPACK"
   STR_JUMPSUIT_JETPACK_UFOPEDIA: "Simple jetpack for commercial use. Mostly used for boring everyday affairs, but we could use it for our purposes.The controls take up one hand slot, so using two-handed weapons will be problematic."
 
+                    ############# Components #############
 
+  STR_AQUA_PLASTICS: "Aquaplatics"
+  STR_AQUA_PLASTICS_UFOPEDIA: "It is widely used in the production of various tools and armor."
 
                     ############# WEAPONS #############
 
@@ -200,6 +206,14 @@ en-US:
   STR_FLAMETHROWER: "Combat flamethrower"
   STR_FLAMETHROWER_UFOPEDIA: "Heavy flamethrower intended for military use. It has a high rate of fire but limited range."
   STR_FLAMETHROWER_CLIP: "Fuel bottle"
+
+#HeavyGuns
+  STR_MINIGUN_1: "Assault Minigun"
+  STR_MINIGUN_1_AMMO: "Drum Assault Minigun"
+  STR_MINIGUN_1_UFOPEDIA: "A small minigun. Light enough to hold in your hands."
+  STR_MINIGUN_2: "Minigun"
+  STR_MINIGUN_2_AMMO: "Minigun box of ammo"
+  STR_MINIGUN_2_UFOPEDIA: "A large cannon with a rotating barrel block. Heavy and not very accurate, but it generously douses its target with lead. Damages armor."
 
 #Rocket Launchers
   STR_GEP_GUN: "GEP Gun"

@@ -436,6 +436,39 @@ ufos:
               - [17, 7, 0]
               - [14, 2, 1]
               - [13, 2, 1]
+#GangButchery
+  - type: STR_UFO_BUTCHERY_HOUSE
+    size: STR_SMALL
+    sprite: 0
+    damageMax: 500
+    speedMax: 5000
+    accel: 10
+    power: 40
+    range: 20
+    score: 700
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: STR_BUTCHERY_HOUSE
+      mapDataSets:
+        - BLANKS
+        - PORTROADS
+        - INDUSLUM
+        - BUTCHERY
+        - SLUM_FURNITURE
+      mapBlocks:
+        - name: BUTCHERY_HOUSE_1
+          width: 20
+          length: 20
+        - name: BUTCHERY_HOUSE_2
+          width: 20
+          length: 20
+        - name: BUTCHERY_HOUSE_3
+          width: 20
+          length: 20
+        - name: BUTCHERY_HOUSE_4
+          width: 20
+          length: 20
 
 #Old Base
   - type: STR_ABANDAND_MILITARY_BASE_UFO
@@ -485,6 +518,10 @@ ufos:
               - [2, 25, 3]
               - [7, 11, 2]
               - [8, 20, 1]
+              - [18, 17, 1]
+              - [29, 12, 1]
+            STR_DEFLECTOR_SUIT:
+              - [40, 20, 1]
       - name: ABANDONED_BASE_02
         width: 50
         length: 30

@@ -749,7 +749,7 @@ units:
     armor: STR_TERRORIST_SIN_1_INV
     standHeight: 22
     kneelHeight: 14
-    value: 10
+    value: 25
     energyRecovery: 30
     intelligence: 2
     aggression: 3
@@ -779,7 +779,7 @@ units:
     armor: STR_TERRORIST_SIN_2_INV
     standHeight: 22
     kneelHeight: 14
-    value: 10
+    value: 30
     energyRecovery: 30
     intelligence: 2
     aggression: 3
@@ -809,7 +809,7 @@ units:
     armor: STR_TERRORIST_SIN_3_INV
     standHeight: 22
     kneelHeight: 14
-    value: 10
+    value: 35
     energyRecovery: 30
     intelligence: 2
     aggression: 3

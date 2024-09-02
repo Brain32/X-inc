@@ -350,8 +350,6 @@ ufopaedia:
   - id: STR_10MM_TRIPLE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
   - id: STR_COLT_REVOLVER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -438,7 +436,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_OLD_RIFLE_M16_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_OLD_RIFLE_M16
     listOrder: 12999
   - id: STR_RIFLE_M16_CLIP
     type_id: 4
@@ -448,7 +446,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_BANDIT_RIFLE_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_BANDIT_RIFLE
     listOrder: 12999
   - id: STR_BANDIT_RIFLE_CLIP
     type_id: 4
@@ -581,7 +579,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PIPERIFLE_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_PIPERIFLE
   - id: STR_OLD_HUNTING_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -591,8 +589,6 @@ ufopaedia:
   - id: STR_HUNTING_RIFLE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires:
-      - STR_OLD_HUNTING_RIFLE
   - id: STR_SCOPED_HUNTING_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -604,17 +600,13 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_OLD_SHOTGUN_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_OLD_SHOTGUN
   - id: STR_OLD_SHOTGUN_SHELLS
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
   - id: STR_OLD_SHOTGUN_SHELLS_SLUG
     type_id: 4
     section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
   - id: STR_PS94
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
