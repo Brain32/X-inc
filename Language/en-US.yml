@@ -159,7 +159,8 @@ en-US:
   STR_JUNKY_SAWED_OFF_UFOPEDIA: "Shoddy double barreled shotgun, widely used by Wastelanders. The assembly of this decrepit gun uses low quality parts, but it doesn't seem to bother the creator."
   STR_JUNKY_SAWED_OFF: "Cheap Sawed-Off"
   STR_DOUBLE_BARRELED_BUCKSHOT: "8. Buckshot"
-
+  STR_SHOTGUN: "Shotgun"
+  STR_SHOTGUN_UFOPEDIA: "A standard pump-action shotgun manufactured by «Ryder Arms»."
   STR_DEBUGUN: "DebuGun"
   STR_DEBUGUN_CLIP: "DebuGun Clip"
   STR_DEBUGUN_UFOPEDIA: "An excellent choice for defending your diner from mutants, bandits and pizza monsters. {NEWLINE} {NEWLINE} {NEWLINE} If you reading this, you probably a cheater, or a dev xoxo... "
@@ -303,7 +304,8 @@ en-US:
   STR_GUNRUNNER_WORKER: "Gunrunner Worker"
   STR_GUNRUNNER_WORKER_UFOPEDIA: "Brute force of gunrunners. These guys are not very bright, but they are very diligent with lathe and other hardware. Usually, they are hired by various bandit factions of the Wasteland to help with production of more solid guns, unlike those that can be found in the ruins. Basically, their job is to control the production line so that some moron would not press someting that shouldn't be pressed."
   STR_GUNRUNNERS_WORKER_INV: "Gunrunner Worker: Analysis"
-
+  STR_FAC_SIN_UFOPEDIA: "SiN"
+  STR_FAC_SIN_UFOPEDIA_UFOPEDIA: "SiN is a terrorist organization that everyone desoise, but at the same time, more mega-corporations support. In addition to the production of crnige recruitment videos, to brainwash youth of the Wasteland, they also do the looting and murdfering citizens of mega-cities and Earth governments. Their structure is more like a private military formation than a gathering of justice fighters, because the recruitment to higher ranks is quite strict and cruel."
   STR_AUTOCOP_UPED: "Auto Cop"
   STR_AUTOCOP_UFOPEDIA: "These metal wardrobes were once the best of the finest officers in Megapol. But after, um...accidents at work, their remnants were cybernized so that their skills wouldn’t be wasted. Of course, such incidents are relatively rare, because. such cybernization projects are expensive. In fact - their armor is an automated power suit, which perfectly protects against bullets and shotguns. But the excess of electronics and servos make them almost useless against Electivity and EMP waves. Serve and protect until the grave - thats their motto."
 

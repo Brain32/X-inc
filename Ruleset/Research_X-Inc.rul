@@ -258,6 +258,7 @@ research:
     listOrder: 151060
 
 #TechTree
+
   - name: STR_WEAPON_SHOPPING
     cost: 25 
     points: 10
@@ -281,7 +282,32 @@ research:
       - STR_BLACK_MARKET_ACCES
     listOrder: 151060
 
+#TechTree - License
+
+  - name: STR_EXPLOSIVES_LICENSE
+    cost: 125 
+    points: 50
+    dependencies:
+      - STR_MILITARY_SUPLIES
+    listOrder: 151060
+  - name: STR_MINIGUN_LICENSE
+    cost: 100 
+    points: 50
+    dependencies:
+      - STR_MILITARY_SUPLIES
+    listOrder: 151060
+
+
+#TechTree Gun Acquisition
+
+  - name: STR_SHOTGUN_ACQUISITION
+    cost: 25 
+    points: 5
+    dependencies:
+      - STR_WEAPON_SHOPPING
+    listOrder: 151060
 #Armour
+
   - name: STR_CIVIL_VEST_ARMOR_STUDY
     cost: 10 
     points: 5
@@ -445,6 +471,17 @@ research:
     points: 5
     needItem: true
     listOrder: 151070
+        #XIncGuns
+  - name: STR_SMART_SAWNOFF
+    cost: 50
+    points: 5
+    dependencies:
+      - STR_JUNKY_SAWED_OFF
+      - STR_OLD_SHOTGUN
+      - STR_WORKSHOP
+      - STR_ALIEN_ALLOYS
+    listOrder: 151070
+
         #MilitaryTier
   - name: STR_SHOTGUN_STREETCLEANER
     cost: 5
@@ -566,7 +603,7 @@ research:
     needItem: true
     listOrder: 151070
 
-#Guns - Minigun
+#Guns - Flamethrowers
   - name: STR_FLAMETHROWER_DIY
     cost: 10
     points: 5
@@ -581,14 +618,18 @@ research:
 #Guns - Minigun
   - name: STR_MINIGUN
     cost: 15
-    points: 20
+    points: 10
     needItem: true
     destroyItem: true
+    dependencies:
+      - STR_MINIGUN_LICENSE
   - name: STR_MINIGUN_2
     cost: 20
-    points: 30
+    points: 10
     needItem: true
     destroyItem: true
+    dependencies:
+      - STR_MINIGUN_LICENSE
 
 #Mines
   - name: STR_MINE

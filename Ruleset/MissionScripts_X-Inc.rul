@@ -144,15 +144,25 @@ missionScripts:
 
                                                           ### Butcher House ###
 
-  - type: recurringTerrorEarly
-    firstMonth: 1
-    executionOdds: 90
+  - type: ButcheryHouse
+    firstMonth: 0
+    executionOdds: 100 
     missionWeights:
       0:
-        STR_BUTCHER_HOUSE_RAID: 100
+        STR_BUTCHER_RAID_APPREHENSION: 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_EUROPE: 250
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
     useTable: false
     startDelay: 20
     randomDelay: 43500
+
                                                           ### Smuglers ###
 
   - type: SmuglerClub

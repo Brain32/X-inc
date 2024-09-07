@@ -764,7 +764,8 @@ extraSprites:
       384: Resources/Armours/JumpSuit_JetPack/bigob_JETPACK_CONTROLS.png
       385: Resources/Armours/Deflector/bigob_DEFLECTOR_SUIT_Item.png
       386: Resources/Armours/Combat Armour/Bigob_Item.png
-
+      387: Resources/Weapons/CityWeapons/Bigob_Shotgun.png
+      388: Resources/Weapons/BlackOps/bigob_ShotgunShells_Zap.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -885,6 +886,7 @@ extraSprites:
       992: Resources/Weapons/ResistanceGuns/handob_LasSniper.png
       1000: Resources/MedicalShit/Handob_AdvMedKit.png
       1008: Resources/Weapons/PoliceWeapons/HandOb_Auto9.png
+      1016: Resources/Weapons/CityWeapons/handob_Shotgun.png
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
     files:
@@ -1109,6 +1111,8 @@ extraSprites:
       345: Resources/Armours/JumpSuit_JetPack/floorob_JUMPSUIT_JETPACK.png
       346: Resources/Armours/Deflector/floorob_Deflector_Item.png
       347: Resources/Armours/Combat Armour/Floor_Armor.png
+      348: Resources/Weapons/CityWeapons/floorob_Shotgun.png
+
 
                                    ### Sprite sheet (Battlescape) ###
 #StartingJumpSuit_Spritesheet
@@ -1672,6 +1676,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/FAC_WASTE_BIKERS.png
+  - type: FAC_SIN_UFOPEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/UPED_Sin_Logo.png
 
 #TechTree Topics#
   - type: ADVANCED_CIVILIAN_WEAPONS_CPAL.SPK
@@ -1734,6 +1744,19 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/BasicAlloyArmourDesign.png
+
+  - type: ROCKET_LAUNCHER_LICENSE_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ROCKET_LAUNCHER_LICENSE_CPAL.png
+  - type: MINIGUN_LICENSE_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/MINIGUN_LICENSE_CPAL.png
 # Missions
   - type: OLD_MILBASE_CPAL.SPK
     singleImage: true

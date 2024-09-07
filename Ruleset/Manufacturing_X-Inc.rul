@@ -126,6 +126,21 @@
     producedItems:
       STR_DEFENDER_SUIT: 1
 
+                                                           ##Guns##
+
+  - name: STR_SMART_SAWNOFF_PROD
+    category: STR_WEAPONS
+    requires:
+      - STR_SMART_SAWNOFF
+    space: 15
+    time: 1500
+    cost: 60000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_OPTRONIC_PARTS: 2
+    producedItems:
+      STR_SMART_SAWNOFF: 1
+
                                                            ##BOXES EXTRACTION##
 #LootBox                                                                
   - name: STR_WEAPON_LOOTBOX_CHEAP_EX
@@ -184,9 +199,11 @@
       - [1, {STR_FN_P90_NEO: 3, STR_FN_P90_NEO_CLIP: 30}]
       - [1, {STR_COMBAT_ARMOUR_MK1: 2}]
       - [1, {STR_COMBAT_ARMOUR_MK1: 1}]
+      - [1, {STR_GEP_GUN: 1, STR_GEP_GUN_ROCKET_1: 8, STR_GEP_GUN_ROCKET_2: 6}]
       - [1, {STR_COMBAT_ARMOUR_MK2: 1}]
       - [1, {STR_SNIPER_RIFLE_LT: 1, STR_SNIPER_RIFLE_LT_CLIP: 20}]
       - [1, {STR_AUTOSHOTGUN1: 2, STR_AUTOSHOTGUN1_CLIP1: 25}]
+      - [1, {STR_MINIGUN_2: 1, STR_MINIGUN_2_AMMO: 8}]
       - [1, {STR_SHOTGUN_STREETCLEANER: 2, STR_STREETCLEANER_CLIP1: 30}]
       - [1, {STR_M52S_AJAX_RIFLE: 3, STR_M52S_AJAX_RIFLE_CLIP: 20}]
       - [1, {STR_MINIGUN_1: 1, STR_MINIGUN_1_AMMO: 6}]

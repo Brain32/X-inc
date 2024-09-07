@@ -243,90 +243,63 @@
 
                                                 ### ButcherHouse ###
 
-  - type: STR_BUTCHER_HOUSE_RAID
+  - type: STR_BUTCHERY_RAID
     width: 50
     length: 50
     height: 10
-    alert: STR_ALERT_BUTCHER_HOUSE
-    alertBackground: BACKMISSION_WASTE_1.SCR
-    alertDescription: STR_BUTCHER_HOUSE_DESCRIPTION
+    alert: STR_BUTCHERY_RAID_ALERT
+    alertBackground: BACKMISSION_1.SCR
+    alertDescription: STR_BUTCHERY_RAID_DESCRIPTION
     briefing:
-      background: BACKMISSION_WASTE_1.SCR
+      background: BACKMISSION_2.SCR
       palette: 2
       music: GMTACTIC
-    markerName: STR_BUTCHER_HOUSE_APPREHENSION
+    markerName: STR_BUTCHERY_RAID_APPREHENSION
     duration: [60, 120]
     despawnPenalty: 5
     abortPenalty: 5
-    music:
-      - GMTACTIC
-    script: BUTCHERHOUSE
     terrains:
       - INDUSTRIALSLUM
     data:
-      - alienRank: 2
-        lowQty: 9
-        highQty: 12
+      - alienRank: 4
+        lowQty: 7
+        highQty: 9
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_OLD_RIFLE_M16
-            - STR_RIFLE_M16_CLIP
-            - STR_RIFLE_M16_CLIP
-            - STR_RIFLE_M16_CLIP
-            - STR_MOLOTOV
+            - STR_SHIV
           -
-            - STR_OLD_SHOTGUN
-            - STR_OLD_SHOTGUN_SHELLS
-            - STR_OLD_SHOTGUN_SHELLS
-            - STR_OLD_SHOTGUN_SHELLS
+            - STR_PIPE
           -
-            - STR_RIFLE_AK
-            - STR_RIFLE_AK_CLIP
-            - STR_RIFLE_AK_CLIP
-            - STR_MOLOTOV
+            - STR_CROWBAR
           -
-            - STR_PIPERIFLE
-            - STR_10MM_TRIPLE_CLIP
-            - STR_10MM_TRIPLE_CLIP
-            - STR_10MM_TRIPLE_CLIP
-            - STR_10MM_TRIPLE_CLIP
-          -
-            - STR_KNIFE_BANDIT
-            - STR_LIBIRATOR_JUNK
-            - STR_10MM_TRIPLE_CLIP
-            - STR_10MM_TRIPLE_CLIP
-            - STR_10MM_TRIPLE_CLIP
-          -
-            - STR_JUNKY_SAWED_OFF
-            - STR_DOUBLE_BARRELED_BUCKSHOT
-            - STR_DOUBLE_BARRELED_BUCKSHOT
-            - STR_DOUBLE_BARRELED_BUCKSHOT
-            - STR_DOUBLE_BARRELED_BUCKSHOT
-      - alienRank: 4
-        lowQty: 3
-        highQty: 6
-        dQty: 1
-        percentageOutsideUfo: 0
+            - STR_BATTO
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
-            - STR_PIPEBOMB
+            - STR_SHIV
           -
-            - STR_JUNKY_SAWED_OFF
-            - STR_DOUBLE_BARRELED_BUCKSHOT
-            - STR_DOUBLE_BARRELED_BUCKSHOT
-            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_PIPE
           -
-            - STR_OLD_SHOTGUN
-            - STR_OLD_SHOTGUN_SHELLS
-            - STR_OLD_SHOTGUN_SHELLS
+            - STR_CROWBAR
           -
-            - STR_TEC9
-            - STR_TEC9_CLIP
-            - STR_TEC9_CLIP
+            - STR_BATTO
+      - alienRank: 8
+        lowQty: 1
+        highQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SHIV
+          -
+            - STR_PIPE
+          -
+            - STR_CROWBAR
+          -
+            - STR_BATTO
 
                                                 ### WASTELADN FACTORY ###
   - type: STR_WASTELAND_FACTORY_RAID
