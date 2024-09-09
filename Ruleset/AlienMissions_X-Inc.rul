@@ -125,14 +125,14 @@ alienMissions:
 
                               ### Butchery ###
 
-  - type: STR_BUTCHER_RAID_APPREHENSION
+  - type: STR_BUTCHERY_RAID
     objective: 3
     spawnZone: 3
     raceWeights:
       0:
           STR_RACE_TIGERCALW: 100 #<--------- REPLACE IT YOU DUMB FUCK
     waves:
-      - ufo: STR_BUTCHERY_BUILDING
+      - ufo: STR_BUTCHER_RAID
         count: 1
         trajectory: CA_SPAWN
         timer: 9000

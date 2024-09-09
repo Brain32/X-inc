@@ -438,7 +438,7 @@ ufos:
               - [13, 2, 1]
 #GangButchery
 
-  - type: STR_BUTCHERY_BUILDING
+  - type: STR_BUTCHERY_BUILDING 
     size: STR_SMALL
     sprite: 0
     damageMax: 500

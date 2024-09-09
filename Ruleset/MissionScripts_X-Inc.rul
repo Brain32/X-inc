@@ -129,7 +129,7 @@ missionScripts:
     missionWeights:
       0:
         STR_GANG_HI_RISE_HOUSE_TAKEOVER: 100
-    regionWeights: &WastelandRegions
+    regionWeights: 
       0:
         STR_EUROPE: 250
         STR_SOUTH_EAST_ASIA: 175
@@ -149,8 +149,8 @@ missionScripts:
     executionOdds: 100 
     missionWeights:
       0:
-        STR_BUTCHER_RAID_APPREHENSION: 100
-    regionWeights: &WastelandRegions
+        STR_BUTCHERY_RAID: 100
+    regionWeights: 
       0:
         STR_EUROPE: 250
         STR_SOUTH_EAST_ASIA: 175

@@ -256,6 +256,7 @@
       music: GMTACTIC
     markerName: STR_BUTCHERY_RAID_APPREHENSION
     duration: [60, 120]
+    customUfo: STR_BUTCHERY_BUILDING
     despawnPenalty: 5
     abortPenalty: 5
     terrains:
