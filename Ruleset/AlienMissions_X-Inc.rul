@@ -132,7 +132,7 @@ alienMissions:
       0:
           STR_RACE_TIGERCALW: 100 #<--------- REPLACE IT YOU DUMB FUCK
     waves:
-      - ufo: STR_BUTCHER_RAID
+      - ufo: STR_BUTCHERY_RAID
         count: 1
         trajectory: CA_SPAWN
         timer: 9000

@@ -254,6 +254,8 @@
       background: BACKMISSION_2.SCR
       palette: 2
       music: GMTACTIC
+      desc: STR_BUTCHERY_RAID_BRIEFING
+      showTarget: false
     markerName: STR_BUTCHERY_RAID_APPREHENSION
     duration: [60, 120]
     customUfo: STR_BUTCHERY_BUILDING
