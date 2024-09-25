@@ -179,11 +179,17 @@ research:
     needItem: true
     listOrder: 151050
 #Crafts
-  - name: STR_FUTUREHAMVEE_BUY
-    cost: 50 
-    points: 50
+  - name: STR_HOVERVAN_BUY
+    cost: 25 
+    points: 10
     dependencies:
       - STR_WEAPON_SHOPPING
+    listOrder: 151060
+  - name: STR_FUTUREHAMVEE_BUY
+    cost: 65 
+    points: 50
+    dependencies:
+      - STR_BLACK_MARKET_ACCES
     listOrder: 151060
   - name: STR_CICADA_CRAFT_BUY
     cost: 100 
@@ -260,11 +266,11 @@ research:
 #TechTree
 
   - name: STR_WEAPON_SHOPPING
-    cost: 25 
+    cost: 45 
     points: 10
     listOrder: 151060
   - name: STR_ELECTRONICS
-    cost: 30 
+    cost: 35 
     points: 10
     dependencies:
       - STR_WEAPON_SHOPPING
@@ -380,6 +386,14 @@ research:
     dependencies:
       - STR_TAURUS_ARMOUR_STUDY
       - STR_OPTRONIC_PARTS
+
+  - name: STR_SECBOT_MK1_BUY
+    cost: 50
+    points: 50
+    listOrder: 151070
+    dependencies:
+      - STR_BLACK_MARKET_ACCES
+
 #Items - components
   - name: STR_ELERIUM_115
     dependencies:
@@ -421,7 +435,14 @@ research:
     points: 5
     needItem: true
     listOrder: 151070
+
 #Guns - Melee
+
+  - name: STR_CHAINSAW
+    cost: 3
+    points: 5
+    needItem: true
+    listOrder: 151070
 
 #Guns - Bows
 
@@ -458,7 +479,29 @@ research:
     points: 5
     needItem: true
     listOrder: 151070
-
+        #Lazor - SIN
+  - name: STR_LASER_PISTOL_SIN
+    requiresBaseFunc: [BASIC_LAB]
+    cost: 50
+    points: 5
+    needItem: true
+    listOrder: 151070
+#Guns - SMGs
+        #BlackMarketTier
+  - name: STR_MAC12_BUY
+    cost: 20
+    points: 5
+    needItem: true
+    listOrder: 151070
+    dependencies:
+      - STR_BLACK_MARKET_ACCES
+        #LazorTier
+  - name: STR_LASER_SMG_SIN
+    requiresBaseFunc: [BASIC_LAB]
+    cost: 75
+    points: 5
+    needItem: true
+    listOrder: 151070
 #Guns - Shotguns
         #JunkTier
   - name: STR_JUNKY_SAWED_OFF
@@ -493,7 +536,13 @@ research:
     points: 5
     needItem: true
     listOrder: 151070
-
+        #LazorTier
+  - name: STR_LASER_SHOTGUN_SIN
+    requiresBaseFunc: [BASIC_LAB]
+    cost: 75
+    points: 5
+    needItem: true
+    listOrder: 151070
 
 #Guns - SMG
         #JunkTier
@@ -547,7 +596,13 @@ research:
     points: 15
     needItem: true
     destroyItem: true
-
+        #LazorTier
+  - name: STR_LASER_RIFLE_SIN
+    requiresBaseFunc: [BASIC_LAB]
+    cost: 50
+    points: 15
+    needItem: true
+    destroyItem: true
 #Guns - SniperRifles
         #JunkTier
   - name: STR_PIPERIFLE
@@ -630,7 +685,12 @@ research:
     destroyItem: true
     dependencies:
       - STR_MINIGUN_LICENSE
-
+#Guns - HeavyShit
+  - name: STR_GEP_GUN
+    cost: 30
+    points: 5
+    needItem: true
+    destroyItem: true
 #Mines
   - name: STR_MINE
     cost: 5
@@ -688,7 +748,7 @@ research:
     listOrder: 151070
 
   - name: STR_WEAPON_FACIL_RES
-    cost: 45                                            #<---  Fix Me Faggot
+    cost: 45                                            #<---  Fix Me 
     points: 20
     listOrder: 151070
     dependencies:
@@ -788,6 +848,63 @@ research:
     points: 10
     dependencies:
       - STR_AUG_BRAIN_MK2
+#Chest
+  - name: STR_AUG_CHEST_MK1
+    needItem: true
+    cost: 20
+    points: 4
+    dependencies:
+      - STR_AUGMENTATION_BASICS
+  - name: STR_AUG_CHEST_MK2
+    needItem: true
+    cost: 20
+    points: 4
+    dependencies:
+      - STR_AUG_CHEST_MK1
+  - name: STR_AUG_CHEST_MK3
+    needItem: true
+    cost: 20
+    points: 4
+    dependencies:
+      - STR_AUG_CHEST_MK2
+#Lung
+  - name: STR_AUG_LUNG_MK1
+    needItem: true
+    cost: 20
+    points: 4
+    dependencies:
+      - STR_AUGMENTATION_BASICS
+  - name: STR_AUG_LUNG_MK2
+    needItem: true
+    cost: 20
+    points: 4
+    dependencies:
+      - STR_AUG_LUNG_MK1
+  - name: STR_AUG_LUNG_MK3
+    needItem: true
+    cost: 20
+    points: 4
+    dependencies:
+      - STR_AUG_LUNG_MK2
+#Heart
+  - name: STR_AUG_HEART_MK1
+    needItem: true
+    cost: 20
+    points: 4
+    dependencies:
+      - STR_AUGMENTATION_BASICS
+  - name: STR_AUG_HEART_MK2
+    needItem: true
+    cost: 20
+    points: 4
+    dependencies:
+      - STR_AUG_HEART_MK1
+  - name: STR_AUG_HEART_MK3
+    needItem: true
+    cost: 20
+    points: 4
+    dependencies:
+      - STR_AUG_HEART_MK2
 #Military Neiro Iplant
   - name: STR_AUG_MIL_NEIROIMPLANT
     needItem: true

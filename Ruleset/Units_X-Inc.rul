@@ -163,6 +163,38 @@ units:
         - STR_AUTO9_PISTOL_CLIP
         - STR_AUTO9_PISTOL_CLIP
         - STR_AUTO9_PISTOL_CLIP
+
+# Mutants
+
+  - type: STR_MUTANT_WRETCH
+    race: STR_MUTANTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 85
+      health: 60
+      bravery: 50
+      reactions: 60
+      firing: 30
+      throwing: 60
+      strength: 60
+      psiStrength: 15
+      psiSkill: 0
+      melee: 80
+    armor: STR_MUTANT_WRETCH_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    energyRecovery: 30
+    intelligence: 2
+    isLeeroyJenkins: true
+    aggression: 3
+    canSurrender: false
+    recover: true
+    deathSound: 8
+    builtInWeaponSets:
+      - - STR_WRETCH_WEAPON
+
 # Wasteland - Radiers
 
   - type: STR_WASTELAND_GOON
@@ -875,6 +907,7 @@ units:
     kneelHeight: 18
     value: 50
     deathSound: 157
+    moveSound: 14
     energyRecovery: 25
 
 ###OldRobots###

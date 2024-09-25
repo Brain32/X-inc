@@ -461,15 +461,35 @@ ufos:
         - name: BUTCHERY_HOUSE_1
           width: 20
           length: 20
+          items:
+            STR_MEGAPOL_COP:
+              - [2, 2, 0]
+            STR_CHAINSAW:
+              - [2, 15, 0]
         - name: BUTCHERY_HOUSE_2
           width: 20
           length: 20
+          items:
+            STR_MEGAPOL_COP:
+              - [2, 12, 0]
+            STR_CHAINSAW:
+              - [2, 1, 0]
         - name: BUTCHERY_HOUSE_3
           width: 20
           length: 20
+          items:
+            STR_MEGAPOL_COP:
+              - [14, 7, 0]
+            STR_CHAINSAW:
+              - [1, 5, 0]
         - name: BUTCHERY_HOUSE_4
           width: 20
           length: 20
+          items:
+            STR_MEGAPOL_COP:
+              - [8, 7, 0]
+            STR_CHAINSAW:
+              - [5, 3, 0]
 
 #Old Base
   - type: STR_ABANDAND_MILITARY_BASE_UFO

@@ -92,6 +92,9 @@ extraSounds:
       188: Resources/Sounds/Reload/Las_reload_2.wav
       189: Resources/Sounds/Fire/AlienRifle.wav
       190: Resources/Sounds/Fire/SHOTGUN_HM.wav
+      191: Resources/Sounds/Hit/ChainHit.wav
+      192: Resources/Sounds/Hit/ChainSwing.wav
+
   - type: GEO.CAT
     files:
       0: Resources/Sounds/Menu/Click.wav

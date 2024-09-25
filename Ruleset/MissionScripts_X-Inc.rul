@@ -14,7 +14,7 @@ missionScripts:
 
   - type: WastelandGang
     firstMonth: 1
-    executionOdds: 85
+    executionOdds: 90
     missionWeights:
       0:
         STR_WASTELAND_GANG_APPREHENSION: 100
@@ -83,6 +83,27 @@ missionScripts:
     startDelay: 120
     randomDelay: 43500
 
+                                                          ### MUTANTS ###
+
+  - type: MutantHuntSmallApprehension
+    firstMonth: 1
+    executionOdds: 85
+    missionWeights:
+      0:
+        STR_MUTANT_HUNT_SMALL_APPREHENSION : 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_EUROPE: 250
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+
                                                           ### CityGangs ###
 
   - type: GangBurglaryApprehension
@@ -124,8 +145,8 @@ missionScripts:
     randomDelay: 43500
 
   - type: CityGangHRTakeover
-    firstMonth: 0
-    executionOdds: 65 
+    firstMonth: 1
+    executionOdds: 70 
     missionWeights:
       0:
         STR_GANG_HI_RISE_HOUSE_TAKEOVER: 100
@@ -145,8 +166,8 @@ missionScripts:
                                                           ### Butcher House ###
 
   - type: butcheryHouse
-    firstMonth: 0
-    executionOdds: 100
+    firstMonth: 2
+    executionOdds: 85
     missionWeights:
       0:
         STR_BUTCHERY_RAID: 100
@@ -211,8 +232,8 @@ missionScripts:
                                                           ### SIN Terrior ###
 
   - type: recurringTerrorEarly
-    firstMonth: 5
-    executionOdds: 90
+    firstMonth: 6
+    executionOdds: 854
     missionWeights:
       0:
         STR_SIN_TERROR: 100

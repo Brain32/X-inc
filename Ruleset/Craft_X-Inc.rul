@@ -119,7 +119,10 @@ crafts:
     radarChance: 40
     sightRange: 500
     transferTime: 12
-    score: 10
+    score: 50
+    vehicles: 1
+    maxLargeVehicles: 0
+    maxSmallVehicles: 1
     undetectable: true
     battlescapeTerrainData:
       name: FUTUREHAMVEE
@@ -134,46 +137,46 @@ crafts:
             STR_SPAWN_HUMVEE_TURRET_ARMOR:
               - [4, 4, 2]
     listOrder: 7300
-#  - type: STR_CICADA_CRAFT
-#    requires:
-#      - STR_CICADA_CRAFT_BUY
-#    sprite: 875# this sprite is the number for minimized in INTICON.pck
-#    soldiers: 8
-#    pilots: 1
-#    vehicles: 0
-#    costBuy: 240000
-#    costRent: 7000
-#    costSell: 90000
-#    refuelRate: 500
-#    repairRate: 4
-#    transferTime: 72
-#    score: 100
-#    maxItems: 999
-#    fuelMax: 1500 #FOR BALLANCEING!!!
-#    damageMax: 50
-#    speedMax: 630
-#    accel: 1
-#    radarRange: 200
-#    battlescapeTerrainData:
-#      name: CICADA_CRAFT
-#      mapDataSets:
-#        - BLANKS
-#        - CICADA_CRAFT
-#      mapBlocks:
-#        - name: CICADA_CRAFT
-#          width: 10
-#          length: 10
-#    craftInventoryTile: [4, 3, 0]
-#    deployment:
-#      - [5, 6, 0, 2]
-#      - [4, 6, 0, 2]
-#      - [5, 5, 0, 2]
-#      - [4, 5, 0, 2]
-#      - [5, 4, 0, 2]
-#      - [4, 4, 0, 2]
-#      - [5, 3, 0, 2]
-#      - [4, 3, 0, 2]
-#    listOrder: 382
+  - type: STR_CICADA_CRAFT
+    requires:
+      - STR_CICADA_CRAFT_BUY
+    sprite: 868 # this sprite is the number for minimized in INTICON.pck
+    soldiers: 8
+    pilots: 1
+    vehicles: 0
+    costBuy: 240000
+    costRent: 7000
+    costSell: 90000
+    refuelRate: 500
+    repairRate: 4
+    transferTime: 72
+    score: 100
+    maxItems: 999
+    fuelMax: 1500 #FOR BALLANCEING!!!
+    damageMax: 50
+    speedMax: 630
+    accel: 1
+    radarRange: 200
+    battlescapeTerrainData:
+      name: CICADA_CRAFT
+      mapDataSets:
+        - BLANKS
+        - CICADA_CRAFT
+      mapBlocks:
+        - name: CICADA_CRAFT
+          width: 10
+          length: 10
+    craftInventoryTile: [4, 3, 0]
+    deployment:
+      - [5, 6, 0, 2]
+      - [4, 6, 0, 2]
+      - [5, 5, 0, 2]
+      - [4, 5, 0, 2]
+      - [5, 4, 0, 2]
+      - [4, 4, 0, 2]
+      - [5, 3, 0, 2]
+      - [4, 3, 0, 2]
+    listOrder: 382
   - type: STR_HIGHWAY_STAR
     requires:
       - STR_IDDQD
@@ -211,7 +214,7 @@ crafts:
   - type: STR_SAVAGE_CRAFT
     requires:
       - IDDQD
-    sprite: 875 # this sprite is the number for minimized in INTICON.pck
+    sprite: 871 # this sprite is the number for minimized in INTICON.pck
     soldiers: 10
     pilots: 2
     vehicles: 1
@@ -219,11 +222,14 @@ crafts:
     costRent: 12000
     costSell: 670000
     fuelMax: 300
-    refuelRate: 12
+    refuelRate: 5
     refuelItem: STR_ELERIUM_115
     repairRate: 10
     transferTime: 72
     score: 250
+    vehicles: 4
+    maxLargeVehicles: 1
+    maxSmallVehicles: 4
     maxItems: 999
     fuelMax: 1500 #FOR BALLANCEING!!!
     damageMax: 260

@@ -11,7 +11,7 @@
     briefing:
       background: BACKMISSION_WASTE_2.SCR
       palette: 2
-      music: GMTACTIC
+      music: GMDEFEND
     markerName: STR_WASTELAND_FARM_RAID_APPREHENSION
     duration: [60, 120]
     despawnPenalty: 2
@@ -87,7 +87,7 @@
     briefing:
       background: BACKMISSION_WASTE_2.SCR
       palette: 2
-      music: GMTACTIC
+      music: GMDEFEND
     markerName: STR_WASTELAND_GANG_APPREHENSION
     duration: [60, 120]
     despawnPenalty: 5
@@ -144,7 +144,7 @@
     briefing:
       background: BACKMISSION_2.SCR
       palette: 2
-      music: GMTACTIC
+      music: GMDEFEND
     markerName: STR_BURGLARY_APPREHENSION 
     duration: [60, 120]
     despawnPenalty: 5
@@ -181,6 +181,44 @@
             - STR_CROWBAR
           -
             - STR_BATTO
+                                                ### MutantCleaing - Small ###
+
+  - type: STR_MUTANT_HUNT_SMALL
+    width: 50
+    length: 50
+    height: 10
+    alert: STR_MUTANT_HUNT_SMALL_ALERT
+    alertBackground: BACKMISSION_1.SCR
+    alertDescription: STR_MUTANT_HUNT_SMALL_DESCRIPTION
+    briefing:
+      background: BACKMISSION_2.SCR
+      palette: 2
+      music: GMDEFEND
+    markerName: STR_MUTANT_HUNT_SMALL_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 5
+    abortPenalty: 5
+    terrains:
+      - FORESTWASTE
+      - URBAN_WASTE
+      - FORESTSWAMP_WASTE
+    data:
+      - alienRank: 4
+        lowQty: 10
+        highQty: 14
+        percentageOutsideUfo: 70
+        itemSets:
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+
                                                 ### City Gang_1_Mid ###
   - type: STR_GANG_HOOD
     width: 40
@@ -192,7 +230,7 @@
     briefing:
       background: BACKMISSION_2.SCR
       palette: 2
-      music: GMTACTIC
+      music: GMDEFEND
     markerName: STR_HOOD_APPREHENSION
     duration: [60, 120]
     despawnPenalty: 5
@@ -253,7 +291,7 @@
     briefing:
       background: BACKMISSION_2.SCR
       palette: 2
-      music: GMTACTIC
+      music: GMDEFEND
       desc: STR_BUTCHERY_RAID_BRIEFING
       showTarget: false
     markerName: STR_BUTCHERY_RAID_APPREHENSION
@@ -270,39 +308,71 @@
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_SHIV
+            - STR_CHAINSAW
+            - STR_MOLOTOV
           -
-            - STR_PIPE
+            - STR_MAC12
+            - STR_MAC12_AP_CLIP
+            - STR_MAC12_CLIP
+            - STR_MAC12_CLIP
           -
-            - STR_CROWBAR
+            - STR_SHOTGUN
+            - STR_SHOTGUN_SHELLS_BS
+            - STR_SHOTGUN_SHELLS
+            - STR_SHOTGUN_SHELLS
           -
-            - STR_BATTO
+            - STR_RIFLE_AK
+            - STR_RIFLE_AK_CLIP
+            - STR_RIFLE_AK_CLIP
+            - STR_MOLOTOV
       - alienRank: 2
-        lowQty: 1
-        highQty: 2
+        lowQty: 3
+        highQty: 4
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_SHIV
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+            - STR_MOLOTOV
           -
-            - STR_PIPE
+            - STR_MAC12
+            - STR_MAC12_AP_CLIP
+            - STR_MAC12_CLIP
+            - STR_MAC12_CLIPP
           -
-            - STR_CROWBAR
+            - STR_RIFLE_AK
+            - STR_RIFLE_AK_CLIP
+            - STR_RIFLE_AK_CLIP
+            - STR_MOLOTOV
           -
-            - STR_BATTO
+            - STR_CHAINSAW
+            - STR_MOLOTOV
       - alienRank: 8
         lowQty: 1
         highQty: 2
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_SHIV
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+            - STR_MOLOTOV
           -
-            - STR_PIPE
+            - STR_COLT_REVOLVER
+            - STR_COLT_REVOLVER_AMMO
+            - STR_COLT_REVOLVER_AMMO
+            - STR_MOLOTOV
           -
-            - STR_CROWBAR
+            - STR_RIFLE_AK
+            - STR_RIFLE_AK_CLIP
+            - STR_RIFLE_AK_CLIP
+            - STR_MOLOTOV
           -
-            - STR_BATTO
+            - STR_MAC12
+            - STR_MAC12_AP_CLIP
+            - STR_MAC12_CLIP
+            - STR_MAC12_CLIP
 
                                                 ### WASTELADN FACTORY ###
   - type: STR_WASTELAND_FACTORY_RAID
@@ -315,7 +385,7 @@
     briefing:
       background: BACKMISSION_WASTE_1.SCR
       palette: 2
-      music: GMTACTIC
+      music: GMDEFEND
     markerName: STR_WASTELAND_FACTORY_APPREHENSION
     duration: [60, 120]
     despawnPenalty: 5
@@ -437,7 +507,7 @@
     briefing:
       background: BACKMISSION_WASTE_1.SCR
       palette: 2
-      music: GMTACTIC
+      music: GMDEFEND
     markerName: STR_WASTELAND_BIG_FACTORY_APPREHENSION
     duration: [60, 120]
     despawnPenalty: 5
@@ -670,7 +740,7 @@
     briefing:
       background: CLUB1.SCR
       palette: 2
-      music: CLUB
+      music: GMDEFEND
       briefing: STR_NIGHT_CLUB_BRIEFING
       showTarget: false
     points: 1

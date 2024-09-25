@@ -314,6 +314,13 @@ extraSprites:
       0: Resources/FactionPack/Police/INV_Cop.png
 
                                                       #### Enemies inv pics ####
+###Mutants###
+
+  - type: inventory_MUTANT01
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Mutants/inv_Wretch.png
+
 
   - type: inventory_WASTELAND_GOON
     singleImage: true
@@ -766,6 +773,13 @@ extraSprites:
       386: Resources/Armours/Combat Armour/Bigob_Item.png
       387: Resources/Weapons/CityWeapons/Bigob_Shotgun.png
       388: Resources/Weapons/BlackOps/bigob_ShotgunShells_Zap.png
+      389: Resources/Weapons/MeleeWeapons/bigob_Chainsaw.png
+      390: Resources/Weapons/CityWeapons/bigob_MAC12.png
+      391: Resources/Weapons/CityWeapons/bigob_MAC12_Clip.png
+      392: Resources/Weapons/CityWeapons/bigob_MAC12_APClip.png
+      393: Resources/Weapons/NaturalWeapons/Inv_WretchClaw.png
+      394: Resources/FactionPack/Mutants/bigobs_Wretch.png
+      395: Resources/Weapons/NaturalWeapons/bigob_BasicFist.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -887,6 +901,9 @@ extraSprites:
       1000: Resources/MedicalShit/Handob_AdvMedKit.png
       1008: Resources/Weapons/PoliceWeapons/HandOb_Auto9.png
       1016: Resources/Weapons/CityWeapons/handob_Shotgun.png
+      1024: Resources/Weapons/MeleeWeapons/handob_Chainsaw.png
+      1032: Resources/Weapons/CityWeapons/HandOb_MAC12.png
+
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
     files:
@@ -1112,9 +1129,13 @@ extraSprites:
       346: Resources/Armours/Deflector/floorob_Deflector_Item.png
       347: Resources/Armours/Combat Armour/Floor_Armor.png
       348: Resources/Weapons/CityWeapons/floorob_Shotgun.png
-
+      349: Resources/Weapons/MeleeWeapons/floorob_Chainsaw.png
+      350: Resources/FactionPack/Police/Floorob_Cop_ZZZ.png
+      351: Resources/Weapons/CityWeapons/floorob_MAC12.png
+      352: Resources/FactionPack/Mutants/floorob_Wretch.png
 
                                    ### Sprite sheet (Battlescape) ###
+### YourArmour ###
 #StartingJumpSuit_Spritesheet
   - type: XCOM_35.PCK
     width: 512
@@ -1241,6 +1262,17 @@ extraSprites:
     subY: 40
     files:
       0: Resources/FactionPack/Police/COP.png
+
+                                                                  ###Mutants###
+
+  - type: MUTANT01.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Mutants/Wretch.png
+
                                                                   ###OldRobots###
   - type: OLDROBO_1.PCK
     width: 512
@@ -1546,12 +1578,16 @@ extraSprites:
       798: Resources/Vessels/Inticon/Car1_minimised.png
       808: Resources/Vessels/Inticon/HoverScooter_dogfight.png
       809: Resources/Vessels/Inticon/Car1_dogfight.png
+      829: Resources/Vessels/Inticon/HoverVan_minimised.png
+      840: Resources/Vessels/Inticon/HoverVan_dogfight.png
       868: Resources/Vessels/Inticon/Cicada_minimised.png
-      879: Resources/Vessels/Inticon/Cicada_dogfight.png
       870: Resources/Vessels/Inticon/Hamvee_minimised.png
-      881: Resources/Vessels/Inticon/Hamvee_dogfight.png
+      879: Resources/Vessels/Inticon/Cicada_dogfight.png
       875: Resources/Vessels/Inticon/Savage_minimised.png
+      881: Resources/Vessels/Inticon/Hamvee_dogfight.png
       886: Resources/Vessels/Inticon/Savage_dogfight.png
+
+
 
 
          #InBase and facileties
@@ -1580,6 +1616,7 @@ extraSprites:
       335: Resources/BaseSprites/SC_b_4.png
       830: Resources/Vessels/Basebits/HoverScooter_base.png
       831: Resources/Vessels/Basebits/Car1_base.png
+      862: Resources/Vessels/Basebits/HoverVan_base.png
       866: Resources/BaseSprites/GYM.png
       867: Resources/BaseSprites/CORRIDOR.png
       868: Resources/BaseSprites/MEDBAY.png
@@ -1594,8 +1631,9 @@ extraSprites:
       884: Resources/BaseSprites/ALLOYFAC.png
       885: Resources/BaseSprites/LAB_T1.png
       901: Resources/Vessels/Basebits/Cicada_base.png
+      901: Resources/Vessels/Basebits/Cicada_base.png
       903: Resources/Vessels/Basebits/Hamvee_base.png
-      908: Resources/Vessels/Basebits/Savage_base.png
+      904: Resources/Vessels/Basebits/Savage_base.png
          
                            ###UFOPEDIA###
 
@@ -1642,6 +1680,12 @@ extraSprites:
     height: 200
     files:
       0:  Resources/Vessels/Ufopedia/Gunwagon_P1_CPAL.png
+  - type: UFOPEDIA_HOVERVAN.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vessels/Ufopedia/HOVER_VAN.png
 
   #Lore#
   - type: LORE_OURORIGINS_CPAL.SPK

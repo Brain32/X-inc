@@ -18,6 +18,31 @@
   - type: STR_RUNNER_COAT
 
                         ### Human alive ###
+# -------------------------------- Cops
+  - type: STR_MEGAPOL_COP
+    categories: [STR_BAT_CAT_PEOPLE]
+    size: 0.0
+    weight: 45
+    bigSprite: 379
+    floorSprite: 350
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    recover: true
+    liveAlien: true
+    costSell: 53000
+# -------------------------------- Mutants 
+  - type: STR_MUTANT_WRETCH
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 17500
+    listOrder: 151010
 # -------------------------------- Raiders  
   - type: STR_WASTELAND_GOON
     categories: [STR_HUMANS]
@@ -131,10 +156,11 @@
     listOrder: ???
   - type: STR_OLD_SEC_ROBOT
     categories: [STR_HUMANS]
-    size: 1.2
+    size: 3.0
     recover: true
     liveAlien: true
     prisonType: 0
+    costSell: 80000
     costSell: 32000
     listOrder: ???
 # -------------------------------- Smugler
@@ -244,44 +270,29 @@
 
   - type: STR_SECBOT_MK1
     requiresBuy:
-      - STR_IDDQD
+      - STR_SECBOT_MK1_BUY
     size: 6
-    costBuy: 120000
-    costSell: 40000
-    transferTime: 16
+    costBuy: 90000
+    costSell: 45000
+    transferTime: 72
     weight: 1
     bigSprite: 209
     floorSprite: 0
     handSprite: 0
     bulletSprite: 4
     fireSound: 12
-    compatibleAmmo:
-      - STR_STR_SECBOT_MK1_12MM_AMMO
+    clipSize: 50
     accuracySnap: 60
     accuracyAimed: 90
     tuSnap: 33
-    tuAimed: 80
+    tuAimed: 45
     confSnap:
-      shots: 6
+      shots: 5
     battleType: 1
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
     turretType: 0
-  - type: STR_STR_SECBOT_MK1_12MM_AMMO
-    requiresBuy:
-      - STR_IDDQD
-    size: 0.1
-    costBuy: 2000
-    costSell: 100
-    transferTime: 48
-    weight: 10
-    hitSound: 13
-    hitAnimation: 26
-    power: 35
-    damageType: 1
-    clipSize: 40
-    battleType: 2
 
                                      ####### Dead Humans #######
 
@@ -540,6 +551,7 @@
     armor: 90
 
 # -------------------------------- Police
+
   - type: STR_AUTOCOP_CORPSE
     name: STR_CORPSE
     costSell: 100
@@ -573,6 +585,25 @@
     recover: true
     recoverCorpse: false
 # -------------------------------- Dead bad guys
+
+          #Mutants
+  - type: STR_MUTANT_WRETCH_CORPSE
+    name: STR_CORPSE
+    costSell: 2700
+    size: 0.2
+    weight: 40
+    bigSprite: 394
+    floorSprite: 352
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 50
+    recoveryPoints: 10
+    recover: true
+    recoverCorpse: true
+
           #Raiders
 
   - type: STR_WASTELAND_GOON_CORPSE
@@ -1216,7 +1247,107 @@
     costSell: 267300
     transferTime: 48
 
+                                                   #Build-InNatureWeapons#
+#Er Fist
+  - type: STR_UNARMED_BAISIC
+    categories: [STR_BUILT_INS]
+    weight: 0
+    bigSprite: 395
+    meleeHitSound: 152
+    meleeAnimation: 0
+    power: 0
+    damageType: 6
+    damageBonus:
+      strength: 0.2
+      melee: 0.2
+      reactions: 0.1
+    damageAlter:
+      RandomType: 1
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.5
+      ToHealth: 0.15
+      ToTile: 0.4
+    accuracyMelee: 100
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    confMelee:
+      name: STR_PUNCH
+      shortName: STR_PUNCH_SHORT
+    costMelee:
+      time: 8
+      energy: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
+  - type: STR_WRETCH_WEAPON
+    weight: 3
+    bigSprite: 393
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 49
+    clipSize: -1
+    damageType: 7
+    strengthApplied: true
+    accuracyMelee: 85
+    tuMelee: 12
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    flatRate: true
+
                                                    #HWP's#
+  - type: STR_SECBOT_MK1_WEAPON
+    weight: 125
+    bigSprite: 209
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 4
+    fireSound: 12
+    clipSize: 50
+    hitAnimation: 26
+    hitAnimFrames: 3
+    power: 45
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 1.6
+      ToArmorPre: 0.04
+      ToStun: 0.75
+    clipSize: 50
+    accuracyAuto: 35
+    tuAuto: 40
+    battleType: 1
+    fixedWeapon: true
+    recover: false
+    sprayWaypoints: 2
+    invWidth: 2
+    invHeight: 3
+    autoRange: 25
+    autoShots: 6
+    bulletSpeed: 30
+  - type: STR_STR_SECBOT_MK1_12MM_AMMO
+    requiresBuy:
+      - STR_SECBOT_MK1_BUY
+    size: 0.4
+    costBuy: 7000
+    costSell: 5000
+    transferTime: 48
+    weight: 10
+    hitSound: 13
+    hitAnimation: 26
+    power: 40
+    damageType: 1
+    clipSize: 40
+    battleType: 2
 
   - type: STR_TANK_CANNON
     requiresBuy:
@@ -1764,9 +1895,10 @@
     medikitActionName: STR_EAT
     stimulant: 1
     woundRecovery: 1
+    healthRecovery: 3
     stunRecovery: 25
     energyRecovery: 30
-    manaRecovery: 40
+    manaRecovery: 20
     tuUse: 5
     invWidth: 2
     invHeight: 1
@@ -2433,6 +2565,78 @@
     listOrder: 12060
 
                                       #######   Melee heavy  #######
+
+  - type: STR_CHAINSAW
+    requiresBuy:
+      - STR_WEAPON_SHOPPING
+    size: 0.2
+    costBuy: 500
+    costSell: 120
+    weight: 9
+    bigSprite: 389
+    floorSprite: 349
+    handSprite: 1024
+    bulletSprite: 5
+    fireSound: 192
+    hitSound: 191
+    hitAnimation: -1
+    power: 35
+    damageAlter:
+      RandomType: 6
+      ToTile: 0.5
+    damageType: 7
+    accuracyAuto: 110
+    accuracyMultiplier:
+      firing: 0.0
+      flatHundred: 0.65
+      melee: 0.35
+    confAuto:
+      name: STR_CHAINSAW
+      shortName: STR_CHAINSAW_SHORT
+      shots: 5
+    costAuto:
+      time: 30
+      energy: 6
+    costThrow:
+      energy: 18
+      time: 30
+    flatThrow:
+      time: true
+    sprayWaypoints: 3
+    clipSize: -1
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 67
+    invWidth: 2
+    invHeight: 3
+    maxRange: 1
+    powerRangeThreshold: 3
+    powerRangeReduction: 99
+    bulletSpeed: 50
+    kneelBonus: 100
+    experienceTrainingMode: 1
+# Melee segment
+    meleeHitSound: 191
+    meleeAnimation: 0
+    meleeType: 7
+    meleePower: 20
+    meleeBonus:
+      strength: 0.5
+    accuracyMelee: 80
+    meleeMultiplier:
+      melee: 0.5
+      flatHundred: 0.5
+    meleeAlter:
+      RandomType: 6
+      ToTile: 0.5
+    costMelee:
+      time: 14
+      energy: 6
+    flatMelee:
+      time: true
+# Melee segment end
+    attraction: 20
+    listOrder: 17715
 
   - type: STR_HAMMER
     size: 0.25
@@ -3908,6 +4112,8 @@
     listOrder: 12581
                            ##LaserTier
   - type: STR_LASER_PISTOL_SIN
+    requires:
+      - STR_LASER_PISTOL_SIN
     size: 0.08
     costSell: 8800
     weight: 12
@@ -5055,8 +5261,10 @@
     listOrder: 22452
                            ##LaserTier
   - type: STR_LASER_SHOTGUN_SIN
+    requires:
+      - STR_LASER_SHOTGUN_SIN
     size: 0.15
-    costSell: 78250
+    costSell: 35000
     weight: 18
     bigSprite: 373
     floorSprite: 335
@@ -5326,6 +5534,84 @@
     kneelBonus: 110
     attraction: 11
     listOrder: 19675
+
+  - type: STR_MAC12
+    requiresBuy:
+      - STR_MAC12_BUY
+    size: 0.2
+    costBuy: 4600
+    costSell: 1050
+    weight: 12
+    bigSprite: 390
+    floorSprite: 351
+    handSprite: 1032
+    bulletSprite: 17
+    fireSound: 132
+    reloadSound: 133
+    compatibleAmmo:
+      - STR_MAC12_CLIP
+      - STR_MAC12_AP_CLIP
+    accuracyCloseQuarters: 125
+    accuracySnap: 55
+    accuracyAuto: 38
+    tuSnap: 32
+    tuAuto: 44
+    autoRange: 10
+    snapRange: 14
+    confSnap:
+      shots: 3
+    kneelBonus: 110
+    battleType: 1
+    twoHanded: false
+    invWidth: 2
+    invHeight: 2
+    armor: 30
+    autoShots: 8
+    sprayWaypoints: 2
+    attraction: 16
+    listOrder: 20650
+  - type: STR_MAC12_CLIP
+    requiresBuy:
+      - STR_MAC12_BUY
+    size: 0.1
+    costBuy: 250
+    costSell: 100
+    weight: 4
+    bigSprite: 391
+    floorSprite: 83
+    hitSound: 22
+    hitAnimation: 26
+    power: 32
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 1.15
+    clipSize: 30
+    battleType: 2
+    armor: 30
+    attraction: 15
+    listOrder: 20660
+  - type: STR_MAC12_AP_CLIP
+    requiresBuy:
+      - STR_MAC12_BUY
+    size: 0.1
+    costBuy: 600
+    costSell: 350
+    weight: 4
+    bigSprite: 392
+    floorSprite: 83
+    hitSound: 22
+    hitAnimation: 26
+    power: 32
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.7
+      ToHealth: 0.8
+    clipSize: 30
+    battleType: 2
+    armor: 30
+    attraction: 15
+    listOrder: 20660
+
   - type: STR_BLACKOPS_ADV_SMG
     categories: [STR_SMGS]
     requiresBuy:
@@ -5516,6 +5802,8 @@
     listOrder: 20850
                            ##LaserTier
   - type: STR_LASER_SMG_SIN
+    requires:
+      - STR_LASER_SMG_SIN
     size: 0.08
     costSell: 18250
     weight: 8
@@ -5834,7 +6122,7 @@
     floorSprite: 73
     handSprite: 130
     hitAnimation: 26
-    hitSound: 100
+    hitSound: 22
     power: 22
     damageBonus:
       bravery: 0.1
@@ -6403,9 +6691,11 @@
     listOrder: 13151
                            ##LaserTier
   - type: STR_LASER_RIFLE_SIN
+    requires:
+      - STR_LASER_RIFLE_SIN
     size: 0.2
-    costSell: 27500
-    weight: 10
+    costSell: 17500
+    weight: 12
     bigSprite: 371
     floorSprite: 333
     handSprite: 976
@@ -6717,8 +7007,8 @@
     requiresBuy:
       - STR_MILITARY_SUPLIES
     size: 0.16
-    costBuy: 23000
-    costSell: 12000
+    costBuy: 64000
+    costSell: 46000
     weight: 16
     bigSprite: 284
     floorSprite: 272
@@ -6752,8 +7042,8 @@
     size: 0.05
     requiresBuy:
       - STR_MILITARY_SUPLIES
-    costBuy: 1200
-    costSell: 200
+    costBuy: 4400
+    costSell: 2700
     weight: 4
     bigSprite: 285
     floorSprite: 305

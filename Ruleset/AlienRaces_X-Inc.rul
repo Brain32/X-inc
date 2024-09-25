@@ -80,6 +80,19 @@ alienRaces:
       - STR_TERRORIST_SIN_1
       - STR_TERRORIST_SIN_1
       - STR_TERRORIST_SIN_1
+#Mutants
+  - id: STR_MUTANTS
+    members:
+      - STR_MUTANT_WRETCH
+      - STR_MUTANT_WRETCH
+      - STR_MUTANT_WRETCH
+      - STR_MUTANT_WRETCH
+      - STR_MUTANT_WRETCH
+      - STR_MUTANT_WRETCH
+      - STR_MUTANT_WRETCH
+      - STR_MUTANT_WRETCH
+      - STR_MUTANT_WRETCH
+    retaliationAggression: -100
 
 
   - id: STR_RACE_OLD_ROBOTS

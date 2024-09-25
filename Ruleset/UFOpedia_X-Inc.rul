@@ -94,7 +94,28 @@ ufopaedia:
     requires:
       - STR_BASIC_ARMOUR_DESIGN
 
+        #Good guys tanks
+  - id: STR_SECBOT_MK1_UC
+    type_id: 5
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    listOrder: 163121
+    text: STR_SECBOT_MK1_UC_UFOPEDIA
+    requires:
+      - STR_SECBOT_MK1_BUY
+#  - id: STR_SECBOT_MK1_WEAPON
+#    type_id: 4
+#    section: STR_HEAVY_WEAPONS_PLATFORMS
+#    text: STR_SECBOT_MK1_WEAPON_UFOPEDIA
+#    requires:
+#      - STR_SECBOT_MK1_BUY
+#  - id: STR_STR_SECBOT_MK1_12MM_AMMO
+#    type_id: 4
+#    section: STR_NOT_AVAILABLE
+#    requires:
+#      - STR_SECBOT_MK1_BUY
+
         #Bad guys
+
   - id: STR_WASTELAND_GOON_INV
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS
@@ -222,13 +243,18 @@ ufopaedia:
     text: STR_PIZZA_SLICE_UFOPEDIA
     listOrder: 48180
                                         ### Melee ###
+  - id: STR_UNARMED_BAISIC
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UNARMED_BAISIC_UFOPEDIA
+    listOrder: 12000  #<--- Начало-начал ЛистОрдеров для пушек и оружия
   - id: STR_KNUCKLES
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_KNUCKLES_UFOPEDIA
     requires:
       - STR_WEAPON_SHOPPING
-    listOrder: 12001  #<--- Начало-начал ЛистОрдеров для пушек и оружия
+    listOrder: 12001 
   - id: STR_STUN_BATON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -323,6 +349,13 @@ ufopaedia:
     requires:
       - STR_WEAPON_SHOPPING
     listOrder: 12060
+  - id: STR_CHAINSAW
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HAMMER_UFOPEDIA
+    requires:
+      - STR_CHAINSAW
+    listOrder: 12060
   - id: STR_HAMMER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -337,6 +370,14 @@ ufopaedia:
     requires:
       - STR_WEAPON_SHOPPING
     listOrder: 12060
+  - id: STR_CHAINSAW
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_CHAINSAW_UFOPEDIA
+    requires:
+      - STR_CHAINSAW
+    listOrder: 12060
+
    #Guns
 
                                     ###Pistols###
@@ -372,6 +413,18 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
+#LazorTier
+  - id: STR_LASER_PISTOL_SIN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LASER_PISTOL_SIN_UFOPEDIA
+    requires:
+      - STR_LASER_PISTOL_SIN
+  - id: STR_LASER_PISTOL_SIN_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_LASER_PISTOL_SIN
       
 ### GAUSS TIER
 
@@ -534,6 +587,18 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_SHOTGUN_STREETCLEANER
+#LazorTier
+  - id: STR_LASER_SHOTGUN_SIN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LASER_SHOTGUN_SIN_UFOPEDIA
+    requires:
+      - STR_LASER_SHOTGUN_SIN
+  - id: STR_LASER_SHOTGUN_SIN_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_LASER_SHOTGUN_SIN
 
 
                                 ###RIFLES####
@@ -575,8 +640,18 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
-
-
+# LAZOR
+  - id: STR_LASER_RIFLE_SIN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LASER_RIFLE_SIN_UFOPEDIA
+    requires:
+      - STR_LASER_RIFLE_SIN
+  - id: STR_LASER_RIFLE_SIN_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_LASER_RIFLE_SIN
                                   #SniperRifles#
 
 
@@ -916,6 +991,29 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
+
+  - id: STR_MAC12
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MAC12_UFOPEDIA
+    requires:
+      - STR_MAC12_BUY
+  - id: STR_MAC12_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_MAC12_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_MAC12_AP_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+
   - id: STR_RUGER_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1366,7 +1464,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_GEP_GUN_UFOPEDIA
     requires:
-      - STR_IDDQD
+      - STR_GEP_GUN
   - id: STR_GEP_GUN_ROCKET_1
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -1456,97 +1554,141 @@ ufopaedia:
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_EYE_MK1_UFOPEDIA
+    requires:
+      - STR_AUG_EYE_MK1
   - id: STR_AUG_EYE_MK2
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_EYE_MK2_UFOPEDIA
+    requires:
+      - STR_AUG_EYE_MK2
   - id: STR_AUG_EYE_MK3
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_EYE_MK3_UFOPEDIA
+    requires:
+      - STR_AUG_EYE_MK3
 #ARM
   - id: STR_AUG_ARM_MK1
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_ARM_MK1_UFOPEDIA
+    requires:
+      - STR_AUG_ARM_MK1
   - id: STR_AUG_ARM_MK2
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_ARM_MK2_UFOPEDIA
+    requires:
+      - STR_AUG_ARM_MK2
   - id: STR_AUG_ARM_MK3
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_ARM_MK3_UFOPEDIA
+    requires:
+      - STR_AUG_ARM_MK3
 #Leg
   - id: STR_AUG_LEG_MK1
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_LEG_MK1_UFOPEDIA
+    requires:
+      - STR_AUG_LEG_MK1
   - id: STR_AUG_LEG_MK2
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_LEG_MK2_UFOPEDIA
+    requires:
+      - STR_AUG_LEG_MK2
   - id: STR_AUG_LEG_MK3
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_LEG_MK3_UFOPEDIA
+    requires:
+      - STR_AUG_LEG_MK3
 #Brain
   - id: STR_AUG_BRAIN_MK1
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_BRAIN_MK1_UFOPEDIA
+    requires:
+      - STR_AUG_BRAIN_MK1
   - id: STR_AUG_BRAIN_MK2
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_BRAIN_MK2_UFOPEDIA
+    requires:
+      - STR_AUG_BRAIN_MK2
   - id: STR_AUG_BRAIN_MK3
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_BRAIN_MK3_UFOPEDIA
+    requires:
+      - STR_AUG_BRAIN_MK3
 #Chest
   - id: STR_AUG_CHEST_MK1
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_CHEST_MK1_UFOPEDIA
+    requires:
+      - STR_AUG_CHEST_MK1
   - id: STR_AUG_CHEST_MK2
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_CHEST_MK2_UFOPEDIA
+    requires:
+      - STR_AUG_CHEST_MK2
   - id: STR_AUG_CHEST_MK3
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_CHEST_MK3_UFOPEDIA
+    requires:
+      - STR_AUG_CHEST_MK3
 #Lung
   - id: STR_AUG_LUNG_MK1
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_LUNG_MK1_UFOPEDIA
+    requires:
+      - STR_AUG_LUNG_MK1
   - id: STR_AUG_LUNG_MK2
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_LUNG_MK2_UFOPEDIA
+    requires:
+      - STR_AUG_LUNG_MK2
   - id: STR_AUG_LUNG_MK3
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_LUNG_MK3_UFOPEDIA
+    requires:
+      - STR_AUG_LUNG_MK3
 #Heart
   - id: STR_AUG_HEART_MK1
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_HEART_MK1_UFOPEDIA
+    requires:
+      - STR_AUG_HEART_MK1
   - id: STR_AUG_HEART_MK2
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_HEART_MK2_UFOPEDIA
+    requires:
+      - STR_AUG_HEART_MK2
   - id: STR_AUG_HEART_MK3
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_HEART_MK3_UFOPEDIA
+    requires:
+      - STR_AUG_HEART_MK3
 #NeiroImplant
   - id: STR_AUG_MIL_NEIROIMPLANT
     type_id: 4
     section: STR_TRANSFORMATIONS_AND_AUGS_UC
     text: STR_AUG_MIL_NEIROIMPLANT_UFOPEDIA
+    requires:
+      - STR_AUG_MIL_NEIROIMPLANT
 
                                   #OtherCrap
   - id: STR_FLASHLIGHT
@@ -2045,7 +2187,22 @@ ufopaedia:
       height: 120
     text: STR_FUTURECAR1_UFOPEDIA
     listOrder: 7292
-
+  - id: STR_HOVERVAN
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: UFOPEDIA_HOVERVAN.SPK
+    rect_stats:
+      x: 5
+      y: 130
+      width: 160
+      height: 56
+    rect_text:
+      x: 5
+      y: 40
+      width: 160
+      height: 120
+    text: STR_HOVERVAN_UFOPEDIA
+    listOrder: 7292
   - id: STR_SAVAGE_CRAFT
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT

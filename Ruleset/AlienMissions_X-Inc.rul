@@ -82,6 +82,21 @@ alienMissions:
         timer: 9000
         objective: true
 
+
+                              ### Mutants ###
+
+  - type: STR_MUTANT_HUNT_SMALL_APPREHENSION 
+    objective: 3
+    spawnZone: 1
+    raceWeights:
+      0:
+          STR_MUTANTS: 100
+    waves:
+      - ufo: STR_MUTANT_HUNT_SMALL
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
                               ### CityGang Bois ###
 
   - type: STR_BURGLARY_APPREHENSION

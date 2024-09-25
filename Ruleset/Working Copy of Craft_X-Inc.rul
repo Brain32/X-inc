@@ -99,18 +99,53 @@ crafts:
           width: 10
           length: 10
     listOrder: 7300
+  - type: STR_HOVERVAN
+    requires:
+      - STR_HOVERVAN_BUY
+    sprite: 829
+    fuelMax: 9999
+    damageMax: 20
+    speedMax: 135
+    accel: 1
+    soldiers: 6
+    vehicles: 0
+    pilots: 1
+    costBuy: 70000
+    costRent: 3000
+    costSell: 42000
+    refuelRate: 2500
+    repairRate: 1
+    radarRange: 70
+    radarChance: 45
+    sightRange: 500
+    transferTime: 1
+    score: 50
+    vehicles: 1
+    maxLargeVehicles: 0
+    maxSmallVehicles: 1
+    undetectable: true
+    battlescapeTerrainData:
+      name: CYBERVAN_HOVER
+      mapDataSets:
+        - BLANKS
+        - FANVAN_HOVER
+      mapBlocks:
+        - name: CYBERVAN_HOVER
+          width: 10
+          length: 10
+    listOrder: 7300
   - type: STR_FUTUREHAMVEE
     requires:
       - STR_FUTUREHAMVEE_BUY
     sprite: 870
     fuelMax: 9999
     damageMax: 50
-    speedMax: 250
+    speedMax: 275
     accel: 3
     soldiers: 6
     vehicles: 0
     pilots: 1
-    costBuy: 184000
+    costBuy: 158000
     costRent: 8000
     costSell: 80100
     refuelRate: 5000
@@ -119,7 +154,10 @@ crafts:
     radarChance: 40
     sightRange: 500
     transferTime: 12
-    score: 10
+    score: 50
+    vehicles: 1
+    maxLargeVehicles: 0
+    maxSmallVehicles: 1
     undetectable: true
     battlescapeTerrainData:
       name: FUTUREHAMVEE
@@ -224,6 +262,9 @@ crafts:
     repairRate: 10
     transferTime: 72
     score: 250
+    vehicles: 4
+    maxLargeVehicles: 1
+    maxSmallVehicles: 4
     maxItems: 999
     fuelMax: 1500 #FOR BALLANCEING!!!
     damageMax: 260

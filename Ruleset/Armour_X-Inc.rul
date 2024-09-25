@@ -5,6 +5,7 @@ soldiers:
 
 armors:
                 #Default
+
   - type: STR_NONE_UC
     spriteInv: MAN_99
     storeItem: TROLLIUM
@@ -87,6 +88,7 @@ armors:
       - 1.0
       - 0.0
       - 1.0
+    specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -170,6 +172,7 @@ armors:
       - 1.5 #WRAP
       - 0.0 #E115
       - 1.0 #Bio
+    specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -224,6 +227,7 @@ armors:
       - 1.3
       - 0.0
       - 1.0
+    specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -308,6 +312,7 @@ armors:
       - 1.0
       - 1.0
       - 0.5
+    specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -363,6 +368,7 @@ armors:
       - 0.9
       - 0.0
       - 1.0
+    specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -437,6 +443,7 @@ armors:
       - 1.3
       - 0.0
       - 1.0  #Bio
+    specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -511,6 +518,7 @@ armors:
       - 1.3 #WRAP
       - 0.0 #E115
       - 1.0 #Bio
+    specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -581,6 +589,7 @@ armors:
       - 1.5 #WRAP
       - 0.0 #E115
       - 1.0 #Bio
+    specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -652,6 +661,7 @@ armors:
       - 2.0   #WRAP
       - 0.0   #E115
       - 0.0   #Bio
+    specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -736,6 +746,7 @@ armors:
       - 2.0   #WRAP
       - 0.0   #E115
       - 0.0   #Bio
+    specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -809,6 +820,7 @@ armors:
       - 2.0   #WRAP
       - 0.0   #E115
       - 0.0   #Bio
+    specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -894,6 +906,7 @@ armors:
       - 1.5 #WRAP
       - 0.0 #E115
       - 1.0 #Bio
+    specialWeapon: STR_UNARMED_BAISIC
     builtInWeapons:
       - STR_JETPACK_CONTROLS
     units:
@@ -918,10 +931,10 @@ armors:
       stamina: 150
       health: 45
       strength: 75
-    frontArmor: 50
-    sideArmor: 45
-    rearArmor: 45
-    underArmor: 35
+    frontArmor: 65
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 45
     fearImmune: true
     bleedImmune: true
     zombiImmune: true
@@ -940,22 +953,25 @@ armors:
     psiDefence: 
       flatHundred: 10.0
     damageModifier:
-      - 1.0
-      - 1.15
-      - 0.25
-      - 0.95
-      - 1.2
-      - 0.8
-      - 0.25
-      - 1.0
-      - 0.4
-      - 0.0
-      - 1.5
-      - 1.0
-      - 0.0
-      - 1.1
-      - 0.0
-      - 0.0
+      - 1.0 #Null
+      - 0.90 #Bullets
+      - 0.20 #Fire
+      - 1.0 #High Explosive
+      - 0.9 #Laser
+      - 0.9 #Plasma 
+      - 0.4 #Stun
+      - 0.85 #Melee
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 1.2 #EMP
+      - 0.9 #Electro
+      - 0.0 #PSI
+      - 1.5 #WRAP
+      - 0.0 #E115
+      - 0.0 #Bio
+    builtInWeapons:
+      - STR_SECBOT_MK1_WEAPON
+      - STR_SECBOT_MK1_WEAPON
     loftempsSet: [ 3 ]
 
 # Your turrets
@@ -1158,7 +1174,7 @@ armors:
     bleedImmune: true
     zombiImmune: true
     createsMeleeThreat: false
-    movementType: 1
+    movementType: 0
     drawingRoutine: 0
     createsMeleeThreat: false
     overKill: 1.5
@@ -1229,6 +1245,54 @@ armors:
     loftempsSet: [ 3 ]
 
                                              ### Enemy ###
+## Mutants ## 
+
+  - type: STR_MUTANT_WRETCH_INV
+    spriteSheet: MUTANT01.PCK
+    spriteInv: inventory_MUTANT01
+    corpseBattle:
+      - STR_MUTANT_WRETCH_CORPSE
+    visibilityAtDark: 14
+    frontArmor: 25
+    sideArmor: 22
+    rearArmor: 22
+    underArmor: 15
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    camouflageAtDay: 20
+    camouflageAtDark: 15
+    allowsKneeling: False
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.85  #Bullets
+      - 1.1   #Fire
+      - 0.85   #High Explosive
+      - 0.80  #Laser
+      - 1.1   #Plasma
+      - 1.0   #Stun
+      - 0.9   #Melee
+      - 1.3   #Acid
+      - 2.0   #Smoke
+      - 0.2   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 1.1   #Bio
+    loftempsSet: [ 3 ]
+
                                ## Raiders ## 
   - type: STR_WASTELAND_GOON_INV
     spriteSheet: RAIDER_01.PCK
