@@ -219,14 +219,14 @@ armors:
       - 1.0 #Plasma
       - 0.65 #Stun
       - 0.8 #Melee
-      - 0.8
-      - 0.5
-      - 0.1
-      - 0.8
-      - 1.0
-      - 1.3
-      - 0.0
-      - 1.0
+      - 0.8 #Acid
+      - 0.5 #Smoke
+      - 0.1 #EMP
+      - 0.8 #Electro
+      - 1.0 #PSI
+      - 1.3 #WRAP
+      - 0.0 #E115
+      - 1.0 #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
@@ -304,14 +304,14 @@ armors:
       - 0.7 #Plasma
       - 0.3 #Stun
       - 0.7 #Melee
-      - 1.0
-      - 1.0
-      - 0.1
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 0.5
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 0.1 #EMP
+      - 1.0 #Electro
+      - 0.8 #PSI
+      - 1.0 #WRAP
+      - 1.0 #E115
+      - 0.5 #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
@@ -329,8 +329,11 @@ armors:
     weight: -35
     stats:
       tu: -15
-    frontArmor: 90
-    sideArmor: 80
+      reactions: -10
+      throwing: -15
+      melee: -15
+    frontArmor: 80
+    sideArmor: 70
     rearArmor: 70
     underArmor: 60
     meleeDodge:
@@ -350,24 +353,24 @@ armors:
         stunNormalized: -0.1
     overKill: 1.5
     allowsKneeling: true
-    allowsRunning: true
+    allowsRunning: false
     damageModifier:
       - 1.0 #Null
-      - 1.15 #Bullets
+      - 1.0 #Bullets
       - 0.1  #Fire
       - 0.9  #High Explosive
-      - 1.0  #Laser
+      - 0.9  #Laser
       - 0.85 #Plasma
       - 0.8  #Stun
-      - 1.0  #Melee
-      - 1.0
-      - 0.0
-      - 0.5
-      - 0.2
-      - 1.0
-      - 0.9
-      - 0.0
-      - 1.0
+      - 0.85 #Melee
+      - 1.0  #Acid
+      - 0.0  #Smoke
+      - 0.7  #EMP
+      - 0.6  #Electro
+      - 1.0  #PSI
+      - 0.9  #WRAP
+      - 0.0  #E115
+      - 1.0  #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
@@ -435,13 +438,13 @@ armors:
       - 1.0  #Plasma
       - 0.65 #Stun
       - 0.8  #Melee
-      - 0.8
+      - 0.8  #Acid
       - 0.5
       - 0.1
       - 0.8
       - 1.0
-      - 1.3
-      - 0.0
+      - 1.3  #WRAP
+      - 0.0  #E115
       - 1.0  #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
@@ -913,6 +916,50 @@ armors:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
+# Your Tanks
+
+  - type: STR_HOVER_TANK_CANNON_ARMOR
+    spriteSheet: HOVER_TANK_CANNON.PCK
+    spriteInv: INV_HOVER_TANK_CANNON.SPK
+    allowInv: false
+    corpseBattle:
+      - XINC_HOVERTANK_CORPSE_1
+      - XINC_HOVERTANK_CORPSE_2
+      - XINC_HOVERTANK_CORPSE_3
+      - XINC_HOVERTANK_CORPSE_4
+    visibilityAtDark: 18
+    heatVision: 25
+    frontArmor: 100
+    sideArmor: 90
+    rearArmor: 80
+    underArmor: 75
+    movementType: 1
+    zombiImmune: true
+    drawingRoutine: 2
+    size: 2
+    createsMeleeThreat: true
+    overKill: 1.5
+    psiDefence: 
+      flatHundred: 10.0
+    damageModifier:
+      - 1.0  #Null
+      - 0.80 #Bullets
+      - 0.40 #Fire
+      - 1.0  #High Explosive
+      - 0.9  #Laser
+      - 0.9  #Plasma 
+      - 0.0  #Stun
+      - 0.8  #Melee
+      - 0.8  #Acid
+      - 0.0  #Smoke
+      - 1.35 #EMP
+      - 1.1  #Electro
+      - 0.0  #PSI
+      - 1.5  #WRAP
+      - 0.0  #E115
+      - 0.0  #Bio
+    loftempsSet: [ 92, 89, 90, 91 ]
+
 # Your Robots
 
   - type: STR_SECBOT_MK1_UC
@@ -1059,8 +1106,8 @@ armors:
       - 0.75  #Bullets
       - 0.4   #Fire
       - 0.8   #High Explosive
-      - 0.80  #Laser
-      - 0.8   #Plasma
+      - 0.90  #Laser
+      - 0.90  #Plasma
       - 1.0   #Stun
       - 0.8   #Melee
       - 1.1   #Acid

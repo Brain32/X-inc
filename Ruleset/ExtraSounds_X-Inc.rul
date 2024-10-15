@@ -94,6 +94,7 @@ extraSounds:
       190: Resources/Sounds/Fire/SHOTGUN_HM.wav
       191: Resources/Sounds/Hit/ChainHit.wav
       192: Resources/Sounds/Hit/ChainSwing.wav
+      193: Resources/Sounds/Fire/LASER_1.wav
 
   - type: GEO.CAT
     files:

@@ -817,6 +817,58 @@
             - STR_RIFLE_M16_CLIP
             - STR_RIFLE_M16_CLIP
             - STR_GRENADE
+                                                ### Old Military Outpost ###
+
+  - type: STR_SCAVANGER_HUNT_OLD_OUTPOST
+    width: 30
+    length: 30
+    height: 5
+    alert: STR_SCAVANGER_HUNT_OLD_OUTPOST_ALERT
+    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertDescription: STR_SCAVANGER_HUNT_OLD_OUTPOST_DESCRIPTION
+    briefing:
+      background: BACKMISSION_WASTE_1.SCR
+      palette: 2
+      briefing: STR_SCAVANGER_HUNT_OLD_OUTPOST_BRIEFING
+      showTarget: false
+    points: 1
+    markerName: STR_RAIDER_OUTPOST_HUNT_MARK
+    duration: [60, 120]
+    despawnPenalty: 5
+    abortPenalty: 5
+    shade: 11
+    terrains:
+      - ABANDONED_OUTPOST
+    data:
+      - alienRank: 2
+        lowQty: 7
+        highQty: 15
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HB_GAUSS_RIFLE
+            - STR_HB_GAUSS_RIFLE_CLIP
+            - STR_HB_GAUSS_RIFLE_CLIP
+          -
+            - STR_HB_GAUSS_PISTOL
+            - STR_HB_GAUSS_PISTOL_CLIP
+            - STR_HB_GAUSS_PISTOL_CLIP
+
+      - alienRank: 7
+        lowQty: 5
+        highQty: 7
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_HB_GAUSS_RIFLE
+            - STR_HB_GAUSS_RIFLE_CLIP
+            - STR_HB_GAUSS_RIFLE_CLIP
+          -
+            - STR_HB_GAUSS_PISTOL
+            - STR_HB_GAUSS_PISTOL_CLIP
+            - STR_HB_GAUSS_PISTOL_CLIP
 
                                                 ### Old Military Base ###
 

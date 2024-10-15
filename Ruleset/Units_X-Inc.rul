@@ -885,6 +885,30 @@ units:
     livingWeapon: true
     capturable: false
 
+###YourTanks###
+  - type: STR_HOVERTANK_CANNON_XINC
+    race: STR_HOVERTANK_CANNON_XINC
+    stats:
+      tu: 100
+      stamina: 150
+      health: 90
+      bravery: 110
+      reactions: 20
+      firing: 65
+      throwing: 0
+      strength: 120
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: STR_HOVER_TANK_CANNON_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 20
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 50
+
 ###Robots###
 
   - type: STR_SECBOT_MK1

@@ -443,7 +443,13 @@ research:
     points: 5
     needItem: true
     listOrder: 151070
-
+  - name: STR_CYBER_KATANA_BUY
+    dependencies:
+      - STR_BLACK_MARKET_ACCES
+    cost: 25
+    points: 5
+    needItem: true
+    listOrder: 151070
 #Guns - Bows
 
 #Guns - Pistols
@@ -597,6 +603,12 @@ research:
     needItem: true
     destroyItem: true
         #LazorTier
+  - name: STR_LAS_RIFLE_SCAV
+    requiresBaseFunc: [BASIC_LAB]
+    cost: 35
+    points: 15
+    needItem: true
+    destroyItem: true
   - name: STR_LASER_RIFLE_SIN
     requiresBaseFunc: [BASIC_LAB]
     cost: 50

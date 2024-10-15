@@ -117,6 +117,8 @@ en-US:
   STR_FIRE_AX_UFOPEDIA: "An Axe that used to destroy debris during fires."
   STR_CARBONBLADE: "Carbon blade"
   STR_CARBONBLADE_UFOPEDIA: "Nowadays, a blade made of carbon fibers is popular among punks who want to become street samurai."
+  STR_CYBER_SWORD: "Electro Blade"
+  STR_CYBER_SWORD_UFOPEDIA: "Popular model of yje blade powerd by small Elerium battery. Good cutting trough armour."
   STR_HAMMER: "Sledgehammer"
   STR_HAMMER_UFOPEDIA: "If something gets in your way, just take it to the fuck out."
   STR_SUPER_HAMMER: "Super Sledge"
@@ -186,7 +188,12 @@ en-US:
   STR_M52S_AJAX_RIFLE_UFOPEDIA: "Sleek assault rifle M52S-AJAX, popular with military forces and private police forces around the globe. Smooth trigger and red dot sight provide near perfect fire control."
   STR_BANDIT_RIFLE: "Bandit rifle"
   STR_BANDIT_RIFLE_UFOPEDIA: "Well built rifle, ideal for caravan robbery."
-
+  STR_LAS_RIFLE_SCAV: "Scav las rifle"
+  STR_LAS_RIFLE_SCAV_UFOPEDIA: "A primitive laser rifle made by the junkers of the Wastelands. Powered by a small nuclear battery capable of firing 8 shots."
+  STR_LAS_RIFLE_SCAV_ADV: "Scav las rifle modded"  
+  STR_LAS_RIFLE_SCAV_ADV_UFOPEDIA: "An advanced scavenger lasgun with super cool mods."
+  STR_LAS_RIFLE_SCAV_CLIP: "Scav las rifle Cell"
+  STR_LAS_RIFLE_SCAV_SUPER_CLIP: "Scav las rifle Super Cell"
 #Sniper Rifles
   STR_PIPERIFLE: "Piperifle"
   STR_PIPERIFLE_UFOPEDIA: "This wreck shoots armor-piercing rounds, which is surprisingly considering how accurate it is."

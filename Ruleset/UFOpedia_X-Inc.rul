@@ -349,6 +349,13 @@ ufopaedia:
     requires:
       - STR_WEAPON_SHOPPING
     listOrder: 12060
+  - id: STR_CYBER_KATANA
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_CYBER_SWORD_UFOPEDIA
+    requires:
+      - STR_CYBER_KATANA_BUY
+    listOrder: 12060
   - id: STR_CHAINSAW
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -641,6 +648,25 @@ ufopaedia:
     requires:
       - STR_IDDQD
 # LAZOR
+
+  - id: STR_LAS_RIFLE_SCAV
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LAS_RIFLE_SCAV_UFOPEDIA
+    requires:
+      - STR_LAS_RIFLE_SCAV
+  - id: STR_LAS_RIFLE_SCAV_ADV
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LAS_RIFLE_SCAV_ADV_UFOPEDIA
+    requires:
+      - STR_LAS_RIFLE_SCAV
+  - id: STR_LAS_RIFLE_SCAV_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LAS_RIFLE_SCAV_SUPER_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
   - id: STR_LASER_RIFLE_SIN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT

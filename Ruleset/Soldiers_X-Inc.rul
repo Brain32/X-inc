@@ -1,7 +1,7 @@
 soldiers:
   - type: STR_SOLDIER
-    costBuy: 18000
-    costSalary: 4000
+    costBuy: 28000
+    costSalary: 10000
     costSalarySergeant: 3500
     costSalaryCaptain: 9000
     costSalaryColonel: 25000
@@ -37,18 +37,18 @@ soldiers:
       melee: 50
       mana: 100
     statCaps:
-      tu: 120
-      stamina: 150
-      health: 80
+      tu: 85
+      stamina: 95
+      health: 60
       bravery: 100
-      reactions: 120
-      firing: 150
-      throwing: 130
-      strength: 120
+      reactions: 90
+      firing: 90
+      throwing: 80
+      strength: 70
       psiStrength: 100
-      psiSkill: 100
-      melee: 120
-      mana: 200
+      psiSkill: 70
+      melee: 100
+      mana: 160
     dogfightExperience: 
       bravery: 10
       reactions: 75

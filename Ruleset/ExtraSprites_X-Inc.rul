@@ -273,6 +273,13 @@ extraSprites:
     files:
       0: Resources/Armours/Taurus/Taurus_Hel.png
 
+                                                      #### Your Tanks ####
+#HoverTank
+  - type: INV_HOVER_TANK_CANNON.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/AI/HoverTank/Inv_HoverTank_Cannon.png
+
                                                       #### Your Turrets ####
 
 #SecBot_Inv
@@ -780,6 +787,12 @@ extraSprites:
       393: Resources/Weapons/NaturalWeapons/Inv_WretchClaw.png
       394: Resources/FactionPack/Mutants/bigobs_Wretch.png
       395: Resources/Weapons/NaturalWeapons/bigob_BasicFist.png
+      396: Resources/Weapons/MeleeWeapons/bigobj_CyberKatana.png
+      397: Resources/OtherItems/bigob_MotionTracker.png
+      398: Resources/Weapons/NuclearWeapons/bigob_F3Laser.png
+      399: Resources/Weapons/NuclearWeapons/BigObj_F3Laser_Clip.png
+      400: Resources/Weapons/NuclearWeapons/BigObj_SavageLaser_ClipSuper.png
+      401: Resources/Weapons/NuclearWeapons/bigob_F3Laser_adv.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -903,6 +916,9 @@ extraSprites:
       1016: Resources/Weapons/CityWeapons/handob_Shotgun.png
       1024: Resources/Weapons/MeleeWeapons/handob_Chainsaw.png
       1032: Resources/Weapons/CityWeapons/HandOb_MAC12.png
+      1040: Resources/OtherItems/handob_MotionTracker.png
+      1048: Resources/Weapons/NuclearWeapons/handob_F3Laser.png
+      1056: Resources/Weapons/NuclearWeapons/handob_F3Laser_adv.png
 
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
@@ -1133,6 +1149,9 @@ extraSprites:
       350: Resources/FactionPack/Police/Floorob_Cop_ZZZ.png
       351: Resources/Weapons/CityWeapons/floorob_MAC12.png
       352: Resources/FactionPack/Mutants/floorob_Wretch.png
+      353: Resources/Weapons/NuclearWeapons/floorob_F3Laser.png
+      354: Resources/Weapons/NuclearWeapons/floorob_F3Laser_Clip.png
+
 
                                    ### Sprite sheet (Battlescape) ###
 ### YourArmour ###
@@ -1227,7 +1246,15 @@ extraSprites:
     files:
       0: Resources/Armours/JumpSuit_JetPack/JUMPSUIT_JETPACK.png
 
-
+                                                                  ###Your Tanks###
+  - type: HOVER_TANK_CANNON.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1480
+    files:
+      0: Resources/Armours/AI/HoverTank/HOVERTANK.png
+                                                                  ###Your Turrets###
   - type: HAM_TURRET_SHEET.PCK
     width: 256
     height: 840

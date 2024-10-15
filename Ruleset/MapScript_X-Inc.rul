@@ -317,6 +317,10 @@ mapScripts:
     - type: addBlock
       size: [3,3]
 #Old base
+  - type: ABANDONED_OUTPOST
+    commands:
+    - type: addBlock
+      size: [3,3]
 
   - type: ABANDONED_BASE
     commands:

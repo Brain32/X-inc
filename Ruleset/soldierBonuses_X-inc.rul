@@ -40,44 +40,45 @@ soldierBonuses:
   - name: STR_AUG_EYE_MK1
     stats:
       mana: 1
-      firing: 3
+      firing: 10
     recovery:
       mana:
         flatOne: -1
   - name: STR_AUG_EYE_MK2
     stats:
       visibilityAtDark: 2
-      firing: 4
+      firing: 8
   - name: STR_AUG_EYE_MK3
     stats:
       visibilityAtDark: 4
+      reactions: 6
       firing: 5
 #Arm
   - name: STR_AUG_ARM_MK1
     stats:
       mana: 1
-      strength: 3
+      strength: 8
     recovery:
       mana:
         flatOne: -1
   - name: STR_AUG_ARM_MK2
     stats:
-      strength: 4
+      strength: 6
   - name: STR_AUG_ARM_MK3
     stats:
-      strength: 5
-      firing: 2
+      strength: 6
+      firing: 5
 #Leg
   - name: STR_AUG_LEG_MK1
     stats:
-      tu: 3
-      stamina: 2
+      tu: 12
+      stamina: 8
     recovery:
       morale:
         flatOne: -3
   - name: STR_AUG_LEG_MK2
     stats:
-      tu: 6
+      tu: 8
       stamina: 6
   - name: STR_AUG_LEG_MK3
     stats:
@@ -86,57 +87,57 @@ soldierBonuses:
 #Brain
   - name: STR_AUG_BRAIN_MK1
     stats:
-      reactions: 3
-      melee: 2
-      psiStrength: 3
-      psiSkill: 2
+      reactions: 10
+      melee: 8
+      psiStrength: 10
+      psiSkill: 10
     recovery:
       mana:
         flatOne: -1
   - name: STR_AUG_BRAIN_MK2
     stats:
-      reactions: 4
-      melee: 5
-      psiStrength: 5
-      psiSkill: 4
+      reactions: 8
+      melee: 6
+      psiStrength: 8
+      psiSkill: 8
   - name: STR_AUG_BRAIN_MK3
     stats:
       reactions: 8
       melee: 6
-      psiStrength: 4
-      psiSkill: 2
+      psiStrength: 6
+      psiSkill: 6
 #Ñhest
   - name: STR_AUG_CHEST_MK1
     stats:
-      frontArmor: 2
-      sideArmor: 2
+      frontArmor: 6
+      sideArmor: 6
     recovery:
       morale:
         flatOne: -3
   - name: STR_AUG_CHEST_MK2
     stats:
       frontArmor: 4
-      sideArmor: 2
+      sideArmor: 4
       tu: -2
   - name: STR_AUG_CHEST_MK3
     stats:
-      frontArmor: 6
+      frontArmor: 4
       sideArmor: 4
       tu: -2
 #Lung
   - name: STR_AUG_LUNG_MK1
     stats:
-      stamina: 2
+      stamina: 10
     recovery:
       time:
-        flatOne: 1
-      energy:
         flatOne: 2
+      energy:
+        flatOne: 4
       mana:
         flatOne: -1
   - name: STR_AUG_LUNG_MK2
     stats:
-      stamina: 6
+      stamina: 8
     recovery:
       time:
         flatOne: 1
@@ -145,7 +146,7 @@ soldierBonuses:
   - name: STR_AUG_LUNG_MK3
     stats:
       stamina: 6
-      health: 2
+      health: 5
     recovery:
       time:
         flatOne: 2
@@ -156,7 +157,8 @@ soldierBonuses:
 #Heart
   - name: STR_AUG_HEART_MK1
     stats:
-      health: 4
+      stamina: 6
+      health: 12
     recovery:
       health:
         flatOne: 1
@@ -166,13 +168,14 @@ soldierBonuses:
         flatOne: -1
   - name: STR_AUG_HEART_MK2
     stats:
-      health: 6
+      stamina: 4
+      health: 10
     recovery:
       energy:
         flatOne: 2
   - name: STR_AUG_HEART_MK3
     stats:
-      health: 4
+      health: 8
     recovery:
       health:
         flatOne: 1
@@ -181,10 +184,11 @@ soldierBonuses:
 #NieroImplant
   - name: STR_AUG_MIL_NEIROIMPLANT
     stats:
-      firing: 8
-      reactions: 8
-      throwing: 8
-      melee: 6
+      tu: 8
+      firing: 15
+      reactions: 10
+      throwing: 10
+      melee: 15
       mana:
         flatOne: 1
       morale:

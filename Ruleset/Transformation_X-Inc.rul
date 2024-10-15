@@ -37,7 +37,7 @@ soldierTransformation:
       - STR_AUG_EYE_MK1
     requiresBaseFunc:
       - MEDICAL_BAY
-    cost: 12000
+    cost: 37000
     requiredItems:
       STR_AUG_EYE_MK1: 1
     recoveryTime: 6
@@ -63,7 +63,7 @@ soldierTransformation:
       - STR_AUG_EYE_MK2
     requiresBaseFunc:
       - MEDICAL_BAY
-    cost: 34000
+    cost: 62000
     requiredItems:
       STR_AUG_EYE_MK2: 1
     recoveryTime: 6
@@ -89,7 +89,7 @@ soldierTransformation:
       - STR_AUG_EYE_MK3
     requiresBaseFunc:
       - ADV_MEDICAL_BAY
-    cost: 58000
+    cost: 107000
     requiredItems:
       STR_AUG_EYE_MK3: 1
     recoveryTime: 7
@@ -115,7 +115,7 @@ soldierTransformation:
       - STR_AUG_ARM_MK1
     requiresBaseFunc:
       - MEDICAL_BAY
-    cost: 18000
+    cost: 40000
     requiredItems:
       STR_AUG_ARM_MK1: 1
     recoveryTime: 8
@@ -167,7 +167,7 @@ soldierTransformation:
       - STR_AUG_ARM_MK3
     requiresBaseFunc:
       - ADV_MEDICAL_BAY
-    cost: 73000
+    cost: 95000
     requiredItems:
       STR_AUG_ARM_MK3: 1
     recoveryTime: 14
@@ -192,7 +192,7 @@ soldierTransformation:
       - STR_AUG_LEG_MK1
     requiresBaseFunc:
       - MEDICAL_BAY
-    cost: 14000
+    cost: 41000
     requiredItems:
       STR_AUG_LEG_MK1: 1
     recoveryTime: 8
@@ -269,7 +269,7 @@ soldierTransformation:
       - STR_AUG_BRAIN_MK1
     requiresBaseFunc:
       - ADV_MEDICAL_BAY
-    cost: 25000
+    cost: 37000
     requiredItems:
       STR_AUG_BRAIN_MK1: 1
     recoveryTime: 8
@@ -346,7 +346,7 @@ soldierTransformation:
       - STR_AUG_CHEST_MK1
     requiresBaseFunc:
       - MEDICAL_BAY
-    cost: 25000
+    cost: 45600
     requiredItems:
       STR_AUG_CHEST_MK1: 1
     recoveryTime: 8
@@ -423,7 +423,7 @@ soldierTransformation:
       - STR_AUG_LUNG_MK1
     requiresBaseFunc:
       - MEDICAL_BAY
-    cost: 12000
+    cost: 37000
     requiredItems:
       STR_AUG_LUNG_MK1: 1
     recoveryTime: 6
@@ -500,7 +500,7 @@ soldierTransformation:
       - STR_AUG_HEART_MK1
     requiresBaseFunc:
       - MEDICAL_BAY
-    cost: 12000
+    cost: 45000
     requiredItems:
       STR_AUG_HEART_MK1: 1
     recoveryTime: 6
@@ -577,7 +577,7 @@ soldierTransformation:
       - STR_AUG_MIL_NEIROIMPLANT
     requiresBaseFunc:
       - ADV_MEDICAL_BAY
-    cost: 100000
+    cost: 175000
     requiredItems:
       STR_AUG_MIL_NEIROIMPLANT: 1
     recoveryTime: 15

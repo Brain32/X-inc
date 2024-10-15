@@ -35,15 +35,20 @@ alienRaces:
     retaliationAggression: -100
   - id: STR_RACE_SYNDICATE
     members:
-      - STR_SYNDICATE_SOLDIER # 0; placeholder
-      - STR_SYNDICATE_SOLDIER # 1; placeholder
-      - STR_SYNDICATE_SOLDIER # 2; placeholder
-      - STR_SYNDICATE_COMMANDO # 3
-      - STR_SYNDICATE_BREACHER # 4
-      - STR_SYNDICATE_SOLDIER # 5
-      - STR_SYNDICATE_SOLDIER # 6; placeholder
-      - STR_SYNDICATE_SOLDIER # 7; placeholder
-      - STR_SYNDICATE_SOLDIER # 8; placeholder
+      - STR_SYNDICATE_SOLDIER # 0 - Commander
+      - STR_SYNDICATE_SOLDIER # 1 - Leader
+      - STR_SYNDICATE_SOLDIER # 2 - Engineer
+      - STR_SYNDICATE_COMMANDO # 3 - scientist
+      - STR_SYNDICATE_BREACHER # 4 - Navigator
+      - STR_SYNDICATE_SOLDIER # 5 - Soldier
+      - STR_SYNDICATE_SOLDIER # 6 - Terrorist 1
+      - STR_SYNDICATE_SOLDIER # 7 - Terrorist 2
+      - STR_SYNDICATE_SOLDIER # 8 - Special Guest 1
+      - STR_SYNDICATE_SOLDIER # 9 - Heavy Trooper / Underwater Terrorist 1
+      - STR_SYNDICATE_SOLDIER # 10 - Assault Trooper / Underwater Terrorist 2
+      - STR_SYNDICATE_SOLDIER # 11 - Special Guest 2 / Non-Combatant 1
+      - STR_SYNDICATE_SOLDIER # 12 - Non-Combatant 2
+      - STR_SYNDICATE_SOLDIER # 13 - Special Guest 3
     retaliationAggression: -100
   - id: STR_RACE_SMUGLERS
     members:
