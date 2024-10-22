@@ -819,7 +819,7 @@
             - STR_GRENADE
                                                 ### Old Military Outpost ###
 
-  - type: STR_BANDIT_BUNKER_APPREHENSION
+  - type: STR_BANDIT_BUNKER_RAID
     width: 30
     length: 30
     height: 5

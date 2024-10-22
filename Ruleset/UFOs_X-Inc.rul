@@ -423,32 +423,7 @@ ufos:
 
 ######## Wasteland - Rippers ########
 
-  - type: STR_BANDIT_BUNKER_APPREHENSION
-    size: STR_SMALL
-    sprite: 0
-    damageMax: 500
-    speedMax: 5000
-    accel: 10
-    power: 40
-    range: 20
-    score: 700
-    reload: 32
-    breakOffTime: 500
-    battlescapeTerrainData:
-      name: ABANDONED_OUTPOST
-      mapDataSets:
-        - BLANKS
-        - XCOMENTRY
-        - ABAMILBASE_WALLS
-        - ABAMILBASE_INTER
-        - ABAMILBASE_EXTRA
-      mapBlocks:
-        - name: ABANDONED_OUTPOST_01
-          width: 30
-          length: 30
-        - name: ABANDONED_OUTPOST_02
-          width: 30
-          length: 30
+
 
 #GangButchery
 

@@ -819,7 +819,7 @@
       energy: 20
     battleType: 11
     armor: 30
-    recoveryPoints: 10
+    recoveryPoints: 5
     recover: true
     recoverCorpse: false
   - type: STR_WST_RIPPER02_CORPSE
@@ -835,7 +835,7 @@
       energy: 20
     battleType: 11
     armor: 30
-    recoveryPoints: 10
+    recoveryPoints: 5
     recover: true
     recoverCorpse: false
   - type: STR_WST_RIPPER03_CORPSE
@@ -851,7 +851,7 @@
       energy: 20
     battleType: 11
     armor: 30
-    recoveryPoints: 10
+    recoveryPoints: 5
     recover: true
     recoverCorpse: false
   - type: STR_WST_RIPPER_PA_UNIT_CORPSE
@@ -867,7 +867,7 @@
       energy: 20
     battleType: 11
     armor: 60
-    recoveryPoints: 10
+    recoveryPoints: 15
     recover: true
     recoverCorpse: false
   - type: STR_WST_RIPPER_DOGGO_CORPSE
@@ -883,7 +883,7 @@
       energy: 20
     battleType: 11
     armor: 30
-    recoveryPoints: 10
+    recoveryPoints: 3
     recover: true
     recoverCorpse: false
   - type: STR_WST_RIPPER_COMMANDO_CORPSE
@@ -899,7 +899,7 @@
       energy: 20
     battleType: 11
     armor: 30
-    recoveryPoints: 10
+    recoveryPoints: 15
     recover: true
     recoverCorpse: false
 

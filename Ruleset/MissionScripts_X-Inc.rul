@@ -13,8 +13,8 @@ missionScripts:
                                                           ### Radiers ###
 
   - type: WastelandGang
-    firstMonth: 1
-    executionOdds: 90
+    firstMonth: 0
+    executionOdds: 100
     missionWeights:
       0:
         STR_WASTELAND_GANG_APPREHENSION: 100
@@ -90,7 +90,7 @@ missionScripts:
     executionOdds: 1005
     missionWeights:
       0:
-        STR_BANDIT_BUNKER_APPREHENSION: 100
+        STR_BANDIT_BUNKER_RAID : 100
     regionWeights: &WastelandRegions
       0:
         STR_EUROPE: 250
@@ -208,8 +208,8 @@ missionScripts:
                                                           ### Smuglers ###
 
   - type: SmuglerClub
-    firstMonth: 3
-    executionOdds: 60 
+    firstMonth: 0
+    executionOdds: 100 
     missionWeights:
       0:
         STR_SMUGLER_CLUB: 100
