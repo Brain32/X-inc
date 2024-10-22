@@ -328,7 +328,7 @@ extraSprites:
     files:
       0: Resources/FactionPack/Mutants/inv_Wretch.png
 
-
+###WastelandGangProto###
   - type: inventory_WASTELAND_GOON
     singleImage: true
     files:
@@ -341,6 +341,31 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionPack/Wasteland/inventory_HIGHWAY_SCOUT.png
+#WASTELAND - RAIDERS - RIPPERS 
+  - type: inv_WST1_RIPPERS_1
+    singleImage: true
+    files:
+      0: Resources/FactionPack/WST_Raiders_G1/Inv_Raider1.png
+  - type: inv_WST1_RIPPERS_2
+    singleImage: true
+    files:
+      0: Resources/FactionPack/WST_Raiders_G1/Inv_Raider2.png
+  - type: inv_WST1_RIPPERS_3
+    singleImage: true
+    files:
+      0: Resources/FactionPack/WST_Raiders_G1/Inv_Raider3.png
+  - type: inv_WST1_RIPPERS_PA
+    singleImage: true
+    files:
+      0: Resources/FactionPack/WST_Raiders_G1/Inv_Raider_PA.png
+  - type: inv_WST1_RIPPERS_DOGGO
+    singleImage: true
+    files:
+      0: Resources/FactionPack/WST_Raiders_G1/Inv_BLOODHOUND.png
+  - type: inv_WST1_RIPPERS_COMMANDO
+    singleImage: true
+    files:
+      0: Resources/FactionPack/WST_Raiders_G1/Inv_Raider_Commando.png
 
 #WASTELAND - GUNNRUNNER
 
@@ -390,6 +415,14 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionPack/Syndicate/Inv_SynNinja.png
+  - type: inventory_SYNDICATE_PA_UNIT
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Syndicate/inv_SyndicatePA.png
+  - type: inventory_SYNDICATE_MANAGER
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Syndicate/inv_Syndicate_Manager.png
   - type: inventory_SYNDICATE_HEAVY_PA
     singleImage: true
     files:
@@ -793,6 +826,17 @@ extraSprites:
       399: Resources/Weapons/NuclearWeapons/BigObj_F3Laser_Clip.png
       400: Resources/Weapons/NuclearWeapons/BigObj_SavageLaser_ClipSuper.png
       401: Resources/Weapons/NuclearWeapons/bigob_F3Laser_adv.png
+      402: Resources/FactionPack/Syndicate/Bigob_Ninja.png
+      403: Resources/FactionPack/Syndicate/bigob_SyndicateHeavyPa.png
+      404: Resources/FactionPack/Syndicate/bigob_SyndicateManager.png
+      405: Resources/FactionPack/Syndicate/bigob_SyndicatePaOp.png
+      406: Resources/FactionPack/WST_Raiders_G1/bigob_Raider1.png
+      407: Resources/FactionPack/WST_Raiders_G1/bigob_Raider2.png
+      408: Resources/FactionPack/WST_Raiders_G1/bigob_Raider3.png
+      409: Resources/FactionPack/WST_Raiders_G1/bigob_Raider_PA.png
+      410: Resources/FactionPack/WST_Raiders_G1/bigob_CommandoRaider.png
+      411: Resources/FactionPack/WST_Raiders_G1/bigob_BLOODHOUND.png
+
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -1151,6 +1195,14 @@ extraSprites:
       352: Resources/FactionPack/Mutants/floorob_Wretch.png
       353: Resources/Weapons/NuclearWeapons/floorob_F3Laser.png
       354: Resources/Weapons/NuclearWeapons/floorob_F3Laser_Clip.png
+      355: Resources/FactionPack/Syndicate/floorob_Syndicate_Manager.png
+      356: Resources/FactionPack/Syndicate/floorob_PA_UNIT.png
+      357: Resources/FactionPack/WST_Raiders_G1/floorob_Raider1.png
+      358: Resources/FactionPack/WST_Raiders_G1/floorob_Raider2.png
+      359: Resources/FactionPack/WST_Raiders_G1/floorob_Raider3.png
+      360: Resources/FactionPack/WST_Raiders_G1/floorob_Raider_PA.png
+      361: Resources/FactionPack/WST_Raiders_G1/floorob_BLOODHOUND.png
+      362: Resources/FactionPack/WST_Raiders_G1/floorob_CommandoRaider.png
 
 
                                    ### Sprite sheet (Battlescape) ###
@@ -1354,6 +1406,71 @@ extraSprites:
     subY: 40
     files:
       0: Resources/FactionPack/Syndicate/SyndicateCommando.png
+  - type: SYNDICATE_SHADOWOP.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Syndicate/SHADOWOP.png
+  - type: SYNDICATE_MANAGER.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Syndicate/Syndicate_Manager.png
+  - type: SYNDICATE_PA_UNIT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Syndicate/SyndicatePA.png
+  - type: SYNDICATE_HEAVY_PA_UNIT.PCK
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Syndicate/SYN_HEAVY_PA.png
+
+                                                                  ###Wasteland_Raider_Rippers###
+  - type: WST_RIPPER_RAIDER01.PCK #Sheet aslo have the RAIDER02
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/WST_Raiders_G1/Raider1.png
+  - type: WST_RIPPER_RAIDER03.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/WST_Raiders_G1/Raider3.png
+  - type: WST_RIPPER_PA_UNIT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/WST_Raiders_G1/Raider_PA.png
+  - type: WST_RIPPER_DOGGO.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/WST_Raiders_G1/BLOODHOUND.png
+  - type: WST_RIPPER_COMMANDO.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/WST_Raiders_G1/Raider_Commando.png
 
                                                                   ###WastelandRaider###
 

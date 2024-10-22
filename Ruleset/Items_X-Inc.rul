@@ -68,6 +68,55 @@
     prisonType: 0
     costSell: 6000 #balcance me
     listOrder: 151030
+# -------------------------------- Raiders - RIPPERS 
+  - type: STR_WST_RIPPER01
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 15000
+    listOrder: 151010
+  - type: STR_WST_RIPPER02
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 18000
+    listOrder: 151010
+  - type: STR_WST_RIPPER03
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 24000
+    listOrder: 151010
+  - type: STR_WST_RIPPER_PA_UNT
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 80000
+    listOrder: 151010
+  - type: STR_WST_RIPPER_BLOOD_DOG
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 50000
+    listOrder: 151010
+  - type: STR_WST_RIPPER_COMMANDO
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 90000
+    listOrder: 151010
 # -------------------------------- GUNRUNNER
   - type: STR_GUNRUNNER_WORKER
     categories: [STR_HUMANS]
@@ -134,7 +183,31 @@
     recover: true
     liveAlien: true
     prisonType: 0
-    costSell: 18000 #balcance me
+    costSell: 84000 #balcance me
+    listOrder: ???
+  - type: STR_SYNDICATE_SHADOWOP
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 120000 #balcance me
+    listOrder: ???
+  - type: STR_SYNDICATE_MANAGER
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 320000 #balcance me
+    listOrder: ???
+  - type: STR_SYNDICATE_PA_UNIT
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 102000 #balcance me
     listOrder: ???
 
 # -------------------------------- OldRobots
@@ -680,7 +753,7 @@
     recover: true
     recoverCorpse: true
 
-          #Raiders
+# -------------------------------- Dead raiders
 
   - type: STR_WASTELAND_GOON_CORPSE
     name: STR_CORPSE
@@ -721,6 +794,105 @@
     weight: 35
     bigSprite: 193
     floorSprite: 138
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10
+    recover: true
+    recoverCorpse: false
+
+# -------------------------------- Dead raiders Rippers
+
+  - type: STR_WST_RIPPER01_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 406
+    floorSprite: 357
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10
+    recover: true
+    recoverCorpse: false
+  - type: STR_WST_RIPPER02_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 407
+    floorSprite: 358
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10
+    recover: true
+    recoverCorpse: false
+  - type: STR_WST_RIPPER03_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 408
+    floorSprite: 359
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10
+    recover: true
+    recoverCorpse: false
+  - type: STR_WST_RIPPER_PA_UNIT_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 409
+    floorSprite: 360
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 60
+    recoveryPoints: 10
+    recover: true
+    recoverCorpse: false
+  - type: STR_WST_RIPPER_DOGGO_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 411
+    floorSprite: 361
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10
+    recover: true
+    recoverCorpse: false
+  - type: STR_WST_RIPPER_COMMANDO_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 410
+    floorSprite: 362
     invWidth: 2
     invHeight: 3
     costThrow:
@@ -830,6 +1002,54 @@
     battleType: 11
     armor: 30
     recoveryPoints: 10 #balance me
+    recover: true
+    recoverCorpse: false
+  - type: STR_SYNDICATE_SHADOWOP_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 402
+    floorSprite: 223
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 15 #balance me
+    recover: true
+    recoverCorpse: false
+  - type: STR_SYNDICATE_PA_UNIT_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 65
+    bigSprite: 405
+    floorSprite: 356
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 60
+    recoveryPoints: 20 #balance me
+    recover: true
+    recoverCorpse: false
+  - type: STR_SYNDICATE_MANAGER_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 404
+    floorSprite: 355
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 30 #balance me
     recover: true
     recoverCorpse: false
 
@@ -1364,6 +1584,23 @@
     recover: false
     specialUseEmptyHand: true
   - type: STR_WRETCH_WEAPON
+    weight: 3
+    bigSprite: 393
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 49
+    clipSize: -1
+    damageType: 7
+    strengthApplied: true
+    accuracyMelee: 80
+    tuMelee: 14
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    flatRate: true
+  - type: STR_BLOOD_DOG_WEAPON
     weight: 3
     bigSprite: 393
     floorSprite: 31
@@ -2548,6 +2785,7 @@
     attraction: 7
     listOrder: 12050
   - type: STR_STUN_ROD
+    categories: [STR_MELEE]
     requiresBuy:
       - STR_IDDQD
     size: 0.1
@@ -2569,6 +2807,7 @@
     skillApplied: false
     clipSize: -1
   - type: STR_FIRE_AX
+    categories: [STR_MELEE]
     size: 0.15
     costBuy: 250
     costSell: 150
@@ -2605,6 +2844,7 @@
     attraction: 8
     listOrder: 12055
   - type: STR_CARBONBLADE
+    categories: [STR_MELEE]
     size: 0.15
     costBuy: 3500
     costSell: 750
@@ -2643,6 +2883,7 @@
     attraction: 8
     listOrder: 12060
   - type: STR_CYBER_KATANA
+    categories: [STR_MELEE]
     requiresBuy:
       - STR_CYBER_KATANA_BUY
     size: 0.15
@@ -2754,8 +2995,8 @@
 # Melee segment end
     attraction: 20
     listOrder: 17715
-
   - type: STR_HAMMER
+    categories: [STR_MELEE]
     size: 0.25
     costBuy: 250
     costSell: 190
@@ -2812,6 +3053,7 @@
     attraction: 6
     listOrder: 12223
   - type: STR_SUPER_HAMMER
+    categories: [STR_MELEE]
     size: 0.3
     costSell: 1900
     weight: 22

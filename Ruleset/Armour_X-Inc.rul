@@ -1341,6 +1341,7 @@ armors:
     loftempsSet: [ 3 ]
 
                                ## Raiders ## 
+
   - type: STR_WASTELAND_GOON_INV
     spriteSheet: RAIDER_01.PCK
     spriteInv: inventory_WASTELAND_GOON
@@ -1471,6 +1472,282 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
 
+                                                        ###Enemy - Wasteland Rippers###
+
+  - type: STR_WST_RIPPER01_ARMOUR
+    spriteSheet: WST_RIPPER_RAIDER01.PCK
+    spriteInv: inv_WST1_RIPPERS_1
+    corpseBattle:
+      - STR_WST_RIPPER01_CORPSE
+    visibilityAtDark: 10
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 15
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.75  #Bullets
+      - 1.2   #Fire
+      - 0.80   #High Explosive
+      - 0.9  #Laser
+      - 0.9   #Plasma
+      - 1.0   #Stun
+      - 1.0   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 0.2   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 4.0   #WRAP
+      - 0.0   #E115
+      - 1.0   #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WST_RIPPER02_ARMOUR
+    spriteSheet: WST_RIPPER_RAIDER01.PCK
+    spriteInv: inv_WST1_RIPPERS_2
+    corpseBattle:
+      - STR_WST_RIPPER02_CORPSE
+    forcedTorso: 2
+    visibilityAtDark: 10
+    frontArmor: 45
+    sideArmor: 40
+    rearArmor: 35
+    underArmor: 15
+    drawingRoutine: 0
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.75  #Bullets
+      - 1.2   #Fire
+      - 0.80   #High Explosive
+      - 0.9  #Laser
+      - 0.9   #Plasma
+      - 1.0   #Stun
+      - 1.0   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 0.2   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 4.0   #WRAP
+      - 0.0   #E115
+      - 1.0   #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WST_RIPPER03_ARMOUR
+    spriteSheet: WST_RIPPER_RAIDER03.PCK
+    spriteInv: inv_WST1_RIPPERS_3
+    corpseBattle:
+      - STR_WST_RIPPER03_CORPSE
+    visibilityAtDark: 16
+    camouflageAtDay: 10
+    camouflageAtDark: 8
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    drawingRoutine: 0
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.80  #Bullets
+      - 1.2   #Fire
+      - 0.80   #High Explosive
+      - 0.8  #Laser
+      - 0.8   #Plasma
+      - 1.0   #Stun
+      - 1.0   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 0.2   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 4.0   #WRAP
+      - 0.0   #E115
+      - 1.0   #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WST_RIPPER_PA_ARMOUR
+    spriteSheet: WST_RIPPER_PA_UNIT.PCK
+    spriteInv: inv_WST1_RIPPERS_PA
+    corpseBattle:
+      - STR_WST_RIPPER_PA_UNIT_CORPSE
+    visibilityAtDark: 16
+    visibilityAtDay: 12
+    frontArmor: 70
+    sideArmor: 60
+    rearArmor: 55
+    underArmor: 45
+    drawingRoutine: 0
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.75  #Bullets
+      - 0.2   #Fire
+      - 0.9   #High Explosive
+      - 1.2  #Laser
+      - 1.1   #Plasma
+      - 0.8   #Stun
+      - 0.8   #Melee
+      - 1.0   #Acid
+      - 0.2   #Smoke
+      - 0.6   #EMP
+      - 0.8   #Electro
+      - 0.0   #PSI
+      - 4.0   #WRAP
+      - 0.0   #E115
+      - 1.0   #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WST_RIPPER_BLOOD_DOG_ARMOUR
+    spriteSheet: WST_RIPPER_DOGGO.PCK
+    spriteInv: inv_WST1_RIPPERS_DOGGO
+    corpseBattle:
+      - STR_WST_RIPPER_DOGGO_CORPSE
+    visibilityAtDark: 16
+    antiCamouflageAtDark: 4
+    antiCamouflageAtDay: 4
+    heatVision: 50
+    zombiImmune: true
+    bleedImmune: false
+    allowInv: false
+    frontArmor: 24
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 10
+    drawingRoutine: 4
+    personalLight: 5
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    damageModifier:
+      - 0.5   #Null
+      - 1.0   #Bullets
+      - 0.5   #Fire
+      - 1.0   #High Explosive
+      - 1.0   #Laser
+      - 0.9   #Plasma
+      - 0.7   #Stun
+      - 0.9   #Melee
+      - 0.8   #Acid
+      - 1.0   #Smoke
+      - 0.2   #EMP
+      - 1.0   #Electro
+      - 1.0   #PSI
+      - 0.1   #WRAP
+      - 0.8   #E115
+      - 1.0   #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WST_RIPPER_COMMANDO_ARMOUR
+    spriteSheet: WST_RIPPER_COMMANDO.PCK
+    spriteInv: inv_WST1_RIPPERS_COMMANDO
+    corpseBattle:
+      - STR_WST_RIPPER_COMMANDO_CORPSE
+    visibilityAtDark: 12
+    visibilityAtDay: 10
+    frontArmor: 55
+    sideArmor: 50
+    rearArmor: 45
+    underArmor: 25
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.70  #Bullets
+      - 0.2   #Fire
+      - 0.9   #High Explosive
+      - 1.2  #Laser
+      - 1.1   #Plasma
+      - 0.8   #Stun
+      - 0.8   #Melee
+      - 1.0   #Acid
+      - 0.2   #Smoke
+      - 0.6   #EMP
+      - 0.8   #Electro
+      - 0.0   #PSI
+      - 4.0   #WRAP
+      - 0.0   #E115
+      - 1.0   #Bio
+    loftempsSet: [ 3 ]
                                                         ### Enemy - Wasteland Gunnrunners ###
 
   - type: STR_GUNRUNNERS_WORKER_INV
@@ -1561,6 +1838,7 @@ armors:
       - 0.0 #E511
       - 1.0 #Bio
     loftempsSet: [ 3 ]
+
                                                         ###SyndicateGuys###
 
   - type: STR_SYNDICATE_SOLDIER_ARMOR
@@ -1568,7 +1846,7 @@ armors:
     spriteInv: inventory_SYNDICATE_SOLDIER
     corpseBattle:
       - STR_SYNDICATE_SOLDIER_CORPSE
-    visibilityAtDark: 7
+    visibilityAtDark: 12
     frontArmor: 40
     sideArmor: 35
     rearArmor: 30
@@ -1611,7 +1889,7 @@ armors:
     spriteInv: inventory_SYNDICATE_BREACHER
     corpseBattle:
       - STR_SYNDICATE_BREACHER_CORPSE
-    visibilityAtDark: 7
+    visibilityAtDark: 12
     frontArmor: 50
     sideArmor: 45
     rearArmor: 40
@@ -1654,7 +1932,7 @@ armors:
     spriteInv: inventory_SYNDICATE_COMMANDO
     corpseBattle:
       - STR_SYNDICATE_COMMANDO_CORPSE
-    visibilityAtDark: 7
+    visibilityAtDark: 12
     frontArmor: 44
     sideArmor: 36
     rearArmor: 44
@@ -1691,6 +1969,142 @@ armors:
       - 4.0 #WRAP
       - 0.0 #E511
       - 1.0 #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_SYNDICATE_SHADOWOP_ARMOR
+    spriteSheet: SYNDICATE_SHADOWOP.PCK
+    spriteInv: inventory_SYNDICATE_SHADOWOP
+    corpseBattle:
+      - STR_SYNDICATE_SHADOWOP_CORPSE
+    visibilityAtDark: 14
+    visibilityAtDay: 10
+    camouflageAtDay: 5
+    camouflageAtDark: 4
+    psiVision: 4
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 45
+    underArmor: 40
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: # balance me
+      - 1.0 #Null
+      - 0.8 #Bullets
+      - 1.4 #Fire
+      - 0.8 #High Explosive
+      - 0.8 #Laser
+      - 0.8 #Plasma
+      - 0.6 #Stun
+      - 0.6 #Melee
+      - 0.8 #Acid
+      - 0.2 #Smoke
+      - 0.6 #EMP
+      - 0.6 #Electro
+      - 0.0 #PSI
+      - 4.0 #WRAP
+      - 0.0 #E511
+      - 0.8 #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_SYNDICATE_PA_UNIT_ARMOR
+    spriteSheet: SYNDICATE_PA_UNIT.PCK
+    spriteInv: inventory_SYNDICATE_PA_UNIT
+    corpseBattle:
+      - STR_SYNDICATE_PA_UNIT_CORPSE
+    visibilityAtDark: 10
+    visibilityAtDay: 12
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 75
+    underArmor: 60
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: # balance me
+      - 1.0 #Null
+      - 0.7 #Bullets
+      - 0.4 #Fire
+      - 0.7 #High Explosive
+      - 0.8 #Laser
+      - 0.8 #Plasma
+      - 0.6 #Stun
+      - 0.8 #Melee
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 0.7 #EMP
+      - 0.8 #Electro
+      - 0.0 #PSI
+      - 4.0 #WRAP
+      - 0.0 #E511
+      - 0.8 #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_SYNDICATE_MANAGER
+    spriteSheet: SYNDICATE_MANAGER.PCK
+    spriteInv: inventory_SYNDICATE_MANAGER
+    corpseBattle:
+      - STR_SYNDICATE_MANAGER_CORPSE
+    visibilityAtDark: 18
+    visibilityAtDay: 16
+    psiVision: 6
+    frontArmor: 40
+    sideArmor: 35
+    rearArmor: 30
+    underArmor: 20
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: # balance me
+      - 1.0 #Null
+      - 0.7 #Bullets
+      - 1.4 #Fire
+      - 0.8 #High Explosive
+      - 0.8 #Laser
+      - 0.8 #Plasma
+      - 0.6 #Stun
+      - 0.6 #Melee
+      - 0.8 #Acid
+      - 2.0 #Smoke
+      - 0.2 #EMP
+      - 0.8 #Electro
+      - 0.0 #PSI
+      - 4.0 #WRAP
+      - 0.0 #E511
+      - 0.8 #Bio
     loftempsSet: [ 3 ]
                                                         ###CityGangKarateGuys###
   - type: STR_TIGERCALW_FEMGOON

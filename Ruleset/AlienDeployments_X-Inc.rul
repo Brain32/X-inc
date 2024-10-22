@@ -819,7 +819,7 @@
             - STR_GRENADE
                                                 ### Old Military Outpost ###
 
-  - type: STR_SCAVANGER_HUNT_OLD_OUTPOST
+  - type: STR_BANDIT_BUNKER_APPREHENSION
     width: 30
     length: 30
     height: 5
@@ -840,35 +840,117 @@
     terrains:
       - ABANDONED_OUTPOST
     data:
-      - alienRank: 2
-        lowQty: 7
-        highQty: 15
+      - alienRank: 1 # Commando
+        lowQty: 2
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_LAS_RIFLE_SCAV
+            - STR_LAS_RIFLE_SCAV_CLIP
+            - STR_LAS_RIFLE_SCAV_CLIP
+          -
+            - STR_AUTOSHOTGUN1
+            - STR_AUTOSHOTGUN1_CLIP2
+            - STR_AUTOSHOTGUN1_CLIP1
+            - STR_AUTOSHOTGUN1_CLIP1
+      - alienRank: 2 #Engenner\Navigator
+        lowQty: 6
+        highQty: 8
         dQty: 2
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HB_GAUSS_RIFLE
-            - STR_HB_GAUSS_RIFLE_CLIP
-            - STR_HB_GAUSS_RIFLE_CLIP
+            - STR_LAS_RIFLE_SCAV
+            - STR_LAS_RIFLE_SCAV_CLIP
+            - STR_LAS_RIFLE_SCAV_CLIP
           -
-            - STR_HB_GAUSS_PISTOL
-            - STR_HB_GAUSS_PISTOL_CLIP
-            - STR_HB_GAUSS_PISTOL_CLIP
+            - STR_PISTOL_10MM
+            - STR_PISTOL_10MM_MAG
+            - STR_PISTOL_10MM_MAG
+            - STR_PISTOL_10MM_MAG
+          -
+            - STR_OLD_SHOTGUN
+            - STR_OLD_SHOTGUN_SHELLS_SLUG
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+          -
+            - STR_SMG_10MM
+            - STR_SMG_10MM_CLIP
+            - STR_SMG_10MM_CLIP
 
-      - alienRank: 7
-        lowQty: 5
-        highQty: 7
+      - alienRank: 4
+        lowQty: 6
+        highQty: 8
         dQty: 2
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_HB_GAUSS_RIFLE
-            - STR_HB_GAUSS_RIFLE_CLIP
-            - STR_HB_GAUSS_RIFLE_CLIP
+            - STR_SMG_10MM
+            - STR_SMG_10MM_CLIP
+            - STR_SMG_10MM_CLIP
           -
-            - STR_HB_GAUSS_PISTOL
-            - STR_HB_GAUSS_PISTOL_CLIP
-            - STR_HB_GAUSS_PISTOL_CLIP
+            - STR_BANDIT_RIFLE
+            - STR_BANDIT_RIFLE_CLIP
+            - STR_BANDIT_RIFLE_CLIP
+          -
+            - STR_OLD_SHOTGUN
+            - STR_OLD_SHOTGUN_SHELLS_SLUG
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+          -
+            - STR_AUTOSHOTGUN1
+            - STR_AUTOSHOTGUN1_CLIP2
+            - STR_AUTOSHOTGUN1_CLIP1
+            - STR_AUTOSHOTGUN1_CLIP1
+
+      - alienRank: 5
+        lowQty: 8
+        highQty: 10
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SMG_10MM
+            - STR_SMG_10MM_CLIP
+            - STR_SMG_10MM_CLIP
+          -
+            - STR_BANDIT_RIFLE
+            - STR_BANDIT_RIFLE_CLIP
+            - STR_BANDIT_RIFLE_CLIP
+          -
+            - STR_OLD_SHOTGUN
+            - STR_OLD_SHOTGUN_SHELLS_SLUG
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+          -
+            - STR_OLD_SHOTGUN
+            - STR_OLD_SHOTGUN_SHELLS_SLUG
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_FLAMETHROWER_DIY
+            - STR_FLAMETHROWER_CLIP
+            - STR_FLAMETHROWER_CLIP
+      - alienRank: 6
+        lowQty: 4
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+              -
+                []
+              -
+                []
+              -
+                []
 
                                                 ### Old Military Base ###
 

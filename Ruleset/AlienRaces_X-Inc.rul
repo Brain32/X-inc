@@ -1,4 +1,15 @@
 alienRaces:
+  - id: STR_WST_RIPPER_RACE
+    members:
+      - STR_WST_RIPPER_COMMANDO # 0 - Commander
+      - STR_WST_RIPPER_COMMANDO # 1 - Leader
+      - STR_WST_RIPPER03 # 2 - Engineer
+      - STR_WST_RIPPER03 # 3 - scientist
+      - STR_WST_RIPPER02 # 4 - Navigator
+      - STR_WST_RIPPER01 # 5 - Soldier
+      - STR_WST_RIPPER_BLOOD_DOG # 6 - Terrorist 1
+      - STR_WST_RIPPER_PA_UNT # 7 - Terrorist 2
+    retaliationAggression: -100
   - id: STR_RACE_WASTELAND_RAIDERS
     members:
       - STR_WASTELAND_GOON
@@ -35,20 +46,20 @@ alienRaces:
     retaliationAggression: -100
   - id: STR_RACE_SYNDICATE
     members:
-      - STR_SYNDICATE_SOLDIER # 0 - Commander
-      - STR_SYNDICATE_SOLDIER # 1 - Leader
-      - STR_SYNDICATE_SOLDIER # 2 - Engineer
+      - STR_SYNDICATE_MANAGER # 0 - Commander
+      - STR_SYNDICATE_MANAGER # 1 - Leader
+      - STR_SYNDICATE_MANAGER # 2 - Engineer
       - STR_SYNDICATE_COMMANDO # 3 - scientist
       - STR_SYNDICATE_BREACHER # 4 - Navigator
       - STR_SYNDICATE_SOLDIER # 5 - Soldier
-      - STR_SYNDICATE_SOLDIER # 6 - Terrorist 1
-      - STR_SYNDICATE_SOLDIER # 7 - Terrorist 2
-      - STR_SYNDICATE_SOLDIER # 8 - Special Guest 1
-      - STR_SYNDICATE_SOLDIER # 9 - Heavy Trooper / Underwater Terrorist 1
-      - STR_SYNDICATE_SOLDIER # 10 - Assault Trooper / Underwater Terrorist 2
-      - STR_SYNDICATE_SOLDIER # 11 - Special Guest 2 / Non-Combatant 1
-      - STR_SYNDICATE_SOLDIER # 12 - Non-Combatant 2
-      - STR_SYNDICATE_SOLDIER # 13 - Special Guest 3
+      - STR_SYNDICATE_SHADOWOP # 6 - Terrorist 1
+      - STR_SYNDICATE_PA_UNIT # 7 - Terrorist 2
+      - STR_SYNDICATE_PA_UNIT # 8 - Special Guest 1
+      - STR_SYNDICATE_PA_UNIT # 9 - Heavy Trooper / Underwater Terrorist 1
+      - STR_SYNDICATE_PA_UNIT # 10 - Assault Trooper / Underwater Terrorist 2
+      - STR_SYNDICATE_PA_UNIT # 11 - Special Guest 2 / Non-Combatant 1
+      - STR_SYNDICATE_PA_UNIT # 12 - Non-Combatant 2
+      - STR_SYNDICATE_PA_UNIT # 13 - Special Guest 3
     retaliationAggression: -100
   - id: STR_RACE_SMUGLERS
     members:
@@ -98,7 +109,6 @@ alienRaces:
       - STR_MUTANT_WRETCH
       - STR_MUTANT_WRETCH
     retaliationAggression: -100
-
 
   - id: STR_RACE_OLD_ROBOTS
     members:

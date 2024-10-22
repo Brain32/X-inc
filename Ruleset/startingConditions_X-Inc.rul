@@ -6,3 +6,5 @@ startingConditions:
     allowedArmors:
       - STR_RUNNERCOAT_UC
       - STR_ICARUS_COAT_UC
+    allowedItemCategories:
+      - STR_MELEE

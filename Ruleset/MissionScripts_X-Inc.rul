@@ -83,6 +83,27 @@ missionScripts:
     startDelay: 120
     randomDelay: 43500
 
+                                                          ### Radiers - Rippers ###
+
+  - type: WastelandBanditBase
+    firstMonth: 0
+    executionOdds: 1005
+    missionWeights:
+      0:
+        STR_BANDIT_BUNKER_APPREHENSION: 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_EUROPE: 250
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
+    useTable: false
+    startDelay: 120
+    randomDelay: 43500
+
                                                           ### MUTANTS ###
 
   - type: MutantHuntSmallApprehension
