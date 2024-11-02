@@ -1501,7 +1501,7 @@ armors:
     allowsRunning: true
     damageModifier: 
       - 1.0   #Null
-      - 0.75  #Bullets
+      - 0.85  #Bullets
       - 1.2   #Fire
       - 0.80   #High Explosive
       - 0.9  #Laser
@@ -1524,9 +1524,9 @@ armors:
       - STR_WST_RIPPER02_CORPSE
     forcedTorso: 2
     visibilityAtDark: 10
-    frontArmor: 45
-    sideArmor: 40
-    rearArmor: 35
+    frontArmor: 40
+    sideArmor: 35
+    rearArmor: 30
     underArmor: 15
     drawingRoutine: 0
     recovery:
@@ -1546,7 +1546,7 @@ armors:
     allowsRunning: true
     damageModifier: 
       - 1.0   #Null
-      - 0.75  #Bullets
+      - 0.85  #Bullets
       - 1.2   #Fire
       - 0.80   #High Explosive
       - 0.9  #Laser
@@ -1570,8 +1570,8 @@ armors:
     visibilityAtDark: 16
     camouflageAtDay: 10
     camouflageAtDark: 8
-    frontArmor: 30
-    sideArmor: 25
+    frontArmor: 25
+    sideArmor: 20
     rearArmor: 20
     underArmor: 15
     drawingRoutine: 0
@@ -1592,7 +1592,7 @@ armors:
     allowsRunning: true
     damageModifier: 
       - 1.0   #Null
-      - 0.80  #Bullets
+      - 0.90  #Bullets
       - 1.2   #Fire
       - 0.80   #High Explosive
       - 0.8  #Laser

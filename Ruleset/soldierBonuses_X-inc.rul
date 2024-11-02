@@ -40,7 +40,7 @@ soldierBonuses:
   - name: STR_AUG_EYE_MK1
     stats:
       mana: 1
-      firing: 10
+      firing: 12
     recovery:
       mana:
         flatOne: -1
@@ -75,7 +75,7 @@ soldierBonuses:
       stamina: 8
     recovery:
       morale:
-        flatOne: -3
+        flatOne: -2
   - name: STR_AUG_LEG_MK2
     stats:
       tu: 8
@@ -127,7 +127,7 @@ soldierBonuses:
 #Lung
   - name: STR_AUG_LUNG_MK1
     stats:
-      stamina: 10
+      stamina: 12
     recovery:
       time:
         flatOne: 2

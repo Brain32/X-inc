@@ -422,8 +422,8 @@ units:
       firing: 100
       throwing: 70
       strength: 80
-      psiStrength: 60
-      psiSkill: 40
+      psiStrength: 65
+      psiSkill: 0
       melee: 80
     armor: STR_WST_RIPPER_COMMANDO_ARMOUR
     standHeight: 22

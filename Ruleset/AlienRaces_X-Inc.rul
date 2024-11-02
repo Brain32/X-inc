@@ -63,15 +63,15 @@ alienRaces:
     retaliationAggression: -100
   - id: STR_RACE_SMUGLERS
     members:
-      - STR_SMUGLER_GOON # 0; placeholder
-      - STR_SMUGLER_GOON # 1; placeholder
-      - STR_SMUGLER_GOON # 2; placeholder
-      - STR_SMUGLER_NEGOTIATOR # 3
+      - STR_SMUGLER_FIXER # 0; placeholder
+      - STR_SMUGLER_FIXER # 1; placeholder
+      - STR_SMUGLER_LANCE # 2; placeholder
+      - STR_SMUGLER_LANCE # 3
       - STR_SMUGLER_NEGOTIATOR # 4
-      - STR_SMUGLER_LANCE # 5
-      - STR_SMUGLER_LANCE # 6; placeholder
-      - STR_SMUGLER_FIXER # 7; placeholder
-      - STR_SMUGLER_FIXER # 8; placeholder
+      - STR_SMUGLER_NEGOTIATOR # 5; placeholder
+      - STR_SMUGLER_GOON # 6; placeholder
+      - STR_SMUGLER_GOON # 7; placeholder
+      - STR_SMUGLER_GOON # 8; placeholder
     retaliationAggression: -100
   - id: STR_RACE_BIKERS
     members:

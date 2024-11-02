@@ -9,10 +9,10 @@ research:
     dependencies:
       - STR_IDDQD
   - name: STR_MOTION_SCANNER
-    cost: 180
+    cost: 100
     points: 20
     dependencies:
-      - STR_IDDQD
+      - STR_ELECTRONICS
   - name: STR_PERSONAL_ARMOR
     cost: 180
     points: 20
@@ -98,6 +98,7 @@ research:
     cost: 25
     points: 15
     listOrder: 151010
+    destroyItem: true
     needItem: true
     getOneFree:
       - STR_LIBIRATOR_JUNK
@@ -120,6 +121,7 @@ research:
     cost: 25
     points: 15
     listOrder: 151010
+    destroyItem: true
     needItem: true
     getOneFree:
       - STR_LIBIRATOR_JUNK
@@ -142,16 +144,19 @@ research:
 # ---- TigerClaw niggas
 
   - name: STR_TIGERCALW_FEMGOON #pedia?
+    destroyItem: true
     cost: 10 #balance me
     points: 20
     needItem: true
     listOrder: 151020
   - name: STR_TIGERCALW_GOON
+    destroyItem: true
     cost: 10 #balance me
     points: 20
     needItem: true
     listOrder: 151030
   - name: STR_TIGERCALW_WARCHEEF
+    destroyItem: true
     cost: 15
     points: 20
     needItem: true
@@ -204,6 +209,12 @@ research:
     needItem: true
     listOrder: 151060
 #Facileties
+
+  - name: STR_RECREATION_ROOM
+    cost: 25
+    points: 10
+    dependencies:
+      - STR_WEAPON_SHOPPING
   - name: STR_MEDBAY_FACILITY
     cost: 50 
     points: 20
@@ -305,12 +316,17 @@ research:
 
 
 #TechTree Gun Acquisition
-
   - name: STR_SHOTGUN_ACQUISITION
     cost: 25 
     points: 5
     dependencies:
       - STR_WEAPON_SHOPPING
+    listOrder: 151060
+  - name: STR_NITRO_EXPRESS_BUY
+    cost: 15 
+    points: 5
+    dependencies:
+      - STR_BLACK_MARKET_ACCES
     listOrder: 151060
 #Armour
 
@@ -448,7 +464,6 @@ research:
       - STR_BLACK_MARKET_ACCES
     cost: 25
     points: 5
-    needItem: true
     listOrder: 151070
 #Guns - Bows
 
@@ -702,7 +717,18 @@ research:
     cost: 30
     points: 5
     needItem: true
-    destroyItem: true
+  - name: STR_RPG_BUY
+    dependencies:
+      - STR_RPG
+      - STR_EXPLOSIVES_LICENSE
+    cost: 25
+    points: 5
+    needItem: true
+  - name: STR_RPG
+    cost: 15
+    points: 5
+    needItem: true
+
 #Mines
   - name: STR_MINE
     cost: 5
@@ -710,7 +736,11 @@ research:
     needItem: true
     listOrder: 151070
 #Medical Shit
-
+  - name: STR_GOLDEN_DRAGONS
+    cost: 10
+    points: 10
+    needItem: true
+    listOrder: 151070
   - name: STR_PIZZA_SLICE
     cost: 10
     points: 10
@@ -752,30 +782,21 @@ research:
   - name: STR_TEST_EVENT
     dependencies:
       - STR_TEST_EVENT
+#Data
+  - name: STR_FLASHDRIVE_RAIDERS
+    cost: 35
+    points: 10
+    requiresBaseFunc: [COMMCENT]
+    needItem: true
+    listOrder: 151070
 
 #MissionTrigger
   - name: STR_SCAVENGERS_OLD_MILBASE_MISSION_RES
-    cost: 25                                            #<--- Fix Me Faggot
+    cost: 35                                            
     points: 20
-    listOrder: 151070
-
-  - name: STR_WEAPON_FACIL_RES
-    cost: 45                                            #<---  Fix Me 
-    points: 20
-    listOrder: 151070
     dependencies:
-      - STR_WASTELAND_SCOUT
-      - STR_WASTELAND_GOON
-      - STR_PIPERIFLE
-      - STR_PISTOL_10MM
-      - STR_SMG_10MM
-  - name: STR_BIG_WEAPON_FACIL_RES
-    cost: 45                                            #<---  Fix Me Faggot
-    points: 20
+      - STR_FLASHDRIVE_RAIDERS
     listOrder: 151070
-    dependencies:
-      - STR_GUNRUNNER_WORKER
-      - STR_BANDIT_RIFLE
 
                     ###TransforamtionsAugs###
 #TechRelated

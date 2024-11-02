@@ -16,6 +16,8 @@ alienFuel: [STR_ELERIUM_115, 25]
 constants:
   extendedTerrainMelee: 4
   extendedRunningCost: true
+costEngineer: 20000
+costHireEngineer: 35000
 costHireScientist: 115000
 costScientist: 75000
 maxLookVariant: 4

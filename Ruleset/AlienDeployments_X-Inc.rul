@@ -14,13 +14,14 @@
       music: GMDEFEND
     markerName: STR_WASTELAND_FARM_RAID_APPREHENSION
     duration: [60, 120]
+    missionBountyItem: STR_WAD_O_CASH
     despawnPenalty: 2
     abortPenalty: 2
     civilians: 4
     terrains:
       - NUKEFARM
     data:
-      - alienRank: 2
+      - alienRank: 4
         lowQty: 6
         highQty: 8
         dQty: 2
@@ -31,6 +32,7 @@
             - STR_COLT_REVOLVER_AMMO
             - STR_COLT_REVOLVER_AMMO
             - STR_PIPEBOMB
+            - STR_GOLDEN_DRAGONS
           -
             - STR_JUNKY_SAWED_OFF
             - STR_DOUBLE_BARRELED_BUCKSHOT
@@ -44,13 +46,14 @@
             - STR_TEC9
             - STR_TEC9_CLIP
             - STR_TEC9_CLIP
+            - STR_GOLDEN_DRAGONS
           -
             - STR_PIPERIFLE
             - STR_10MM_TRIPLE_CLIP
             - STR_10MM_TRIPLE_CLIP
             - STR_10MM_TRIPLE_CLIP
             - STR_10MM_TRIPLE_CLIP
-      - alienRank: 6
+      - alienRank: 5
         lowQty: 2
         highQty: 4
         dQty: 2
@@ -61,6 +64,7 @@
             - STR_PISTOL_10MM_MAG
             - STR_PISTOL_10MM_MAG
             - STR_PISTOL_10MM_MAG
+            - STR_GOLDEN_DRAGONS
           -
             - STR_OL_WINCHESTER
             - STR_OLD_SHOTGUN_SHELLS
@@ -71,11 +75,29 @@
             - STR_HUNTING_RIFLE_CLIP
             - STR_HUNTING_RIFLE_CLIP
             - STR_HUNTING_RIFLE_CLIP
+            - STR_GOLDEN_DRAGONS
           -
             - STR_COWRIFLE
             - STR_COWRIFLE_AMMO
             - STR_COWRIFLE_AMMO
             - STR_COWRIFLE_AMMO
+      - alienRank: 6
+        lowQty: 3
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+              -
+                []
+                                  
                                                 ### WastelandOutpost ###
   - type: STR_WASTELAND_GANG
     width: 50
@@ -118,6 +140,7 @@
             - STR_DOUBLE_BARRELED_BUCKSHOT
             - STR_DOUBLE_BARRELED_BUCKSHOT
             - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_GOLDEN_DRAGONS
           -
             - STR_OLD_SHOTGUN
             - STR_OLD_SHOTGUN_SHELLS
@@ -126,6 +149,7 @@
             - STR_TEC9
             - STR_TEC9_CLIP
             - STR_TEC9_CLIP
+            - STR_GOLDEN_DRAGONS
           -
             - STR_PIPERIFLE
             - STR_10MM_TRIPLE_CLIP
@@ -145,7 +169,8 @@
       background: BACKMISSION_2.SCR
       palette: 2
       music: GMDEFEND
-    markerName: STR_BURGLARY_APPREHENSION 
+    markerName: STR_BURGLARY_APPREHENSION
+    missionBountyItem: STR_WAD_O_CASH 
     duration: [60, 120]
     despawnPenalty: 5
     abortPenalty: 5
@@ -164,6 +189,7 @@
             - STR_SHIV
           -
             - STR_PIPE
+            - STR_GOLDEN_DRAGONS
           -
             - STR_CROWBAR
           -
@@ -179,6 +205,7 @@
             - STR_PIPE
           -
             - STR_CROWBAR
+            - STR_GOLDEN_DRAGONS
           -
             - STR_BATTO
                                                 ### MutantCleaing - Small ###
@@ -232,6 +259,7 @@
       palette: 2
       music: GMDEFEND
     markerName: STR_HOOD_APPREHENSION
+    missionBountyItem: STR_WAD_O_CASH
     duration: [60, 120]
     despawnPenalty: 5
     abortPenalty: 5
@@ -248,10 +276,12 @@
             - STR_SHIV
           -
             - STR_PIPE
+            - STR_GOLDEN_DRAGONS
           -
             - STR_CROWBAR
           -
             - STR_BATTO
+            - STR_GOLDEN_DRAGONS
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -263,6 +293,7 @@
             - STR_PIPE
           -
             - STR_CROWBAR
+            - STR_GOLDEN_DRAGONS
           -
             - STR_BATTO
       - alienRank: 8
@@ -276,6 +307,7 @@
             - STR_PIPE
           -
             - STR_CROWBAR
+            - STR_GOLDEN_DRAGONS
           -
             - STR_BATTO
 
@@ -315,6 +347,7 @@
             - STR_MAC12_AP_CLIP
             - STR_MAC12_CLIP
             - STR_MAC12_CLIP
+            - STR_GOLDEN_DRAGONS
           -
             - STR_SHOTGUN
             - STR_SHOTGUN_SHELLS_BS
@@ -339,7 +372,8 @@
             - STR_MAC12
             - STR_MAC12_AP_CLIP
             - STR_MAC12_CLIP
-            - STR_MAC12_CLIPP
+            - STR_MAC12_CLIP
+            - STR_GOLDEN_DRAGONS
           -
             - STR_RIFLE_AK
             - STR_RIFLE_AK_CLIP
@@ -368,6 +402,7 @@
             - STR_RIFLE_AK_CLIP
             - STR_RIFLE_AK_CLIP
             - STR_MOLOTOV
+            - STR_GOLDEN_DRAGONS
           -
             - STR_MAC12
             - STR_MAC12_AP_CLIP
@@ -409,6 +444,7 @@
             - STR_RIFLE_M16_CLIP
             - STR_RIFLE_M16_CLIP
             - STR_MOLOTOV
+            - STR_GOLDEN_DRAGONS
           -
             - STR_OLD_SHOTGUN
             - STR_OLD_SHOTGUN_SHELLS
@@ -425,6 +461,7 @@
             - STR_10MM_TRIPLE_CLIP
             - STR_10MM_TRIPLE_CLIP
             - STR_10MM_TRIPLE_CLIP
+            - STR_GOLDEN_DRAGONS
           -
             - STR_KNIFE_BANDIT
             - STR_LIBIRATOR_JUNK
@@ -453,6 +490,7 @@
             - STR_DOUBLE_BARRELED_BUCKSHOT
             - STR_DOUBLE_BARRELED_BUCKSHOT
             - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_GOLDEN_DRAGONS
           -
             - STR_OLD_SHOTGUN
             - STR_OLD_SHOTGUN_SHELLS
@@ -531,11 +569,13 @@
             - STR_DOUBLE_BARRELED_BUCKSHOT
             - STR_DOUBLE_BARRELED_BUCKSHOT
             - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_GOLDEN_DRAGONS
           -
             - STR_OLD_SHOTGUN
             - STR_OLD_SHOTGUN_SHELLS
             - STR_OLD_SHOTGUN_SHELLS
             - STR_OLD_SHOTGUN_SHELLS
+            - STR_GOLDEN_DRAGONS
           -
             - STR_LUGER
             - STR_LUGER_CLIP
@@ -554,6 +594,7 @@
             - STR_10MM_TRIPLE_CLIP
             - STR_10MM_TRIPLE_CLIP
             - STR_10MM_TRIPLE_CLIP
+            - STR_GOLDEN_DRAGONS
           -
             - STR_OLD_RIFLE_M16
             - STR_RIFLE_M16_CLIP
@@ -582,11 +623,13 @@
             - STR_SMG_10MM
             - STR_SMG_10MM_CLIP
             - STR_SMG_10MM_CLIP
+            - STR_GOLDEN_DRAGONS
           -
             - STR_BANDIT_RIFLE
             - STR_BANDIT_RIFLE_CLIP
             - STR_BANDIT_RIFLE_CLIP
             - STR_PIPEBOMB
+            - STR_GOLDEN_DRAGONS
           -
             - STR_GRENADE_LAUNCHER
             - STR_GL_HE
@@ -616,6 +659,7 @@
             - STR_FLAMETHROWER_CLIP
             - STR_FLAMETHROWER_CLIP
             - STR_MOLOTOV
+            - STR_GOLDEN_DRAGONS
           -
             - STR_GRENADE_LAUNCHER
             - STR_GL_HE
@@ -691,12 +735,15 @@
         itemSets:
           -
             - STR_SHIV
+            - STR_GOLDEN_DRAGONS
           -
             - STR_PIPE
+            - STR_GOLDEN_DRAGONS
           -
             - STR_CROWBAR
           -
             - STR_BATTO
+            - STR_GOLDEN_DRAGONS
       - alienRank: 6
         lowQty: 6
         highQty: 10
@@ -709,6 +756,7 @@
             - STR_PIPE
           -
             - STR_CROWBAR
+            - STR_GOLDEN_DRAGONS
           -
             - STR_BATTO
       - alienRank: 8
@@ -754,20 +802,20 @@
     terrains:
       - CLUBMALIBU
     data:
-      - alienRank: 2
-        lowQty: 7
-        highQty: 9
-        dQty: 2
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_COLT45
-            - STR_COLT45_CLIP
-            - STR_COLT45_CLIP
+            - STR_RIFLE_M16_SCARFACE
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
           -
-            - STR_RUGER_RIFLE
-            - STR_RIFLE_M16_CLIP
-            - STR_RIFLE_M16_CLIP
+            - STR_M60
+            - STR_M60_CLIP_SMALL
+            - STR_M60_CLIP_SMALL
             - STR_GRENADE
           -
             - STR_COLT45
@@ -777,7 +825,7 @@
             - STR_RIFLE_M16
             - STR_RIFLE_M16_CLIP
             - STR_RIFLE_M16_CLIP
-      - alienRank: 5
+      - alienRank: 2 # THIS IS THE LAST DANCE FOR VANCE LANCE
         lowQty: 2
         highQty: 3
         dQty: 0
@@ -797,10 +845,10 @@
             - STR_RIFLE_M16_CLIP
             - STR_RIFLE_M16_CLIP
             - STR_GRENADE
-      - alienRank: 7
-        lowQty: 1
-        highQty: 2
-        dQty: 0
+      - alienRank: 5 # Sergants
+        lowQty: 4
+        highQty: 3
+        dQty: 1
         percentageOutsideUfo: 20
         itemSets:
           -
@@ -813,10 +861,29 @@
             - STR_RIFLE_M16_CLIP
             - STR_GRENADE
           -
+            - STR_M60
+            - STR_M60_CLIP_SMALL
+            - STR_M60_CLIP_SMALL
+            - STR_GRENADE
+      - alienRank: 7 # Goons
+        lowQty: 7
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
             - STR_RUGER_RIFLE
             - STR_RIFLE_M16_CLIP
             - STR_RIFLE_M16_CLIP
             - STR_GRENADE
+          -
+            - STR_RIFLE_M16
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
+          -
+            - STR_COLT45
+            - STR_COLT45_CLIP
+            - STR_COLT45_CLIP
                                                 ### Old Military Outpost ###
 
   - type: STR_BANDIT_BUNKER_RAID

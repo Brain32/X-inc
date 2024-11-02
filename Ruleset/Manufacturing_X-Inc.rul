@@ -8,8 +8,8 @@
     requires:
       - STR_WRECKED_SAVAGE_CRAFT
     space: 5
-    time: 250
-    cost: 10000
+    time: 750
+    cost: 28425
     requiredItems:
       STR_WRECKED_SAVAGE_CRAFT: 1
                                              

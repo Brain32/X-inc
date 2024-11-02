@@ -235,6 +235,13 @@ ufopaedia:
     text: STR_STIMM_UFOPEDIA
     listOrder: 48160
 
+  - id: STR_GOLDEN_DRAGONS
+    type_id: 4
+    requires:
+      - STR_GOLDEN_DRAGONS
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GOLDEN_DRAGONS_UFOPEDIA
+    listOrder: 48180
   - id: STR_PIZZA_SLICE
     type_id: 4
     requires:
@@ -490,7 +497,7 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
-      - STR_IDDQD
+      - STR_WEAPON_SHOPPING
   - id: STR_OLD_RIFLE_M16
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1741,12 +1748,25 @@ ufopaedia:
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     text: STR_MONEY_BRIEFCASE_UFOPEDIA
-    listOrder: 15560
+    listOrder: 15570
   - id: STR_MONEY_BAG
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     text: STR_MONEY_BAG_UFOPEDIA
-    listOrder: 15561
+    listOrder: 15571
+  - id: STR_WAD_O_CASH
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_WAD_O_CASH_UFOPEDIA
+    listOrder: 15573
+#Data
+  - id: STR_FLASHDRIVE_RAIDERS
+    requires:
+      - STR_FLASHDRIVE_RAIDERS
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_FLASHDRIVE_RAIDERS_UFOPEDIA
+    listOrder: 15573
                                   #LOOTBOXES
 
   - id: STR_WEAPON_LOOTBOX_CHEAP
@@ -1802,6 +1822,13 @@ ufopaedia:
     type_id: 6
     section: STR_BASE_FACILITIES
     text: STR_GYM_UFOPEDIA
+    listOrder: 6870
+  - id: STR_RECREATION_ROOM
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_RECREATION_ROOM_UFOPEDIA
+    requires:
+      - STR_RECREATION_ROOM
     listOrder: 6870
   - id: STR_MEDBAY
     type_id: 6
@@ -2214,6 +2241,8 @@ ufopaedia:
     text: STR_FUTURECAR1_UFOPEDIA
     listOrder: 7292
   - id: STR_HOVERVAN
+    requires:
+      - STR_HOVERVAN_BUY
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: UFOPEDIA_HOVERVAN.SPK
@@ -2247,6 +2276,8 @@ ufopaedia:
     listOrder: 7292
 
   - id: STR_CICADA_CRAFT
+    requires:
+      - STR_CICADA_CRAFT_BUY
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: Cicada_ufopedia_CPAL

@@ -65,6 +65,7 @@ facilities:
     placeSound: 37
     mapName: XBASE_03
     listOrder: 6980
+#SmallRadar
   - type: STR_SMALL_RADAR_SYSTEM
     requires:
       - STR_SMALL_RADAR_SYSTEM
@@ -76,6 +77,7 @@ facilities:
     radarRange: 1525
     radarChance: 70
     mapName: XBASE_04
+#LargeRadar
   - type: STR_LARGE_RADAR_SYSTEM
     requires:
       - STR_LARGE_RADAR_SYSTEM
@@ -127,6 +129,8 @@ facilities:
     spriteShape: 1
     spriteFacility: 868
     provideBaseFunc: [MEDICAL_BAY]
+    buildOverFacilities: [ STR_ADVANCED_MEDBAY ]
+    canBeBuiltOver: true
     buildCost: 170000
     buildTime: 24
     monthlyCost: 23000
@@ -151,7 +155,25 @@ facilities:
     mapName: XBASS_25                            #<---------- Fix me !
     rightClickActionType: 6
     listOrder: 6960
-
+#RecRoom
+  - type: STR_RECREATION_ROOM
+    requires:
+      - STR_RECREATION_ROOM
+    spriteShape: 1
+    spriteFacility: 336
+    provideBaseFunc: [REC_ROOM]
+    buildCost: 120000
+    buildTime: 16
+    maxAllowedPerBase: 1
+    storage: 10
+    monthlyCost: -12000
+    manaRecoveryPerDay: 8
+    sickBayAbsoluteBonus: 0.15
+    placeSound: 37
+    mapName: XBASS_25                            #<---------- Fix me !
+    rightClickActionType: 6
+    listOrder: 6960
+#HQ
   - type: STR_HQ
     spriteShape: 1
     spriteFacility: 317
@@ -167,6 +189,7 @@ facilities:
     placeSound: 37
     mapName: XBASS_22                            #<---------- Fix me !
     listOrder: 6830
+#SuperHQ
   - type: STR_CYBER_HQ
     requires:
       - STR_CYBER_HQ

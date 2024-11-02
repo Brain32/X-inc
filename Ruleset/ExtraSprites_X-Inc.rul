@@ -488,6 +488,7 @@ extraSprites:
   - type: BIGOBS.PCK
     files:
       15: Resources/Weapons/HeavyWeapons/bigob_RL.png
+      22: Resources/Weapons/Grenades/bigob_C4.png
       62: Resources/Armours/RunnerCoat/bigob_RunnerCoat.png
       63: Resources/Weapons/SmartWeapons/G11.png
       64: Resources/Weapons/SmartWeapons/G11E.png
@@ -836,7 +837,12 @@ extraSprites:
       409: Resources/FactionPack/WST_Raiders_G1/bigob_Raider_PA.png
       410: Resources/FactionPack/WST_Raiders_G1/bigob_CommandoRaider.png
       411: Resources/FactionPack/WST_Raiders_G1/bigob_BLOODHOUND.png
-
+      412: Resources/OtherItems/bigob_MoneyWad.png
+      413: Resources/OtherItems/bigob_FlashDrive_Raider.png
+      414: Resources/Weapons/CityWeapons/bigob_NitroExpress_Neo.png
+      415: Resources/Weapons/CityWeapons/bigob_NitroExpress_Neo_Clip.png
+      416: Resources/MedicalShit/bigob_Cigs.png
+      417: Resources/MedicalShit/bigob_MedSpray.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -963,6 +969,9 @@ extraSprites:
       1040: Resources/OtherItems/handob_MotionTracker.png
       1048: Resources/Weapons/NuclearWeapons/handob_F3Laser.png
       1056: Resources/Weapons/NuclearWeapons/handob_F3Laser_adv.png
+      1064: Resources/Weapons/CityWeapons/handob_NitroExpress_Neo.png
+      1072: Resources/MedicalShit/Handob_Cigs.png
+      1080: Resources/MedicalShit/handob_MedSpray.png
 
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
@@ -1203,8 +1212,12 @@ extraSprites:
       360: Resources/FactionPack/WST_Raiders_G1/floorob_Raider_PA.png
       361: Resources/FactionPack/WST_Raiders_G1/floorob_BLOODHOUND.png
       362: Resources/FactionPack/WST_Raiders_G1/floorob_CommandoRaider.png
-
-
+      363: Resources/OtherItems/floorob_WadOMoney.png
+      364: Resources/OtherItems/Floorob_FlashDrive_Raider.png
+      365: Resources/Weapons/CityWeapons/Floorob_NitroExpress_Neo.png
+      366: Resources/Weapons/CityWeapons/Floorob_NitroExpress_Neo_Clip.png
+      367: Resources/MedicalShit/floorob_Cigs.png
+      368: Resources/MedicalShit/floorob_MedSpray.png
                                    ### Sprite sheet (Battlescape) ###
 ### YourArmour ###
 #StartingJumpSuit_Spritesheet
@@ -1758,6 +1771,7 @@ extraSprites:
       333: Resources/BaseSprites/SC_b_2.png
       334: Resources/BaseSprites/SC_b_3.png
       335: Resources/BaseSprites/SC_b_4.png
+      336: Resources/BaseSprites/RECROOM.png
       830: Resources/Vessels/Basebits/HoverScooter_base.png
       831: Resources/Vessels/Basebits/Car1_base.png
       862: Resources/Vessels/Basebits/HoverVan_base.png

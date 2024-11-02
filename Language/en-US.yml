@@ -259,6 +259,9 @@ en-US:
   STR_STIMM_UFOPEDIA: "This injector contains a stimulant that can bring him to his senses. Restores 50 stamina and removes 25 Stun points."
   STR_MEDI_PATCH: "Med patch"
   STR_MEDI_PATCH_UFOPEDIA: "Medical patch produced by 'Med Tech' corp. When applied to the wound injects a complex of chemicals that stop the bleeding. Can be used for self-applience."
+  
+  STR_GOLDEN_DRAGONS: "Golden Dragon"
+  STR_GOLDEN_DRAGONS_UFOPEDIA: "Cigarettes of the popular brand Golden Dragon." 
   STR_PIZZA_SLICE: "Slice of Pizza"
   STR_PIZZA_SLICE_UFOPEDIA: "Cheese, pepperoni, tomato sauce, a little oregano seasoning and... unknown dough recipe. This mysterious gift was delivered to us right at the base entrance, which is alarming, because someone knows the location of our hideout! But who got the idea of delivering a pizza trough the Wasteland to God-knows where? At least, the encouraging thing is that in this dark era of synthetic slop, there are people around there who know how to make good-ass Pizza."
 
@@ -267,7 +270,12 @@ en-US:
   STR_MONEY_BRIEFCASE_UFOPEDIA: "Some of our clients do not have much confidence in financial systems and banking transactions and will sometimes demand cash directly. This suitcase contains 100000 credits. If we are lucky we can find such suitcases during missions."
   STR_MONEY_BAG: "Bag of money"
   STR_MONEY_BAG_UFOPEDIA: "Some of our clients do not have much confidence in financial systems and banking transactions and will sometimes demand cash directly. This bag contains 500000 credits. If we are lucky we can find such bags during missions."
-
+  STR_WAD_O_CASH: "Wad o' Cash"
+  STR_WAD_O_CASH_UFOPEDIA: "Some of our clients do not have much confidence in financial systems and banking transactions and will sometimes demand cash directly. This wad contains 50000 credits. If we are lucky we can find such wads during missions."
+  
+                    #############  Other crap - Data #############
+  STR_FLASHDRIVE_RAIDERS: "Raider Flash Drive"
+  STR_FLASHDRIVE_RAIDERS_UFOPEDIA: "Aside from porn and raider convoy route plans, there's a surprising amount of useful data on this old device. Various energy schemes of shelters, blueprints for laser and plasma weapons and God knows how much else that the Raiders managed to rewrite during their pogroms. {NEWLINE}{NEWLINE}Digging deeper, we found out that there are even more extensive military bunkers. If we could ask the inhabitants of the Wasteland, we could find such points and settle down with the pre-war treasures of these bunkers."
 
                     #############  Boxes and containers #############
 
@@ -349,6 +357,9 @@ en-US:
   STR_LIVING_QUARTERS_UFOPEDIA: "The personnel of our base live and rest here: scientists, engineers and agients. Each module is designed for 35 residential places.{NEWLINE}Vacation: 5"
   STR_PRISON_CELLS: "Prison cells"
   STR_PRISON_CELLS_UFOPEDIA: "All the ignorant and other riffraff that we can get through life we throw here. Have 12 spaces."
+  STR_RECREATION_ROOM: "Recreation Room"
+  STR_RECREATION_ROOM_UFOPEDIA: "A small compartment with a minibar, arcade machines and a canteen, everything for a quiet time between missions for our operatives. Have a small warehouse. {NEWLINE}Concentration regen per day: 8"
+
   STR_GYM: "Gym"
   STR_GYM_UFOPEDIA: "This module provides training space for our agents. Can only train 8 units simultaneously."
   STR_MEDBAY: "Med bay"

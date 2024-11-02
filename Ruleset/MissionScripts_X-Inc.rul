@@ -29,7 +29,7 @@ missionScripts:
     randomDelay: 43500
   - type: Wastelandfactory
     firstMonth: 2
-    executionOdds: 68
+    executionOdds: 70
     missionWeights:
       0:
         STR_WASTELAND_FACTORY: 100
@@ -42,10 +42,8 @@ missionScripts:
     useTable: false
     startDelay: 20
     randomDelay: 43500
-    researchTriggers:
-      STR_WEAPON_FACIL_RES: true
   - type: Wastelandfactory_big
-    firstMonth: 2
+    firstMonth: 3
     executionOdds: 70
     missionWeights:
       0:
@@ -86,8 +84,8 @@ missionScripts:
                                                           ### Radiers - Rippers ###
 
   - type: WastelandBanditBase
-    firstMonth: 0
-    executionOdds: 1005
+    firstMonth: 4
+    executionOdds: 65
     missionWeights:
       0:
         STR_BANDIT_BUNKER_RAID : 100
@@ -208,8 +206,8 @@ missionScripts:
                                                           ### Smuglers ###
 
   - type: SmuglerClub
-    firstMonth: 0
-    executionOdds: 100 
+    firstMonth: 2
+    executionOdds: 70
     missionWeights:
       0:
         STR_SMUGLER_CLUB: 100
@@ -253,8 +251,8 @@ missionScripts:
                                                           ### SIN Terrior ###
 
   - type: recurringTerrorEarly
-    firstMonth: 6
-    executionOdds: 854
+    firstMonth: 7
+    executionOdds: 85
     missionWeights:
       0:
         STR_SIN_TERROR: 100
