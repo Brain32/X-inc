@@ -60,8 +60,6 @@ missionScripts:
     useTable: false
     startDelay: 20
     randomDelay: 43500
-    researchTriggers: 
-      STR_BIG_WEAPON_FACIL_RES: true
   - type: WastelandFarmRaid
     firstMonth: 2
     executionOdds: 85
@@ -84,8 +82,8 @@ missionScripts:
                                                           ### Radiers - Rippers ###
 
   - type: WastelandBanditBase
-    firstMonth: 4
-    executionOdds: 65
+    firstMonth: 0
+    executionOdds: 100
     missionWeights:
       0:
         STR_BANDIT_BUNKER_RAID : 100

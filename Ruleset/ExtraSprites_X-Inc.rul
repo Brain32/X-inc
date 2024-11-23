@@ -153,8 +153,6 @@ extraSprites:
     fileSingle: Resources/Armours/RunnerCoat/RunnerCoat_M.png
   - typeSingle: HUMAN_RUNNER__7__RUNNER_COAT_F
     fileSingle: Resources/Armours/RunnerCoat/RunnerCoat_F.png
-  - typeSingle: HUMAN_RUNNER__7__DEFENDER_SUIT_M
-    fileSingle: Resources/Armours/Defender/Inv_Defender.png
 #StartingJumpSuit
   - typeSingle: HUMAN_RUNNER__6__JUMPSUIT_M
     fileSingle: Resources/Armours/JumpSuit/Inv_Jumpsuit_M.png
@@ -843,6 +841,12 @@ extraSprites:
       415: Resources/Weapons/CityWeapons/bigob_NitroExpress_Neo_Clip.png
       416: Resources/MedicalShit/bigob_Cigs.png
       417: Resources/MedicalShit/bigob_MedSpray.png
+      418: Resources/Weapons/NaturalWeapons/Inv_NoiseBite.png
+      419: Resources/Weapons/PreWarWeapons/bigob_M202.png
+      420: Resources/Weapons/PreWarWeapons/bigob_M202_Clip.png
+      421: Resources/Weapons/MilitWeapons/bigob_SAW.png      
+      422: Resources/Weapons/MilitWeapons/bigob_SAW_Clip.png      
+      423: Resources/Weapons/MilitWeapons/bigob_SAW_ClipAP.png                  
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -972,6 +976,8 @@ extraSprites:
       1064: Resources/Weapons/CityWeapons/handob_NitroExpress_Neo.png
       1072: Resources/MedicalShit/Handob_Cigs.png
       1080: Resources/MedicalShit/handob_MedSpray.png
+      1088: Resources/Weapons/PreWarWeapons/handob_M202.png
+      1096: Resources/Weapons/MilitWeapons/handob_SAW.png
 
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
@@ -1041,7 +1047,6 @@ extraSprites:
       131: Resources/Weapons/CityWeapons/floorob_FlamethrowerClip.png
       132: Resources/Weapons/X-IncGuns/floorob_SuperShotty.png
       133: Resources/Weapons/X-IncGuns/floorob_SuperShottyStock.png
-      133: Resources/Weapons/CityWeapons/floorob_Taser.png
       134: Resources/Weapons/CityWeapons/floorob_Taser_Clip.png
       135: Resources/Weapons/CityWeapons/floorob_Taser_Super_Clip.png
       136: Resources/Weapons/CityWeapons/floorob_SmallShotgun.png
@@ -1218,6 +1223,11 @@ extraSprites:
       366: Resources/Weapons/CityWeapons/Floorob_NitroExpress_Neo_Clip.png
       367: Resources/MedicalShit/floorob_Cigs.png
       368: Resources/MedicalShit/floorob_MedSpray.png
+      369: Resources/Weapons/PreWarWeapons/floorob_M202.png
+      370: Resources/Weapons/PreWarWeapons/floorob_M202_Clip.png
+      371: Resources/Weapons/MilitWeapons/floorob_SAW.png
+      372: Resources/Weapons/MilitWeapons/Floorob_SAW_Clip.png
+
                                    ### Sprite sheet (Battlescape) ###
 ### YourArmour ###
 #StartingJumpSuit_Spritesheet
@@ -1789,7 +1799,6 @@ extraSprites:
       884: Resources/BaseSprites/ALLOYFAC.png
       885: Resources/BaseSprites/LAB_T1.png
       901: Resources/Vessels/Basebits/Cicada_base.png
-      901: Resources/Vessels/Basebits/Cicada_base.png
       903: Resources/Vessels/Basebits/Hamvee_base.png
       904: Resources/Vessels/Basebits/Savage_base.png
          
@@ -1814,24 +1823,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Vessels/Ufopedia/SAVAGE_CPAL.png
-  - type: UFOPEDIA_CAR1.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Vessels/Ufopedia/BANSHEE_UFOPEDIA.png
   - type: Cicada_ufopedia_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
       0:  Resources/Vessels/Ufopedia/Cicada_ufopedia_CPAL.png
-  - type: Cicada_ufopedia_CPAL
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0:  Resources/Vessels/Ufopedia/Highway_Star.png
   - type: FUTUREHAMVEE_ufopedia_CPAL
     singleImage: true
     width: 320
@@ -1898,12 +1895,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/ELECTRONICS_CPAL.png
-  - type: ADVANCED_CIVILIAN_WEAPONS_CPAL.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/TechieShop_CPAL.png
   - type: WASTELAND_MISSIONS_BG_CPAL.SPK
     singleImage: true
     width: 320

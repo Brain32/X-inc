@@ -39,7 +39,6 @@
     size: 0.0
     recover: true
     liveAlien: true
-    liveAlien: true
     prisonType: 0
     costSell: 17500
     listOrder: 151010
@@ -168,7 +167,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 10000 #balcance me
-    listOrder: ???
+    listOrder: 151060
   - type: STR_SYNDICATE_BREACHER
     categories: [STR_HUMANS]
     size: 0.0
@@ -176,7 +175,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 14000 #balcance me
-    listOrder: ???
+    listOrder: 151060
   - type: STR_SYNDICATE_COMMANDO
     categories: [STR_HUMANS]
     size: 0.0
@@ -184,7 +183,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 84000 #balcance me
-    listOrder: ???
+    listOrder: 151060
   - type: STR_SYNDICATE_SHADOWOP
     categories: [STR_HUMANS]
     size: 0.0
@@ -192,7 +191,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 120000 #balcance me
-    listOrder: ???
+    listOrder: 151060
   - type: STR_SYNDICATE_MANAGER
     categories: [STR_HUMANS]
     size: 0.0
@@ -200,7 +199,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 320000 #balcance me
-    listOrder: ???
+    listOrder: 151060
   - type: STR_SYNDICATE_PA_UNIT
     categories: [STR_HUMANS]
     size: 0.0
@@ -208,7 +207,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 102000 #balcance me
-    listOrder: ???
+    listOrder: 151060
 
 # -------------------------------- OldRobots
   - type: STR_OLD_LIGHT_DRONE
@@ -1597,7 +1596,7 @@
     flatRate: true
   - type: STR_BLOOD_DOG_WEAPON
     weight: 3
-    bigSprite: 393
+    bigSprite: 418
     floorSprite: 31
     handSprite: 104
     meleeSound: 49
@@ -3472,12 +3471,11 @@
     hitSound: 13
     power: 18
     damageType: 1
-    damageAlter:
-      RandomType: 2
     accuracySnap: 62
     accuracyCloseQuarters: 125
     tuSnap: 16
     damageAlter:
+      RandomType: 2
       ArmorEffectiveness: 0.95
     clipSize: 8
     battleType: 1
@@ -3488,7 +3486,7 @@
     kneelBonus: 115
     attraction: 5
     listOrder: 19750
-  - type: STR_COLT_REVOLVER
+  - type: STR_BANDIT_REVOLVER
     categories: [STR_PISTOLS]
     requiresBuy:
       - STR_IDDQD
@@ -3503,7 +3501,7 @@
     fireSound: 105
     reloadSound: 101
     compatibleAmmo:
-      - STR_COLT_REVOLVER_AMMO
+      - STR_BANDIT_REVOLVER_AMMO
     accuracySnap: 66
     accuracyAimed: 88
     accuracyCloseQuarters: 125
@@ -3520,7 +3518,7 @@
     invWidth: 1
     invHeight: 2
     listOrder: 12420
-  - type: STR_COLT_REVOLVER_AMMO
+  - type: STR_BANDIT_REVOLVER_AMMO
     categories: [STR_PISTOLS]
     requiresBuy:
       - STR_IDDQD
@@ -7931,6 +7929,97 @@
     invWidth: 2
     invHeight: 2
     listOrder: 13432
+  - type: STR_SAW
+    size: 0.2
+    requiresBuy:
+      - STR_SAW
+    costBuy: 21000
+    costSell: 4275
+    weight: 12
+    bigSprite: 421
+    floorSprite: 371
+    handSprite: 1096
+    bulletSprite: 2
+    fireSound: 106
+    reloadSound: 107
+    compatibleAmmo:
+      - STR_SAW_CLIP
+      - STR_SAW_CLIP_AP
+    accuracyAuto: 55
+    accuracySnap: 60
+    accuracyAimed: 85
+    accuracyCloseQuarters: 70
+    accuracyMultiplier:
+      firing: 0.75
+      flatHundred: 0.25
+    tuAuto: 32
+    tuSnap: 30
+    tuAimed: 65
+    tuLoad: 20
+    confSnap:
+      name: STR_BURST
+      shots: 4
+    sprayWaypoints: 2
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    bulletSpeed: 16
+    autoShots: 4
+    autoRange: 15
+    experienceTrainingMode: 5
+    attraction: 12
+    listOrder: 13400
+  - type: STR_SAW_CLIP
+    requiresBuy:
+      - STR_SAW
+    size: 0.1
+    costBuy: 1200
+    costSell: 250
+    weight: 5
+    bigSprite: 422
+    floorSprite: 372
+    hitSound: 22
+    hitAnimation: 26
+    hitAnimFrames: 1
+    power: 28
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.85
+      ToStun: 0.5
+    clipSize: 50
+    costThrow:
+      energy: 10
+      time: 40
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 30
+    listOrder: 13404
+  - type: STR_SAW_CLIP_AP
+    size: 0.1
+    costSell: 800
+    weight: 5
+    bigSprite: 423
+    floorSprite: 372
+    hitSound: 22
+    hitAnimation: 26
+    hitAnimFrames: 1
+    power: 28
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.7
+      ToHealth: 0.9
+    clipSize: 50
+    costThrow:
+      energy: 10
+      time: 40
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 40
+    listOrder: 13405
   - type: STR_BO_LMG
     categories: [STR_MACHINE_GUNS]
     requiresBuy:
@@ -8465,6 +8554,58 @@
     invWidth: 2
     invHeight: 2
     listOrder: 13922
+  - type: STR_M202_FLASH
+    categories: [STR_XCOM_TECH, STR_LAUNCHERS, STR_HEAVY_WEAPONS, STR_EXPLOSIVES, STR_SPACE, STR_LAND]
+    size: 0.3
+    costSell: 12700
+    weight: 12
+    bigSprite: 419
+    floorSprite: 369
+    handSprite: 1088
+    bulletSprite: 0
+    fireSound: 52
+    reloadSound: 166
+    compatibleAmmo:
+      - STR_M202_FLASH_PACK
+    accuracyCloseQuarters: 45
+    accuracyAuto: 35
+    accuracySnap: 48
+    accuracyAimed: 110
+    tuAuto: 60
+    tuSnap: 45
+    tuAimed: 75
+    aimRange: 20
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 60
+    invWidth: 2
+    invHeight: 3
+    autoShots: 4
+    sprayWaypoints: 2
+    attraction: 24
+    listOrder: 34050
+  - type: STR_M202_FLASH_PACK
+    categories: [STR_XCOM_TECH, STR_LAUNCHERS, STR_HEAVY_WEAPONS, STR_EXPLOSIVES, STR_CLIPS, STR_SPACE, STR_LAND]
+    size: 0.4
+    costSell: 5000
+    weight: 12
+    bigSprite: 420
+    floorSprite: 370
+    hitSound: 0
+    hitAnimation: 0
+    power: 64
+    damageAlter:
+      IgnoreOverKill: false
+    damageType: 3
+    clipSize: 4
+    vaporColorSurface: 0
+    vaporDensitySurface: 26
+    vaporProbabilitySurface: 33
+    battleType: 2
+    invWidth: 2
+    invHeight: 2
+    attraction: 18
+    listOrder: 34060
   - type: STR_SSRL
     requiresBuy:
       - STR_MILITARY_SUPLIES

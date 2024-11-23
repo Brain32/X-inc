@@ -272,7 +272,6 @@ units:
     intelligence: 2
     aggression: 2
     canSurrender: true
-    canSurrender: true
     recover: true
     prisonType: 1
     deathSound: [44, 45, 46]

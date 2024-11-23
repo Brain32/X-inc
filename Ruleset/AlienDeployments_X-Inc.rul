@@ -28,9 +28,9 @@
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER
+            - STR_BANDIT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER_AMMO
             - STR_PIPEBOMB
             - STR_GOLDEN_DRAGONS
           -
@@ -131,9 +131,9 @@
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER
+            - STR_BANDIT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER_AMMO
             - STR_PIPEBOMB
           -
             - STR_JUNKY_SAWED_OFF
@@ -253,7 +253,7 @@
     height: 10
     alert: STR_ALERT_GANG_HOOD
     alertBackground: BACKMISSION_1.SCR
-    alertDescription: STR_GANG_BURGLARY_DESCRIPTION
+    alertDescription: STR_GANG_HOOD_DESCRIPTION
     briefing:
       background: BACKMISSION_2.SCR
       palette: 2
@@ -364,9 +364,9 @@
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER
+            - STR_BANDIT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER_AMMO
             - STR_MOLOTOV
           -
             - STR_MAC12
@@ -388,14 +388,14 @@
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER
+            - STR_BANDIT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER_AMMO
             - STR_MOLOTOV
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER
+            - STR_BANDIT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER_AMMO
             - STR_MOLOTOV
           -
             - STR_RIFLE_AK
@@ -481,9 +481,9 @@
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER
+            - STR_BANDIT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER_AMMO
             - STR_PIPEBOMB
           -
             - STR_JUNKY_SAWED_OFF
@@ -789,7 +789,6 @@
       background: CLUB1.SCR
       palette: 2
       music: GMDEFEND
-      briefing: STR_NIGHT_CLUB_BRIEFING
       showTarget: false
     points: 1
     markerName: STR_NIGHT_CLUB_MARK
@@ -813,14 +812,14 @@
             - STR_RIFLE_M16_CLIP
             - STR_RIFLE_M16_CLIP
           -
-            - STR_M60
-            - STR_M60_CLIP_SMALL
-            - STR_M60_CLIP_SMALL
-            - STR_GRENADE
+            - STR_M202_FLASH
+            - STR_M202_FLASH_PACK
+            - STR_M202_FLASH_PACK
           -
-            - STR_COLT45
-            - STR_COLT45_CLIP
-            - STR_COLT45_CLIP
+            - STR_RUGER_RIFLE
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
+            - STR_GRENADE
           -
             - STR_RIFLE_M16
             - STR_RIFLE_M16_CLIP
@@ -896,7 +895,6 @@
     briefing:
       background: BACKMISSION_WASTE_1.SCR
       palette: 2
-      briefing: STR_SCAVANGER_HUNT_OLD_OUTPOST_BRIEFING
       showTarget: false
     points: 1
     markerName: STR_RAIDER_OUTPOST_HUNT_MARK
@@ -1031,7 +1029,6 @@
     briefing:
       background: BACKMISSION_WASTE_1.SCR
       palette: 2
-      briefing: STR_SCAVANGER_HUNT_OLD_BASE_BRIEFING
       showTarget: false
     points: 1
     markerName: STR_SCAVANGER_HUNT_MARK
@@ -1086,7 +1083,6 @@
       background: SNEED.SCR
       palette: 2
       music: SNEED
-      briefing: STR_SNEEDS_YOUR_FEEDS_BRIEFING
       showTarget: false
     points: 1
     markerName: STR_SNEEDS_YOUR_FEEDS
@@ -1105,30 +1101,30 @@
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER
+            - STR_BANDIT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER_AMMO
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER
+            - STR_BANDIT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER_AMMO
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER
+            - STR_BANDIT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER_AMMO
           -
-            - STR_COLT_REVOLVER
-            - STR_COLT_REVOLVER_AMMO
-            - STR_COLT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER
+            - STR_BANDIT_REVOLVER_AMMO
+            - STR_BANDIT_REVOLVER_AMMO
 
 
                                                 ### UFO ###
 
   - type: STR_SYNDICATE_ERLY_SHIP_1
     data:
-      - alienRank: 6
+      - alienRank: 5 #Soldiers
         lowQty: 4
-        highQty: 7
+        highQty: 6
         dQty: 1
         percentageOutsideUfo: 50
         itemSets:
@@ -1168,7 +1164,7 @@
 
   - type: STR_SYNDICATE_ERLY_SHIP_2
     data:
-      - alienRank: 5
+      - alienRank: 5 #Soldier
         lowQty: 10
         highQty: 28
         dQty: 0
@@ -1231,7 +1227,6 @@
             - STR_SMARTRIFLE_CLIP_AA
             - STR_SMARTRIFLE_CLIP
             - STR_NITRO_GRENADE
-
     width: 60
     length: 60
     height: 6
@@ -1258,7 +1253,6 @@
             - STR_SMG_10MM
             - STR_SMG_10MM_CLIP
             - STR_SMG_10MM_CLIP
-
     width: 60
     length: 60
     height: 6
@@ -1437,11 +1431,6 @@
             - STR_LASER_RIFLE_SIN_CLIP
             - STR_LASER_RIFLE_SIN_CLIP
             - STR_GAS_GRENADE
-
-    alertBackground: BACK03.SCR
-    briefing:
-      palette: 2
-      music: GMENBASE
-    markerName: STR_SIN_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 850
+    width: 60
+    length: 60
+    height: 6

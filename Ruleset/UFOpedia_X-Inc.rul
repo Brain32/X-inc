@@ -254,7 +254,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNARMED_BAISIC_UFOPEDIA
-    listOrder: 12000  #<--- Начало-начал ЛистОрдеров для пушек и оружия
+    listOrder: 12000  #<--- пїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
   - id: STR_KNUCKLES
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -405,13 +405,13 @@ ufopaedia:
   - id: STR_10MM_TRIPLE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_COLT_REVOLVER
+  - id: STR_BANDIT_REVOLVER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_COLT_REVOLVER_UFOPEDIA
+    text: STR_BANDIT_REVOLVER_UFOPEDIA
     requires:
       - STR_IDDQD
-  - id: STR_COLT_REVOLVER_AMMO
+  - id: STR_BANDIT_REVOLVER_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:

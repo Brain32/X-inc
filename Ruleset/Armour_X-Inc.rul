@@ -255,7 +255,6 @@ armors:
     customArmorPreviewIndex: 51
     storeItem: STR_DEFENDER_SUIT
     weight: 3
-    storeItem: STR_NONE
     corpseBattle:
       - STR_CORPSE_DEFENDER
     visibilityAtDark: 14
@@ -1182,7 +1181,6 @@ armors:
     createsMeleeThreat: false
     movementType: 1
     drawingRoutine: 19
-    createsMeleeThreat: false
     overKill: 1.5
     psiDefence: 
       flatHundred: 10.0
@@ -1223,7 +1221,6 @@ armors:
     createsMeleeThreat: false
     movementType: 0
     drawingRoutine: 0
-    createsMeleeThreat: false
     overKill: 1.5
     psiDefence: 
       flatHundred: 10.0
@@ -1683,9 +1680,6 @@ armors:
       stun:
         healthCurrent: 0.1
         health: -0.05
-    meleeDodge:
-      reactions: 0.3
-    meleeDodgeBackPenalty: 0.5
     damageModifier:
       - 0.5   #Null
       - 1.0   #Bullets
