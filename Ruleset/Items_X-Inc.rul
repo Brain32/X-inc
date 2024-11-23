@@ -7572,6 +7572,7 @@
     reloadSound: 135
     compatibleAmmo:
       - STR_MSR770_CLIP
+      - STR_MSR770_BIG_CLIP
     accuracySnap: 70
     accuracyAimed: 175
     accuracyCloseQuarters: 70
@@ -7613,6 +7614,33 @@
       ToArmor: 0
       ToStun: 0.5
     clipSize: 7
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    armor: 30
+    listOrder: 13243
+  - type: STR_MSR770_BIG_CLIP
+    size: 0.05
+    requiresBuy:
+      - STR_MILITARY_SUPLIES
+    costBuy: 4400
+    costSell: 1700
+    weight: 4
+    bigSprite: 285
+    floorSprite: 305
+    hitSound: 174
+    hitAnimation: 26
+    power: 38
+    damageType: 1
+    damageBonus:
+      firing: 0.2
+    damageAlter:
+      RandomType: 7
+      ArmorEffectiveness: 0.8
+      ToArmor: 0
+      ToStun: 0.5
+    clipSize: 25
     costThrow:
       energy: 6
       time: 40
