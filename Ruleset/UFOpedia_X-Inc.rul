@@ -933,6 +933,9 @@ ufopaedia:
   - id: STR_MSR770_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_MSR770_BIG_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
   - id: STR_BO_SNIPER_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT

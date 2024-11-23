@@ -6,16 +6,17 @@ extended:
       # 1: only armor damaged, 2: hp damaged
       LAST_HIT_TYPE: int
       LAST_HIT_POWER: int
+    RuleItem:
+      FTAG_CLIP_ACCURACY_ACCURACY_BONUS: int
 
   scripts:
-    # hitUnit required to find side hit
-    # Otherwise we cannot get the armor value delta
     hitUnit:
-    - offset: 20
-      code: |
-        var int unit_id;
-        unit.getId unit_id;
-        return power part side;
+      - offset: 20
+        code: |
+          var int unit_id;
+          unit.getId unit_id;
+          return power part side;
+
     damageUnit:
       - offset: 20
         code: |
@@ -82,6 +83,24 @@ extended:
             end;
           end;
           return;
+
+    accuracyMultiplierBonusStats:
+      - offset: 10    # Handle accuracy change due to clip extra property
+        code: |
+          var ptr BattleItem clipItem;
+          var ptr RuleItem clipRuleset;
+          var int aim;
+
+          weapon.getAmmoForSlot clipItem 0;
+          clipItem.getRuleItem clipRuleset;
+          clipRuleset.getTag aim Tag.FTAG_CLIP_ACCURACY_ACCURACY_BONUS;
+
+          if neq aim 0; # was aiming at the beginning of the turn
+            add bonus aim;
+          end;
+
+          return bonus;
+
     recolorUnitSprite:
       - offset: 20
         code: |
@@ -136,3 +155,6 @@ extended:
           end;
           
           return new_pixel;
+
+
+

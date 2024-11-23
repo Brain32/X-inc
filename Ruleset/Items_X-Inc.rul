@@ -7647,6 +7647,8 @@
     battleType: 2
     armor: 30
     listOrder: 13243
+    tags: 
+      FTAG_CLIP_ACCURACY_ACCURACY_BONUS: -20
   - type: STR_BO_SNIPER_RIFLE
     categories: [STR_SNIPER_RIFLES]
     requiresBuy:
@@ -9948,3 +9950,9 @@
         battle_game.randomRange fuseLength 0 0;
         item.setFuseTimer fuseLength;
         return;
+
+
+extended:
+  tags:
+    RuleItem:
+      FTAG_CLIP_ACCURACY_ACCURACY_BONUS: int
