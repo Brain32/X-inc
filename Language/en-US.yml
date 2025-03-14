@@ -142,13 +142,21 @@ en-US:
   STR_COLT_KJ58S: "Colt KJ58S"
   STR_COLT_KJ58S_CLIP: "Colt KJ58S clip"
   STR_COLT_KJ58S_UFOPEDIA: "The newly reorganized Colt Company, in conjunction with the US government, is proud to introduce its new pistol, the KJ-58-S model. The noticeable power of this barrel is perfect for neutralizing more heavily armored opponents."
+  STR_SCOPED_MAGNUM: "Scoped Revolver"
+  STR_SCOPED_MAGNUM_DRUM: "Speedloader \ Scoped Revolver"
+  STR_SCOPED_MAGNUM_UFOPEDIA: "A hefty revolver, with a simple kalimatron sight. The caliber is very well known to penetrate simple types of armor, although the size of the ammunition is pretty shitty. The cartridges fit together with a convenient speedloader for 5 cartridges. How convenient!"
+  
   STR_CHEAP_3DPISTOL: "Slaught-o-matic"
   STR_CHEAP_3DPISTOL_UFOPEDIA: "Not enough green for a normal gun? This cheap-ass disposable pistol is available for every member of the social pyramid! 3D printed, this piece of plastic tends to jam, break and fall apart in the owner's hands. Don't even ask about the power of this fart. Cannot be reloaded."
   STR_TASER: "Taser"
   STR_TASER_CLIP: "Taser cartridge"
   STR_TASER_SUPER_CLIP: "Taser mega cartridge"
   STR_TASER_UFOPEDIA: "A non-lethal device capable of cutting off a poorly armored thug."
-
+#SumMachineguns
+  STR_MAC12: "MAC12 & C.E.S."
+  STR_MAC12_UFOPEDIA: "MAC12 Submachine Gun with illegal attachment (Calculating Enhance System) provieds shooter with better fire control during long bursts. The powerfull .45 caliber is a small chery on top, but the range of this thing is leaving much to be desired."
+  STR_MAC12_CLIP: "MAC12 Clip"
+  STR_MAC12_AP_CLIP: "MAC12 Clip/AP"
 #Shotguns
   STR_SMALL_SHOTGUN: "Small Shotgun"
   STR_SMALL_SHOTGUN_SHELLS: "Birdshot"
@@ -226,8 +234,6 @@ en-US:
   STR_GEP_GUN_UFOPEDIA: "Guided Explosive Projectile Launcher, or just a GEP Gun. This weapon can launch rockets with a simple, yet accurate trajectory (2 waypoints)."
 
 #Nades
-  STR_PIPEBOMB: "Pipe bomb"
-  STR_PIPEBOMB_UFOPEDIA: "This bomb was made from scrap materials that can barely be found in the Wastes. Used mainly by raiders and rebels."
   STR_MOLOTOV: "Molotov"
   STR_MOLOTOV_UFOPEDIA: "Favorite coctail f anarchists and other pesky terrorists. Just light it and throw it!{NEWLINE}{NEWLINE}Range:20"
   STR_GAS_GRENADE: "Gas Grenade"
@@ -404,7 +410,8 @@ en-US:
   STR_OURORIGINS_UFOPEDIA: "More than 200 years have passed since the X-com space defense fleet of the Earth destroyed the last strongholds of aliens in our solar system.A lot has changed since then, and humanity has mastered deep space and begun to sow colonies in the nearest corners of the galaxy.{NEWLINE}Who are we exacly? A bunch of enterprising mercenaries who rent a small military base on Earth. Our corporate leadership has chosen you, a cryoprisoner from 2068, to lead our mercenary army! You had experience in leading such organizations, right?"
   STR_WEAPON_SHOPPING: "Weapon Shopping"
   STR_WEAPON_SHOPPING_UFOPEDIA: "We've go through many shops in the mega cityies, looking for more suitable guns for our organization. As expected, we ain't find anything interesting except some useless junk. However, this search has led us to think of going deeper into the Black Market. Of course, we will not immediately put on a cool military equipment, and it will take a lot of time to build up contacts, but it is still worth trying. {NEWLINE}(You can check new weapons in CyberPredia)"
-  STR_BASIC_FIREARMS_TRAINING: "Basic fire arms training"
+  STR_GUNSHOP_ACCESS: "Gun shop access"
+  STR_GUNSHOP_ACCESS_UFOPEDIA: "You can now buy better guns like shotguns or SMGs :)"
   STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: "!Old Military base raid!"
   STR_MILITARY_SUPPLIES: "Military Supplies"
   STR_MILITARY_SUPPLIES_UFOPEDIA: "Now that we have extensive connections with the military, we don�t have to worry about the lack of supply of normal weapons and armor! Now we can buy standard military weapons and armor for our needs."
@@ -427,7 +434,9 @@ en-US:
   STR_GNN_MURDER_1_DESCRIPTION: "{NEWLINE}Last morning, in one of the abandoned junctures of {0} city, the bodies of three notible corruption division at the highest levels of power were found. Megapol refutes political assassination, saying that these noisy individuals should have spent more money and time on their own security than on stupid things like fighting corruption."
   STR_GNN_MURDER_2_DESCRIPTION: "{NEWLINE}Last week, the corpse of a journalist involved in an investigation at one of Zaibatsu enterprises was found. Her skull was broken and there were signs of rape on the body. At a recent conference, the representative of �Zaibatsu� corporation with a bright smile on her face, commented on this event and advised media companies to pay less attention to the common thugs attacks."
   STR_GNN_MURDER_3_DESCRIPTION: "{NEWLINE}Last Tuesday there was a performance by eco-activists in the museum of mega-city {0}. The protesters smeared ancient artifact, found in Tau Kita - 12 solar system, with a paint, in protest against the useage of nuclear energy in warp engines. The show's curator, who personally killed the hooligans in front of a jubilant audience, has claimed that this incident was an act of disrespect towards the Space Guild and will demand compensation from the families of nutrlized hooligans for damaging expensive property."
-
+#Events - BadEvents
+  STR_TRAFFIC_TICKET: "Traffic Ticket"
+  STR_TRAFFIC_TICKET_DESCRIPTION: "After one of our missions we received a bill for parking in the wrong place. This kind of small misdemeanors still hurt your reputation. {NEWLINE}[-25 Raiting] {NEWLINE}[-500 Credits]"
 #Missions
   STR_OLD_MILBASE_MISSION_PED: "!Old Military base raid!"
   STR_OLD_MILBASE_MISSION_READY_UFOPEDIA: "We speak with a few wasteland rangers warchiefs and they agreed to let us in in their old military base expeditions.But they warn us that this facility would be filled with mutants and old security robots that will shred anyone who dares to step inside. So they suggest us be prepared, they let us know if opportunity arise.But some of our shareholders won't be happy about this type of... liberties that we are taking."

@@ -275,10 +275,20 @@ research:
     listOrder: 151060
 
 #TechTree
-
+  - name: STR_PERSONNEL_REFORM
+    cost: 45 
+    points: 5
+    listOrder: 151060 
   - name: STR_WEAPON_SHOPPING
     cost: 45 
     points: 10
+    listOrder: 151060
+  - name: STR_GUNSHOP_ACCESS
+    cost: 45 
+    points: 10
+    dependencies:
+      - STR_PERSONNEL_REFORM    
+      - STR_WEAPON_SHOPPING
     listOrder: 151060
   - name: STR_ELECTRONICS
     cost: 35 
@@ -290,7 +300,7 @@ research:
     cost: 50 
     points: 40
     dependencies:
-      - STR_WEAPON_SHOPPING
+      - STR_GUNSHOP_ACCESS
     listOrder: 151060
   - name: STR_MILITARY_SUPLIES
     cost: 75 
@@ -320,10 +330,16 @@ research:
     cost: 25 
     points: 5
     dependencies:
-      - STR_WEAPON_SHOPPING
+      - STR_GUNSHOP_ACCESS
+    listOrder: 151060
+  - name: STR_SCOPED_MAGNUM_ACQUISITION
+    cost: 35 
+    points: 5
+    dependencies:
+      - STR_GUNSHOP_ACCESS
     listOrder: 151060
   - name: STR_NITRO_EXPRESS_BUY
-    cost: 15 
+    cost: 50 
     points: 5
     dependencies:
       - STR_BLACK_MARKET_ACCES
@@ -515,7 +531,7 @@ research:
     needItem: true
     listOrder: 151070
     dependencies:
-      - STR_BLACK_MARKET_ACCES
+      - STR_GUNSHOP_ACCESS
         #LazorTier
   - name: STR_LASER_SMG_SIN
     requiresBaseFunc: [BASIC_LAB]

@@ -1632,7 +1632,6 @@
       ArmorEffectiveness: 1.6
       ToArmorPre: 0.04
       ToStun: 0.75
-    clipSize: 50
     accuracyAuto: 35
     tuAuto: 40
     battleType: 1
@@ -3567,7 +3566,6 @@
     snapRange: 8
     aimRange: 14
     attraction: 10
-    kneelBonus: 110
     invWidth: 1
     invHeight: 1
     listOrder: 12420
@@ -3660,7 +3658,6 @@
     damageAlter:
       ArmorEffectiveness: 0.85
       ToStun: 0.5
-    damageType: 1
     clipSize: 12
     battleType: 2
     armor: 35
@@ -4044,6 +4041,62 @@
     battleType: 2
     armor: 25
     listOrder: 12499
+  - type: STR_SCOPED_MAGNUM
+    size: 0.1
+    requiresBuy:
+      - STR_SCOPED_MAGNUM_ACQUISITION
+    costBuy: 16500
+    costSell: 4500
+    weight: 12
+    bigSprite: 424
+    floorSprite: 373
+    handSprite: 1104
+    bulletSprite: 3
+    fireSound: 105
+    reloadSound: 101
+    compatibleAmmo:
+      - STR_SCOPED_MAGNUM_DRUM
+    accuracySnap: 85
+    accuracyAimed: 100
+    accuracyCloseQuarters: 105
+    tuSnap: 30
+    tuAimed: 40
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    snapRange: 19
+    aimRange: 25
+    dropoff: 3
+    kneelBonus: 110
+    attraction: 12
+    listOrder: 12500
+  - type: STR_SCOPED_MAGNUM_DRUM
+    size: 0.025
+    costBuy: 900
+    costSell: 250
+    weight: 2
+    bigSprite: 425
+    floorSprite: 374
+    hitSound: 13
+    hitAnimation: 26
+    power: 38
+    damageBonus:
+      firing: 0.1
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 1.1
+      ToStun: 0.75
+    clipSize: 5
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    armor: 30
+    listOrder: 12502      
   - type: STR_COLT45
     categories: [STR_PISTOLS]
     requiresBuy:
@@ -4494,7 +4547,6 @@
     battleType: 2
     vaporColorSurface: 8
     vaporDensitySurface: 5
-    vaporDbabilitySurface: 100
     armor: 70
     listOrder: 12581
                            ##LaserTier
@@ -4850,7 +4902,6 @@
       IgnoreDirection: false
       ArmorEffectiveness: 1.0
       ToTile: 0.0
-    damageType: 6
     blastRadius: 0
     clipSize: 6
     battleType: 2
@@ -5211,10 +5262,6 @@
     shotgunPellets: 5
     attraction: 15
     listOrder: 22360
-    battleType: 2
-    armor: 30
-    attraction: 15
-    listOrder: 18911
   - type: STR_CRUSHER_SHOTGUN_CLIP2
     requiresBuy:
       - STR_BLACK_MARKET_ACCES
@@ -5233,10 +5280,6 @@
     armor: 30
     attraction: 15
     listOrder: 22360
-    battleType: 2
-    armor: 30
-    attraction: 15
-    listOrder: 18911
 
   - type: STR_DOMESTIC_SHOTGUN
     size: 0.2
@@ -5289,10 +5332,6 @@
     shotgunPellets: 7
     attraction: 15
     listOrder: 22360
-    battleType: 2
-    armor: 20
-    attraction: 15
-    listOrder: 18911
   - type: STR_SMALL_SHOTGUN_SHELLS_SLUG
     size: 0.05
     costBuy: 120
@@ -5312,10 +5351,6 @@
     shotgunPellets: 3
     attraction: 15
     listOrder: 22360
-    battleType: 2
-    armor: 20
-    attraction: 15
-    listOrder: 18911
   - type: STR_OL_WINCHESTER
     categories: [STR_SHOTGUNS]
     requiresBuy:

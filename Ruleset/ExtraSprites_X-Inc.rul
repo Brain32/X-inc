@@ -847,6 +847,8 @@ extraSprites:
       421: Resources/Weapons/MilitWeapons/bigob_SAW.png      
       422: Resources/Weapons/MilitWeapons/bigob_SAW_Clip.png      
       423: Resources/Weapons/MilitWeapons/bigob_SAW_ClipAP.png                  
+      424: Resources/Weapons/CityWeapons/bigob_Revolver.png
+      425: Resources/Weapons/CityWeapons/bigob_Revolver_Clip.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -978,6 +980,8 @@ extraSprites:
       1080: Resources/MedicalShit/handob_MedSpray.png
       1088: Resources/Weapons/PreWarWeapons/handob_M202.png
       1096: Resources/Weapons/MilitWeapons/handob_SAW.png
+      1104: Resources/Weapons/CityWeapons/Handob_Revolver.png
+
 
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
@@ -1227,6 +1231,8 @@ extraSprites:
       370: Resources/Weapons/PreWarWeapons/floorob_M202_Clip.png
       371: Resources/Weapons/MilitWeapons/floorob_SAW.png
       372: Resources/Weapons/MilitWeapons/Floorob_SAW_Clip.png
+      373: Resources/Weapons/CityWeapons/Floorob_Revolver.png
+      374: Resources/Weapons/CityWeapons/Floorob_Revolver_Clip.png
 
                                    ### Sprite sheet (Battlescape) ###
 ### YourArmour ###
@@ -1742,11 +1748,14 @@ extraSprites:
   - type: INTICON.PCK
     files:
       797: Resources/Vessels/Inticon/HoverScooter_minimised.png
-      798: Resources/Vessels/Inticon/Car1_minimised.png
+
       808: Resources/Vessels/Inticon/HoverScooter_dogfight.png
-      809: Resources/Vessels/Inticon/Car1_dogfight.png
+      832: Resources/Vessels/Inticon/Car1_minimised.png
       829: Resources/Vessels/Inticon/HoverVan_minimised.png
+      830: Resources/Vessels/Inticon/DodoBig_minimised.png
       840: Resources/Vessels/Inticon/HoverVan_dogfight.png
+      841: Resources/Vessels/Inticon/DodoBig_dogfight.png
+      843: Resources/Vessels/Inticon/Car1_dogfight.png
       868: Resources/Vessels/Inticon/Cicada_minimised.png
       870: Resources/Vessels/Inticon/Hamvee_minimised.png
       879: Resources/Vessels/Inticon/Cicada_dogfight.png
@@ -1782,9 +1791,14 @@ extraSprites:
       334: Resources/BaseSprites/SC_b_3.png
       335: Resources/BaseSprites/SC_b_4.png
       336: Resources/BaseSprites/RECROOM.png
+      798: Resources/Vessels/Inticon/DodoSmall_minimised.png
+      809: Resources/Vessels/Inticon/DodoSmall_dogfight.png
       830: Resources/Vessels/Basebits/HoverScooter_base.png
-      831: Resources/Vessels/Basebits/Car1_base.png
+      831: Resources/Vessels/Basebits/DodoSmall_Base.png
+
       862: Resources/Vessels/Basebits/HoverVan_base.png
+      863: Resources/Vessels/Basebits/DodoBig_Base.png
+      865: Resources/Vessels/Basebits/Car1_base.png
       866: Resources/BaseSprites/GYM.png
       867: Resources/BaseSprites/CORRIDOR.png
       868: Resources/BaseSprites/MEDBAY.png
@@ -1817,6 +1831,24 @@ extraSprites:
     height: 200
     files:
       0: Resources/Vessels/Ufopedia/BANSHEE_UFOPEDIA.png
+  - type: UFOPEDIA_SMALLDODO_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vessels/Ufopedia/SmallDODO_CPAL.png
+  - type: UFOPEDIA_DODO_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vessels/Ufopedia/DODO_CPAL.png  
+  - type: UFOPEDIA_BIGDODO_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vessels/Ufopedia/BigDODO_CPAL.png                
   - type: UFOPEDIA_SAVAGE_CPAL.SPK
     singleImage: true
     width: 320
@@ -1889,6 +1921,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/TechieShop_CPAL.png
+  - type: GUNSHOP_ACCES.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/GunShop_Cyberpunk.png    
   - type: ELECTRONICS_CPAL.SPK
     singleImage: true
     width: 320

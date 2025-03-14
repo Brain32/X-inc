@@ -70,7 +70,7 @@ crafts:
           length: 10
     listOrder: 7294
   - type: STR_FUTURECAR1
-    sprite: 798
+    sprite: 832
     fuelMax: 9999
     damageMax: 20
     speedMax: 200
@@ -120,7 +120,6 @@ crafts:
     sightRange: 500
     transferTime: 12
     score: 35
-    vehicles: 1
     maxLargeVehicles: 0
     maxSmallVehicles: 1
     undetectable: true
@@ -155,7 +154,6 @@ crafts:
     sightRange: 500
     transferTime: 12
     score: 50
-    vehicles: 1
     maxLargeVehicles: 0
     maxSmallVehicles: 1
     undetectable: true
@@ -252,11 +250,10 @@ crafts:
     sprite: 871 # this sprite is the number for minimized in INTICON.pck
     soldiers: 10
     pilots: 2
-    vehicles: 1
     costBuy: 240000
     costRent: 12000
     costSell: 670000
-    fuelMax: 300
+    fuelMax: 1500
     refuelRate: 5
     refuelItem: STR_ELERIUM_115
     repairRate: 10
@@ -266,7 +263,6 @@ crafts:
     maxLargeVehicles: 1
     maxSmallVehicles: 4
     maxItems: 999
-    fuelMax: 1500 #FOR BALLANCEING!!!
     damageMax: 260
     speedMax: 500
     accel: 4
@@ -302,6 +298,88 @@ crafts:
       - [4, 14, 1, 0]
     listOrder: 382
 
+  - type: STR_DODO_SMALL_CRAFT
+    requires:
+      - STR_IDDQD
+    sprite: 798
+    fuelMax: 1250
+    damageMax: 100
+    speedMax: 1140
+    accel: 2
+    soldiers: 10
+    vehicles: 1
+    costBuy: 900000
+    costRent: 80000
+    forceShowInMonthlyCosts: true
+    refuelRate: 50
+    transferTime: 72
+    score: 250
+    battlescapeTerrainData:
+      name: PLANE_DODO_SMALL
+      mapDataSets:
+        - BLANKS
+        - PLANE_DODO
+      mapBlocks:
+        - name: PLANE_DODO_SMALL
+          width: 10
+          length: 20  
+  - type: STR_DODO_CRAFT
+    requires:
+      - STR_IDDQD
+    sprite: 830
+    fuelMax: 1500
+    damageMax: 450
+    speedMax: 1000
+    accel: 3
+    armor: 1
+    soldiers: 14
+    vehicles: 2
+    costBuy: 1000000
+    costRent: 80000
+    forceShowInMonthlyCosts: true
+    refuelRate: 50
+    transferTime: 72
+    score: 300
+    battlescapeTerrainData:
+      name: PLANE_DODO
+      mapDataSets:
+        - BLANKS
+        - PLANE_DODO
+      mapBlocks:
+        - name: PLANE_DODO
+          width: 10
+          length: 20
+  - type: STR_DODO_BIG_CRAFT
+    requires:
+      - STR_IDDQD
+    sprite: 830
+    fuelMax: 1500
+    damageMax: 450
+    speedMax: 1000
+    accel: 3
+    armor: 1
+    soldiers: 26
+    vehicles: 4
+    pilots: 1
+    costRent: 100000
+    costSell: 700000
+    refuelRate: 50
+    radarRange: 672
+    radarChance: 100
+    sightRange: 1696
+    repairRate: 15
+    transferTime: 72
+    score: 450
+    battlescapeTerrainData:
+      name: PLANE_DODO_BIG
+      mapDataSets:
+        - BLANKS
+        - PLANE_DODO
+      mapBlocks:
+        - name: PLANE_DODO_BIG
+          width: 10
+          length: 20
+       
   - type: STR_SKYRANGER
     requires:
       - STR_IDDQD

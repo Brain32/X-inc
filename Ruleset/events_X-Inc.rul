@@ -23,7 +23,12 @@ eventScripts:
     researchTriggers:
        STR_WEAPON_SHOPPING: true
     executionOdds: 100
-
+  - type: STR_TRAFFIC_TICKET
+    eventWeights:
+      0:
+        STR_TRAFFIC_TICKET: 100
+    firstMonth: 0
+    executionOdds: 100
 
 ####################test script
 #  - type: STR_TEST_EVENT
@@ -88,6 +93,14 @@ events:
     timer: 60
     timerRandom: 300
 
+#=============================================== NegativeEvents===============================================#
+  - name: STR_TRAFFIC_TICKET
+    description: STR_TRAFFIC_TICKET_DESCRIPTION
+    background: CITY2_BG.SCR
+    points: -25
+    funds: -500
+    timer: 20
+    timerRandom: 43500
 #=============================================== PositiveEvents===============================================#
 
 

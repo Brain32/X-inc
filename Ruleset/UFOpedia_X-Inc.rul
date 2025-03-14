@@ -427,6 +427,17 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
+  - id: STR_SCOPED_MAGNUM
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SCOPED_MAGNUM_UFOPEDIA
+    requires:
+      - STR_SCOPED_MAGNUM_ACQUISITION
+  - id: STR_SCOPED_MAGNUM_DRUM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_SCOPED_MAGNUM_ACQUISITION  
 #LazorTier
   - id: STR_LASER_PISTOL_SIN
     type_id: 4
@@ -484,15 +495,10 @@ ufopaedia:
     requires:
       - STR_IDDQD
   - id: STR_DOUBLE_BARRELED_BUCKSHOT_SLUG
-    type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
     type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TEC9_UFOPEDIA
-    requires:
-      - STR_IDDQD
   - id: STR_TEC9_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -522,15 +528,13 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_OICW
-    requiresBuy:
+    requires:
       - STR_IDDQD
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_OICW_UFOPEDIA
-    requires:
-      - STR_IDDQD
   - id: STR_OICW_GRENADE_CLIP
-    requiresBuy:
+    requires:
       - STR_IDDQD
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -1960,9 +1964,16 @@ ufopaedia:
     text_width: 154
     section: STR_FACTIONS_UC
     text: STR_WEAPON_SHOPPING_UFOPEDIA
-    requires:
-      - STR_WEAPON_SHOPPING
     listOrder: 270630
+  - id: STR_GUNSHOP_ACCESS
+    type_id: 7
+    image_id: GUNSHOP_ACCES.SPK
+    text_width: 154
+    section: STR_FACTIONS_UC
+    text: STR_GUNSHOP_ACCESS_UFOPEDIA
+    requires:
+      -  STR_WEAPON_SHOPPING
+    listOrder: 270630   
   - id: STR_BLACK_MARKET_ACCES
     type_id: 7
     image_id: BLACKMARKET_CPAL.SPK
@@ -2193,8 +2204,6 @@ ufopaedia:
       - STR_FUSION_MISSILE
     image_id: UP009.SPK
     text: STR_FUSION_BALL_UFOPEDIA
-    requires:
-      - STR_IDDQD
   - id: STR_LASER_CANNON_UC
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -2227,6 +2236,7 @@ ufopaedia:
       height: 120
     text: STR_HOVERSCOOTER_UFOPEDIA
     listOrder: 7292
+
   - id: STR_FUTURECAR1
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -2243,6 +2253,7 @@ ufopaedia:
       height: 120
     text: STR_FUTURECAR1_UFOPEDIA
     listOrder: 7292
+
   - id: STR_HOVERVAN
     requires:
       - STR_HOVERVAN_BUY
@@ -2261,6 +2272,7 @@ ufopaedia:
       height: 120
     text: STR_HOVERVAN_UFOPEDIA
     listOrder: 7292
+
   - id: STR_SAVAGE_CRAFT
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -2316,6 +2328,60 @@ ufopaedia:
     text: STR_FUTUREHAMVEE_UFOPEDIA
     listOrder: 382
 
+  - id: STR_DODO_SMALL_CRAFT
+    type_id: 1
+    requires:
+      - STR_IDDQD
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: UFOPEDIA_SMALLDODO_CPAL.SPK
+    rect_stats:
+      x: 160
+      y: 5
+      width: 160
+      height: 60
+    rect_text:
+      x: 5
+      y: 40
+      width: 140
+      height: 100
+    text: STR_DODO_SMALL_CRAFT_UFOPEDIA
+
+  - id: STR_DODO_CRAFT
+    type_id: 1
+    requires:
+      - STR_IDDQD
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: UFOPEDIA_DODO_CPAL.SPK
+    rect_stats:
+      x: 160
+      y: 5
+      width: 160
+      height: 60
+    rect_text:
+      x: 5
+      y: 40
+      width: 140
+      height: 100
+    text: STR_DODO_CRAFT_UFOPEDIA
+    
+  - id: STR_DODO_BIG_CRAFT
+    type_id: 1
+    requires:
+      - STR_IDDQD
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: UFOPEDIA_BIGDODO_CPAL.SPK
+    rect_stats:
+      x: 160
+      y: 5
+      width: 160
+      height: 60
+    rect_text:
+      x: 5
+      y: 40
+      width: 140
+      height: 100
+    text: STR_DODO_BIG_CRAFT_UFOPEDIA        
+    
   - id: STR_SKYRANGER
     type_id: 1
     requires:
@@ -2333,6 +2399,7 @@ ufopaedia:
       width: 140
       height: 100
     text: STR_SKYRANGER_UFOPEDIA
+
   - id: STR_INTERCEPTOR
     type_id: 1
     requires:
