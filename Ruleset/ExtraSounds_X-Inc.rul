@@ -95,6 +95,7 @@ extraSounds:
       191: Resources/Sounds/Hit/ChainHit.wav
       192: Resources/Sounds/Hit/ChainSwing.wav
       193: Resources/Sounds/Fire/LASER_1.wav
+      194: Resources/Sounds/Robots/ST_Deploy.wav
 
   - type: GEO.CAT
     files:

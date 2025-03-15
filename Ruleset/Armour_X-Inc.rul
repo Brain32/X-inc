@@ -1022,6 +1022,51 @@ armors:
 
 # Your turrets
 
+  - type: STR_SENTRY_TURRET_MK1_ARMOR
+    spriteSheet: SENTRY_TURRET_MK1.PCK
+    spriteInv: SENTRY_TURRET_MK1.SPK
+    allowInv: true
+    corpseBattle:
+      - STR_CORPSE_SENTRY_TURRET_MK1
+    corpseGeo: STR_CORPSE_SENTRY_TURRET_MK1
+    weight: -250
+    visibilityAtDay: 30
+    visibilityAtDark: 10
+    fearImmune: true
+    allowsMoving: false
+    ignoresMeleeThreat: false
+    createsMeleeThreat: false
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    drawingRoutine: 5
+    size: 1
+    overKill: 3.0
+    psiDefence:
+      flatHundred: 2.0
+    damageModifier: &SECTION_TRUCK_TURRET_RESISTANCES
+      - 1.0 #Null
+      - 0.85 #Bullets
+      - 0.40 #Fire
+      - 1.0 #High Explosive
+      - 0.9 #Laser
+      - 0.9 #Plasma 
+      - 0.4 #Stun
+      - 1.0 #Melee
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 1.3 #EMP
+      - 1.2 #Electro
+      - 0.0 #PSI
+      - 1.5 #WRAP
+      - 0.0 #E115
+      - 0.0 #Bio
+    builtInWeapons:
+      - AUX_SENTRY_TURRET_GUN
+      - AUX_SENTRY_TURRET_GUN
+    loftempsSet: [ 3 ]
+
   - type: HUMVEE_TURRET_ARMOR
     spriteSheet: HAM_TURRET_SHEET.PCK
     spriteInv: HUMVEE_TURRET.SPK

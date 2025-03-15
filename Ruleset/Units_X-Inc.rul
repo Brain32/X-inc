@@ -1,8 +1,6 @@
 units:
-
                                              ### Friends ###
                                ## Rangers ## 
-
   - type: STR_RANGER01
     race: STR_WASTELAND_RANGERS
     rank: STR_LIVE_SOLDIER
@@ -1096,9 +1094,38 @@ units:
     deathSound: [41, 42, 43]
     spotter: 2
     sniper: 45
-    canSurrender: true
 
 ###YourTurrets###
+
+  - type: STR_SENTRY_TURRET_MK1
+    race: STR_WAR_MACHINES
+    rank: STR_LIVE_TERRORIST
+    stats: 
+      tu: 50
+      stamina: 1
+      health: 40
+      bravery: 110
+      reactions: 60
+      firing: 60
+      throwing: 0
+      strength: 75
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    armor: STR_SENTRY_TURRET_MK1_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    energyRecovery: 1
+    value: 100
+    intelligence: 2
+    aggression: 8
+    specab: 1
+    spotter: 1
+    sniper: 75
+    deathSound: 23
+    livingWeapon: true
+    capturable: false
 
   - type: STR_HUMVEE_TURRET_ARMOR
     race: STR_WAR_MACHINES

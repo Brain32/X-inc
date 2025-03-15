@@ -279,7 +279,11 @@ extraSprites:
       0: Resources/Armours/AI/HoverTank/Inv_HoverTank_Cannon.png
 
                                                       #### Your Turrets ####
-
+#Sentry Turret
+  - type: SENTRY_TURRET_MK1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/AI/SenteryTurret_MK1/Inv_ST_MK1.png
 #SecBot_Inv
   - type: HUMVEE_TURRET.SPK
     singleImage: true
@@ -849,6 +853,9 @@ extraSprites:
       423: Resources/Weapons/MilitWeapons/bigob_SAW_ClipAP.png                  
       424: Resources/Weapons/CityWeapons/bigob_Revolver.png
       425: Resources/Weapons/CityWeapons/bigob_Revolver_Clip.png
+      426: Resources/Armours/AI/SenteryTurret_MK1/BigOb_ST_MK1.png
+      427: Resources/Armours/AI/SenteryTurret_MK1/BigOb_Wreck.png     
+      428: Resources/Armours/AI/SenteryTurret_MK1/BigOb_ST_MK1_Gun.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -981,6 +988,7 @@ extraSprites:
       1088: Resources/Weapons/PreWarWeapons/handob_M202.png
       1096: Resources/Weapons/MilitWeapons/handob_SAW.png
       1104: Resources/Weapons/CityWeapons/Handob_Revolver.png
+      1112: Resources/Armours/AI/SenteryTurret_MK1/handob_ST_MK1.png
 
 
 # FloorBattlescape (FLOOR)
@@ -1233,6 +1241,8 @@ extraSprites:
       372: Resources/Weapons/MilitWeapons/Floorob_SAW_Clip.png
       373: Resources/Weapons/CityWeapons/Floorob_Revolver.png
       374: Resources/Weapons/CityWeapons/Floorob_Revolver_Clip.png
+      375: Resources/Armours/AI/SenteryTurret_MK1/FloorOb_ST_MK1.png
+      376: Resources/Armours/AI/SenteryTurret_MK1/FloorOb_Dead_ST_MK1.png
 
                                    ### Sprite sheet (Battlescape) ###
 ### YourArmour ###
@@ -1336,6 +1346,13 @@ extraSprites:
     files:
       0: Resources/Armours/AI/HoverTank/HOVERTANK.png
                                                                   ###Your Turrets###
+  - type: SENTRY_TURRET_MK1.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 120
+    files:
+      0:  Resources/Armours/AI/SenteryTurret_MK1/SenteryTurret_1.png                                                                
   - type: HAM_TURRET_SHEET.PCK
     width: 256
     height: 840
@@ -2184,6 +2201,7 @@ extraSprites:
       216: Resources/Weapons/HitAnimations/LaserCutter_hit.png
       226: Resources/Weapons/HitAnimations/Green_Hellish_hit.png
       236: Resources/Weapons/HitAnimations/Ectoplasm_hit.png
+      246: Resources/Weapons/HitAnimations/Turret_Deploymnet.png
 
   - type: HIT.PCK
     height: 40

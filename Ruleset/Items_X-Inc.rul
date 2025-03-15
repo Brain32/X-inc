@@ -643,6 +643,19 @@
 
 # -------------------------------- Dead Robots
 
+  - type: STR_CORPSE_SENTRY_TURRET_MK1
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.5
+    weight: 40
+    bigSprite: 427
+    floorSprite: 376
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 50
+    recover: false
+
   - type: STR_CORPSE_SECBOT_MK1
     categories: [STR_CORPSES]
     name: STR_CORPSE
@@ -653,7 +666,7 @@
     invWidth: 2
     invHeight: 3
     battleType: 11
-    armor: 80
+    armor: 50
     recover: false
 
      #--OldSecRobots
@@ -1696,6 +1709,39 @@
     damageType: 1
     clipSize: 30
     battleType: 2
+
+#Guns for turrets
+
+  - type: AUX_SENTRY_TURRET_GUN
+    weight: 100
+    bigSprite: 428
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 1
+    fireSound: 100
+    hitAnimation: 26
+    hitAnimFrames: 3
+    power: 30
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 1.6
+      ToArmorPre: 0.04
+      ToStun: 0.75
+    clipSize: 65
+    accuracyAuto: 45
+    tuAuto: 40
+    confAuto:
+      name: STR_BURST
+      shots: 5  
+    battleType: 1
+    fixedWeapon: true
+    recover: false
+    sprayWaypoints: 2
+    invWidth: 2
+    invHeight: 3
+    autoRange: 25
+    autoShots: 6
+    bulletSpeed: 30
 
   - type: AUX_HUMVEE_GUN
     weight: 125
@@ -7437,7 +7483,6 @@
     battleType: 1
     twoHanded: true
     blockBothHands: true
-    snapRange: 18
     invWidth: 1
     invHeight: 3
     armor: 30
@@ -7622,7 +7667,6 @@
     battleType: 1
     twoHanded: true
     blockBothHands: true
-    snapRange: 18
     invWidth: 1
     invHeight: 3
     armor: 30
@@ -9513,6 +9557,51 @@
     battleType: 2
     invWidth: 2
     invHeight: 1
+
+                                  ####### Turrets You spawn #######
+
+  - type: STR_DEPLOY_SENTRY_TURRET_MK1
+    battleType: 1
+    costBuy: 30000
+    costSell: 10000
+    bigSprite: 426
+    handSprite: 1112
+    floorSprite: 375
+    bulletSpeed: 9999
+    fireSound: 194
+    hitAnimation: 246 #Здесь должна быть анимация спавна
+    power: 0
+    damageType: 2
+    damageAlter:
+      FixRadius: 0
+      ArmorEffectiveness: 0
+      ToArmor: 0
+      ToHealth: 0
+      ToStun: 0
+      ToWound: 0
+      ToTile: 0
+    accuracyAimed: 200
+    maxRange: 1
+    throwRange: 4
+    clipSize: 1
+    confAimed:
+      name: STR_DEPLOY
+    costAimed:
+      time: 40
+      energy: 10
+    costThrow:
+      energy: 20
+      time: 40
+    flatRate: true
+    experienceTrainingMode: 32
+    recover: true
+    weight: 35
+    invWidth: 2
+    invHeight: 3
+    hiddenOnMinimap: true
+    armor: 2
+    spawnUnit: STR_SENTRY_TURRET_MK1
+    spawnUnitChance: 100
 
                                   ####### Misc Items #######
 
