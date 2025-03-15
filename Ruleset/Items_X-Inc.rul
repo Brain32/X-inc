@@ -124,7 +124,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 18000
-    listOrder: ???
+#    listOrder: ???
   - type: STR_GUNRUNNER_MASTER
     categories: [STR_HUMANS]
     size: 0.0
@@ -132,7 +132,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 25750
-    listOrder: ???
+#    listOrder: ???
 
 # -------------------------------- CitySlacker - Warriors
   - type: STR_TIGERCALW_FEMGOON
@@ -217,7 +217,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 25000 
-    listOrder: ???
+#    listOrder: ???
   - type: STR_OLD_MINIGUN_TURRET
     categories: [STR_HUMANS]
     size: 0.4
@@ -225,7 +225,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 27000 
-    listOrder: ???
+#    listOrder: ???
   - type: STR_OLD_SEC_ROBOT
     categories: [STR_HUMANS]
     size: 3.0
@@ -234,7 +234,7 @@
     prisonType: 0
     costSell: 80000
     costSell: 32000
-    listOrder: ???
+#    listOrder: ???
 # -------------------------------- Smugler
   - type: STR_SMUGLER_GOON
     categories: [STR_HUMANS]
@@ -243,7 +243,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 18000 
-    listOrder: ???
+#    listOrder: ???
   - type: STR_SMUGLER_NEGOTIATOR
     categories: [STR_HUMANS]
     size: 0.0
@@ -251,7 +251,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 32000 
-    listOrder: ???
+#    listOrder: ???
   - type: STR_SMUGLER_LANCE
     categories: [STR_HUMANS]
     size: 0.0
@@ -259,7 +259,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 68000 
-    listOrder: ???
+#    listOrder: ???
   - type: STR_SMUGLER_FIXER
     categories: [STR_HUMANS]
     size: 0.0
@@ -267,7 +267,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 96000 
-    listOrder: ???
+#    listOrder: ???
 # -------------------------------- Terrorists - SiN
   - type: STR_TERRORIST_SIN_1
     categories: [STR_HUMANS]
@@ -277,7 +277,7 @@
     prisonType: 0
     costSell: 20000
     recoveryPoints: 30
-    listOrder: ???
+#    listOrder: ???
   - type: STR_TERRORIST_SIN_2
     categories: [STR_HUMANS]
     size: 0.0
@@ -286,7 +286,7 @@
     prisonType: 0
     costSell: 43000
     recoveryPoints: 35
-    listOrder: ???
+#    listOrder: ???
   - type: STR_TERRORIST_SIN_3
     categories: [STR_HUMANS]
     size: 0.0
@@ -295,7 +295,7 @@
     prisonType: 0
     costSell: 76000 
     recoveryPoints: 40
-    listOrder: ???
+#    listOrder: ???
 # -------------------------------- Wasteland Bikers
   - type: STR_WST_BIKER_1
     categories: [STR_HUMANS]
@@ -304,7 +304,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 4000 
-    listOrder: ???
+#    listOrder: ???
   - type: STR_WST_BIKER_2
     categories: [STR_HUMANS]
     size: 0.0
@@ -312,7 +312,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 7000
-    listOrder: ???
+#    listOrder: ???
   - type: STR_WST_BIKER_3
     categories: [STR_HUMANS]
     size: 0.0
@@ -320,7 +320,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 14000
-    listOrder: ???
+#    listOrder: ???
   - type: STR_WST_BIKER_4
     categories: [STR_HUMANS]
     size: 0.0
@@ -328,7 +328,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 12000
-    listOrder: ???
+#    listOrder: ???
   - type: STR_WST_BIKER_5
     categories: [STR_HUMANS]
     size: 0.0
@@ -336,7 +336,7 @@
     liveAlien: true
     prisonType: 0
     costSell: 18000
-    listOrder: ???
+#    listOrder: ???
 
 # -------------------------------- AliveRobots
 

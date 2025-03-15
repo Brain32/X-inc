@@ -189,8 +189,6 @@ soldierBonuses:
       reactions: 10
       throwing: 10
       melee: 15
-      mana:
-        flatOne: 1
       morale:
         flatOne: 3 
 #NaturalTransformations
