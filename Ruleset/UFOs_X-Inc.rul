@@ -159,7 +159,6 @@ ufos:
       mapDataSets:
         - BLANKS
         - WASTEFACTORY
-      mapBlocks:
   - type: STR_WASTE_GANG_OUTOPST
     size: STR_SMALL
     sprite: 0

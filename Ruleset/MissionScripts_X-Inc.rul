@@ -47,7 +47,7 @@ missionScripts:
     executionOdds: 70
     missionWeights:
       0:
-        STR_WASTELAND_FACTORY_BIG: 100
+        STR_WASTELAND_BIG_FACTORY_RAID: 100
     regionWeights: &WastelandRegions
       0:
         STR_EUROPE: 250

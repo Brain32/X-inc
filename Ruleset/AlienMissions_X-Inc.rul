@@ -27,7 +27,7 @@ alienMissions:
         timer: 9000
         objective: true
 
-  - type: STR_WASTELAND_FACTORY_BIG
+  - type: STR_WASTELAND_BIG_FACTORY_RAID
     objective: 3
     spawnZone: 3
     raceWeights:

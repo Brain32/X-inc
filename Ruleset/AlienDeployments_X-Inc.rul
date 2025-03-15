@@ -552,7 +552,7 @@
     abortPenalty: 5
     music:
       - GMTACTIC
-    script: RADIERFACTORY_BIG
+    customUfo: STR_GUN_FACTORY_BIG
     terrains:
       - FORESTWASTE
       - URBAN_WASTE
@@ -715,7 +715,6 @@
     briefing:
       background: CITYSLUMS01.SCR
       palette: 2
-      briefing: STR_GANG_HR_TAKEOVER_BRIEFING
       showTarget: false
     points: 1
     markerName: STR_GANG_HR_TAKEOVER_MARK
