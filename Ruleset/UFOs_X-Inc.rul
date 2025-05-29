@@ -568,3 +568,76 @@ ufos:
             STR_SPAWN_OLD_TURRET:
               - [22, 8, 4]
               - [27, 8, 4]
+  - type: STR_CORPO_LUX_AEROCAR
+    size: STR_SMALL
+    sprite: 0
+    damageMax: 500
+    speedMax: 5000
+    accel: 10
+    power: 40
+    range: 20
+    score: 700
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: STR_LUX_AEROCAR_VIP
+      mapDataSets:
+        - BLANKS
+        - C_EXT_ENGINE_S_BLACK
+        - C_EXT_NOSE_BLACK
+        - C_EXT_NOSE_BUMPLESS_BLACK
+        - C_EXT_NOSE_SIDE_BLACK
+        - C_EXT_ROOF_BLACK
+        - C_EXT_WALL_BLACK
+        - C_EXT_XCOM_BLACK
+        - C_INT_HALF
+        - C_WALL02
+      mapBlocks:
+        - name: LUX_AEROCAR_VIP
+          width: 10
+          length: 20
+          items:
+            STR_SPAWN_FRNDCORPO_HIGH_EXEC:
+              - [3, 16, 0]
+            STR_SPAWN_STR_FRNDCORPO_BODYGUAD:
+              - [3, 12, 0]
+              - [2, 6, 0]
+            STR_WAD_O_CASH:
+              - [2, 12, 0]
+              - [2, 13, 0]
+            STR_HIGH_EXPLOSIVE:
+              - [1, 2, 0]
+          fuseTimers:
+            STR_HIGH_EXPLOSIVE: [3, 3]
+#Sin Scum
+  - type: STR_SIN_FORT_UFO
+    size: STR_SMALL
+    sprite: 0
+    damageMax: 500
+    speedMax: 5000
+    accel: 10
+    power: 40
+    range: 20
+    score: 700
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: STR_RAIDER_FACTORY_BIG
+      mapDataSets:
+        - BLANKS
+        - URBAN40K
+        - URBITS40K
+        - XCOMENTRY
+        - BATHBITZ
+        - ABUNKER
+      mapBlocks:
+        - name: ENEMYBUNKER_00
+          width: 20
+          length: 20
+          items:
+            STR_AUG_CONTAINTER_2:
+              - [3, 4, 1]
+            STR_MONEY_BRIEFCASE:
+              - [15, 6, 1]
+            STR_LOOTBOX6:
+              - [8, 4, 0]

@@ -13,11 +13,11 @@ By Brain-322
 
 
 >IS THIS MOD ON GITHUB?
-- Yep! 
+- Sure is !
 
 === CORE TEAM ===
 Brain-322: Lead designer, lead artist, text, maps
-VlaDOSS: Morale support :^)
+VlaDOSS: Morale support
 Dioxine: Addional text, addional graphics, design, maps, testing
 Solarius Scorch: Addional graphics, text, testing
 Meridian: Code, addional help

@@ -1,5 +1,12 @@
 #===============================================Scripts===============================================#
+#SAVAGE
 eventScripts:
+  - type: STR_SAVAGE_WRECK_EVENT
+    oneTimeRandomEvents:
+      STR_TEST_EVENT: 100
+    firstMonth: 3
+    executionOdds: 70
+
   - type: STR_TEST_EVENT
     oneTimeRandomEvents:
       STR_TEST_EVENT: 100
@@ -40,18 +47,28 @@ eventScripts:
 
 #===============================================Events===============================================#
 
+
 events:
   - name: STR_TEST_EVENT
     description: STR_TEST_EVENT_DESCRIPTION
     background: CITY2_BG.SCR
     everyMultiItemList:
-      STR_LOOTBOX6: 3
+      STR_LOOTBOX6: 4
     researchList: [STR_LOOTBOX6]
     music: HUNTER_CLUB
     points: 25
     timer: 10000
     timerRandom: 20000
 
+  - name: STR_SAVAGE_WRECK_EVENT
+    description: STR_SAVAGE_WRECK_EVENT_DESCRIPTION
+    background: CITY2_BG.SCR
+    everyMultiItemList:
+      STR_WRECKED_SAVAGE_CRAFT: 1
+    music: HUNTER_CLUB
+    points: 25
+    timer: 10000
+    timerRandom: 20000
 #!!!! ITS PIZZA TiME !!!!=====#
   - name: STR_PIZZA_TIME_EVENT
     description: STR_PIZZA_TIME_EVENT_DESCRIPTION

@@ -416,20 +416,23 @@ mapScripts:
 
   - type: NUKEFARM1
     commands:
-    - type: addCraft
     - type: addUFO
-    - type: addBlock
-      size: 3
-    - type: addBlock
-      size: 2
-      executions: 3
-    - type: addBlock
-      size: 2
-      executions: 2
-    - type: addBlock
-      size: 1
-      executions: 3
-    - type: addBlock
-      size: 2
+    - type: addCraft
     - type: fillArea
+      blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+      maxUses: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+#    - type: addBlock
+#      size: 3
+#    - type: addBlock
+#      size: 2
+#      executions: 3
+#    - type: addBlock
+#      size: 2
+#      executions: 2
+#    - type: addBlock
+#      size: 1
+#      executions: 3
+#     - type: addBlock
+#      size: 2
+#    - type: fillArea
 

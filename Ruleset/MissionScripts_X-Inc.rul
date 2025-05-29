@@ -13,8 +13,8 @@ missionScripts:
                                                           ### Radiers ###
 
   - type: WastelandGang
-    firstMonth: 0
-    executionOdds: 100
+    firstMonth: 2
+    executionOdds: 70
     missionWeights:
       0:
         STR_WASTELAND_GANG_APPREHENSION: 100
@@ -26,13 +26,13 @@ missionScripts:
         STR_INDIAN_OCEAN: 20
     useTable: false
     startDelay: 20
-    randomDelay: 43500
+    randomDelay: 43500     
   - type: Wastelandfactory
     firstMonth: 2
     executionOdds: 70
     missionWeights:
       0:
-        STR_WASTELAND_FACTORY: 100
+        STR_WASTELAND_FACTORY_RAID: 100
     regionWeights: &WastelandRegions
       0:
         STR_SOUTH_EAST_ASIA: 175
@@ -44,7 +44,7 @@ missionScripts:
     randomDelay: 43500
   - type: Wastelandfactory_big
     firstMonth: 3
-    executionOdds: 70
+    executionOdds: 75
     missionWeights:
       0:
         STR_WASTELAND_BIG_FACTORY_RAID: 100
@@ -60,9 +60,10 @@ missionScripts:
     useTable: false
     startDelay: 20
     randomDelay: 43500
+
   - type: WastelandFarmRaid
-    firstMonth: 2
-    executionOdds: 85
+    firstMonth: 3
+    executionOdds: 70
     missionWeights:
       0:
         STR_WASTELAND_FARM_RAID: 100
@@ -82,8 +83,8 @@ missionScripts:
                                                           ### Radiers - Rippers ###
 
   - type: WastelandBanditBase
-    firstMonth: 0
-    executionOdds: 100
+    firstMonth: 5
+    executionOdds: 70
     missionWeights:
       0:
         STR_BANDIT_BUNKER_RAID : 100
@@ -99,12 +100,30 @@ missionScripts:
     useTable: false
     startDelay: 120
     randomDelay: 43500
+  - type: TerroristShootDown
+    firstMonth: 4
+    executionOdds: 70
+    missionWeights:
+      0:
+        STR_RAIDER_CRAFT_SHOOTDOWN: 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_EUROPE: 250
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25        
+    useTable: false
+    startDelay: 30
+    randomDelay: 43500     
 
                                                           ### MUTANTS ###
 
   - type: MutantHuntSmallApprehension
-    firstMonth: 1
-    executionOdds: 85
+    firstMonth: 3
+    executionOdds: 70
     missionWeights:
       0:
         STR_MUTANT_HUNT_SMALL_APPREHENSION : 100
@@ -163,7 +182,7 @@ missionScripts:
 
   - type: CityGangHRTakeover
     firstMonth: 1
-    executionOdds: 70 
+    executionOdds: 65
     missionWeights:
       0:
         STR_GANG_HI_RISE_HOUSE_TAKEOVER: 100
@@ -184,7 +203,7 @@ missionScripts:
 
   - type: butcheryHouse
     firstMonth: 2
-    executionOdds: 85
+    executionOdds: 70
     missionWeights:
       0:
         STR_BUTCHERY_RAID: 100
@@ -205,7 +224,7 @@ missionScripts:
 
   - type: SmuglerClub
     firstMonth: 2
-    executionOdds: 70
+    executionOdds: 75
     missionWeights:
       0:
         STR_SMUGLER_CLUB: 100
@@ -248,6 +267,26 @@ missionScripts:
     randomDelay: 43500
                                                           ### SIN Terrior ###
 
+  - type: TerroristShootDown
+    firstMonth: 4
+    executionOdds: 70
+    missionWeights:
+      0:
+        STR_SIN_CRAFT_SHOOTDOWN: 100
+    useTable: false
+    startDelay: 30
+    randomDelay: 43500 
+
+  - type: TerroristOutpost
+    firstMonth: 5
+    executionOdds: 70
+    missionWeights:
+      0:
+        STR_SIN_OUTPOST: 100
+    useTable: false
+    startDelay: 30
+    randomDelay: 43500
+
   - type: recurringTerrorEarly
     firstMonth: 7
     executionOdds: 85
@@ -269,6 +308,7 @@ missionScripts:
     targetBaseOdds: 100
     startDelay: 4500
     randomDelay: 700
+
   - type: SyndocateSupply
     firstMonth: 4
     executionOdds: 65

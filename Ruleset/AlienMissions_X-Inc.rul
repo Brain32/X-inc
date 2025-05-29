@@ -14,14 +14,14 @@ alienMissions:
         timer: 9000
         objective: true
 
-  - type: STR_WASTELAND_FACTORY
+  - type: STR_WASTELAND_FACTORY_RAID
     objective: 3
     spawnZone: 3
     raceWeights:
       0:
           STR_WST_RIPPER_RACE: 100
     waves:
-      - ufo: STR_WASTELAND_FACTORY
+      - ufo: STR_WASTELAND_FACTORY_RAID
         count: 1
         trajectory: CA_SPAWN
         timer: 9000
@@ -32,7 +32,7 @@ alienMissions:
     spawnZone: 3
     raceWeights:
       0:
-          STR_RACE_WASTELAND_RAIDERS: 100
+          STR_WST_RIPPER_RACE: 100
     waves:
       - ufo: STR_WASTELAND_BIG_FACTORY_RAID
         count: 1
@@ -40,7 +40,6 @@ alienMissions:
         timer: 9000
         objective: true
 #Farm attack
-
   - type: STR_WASTELAND_FARM_RAID
     objective: 3
     spawnZone: 1
@@ -53,6 +52,20 @@ alienMissions:
         trajectory: CA_SPAWN
         timer: 9000
         objective: true
+#CorpoVIP attack
+  - type: STR_RAIDER_CRAFT_SHOOTDOWN
+    points: 10
+    objective: 3
+    spawnZone: 3 #Mission zone for terror missions
+    raceWeights:
+      0:
+          STR_WST_RIPPER_RACE: 100
+    waves:
+      - ufo: STR_CORPO_LUX_AEROCAR
+        count: 1
+        trajectory: P7
+        timer: 9000
+        objective: true             
 
 #Raider Bunker
 
@@ -169,9 +182,7 @@ alienMissions:
         trajectory: CA_SPAWN
         timer: 9000
         objective: true
-    researchTriggers:
-      - STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: true
-                         
+
                               ### CraftMissions ###
 
 #Synicate
@@ -213,7 +224,36 @@ alienMissions:
         timer: 9000
         objective: true
 
-                              ### SIN terror ###
+                              ### SIN faggots ###
+                              
+  - type: STR_SIN_CRAFT_SHOOTDOWN
+    points: 10
+    objective: 3
+    spawnZone: 3 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_TERRORIST_SIN: 100
+    waves:
+      - ufo: STR_SIN_CRAFT_SHOOTDOWN
+        count: 1
+        trajectory: P7
+        timer: 9000
+        objective: true                              
+
+  - type: STR_SIN_OUTPOST
+    points: 10
+    objective: 3
+    spawnZone: 3 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_TERRORIST_SIN: 100
+    waves:
+      - ufo: STR_SIN_OUTPOST
+        count: 1
+        trajectory: P7
+        timer: 9000
+        objective: true
+
   - type: STR_SIN_TERROR
     points: 10
     objective: 3

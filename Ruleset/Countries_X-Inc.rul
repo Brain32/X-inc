@@ -45,7 +45,7 @@ countries:
       - [6, 15, -55, -47.5]
   - type: STR_ITALY
     fundingBase: 60
-    fundingCap: 6000
+    fundingCap: 7000
     labelLon: 12.5
     labelLat: -43.875
     areas:
@@ -53,7 +53,7 @@ countries:
       - [11, 18, -43, -37]
   - type: STR_SPAIN
     fundingBase: 55
-    fundingCap: 5000
+    fundingCap: 6500
     labelLon: 357.5
     labelLat: -42.625
     areas:
@@ -61,7 +61,7 @@ countries:
       - [351, 353, -43, -42.25]
   - type: STR_CHINA
     fundingBase: 130
-    fundingCap: 7000
+    fundingCap: 7500
     labelLon: 100
     labelLat: -35
     areas:

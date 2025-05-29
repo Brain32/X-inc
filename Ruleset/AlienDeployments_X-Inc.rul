@@ -6,10 +6,10 @@
     length: 50
     height: 10
     alert: STR_ALERT_WASTELAND_FARM_RAID_GANG
-    alertBackground: BACKMISSION_WASTE_2.SCR
+    alertBackground: WASTE_TACTICS_BG1.SCR
     alertDescription: STR_WASTELAND_FARM_RAID_DESCRIPTION
     briefing:
-      background: BACKMISSION_WASTE_2.SCR
+      background: WASTE_TACTICS_BG1.SCR
       palette: 2
       music: GMDEFEND
     markerName: STR_WASTELAND_FARM_RAID_APPREHENSION
@@ -104,10 +104,10 @@
     length: 50
     height: 10
     alert: STR_ALERT_WASTELAND_GANG
-    alertBackground: BACKMISSION_WASTE_2.SCR
+    alertBackground: WASTE_TACTICS_BG1.SCR
     alertDescription: STR_WASTELAND_GANG_DESCRIPTION
     briefing:
-      background: BACKMISSION_WASTE_2.SCR
+      background: WASTE_TACTICS_BG1.SCR
       palette: 2
       music: GMDEFEND
     markerName: STR_WASTELAND_GANG_APPREHENSION
@@ -215,10 +215,10 @@
     length: 50
     height: 10
     alert: STR_MUTANT_HUNT_SMALL_ALERT
-    alertBackground: BACKMISSION_1.SCR
+    alertBackground: MONSTERHUNT_BG1.SCR
     alertDescription: STR_MUTANT_HUNT_SMALL_DESCRIPTION
     briefing:
-      background: BACKMISSION_2.SCR
+      background: MONSTERHUNT_BG1.SCR
       palette: 2
       music: GMDEFEND
     markerName: STR_MUTANT_HUNT_SMALL_APPREHENSION
@@ -408,6 +408,135 @@
             - STR_MAC12_AP_CLIP
             - STR_MAC12_CLIP
             - STR_MAC12_CLIP
+
+                                                ### WASTELADN SHIP SHOT DOWN ###
+  - type: STR_RAIDER_CRAFT_SHOOTDOWN
+    width: 60
+    length: 60
+    height: 10
+    alert: STR_ALERT_RAIDER_CRAFT_SHOOTDOWN
+    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertDescription: STR_RAIDER_CRAFT_SHOOTDOWN_DESCRIPTION
+    briefing:
+      background: BACKMISSION_WASTE_1.SCR
+      palette: 2
+      music: GMDEFEND
+    markerName: STR_RAIDER_CRAFT_SHOOTDOWN_MARK
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 100
+    music:
+      - GMTACTIC
+    customUfo: STR_CORPO_LUX_AEROCAR
+    terrains:
+      - FORESTWASTE
+      - URBAN_WASTE
+      - FORESTSWAMP_WASTE
+    data:
+      - alienRank: 2
+        lowQty: 14
+        highQty: 18
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_JUNKY_SAWED_OFF
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_DOUBLE_BARRELED_BUCKSHOT
+            - STR_GOLDEN_DRAGONS
+          -
+            - STR_OLD_SHOTGUN
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_GOLDEN_DRAGONS
+          -
+            - STR_LUGER
+            - STR_LUGER_CLIP
+            - STR_LUGER_CLIP
+            - STR_LUGER_CLIP
+            - STR_MOLOTOV
+          -
+            - STR_PIPERIFLE
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+          -
+            - STR_KNIFE_BANDIT
+            - STR_LIBIRATOR_JUNK
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+            - STR_10MM_TRIPLE_CLIP
+            - STR_GOLDEN_DRAGONS
+          -
+            - STR_OLD_RIFLE_M16
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
+            - STR_MOLOTOV
+          -
+            - STR_OL_WINCHESTER
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_OLD_SHOTGUN_SHELLS
+            - STR_MOLOTOV
+      - alienRank: 4
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_PISTOL_10MM
+            - STR_PISTOL_10MM_MAG
+            - STR_PISTOL_10MM_MAG
+            - STR_MOLOTOV
+          -
+            - STR_SMG_10MM
+            - STR_SMG_10MM_CLIP
+            - STR_SMG_10MM_CLIP
+            - STR_GOLDEN_DRAGONS
+          -
+            - STR_BANDIT_RIFLE
+            - STR_BANDIT_RIFLE_CLIP
+            - STR_BANDIT_RIFLE_CLIP
+            - STR_PIPEBOMB
+            - STR_GOLDEN_DRAGONS
+          -
+            - STR_GRENADE_LAUNCHER
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+      - alienRank: 8
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_SMG_10MM
+            - STR_SMG_10MM_CLIP
+            - STR_SMG_10MM_CLIP
+            - STR_MOLOTOV
+          -
+            - STR_BANDIT_RIFLE
+            - STR_BANDIT_RIFLE_CLIP
+            - STR_BANDIT_RIFLE_CLIP
+            - STR_PIPEBOMB
+          -
+            - STR_FLAMETHROWER_DIY
+            - STR_FLAMETHROWER_CLIP
+            - STR_FLAMETHROWER_CLIP
+            - STR_MOLOTOV
+            - STR_GOLDEN_DRAGONS
+          -
+            - STR_GRENADE_LAUNCHER
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE      
 
                                                 ### WASTELADN FACTORY ###
   - type: STR_WASTELAND_FACTORY_RAID
@@ -780,9 +909,9 @@
     width: 30
     length: 30
     height: 3
-    alert: STR_ALERT_NIGHT_CLUB
+    alert: STR_ALERT_SMUGLER_CLUB
     alertBackground: CLUB1.SCR
-    alertDescription: STR_NIGHT_CLUB
+    alertDescription: STR_SMUGLER_CLUB_ALERT_DESCRIPTION
     startingCondition: STR_STARCON_SMUGLER_CLUB
     briefing:
       background: CLUB1.SCR
@@ -790,7 +919,7 @@
       music: GMDEFEND
       showTarget: false
     points: 1
-    markerName: STR_NIGHT_CLUB_MARK
+    markerName: STR_SMUGLER_CLUB_MARK
     duration: [60, 120]
     despawnPenalty: 5
     abortPenalty: 5
@@ -834,15 +963,20 @@
             - STR_RIFLE_M16_CLIP
             - STR_RIFLE_M16_CLIP
           -
-            - STR_RUGER_RIFLE
-            - STR_RIFLE_M16_CLIP
-            - STR_RIFLE_M16_CLIP
+            - STR_CHROME_SHOTGUN
+            - STR_SHOTGUN_SHELLS
+            - STR_SHOTGUN_SHELLS
             - STR_GRENADE
           -
             - STR_RUGER_RIFLE
             - STR_RIFLE_M16_CLIP
             - STR_RIFLE_M16_CLIP
             - STR_GRENADE
+          -            
+            - STR_MAGNUM
+            - STR_MAGNUM_ROUNDS
+            - STR_MAGNUM_ROUNDS
+            - STR_MAGNUM_ROUNDS
       - alienRank: 5 # Sergants
         lowQty: 4
         highQty: 3
@@ -853,6 +987,11 @@
             - STR_RIFLE_M16
             - STR_RIFLE_M16_CLIP
             - STR_RIFLE_M16_CLIP
+          -
+            - STR_CHROME_SHOTGUN
+            - STR_SHOTGUN_SHELLS
+            - STR_SHOTGUN_SHELLS
+            - STR_GRENADE
           -
             - STR_RUGER_RIFLE
             - STR_RIFLE_M16_CLIP
@@ -875,9 +1014,15 @@
             - STR_RIFLE_M16_CLIP
             - STR_GRENADE
           -
-            - STR_RIFLE_M16
-            - STR_RIFLE_M16_CLIP
-            - STR_RIFLE_M16_CLIP
+            - STR_CHROME_SHOTGUN
+            - STR_SHOTGUN_SHELLS
+            - STR_SHOTGUN_SHELLS
+            - STR_GRENADE
+          -            
+            - STR_MAGNUM
+            - STR_MAGNUM_ROUNDS
+            - STR_MAGNUM_ROUNDS
+            - STR_MAGNUM_ROUNDS
           -
             - STR_COLT45
             - STR_COLT45_CLIP
@@ -889,10 +1034,10 @@
     length: 30
     height: 5
     alert: STR_SCAVANGER_HUNT_OLD_OUTPOST_ALERT
-    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertBackground: RUINSBG1.SCR
     alertDescription: STR_SCAVANGER_HUNT_OLD_OUTPOST_DESCRIPTION
     briefing:
-      background: BACKMISSION_WASTE_1.SCR
+      background: RUINSBG1.SCR
       palette: 2
       showTarget: false
     points: 1
@@ -1023,10 +1168,10 @@
     length: 30
     height: 6
     alert: STR_SCAVANGER_HUNT_OLD_BASE_ALERT
-    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertBackground: RUINSBG1.SCR
     alertDescription: STR_SCAVANGER_HUNT_OLD_BASE_DESCRIPTION
     briefing:
-      background: BACKMISSION_WASTE_1.SCR
+      background: RUINSBG1.SCR
       palette: 2
       showTarget: false
     points: 1
@@ -1256,8 +1401,255 @@
     length: 60
     height: 6
 
-#SINTerror
-
+     #SIN Scum
+ #SIN ShootDown corpo crafts
+  - type: STR_SIN_CRAFT_SHOOTDOWN
+    width: 60
+    length: 60
+    height: 10
+    alert: STR_ALERT_SIN_CRAFT_SHOOTDOWN
+    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertDescription: STR_SIN_CRAFT_SHOOTDOWN_DESCRIPTION
+    briefing:
+      background: BACKMISSION_WASTE_1.SCR
+      palette: 2
+      music: GMDEFEND
+    markerName: STR_SIN_SIN_CRAFT_SHOOTDOWN_MARK
+    duration: [60, 120]
+    despawnPenalty: 200
+    abortPenalty: 100
+    music:
+      - GMTACTIC
+    customUfo: STR_CORPO_LUX_AEROCAR
+    terrains:
+      - FORESTWASTE
+      - URBAN_WASTE
+      - FORESTSWAMP_WASTE
+    data:
+      - alienRank: 11 #troops
+        lowQty: 7
+        highQty: 9
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_LAS_RIFLE_SCAV
+            - STR_LAS_RIFLE_SCAV_CLIP
+            - STR_LAS_RIFLE_SCAV_CLIP
+            - STR_MOLOTOV
+          -
+            - STR_BANDIT_RIFLE
+            - STR_BANDIT_RIFLE_CLIP
+            - STR_BANDIT_RIFLE_CLIP
+            - STR_PIPEBOMB
+          -            
+            - STR_REBEL_COLT45
+            - STR_COLT45_CLIP_EXT
+            - STR_COLT45_CLIP_EXT
+            - STR_COLT45_CLIP_EXT
+            - STR_GRENADE
+            - STR_GRENADE                                                
+          -
+            - STR_GRENADE_LAUNCHER_VICE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+      - alienRank: 7 #Rangers
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_MACHETE
+            - STR_REBEL_COLT45
+            - STR_COLT45_CLIP_EXT
+            - STR_COLT45_CLIP_EXT
+            - STR_COLT45_CLIP_EXT
+          -
+            - STR_MACHETE
+            - STR_LASER_PISTOL_SIN
+            - STR_LASER_PISTOL_SIN_CLIP
+            - STR_LASER_PISTOL_SIN_CLIP
+          -
+            - STR_RIFLE_VHS
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
+            - STR_GRENADE                                            
+          -
+            - STR_GRENADE_LAUNCHER_VICE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE    
+      - alienRank: 5  #Sergants
+        lowQty: 2
+        highQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_BATTLE_RIFLE
+            - STR_BATTLE_RIFLE_CLIP_PS
+            - STR_BATTLE_RIFLE_CLIP
+            - STR_BATTLE_RIFLE_CLIP            
+            - STR_GRENADE
+          -
+            - STR_LASER_PISTOL_SIN
+            - STR_LASER_PISTOL_SIN_CLIP
+            - STR_LASER_PISTOL_SIN_CLIP
+            - STR_GOLDEN_DRAGONS
+          -
+            - STR_RPG
+            - STR_SMALL_ROCKET_RPG
+            - STR_SMALL_ROCKET_RPG
+            - STR_SMALL_ROCKET_RPG
+            - STR_GOLDEN_DRAGONS
+          -
+            - STR_GRENADE_LAUNCHER_VICE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE   
+ #SIN Outpost   
+  - type: STR_SIN_OUTPOST
+    width: 60
+    length: 60
+    height: 10
+    alert: STR_ALERT_SIN_OUTPOST
+    alertBackground: BACKMISSION_WASTE_1.SCR
+    alertDescription: STR_SIN_OUTPOST_DESCRIPTION
+    briefing:
+      background: BACKMISSION_WASTE_1.SCR
+      palette: 2
+      music: GMDEFEND
+    markerName: STR_SIN_OUTPOST_DESCRIPTION_MARK
+    duration: [60, 120]
+    despawnPenalty: 50
+    abortPenalty: 100
+    music:
+      - GMTACTIC
+    customUfo: STR_SIN_FORT_UFO
+    terrains:
+      - FORESTWASTE
+      - URBAN_WASTE
+      - FORESTSWAMP_WASTE
+    data:
+      - alienRank: 2 #Luthenants
+        lowQty: 2
+        highQty: 3
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_LASER_RIFLE_SIN
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+            - STR_LASER_RIFLE_SIN_CLIP
+          -
+            - STR_BLACKOPS_SHOTGUN
+            - STR_SHOTGUN_AA_SHELLS_BS
+            - STR_SHOTGUN_SHELLS
+            - STR_SHOTGUN_SHELLS
+            - STR_GOLDEN_DRAGONS
+          -
+            - STR_SNIPER_RIFLE
+            - STR_SNIPER_RIFLE_CLIP
+            - STR_SNIPER_RIFLE_CLIP
+            - STR_SNIPER_RIFLE_CLIP
+          -
+            - STR_BATTLE_RIFLE
+            - STR_BATTLE_RIFLE_CLIP_PS
+            - STR_BATTLE_RIFLE_CLIP
+            - STR_BATTLE_RIFLE_CLIP            
+            - STR_GRENADE
+      - alienRank: 5  #Sergants
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_BATTLE_RIFLE
+            - STR_BATTLE_RIFLE_CLIP_PS
+            - STR_BATTLE_RIFLE_CLIP
+            - STR_BATTLE_RIFLE_CLIP            
+            - STR_GRENADE
+          -
+            - STR_LASER_PISTOL_SIN
+            - STR_LASER_PISTOL_SIN_CLIP
+            - STR_LASER_PISTOL_SIN_CLIP
+            - STR_GOLDEN_DRAGONS
+          -
+            - STR_RPG
+            - STR_SMALL_ROCKET_RPG
+            - STR_SMALL_ROCKET_RPG
+            - STR_SMALL_ROCKET_RPG
+            - STR_GOLDEN_DRAGONS
+          -
+            - STR_GRENADE_LAUNCHER_VICE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+      - alienRank: 7 #Rangers
+        lowQty: 4
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MACHETE
+            - STR_REBEL_COLT45
+            - STR_COLT45_CLIP_EXT
+            - STR_COLT45_CLIP_EXT
+            - STR_COLT45_CLIP_EXT
+          -
+            - STR_MACHETE
+            - STR_LASER_PISTOL_SIN
+            - STR_LASER_PISTOL_SIN_CLIP
+            - STR_LASER_PISTOL_SIN_CLIP
+          -
+            - STR_RIFLE_VHS
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
+            - STR_RIFLE_M16_CLIP
+            - STR_GRENADE                                            
+          -
+            - STR_GRENADE_LAUNCHER_VICE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE            
+      - alienRank: 11 #troops
+        lowQty: 10
+        highQty: 12
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_LAS_RIFLE_SCAV
+            - STR_LAS_RIFLE_SCAV_CLIP
+            - STR_LAS_RIFLE_SCAV_CLIP
+            - STR_MOLOTOV
+          -
+            - STR_BANDIT_RIFLE
+            - STR_BANDIT_RIFLE_CLIP
+            - STR_BANDIT_RIFLE_CLIP
+            - STR_PIPEBOMB
+          -            
+            - STR_REBEL_COLT45
+            - STR_COLT45_CLIP_EXT
+            - STR_COLT45_CLIP_EXT
+            - STR_COLT45_CLIP_EXT
+            - STR_GRENADE
+            - STR_GRENADE                                                
+          -
+            - STR_GRENADE_LAUNCHER_VICE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+            - STR_GL_HE
+ #SIN Terror              
   - type: STR_SIN_TERROR
     alert: STR_ALERT_SIN_TERROR_MISSION
     alertBackground: BACK03.SCR
@@ -1430,6 +1822,3 @@
             - STR_LASER_RIFLE_SIN_CLIP
             - STR_LASER_RIFLE_SIN_CLIP
             - STR_GAS_GRENADE
-    width: 60
-    length: 60
-    height: 6

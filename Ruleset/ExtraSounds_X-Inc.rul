@@ -96,7 +96,9 @@ extraSounds:
       192: Resources/Sounds/Hit/ChainSwing.wav
       193: Resources/Sounds/Fire/LASER_1.wav
       194: Resources/Sounds/Robots/ST_Deploy.wav
-
+      195: Resources/Sounds/Fire/PlasmaSingle1.wav
+      196: Resources/Sounds/Reload/PlasmaGun_Reload.wav
+      197: Resources/Sounds/Walk/mechstep1.wav
   - type: GEO.CAT
     files:
       0: Resources/Sounds/Menu/Click.wav

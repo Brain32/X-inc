@@ -1,11 +1,14 @@
 ﻿# Responsible for start Armour for runners
+
 soldiers:
   - type: STR_SOLDIER
     armor: STR_RUNNERCOAT_UC
 
-armors:
                 #Default
-
+armors:
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
   - type: STR_NONE_UC
     spriteInv: MAN_99
     storeItem: TROLLIUM
@@ -35,6 +38,8 @@ armors:
     customArmorPreviewIndex: 1
     weight: 3
     storeItem: STR_NONE
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
     corpseBattle:
       - STR_CORPSE_RUNNER_COAT
     visibilityAtDark: 9
@@ -73,21 +78,21 @@ armors:
     overKill: 1.5
     damageModifier:
       - 1.0 #Null
-      - 0.7 #Bullets
+      - 0.75 #Bullets
       - 0.8 #Fire
       - 1.0 #High Explosive
       - 0.9 #Laser
       - 1.0 #Plasma
       - 1.0 #Stun
-      - 0.7
-      - 0.8
-      - 4.0
-      - 0.2
-      - 0.7
-      - 1.0
-      - 1.0
-      - 0.0
-      - 1.0
+      - 0.7 #Melee
+      - 0.8 #Acid
+      - 4.0 #Smoke
+      - 0.2 #EMP
+      - 1.0 #Electro
+      - 1.0 #PSI
+      - 1.0 #WRAP
+      - 0.0 #E115
+      - 1.0 #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
@@ -116,6 +121,8 @@ armors:
     customArmorPreviewIndex: 1
     weight: 2
     storeItem: STR_NONE
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
     corpseBattle:
       - STR_CORPSE_JUMPSUIT
     visibilityAtDark: 9
@@ -184,6 +191,8 @@ armors:
     corpseBattle:
       - STR_BULDOZER_SUIT_CORPSE
     storeItem: STR_BULDOZER_SUIT
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
     visibilityAtDark: 12
     personalLight: 5
     weight: 11
@@ -231,6 +240,7 @@ armors:
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
+
   - type: STR_DEFENDER_SUIT_UC
     spriteSheet: XCOM_38.PCK
     spriteInv: MAN_21.SPK
@@ -254,7 +264,9 @@ armors:
       F7: ["", "", "F7_NUDE", "", "", "", "", "DEFENDER_SUIT_F", "", "", "F7_HEAD", "DEFENDER_SUIT_VISOR", "", ""]
     customArmorPreviewIndex: 51
     storeItem: STR_DEFENDER_SUIT
-    weight: 3
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
+    weight: 5
     corpseBattle:
       - STR_CORPSE_DEFENDER
     visibilityAtDark: 14
@@ -546,6 +558,8 @@ armors:
       F6: ["", "", "F6_NUDE", "", "", "", "JUMPSUIT_F", "CIVIL_VEST_MALE_SMALL", "", "", "F6_HEAD", "", "", ""]
       F7: ["", "", "F7_NUDE", "", "", "", "JUMPSUIT_F", "CIVIL_VEST_MALE_SMALL", "", "", "F7_HEAD", "", "", ""]
     customArmorPreviewIndex: 2
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
     corpseBattle:
       - STR_CORPSE_CIV_VEST
     storeItem: STR_CIV_VEST
@@ -664,6 +678,8 @@ armors:
       - 0.0   #E115
       - 0.0   #Bio
     specialWeapon: STR_UNARMED_BAISIC
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
@@ -691,6 +707,8 @@ armors:
     customArmorPreviewIndex: 1
     weight: 7
     storeItem: STR_ICARUS_COAT
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
     corpseBattle:
       - STR_CORPSE_ICARUS_COAT
     visibilityAtDark: 16
@@ -851,6 +869,9 @@ armors:
     customArmorPreviewIndex: 1
     weight: 8
     storeItem: STR_JUMPSUIT_JETPACK
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
+      - STR_JETPACK_CONTROLS
     corpseBattle:
       - STR_CORPSE_JUMPSUIT_JETPACK
     visibilityAtDark: 9
@@ -909,13 +930,225 @@ armors:
       - 0.0 #E115
       - 1.0 #Bio
     specialWeapon: STR_UNARMED_BAISIC
-    builtInWeapons:
-      - STR_JETPACK_CONTROLS
     units:
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
-# Your Tanks
+#IronClad_armour
+  - type: STR_IRONCLAD_UC
+    spriteSheet: XCOM_47.PCK
+    spriteInv: IRONCLAD.SPK
+    customArmorPreviewIndex: 20
+    corpseBattle:
+      - STR_CORPSE_IRONCLAD_PA
+    storeItem: STR_IRONCLAD_ARMOR
+    visibilityAtDark: 16
+    personalLight: 5
+    weight: -10
+    allowsRunning: false
+    forcedTorso: 1
+    stats:
+      tu: -10
+      melee: -10
+      firing: 8
+      strength: 10
+      throwing: -15
+      reactions: -10
+    frontArmor: 80
+    sideArmor: 85
+    rearArmor: 85
+    underArmor: 60
+    meleeDodge:
+      flatHundred: 0.2
+    meleeDodgeBackPenalty: 0.25
+    recovery:
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 10
+        healthCurrent: 0.25
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0   #Null
+      - 0.9  #Bullets
+      - 0.15   #Fire
+      - 0.8   #High Explosive
+      - 1.0   #Laser
+      - 1.0   #Plasma
+      - 0.8  #Stun
+      - 0.8   #Melee
+      - 0.8   #Acid
+      - 0.2   #Smoke
+      - 0.8   #EMP
+      - 0.5   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    specialWeapon: STR_UNARMED_BAISIC
+    units:
+      - STR_SOLDIER
+    loftempsSet: [ 3 ]
+#NightOps_armour
+  - type: STR_NIGHTOPS_ARMOUR_UC
+    spriteSheet: XCOM_48.PCK
+    layersDefaultPrefix: HUMAN_RUNNER
+    layersDefinition:
+      M0: ["", "", "M0_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      M1: ["", "", "M1_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      M2: ["", "", "M2_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      M3: ["", "", "M3_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      M4: ["", "", "M4_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      M5: ["", "", "M5_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      M6: ["", "", "M6_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      M7: ["", "", "M7_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      F0: ["", "", "F0_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      F1: ["", "", "F1_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      F2: ["", "", "F2_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      F3: ["", "", "F3_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      F4: ["", "", "F4_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      F5: ["", "", "F5_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      F6: ["", "", "F6_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+      F7: ["", "", "F7_NUDE", "", "", "", "", "NIGHTOPS_ARMOUR", "", "", "", "", "", ""]
+    customArmorPreviewIndex: 65
+    corpseBattle:
+      - STR_NIGHTOPS_ARMOR_CORPSE
+    storeItem: STR_NIGHTOPS_ARMOR
+    camouflageAtDay: 30
+    camouflageAtDark: -4
+    visibilityAtDark: 14
+    heatVision: 10
+    personalLight: 5
+    stats:
+      reactions: -5
+    weight: 6
+    forcedTorso: 1
+    frontArmor: 20
+    sideArmor: 18
+    rearArmor: 16
+    underArmor: 12
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 24
+        healthCurrent: 0.25
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0   #Null
+      - 0.9  #Bullets
+      - 1.2   #Fire
+      - 1.0   #High Explosive
+      - 1.0  #Laser
+      - 1.0   #Plasma
+      - 1.0   #Stun
+      - 0.9   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 0.8   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    specialWeapon: STR_UNARMED_BAISIC
+    units:
+      - STR_SOLDIER
+    loftempsSet: [ 3 ]
+
+  - type: STR_TEMPLAR_PA_UC
+    spriteSheet: XCOM_49.PCK
+    spriteInv: MAN_25.SPK
+    customArmorPreviewIndex: 47
+    forcedTorso: 1
+    corpseBattle:
+      - STR_TEMPLAR_PA_CORPSE
+    storeItem: STR_TEMPLAR_PA
+    weight: -40
+    stats:
+       strength: 100
+       health: 10
+       tu: -28
+       reactions: -10
+       throwing: -25
+       firing: 10
+       melee: -30
+       psiStrength: -20
+       psiSkill: -20
+    visibilityAtDark: 16
+    visibilityAtDay: 30
+    heatVision: 50
+    frontArmor: 150
+    sideArmor: 150
+    rearArmor: 125
+    underArmor: 125
+    moveSound: 197
+    psiDefence: 
+      psiStrength: 1.0
+      psiSkill: 0.4
+      moraleCurrent: 0.33
+      bravery: 0.2
+    recovery:
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 40
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        manaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    overKill: 1.0
+    allowsRunning: false
+    allowsStrafing: false
+    allowsKneeling: false
+    turnBeforeFirstStep: true
+    turnCost: 2
+    damageModifier:
+      - 1.0 #Null
+      - 0.8 #Bullets
+      - 0.1 #Fire
+      - 0.8 #High Explosive
+      - 1.0 #Laser
+      - 1.2 #Plasma
+      - 0.7 #Stun
+      - 1.1 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 0.5 #EMP
+      - 0.4 #Electro
+      - 1.0 #PSI
+      - 1.3 #WRAP
+      - 0.0 #E115
+      - 1.0 #Bio
+    specialWeapon: STR_UNARMED_BAISIC
+    units:
+      - STR_SOLDIER
+    loftempsSet: [ 5 ]
+
+                             ######################### Your Tanks #########################
 
   - type: STR_HOVER_TANK_CANNON_ARMOR
     spriteSheet: HOVER_TANK_CANNON.PCK
@@ -1118,8 +1351,99 @@ armors:
       - AUX_HUMVEE_GUN
     loftempsSet: [ 92, 89, 90, 91 ]
 
-#Police
+#CorpoFirendly
+  - type: STR_FRNDCORPO_HIGH_EXEC_INV
+    spriteSheet: CORPOFIREND_EXEC.PCK
+    spriteInv: CORPOFIREND_EXEC.SPK
+    corpseBattle:
+      - STR_FRNDCORPO_HIGH_EXEC_CORPSE
+    visibilityAtDark: 8
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 25
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier:
+      - 1.0   #Null
+      - 0.9  #Bullets
+      - 1.4   #Fire
+      - 1.0   #High Explosive
+      - 0.9  #Laser
+      - 0.9  #Plasma
+      - 1.0   #Stun
+      - 0.8   #Melee
+      - 1.1   #Acid
+      - 4.0   #Smoke
+      - 0.4   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 1.0   #Bio
+    units:
+      - STR_SOLDIER
+    loftempsSet: [ 3 ]
 
+  - type: STR_FRNDCORPO_BODYGUARD_INV
+    spriteSheet: CORPOFIREND_BODYGUARD.PCK
+    spriteInv: CORPOFIREND_BODYGUARD.SPK
+    corpseBattle:
+      - STR_FRNDCORPO_BODYGUARD_CORPSE
+    visibilityAtDark: 14
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 45
+    underArmor: 30
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier:
+      - 1.0   #Null
+      - 0.8  #Bullets
+      - 0.8   #Fire
+      - 1.0   #High Explosive
+      - 0.9  #Laser
+      - 0.9  #Plasma
+      - 1.0   #Stun
+      - 0.8   #Melee
+      - 1.1   #Acid
+      - 4.0   #Smoke
+      - 0.4   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 1.0   #Bio
+    units:
+      - STR_SOLDIER
+    loftempsSet: [ 3 ]    
+#Police
   - type: STR_AUTOCOP_INV
     spriteSheet: POLICEAUTOCOP.PCK
     spriteInv: Inv_AutoCop
@@ -1516,14 +1840,14 @@ armors:
 
                                                         ###Enemy - Wasteland Rippers###
 
-  - type: STR_WST_RIPPER01_ARMOUR
+  - type: STR_WST_RIPPER01_ARMOUR #RegularGuys
     spriteSheet: WST_RIPPER_RAIDER01.PCK
     spriteInv: inv_WST1_RIPPERS_1
     corpseBattle:
       - STR_WST_RIPPER01_CORPSE
     visibilityAtDark: 10
-    frontArmor: 35
-    sideArmor: 30
+    frontArmor: 30
+    sideArmor: 25
     rearArmor: 25
     underArmor: 15
     recovery:
@@ -1559,16 +1883,16 @@ armors:
       - 0.0   #E115
       - 1.0   #Bio
     loftempsSet: [ 3 ]
-  - type: STR_WST_RIPPER02_ARMOUR
+  - type: STR_WST_RIPPER02_ARMOUR #GasMaskGuys
     spriteSheet: WST_RIPPER_RAIDER01.PCK
     spriteInv: inv_WST1_RIPPERS_2
     corpseBattle:
       - STR_WST_RIPPER02_CORPSE
     forcedTorso: 2
     visibilityAtDark: 10
-    frontArmor: 40
-    sideArmor: 35
-    rearArmor: 30
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 25
     underArmor: 15
     drawingRoutine: 0
     recovery:
@@ -1604,7 +1928,7 @@ armors:
       - 0.0   #E115
       - 1.0   #Bio
     loftempsSet: [ 3 ]
-  - type: STR_WST_RIPPER03_ARMOUR
+  - type: STR_WST_RIPPER03_ARMOUR #SleezyNightVisionGirl
     spriteSheet: WST_RIPPER_RAIDER03.PCK
     spriteInv: inv_WST1_RIPPERS_3
     corpseBattle:
@@ -1650,7 +1974,7 @@ armors:
       - 0.0   #E115
       - 1.0   #Bio
     loftempsSet: [ 3 ]
-  - type: STR_WST_RIPPER_PA_ARMOUR
+  - type: STR_WST_RIPPER_PA_ARMOUR #FattyMcFatFat
     spriteSheet: WST_RIPPER_PA_UNIT.PCK
     spriteInv: inv_WST1_RIPPERS_PA
     corpseBattle:
@@ -1695,7 +2019,7 @@ armors:
       - 0.0   #E115
       - 1.0   #Bio
     loftempsSet: [ 3 ]
-  - type: STR_WST_RIPPER_BLOOD_DOG_ARMOUR
+  - type: STR_WST_RIPPER_BLOOD_DOG_ARMOUR 
     spriteSheet: WST_RIPPER_DOGGO.PCK
     spriteInv: inv_WST1_RIPPERS_DOGGO
     corpseBattle:
@@ -1907,13 +2231,13 @@ armors:
     allowsRunning: true
     damageModifier: # balance me
       - 1.0 #Null
-      - 0.8 #Bullets
+      - 0.9 #Bullets
       - 1.1 #Fire
       - 0.8 #High Explosive
       - 0.8 #Laser
       - 1.0 #Plasma
       - 0.8 #Stun
-      - 0.8 #Melee
+      - 0.95 #Melee
       - 1.0 #Acid
       - 4.0 #Smoke
       - 0.2 #EMP
@@ -2100,7 +2424,7 @@ armors:
       - 0.0 #E511
       - 0.8 #Bio
     loftempsSet: [ 3 ]
-  - type: STR_SYNDICATE_MANAGER
+  - type: STR_SYNDICATE_MANAGER_ARMOR
     spriteSheet: SYNDICATE_MANAGER.PCK
     spriteInv: inventory_SYNDICATE_MANAGER
     corpseBattle:
@@ -2838,7 +3162,51 @@ armors:
       - 1.0   #Melee
       - 1.0   #Acid
       - 4.0   #Smoke
-      - 1.0   #EMP
+      - 0.4   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_TERRORIST_SIN_4_INV
+    spriteSheet: TERRORIST_SIN04.PCK
+    spriteInv: INV_SIN05
+    corpseBattle:
+      - STR_TERRORIST_SIN_4_CORPSE
+    forcedTorso: 1
+    visibilityAtDark: 16
+    frontArmor: 45
+    sideArmor: 35
+    rearArmor: 38
+    underArmor: 30
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.01
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0   #Null
+      - 0.80  #Bullets
+      - 1.0   #Fire
+      - 1.0   #High Explosive
+      - 0.8   #Laser
+      - 0.8   #Plasma
+      - 1.0   #Stun
+      - 0.8   #Melee
+      - 1.0   #Acid
+      - 4.0   #Smoke
+      - 0.2   #EMP
       - 1.0   #Electro
       - 0.0   #PSI
       - 2.0   #WRAP

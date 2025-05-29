@@ -2,13 +2,16 @@ alienRaces:
   - id: STR_WST_RIPPER_RACE
     members:
       - STR_WST_RIPPER_COMMANDO # 0 - Commander
-      - STR_WST_RIPPER_COMMANDO # 1 - Leader
+      - STR_WST_RIPPER_COMMANDO # 0 - Commander
       - STR_WST_RIPPER03 # 2 - Engineer
       - STR_WST_RIPPER03 # 3 - scientist
       - STR_WST_RIPPER02 # 4 - Navigator
       - STR_WST_RIPPER01 # 5 - Soldier
-      - STR_WST_RIPPER_BLOOD_DOG # 6 - Terrorist 1
-      - STR_WST_RIPPER_PA_UNT # 7 - Terrorist 2
+      - STR_WST_RIPPER_BLOOD_DOG # 6 - Terrorist Doggo
+      - STR_WST_RIPPER_PA_UNT # 7 - Terrorist PowerSuit Dude
+      - STR_WST_RIPPER01 # 8 - Terrorist PowerSuit Dude
+      - STR_WST_RIPPER01 # 9 - Terrorist PowerSuit Dude
+      - STR_WST_RIPPER01 # 10 - Terrorist PowerSuit Dude
     retaliationAggression: -100
   - id: STR_RACE_WASTELAND_RAIDERS
     members:
@@ -87,15 +90,19 @@ alienRaces:
 
   - id: STR_TERRORIST_SIN
     members:
-      - STR_TERRORIST_SIN_3
-      - STR_TERRORIST_SIN_3
-      - STR_TERRORIST_SIN_2
-      - STR_TERRORIST_SIN_2
-      - STR_TERRORIST_SIN_2
-      - STR_TERRORIST_SIN_2
-      - STR_TERRORIST_SIN_1
-      - STR_TERRORIST_SIN_1
-      - STR_TERRORIST_SIN_1
+      - STR_TERRORIST_SIN_4  # 0 - Commander
+      - STR_TERRORIST_SIN_4  # 1 - Leader
+      - STR_TERRORIST_SIN_4  # 2 - Science dude
+      - STR_TERRORIST_SIN_4  # 3 - Luthenant
+      - STR_TERRORIST_SIN_3  # 4 - Heavy Weapons Guy
+      - STR_TERRORIST_SIN_3  # 5 - Sergant
+      - STR_TERRORIST_SIN_2  # 6 - Tank - Terrorist 1
+      - STR_TERRORIST_SIN_2  # 7 - Tank - Terrorist 2      
+      - STR_TERRORIST_SIN_1  # 8 - Spy
+      - STR_TERRORIST_SIN_1  # 9 - Scout
+      - STR_TERRORIST_SIN_1  # 10 - Spotter
+      - STR_TERRORIST_SIN_1  # 11 - Soldier
+      - STR_TERRORIST_SIN_1  # 12 - Spy
 #Mutants
   - id: STR_MUTANTS
     members:

@@ -106,7 +106,7 @@ soldierBonuses:
       melee: 6
       psiStrength: 6
       psiSkill: 6
-#Ñhest
+#ï¿½hest
   - name: STR_AUG_CHEST_MK1
     stats:
       frontArmor: 6
@@ -189,10 +189,10 @@ soldierBonuses:
       reactions: 10
       throwing: 10
       melee: 15
-      mana:
-        flatOne: 1
-      morale:
-        flatOne: 3 
+#      mana:
+#        flatOne: 1
+#      morale:
+#        flatOne: 3 
 #NaturalTransformations
   - name: STR_BASIC_FIREARMS_TRAINING
     stats:

@@ -10,6 +10,8 @@ facilities:
       - [8, 2, 1]
     listOrder: 9000
   - type: STR_HANGAR
+    requires:
+      - STR_BASE_EXPANSION_PROJECT 
     spriteShape: 9
     spriteFacility: 9
     size: 2
@@ -33,6 +35,8 @@ facilities:
     labs: 50
     mapName: XBASE_02
   - type: STR_LIVING_QUARTERS
+    requires:
+      - STR_BASE_EXPANSION_PROJECT 
     spriteShape: 1
     spriteFacility: 18
     buildCost: 360000
@@ -42,6 +46,8 @@ facilities:
     placeSound: 37
     mapName: XBASE_01
   - type: STR_GENERAL_STORES
+    requires:
+      - STR_BASE_EXPANSION_PROJECT 
     spriteShape: 1
     spriteFacility: 24
     buildCost: 180000
@@ -61,7 +67,6 @@ facilities:
     workshops: 40
     buildTime: 32
     monthlyCost: 50000
-    workshops: 50
     placeSound: 37
     mapName: XBASE_03
     listOrder: 6980
@@ -103,6 +108,8 @@ facilities:
     placeSound: 37
     mapName: XBASE_15
   - type: STR_PRISON_CELLS
+    requires:
+      - STR_BASE_EXPANSION_PROJECT 
     spriteShape: 1
     spriteFacility: 870
     buildCost: 120000
@@ -113,6 +120,9 @@ facilities:
     mapName: XBASS_27
     listOrder: 7030
   - type: STR_GYM
+    requires:
+      - STR_BASE_EXPANSION_PROJECT
+      - STR_GYM
     spriteShape: 1
     spriteFacility: 866
     provideBaseFunc: [GYM]
@@ -125,6 +135,7 @@ facilities:
     listOrder: 6960
   - type: STR_MEDBAY
     requires:
+      - STR_BASE_EXPANSION_PROJECT
       - STR_MEDBAY_FACILITY
     spriteShape: 1
     spriteFacility: 868
@@ -159,6 +170,7 @@ facilities:
   - type: STR_RECREATION_ROOM
     requires:
       - STR_RECREATION_ROOM
+      - STR_BASE_EXPANSION_PROJECT
     spriteShape: 1
     spriteFacility: 336
     provideBaseFunc: [REC_ROOM]
@@ -211,7 +223,7 @@ facilities:
   - type: STR_CORRIDOR
     spriteShape: 3
     spriteFacility: 867
-    buildCost: 78000
+    buildCost: 70000
     buildTime: 6
     monthlyCost: 2000
     canBeBuiltOver: true
@@ -220,6 +232,7 @@ facilities:
     listOrder: 6810
   - type: STR_POWER_PLANT
     requires:
+      - STR_BASE_EXPANSION_PROJECT
       - STR_POWER_PLANT
     spriteShape: 1
     spriteFacility: 874
@@ -229,11 +242,9 @@ facilities:
     refundValue: 350000
     provideBaseFunc: [PWR]
     buildCostItems:
-#      STR_UFO_POWER_SOURCE:
-#        build: 2
-#        refund: 2
-    requires:
-      - STR_POWER_PLANT
+      STR_UFO_POWER_SOURCE:
+        build: 2
+        refund: 2
     placeSound: 37
     mapName: XBASS_22  
     listOrder: 9800
@@ -271,15 +282,17 @@ facilities:
     mapName: XBASS_36
     listOrder: 9800
   - type: STR_COMM_CENTER
+    requires:
+      - STR_COMM_CENTER  
     spriteShape: 1
     spriteFacility: 875
-    buildCost: 795000
-    buildTime: 26
-    monthlyCost: 20000
+    buildCost: 650000
+    buildTime: 22
+    monthlyCost: 25000
     maxAllowedPerBase: 1
     canBeBuiltOver: true
     labs: 5
-    provideBaseFunc: [COMMCENT]
+    provideBaseFunc: [COMMCENT]   
     rightClickActionType: 3
     placeSound: 37
     mapName: XBASS_22                            #<---------- Fix me !
@@ -316,8 +329,32 @@ facilities:
     refundValue: 850000
     requiresBaseFunc: [PWR]
     provideBaseFunc: [BASIC_LAB, B_LAB, MEDICAL_BAY]
-    requires:
-      - STR_ROBOT_WORKSHOP
     placeSound: 37
     mapName: XBASS_36
     listOrder: 9800
+#Defenses
+  - type: STR_MISSILE_DEFENSES
+    requires:
+      - STR_IDDQD
+    spriteShape: 2
+    spriteFacility: 23
+    buildCost: 200000
+    buildTime: 16
+    monthlyCost: 5000
+    defense: 500
+    hitRatio: 50
+    fireSound: 5
+    hitSound: 10
+    mapName: XBASE_06
+
+#Vanilla
+  - type: STR_ALIEN_CONTAINMENT
+    requires:
+      - STR_IDDQD
+    spriteShape: 1
+    spriteFacility: 25
+    buildCost: 400000
+    buildTime: 18
+    monthlyCost: 15000
+    aliens: 10
+    mapName: XBASE_08    

@@ -8,3 +8,4 @@ startingConditions:
       - STR_ICARUS_COAT_UC
     allowedItemCategories:
       - STR_MELEE
+      - STR_MEDICAL

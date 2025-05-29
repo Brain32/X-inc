@@ -20,7 +20,9 @@ en-US:
   STR_JUMPSUIT_JETPACK: "Jetpack"
   STR_JUMPSUIT_JETPACK_UC: "JETPACK"
   STR_JUMPSUIT_JETPACK_UFOPEDIA: "Simple jetpack for commercial use. Mostly used for boring everyday affairs, but we could use it for our purposes.The controls take up one hand slot, so using two-handed weapons will be problematic."
-
+  STR_IRONCLAD: "Ironclad"
+  STR_IRONCLAD_UC: "IRONCLAD"
+  STR_IRONCLAD_UFOPEDIA: "The popular model of power armor for the colonial marines of RimWorld. As the consumer of this product has to deal with the pheasant and the horrors of the depths of distant planets, the armor is made so that it would be good to pluck bites and cutting attacks, but not very well protects against energy weapons. {NEWLINE}Cannot run. {NEWLINE}HV:10"
                     ############# Components #############
 
   STR_AQUA_PLASTICS: "Aquaplatics"
@@ -192,6 +194,11 @@ en-US:
   STR_M52S_AJAX_RIFLE: "AJAX Rifle"
   STR_M52S_AJAX_RIFLE_CLIP: "AJAX Rifle clip" 
   STR_M52S_AJAX_RIFLE_UFOPEDIA: "Sleek assault rifle M52S-AJAX, popular with military forces and private police forces around the globe. Smooth trigger and red dot sight provide near perfect fire control."
+  STR_BATTLE_RIFLE: "Military autorifle"
+  STR_BATTLE_RIFLE_CLIP: "Autorifle mag"
+  STR_BATTLE_RIFLE_CLIP_AP: "Autorifle mag/AP"
+  STR_BATTLE_RIFLE_CLIP_PS: "Autorifle mag/PS"
+  STR_BATTLE_RIFLE_UFOPEDIA: "A best friend of any colonial Marine of the rimworlds, this heavy military-grade rifle has been handed to billions of colonists around the galaxy. Accuracy when firing in bursts is very poor, but snapshots is accurate for its class."
   STR_BANDIT_RIFLE: "Bandit rifle"
   STR_BANDIT_RIFLE_UFOPEDIA: "Well built rifle, ideal for caravan robbery."
   STR_LAS_RIFLE_SCAV: "Scav las rifle"
@@ -207,6 +214,10 @@ en-US:
   STR_COWRIFLE_UFOPEDIA: "A very interesting, for a Wasteland, rifle with a tubular underbarrel magazine. An experienced and fast shooter, can empty almost the entire mag in one go!"
   STR_COWRIFLE_AMMO: "Ammo Lever Rifle"
   STR_COWRIFLE_AMMO_AA: "Ammo Lever Rifle/AA"
+  STR_MSR770: "MSR-770 Rifle"
+  STR_MSR770_CLIP: "Clip. MSR-770"
+  STR_MSR770_BIG_CLIP: "Big Clip. MSR-770"
+  STR_MSR770_UFOPEDIA: "Signature weapon of the Russian Air Force. Based on the Russian SKS, this rifle has a polymer frame, plasteel parts and has a fashionable and sophisticated optronic sight! Large clips reduce accuracy by 20% (Clip frame covers the sight. What kind of moron came up with the idea of putting the magazine ON TOP, between the sight?!)."  
 
 #HMG
   STR_M60: "M60"
@@ -337,7 +348,7 @@ en-US:
 
 #UFOPedia_Factions
   STR_SMUGLERS: "Faction: Smugglers"
-  STR_SMUGLERS_UFOPEDIA: "Smugglers are a group of desperate people who got bored with boring life in mega cities. These guys make a living by transporting and selling drugs, guns and all kinds of illegal corporate crap all over the world. Needless to say, this is a hell of a way of life. Do not let that dumb pre-war outfit fool you - those guys are determined and well-armed. They never use elerium-powered crafts in their shipping, so tracking them will be a hell of a task."
+  STR_FAC_SMUGLERS_UFOPEDIA: "Smugglers are a group of desperate people who got bored with boring life in mega cities. These guys make a living by transporting and selling drugs, guns and all kinds of illegal corporate crap all over the world. Needless to say, this is a hell of a way of life. Do not let that dumb pre-war outfit fool you - those guys are determined and well-armed. They never use elerium-powered crafts in their shipping, so tracking them will be a hell of a task."
   STR_SMUGLERS_GUNS_UFOPEDIA: "Smugglers use old pre-war weapons in their operations. These guns were most likely 3D-printed."
   STR_SMUGLERS_BELIVES: "Beliefs of the Smugglers"
   STR_SMUGLERS_BELIVES_UFOPEDIA: "After questioning few smugglers, we began to notice some strange ditales. Unlike other mafia syndicates, smugglers stick to prewar ideolos. They drive old cars, wear old suits, and use old weapons, even though it�s the XXIV century! Smugglers believe in the style and passion of their work. Even, a little romanticizing their illigal craft."
@@ -408,6 +419,39 @@ en-US:
   STR_GANG_HI_RISE_HOUSE_TAKEOVER: "Brothel cleaning service"
   STR_GANG_HR_TAKEOVER_ALERT: "Brothel cleaning service"
   STR_GANG_HI_RISE_HOUSE_TAKEOVER_BRIEFING: "Megapol contacted us and offerd a job. In this sector of the mega city, a gathering of stoned city goons was formed who did not want to get out of here at good terms. Why not teach these pricks a lesson and get them out of this building feet first? Besides, it wont be a bad PR move for our agency!"
+
+  STR_SMUGLER_CLUB: "Smuglers Club"
+  STR_SMUGLER_CLUB_BRIEFING: "Мегапол сообщил нам о укрытии местных барыг которые... нехотят сотрудничать с органами правопорядка по хорошему. Нам СЛУЧАЙНО попли кординаты их ночного клуба в котором они прячут всё своё барахло, так почему бы нам туда ненаведатся ? {NEWLINE} ВНИМАНИЕ! - На задание можно взять только гражданскую броню и оружие ближнего боя. {NEWLINE}Чтобы прервать задание, приведите оперотивников X-INC в зону выхода и кликните по иконке «Покинуть поле боя»."
+  STR_SMUGLER_CLUB_ALERT_DESCRIPTION: "Мегапол сообщил нам о укрытии местных барыг которые... нехотят сотрудничать с органами правопорядка по хорошему. Нам СЛУЧАЙНО попли кординаты их ночного клуба в котором они прячут всё своё барахло, так почему бы нам туда ненаведатся ? {NEWLINE} ВНИМАНИЕ! - На задание можно взять только гражданскую броню и оружие ближнего боя."
+  STR_GANG_BURGLARY: "Налёт на Мега город"
+  STR_GANG_BURGLARY_DESCRIPTION: "Недавно было совершён налёт на жилой район мега-города в этом секторе. Нам удалось засечь нападавших в этом секторе. Если нам удастся их перехватить, то мы можем их задержать!"
+  STR_WASTELAND_GANG: "Raiders Outpost"
+  STR_WASTELAND_GANG_BRIEFING: "Местные жители Пустишей жалуются на частые налёты рейдеров в этом районе. Ясное дело что местным правительствам не до того что бы тратить рессурсы на каких-то мелких бандюг хрен-знает-где. Облава на это место не только принесёт нам немного известности, но мы можем изъять кое-какие стволы и экиперовку в качестве... доказательств. Если вы понимаете о чём я. {NEWLINE}Чтобы прервать задание, приведите оперотивников X-INC в зону выхода и кликните по иконке «Покинуть поле боя». "
+  STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: "!Налёт на Старую Военную базу!"
+  STR_SCAVANGER_HUNT_OLD_BASE: "Мусорщики: Старая база"
+  STR_SCAVANGER_HUNT_OLD_BASE_ALERT: "Мусарка в старой базе"
+  STR_SCAVANGER_HUNT_OLD_BASE_DESCRIPTION: "Жестянщики связалась с нами и сообщили о местонахождении старой базы, построенной ещё во времена Великого Вторжения. Они просят нас помощи т.к. база кешит охранными роботами и мутантоми.{NEWLINE} Наши работадатили не будут в восторге от того что мы будем лазить по старым правительствинным базам (-250 рейтинга). Однако экиперовка и технологии таящиеся в глубинах этого бункера могут того стоить."
+  STR_SCAVANGER_HUNT_OLD_BASE_BRIEFING: "Жестянщики связалась с нами и сообщили о местонахождении старой базы, построенной ещё во времена Великого Вторжения. Они просят помощи т.к. база кешит охранными роботами и мутантоми. Наши работадатили не будут в восторге от того что мы будем лазить по старым правительствинным базам (-250 рейтинга). Однако экиперовка и технологии таящиеся в глубинах этого бункера могут того стоить."
+  STR_GANG_HI_RISE_HOUSE_TAKEOVER: "Чистка притона"
+  STR_GANG_HR_TAKEOVER_ALERT: "Чистка притона"
+  STR_GANG_HI_RISE_HOUSE_TAKEOVER_BRIEFING: "Мегапол связался с нами и предложил нам работу. В этом секторе мага города образавалось сборище обдолбаных городских гловорезов которые нехотять свалить отсюда по хорошему. Почему бы не приподать этим ублюдкам урок и не вынести их из этого здания ногами вперёд? К тому же, это будет неплохой пиар ход нашего агенства!"
+  STR_GANG_HR_TAKEOVER_DESCRIPTION: "Мегапол связался с нами и предложил нам работу. В этом секторе мага города образавалось сборище обдолбаных городских гловорезов которые нехотять свалить отсюда по хорошему. Почему бы не приподать этим ублюдкам урок и не вынести их из этого здания ногами вперёд? К тому же, это будет неплохой пиар ход нашего агенства!"
+  STR_WASTELAND_FARM_RAID: "Налёт на ферму"
+  STR_WASTELAND_FARM_RAID_ALERT: "Атака Рейдеров на ферму"
+  STR_WASTELAND_FARM_RAID_DESCRIPTION: "С нам связался один из наших клиентов который просит о помощи. На его небольшую ферму часто нападают различные головорезы из пустышей. Дошло до того что они начали стрелять прямо в работников фермы! Пора бы преподать этим уёбкам урок и отрабтать нашу зарплату. Нас буду сопровождать несколько вооружонных фермеров, постарайтесь сохранить им жизнь если это возможно."
+  STR_WASTELAND_FARM_RAID_BRIEFING: "С нам связался один из наших клиентов который просит о помощи. На его небольшую частную ферму часто наподают различные головорезы из пустышей. Дошло до того что они начали стрелять прямо в работников фермы! Пора бы преподать этим уёбкам урок и отрабтать нашу зарплату. Нас буду сопровождать несколько вооружонных фермеров, постарайтесь сохранить им жизнь если это возможно. Чтобы прервать задание, приведите агентов X-COM в зону выхода и кликните по иконке «Покинуть поле боя»."
+  STR_SIN_CRAFT_SHOOTDOWN: "Незаплонированная посадка"
+  STR_SIN_CRAFT_SHOOTDOWN_DESCRIPTION: "«Тревога, Тревога, всем кто нас слышит! Наше судно было сбито повстанцеми и мы просим помощи! Выташите наших ребят отсюда и наша корпорация щедро вас вознаградит. Но будтье осторожны эти ублюдки хорошо вооружены, а двигатель этой калымагы может взорватся в любой момент.»"
+  STR_SIN_CRAFT_SHOOTDOWN_BRIEFING: "«Тревога, Тревога, всем кто нас слышит! Наше судно было сбито повстанцеми и мы просим помощи! Выташите наших ребят отсюда и наша корпорация щедро вас вознаградит.Но будтье осторожны эти ублюдки хорошо вооружены, а двигатель этой калымагы может взорватся в любой момент.{NEWLINE}Чтобы прервать задание, приведите оперотивников X-INC в зону выхода и кликните по иконке «Покинуть поле боя»."
+  STR_SIN_OUTPOST: "Аутпост Рейдеров"
+  STR_ALERT_SIN_OUTPOST: "Аутпост Рейдеров"
+  STR_SIN_OUTPOST_DESCRIPTION: "Местные говорят что недавно здесь обосновлось ячейка террористов нам бы следовало с ними разобратся!"
+  STR_SIN_OUTPOST_BRIEFING: "Местные говорят что недавно здесь обосновлось ячейка террористов нам бы следовало с ними разобратся!{NEWLINE}Чтобы прервать задание, приведите оперотивников X-INC в зону выхода и кликните по иконке «Покинуть поле боя»."
+  STR_BUTCHERY_RAID: "Мясная лавка ужасов"
+  STR_BUTCHERY_RAID_ALERT: "Butcher horror"
+  STR_BUTCHERY_RAID_DESCRIPTION: "К нам посутпило задание от Мегапола. После неудачного облавы на одну из улченых групировок, некоторые официеры Мегапорла были захвачены живём и держатся в старой базе по производтсву собачей еды.  Конечно же никто из этих ленивых ублёдков в Мегаполе не будет рисковать своей жопой, так что на фарш хотят пустить того кого не жалко, тоесть нас. Будте осторожны головорезы хорошо вооружены и подготовлены."
+  STR_BUTCHERY_RAID_BRIEFING: "К нам посутпило задание от Мегапола. После неудачного облавы на одну из улченых групировок, некоторые официеры Мегапорла были захвачены живём и держатся в старой базе по производтсву собачей еды.  Конечно же никто из этих ленивых ублёдков в Мегаполе не будет рисковать своей жопой, так что на фарш хотят пустить того кого не жалко, тоесть нас. Будте осторожны головорезы хорошо вооружены и подготовлены. Чтобы прервать задание, приведите агентов X-COM в зону выхода и кликните по иконке «Покинуть поле боя»."
+
 
 #Tech Tree
   STR_OURORIGINS: "Our origins"

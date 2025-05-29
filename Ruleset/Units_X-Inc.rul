@@ -132,7 +132,72 @@ units:
         - STR_PISTOL_HW_CLIP
         - STR_PISTOL_HW_CLIP
 
-#Cops
+                                                        ###FriendlyCorpos###
+  - type: STR_FRNDCORPO_HIGH_EXEC
+    race: STR_FRNDCORPO
+    stats:
+      tu: 60
+      stamina: 50
+      health: 55
+      bravery: 50
+      reactions: 50
+      firing: 50
+      throwing: 30
+      strength: 20
+      psiStrength: 40
+      psiSkill: 60
+      melee: 40
+    armor: STR_FRNDCORPO_HIGH_EXEC_INV
+    standHeight: 21
+    kneelHeight: 14
+    value: 100
+    civilianRecoveryType: STR_FRNDCORPO_HIGH_EXEC
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_SMART_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+  - type: STR_FRNDCORPO_BODYGUAD
+    race: STR_FRNDCORPO
+    stats:
+      tu: 80
+      stamina: 100
+      health: 65
+      bravery: 90
+      reactions: 70
+      firing: 90
+      throwing: 60
+      strength: 50
+      psiStrength: 30
+      psiSkill: 40
+      melee: 70
+    armor: STR_FRNDCORPO_BODYGUARD_INV
+    standHeight: 21
+    kneelHeight: 14
+    value: 20
+    intelligence: 5
+    energyRecovery: 20
+    deathSound: 20
+    builtInWeaponSets:
+      - - STR_G11E
+        - STR_G11_CLIP
+        - STR_G11_CLIP
+        - STR_G11_CLIP
+        - STR_GRENADE
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+      - - STR_M52S_AJAX_RIFLE
+        - STR_M52S_AJAX_RIFLE_CLIP
+        - STR_M52S_AJAX_RIFLE_CLIP
+        - STR_M52S_AJAX_RIFLE_CLIP
+        - STR_GRENADE
+                                                        ###Cops###
 
   - type: AUTO_COP
     race: STR_CIVILIAN
@@ -726,14 +791,13 @@ units:
       psiStrength: 80
       psiSkill: 80
       melee: 90
-    armor: STR_SYNDICATE_MANAGER
+    armor: STR_SYNDICATE_MANAGER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 25
     energyRecovery: 30
     intelligence: 2
     aggression: 3
-    canSurrender: true
     canSurrender: true
     recover: true
     prisonType: 1
@@ -764,7 +828,6 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
-    canSurrender: true
     recover: true
     prisonType: 1
     deathSound: [41, 42, 43]
@@ -791,7 +854,6 @@ units:
     intelligence: 2
     aggression: 3
     canSurrender: true
-    canSurrender: true
     recover: true
     prisonType: 1
     deathSound: [41, 42, 43]
@@ -799,16 +861,16 @@ units:
     race: STR_SMUGLER
     rank: STR_LIVE_MEDIC
     stats:  
-      tu: 70
+      tu: 65
       stamina: 90
       health: 70
       bravery: 80
       reactions: 70
-      firing: 90
+      firing: 50
       throwing: 50
       strength: 60
       psiStrength: 60
-      psiSkill: 0
+      psiSkill: 40
       melee: 70
     armor: STR_SMUGLER_LANCE_INV
     standHeight: 22
@@ -817,7 +879,6 @@ units:
     energyRecovery: 30
     intelligence: 2
     aggression: 3
-    canSurrender: true
     canSurrender: true
     recover: true
     prisonType: 1
@@ -844,7 +905,6 @@ units:
     energyRecovery: 30
     intelligence: 2
     aggression: 3
-    canSurrender: true
     canSurrender: true
     recover: true
     prisonType: 1
@@ -881,7 +941,6 @@ units:
     deathSound: [41, 42, 43]
     spotter: 2
     sniper: 45
-    canSurrender: true
   - type: STR_WST_BIKER_2
     race: STR_BIKERS
     rank: STR_LIVE_NAVIGATOR
@@ -911,7 +970,6 @@ units:
     deathSound: [41, 42, 43]
     spotter: 2
     sniper: 45
-    canSurrender: true
   - type: STR_WST_BIKER_3
     race: STR_BIKERS
     rank: STR_LIVE_MEDIC
@@ -941,7 +999,6 @@ units:
     deathSound: [41, 42, 43]
     spotter: 2
     sniper: 60
-    canSurrender: true
   - type: STR_WST_BIKER_4
     race: STR_BIKERS
     rank: STR_LIVE_ENGINEER
@@ -971,7 +1028,6 @@ units:
     deathSound: [44, 45, 46]
     spotter: 2
     sniper: 50
-    canSurrender: true
   - type: STR_WST_BIKER_5
     race: STR_BIKERS
     rank: STR_LIVE_LEADER
@@ -1001,7 +1057,6 @@ units:
     deathSound: [41, 42, 43]
     spotter: 2
     sniper: 75
-    canSurrender: true
 
 ###Terrorists###
 
@@ -1034,7 +1089,6 @@ units:
     deathSound: [41, 42, 43]
     spotter: 2
     sniper: 45
-    canSurrender: true
   - type: STR_TERRORIST_SIN_2 #Scout
     race: STR_TERRORIST_SIN
     rank: STR_LIVE_SOLDIER
@@ -1064,7 +1118,6 @@ units:
     deathSound: [41, 42, 43]
     spotter: 2
     sniper: 45
-    canSurrender: true
   - type: STR_TERRORIST_SIN_3 #Sergant
     race: STR_TERRORIST_SIN
     rank: STR_LIVE_SOLDIER
@@ -1094,7 +1147,35 @@ units:
     deathSound: [41, 42, 43]
     spotter: 2
     sniper: 45
-
+  - type: STR_TERRORIST_SIN_4 #Luthenant
+    race: STR_TERRORIST_SIN
+    rank: STR_LIVE_SOLDIER
+    stats:  
+      tu: 80
+      stamina: 80
+      health: 60
+      bravery: 100
+      reactions: 70
+      firing: 85
+      throwing: 60
+      strength: 60
+      psiStrength: 35
+      psiSkill: 0
+      melee: 75
+      mana: 80
+    armor: STR_TERRORIST_SIN_4_INV
+    standHeight: 22
+    kneelHeight: 14
+    value: 35
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    recover: true
+    prisonType: 1
+    deathSound: [41, 42, 43]
+    spotter: 2
+    sniper: 45
 ###YourTurrets###
 
   - type: STR_SENTRY_TURRET_MK1
@@ -1123,7 +1204,7 @@ units:
     specab: 1
     spotter: 1
     sniper: 75
-    deathSound: 23
+    deathSound: 178
     livingWeapon: true
     capturable: false
 

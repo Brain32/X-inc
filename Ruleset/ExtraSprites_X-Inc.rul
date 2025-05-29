@@ -147,6 +147,24 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/PizzaTime.png
+  - type: WASTE_TACTICS_BG1.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Waste_Wasteland_FTactics.png
+  - type: MONSTERHUNT_BG1.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/MONSTER_BACKGROUND.png
+  - type: RUINSBG1.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Waste_Ruins_Inside.png
 
 # Player inv pics
   - typeSingle: HUMAN_RUNNER__7__RUNNER_COAT_M
@@ -181,6 +199,7 @@ extraSprites:
 #CivilianVest
   - typeSingle: HUMAN_RUNNER__7__CIVIL_VEST_MALE_SMALL
     fileSingle: Resources/Armours/CivilVest/Inv_CivilVest.png
+
 #Made a fem version ?
 #  - typeSingle: HUMAN_RUNNER__7__CIVIL_VEST_FEM_SMALL
 #    fileSingle: Resources/Armours/CivilVest/Civilian_Vest_FemSmall.png
@@ -210,6 +229,9 @@ extraSprites:
 ###Add_Female_Version_?###
   - typeSingle: HUMAN_RUNNER__11__TAURUS_ARMOUR_HELMET
     fileSingle: Resources/Armours/Taurus/Taurus_Hel.png
+#NightOps
+  - typeSingle: HUMAN_RUNNER__7__NIGHTOPS_ARMOUR
+    fileSingle: Resources/Armours/NightOpsArmour/Inv_NightOpsArmor.png
 
 
   - type: MAN_99.SPK
@@ -239,6 +261,11 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Armours/Combat Armour/Inv_CombarArmour_Mk2.png
+  - type: MAN_25.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/Templar/Inv_Templar_PA.png
+
 
 #SecVest
   - type: MAN_26_VEST_M.SPK
@@ -270,6 +297,11 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Armours/Taurus/Taurus_Hel.png
+#Ironclad 
+  - type: IRONCLAD.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/Ironclad_PA/Inv_Ironclad.png
 
                                                       #### Your Tanks ####
 #HoverTank
@@ -311,7 +343,15 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionPack/OldRobots/inv_OldTurret.png
-
+                                                                  ###CorpoFirendly###      
+  - type: CORPOFIREND_EXEC.SPK
+    singleImage: true
+    files:
+      0: Resources/FactionPack/CorpoFriendly/Inv_CorpoHighExec.png
+  - type: CORPOFIREND_BODYGUARD.SPK
+    singleImage: true
+    files:
+      0: Resources/FactionPack/CorpoFriendly/inv_SecDude.png
                                                                   ###Police###
   - type: Inv_AutoCop
     singleImage: true
@@ -484,6 +524,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionPack/Terrorists/Inv_SiN_Spy.png
+  - type: INV_SIN05
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Terrorists/Inv_SiN_Instructor.png      
 
                          ### Bigobs (inventory) ### 
 
@@ -856,6 +900,34 @@ extraSprites:
       426: Resources/Armours/AI/SenteryTurret_MK1/BigOb_ST_MK1.png
       427: Resources/Armours/AI/SenteryTurret_MK1/BigOb_Wreck.png     
       428: Resources/Armours/AI/SenteryTurret_MK1/BigOb_ST_MK1_Gun.png
+      429: Resources/Armours/Ironclad_PA/bigob_Ironclad_PA.png
+      430: Resources/Weapons/Grenades/bigob_Big_C4.png
+      431: Resources/Weapons/MilitWeapons/bigob_SniperRifle.png
+      432: Resources/Weapons/MilitWeapons/bigob_SniperRifle_Clip.png
+      433: Resources/Weapons/MilitWeapons/bigob_SniperRifle_Clip_AP.png
+      434: Resources/Weapons/MilitWeapons/bigob_SniperRifle_Clip_AA.png
+      435: Resources/Weapons/MilitWeapons/bigob_BB2.png
+      436: Resources/FactionPack/CorpoFriendly/bigob_CorpoHighExec.png
+      437: Resources/FactionPack/CorpoFriendly/bigob_SecDude.png
+      438: Resources/Weapons/MilitWeapons/bigob_AR6.png
+      439: Resources/Weapons/MilitWeapons/bigob_AR6_clip.png
+      440: Resources/Weapons/MilitWeapons/bigob_AR6_clip_AP.png
+      441: Resources/Weapons/MilitWeapons/bigob_AR6_clip_PS.png
+      442: Resources/Weapons/X-IncGuns/bigob_AssaultSniperRifle.png
+      443: Resources/Weapons/X-IncGuns/bigob_AssaultSniperRifle_Clip.png
+      444: Resources/Weapons/X-IncGuns/bigob_AssaultSniperRifle_ClipPS.png
+      445: Resources/Weapons/MilitWeapons/bigob_MSR770_Big_Clip.png
+      446: Resources/Weapons/PreWarWeapons/bigob_GL_M16.png
+      447: Resources/Weapons/MilitWeapons/bigob_MinigLaser.png
+      448: Resources/OtherItems/bigob_BOX7.png
+      449: Resources/Weapons/PreWarWeapons/bigob_ChromeShotgun.png
+      450: Resources/Weapons/MilitWeapons/bigob_MilPlasmaRifle.png
+      451: Resources/Weapons/MilitWeapons/bigob_MilPlasmaRifle_clip.png
+      452: Resources/Armours/NightOpsArmour/bigob_NightOpsArmor.png
+      453: Resources/Blanks/Null_Void_3x3.png
+      454: Resources/SupportItems/bigob_FireEx.png
+      456: Resources/OtherItems/bigob_CyberDeck_Begginer.png
+      457: Resources/Armours/Templar/bigob_Templar.png
 
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
@@ -989,7 +1061,16 @@ extraSprites:
       1096: Resources/Weapons/MilitWeapons/handob_SAW.png
       1104: Resources/Weapons/CityWeapons/Handob_Revolver.png
       1112: Resources/Armours/AI/SenteryTurret_MK1/handob_ST_MK1.png
-
+      1120: Resources/Weapons/Grenades/Handob_DRG_C4.png
+      1128: Resources/Weapons/MilitWeapons/handob_SniperRifle.png
+      1136: Resources/Weapons/MilitWeapons/handob_BB2.png
+      1144: Resources/Weapons/MilitWeapons/handob_AR6.png
+      1152: Resources/Weapons/X-IncGuns/HandOb_AssaultSniperRifle.png
+      1160: Resources/Weapons/MilitWeapons/handob_MiningLaser.png
+      1168: Resources/Weapons/PreWarWeapons/handob_ChromeShotgun.png
+      1176: Resources/Weapons/MilitWeapons/handob_MilPlasma_Rifle.png
+      1184: Resources/SupportItems/handob_FireEx.png
+      1192: Resources/OtherItems/handob_CyberDeck1.png
 
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
@@ -1243,6 +1324,26 @@ extraSprites:
       374: Resources/Weapons/CityWeapons/Floorob_Revolver_Clip.png
       375: Resources/Armours/AI/SenteryTurret_MK1/FloorOb_ST_MK1.png
       376: Resources/Armours/AI/SenteryTurret_MK1/FloorOb_Dead_ST_MK1.png
+      377: Resources/Armours/Ironclad_PA/floorob_IRONCLAD_PA_CORPSE.png
+      378: Resources/Weapons/Grenades/floorob_DRG_C4.png
+      379: Resources/Weapons/MilitWeapons/floorob_SniperRifle.png
+      380: Resources/Weapons/MilitWeapons/floorob_SniperRifle_clip.png
+      381: Resources/Weapons/MilitWeapons/floorob_BB2.png
+      382: Resources/FactionPack/CorpoFriendly/floorob_HighExec.png
+      383: Resources/FactionPack/CorpoFriendly/floorob_SecDude.png
+      384: Resources/Weapons/MilitWeapons/Floorob_AR6.png
+      385: Resources/Weapons/MilitWeapons/Floorob_AR6_clip.png
+      386: Resources/Weapons/X-IncGuns/floorob_AssaultSniperRifle.png
+      387: Resources/Weapons/X-IncGuns/Floorob_AssaultSniperRifle_Clip.png
+      388: Resources/Weapons/X-IncGuns/Floorob_AssaultSniperRifle_ClipPS.png
+      389: Resources/Weapons/MilitWeapons/Floorob_MiningLaser.png
+      390: Resources/Weapons/PreWarWeapons/Floorob_ChromeShotgun.png
+      391: Resources/Weapons/MilitWeapons/handob_MilPlasma_Rifle.png
+      451: Resources/Weapons/MilitWeapons/Floorob_MilPlasmaRifle_Clip.png
+      452: Resources/Armours/NightOpsArmour/floorob_NightOpsArmor.png
+      453: Resources/SupportItems/floorob_FireEx.png
+      454: Resources/OtherItems/Floorob_CyberDeck1.png
+      458: Resources/Armours/Templar/floorob_TEMPLAR_PA_CORPSE.png
 
                                    ### Sprite sheet (Battlescape) ###
 ### YourArmour ###
@@ -1335,7 +1436,32 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Armours/JumpSuit_JetPack/JUMPSUIT_JETPACK.png
+      0: Resources/Armours/JumpSuit_JetPack/JUMPSUIT_JETPACK.png      
+#Ironcald_Spritesheet
+  - type: XCOM_47.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/Ironclad_PA/IRONCLAD.png
+#NightOps_Spritesheet
+  - type: XCOM_48.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/NightOpsArmour/NightOpsArmor.png
+#Templar
+  - type: XCOM_49.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/Templar/TEMPLAR_PA.png
+
 
                                                                   ###Your Tanks###
   - type: HOVER_TANK_CANNON.PCK
@@ -1369,7 +1495,21 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Armours/AI/SecBot/SecBot_12mm.png
-
+                                                                  ###CorpoFirendly###
+  - type: CORPOFIREND_EXEC.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/CorpoFriendly/CorpoHighExec.png
+  - type: CORPOFIREND_BODYGUARD.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/CorpoFriendly/CorpoSecGuy.png  
 
                                                                   ###Police###
 
@@ -1666,6 +1806,13 @@ extraSprites:
     subY: 40
     files:
       0: Resources/FactionPack/Terrorists/SiN_Spy.png
+  - type: TERRORIST_SIN04.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Terrorists/SiN_Instructor.png
 
 
 #Explotion same as Hand Obj with IDs
@@ -1956,6 +2103,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/WASTE_MISSIONS_CPAL.png
+  - type: ADVANCEDWEAPONMANUFACTURING.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/AdvancedGunsConstruction.png      
   - type: WASTELAND_WEAPON_FACTORY_BG_CPAL.SPK
     singleImage: true
     width: 320
@@ -1974,6 +2127,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/Intel_Officer_1.png
+  - type: RIM_WORLD_SUP.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/RimWorldSupplies.png    
   - type: MILIT_SUPPLIES.SPK
     singleImage: true
     width: 320
@@ -1992,6 +2151,19 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/BasicAlloyArmourDesign.png
+
+  - type: BUILDEXPANSION.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/UndergroundBase.gif
+  - type: CYBERDECK.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/CYBERDECK.png
 
   - type: ROCKET_LAUNCHER_LICENSE_CPAL.SPK
     singleImage: true
