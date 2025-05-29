@@ -407,7 +407,7 @@ armors:
       F5: ["", "", "F5_NUDE", "", "", "", "", "COMBAT_ARMOUR_MK1", "", "", "", "COMBAT_ARMOUR_HELMET_MK1", "", ""]
       F6: ["", "", "F6_NUDE", "", "", "", "", "COMBAT_ARMOUR_MK1", "", "", "", "COMBAT_ARMOUR_HELMET_MK1", "", ""]
       F7: ["", "", "F7_NUDE", "", "", "", "", "COMBAT_ARMOUR_MK1", "", "", "", "COMBAT_ARMOUR_HELMET_MK1", "", ""]
-    customArmorPreviewIndex: 55
+    customArmorPreviewIndex: 54
     corpseBattle:
       - STR_CORPSE_COMBAT_ARMOUR_MK1
     storeItem: STR_COMBAT_ARMOUR_MK1
