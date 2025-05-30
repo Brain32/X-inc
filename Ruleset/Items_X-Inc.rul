@@ -5676,10 +5676,7 @@
     listOrder: 22470
   - type: STR_SMART_SAWNOFF
     categories: [STR_SHOTGUNS]
-    requiresBuy:
-      - STR_IDDQD
     size: 0.2
-    costBuy: 20500
     costSell: 16500
     weight: 10
     bigSprite: 191

@@ -580,6 +580,12 @@ research:
     points: 20
     listOrder: 151070
     needItem: true
+  - name: STR_IRONCLAD_ARMOR_PURCHES
+    cost: 200
+    points: 20
+    listOrder: 151070
+    dependencies:
+      - STR_RIMWORLD_SUPPLIES_ACCES
   - name: STR_TEMPLAR_ARMOR_STUDY
     cost: 250
     points: 50

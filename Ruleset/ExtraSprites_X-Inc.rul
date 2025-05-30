@@ -1338,7 +1338,7 @@ extraSprites:
       388: Resources/Weapons/X-IncGuns/Floorob_AssaultSniperRifle_ClipPS.png
       389: Resources/Weapons/MilitWeapons/Floorob_MiningLaser.png
       390: Resources/Weapons/PreWarWeapons/Floorob_ChromeShotgun.png
-      391: Resources/Weapons/MilitWeapons/handob_MilPlasma_Rifle.png
+      391: Resources/Weapons/MilitWeapons/Floorob_MilPlasma_Rifle.png
       451: Resources/Weapons/MilitWeapons/Floorob_MilPlasmaRifle_Clip.png
       452: Resources/Armours/NightOpsArmour/floorob_NightOpsArmor.png
       453: Resources/SupportItems/floorob_FireEx.png
