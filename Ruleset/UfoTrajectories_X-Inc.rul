@@ -1,6 +1,6 @@
 ﻿ufoTrajectories:
   - id: P0
-    groundTimer: 100
+    groundTimer: 3000
     waypoints:
       - [5, 4, 100]
       - [0, 3, 74]
@@ -232,7 +232,7 @@
       - [0, 2, 70]
       - [4, 1, 44]
       - [1, 0, 20]
-      #- [0, 2, 70]
+#      - [0, 2, 70]
       - [0, 1, 80]
   - id: P_HUNT_GROUND
     groundTimer: 100
