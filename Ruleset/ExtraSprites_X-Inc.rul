@@ -928,7 +928,12 @@ extraSprites:
       454: Resources/SupportItems/bigob_FireEx.png
       456: Resources/OtherItems/bigob_CyberDeck_Begginer.png
       457: Resources/Armours/Templar/bigob_Templar.png
-
+      458: Resources/Weapons/MilitWeapons/bigob_Trasher.png
+      459: Resources/Weapons/MilitWeapons/bigob_Trasher_Shells.png
+      460: Resources/Weapons/MilitWeapons/bigob_AR3.png
+      461: Resources/Weapons/MilitWeapons/bigob_AR3_clip.png 
+      462: Resources/Weapons/MilitWeapons/bigob_AR3_clip_AA.png
+      463: Resources/Weapons/LaserWeapons/bigob_GatLaser.png
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
     height: 40
@@ -1071,6 +1076,9 @@ extraSprites:
       1176: Resources/Weapons/MilitWeapons/handob_MilPlasma_Rifle.png
       1184: Resources/SupportItems/handob_FireEx.png
       1192: Resources/OtherItems/handob_CyberDeck1.png
+      1200: Resources/Weapons/MilitWeapons/handob_Thrasher.png
+      1208: Resources/Weapons/MilitWeapons/handob_AR3.png
+      1216: Resources/Weapons/LaserWeapons/HandOb_GatLaser.png
 
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
@@ -1344,7 +1352,12 @@ extraSprites:
       453: Resources/SupportItems/floorob_FireEx.png
       454: Resources/OtherItems/Floorob_CyberDeck1.png
       458: Resources/Armours/Templar/floorob_TEMPLAR_PA_CORPSE.png
-
+      459: Resources/Weapons/MilitWeapons/floorob_Trasher.png
+      460: Resources/Weapons/MilitWeapons/floorob_Trasher_Shells.png
+      461: Resources/Weapons/MilitWeapons/Floorob_AR3.png
+      462: Resources/Weapons/MilitWeapons/Floorob_AR3_clip.png
+      463: Resources/Weapons/MilitWeapons/Floorob_AR3_clip_aa.png
+      464: Resources/Weapons/LaserWeapons/FloorOb_GatLaser.png
                                    ### Sprite sheet (Battlescape) ###
 ### YourArmour ###
 #StartingJumpSuit_Spritesheet

@@ -5540,7 +5540,7 @@ items:
     floorSprite: 328
     hitSound: 13
     hitAnimation: 26
-    power: 26
+    power: 20
     damageType: 1
     clipSize: 6
     battleType: 2
@@ -6507,6 +6507,92 @@ items:
     armor: 30
     attraction: 15
     listOrder: 20850
+  - type: STR_MILITECH_SMG
+    requiresBuy:
+      - STR_MILITECH_SMG_BUY
+    size: 0.2
+    costBuy: 30000
+    costSell: 24000
+    weight: 18
+    bigSprite: 460
+    floorSprite: 461
+    handSprite: 1208
+    bulletSprite: 1
+    fireSound: 170
+    reloadSound: 133
+    compatibleAmmo:
+      - STR_MILITECH_SMG_CLIP
+      - STR_MILITECH_SMG_AA_CLIP
+    accuracyCloseQuarters: 120
+    accuracyAuto: 45
+    accuracySnap: 70
+    accuracyAimed: 80
+    tuAuto: 29
+    tuSnap: 21
+    tuAimed: 43
+    costThrow:
+      energy: 20
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 80
+    invWidth: 1
+    invHeight: 3
+    armor: 40
+    autoRange: 13
+    snapRange: 16
+    aimRange: 30
+    shotgunChoke: 100
+    attraction: 16
+    listOrder: 20950
+  - type: STR_MILITECH_SMG_CLIP
+    requiresBuy:
+      - STR_MILITECH_SMG_BUY
+    size: 0.05
+    costBuy: 3500
+    costSell: 3000
+    weight: 4
+    bigSprite: 461
+    floorSprite: 462
+    hitSound: 22
+    hitAnimation: 26
+    power: 27
+    damageBonus:
+      firing: 0.1
+    damageType: 1
+    damageAlter:
+      ToHealth: 1.25
+      ArmorEffectiveness: 0.75
+    clipSize: 40
+    costThrow:
+      energy: 8
+    battleType: 2
+    armor: 40
+    attraction: 15
+    listOrder: 20960
+  - type: STR_MILITECH_SMG_AA_CLIP
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.05
+    costBuy: 30000
+    costSell: 24000
+    weight: 4
+    bigSprite: 462
+    floorSprite: 463
+    hitSound: 22
+    hitAnimation: 26
+    power: 36
+    damageBonus:
+      firing: 0.1
+    damageType: 1
+    damageAlter:
+      ToArmor: 1.2
+    clipSize: 40
+    costThrow:
+      energy: 8
+    battleType: 2
+    armor: 30
+    attraction: 15
+    listOrder: 20970
                            ##LaserTier
   - type: STR_LASER_SMG_SIN
     requires:
@@ -6557,6 +6643,75 @@ items:
     armor: 20
     attraction: 15
     listOrder: 20975
+  - type: STR_OGRE_SHOTGUN
+    size: 0.3
+    requiresBuy:
+      - STR_OGRE_SHOTGUN_BUY
+    costBuy: 42000
+    costSell: 14000
+    weight: 30
+    bigSprite: 458
+    floorSprite: 459
+    handSprite: 1200
+    bulletSprite: 3
+    fireSound: 122
+    reloadSound: 109
+    compatibleAmmo:
+      - STR_OGRE_SHOTGUN_SHELLS
+    accuracyAuto: 110
+    accuracySnap: 125
+    accuracyAimed: 150
+    accuracyCloseQuarters: 75
+    accuracyMultiplier:
+      firing: 0.5
+      flatHundred: 0.5
+    tuAuto: 34
+    tuSnap: 30
+    tuAimed: 68
+    confAuto:
+      name: STR_DOUBLE_TAP
+      shortName: STR_ATTACK_MULTI_SHORT
+      shots: 2
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 65
+    aimRange: 14
+    snapRange: 8
+    autoRange: 8
+    dropoff: 6
+    attraction: 12
+    listOrder: 12861
+  - type: STR_OGRE_SHOTGUN_SHELLS
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.05
+    costBuy: 250
+    costSell: 50
+    weight: 4
+    bigSprite: 459
+    floorSprite: 460
+    hitSound: 13
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    damageAlter:
+      ToStun: 0.5
+      ToWound: 0.1
+      ToTile: 0.69
+      RandomWound: false
+    clipSize: 2
+    costThrow:
+      energy: 8
+      time: 40
+    battleType: 2
+    armor: 25
+    shotgunPellets: 12
+    listOrder: 12862
 
                                       #######   Rifles   #######
 
@@ -8239,7 +8394,7 @@ items:
     requiresBuy:
       - STR_MILITARY_SUPLIES
     size: 0.16
-    costBuy: 72000
+    costBuy: 62000
     costSell: 42000
     weight: 16
     bigSprite: 284
@@ -9101,7 +9256,54 @@ items:
     invWidth: 2
     invHeight: 3
     listOrder: 13621
-
+#LAZORTier
+  - type: STR_GATLING_LASER
+    size: 0.4
+    costSell: 265000
+    weight: 40
+    bigSprite: 463
+    floorSprite: 464
+    handSprite: 1216
+    bulletSprite: 6
+    hitSound: 19
+    hitAnimation: 36
+    hitAnimFrames: 3
+    fireSound: 198
+    power: 44
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.666
+      ToArmorPre: 0.025
+      ToWound: 0.06
+      FireThreshold: 40
+      RandomWound: false
+    accuracyAuto: 45
+    accuracyCloseQuarters: 50
+    accuracyMultiplier:
+      firing: 0.65
+      flatHundred: 0.35
+    tuAuto: 40
+    costThrow:
+      energy: 20
+      time: 40
+    sprayWaypoints: 2
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    armor: 50
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    bulletSpeed: 100
+    autoRange: 25
+    autoShots: 9
+    dropoff: 1
+    experienceTrainingMode: 5
+    vaporColorSurface: 6
+    vaporDensitySurface: 2
+    vaporProbabilitySurface: 100
+    attraction: 12
+    listOrder: 13650
                                       #######   Rrocket Launchers   #######
 
   - type: STR_RPG
@@ -10342,13 +10544,13 @@ items:
       ToStun: 0.75
       RandomWound: false
       ToWound: 0.12
+      ToTile: 0.0
       FireThreshold: 25    
     clipSize: -1
     accuracyMultiplier:
       firing: 0.0
       throwing: 1.0
       psiStrength: 0.5
-      ToTile: 0.0
     costAimed:
       time: 18
       energy: 10
