@@ -1,16 +1,64 @@
 countries:
+  - delete: STR_USA
+  - delete: STR_CANADA
   - type: STR_USA
     fundingBase: 120
     fundingCap: 6000
-    labelLon: 260
-    labelLat: -40
+    labelLon: 272
+    labelLat: -38
     areas:
-      - [235, 255, -49, -32]
-      - [255, 277.5, -49, -29]
-      - [260, 265, -29, -26]
+#      - [235, 255, -49, -32]
+      - [256, 277.5, -48.9, -41]
+      - [258, 277.5, -41, -37]
+      - [265.5, 277.5, -37, -29]
+#      - [265.5, 265, -29, -26]
       - [277, 280, -32, -25]
       - [277.5, 286, -44, -32]
       - [286, 292.5, -45.5, -40]
+  - type: STR_CALI_REPUBLIC
+    fundingBase: 120
+    fundingCap: 6000
+    labelLon: 247
+    labelLat: -41.5
+    areas:
+      - [235, 256, -49, -41]
+      - [235, 258, -41, -37]
+      - [235, 265.5, -37, -29]
+      - [243, 255, -32, -19.25] # Western Mexico
+      - [255, 260, -29, -16.8] # Central Mexico
+      - [260, 263, -26, -16] # Monterrey & Mexico City
+      - [263, 273, -21.5, -17.8] # Yukatan 1
+      - [263, 269, -17.8, -16] # Yukatan 2
+      - [263, 268, -16, -15] # Yukatan 3
+      - [199.33, 212, -25.16, -16.42] #Hawaii
+  - type: STR_CARIBBEAN_UNION
+    fundingBase: 120
+    fundingCap: 6000
+    labelLon: 274.5
+    labelLat: -12
+    areas:
+      - [269, 272, -17.8, -16] #
+      - [268, 277, -16, -15] #
+      - [266.5, 277, -15, -11] #
+      - [273, 283, -11, -8.88] #
+      - [275.5, 282, -8.88, -6.5] #
+  - type: STR_COLOMBIA
+    fundingBase: 10
+    fundingCap: 1800
+    labelLon: 289.2
+    labelLat: -5.35
+    areas:
+      - [281, 282, -2.7, -1.4] #Westernmost Colombia
+      - [283, 300.4, -12.5, -8.88] #Northern Colombia
+      - [282, 287, -8.88, -0.2] #West Colombia
+      - [287, 290, -8.88, 2.46] #East-Central Colombia
+      - [290, 310, -8.88, -2.5] #East Colombia
+      - [284.2, 287, -0.2, 1.1] #Southern Colombia
+      - [280.5, 281, -1.72, -1.4] #Northern tip
+      - [279.5, 282, -1.4, 2.5] #Main Ecuador
+      - [279.75, 281.6, 2.5, 5] #Southern Ecuador
+      - [281.6, 283, 2.5, 3.8] #Southeastern Ecuador
+      - [282, 284.2, -0.2, 2.5] #Main Ecuador
   - type: STR_RUSSIA
     fundingBase: 90
     fundingCap: 4000
@@ -51,7 +99,7 @@ countries:
     areas:
       - [7, 15, -46.5, -43]
       - [11, 18, -43, -37]
-  - type: STR_SPAIN
+  - type: STR_SPAIN # now you are ???
     fundingBase: 55
     fundingCap: 6500
     labelLon: 357.5
@@ -95,6 +143,25 @@ countries:
       - [302, 310, -2.5, 22]
       - [310, 325, 0, 24]
       - [305, 313, 22, 32]
+      - [290.5, 306, 22, 39] #Central Argentina
+      - [288, 298, 39, 52] #Patagonia
+      - [291.5, 295.5, 52.5, 55.8] #Ziemia Ognista
+  - type: STR_ANDES
+    fundingBase: 10
+    fundingCap: 1500
+    labelLon: 287
+    labelLat: 37.33
+    areas:
+      - [285.8, 290.5, 18.74, 39] #Northern Chile
+      - [284.12, 288, 39, 54] #Southern Chile
+      - [287.5, 291.5, 52, 55.49] #Ziemia Ognista
+      - [278.8, 279.75, 2.5, 5] #Northwestern Peru
+      - [284.2, 287, 1.1, 2.46] #Northernmost Peru
+      - [283, 290, 2.46, 3.8] #Northern strip 1
+      - [281.6, 289, 3.8, 5] #Northern strip 2
+      - [278.3, 287, 5, 17.3] #Central Peru
+      - [287, 289, 9.7, 18.1] #Southern strip 1
+      - [289, 291, 11.1, 18.74] #Southern strip 2
   - type: STR_AUSTRALIA
     fundingBase: 45
     fundingCap: 4500
@@ -130,5 +197,17 @@ countries:
     labelLon: 260
     labelLat: -55
     areas:
-      - [219, 230, -70, -55]
-      - [230, 305, -75, -40]
+      - [190.5, 219, -80, -52.5] #Alaska Main Body
+      - [219, 224, -60.4, -57] #Alaska Juneau Box 1
+      - [224, 230, -58.5, -54] #Alaska Juneau Box 2
+      - [224, 230, -60.36, -58.5] #North of US Box Near Juneau
+      - [219, 230, -80, -60.36] #Juneau Landsplit2
+      - [230, 271, -80, -49] #moved up from -40 to -49 and cut off
+      - [271, 285, -80, -44.5] #Eastern Canada Pt 1
+      - [285, 305, -80, -45] #Eastern Canada Pt 2
+      - [227, 230, -55, -52.1] #Extend Canada 5
+      - [276, 279, -44.5, -41.59] #Toronto Region 1
+      - [279, 281, -44.5, -42.74] #Toronto Region 2
+      - [281, 284.3, -44.5, -43.38] #Toronto Region 3
+      - [293.5, 298, -45, -43.2] #Newfoundland 1
+      - [305, 307.89, -49.37, -46.77] #Newfoundland 2

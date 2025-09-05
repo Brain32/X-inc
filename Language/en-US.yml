@@ -810,6 +810,12 @@ en-US:
   STR_MCMURDOSTATION: "McMurdo"
   STR_AMUNDSENSCOTTSTATION: "Amundsen-Scott"
 
+  # COUNTRIES
+  STR_CALI_REPUBLIC: "CALI REPUBLIC"
+  STR_CARIBBEAN_UNION: "CARIBBEAN UNION"
+  STR_COLOMBIA: "COLOMBIA"
+  STR_ANDES: "ANDES"
+
 #Game Over dude
   STR_YOU_SUCK: "{NEWLINE}{NEWLINE}{NEWLINE}Congratulations! You lost and now all of humanity is doomed all thanks to your shitty incompetence. Load your last save or start all over again, you fucking moron. {NEWLINE}{NEWLINE}YOU SUCK!"
 
