@@ -5,6 +5,8 @@ countries:
   - delete: STR_GERMANY
   - delete: STR_RUSSIA
   - delete: STR_CHINA
+  - delete: STR_FRANCE
+  - delete: STR_SPAIN
   - type: STR_USA
     fundingBase: 120
     fundingCap: 6000
@@ -91,25 +93,12 @@ countries:
     labelLat: -53.625
     areas:
       - [352, 2, -60, -50]
-  - type: STR_FRANCE
-    fundingBase: 80
-    fundingCap: 8000
-    labelLon: 1
-    labelLat: -44.5
+  - type: STR_SPAIN
+    fundingBase: 10
+    fundingCap: 5000
+    labelLon: 354.5
+    labelLat: -39.25
     areas:
-      - [1.7, 2.6, -51.25, -50.8] # near Belgium 1
-      - [1.5, 3.11, -50.8, -50] # near Belgium 2
-      - [355, 4, -50, -49.5] # European France 1
-      - [355, 8, -49.5, -47.5] # European France 2
-      - [355, 7, -47.5, -47] # European France 3
-      - [355, 6.3, -47, -45.75] # European France 4
-      - [355, 7, -45.75, -43] # European France 5
-      - [8.2, 9.88, -43, -41.3] # Corsica
-      - [163.6, 167, 19.9, 22.71] # New Caledonia - E of Australia
-      - [304, 308, -6.8, -2.6] # French Guiana - N of Brazil
-      - [7, 9.6, -47.5, -47]
-      - [7, 10.5, -47, -46.2]
-      - [6.3, 7, -47, -45.75] # Switzerland near France
       - [350, 355, -44.38, -41.66] # Galicia
       - [353.76, 355, -41.66, -41] # Little Tip 1
       - [355, 359, -44, -43] # Little Tip 2
@@ -124,6 +113,25 @@ countries:
       - [350.5, 352.917, -40, -39] # Central Portugal
       - [350.2, 352.411, -39, -37.6] # Southern Portugal with Lisbon
       - [350.8, 352.32, -37.6, -36.8] # Southernmost Portugal
+  - type: STR_FRANCE
+    fundingBase: 80
+    fundingCap: 8000
+    labelLon: 1
+    labelLat: -44.5
+    areas:
+      - [1.7, 2.6, -51.25, -50.8] # near Belgium 1
+      - [1.5, 3.11, -50.8, -50] # near Belgium 2
+      - [355, 4, -50, -49.5] # European France 1
+      - [355, 8, -49.5, -47.5] # European France 2
+      - [355, 7, -47.5, -47] # European France 3
+      - [355, 6.3, -47, -45.75] # European France 4
+      - [359, 7, -45.75, -43] # European France 5
+      - [8.2, 9.88, -43, -41.3] # Corsica
+      - [163.6, 167, 19.9, 22.71] # New Caledonia - E of Australia
+      - [304, 308, -6.8, -2.6] # French Guiana - N of Brazil
+      - [7, 9.6, -47.5, -47]
+      - [7, 10.5, -47, -46.2]
+      - [6.3, 7, -47, -45.75] # Switzerland near France
       - [6.9, 15, -54.735, -52] # North Germany
       - [6, 15, -52, -50.75] # North-Central Germany
       - [6.31, 14.525, -50.75, -49.5] # South-Central Germany
@@ -197,7 +205,7 @@ countries:
     areas:
       - [7, 15, -46.5, -43]
       - [11, 18, -43, -37]
-  - type: STR_SPAIN # now you are Algeria
+  - type: STR_ALGERIA # now you are Algeria
     fundingBase: 10
     fundingCap: 1600
     labelLon: 1.33
@@ -380,3 +388,10 @@ countries:
       - [281, 284.3, -44.5, -43.38] #Toronto Region 3
       - [293.5, 298, -45, -43.2] #Newfoundland 1
       - [305, 307.89, -49.37, -46.77] #Newfoundland 2
+  - type: STR_KOREA
+    fundingBase: 25
+    fundingCap: 5000
+    labelLon: 126.5
+    labelLat: -35
+    areas:
+      - [124.25, 130, -41, -34] # Korea
