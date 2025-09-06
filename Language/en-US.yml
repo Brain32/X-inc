@@ -815,6 +815,14 @@ en-US:
   STR_CARIBBEAN_UNION: "CARIBBEAN UNION"
   STR_COLOMBIA: "COLOMBIA"
   STR_ANDES: "ANDES"
+  STR_FRANCE: "EUROSYNDICATE"
+  STR_SPAIN: "ALGERIA"
+  STR_GERMANY: "CENTRAL EUROPE"
+  STR_NORWAY: "NORWAY"
+  STR_SWEDEN: "SWEDEN"
+  STR_FINLAND: "FINLAND"
+  STR_ARABIAN_BLOC: "ARABIAN BLOC"
+  STR_INDONESIA: "INDONESIA"
 
 #Game Over dude
   STR_YOU_SUCK: "{NEWLINE}{NEWLINE}{NEWLINE}Congratulations! You lost and now all of humanity is doomed all thanks to your shitty incompetence. Load your last save or start all over again, you fucking moron. {NEWLINE}{NEWLINE}YOU SUCK!"
