@@ -395,3 +395,18 @@ countries:
     labelLat: -35
     areas:
       - [124.25, 130, -41, -34] # Korea
+  - type: STR_AFRICA_CORP
+    fundingBase: 50
+    fundingCap: 2000
+    labelLon: 36
+    labelLat: 2
+    areas:
+      - [34.565, 37.1, -4.48, 5.25] # western Kenya and south
+      - [37.1, 41, -7.5, 5.25] # eastern Kenya
+      - [41, 47, -11, 3.25] # 
+      - [47, 52, -12.2, 3.8] # 
+      - [31.15, 34.565, -1.5, 5.25] # eastern Uganda and south
+      - [31.75, 40, 5.25, 8] # 
+      - [33.75, 40.5, 8, 10.3] # 
+      - [36, 40.8, 10.3, 13] # 
+      - [37, 41.25, 13, 15.7] # 

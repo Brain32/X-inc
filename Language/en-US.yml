@@ -825,6 +825,7 @@ en-US:
   STR_ARABIAN_BLOC: "ARABIAN BLOC"
   STR_KOREA: "KOREA"
   STR_INDONESIA: "INDONESIA"
+  STR_AFRICA_CORP: "AFRICA CORP."
 
 #Game Over dude
   STR_YOU_SUCK: "{NEWLINE}{NEWLINE}{NEWLINE}Congratulations! You lost and now all of humanity is doomed all thanks to your shitty incompetence. Load your last save or start all over again, you fucking moron. {NEWLINE}{NEWLINE}YOU SUCK!"
