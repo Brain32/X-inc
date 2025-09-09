@@ -594,28 +594,6 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_IDDQD
-  - id: STR_JUNKY_SAWED_OFF
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_JUNKY_SAWED_OFF_UFOPEDIA
-    requires:
-      - STR_IDDQD
-  - id: STR_SMART_SAWNOFF
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SMART_SAWNOFFF_UFOPEDIA
-    requires:
-      - STR_SMART_SAWNOFF
-  - id: STR_DOUBLE_BARRELED_BUCKSHOT
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
-  - id: STR_DOUBLE_BARRELED_BUCKSHOT_SLUG
-    section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
-    type_id: 4
   - id: STR_TEC9_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -672,6 +650,80 @@ ufopaedia:
     text: STR_DEBUGUN_UFOPEDIA
     requires:
       - STR_IDDQD
+  - id: STR_DEBUGUN_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+
+  - id: STR_JUNKY_SAWED_OFF
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_JUNKY_SAWED_OFF_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_DOUBLE_BARRELE_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_DOUBLE_BARRELE_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_DOUBLE_BARRELED_BUCKSHOT
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_DOUBLE_BARRELED_BUCKSHOT_SLUG
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+    type_id: 4
+
+
+  - id: STR_SMALL_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SMALL_SHOTGUN_UFOPEDIA
+  - id: STR_DOMESTIC_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_DOMESTIC_SHOTGUN_UFOPEDIA
+  - id: STR_SMALL_SHOTGUN_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SMALL_SHOTGUN_SHELLS_SLUG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_OL_WINCHESTER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_OL_WINCHESTER_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_DOUBLE_BARRELE_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_DOUBLE_BARRELE_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_SMART_SAWNOFF
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SMART_SAWNOFFF_UFOPEDIA
+    requires:
+      - STR_SMART_SAWNOFF
+  - id: STR_OLD_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_OLD_SHOTGUN_UFOPEDIA
+    requires:
+      - STR_OLD_SHOTGUN
+  - id: STR_OLD_SHOTGUN_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_OLD_SHOTGUN_SHELLS_SLUG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
   - id: STR_SHOTGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -684,11 +736,6 @@ ufopaedia:
     text: STR_CHROME_SHOTGUN_UFOPEDIA
     requires:
       - STR_CHROME_SHOTGUN
-  - id: STR_DEBUGUN_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
   - id: STR_SHOTGUN_STREETCLEANER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -735,6 +782,81 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_SHOTGUN_STREETCLEANER
+  - id: STR_OGRE_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_OGRE_SHOTGUN_UFOPEDIA
+    requires:
+      - STR_MILITARY_SUPLIES
+  - id: STR_OGRE_SHOTGUN_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BLACKOPS_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BLACKOPS_SHOTGUN_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_SHOTGUN_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SHOTGUN_SHELLS_BS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SHOTGUN_SHELLS_ZAP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SHOTGUN_AA_SHELLS_BS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SHOTGUN_AA_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BLACKOPS_SUPERSHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BLACKOPS_SUPERSHOTGUN_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_BLACKOPS_TACTICOOL_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BLACKOPS_TACTICOOL_SHOTGUN_UFOPEDIA
+    requires:
+      - STR_IDDQD
+  - id: STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM_BIG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM_AA
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM_BIG_AA
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_SMART_SAWNOFF
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SMART_SAWNOFF_UFOPEDIA
+    requires:
+      - STR_IDDQD
+    listOrder: 22690
+  - id: STR_SMART_SAWNOFF_STOCK
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SMART_SAWNOFF_STOCK_UFOPEDIA
+    requires:
+      - STR_IDDQD
 #LazorTier
   - id: STR_LASER_SHOTGUN_SIN
     type_id: 4
@@ -960,18 +1082,7 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 
-  - id: STR_OLD_SHOTGUN
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_OLD_SHOTGUN_UFOPEDIA
-    requires:
-      - STR_OLD_SHOTGUN
-  - id: STR_OLD_SHOTGUN_SHELLS
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_OLD_SHOTGUN_SHELLS_SLUG
-    type_id: 4
-    section: STR_NOT_AVAILABLE
+
   - id: STR_PS94
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1088,59 +1199,6 @@ ufopaedia:
     requires:
       - STR_IDDQD
   - id: STR_BLACKOPS_ADV_SMG_AA_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
-  - id: STR_BLACKOPS_SHOTGUN
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BLACKOPS_SHOTGUN_UFOPEDIA
-    requires:
-      - STR_IDDQD
-  - id: STR_SHOTGUN_SHELLS
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_SHOTGUN_SHELLS_BS
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_SHOTGUN_SHELLS_ZAP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_SHOTGUN_AA_SHELLS_BS
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_SHOTGUN_AA_SHELLS
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_BLACKOPS_SUPERSHOTGUN
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BLACKOPS_SUPERSHOTGUN_UFOPEDIA
-    requires:
-      - STR_IDDQD
-  - id: STR_BLACKOPS_TACTICOOL_SHOTGUN
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BLACKOPS_TACTICOOL_SHOTGUN_UFOPEDIA
-    requires:
-      - STR_IDDQD
-  - id: STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
-  - id: STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM_BIG
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
-  - id: STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM_AA
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
-  - id: STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM_BIG_AA
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1387,19 +1445,6 @@ ufopaedia:
   - id: STR_FLARE_PISTOL_SUPER_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_SMART_SAWNOFF
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SMART_SAWNOFF_UFOPEDIA
-    requires:
-      - STR_IDDQD
-    listOrder: 22690
-  - id: STR_SMART_SAWNOFF_STOCK
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SMART_SAWNOFF_STOCK_UFOPEDIA
-    requires:
-      - STR_IDDQD
     listOrder: 22700
   - id: STR_TASER
     type_id: 4
@@ -1411,48 +1456,7 @@ ufopaedia:
   - id: STR_TASER_SUPER_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_SMALL_SHOTGUN
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SMALL_SHOTGUN_UFOPEDIA
-  - id: STR_DOMESTIC_SHOTGUN
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_DOMESTIC_SHOTGUN_UFOPEDIA
-  - id: STR_SMALL_SHOTGUN_SHELLS
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_SMALL_SHOTGUN_SHELLS_SLUG
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_OL_WINCHESTER
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_OL_WINCHESTER_UFOPEDIA
-    requires:
-      - STR_IDDQD
-  - id: STR_DOUBLE_BARRELE_SHOTGUN
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_DOUBLE_BARRELE_UFOPEDIA
-    requires:
-      - STR_IDDQD
-  - id: STR_M60
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_M60_UFOPEDIA
-    requires:
-      - STR_M60
-  - id: STR_M60_CLIP_SMALL
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
-  - id: STR_M60_CLIP_BIG
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-    requires:
-      - STR_IDDQD
+
   - id: STR_SMG_LINDA
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1522,8 +1526,37 @@ ufopaedia:
   - id: STR_FN_P90_NEO_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_MILITECH_SMG
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MILITECH_SMG_UFOPEDIA
+    requires:
+      - STR_MILITECH_SMG_BUY
+  - id: STR_MILITECH_SMG_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MILITECH_SMG_AA_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
                                   ###HeavyGuns####
+  - id: STR_M60
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M60_UFOPEDIA
+    requires:
+      - STR_M60
+  - id: STR_M60_CLIP_SMALL
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+  - id: STR_M60_CLIP_BIG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_IDDQD
+#lASERtIER
   - id: STR_MINING_LASER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1554,7 +1587,12 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_MINIGUN_2
-
+  - id: STR_GATLING_LASER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GATLING_LASER_UFOPEDIA
+    requires:
+      - STR_IDDQD
                                   #Vanilla#
 
   - id: STR_RIFLE

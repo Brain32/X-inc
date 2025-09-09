@@ -736,6 +736,13 @@ research:
     listOrder: 151070
     dependencies:
       - STR_GUNSHOP_ACCESS
+  - name: STR_MILITECH_SMG_BUY
+    cost: 50 
+    points: 3
+    needItem: true
+    listOrder: 151070
+    dependencies:
+      - STR_MILITARY_SUPLIES
         #LazorTier
   - name: STR_LASER_SMG_SIN
     requiresBaseFunc: [BASIC_LAB]
@@ -755,6 +762,15 @@ research:
     points: 5
     needItem: true
     listOrder: 151070
+        #MilitaryTier
+  - name: STR_OGRE_SHOTGUN_BUY
+    cost: 40
+    points: 5
+    needItem: true
+    listOrder: 151070
+    dependencies:
+      - STR_MILITARY_SUPLIES
+
         #PreWarTier
   - name: STR_CHROME_SHOTGUN
     cost: 5
