@@ -14,7 +14,13 @@ items:
       - STR_LEFT_SHOULDER
       - STR_BACK_PACK
       - STR_QD_SLOT
-# armour
+
+
+
+####### armour #######
+
+
+
   - type: STR_RUNNER_COAT
 
                         ### Human alive ###
@@ -58,6 +64,14 @@ items:
     liveAlien: true
     prisonType: 0
     costSell: 17500
+    listOrder: 151010
+  - type: STR_MUTANT_WALKER
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 15000
     listOrder: 151010
 # -------------------------------- Raiders  
   - type: STR_WASTELAND_GOON
@@ -158,7 +172,7 @@ items:
     recover: true
     liveAlien: true
     prisonType: 0
-    costSell: 6000 #balcance me
+    costSell: 7700 
     listOrder: 151040
   - type: STR_TIGERCALW_GOON
     categories: [STR_HUMANS]
@@ -166,7 +180,7 @@ items:
     recover: true
     liveAlien: true
     prisonType: 0
-    costSell: 6000 #balcance me
+    costSell: 7000
     listOrder: 151050
   - type: STR_TIGERCALW_WARCHEEF
     categories: [STR_HUMANS]
@@ -174,8 +188,39 @@ items:
     recover: true
     liveAlien: true
     prisonType: 0
-    costSell: 6000 #balcance me
+    costSell: 9600
     listOrder: 151060
+# -------------------------------- CitySlacker - WarDogs
+  - type: STR_WARDOGS_GOON
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 8000
+    listOrder: 151040
+  - type: STR_WARDOGS_HANCHMAN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+    listOrder: 151040
+  - type: STR_WARDOGS_GUNMAN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 12000
+    listOrder: 151040
+  - type: STR_WARDOGS_HEAVY
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 11000
+    listOrder: 151040
+  - type: STR_WARDOGS_VETERAN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 24000
+    listOrder: 151040
 # -------------------------------- Syndicate
   - type: STR_SYNDICATE_SOLDIER
     categories: [STR_HUMANS]
@@ -228,7 +273,7 @@ items:
 
 # -------------------------------- OldRobots
   - type: STR_OLD_LIGHT_DRONE
-    categories: [STR_HUMANS]
+    categories: [STR_ROBOTS]
     size: 0.6
     recover: true
     liveAlien: true
@@ -236,7 +281,7 @@ items:
     costSell: 25000 
     listOrder: 151010
   - type: STR_OLD_MINIGUN_TURRET
-    categories: [STR_HUMANS]
+    categories: [STR_ROBOTS]
     size: 0.4
     recover: true
     liveAlien: true
@@ -244,7 +289,7 @@ items:
     costSell: 27000 
     listOrder: 151010
   - type: STR_OLD_SEC_ROBOT
-    categories: [STR_HUMANS]
+    categories: [STR_ROBOTS]
     size: 3.0
     recover: true
     liveAlien: true
@@ -312,6 +357,15 @@ items:
     costSell: 76000 
     recoveryPoints: 40
     listOrder: 151010
+  - type: STR_TERRORIST_SIN_4
+    categories: [STR_HUMANS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 76000 
+    recoveryPoints: 40
+    listOrder: 151010
 # -------------------------------- Wasteland Bikers
   - type: STR_WST_BIKER_1
     categories: [STR_HUMANS]
@@ -356,7 +410,8 @@ items:
 
 # -------------------------------- AliveRobots
 
-#Tank
+#HoverTank
+
   - type: STR_HOVERTANK_CANNON_XINC
     categories: [STR_XCOM_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND]
     size: 6
@@ -407,6 +462,23 @@ items:
     invWidth: 2
     invHeight: 3
     listOrder: 11199
+# -------------------------------- AliveTerminators
+  - type: STR_FAKECIV1
+    categories: [STR_ROBOTS]
+    size: 0.6
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 30000 
+    listOrder: 151010
+  - type: STR_SKYNET01
+    categories: [STR_ROBOTS]
+    size: 0.6
+    recover: true
+    liveAlien: true
+    prisonType: 0
+    costSell: 30000 
+    listOrder: 151010
 #Bots
   - type: STR_SECBOT_MK1
     requiresBuy:
@@ -433,6 +505,7 @@ items:
     invWidth: 2
     invHeight: 3
     turretType: 0
+#Mech
 
                                      ####### Dead Humans #######
 
@@ -497,6 +570,18 @@ items:
     invHeight: 3
     battleType: 11
     armor: 45
+    recover: false
+  - type: STR_CORPSE_SWAT_SUIT
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.5
+    weight: 40
+    bigSprite: 482
+    floorSprite: 482
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 40
     recover: false
   - type: STR_CORPSE_COMBAT_ARMOUR_MK1
     categories: [STR_CORPSES]
@@ -618,6 +703,20 @@ items:
     battleType: 11
     armor: 100
     recover: false 
+
+# -------------------------------- Dead AI
+  - type: STR_HUMANOID_AI_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.5
+    weight: 50
+    bigSprite: 477
+    floorSprite: 477
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: false
 # -------------------------------- Dead Civies
      #Rangers
 
@@ -764,6 +863,19 @@ items:
     recoveryPoints: 2
     battleType: 11
     armor: 90
+  - type: STR_SECBOT_BLACK_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 1.2
+    costSell: 5200
+    weight: 60
+    bigSprite: 472
+    floorSprite: 472
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 2
+    battleType: 11
+    armor: 90
 # -------------------------------- FriendlyCorpo
   - type: STR_FRNDCORPO_HIGH_EXEC_CORPSE
     name: STR_CORPSE
@@ -832,7 +944,7 @@ items:
           #Mutants
   - type: STR_MUTANT_WRETCH_CORPSE
     name: STR_CORPSE
-    costSell: 2700
+    costSell: 3700
     size: 0.2
     weight: 40
     bigSprite: 394
@@ -846,7 +958,22 @@ items:
     recoveryPoints: 10
     recover: true
     recoverCorpse: true
-
+  - type: STR_MUTANT_WALKER_CORPSE
+    name: STR_CORPSE
+    costSell: 2000
+    size: 0.2
+    weight: 38
+    bigSprite: 478
+    floorSprite: 478
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 50
+    recoveryPoints: 10
+    recover: true
+    recoverCorpse: true
 # -------------------------------- Dead raiders
 
   - type: STR_WASTELAND_GOON_CORPSE
@@ -895,6 +1022,36 @@ items:
     battleType: 11
     armor: 30
     recoveryPoints: 10
+    recover: true
+    recoverCorpse: false
+
+# -------------------------------- Dead Terminators
+  - type: STR_FAKECIV1_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 45
+    bigSprite: 474
+    floorSprite: 474
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 50
+    recoveryPoints: 10
+    recover: true
+    recoverCorpse: false
+  - type: STR_SKYNET01_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 50
+    bigSprite: 475
+    floorSprite: 475
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoveryPoints: 15
     recover: true
     recoverCorpse: false
 
@@ -1011,9 +1168,8 @@ items:
       energy: 20
     battleType: 11
     armor: 30
-    recoveryPoints: 10 #balance me
+    recoveryPoints: 2
     recover: true
-    recoverCorpse: false
   - type: STR_TIGERCALW_GOON_CORPSE
     name: STR_CORPSE
     costSell: 100
@@ -1027,9 +1183,8 @@ items:
       energy: 20
     battleType: 11
     armor: 30
-    recoveryPoints: 10 #balance me
+    recoveryPoints: 4
     recover: true
-    recoverCorpse: false
   - type: STR_TIGERCALW_WARCHEEF_CORPSE
     name: STR_CORPSE
     costSell: 100
@@ -1043,10 +1198,85 @@ items:
       energy: 20
     battleType: 11
     armor: 30
-    recoveryPoints: 10 #balance me
+    recoveryPoints: 6
     recover: true
-    recoverCorpse: false
 
+          #StreetGang_Wardogs
+  - type: STR_WARDOGGOON01_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 467
+    floorSprite: 467
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 4
+    recover: true
+  - type: STR_WARDOGGOON02_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 468
+    floorSprite: 468
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 4
+    recover: true
+  - type: STR_WARDOGGOON03_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 469
+    floorSprite: 469
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 6
+    recover: true
+  - type: STR_WARDOGGOON04_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 55
+    bigSprite: 470
+    floorSprite: 470
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 6
+    recover: true      
+  - type: STR_WARDOGGOON05_CORPSE
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 471
+    floorSprite: 471
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 10
+    recover: true  
           #Syndicate
 
   - type: STR_SYNDICATE_SOLDIER_CORPSE
@@ -1402,6 +1632,14 @@ items:
   - type: STR_NONE_UC
 
 
+  - type: STR_MECHSUIT_ARMOR
+    categories: [STR_OUTFITS]
+    requiresBuy:
+      - STR_IDDQD
+    size: 4.0
+    costBuy: 999
+    costSell: 999
+#    listOrder: 16890
   - type: STR_BULDOZER_SUIT
     categories: [STR_OUTFITS]
     requiresBuy:
@@ -1430,6 +1668,19 @@ items:
     costSell: 450000
     invWidth: 2
     invHeight: 3
+    listOrder: 16890
+  - type: STR_SWAT_SUIT
+    categories: [STR_OUTFITS]
+    requiresBuy:
+      - STR_SWAT_SUIT_STUDY 
+    size: 2.0
+    costBuy: 78000
+    costSell: 25000
+    invWidth: 2
+    invHeight: 2
+    bigSprite: 386
+    floorSprite: 347
+    weight: 16
     listOrder: 16890
   - type: STR_COMBAT_ARMOUR_MK1
     categories: [STR_OUTFITS]
@@ -1512,7 +1763,7 @@ items:
   - type: STR_NIGHTOPS_ARMOR
     categories: [STR_OUTFITS]
     requiresBuy:
-      - STR_NIGHTOPS_ARMOR
+      - STR_NIGHTOPS_BUY
     size: 1.0
     weight: 20
     costBuy: 75000
@@ -1528,15 +1779,15 @@ items:
 
   - type: STR_DURATHREAD
     categories: [STR_BAT_CAT_RESOURCE]
-    size: 0.03
-    costSell: 2400
+    size: 0.05
+    costSell: 1750
     weight: 2
     bigSprite: 362
     floorSprite: 325
     battleType: 0
     invWidth: 2
     invHeight: 2
-    recoveryPoints: 5
+    recoveryPoints: 3
     attraction: 10
     listOrder: 61170
   - type: STR_ELERIUM_115
@@ -1601,9 +1852,39 @@ items:
     categories: [STR_BAT_CAT_RESOURCE]
     bigSprite: 316
     floorSprite: 298
-    size: 0.3
-    costSell: 87000
+    size: 0.20
+    costSell: 18000
     weight: 0
+    invWidth: 2
+    invHeight: 2
+    listOrder: 61050
+  - type: STR_POWER_CELL
+    categories: [STR_BAT_CAT_RESOURCE]
+    bigSprite: 70
+    floorSprite: 78
+    size: 0.15
+    costSell: 45000
+    weight: 8
+    invWidth: 1
+    invHeight: 2
+    listOrder: 61050
+  - type: STR_POWER_ARMOR_PARTS
+    categories: [STR_BAT_CAT_RESOURCE]
+    bigSprite: 71
+    floorSprite: 79
+    size: 0.1
+    costSell: 12000
+    weight: 4
+    invWidth: 2
+    invHeight: 2
+    listOrder: 61050
+  - type: STR_XENOLITE_BLOCK
+    categories: [STR_BAT_CAT_RESOURCE]
+    bigSprite: 148
+    floorSprite: 120
+    size: 0.5
+    costSell: 120000
+    weight: 12
     invWidth: 2
     invHeight: 2
     listOrder: 61050
@@ -1679,7 +1960,28 @@ items:
     size: 1.2
     costSell: 267300
     transferTime: 48
-
+  - type: STR_AUTOCANNON_25MM
+    requiresBuy:
+      - STR_AUTOCANNON_25MM_PURCHES
+    size: 2.0
+    costBuy: 75000
+    costSell: 35000
+    transferTime: 48
+  - type: STR_AUTOCANNON_25MM_ROUNDS_X50
+    requiresBuy:
+      - STR_AUTOCANNON_25MM_PURCHES
+    size: 0.1
+    costBuy: 7500
+    costSell: 2500
+    transferTime: 96
+    clipSize: 50
+  - type: STR_LASCANNON_LITE
+    requiresBuy:
+      - STR_LASER_MINICANNON_PURCHES
+    size: 1.5
+    costBuy: 75000
+    costSell: 35000
+    transferTime: 48
                                                    #Build-InNatureWeapons#
 #Er Fist
   - type: STR_UNARMED_BAISIC
@@ -1710,6 +2012,45 @@ items:
       shortName: STR_PUNCH_SHORT
     costMelee:
       time: 8
+      energy: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
+  - type: STR_UNARMED_ROBO
+    categories: [STR_BUILT_INS]
+    weight: 0
+    bigSprite: 395
+    meleeHitSound: 152
+    meleeAnimation: 0
+    power: 0
+    damageType: 11
+    damageBonus:
+      strength: 0.2
+      melee: 0.2
+      reactions: 0.1
+    damageAlter:
+      RandomType: 1
+      FixRadius: 0
+      ToStun: 0.7
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.5
+      ToHealth: 0.15
+      ToTile: 0.4
+    accuracyMelee: 95
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    confMelee:
+      name: STR_PUNCH
+      shortName: STR_PUNCH_SHORT
+    costMelee:
+      time: 7
       energy: 2
     flatRate: true
     battleType: 3
@@ -1754,7 +2095,81 @@ items:
     invHeight: 3
     recover: false
     flatRate: true
+  - type: STR_UNARMED_BAISIC
+    categories: [STR_BUILT_INS]
+    weight: 0
+    bigSprite: 395
+    meleeHitSound: 152
+    meleeAnimation: 0
+    power: 0
+    damageType: 6
+    damageBonus:
+      strength: 0.2
+      melee: 0.2
+      reactions: 0.1
+    damageAlter:
+      RandomType: 1
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.5
+      ToHealth: 0.15
+      ToTile: 0.4
+    accuracyMelee: 100
+    meleeMultiplier:
+      melee: 0.5
+      reactions: 0.5
+    confMelee:
+      name: STR_PUNCH
+      shortName: STR_PUNCH_SHORT
+    costMelee:
+      time: 8
+      energy: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialUseEmptyHand: true
 
+#TerminatorCannon
+  - type: AUX_TER_PLASMA_CANNON
+    weight: 10
+    bigSprite: 476
+    bulletSprite: 8
+    fireSound: 18
+    hitSound: 19
+    power: 75
+    damageType: 5
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: false
+      ToArmorPre: 0.075
+      ToStun: 0.5
+      ToWound: 0.12
+      ToMorale: 2.0
+      RandomWound: false
+      FireThreshold: 25
+    accuracySnap: 75
+    accuracyAimed: 100
+    accuracyAuto: 50
+    tuSnap: 20
+    tuAimed: 40
+    tuAuto: 30
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    battleType: 1
+    fixedWeapon: true
+    bulletSpeed: 8
+    vaporColorSurface: 1
+    vaporDensitySurface: 8
+    vaporProbabilitySurface: 100
+    autoRange: 11
+    aimRange: 25
+    recover: false
                                                    #HWP's#
 #Tank
 
@@ -1786,7 +2201,7 @@ items:
     autoRange: 25
     autoShots: 6
     bulletSpeed: 30
-  - type: STR_STR_SECBOT_MK1_12MM_AMMO
+  - type: STR_SECBOT_MK1_12MM_AMMO
     requiresBuy:
       - STR_SECBOT_MK1_BUY
     size: 0.4
@@ -1841,6 +2256,86 @@ items:
     battleType: 2
 
 #Guns for turrets
+
+  - type: STR_MECHA_RL
+    weight: 30
+    bigSprite: 464
+    bulletSprite: 0
+    fireSound: 52
+#    reloadSound: 532
+    accuracyAimed: 120
+    costAimed:
+      time: 30
+      energy: 325
+    tuLoad: 50
+    dropoff: 1
+    compatibleAmmo:
+      - STR_MECHA_RL_ROCKET
+    battleType: 1
+    fixedWeapon: true
+    recover: false
+    invWidth: 2
+    invHeight: 3
+
+  - type: STR_MECHA_RL_ROCKET
+    requiresBuy:
+      - STR_IDDQD
+    size: 0.5
+    costBuy: 16000
+    costSell: 4000
+    weight: 25
+    bigSprite: 465
+    floorSprite: 465
+    power: 100
+    damageType: 3
+    damageAlter:
+      IgnoreOverKill: false
+      IgnoreSelfDestruct: false
+      ArmorEffectiveness: 0.75
+      ToTile: 0.625
+      ToStun: 1.0
+    clipSize: 5
+    blastRadius: 5
+    battleType: 2
+    invWidth: 2
+    invHeight: 3
+
+  - type: STR_MECHA_GRABBER
+    weight: 30
+    bigSprite: 466
+    fireSound: 199
+    bulletSprite: 5
+#    hitSound: 62
+    hitAnimation: 36
+    power: 125
+    damageType: 3
+    damageBonus:
+      strength: 0
+    damageAlter:
+      RandomType: 2
+      ToStun: 0.75
+      FixRadius: 0
+      ArmorEffectiveness: 1.33
+      ToArmorPre: 0.15
+      ToArmor: 0.25
+    accuracyAimed: 100
+    accuracyMultiplier:
+      throwing: 0.5
+      flatHundred: 0.5
+    costAimed:
+      time: 30
+      energy: 100
+    clipSize: -1
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    maxRange: 5
+    powerRangeThreshold: 6
+    powerRangeReduction: 99
+    bulletSpeed: 50
+    fixedWeapon: true
+    recover: false
+    experienceTrainingMode: 7
 
   - type: AUX_SENTRY_TURRET_GUN
     weight: 100
@@ -2270,10 +2765,10 @@ items:
 
   - type: STR_MEDI_PATCH
     categories: [STR_MEDICAL]
-    size: 0.1
-    costBuy: 850
-    costSell: 250
-    weight: 3
+    size: 0.0025
+    costBuy: 500
+    costSell: 150
+    weight: 2
     bigSprite: 230
     floorSprite: 229
     handSprite: 624
@@ -2297,7 +2792,7 @@ items:
     listOrder: 48125
   - type: STR_SMALL_MEDKIT
     categories: [STR_MEDICAL]  
-    size: 0.1
+    size: 0.05
     costBuy: 7000
     costSell: 4000
     weight: 5
@@ -2327,9 +2822,9 @@ items:
     categories: [STR_MEDICAL]
     requiresBuy:
       - STR_BLACK_MARKET_ACCES
-    size: 0.1
-    costBuy: 7000
-    costSell: 5000
+    size: 0.05
+    costBuy: 7500
+    costSell: 3000
     weight: 4
     bigSprite: 145
     floorSprite: 119
@@ -2384,10 +2879,10 @@ items:
     categories: [STR_MEDICAL]
     requiresBuy:
       - STR_MILITARY_SUPLIES
-    size: 0.3
+    size: 0.1
     costBuy: 76000
     costSell: 50000
-    weight: 12
+    weight: 10
     bigSprite: 377
     floorSprite: 339
     handSprite: 1000
@@ -3504,104 +3999,6 @@ items:
     battleType: 2
     attraction: 15
     listOrder: 19660
-  - type: STR_GLOCK_NEO
-    categories: [STR_PISTOLS]
-    size: 0.1
-    costBuy: 950
-    costSell: 415
-    weight: 3
-    bigSprite: 170
-    floorSprite: 3
-    handSprite: 96
-    bulletSprite: 1
-    fireSound: 114
-    reloadSound: 144
-    compatibleAmmo:
-      - STR_GLOCK_NEO_CLIP
-      - STR_GLOCK_NEO_LARGE_CLIP
-      - STR_GLOCK_NEO_LARGE_DRUM
-    accuracyCloseQuarters: 133
-    accuracySnap: 72
-    accuracyAimed: 72
-    accuracyAuto: 50
-    tuSnap: 15
-    tuAimed: 20
-    tuAuto: 23
-    tuLoad: 15
-    costThrow:
-      energy: 8
-    battleType: 1
-    aimRange: 20
-    autoRange: 14
-    dropoff: 3
-    kneelBonus: 105
-    autoShots: 2
-    invWidth: 1
-    invHeight: 2
-    armor: 30
-    attraction: 15
-    listOrder: 19670
-  - type: STR_GLOCK_NEO_CLIP
-    categories: [STR_PISTOLS]
-    size: 0.01
-    costBuy: 140
-    costSell: 25
-    weight: 2
-    bigSprite: 171
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 22
-    damageType: 1
-    clipSize: 17
-    costThrow:
-      energy: 4
-    battleType: 2
-    armor: 30
-    attraction: 15
-    listOrder: 19680
-  - type: STR_GLOCK_NEO_LARGE_CLIP
-    categories: [STR_PISTOLS]
-    size: 0.03
-    costBuy: 380
-    costSell: 110
-    weight: 3
-    bigSprite: 172
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 22
-    damageType: 1
-    clipSize: 33
-    costThrow:
-      energy: 4
-    battleType: 2
-    invWidth: 1
-    invHeight: 2
-    armor: 30
-    attraction: 15
-    listOrder: 19690
-  - type: STR_GLOCK_NEO_LARGE_DRUM
-    categories: [STR_PISTOLS]
-    size: 0.05
-    costBuy: 850
-    costSell: 300
-    weight: 5
-    bigSprite: 173
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 22
-    damageType: 1
-    clipSize: 50
-    costThrow:
-      energy: 4
-    battleType: 2
-    invWidth: 1
-    invHeight: 2
-    armor: 30
-    attraction: 15
-    listOrder: 19700
   - type: STR_MILITECH_PISTOL_HP93S
     categories: [STR_PISTOLS]
     size: 0.08
@@ -3880,7 +4277,7 @@ items:
     costSell: 200
     weight: 3
     bigSprite: 239
-    floorSprite: 79
+    floorSprite: 240
     hitSound: 22
     hitAnimation: 26
     power: 28
@@ -3898,7 +4295,7 @@ items:
     costSell: 575
     weight: 3
     bigSprite: 240
-    floorSprite: 79
+    floorSprite: 240
     hitSound: 22
     hitAnimation: 26
     power: 34
@@ -3907,59 +4304,6 @@ items:
       ArmorEffectiveness: 0.85
       ToStun: 0.5
     clipSize: 12
-    battleType: 2
-    armor: 35
-    attraction: 15
-    listOrder: 20090
-  - type: STR_LUGER
-    categories: [STR_PISTOLS]
-    requiresBuy:
-      - STR_IDDQD
-    size: 0.1
-    costBuy: 400
-    costSell: 300
-    weight: 6
-    bigSprite: 70
-    floorSprite: 78
-    handSprite: 176
-    bulletSprite: 1
-    fireSound: 105
-    compatibleAmmo:
-      - STR_LUGER_CLIP
-    accuracyCloseQuarters: 133
-    accuracySnap: 70
-    accuracyAimed: 80
-    tuSnap: 17
-    tuAimed: 28
-    tuLoad: 15
-    aimRange: 20
-    dropoff: 3
-    kneelBonus: 105
-    costThrow:
-      energy: 12
-    battleType: 1
-    invWidth: 1
-    invHeight: 2
-    armor: 35
-    attraction: 15
-    listOrder: 20080
-  - type: STR_LUGER_CLIP
-    categories: [STR_PISTOLS]
-    requiresBuy:
-      - STR_IDDQD
-    size: 0.025
-    costBuy: 50
-    costSell: 40
-    weight: 2
-    bigSprite: 71
-    floorSprite: 79
-    hitSound: 22
-    hitAnimation: 26
-    power: 23
-    damageType: 1
-    clipSize: 8
-    costThrow:
-      energy: 4
     battleType: 2
     armor: 35
     attraction: 15
@@ -4213,33 +4557,32 @@ items:
     kneelBonus: 110
     attraction: 13
     listOrder: 12498
-  - type: STR_MAGNUM
+  - type: STR_D_EAGLE
     categories: [STR_PISTOLS]
     requiresBuy:
-      - STR_IDDQD
-    size: 0.2
-    costBuy: 7000
-    costSell: 800
+      - STR_D_EAGLE
+    size: 0.1
+    costBuy: 8250
+    costSell: 2500
     weight: 7
     bigSprite: 136
     floorSprite: 115
     handSprite: 336
     bulletSprite: 1
-    fireSound: 105
-    reloadSound: 129
+    fireSound: 201
+    reloadSound: 118
     compatibleAmmo:
-      - STR_MAGNUM_ROUNDS
-      - STR_MAGNUM_ROUNDS_AA
-    accuracyCloseQuarters: 133
+      - STR_D_EAGLE_CLIP
     accuracySnap: 70
-    accuracyAimed: 90
-    tuSnap: 22
-    tuAimed: 36
+    accuracyAimed: 85
+    accuracyCloseQuarters: 110
+    tuSnap: 21
+    tuAimed: 32
     tuLoad: 18
     aimRange: 16
     snapRange: 13
     dropoff: 3
-    kneelBonus: 105
+    kneelBonus: 110
     battleType: 1
     twoHanded: false
     invWidth: 1
@@ -4247,6 +4590,28 @@ items:
     armor: 30
     attraction: 15
     listOrder: 12508
+  - type: STR_D_EAGLE_CLIP
+    categories: [STR_PISTOLS]
+    requiresBuy:
+      - STR_D_EAGLE
+    size: 0.025
+    costBuy: 700
+    costSell: 350
+    weight: 3
+    bigSprite: 173
+    floorSprite: 116
+    hitSound: 13
+    hitAnimation: 26
+    power: 40
+    damageType: 1
+    damageAlter:
+      ToStun: 0.75
+    clipSize: 7
+    battleType: 2
+    armor: 25
+    listOrder: 12499
+
+
   - type: STR_MAGNUM_ROUNDS
     categories: [STR_PISTOLS]
     requiresBuy:
@@ -4684,7 +5049,7 @@ items:
     attraction: 15
     listOrder: 18910
 
-                           ##PoliceTier##
+                           ##Pistols - PoliceTier##
 
   - type: STR_AUTO9_PISTOL
     size: 0.1
@@ -4846,6 +5211,82 @@ items:
     armor: 30
     attraction: 15
     listOrder: 20510
+
+  - type: STR_LASER_PISTOL_MIB
+    size: 0.1
+    costSell: 14000
+    weight: 6
+    bigSprite: 170
+    floorSprite: 156
+    handSprite: 1232
+    bulletSprite: 5
+    fireSound: 187
+    reloadSound: 188
+    compatibleAmmo:
+      - STR_LASER_PISTOL_MIB_CLIP
+      - STR_LASER_PISTOL_MIB_CLIP_HI
+    accuracyAuto: 50
+    accuracySnap: 80
+    accuracyAimed: 95
+    accuracyCloseQuarters: 110
+    tuAuto: 30
+    tuSnap: 20
+    tuAimed: 32
+    tuLoad: 15
+    dropoff: 3
+    invWidth: 1
+    invHeight: 2
+    battleType: 1
+    armor: 30
+    autoRange: 14
+    aimRange: 25
+    bulletSpeed: 100
+    kneelBonus: 110
+    attraction: 15
+    listOrder: 20500
+  - type: STR_LASER_PISTOL_MIB_CLIP
+    size: 0.05
+    costSell: 15000
+    weight: 3
+    bigSprite: 171
+    floorSprite: 157
+    hitSound: 19
+    hitAnimation: 36
+    power: 36
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.666
+      ToArmorPre: 0.025
+      ToWound: 0.06
+      RandomWound: false
+      FireThreshold: 40
+    clipSize: 24
+    battleType: 2
+    armor: 30
+    attraction: 15
+    listOrder: 20510
+  - type: STR_LASER_PISTOL_MIB_CLIP_HI
+    size: 0.05
+    costSell: 15000
+    weight: 3
+    bigSprite: 172
+    floorSprite: 157
+    hitSound: 19
+    hitAnimation: 36
+    power: 46
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.5
+      ToArmorPre: 0.025
+      ToWound: 0.06
+      RandomWound: false
+      FireThreshold: 40
+    clipSize: 12
+    battleType: 2
+    armor: 30
+    attraction: 15
+    listOrder: 20510
+
                                       #######   Shotguns   #######
   - type: STR_JUNKY_SAWED_OFF
     categories: [STR_SHOTGUNS]
@@ -5145,8 +5586,8 @@ items:
     categories: [STR_SHOTGUNS]
     requiresBuy:
       - STR_SHOTGUN_ACQUISITION
-    size: 0.1
-    costBuy: 75
+    size: 0.01
+    costBuy: 120
     costSell: 40
     weight: 3
     bigSprite: 109
@@ -5603,8 +6044,8 @@ items:
     listOrder: 22440
   - type: STR_SMALL_SHOTGUN_SHELLS
     size: 0.05
-    costBuy: 80
-    costSell: 35
+    costBuy: 65
+    costSell: 40
     weight: 2
     bigSprite: 189
     floorSprite: 87
@@ -6210,6 +6651,7 @@ items:
     handSprite: 608
     bulletSprite: 1
     fireSound: 100
+    reloadSound: 144
     compatibleAmmo:
       - STR_TEC9_CLIP
     accuracySnap: 32
@@ -6318,6 +6760,96 @@ items:
     armor: 30
     attraction: 15
     listOrder: 20660
+
+  - type: STR_SMG_SMARTLOCK
+    size: 0.15
+    requiresBuy:
+      - STR_BLACK_MARKET_ACCES
+      - STR_SMG_SMARTLOCK
+    costBuy: 45000
+    costSell: 10000
+    weight: 7
+    bigSprite: 479
+    floorSprite: 479
+    handSprite: 1224
+    bulletSprite: 1
+    fireSound: 106
+    reloadSound: 142
+    compatibleAmmo:
+      - STR_SMG_SMARTLOCK_CLIP
+      - STR_SMG_SMARTLOCK_CLIP_EMP
+    accuracyAuto: 78
+    accuracySnap: 100
+    accuracyAimed: 115
+    accuracyCloseQuarters: 100
+    accuracyMultiplier:
+      firing: 0.65
+      flatHundred: 0.35
+    tuAuto: 29
+    tuSnap: 17
+    tuAimed: 35
+    costThrow:
+      energy: 12
+      time: 40
+    sprayWaypoints: 2
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 90
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    bulletSpeed: 8
+    autoShots: 4
+    autoRange: 13
+    aimRange: 22
+    attraction: 12
+    listOrder: 12920
+  - type: STR_SMG_SMARTLOCK_CLIP
+    size: 0.05
+    requiresBuy:
+      - STR_BLACK_MARKET_ACCES
+      - STR_SMG_SMARTLOCK
+    costBuy: 3000
+    costSell: 1200
+    weight: 4
+    bigSprite: 480
+    floorSprite: 480
+    hitSound: 22
+    hitAnimation: 26
+    hitAnimFrames: 1
+    power: 25
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.9
+      ToStun: 0.5
+    clipSize: 45
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    armor: 28
+    listOrder: 12921
+  - type: STR_SMG_SMARTLOCK_CLIP_EMP
+    size: 0.05
+    costSell: 2000
+    weight: 4
+    bigSprite: 481
+    floorSprite: 481
+    hitSound: 13
+    hitAnimation: 26
+    hitAnimFrames: 2
+    power: 10
+    damageType: 10
+    damageAlter:
+      ArmorEffectiveness: 0.8
+      ToStun: 0.5
+    clipSize: 45
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    armor: 28
+    listOrder: 12922
 
   - type: STR_BLACKOPS_ADV_SMG
     categories: [STR_SMGS]
@@ -6594,6 +7126,100 @@ items:
     attraction: 15
     listOrder: 20970
                            ##LaserTier
+  - type: STR_LASER_SMG
+    size: 0.2
+    costSell: 18000
+    weight: 7
+    bigSprite: 483
+    floorSprite: 483
+    handSprite: 1240
+    bulletSprite: 5
+    fireSound: 11
+    reloadSound: 142
+    compatibleAmmo:
+      - STR_LASER_SMG_CLIP
+      - STR_LASER_SMG_CLIP_EMP
+    accuracySnap: 80
+    accuracyAimed: 90
+    accuracyCloseQuarters: 100
+    accuracyMultiplier:
+      firing: 0.65
+      flatHundred: 0.35
+    tuSnap: 30
+    tuAimed: 35
+    confSnap:
+      name: STR_BURST
+      shots: 3
+    costThrow:
+      energy: 14
+      time: 40
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 85
+    bulletSpeed: 100
+    aimRange: 25
+    invWidth: 1
+    invHeight: 3
+    attraction: 12
+    listOrder: 12940
+  - type: STR_LASER_SMG_CLIP
+    size: 0.05
+    costSell: 3200
+    weight: 3
+    bigSprite: 484
+    floorSprite: 484
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    bulletSprite: 5
+    bulletSpeed: 100
+    power: 34
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.666
+      ToArmorPre: 0.025
+      ToWound: 0.06
+      RandomWound: false
+      FireThreshold: 40
+    clipSize: 90
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    vaporColorSurface: 6
+    vaporDensitySurface: 1
+    vaporProbabilitySurface: 100
+    armor: 30
+    listOrder: 12942
+  - type: STR_LASER_SMG_CLIP_EMP
+    size: 0.05
+    costSell: 5200
+    weight: 3
+    bigSprite: 485
+    floorSprite: 485
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    bulletSprite: 5
+    bulletSpeed: 100
+    power: 34
+    damageType: 10
+    damageAlter:
+      ArmorEffectiveness: 0.666
+      ToArmorPre: 0.025
+      ToWound: 0.06
+      RandomWound: false
+      FireThreshold: 40
+    clipSize: 90
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    vaporColorSurface: 6
+    vaporDensitySurface: 1
+    vaporProbabilitySurface: 100
+    armor: 30
+    listOrder: 12942
   - type: STR_LASER_SMG_SIN
     requires:
       - STR_LASER_SMG_SIN
@@ -7096,6 +7722,9 @@ items:
     floorSprite: 381
     handSprite: 1136
     bulletSprite: 2
+    accuracyMultiplier:
+      firing: 0.5
+      flatHundred: 0.5
     fireSound: 106
     reloadSound: 107
     compatibleAmmo:
@@ -7336,44 +7965,6 @@ items:
     damageType: 1
     clipSize: 20
     battleType: 2
-  - type: STR_RUGER_RIFLE
-    categories: [STR_RIFLES]
-    requiresBuy:
-      - STR_IDDQD
-    size: 0.2
-    costBuy: 15000
-    costSell: 4500
-    weight: 8
-    bigSprite: 148
-    floorSprite: 120
-    handSprite: 376
-    bulletSprite: 2
-    fireSound: 136
-    reloadSound: 137
-    compatibleAmmo:
-      - STR_RIFLE_M16_CLIP
-    accuracyAuto: 50
-    accuracySnap: 76
-    accuracyAimed: 94
-    oneHandedPenalty: 70
-    accuracyCloseQuarters: 80
-    tuAuto: 40
-    tuSnap: 35
-    tuAimed: 50
-    confSnap:
-      name: STR_DOUBLE_TAP
-      shots: 2
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    armor: 30
-    autoRange: 9
-    snapRange: 20
-    aimRange: 30
-    bulletSpeed: 6
-    attraction: 13
-    listOrder: 13010
   - type: STR_RIFLE_M16
     categories: [STR_RIFLES]
     requiresBuy:
@@ -7449,7 +8040,7 @@ items:
       arcing: true
     accuracyAuto: 50
     accuracySnap: 80
-    accuracyAimed: 115
+    accuracyAimed: 80
     tuAuto: 32
     tuSnap: 22
     tuAimed: 43
@@ -7626,6 +8217,7 @@ items:
     bigSprite: 283
     floorSprite: 2
     hitAnimation: 26
+    hitSound: 22
     power: 30
     damageAlter:
       ArmorEffectiveness: 0.8
@@ -8396,7 +8988,7 @@ items:
     size: 0.16
     costBuy: 62000
     costSell: 42000
-    weight: 16
+    weight: 14
     bigSprite: 284
     floorSprite: 272
     handSprite: 784
@@ -8786,7 +9378,7 @@ items:
     size: 0.5
     costBuy: 26000
     costSell: 12500
-    weight: 36
+    weight: 29
     bigSprite: 224
     floorSprite: 224
     handSprite: 592
@@ -8873,6 +9465,7 @@ items:
     size: 0.2
     requiresBuy:
       - STR_SAW
+      - STR_MILITARY_SUPLIES
     costBuy: 21000
     costSell: 4275
     weight: 12
@@ -9083,7 +9676,10 @@ items:
     invHeight: 1
     listOrder: 13414
   - type: STR_MINING_LASER
+    requiresBuy:
+      - STR_RIMWORLD_SUPPLIES_ACCES
     size: 0.4
+    costBuy: 120000
     costSell: 36000
     weight: 40
     bigSprite: 447
@@ -9647,9 +10243,10 @@ items:
   - type: STR_SSRL
     requiresBuy:
       - STR_MILITARY_SUPLIES
+      - STR_EXPLOSIVES_LICENSE
     size: 0.25
     costBuy: 16000
-    costSell: 5700
+    costSell: 8000
     weight: 22
     bigSprite: 322
     floorSprite: 304
@@ -10001,16 +10598,16 @@ items:
     requiresBuy:
       - STR_WEAPON_SHOPPING
     size: 0.05
-    costBuy: 15000
+    costBuy: 18000
     costSell: 4000
-    weight: 5
+    weight: 4
     bigSprite: 83
     floorSprite: 90
     handSprite: 224
     bulletSprite: 8
     fireSound: 110
     hitSound: 19
-    power: 35
+    power: 40
     damageType: 5
     damageAlter:
       RandomType: 6
@@ -10027,7 +10624,7 @@ items:
     costThrow:
       energy: 8
       time: 40
-    clipSize: 1
+    clipSize: 2
     battleType: 1
     snapRange: 4
     dropoff: 4
@@ -10254,7 +10851,7 @@ items:
     listOrder: 13820
                                   #######   Flamethrower   #####
   - type: STR_FLAMETHROWER_DIY
-    requires:
+    requiresBuy:
       - STR_FLAMETHROWER_DIY
     size: 0.15
     costSell: 2600
@@ -10528,14 +11125,14 @@ items:
     requiresBuy:
       - STR_BLACK_MARKET_ACCES
     size: 0.1
-    costBuy: 50000    
+    costBuy: 52000    
     costSell: 20000
     accuracySnap: 45
     weight: 12
     bigSprite: 456
     floorSprite: 454
     handSprite: 1192
-    power: 5
+    power: 1
     damageBonus:
       psiStrength: 0.5
     damageAlter:
@@ -10653,6 +11250,16 @@ items:
     invHeight: 2
     armor: 40
     listOrder: 57400
+#Insurance contract
+  - type: STR_INSURANCE_CONTRACT
+    categories: [STR_HUMAN_TECH]
+    size: 10
+    costSell: 82000
+    weight: 1
+    battleType: 0
+    armor: 666
+    recoveryPoints: 75
+    listOrder: 57400 
 #Data
   - type: STR_FLASHDRIVE_RAIDERS
     categories: [STR_HUMAN_TECH, STR_EVIDENCE, STR_LAND]
@@ -10873,6 +11480,16 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 57400
+#SalesmanGlasses
+  - type: STR_AUG_SPAMTON_GLASSES
+    battleType: 0
+    categories: [STR_HUMAN_TECH, STR_AUGMINATIONS]
+    size: 0.05
+    costSell: -200000
+    bigSprite: 486
+    invWidth: 2
+    invHeight: 1
+    listOrder: 57400
                                   ####### Bad Guys #######
 
   - type: STR_WASTELAND_GOON
@@ -10923,6 +11540,18 @@ items:
     liveAlien: true
     costSell: 68000
 
+  - type: STR_WASTELAND_BOSS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 11600
+
+  - type: STR_SECBOT_BLACK
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 12000
+
                                   #######  LOOT BOXES #####
   - type: STR_WEAPON_LOOTBOX_CHEAP
     size: 0.35
@@ -10962,7 +11591,7 @@ items:
     listOrder: 15557    
   - type: STR_SYNDICATE_SUPBOX
     size: 0.5
-    costSell: 7200
+    costSell: 25000
     bigSprite: 331
     floorSprite: 317
     weight: 30
@@ -10972,7 +11601,12 @@ items:
     listOrder: 15557
   - type: STR_AUG_CONTAINTER_1
     size: 0.4
-    costSell: 23000
+    requiresBuy:
+      - STR_AUG_CONTAINTER_1
+      - STR_BLACK_MARKET_ACCES
+    costSell: 45600
+    costBuy: 72000
+    monthlyBuyLimit: 6    
     bigSprite: 354
     floorSprite: 318
     weight: 15
@@ -10982,7 +11616,12 @@ items:
     listOrder: 15557
   - type: STR_AUG_CONTAINTER_2
     size: 0.4
-    costSell: 47000
+    requiresBuy:
+      - STR_AUG_CONTAINTER_2
+      - STR_BLACK_MARKET_ACCES
+    costSell: 55600
+    costBuy: 120000
+    monthlyBuyLimit: 4    
     bigSprite: 355
     floorSprite: 319
     weight: 15
@@ -10991,8 +11630,13 @@ items:
     armor: 40
     listOrder: 15557
   - type: STR_AUG_CONTAINTER_3
+    requiresBuy:
+      - STR_AUG_CONTAINTER_3
+      - STR_RIMWORLD_SUPPLIES_ACCES
     size: 0.4
-    costSell: 71000
+    costSell: 90000
+    costBuy: 250000
+    monthlyBuyLimit: 2
     bigSprite: 356
     floorSprite: 320
     weight: 15
@@ -11016,6 +11660,15 @@ items:
   - type: STR_WRECKED_SAVAGE_CRAFT
     size: 38
     costSell: 520000
+    listOrder: 15557
+
+  - type: STR_ALIEN_ALLOYS_MATRIX
+    size: 0.05
+    requiresBuy:
+      - STR_ALIEN_ALLOYS
+      - STR_RIMWORLD_SUPPLIES_ACCES
+    costBuy: 1250000
+    battleType: 0
     listOrder: 15557
 
   - type: STR_JETPACK_CONTROLS

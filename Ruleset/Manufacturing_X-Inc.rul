@@ -1,6 +1,21 @@
 ﻿manufacture:
-
-
+                                                           ##Personel##
+  - name: STR_XENOLITE_BLOCK_AWAKENING
+    category: STR_PERSONEL
+    requires:
+      - STR_BATTLE_DROIDS
+      - STR_XENOLITE_BLOCK
+    space: 0
+    time: 500
+    cost: 100000
+    spawnedPersonType: STR_SOLDIER_AI
+    producedItems:
+      STR_ALIEN_ALLOYS: 1 
+    refund: true
+    requiredItems:
+      STR_XENOLITE_BLOCK: 1
+      STR_ALIEN_ALLOYS: 5
+      STR_OPTRONIC_PARTS: 5  
 
                                                                               ##DO IT YOURSELF SHIP ##
   - name: STR_SAVAGE_CRAFT
@@ -12,6 +27,7 @@
     cost: 28425
     requiredItems:
       STR_WRECKED_SAVAGE_CRAFT: 1
+      STR_ALIEN_ALLOYS: 15    
 
   - name: STR_DODO_CRAFT
     category: STR_CRAFT
@@ -24,7 +40,7 @@
       STR_DODO_SMALL_CRAFT: 1
       STR_ALIEN_ALLOYS: 35                      
                                                                               ##ROBOT DISASSEMBLY##
-#Old Robots          
+#Old Robots
   - name: STR_CORPSE_OLD_LIGHT_DRONE_DISASSEMBLY
     category: STR_ROBOT_DISASSEMBLY
     requires:
@@ -39,6 +55,19 @@
       STR_AQUA_PLASTICS: 3
       STR_GRAV_MODULE: 1
       STR_SC_WIRE: 2
+  - name: STR_SECBOT_BLACK_CORPSE_DISASSEMBLY
+    category: STR_ROBOT_DISASSEMBLY
+    requires:
+      - STR_SECBOT_BLACK_CORPSE
+    space: 5
+    time: 25
+    cost: 50
+    requiredItems:
+     STR_SECBOT_BLACK_CORPSE: 1
+    producedItems:
+      STR_OPTRONIC_PARTS: 1
+      STR_ALIEN_ALLOYS: 2
+      STR_SC_WIRE: 1
   - name: STR_CORPSE_OLD_TURRET_MINIGUN_DISASSEMBLY
     category: STR_ROBOT_DISASSEMBLY
     requires:
@@ -67,6 +96,24 @@
       STR_ALIEN_ALLOYS: 6
       STR_AQUA_PLASTICS: 7
       STR_SC_WIRE: 5
+
+#Terminators
+
+  - name: STR_SKYNET01_DISASSEMBLY
+    category: STR_ROBOT_DISASSEMBLY
+    requires:
+      - STR_SKYNET01_CORPSE
+    space: 5
+    time: 50
+    cost: 100
+    requiredItems:
+      STR_SKYNET01_CORPSE: 1
+    producedItems:
+      STR_OPTRONIC_PARTS: 3
+      STR_ALIEN_ALLOYS: 10
+      STR_AQUA_PLASTICS: 4
+      STR_SC_WIRE: 2
+
                                                            ##Armour##
 
   - name: STR_COMBAT_ARMOUR_UPGRATE
@@ -226,7 +273,6 @@
       - [1, {STR_SMOKE_GRENADE: 10, STR_MOLOTOV: 10}]
       - [1, {STR_KNIFE_BANDIT: 8, STR_MACHETE: 6}]
       - [1, {STR_SMG_10MM: 2, STR_SMG_10MM_CLIP: 24}]
-      - [1, {STR_LUGER: 4, STR_LUGER_CLIP: 42}]
       - [1, {STR_LAS_RIFLE_SCAV: 1, STR_LAS_RIFLE_SCAV_CLIP: 3}]
       - [1, {STR_COWRIFLE: 2, STR_COWRIFLE_AMMO: 28}]
       - [1, {STR_BANDIT_RIFLE: 2, STR_BANDIT_RIFLE_CLIP: 16, STR_BANDIT_RIFLE_CLIP_AP: 16}]
@@ -234,7 +280,7 @@
       - [1, {STR_MINE: 6}]
       - [1, {STR_FLAMETHROWER_DIY: 1, STR_FLAMETHROWER_CLIP: 4}]
     listOrder: 15560
-  - name: STR_LOOTBOX6_EX
+  - name: STR_LOOTBOX6_EX #MilitaryContainer
     category: STR_EXTRACTION
     requires:
       - STR_LOOTBOX6
@@ -264,7 +310,8 @@
       - [1, {STR_RIFLE_VHS: 2, STR_RIFLE_M16_CLIP: 18}]
       - [1, {STR_AUTOSHOTGUN1: 2, STR_AUTOSHOTGUN1_CLIP1: 25}]
       - [1, {STR_MINIGUN_2: 1, STR_MINIGUN_2_AMMO: 8}]
-      - [1, {STR_COMBAT_ARMOUR_MK1: 1}]
+      - [1, {STR_SWAT_SUIT: 1}]
+      - [1, {STR_BULDOZER_SUIT: 1}]
       - [1, {STR_CYBER_KATANA: 5}]
       - [1, {STR_SAW: 2, STR_SAW_CLIP: 14}]
       - [1, {STR_AUG_CONTAINTER_2: 3}]
@@ -272,6 +319,7 @@
       - [1, {STR_SHOTGUN_STREETCLEANER: 2, STR_STREETCLEANER_CLIP1: 30}]
       - [1, {STR_M52S_AJAX_RIFLE: 3, STR_M52S_AJAX_RIFLE_CLIP: 25}]
       - [1, {STR_ROCKET_LAUNCHER: 1, STR_SMALL_ROCKET: 5, STR_LARGE_ROCKET: 5, STR_INCENDIARY_ROCKET: 5}]
+      - [1, {STR_BULDOZER_SUIT: 2}]
       - [1, {STR_MINIGUN_1: 1, STR_MINIGUN_1_AMMO: 6}]
       - [1, {STR_GEP_GUN: 1, STR_GEP_GUN_ROCKET_1: 5,STR_GEP_GUN_ROCKET_2: 5}]
     listOrder: 15561
@@ -295,6 +343,7 @@
       - [1, {STR_OPTRONIC_PARTS: 8}]
       - [1, {STR_DURATHREAD: 30}]
       - [1, {STR_ELERIUM_115: 20}]
+      - [1, {STR_XENOLITE_BLOCK: 2}]
       - [1, {STR_OPTRONIC_PARTS: 14}]
       - [1, {STR_SC_WIRE: 5, STR_AQUA_PLASTICS: 10, STR_ALIEN_ALLOYS: 20}]
       - [1, {STR_ALIEN_ALLOYS: 10, STR_DURATHREAD: 10}]
@@ -304,6 +353,7 @@
       - [1, {STR_AQUA_PLASTICS: 10, STR_DURATHREAD: 20}]
       - [1, {STR_ALIEN_ALLOYS: 10, STR_ELERIUM_115: 10}]
       - [1, {STR_GRAV_MODULE: 4}]
+      - [1, {STR_XENOLITE_BLOCK: 1}]
       - [1, {STR_AUG_CONTAINTER_2: 5}]
       - [1, {STR_GRAV_MODULE: 4, STR_AQUA_PLASTICS: 5, STR_OPTRONIC_PARTS: 5}]
       - [1, {STR_SC_WIRE: 4, STR_AQUA_PLASTICS: 5, STR_OPTRONIC_PARTS: 10, STR_ALIEN_ALLOYS: 10}]
@@ -379,3 +429,36 @@
       - [1, {STR_AUG_LEG_MK3: 1, STR_AUG_ARM_MK3: 1}]
     listOrder: 15561
 
+                                                                              ##INSURENCE CONTRACT##
+  - name: STR_INS_CONTRACT_DISASSAMBLE
+    category: STR_EXTRACTION
+    requires:
+      - STR_INSURANCE_CONTRACT
+    space: 20
+    time: 250
+    requiresBaseFunc: [WORKS]
+    cost: -6000
+    points: -100
+    requiredItems:
+      STR_INSURANCE_CONTRACT: 1
+    producedItems: {}
+    randomProducedItems:
+      - [1, {STR_ALIEN_ALLOYS: 55}]
+      - [1, {STR_ALIEN_ALLOYS: 15, STR_UFO_NAVIGATION: 1, STR_UFO_POWER_SOURCE: 1}]
+      - [1, {STR_ALIEN_ALLOYS: 15, STR_UFO_NAVIGATION: 2}]
+      - [1, {STR_ALIEN_ALLOYS: 25, STR_UFO_NAVIGATION: 1, STR_SC_WIRE: 10, STR_XENOLITE_BLOCK: 1}]
+      - [1, {STR_ALIEN_ALLOYS: 25, STR_ELERIUM_115: 15}]
+      - [1, {STR_UFO_POWER_SOURCE: 1}]
+      - [1, {STR_ALIEN_ALLOYS: 15, STR_UFO_NAVIGATION: 2}]
+      - [1, {STR_ALIEN_ALLOYS: 25, STR_OPTRONIC_PARTS: 10, STR_ELERIUM_115: 40}]
+      - [1, {STR_ALIEN_ALLOYS: 20, STR_ELERIUM_115: 10}]
+      - [1, {STR_ALIEN_ALLOYS: 35, STR_ELERIUM_115: 5, STR_UFO_POWER_SOURCE: 1}]
+      - [1, {STR_ALIEN_ALLOYS: 35, STR_OPTRONIC_PARTS: 10, STR_SC_WIRE: 10, STR_ELERIUM_115: 20}]
+      - [1, {STR_UFO_NAVIGATION: 2}]
+      - [1, {STR_XENOLITE_BLOCK: 1, STR_UFO_NAVIGATION:  2}]
+      - [1, {STR_UFO_NAVIGATION: 1, STR_ALIEN_ALLOYS: 15}]
+      - [1, {STR_XENOLITE_BLOCK: 2, STR_ALIEN_ALLOYS: 5}]
+      - [1, {STR_ALIEN_ALLOYS: 30, STR_SC_WIRE: 10}]
+      - [1, {STR_ALIEN_ALLOYS: 35, STR_OPTRONIC_PARTS: 15, STR_ELERIUM_115: 25}]
+      - [1, {STR_ALIEN_ALLOYS: 25, STR_OPTRONIC_PARTS: 15, STR_UFO_NAVIGATION: 1, STR_XENOLITE_BLOCK: 1}]
+    listOrder: 15561                                                               

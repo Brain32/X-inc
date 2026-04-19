@@ -2,15 +2,17 @@ This txt file helps music nerds (like myslef) keep track of music that I use.
 
 GMDEFEND - BLOOD Beta - BLOOD7.MID
 GMENBASE - SHADOWRUN (SNES) -
+GMGEO1 - Bjorn Lynne -  Eagle has landed (mod, xmplay)
 GMGEO1 - Skaven252 - War in the Middle Earth
 GMGEO2 - Skaven252 - Space Hulk I: Captured Sun
 GMGEO3 -
 GMGEO4 - Astro Rock 2000
 GMGEO6 - Purple Motion - Fracture in space
+GMGEO9 - Jester (Volker Tripp) - 1990 - Fast Food 
 
 GMSTORY - Skaven252 - Fourth Symmetriad
 
-GMLOSE - Skaven252 - Deep in her Eyes
+GMLOSE - Skaven252 - Deep in her Eyes (also known as "Data Jack")
 
 GMWIN -  Skaven252 - Snow Frontier
 

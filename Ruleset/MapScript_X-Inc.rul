@@ -104,6 +104,32 @@ mapScripts:
       size: 2
       executionChances: 50
     - type: fillArea
+
+  - type: CRUISE_LINER_SMALL
+    commands:
+    - type: addBlock
+      size: [3,4]
+      rects:
+        - [0,0,3,4]
+    - type: addBlock
+      size: [3,2]
+
+  - type: NUKE_RURAL
+    commands:
+    - type: addCraft
+    - type: addUFO
+    - type: addBlock
+      size: 3
+      executionChances: 50
+    - type: addBlock
+      size: 2
+      executions: 2
+    - type: addBlock
+      groups: 9
+      executions: 4
+      size: 1
+    - type: fillArea
+
   - type: INDUSTRIALSLUM
     commands:
     - type: addCraft

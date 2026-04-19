@@ -15,6 +15,236 @@ armors:
 
                 #DeckerCoat
 
+
+  - type: STR_HUMANOID_DROID_UC
+    spriteSheet: AI_05.PCK
+    spriteInv: AI_05.SPK
+    customArmorPreviewIndex: 64
+    weight: 5
+    zombiImmune: true
+    bleedImmune: true
+    storeItem: STR_NONE
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
+    corpseBattle:
+      - STR_HUMANOID_AI_CORPSE
+    visibilityAtDark: 14
+    personalLight: 5
+    fearImmune: false
+    stats:
+      tu: 10
+      stamina: 15
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 25
+    underArmor: 20
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.4
+      moraleCurrent: 0.33
+      bravery: 0.2
+    meleeDodge:
+      reactions: 0.4 # bonus for leather coat badassery
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 20
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        manaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0 #Null
+      - 0.8 #Bullets
+      - 0.2 #Fire
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 0.95 #Melee
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 1.2 #EMP
+      - 1.0 #Electro
+      - 0.0 #PSI
+      - 1.0 #WRAP
+      - 0.0 #E115
+      - 1.0 #Bio
+    specialWeapon: STR_UNARMED_ROBO
+    units:
+      - STR_SOLDIER_AI
+    loftempsSet: [ 3 ]
+
+  - type: STR_HUMANOID_DROID_JETPACK_UC
+    spriteSheet: AI_10.PCK
+    spriteInv: AI_10.SPK
+    customArmorPreviewIndex: 63
+    weight: 8
+    zombiImmune: true
+    bleedImmune: true
+    movementType: 1
+    storeItem: STR_NONE
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
+    corpseBattle:
+      - STR_HUMANOID_AI_CORPSE
+    visibilityAtDark: 14
+    personalLight: 5
+    fearImmune: false
+    stats:
+      tu: 15
+      stamina: 20
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 30
+    underArmor: 20
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.4
+      moraleCurrent: 0.33
+      bravery: 0.2
+    meleeDodge:
+      reactions: 0.4 # bonus for leather coat badassery
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 20
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        manaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0 #Null
+      - 0.8 #Bullets
+      - 0.2 #Fire
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 0.95 #Melee
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 1.3 #EMP
+      - 1.1 #Electro
+      - 0.0 #PSI
+      - 1.0 #WRAP
+      - 0.0 #E115
+      - 1.0 #Bio
+    specialWeapon: STR_UNARMED_ROBO
+    units:
+      - STR_SOLDIER_AI
+    loftempsSet: [ 3 ]
+
+  - type: STR_MECHSUIT_ARMOR_UC
+    spriteSheet: MECHSUIT_RL_CLAW.PCK
+    spriteInv: INV_MECH_RL_CLAW
+    customArmorPreviewIndex: 49
+    allowInv: true
+    allowsRunning: false
+    allowsStrafing: false
+    allowsKneeling: false
+    turnBeforeFirstStep: true
+    turnCost: 2
+    fearImmune: false
+    corpseBattle:
+      - XINC_HOVERTANK_CORPSE_1
+      - XINC_HOVERTANK_CORPSE_2
+      - XINC_HOVERTANK_CORPSE_3
+      - XINC_HOVERTANK_CORPSE_4
+    corpseGeo: STR_HUMVEE_TURRET_CORPSE
+    storeItem: STR_MECHSUIT_ARMOR
+    weight: -200
+    visibilityAtDark: 20
+    heatVision: 60
+    personalLight: 25
+    frontArmor: 135
+    sideArmor: 125
+    rearArmor: 100
+    underArmor: 75
+    moveSound: 197
+    movementType: 2
+    deathMale: 23
+    deathFemale: 23
+    drawingRoutine: 5
+    size: 2
+    overKill: 3.0
+    stats: &SECTION_WOLVERIN_STATS
+       tu: 25
+       reactions: -20
+       firing: 10
+       bravery: 10
+       stamina: 1000
+    recovery:  &SECTION_WOLVERIN_RECOVERY
+      time:
+        tu: 0.5
+        manaNormalized: 100.0
+      mana:
+        moraleCurrent: -0.03
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 14.0
+      energy:
+        flatHundred: 3
+        healthCurrent: 0.5
+        manaNormalized: 300.0
+      stun:
+        stunCurrent: 0.036
+    psiDefence:  &SECTION_WOLVERIN_PSIDEF
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.2
+    damageModifier: &SECTION_WOLVERIN_RESISTANCES
+      - 0.0
+      - 0.9
+      - 0.2
+      - 0.6
+      - 0.7
+      - 0.7
+      - 0.25
+      - 0.6
+      - 0.6
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.5
+      - 0.75
+      - 1.25
+      - 0.5
+      - 0.7
+      - 0.0
+      - 0.0
+    units:
+      - STR_SOLDIER_AI
+    builtInWeapons:
+      - STR_MECHA_RL
+      - STR_MECHA_GRABBER
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+
+
   - type: STR_RUNNERCOAT_UC
     spriteSheet: XCOM_36.PCK
     layersDefaultPrefix: HUMAN_RUNNER
@@ -95,6 +325,7 @@ armors:
       - 1.0 #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
@@ -118,7 +349,7 @@ armors:
       F5: ["", "", "F5_NUDE", "", "", "", "JUMPSUIT_F", "", "", "", "F5_HEAD", "", "", ""]
       F6: ["", "", "F6_NUDE", "", "", "", "JUMPSUIT_F", "", "", "", "F6_HEAD", "", "", ""]
       F7: ["", "", "F7_NUDE", "", "", "", "JUMPSUIT_F", "", "", "", "F7_HEAD", "", "", ""]
-    customArmorPreviewIndex: 1
+    customArmorPreviewIndex: 0
     weight: 2
     storeItem: STR_NONE
     builtInWeapons:
@@ -181,6 +412,7 @@ armors:
       - 1.0 #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
@@ -238,6 +470,7 @@ armors:
       - 1.0 #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
@@ -325,8 +558,10 @@ armors:
       - 0.5 #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
+
   - type: STR_DEFLECTOR_SUIT_UC
     spriteSheet: XCOM_39.PCK
     spriteInv: MAN_22.SPK
@@ -385,7 +620,88 @@ armors:
     specialWeapon: STR_UNARMED_BAISIC
     units:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     loftempsSet: [ 3 ]
+
+  - type: STR_SWAT_SUIT_UC
+    spriteSheet: XCOM_50.PCK
+    spriteInv: MAN_27
+    layersDefaultPrefix: HUMAN_RUNNER
+    layersDefinition:
+      M0: ["", "", "M0_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      M1: ["", "", "M1_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      M2: ["", "", "M2_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      M3: ["", "", "M3_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      M4: ["", "", "M4_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      M5: ["", "", "M5_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      M6: ["", "", "M6_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      M7: ["", "", "M7_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      F0: ["", "", "F0_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      F1: ["", "", "F1_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      F2: ["", "", "F2_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      F3: ["", "", "F3_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      F4: ["", "", "F4_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      F5: ["", "", "F5_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      F6: ["", "", "F6_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+      F7: ["", "", "F7_NUDE", "", "", "", "", "SWAT_SUIT", "", "", "", "", "", ""]
+    customArmorPreviewIndex: 54
+    corpseBattle:
+      - STR_CORPSE_SWAT_SUIT
+    storeItem: STR_SWAT_SUIT
+    visibilityAtDark: 16
+    personalLight: 5
+    weight: 16
+    forcedTorso: 1
+    stats:
+      health: 5
+      tu: -5
+      stamina: -10
+      reactions: 15
+      melee: 10
+      throwing: 5
+      firing: 5
+    frontArmor: 28
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 18
+    meleeDodge:
+      reactions: 0.15
+    recovery:
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 10
+        healthCurrent: 0.25
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0  #Null
+      - 0.80 #Bullets
+      - 0.75 #Fire
+      - 0.75  #High Explosive
+      - 1.0  #Laser
+      - 1.0  #Plasma
+      - 0.55 #Stun
+      - 0.7  #Melee
+      - 0.8  #Acid
+      - 0.5  #Smoke
+      - 0.1  #EMP
+      - 0.8  #Electro
+      - 1.0  #PSI
+      - 1.3  #WRAP
+      - 0.0  #E115
+      - 1.0  #Bio
+    specialWeapon: STR_UNARMED_BAISIC
+    units:
+      - STR_SOLDIER_M
+      - STR_SOLDIER
+    loftempsSet: [ 3 ]
+
   - type: STR_COMBAT_ARMOUR_MK1_UC
     spriteSheet: XCOM_40.PCK
     spriteInv: MAN_23
@@ -459,6 +775,7 @@ armors:
       - 1.0  #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
   - type: STR_COMBAT_ARMOUR_MK2_UC
@@ -534,6 +851,7 @@ armors:
       - 1.0 #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
@@ -607,6 +925,7 @@ armors:
       - 1.0 #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
@@ -630,7 +949,7 @@ armors:
       F5: ["", "", "F5_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
       F6: ["", "", "F6_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
       F7: ["", "", "F7_NUDE", "", "", "", "SECVEST_ARMOUR_SHIRT_FEMALE", "SECVEST_ARMOUR_VEST_FEMALE", "", "", "", "SECVEST_ARMOUR_HELMET", "", ""]
-    customArmorPreviewIndex: 3
+    customArmorPreviewIndex: 4
     corpseBattle:
       - STR_CORPSE_SECVEST
     storeItem: STR_ARMOUR_SECVEST
@@ -681,6 +1000,7 @@ armors:
     builtInWeapons:
       - INV_NULL_3X3_BACK_PACK
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
@@ -768,6 +1088,7 @@ armors:
       - 0.0   #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
@@ -842,6 +1163,7 @@ armors:
       - 0.0   #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
@@ -866,7 +1188,7 @@ armors:
       F5: ["", "", "F5_NUDE", "", "", "", "JUMPSUIT_F", "JETPACK_JUMPSUIT", "", "", "F5_HEAD", "", "", ""]
       F6: ["", "", "F6_NUDE", "", "", "", "JUMPSUIT_F", "JETPACK_JUMPSUIT", "", "", "F6_HEAD", "", "", ""]
       F7: ["", "", "F7_NUDE", "", "", "", "JUMPSUIT_F", "JETPACK_JUMPSUIT", "", "", "F7_HEAD", "", "", ""]
-    customArmorPreviewIndex: 1
+    customArmorPreviewIndex: 3
     weight: 8
     storeItem: STR_JUMPSUIT_JETPACK
     builtInWeapons:
@@ -931,6 +1253,7 @@ armors:
       - 1.0 #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
@@ -993,9 +1316,12 @@ armors:
       - 0.0   #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
+
 #NightOps_armour
+
   - type: STR_NIGHTOPS_ARMOUR_UC
     spriteSheet: XCOM_48.PCK
     layersDefaultPrefix: HUMAN_RUNNER
@@ -1068,6 +1394,7 @@ armors:
       - 0.0   #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 3 ]
 
@@ -1145,6 +1472,7 @@ armors:
       - 1.0 #Bio
     specialWeapon: STR_UNARMED_BAISIC
     units:
+      - STR_SOLDIER_M
       - STR_SOLDIER
     loftempsSet: [ 5 ]
 
@@ -1191,6 +1519,50 @@ armors:
       - 0.0  #E115
       - 0.0  #Bio
     loftempsSet: [ 92, 89, 90, 91 ]
+
+  - type: STR_MECH_RL_ARMOR
+    spriteSheet: MECH_RL.PCK
+    spriteInv: INV_MECH_RL.SPK
+    allowInv: false
+    corpseBattle:
+      - XINC_HOVERTANK_CORPSE_1
+      - XINC_HOVERTANK_CORPSE_2
+      - XINC_HOVERTANK_CORPSE_3
+      - XINC_HOVERTANK_CORPSE_4
+    visibilityAtDark: 25
+    heatVision: 25
+    frontArmor: 135
+    sideArmor: 125
+    rearArmor: 105
+    underArmor: 75
+    size: 2
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    drawingRoutine: 5
+    overKill: 1.5
+    psiDefence: 
+      flatHundred: 10.0
+    damageModifier:
+      - 1.0  #Null
+      - 0.90 #Bullets
+      - 0.20 #Fire
+      - 0.6  #High Explosive
+      - 0.7  #Laser
+      - 0.7  #Plasma 
+      - 0.25 #Stun
+      - 0.6  #Melee
+      - 0.6  #Acid
+      - 0.0  #Smoke
+      - 1.2 #EMP
+      - 1.1  #Electro
+      - 0.0  #PSI
+      - 1.5  #WRAP
+      - 0.0  #E115
+      - 0.0  #Bio
+    loftempsSet: [ 92, 89, 90, 91 ]
+
 
 # Your Robots
 
@@ -1252,6 +1624,63 @@ armors:
       - STR_SECBOT_MK1_WEAPON
       - STR_SECBOT_MK1_WEAPON
     loftempsSet: [ 3 ]
+
+#EnemyBots
+
+  - type: STR_SECBOT_BLACK_MK1
+    spriteSheet: SECBOT_BLACK.PCK
+    spriteInv: SECBOT_BLACK.SPK
+    forcedTorso: 1
+    customArmorPreviewIndex: 56
+    corpseBattle:
+      - STR_SECBOT_BLACK_CORPSE
+    visibilityAtDark: 18
+    heatVision: 18
+    personalLight: 5
+    weight: -55
+    frontArmor: 65
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 45
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    instantWoundRecovery: true
+    drawingRoutine: 19
+    standHeight: 22
+    kneelHeight: 14
+    meleeDodge:
+      flatHundred: 0.15
+    meleeDodgeBackPenalty: 0.25
+    recovery:
+      energy:
+        flatHundred: 0.07
+    overKill: 1.5
+    psiDefence: 
+      flatHundred: 10.0
+    damageModifier:
+      - 1.0 #Null
+      - 0.90 #Bullets
+      - 0.20 #Fire
+      - 1.0 #High Explosive
+      - 0.9 #Laser
+      - 0.9 #Plasma 
+      - 0.4 #Stun
+      - 0.80 #Melee
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 1.2 #EMP
+      - 0.9 #Electro
+      - 0.0 #PSI
+      - 1.5 #WRAP
+      - 0.0 #E115
+      - 0.0 #Bio
+    builtInWeapons:
+      - STR_SECBOT_MK1_WEAPON
+      - STR_SECBOT_MK1_WEAPON
+    loftempsSet: [ 3 ]
+
 
 # Your turrets
 
@@ -1611,6 +2040,86 @@ armors:
       - 0.0   #E115
       - 0.0   #Bio
     loftempsSet: [ 4 ]
+                                             ### EchoProtocol ###
+  - type: STR_FAKECIV1_ARMOR
+    spriteSheet: FAKECIV1.PCK
+    spriteInv: FAKECIV_01.SPK
+    corpseBattle:
+      - STR_FAKECIV1_CORPSE
+    visibilityAtDark: 12
+    heatVision: 70
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 5
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    createsMeleeThreat: false
+    movementType: 0
+    drawingRoutine: 0
+    deathFrames: 18
+    overKill: 1.5
+    psiDefence: 
+      flatHundred: 10.0
+    damageModifier:
+      - 1.0   #Null
+      - 0.9  #Bullets
+      - 1.2   #Fire
+      - 1.0   #High Explosive
+      - 1.0  #Laser
+      - 1.0   #Plasma
+      - 0.25  #Stun
+      - 0.9   #Melee
+      - 0.9   #Acid
+      - 0.0   #Smoke
+      - 1.35  #EMP
+      - 1.15  #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    loftempsSet: [ 4 ]
+  - type: STR_SKYNET1_ARMOR
+    spriteSheet: SKYNET01.PCK
+    spriteInv: SKYNET01.SPK
+    corpseBattle:
+      - STR_SKYNET01_CORPSE
+    visibilityAtDark: 18
+    heatVision: 70
+    frontArmor: 50
+    sideArmor: 45
+    rearArmor: 30
+    underArmor: 25
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    createsMeleeThreat: false
+    movementType: 0
+    drawingRoutine: 0
+    overKill: 1.5
+    psiDefence: 
+      flatHundred: 10.0
+    damageModifier:
+      - 1.0   #Null
+      - 0.7  #Bullets
+      - 0.1   #Fire
+      - 0.9   #High Explosive
+      - 1.0  #Laser
+      - 0.8   #Plasma
+      - 0.1  #Stun
+      - 1.0   #Melee
+      - 0.9   #Acid
+      - 0.0   #Smoke
+      - 1.2  #EMP
+      - 1.15  #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 0.0   #Bio
+    loftempsSet: [ 4 ]
                                              ### Friends ###
                                ## Rangers ## 
   - type: STR_RANGER01_INV
@@ -1662,7 +2171,7 @@ armors:
 
   - type: STR_MUTANT_WRETCH_INV
     spriteSheet: MUTANT01.PCK
-    spriteInv: inventory_MUTANT01
+    spriteInv: inv_MUTANT01
     corpseBattle:
       - STR_MUTANT_WRETCH_CORPSE
     visibilityAtDark: 14
@@ -1670,6 +2179,7 @@ armors:
     sideArmor: 22
     rearArmor: 22
     underArmor: 15
+    drawingRoutine: 0
     recovery:
       health:
         stunNormalized: -0.1
@@ -1699,6 +2209,44 @@ armors:
       - 1.3   #Acid
       - 2.0   #Smoke
       - 0.2   #EMP
+      - 1.0   #Electro
+      - 0.0   #PSI
+      - 2.0   #WRAP
+      - 0.0   #E115
+      - 1.1   #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_MUTANT_WALKER_INV
+    spriteSheet: MUTANT02.PCK
+    spriteInv: inv_MUTANT02
+    allowInv: false
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    psiVision: 6
+    corpseBattle:
+      - STR_MUTANT_WALKER_CORPSE
+    visibilityAtDark: 14
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 5
+    underArmor: 4
+    drawingRoutine: 4
+    createsMeleeThreat: false
+    overKill: 1.5
+    allowsKneeling: false
+    allowsRunning: false
+    damageModifier: 
+      - 1.0   #Null
+      - 0.9  #Bullets
+      - 2.0   #Fire
+      - 0.85   #High Explosive
+      - 1.0  #Laser
+      - 1.1   #Plasma
+      - 1.0   #Stun
+      - 0.9   #Melee
+      - 1.3   #Acid
+      - 2.0   #Smoke
+      - 0.0   #EMP
       - 1.0   #Electro
       - 0.0   #PSI
       - 2.0   #WRAP
@@ -1958,17 +2506,17 @@ armors:
     allowsRunning: true
     damageModifier: 
       - 1.0   #Null
-      - 0.90  #Bullets
+      - 0.95  #Bullets
       - 1.2   #Fire
-      - 0.80   #High Explosive
-      - 0.8  #Laser
-      - 0.8   #Plasma
+      - 1.0   #High Explosive
+      - 1.0  #Laser
+      - 1.0   #Plasma
       - 1.0   #Stun
       - 1.0   #Melee
       - 1.0   #Acid
       - 4.0   #Smoke
       - 0.2   #EMP
-      - 1.0   #Electro
+      - 1.2   #Electro
       - 0.0   #PSI
       - 4.0   #WRAP
       - 0.0   #E115
@@ -2006,10 +2554,10 @@ armors:
       - 0.75  #Bullets
       - 0.2   #Fire
       - 0.9   #High Explosive
-      - 1.2  #Laser
-      - 1.1   #Plasma
+      - 1.1  #Laser
+      - 1.0   #Plasma
       - 0.8   #Stun
-      - 0.8   #Melee
+      - 0.9   #Melee
       - 1.0   #Acid
       - 0.2   #Smoke
       - 0.6   #EMP
@@ -2473,6 +3021,7 @@ armors:
   - type: STR_TIGERCALW_FEMGOON
     spriteSheet: TIGER_CLAW_1.PCK
     spriteInv: inventory_TygersClaw_FemGoon
+    corpseGeo: STR_DURATHREAD
     corpseBattle:
       - STR_TIGERCALW_FEMGOON_CORPSE
     visibilityAtDark: 14 #balance me
@@ -2516,6 +3065,7 @@ armors:
   - type: STR_TIGERCALW_GOON
     spriteSheet: TIGER_CLAW_2.PCK
     spriteInv: inventory_TygersClaw_Goon
+    corpseGeo: STR_DURATHREAD
     corpseBattle:
       - STR_TIGERCALW_GOON_CORPSE
     visibilityAtDark: 14 #balance me
@@ -2559,6 +3109,7 @@ armors:
   - type: STR_TIGERCALW_WARCHEEF
     spriteSheet: TIGER_CLAW_3.PCK
     spriteInv: inventory_TygersClaw_Warcheef
+    corpseGeo: STR_DURATHREAD
     corpseBattle:
       - STR_TIGERCALW_WARCHEEF_CORPSE
     visibilityAtDark: 14 #balance me
@@ -2599,6 +3150,227 @@ armors:
       - 0.0
       - 1.0
     loftempsSet: [ 3 ]
+                                                        ###CityGangWardogs###
+  - type: STR_WARDOGGOON01
+    spriteSheet: WARDOG01.PCK
+    spriteInv: inv_Wardogs01
+    corpseGeo: STR_DURATHREAD
+    corpseBattle:
+      - STR_WARDOGGOON01_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 5
+    underArmor: 5
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0 #Null
+      - 1.0 #Bullets
+      - 1.4 #Fire
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 4.0 #Smoke
+      - 0.2 #EMP
+      - 1.0 #Electro
+      - 1.0 #PSI
+      - 4.0 #WRAP
+      - 0.0 #E511
+      - 1.0 #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WARDOGGOON02
+    spriteSheet: WARDOG02.PCK
+    spriteInv: inv_Wardogs02
+    corpseGeo: STR_DURATHREAD
+    corpseBattle:
+      - STR_WARDOGGOON02_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 5
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0 #Null
+      - 1.0 #Bullets
+      - 1.4 #Fire
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 0.9 #Melee
+      - 1.0 #Acid
+      - 4.0 #Smoke
+      - 0.2 #EMP
+      - 1.0 #Electro
+      - 1.0 #PSI
+      - 4.0 #WRAP
+      - 0.0 #E511
+      - 1.0 #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WARDOGGOON03
+    spriteSheet: WARDOG03.PCK
+    spriteInv: inv_Wardogs03
+    corpseGeo: STR_DURATHREAD
+    corpseBattle:
+      - STR_WARDOGGOON03_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 28
+    sideArmor: 22
+    rearArmor: 8
+    underArmor: 8
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0 #Null
+      - 0.8 #Bullets
+      - 1.2 #Fire
+      - 0.9 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 0.9 #Melee
+      - 1.0 #Acid
+      - 4.0 #Smoke
+      - 0.2 #EMP
+      - 1.0 #Electro
+      - 1.0 #PSI
+      - 4.0 #WRAP
+      - 0.0 #E511
+      - 1.0 #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WARDOGGOON04
+    spriteSheet: WARDOG04.PCK
+    spriteInv: inv_Wardogs04
+    corpseGeo: STR_DURATHREAD
+    corpseBattle:
+      - STR_WARDOGGOON04_CORPSE
+    visibilityAtDark: 11
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 10
+    underArmor: 10
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0 #Null
+      - 0.8 #Bullets
+      - 1.2 #Fire
+      - 0.9 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 0.9 #Melee
+      - 1.0 #Acid
+      - 4.0 #Smoke
+      - 0.2 #EMP
+      - 1.0 #Electro
+      - 1.0 #PSI
+      - 4.0 #WRAP
+      - 0.0 #E511
+      - 1.0 #Bio
+    loftempsSet: [ 3 ]
+  - type: STR_WARDOGGOON05
+    spriteSheet: WARDOG05.PCK
+    spriteInv: inv_Wardogs05
+    corpseGeo: STR_DURATHREAD
+    corpseBattle:
+      - STR_WARDOGGOON05_CORPSE
+    visibilityAtDark: 14
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 15
+    underArmor: 15
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    allowsKneeling: true
+    allowsRunning: true
+    damageModifier: 
+      - 1.0 #Null
+      - 0.8 #Bullets
+      - 1.2 #Fire
+      - 0.8 #High Explosive
+      - 0.9 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 0.8 #Melee
+      - 1.0 #Acid
+      - 2.0 #Smoke
+      - 0.2 #EMP
+      - 1.0 #Electro
+      - 1.0 #PSI
+      - 4.0 #WRAP
+      - 0.0 #E511
+      - 1.0 #Bio
+    loftempsSet: [ 3 ]         
 
 #Smuglers
 

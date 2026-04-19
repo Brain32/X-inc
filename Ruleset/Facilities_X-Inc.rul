@@ -39,12 +39,29 @@ facilities:
       - STR_BASE_EXPANSION_PROJECT 
     spriteShape: 1
     spriteFacility: 18
+    manaRecoveryPerDay: 2
     buildCost: 360000
     buildTime: 18
     monthlyCost: 11500
     personnel: 35
     placeSound: 37
     mapName: XBASE_01
+  - type: STR_BIG_LIVING_QUARTERS
+    requires:
+      - STR_BASE_EXPANSION_PROJECT 
+    spriteShape: 301
+    size: 2
+    buildCost: 1950000
+    buildTime: 25
+    monthlyCost: 35000
+    personnel: 185
+    rightClickActionType: 6
+    manaRecoveryPerDay: 4
+    storage: 50
+    sightRange: 100
+    placeSound: 37
+    mapName: XBASS_02
+    listOrder: 6910
   - type: STR_GENERAL_STORES
     requires:
       - STR_BASE_EXPANSION_PROJECT 
@@ -178,7 +195,7 @@ facilities:
     buildTime: 16
     maxAllowedPerBase: 1
     storage: 10
-    monthlyCost: -12000
+    monthlyCost: -15000
     manaRecoveryPerDay: 8
     sickBayAbsoluteBonus: 0.15
     placeSound: 37
@@ -319,13 +336,13 @@ facilities:
     spriteShape: 328
     size: 2
     spriteFacility: 884
-    buildCost: 5000000
+    buildCost: 7500000
     buildTime: 40
     monthlyCost: 64000
     sickBayAbsoluteBonus: 0.35
     sickBayRelativeBonus: 0.2
     maxAllowedPerBase: 1
-    labs: 35
+    labs: 30
     refundValue: 850000
     requiresBaseFunc: [PWR]
     provideBaseFunc: [BASIC_LAB, B_LAB, MEDICAL_BAY]

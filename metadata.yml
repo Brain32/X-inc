@@ -1,11 +1,11 @@
 name: "X-inc."
-version: "0.0.4 Dev Build"
+version: "0.0.5 CloseTest Build"
 author: "Brain_322"
 description: "Lead a private security organization in dystopian cyberpunk world of 2300 and deal with aftermath of alien war on Earth!"
 id: X_inc
 master: xcom1
 isMaster: true
-resourceConfig: Ruleset/X-inc.rul
+resourceConfig: Ruleset/FMPE.rul
 loadResources:
   - UFO
 reservedSpace: 2

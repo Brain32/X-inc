@@ -1,0 +1,29 @@
+craftWeapons:
+  - type: STR_LASER_MINICANNON_UC
+    sprite: 4
+    sound: 8
+    damage: 6
+    range: 20
+    accuracy: 80
+    reloadCautious: 6
+    reloadStandard: 6
+    reloadAggressive: 6
+    ammoMax: 200
+    rearmRate: 50
+    launcher: STR_LASCANNON_LITE
+    projectileType: 4
+  - type: STR_AUTOCANNON_25MM_UC
+    sprite: 2
+    sound: 4
+    damage: 10
+    range: 10
+    accuracy: 25
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 4
+    ammoMax: 150
+    rearmRate: 100
+    launcher: STR_AUTOCANNON_25MM
+    clip: STR_AUTOCANNON_25MM_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 8

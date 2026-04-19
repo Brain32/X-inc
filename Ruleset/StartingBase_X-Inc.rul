@@ -27,7 +27,8 @@ startingBase:
     - type: STR_CORRIDOR
       x: 2
       y: 2
-  randomSoldiers: 6
+  randomSoldiers:
+        STR_SOLDIER: 6
   crafts:
     - type: STR_FUTURECAR1
       id: 1
@@ -48,14 +49,13 @@ startingBase:
   items:
     STR_STUN_BATON: 4
     STR_SMALL_MEDKIT: 1
-    STR_GLOCK_NEO: 4
-    STR_GLOCK_NEO_CLIP: 14
+    STR_WRECKED_SAVAGE_CRAFT: 1
     STR_PAPER_FLARE: 10
     STR_FIRE_AX: 1
-    STR_MEDI_PATCH: 5
-    STR_COMBAT_KNIFE: 4
+    STR_MEDI_PATCH: 6
+    STR_COMBAT_KNIFE: 6
     STR_FLASHLIGHT: 1
-    STR_FIRE_EXTINGUISHER: 1
+    STR_FIRE_EXTINGUISHER: 2
     STR_ELERIUM_115: 35
   scientists: 5
   engineers: 5

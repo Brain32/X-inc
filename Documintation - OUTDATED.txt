@@ -1,5 +1,5 @@
 
-18.15.2025 - Hey there, curios player. Thius is my old Doc file I made 3 years ago. I could just deleted it, but I decide to keep it.
+18.15.2025 - Hey there, curios player. Thius is my old Doc file I made 3 years ago. I could just deleted it, but I decide to keep it, for you :^)
 
 Basic concept:
 You are small mercenary company try to get some buck doing dirty jobs. After a while you became antiterarist organization that deals with criminalscum around the Earth (mafia\cultists\smuglers\corpo scum and so on)
@@ -96,7 +96,7 @@ BO Shotgun - faster snap, better aimed, slow reload
 
    Black Ops (High acces)
 BO small pistol (can autofire (x2) small)
-BO Pro rifle - better than 
+BO Pro rifle - better than regular one
 BO Pro Shotgun - 
 BO Auto shotgun - have autofire
 
@@ -182,6 +182,7 @@ Structure:
 Structure:
               - Police Soldier
               - Police Seaker
+              - AutoCop
               - Police Haund
               - Police Officer
               - Ekite Soldier
@@ -237,12 +238,14 @@ Mostly poor-armed civies.
 Resistence members
 - Hate governments. Works against them through terrorist attacks. Recruit people through nomads and Wasteland habitats. Manipulated by Aliens\Corpos\MJ12
    Structure: 
-              - Soldier
-              - Scout
+              - Soldier - Cannon fodder
+              - Scout - High TU, melee oriented
               - Elite Scout
-              - Ranger
+              - Ranger - High TU, melee oriented
+              - Heavy - Armored - ALWAYS have Minigun
               - Engeneer
               - Hacked Enforcer
+              - Spy
               - Elite Ranger
               - Scientiest
               - Heavy Trooper
@@ -289,7 +292,7 @@ You recive reports of groups of anarchists that distorbs goverment and corporati
 >Officer Tenpenny arc
 After few months of your acttivety, you get contaced with one of the high-ranked MegaPol officer for more "advanced" tasks. He mostly uses to do dorty job for him (shows trough random events like giving you civilian corpses and negative score penalty.) After few of those missions you get intel of his illigal activety. Digging further you find more heavy evedence of him colobiration with MarcSek (Or maybe some other corporation that makes iliggal deadly drugs ?) After getting eneough evidence and premmision of goverment, you storm his office. In the End you either kill him or arrest him  (Trugh capturing or killing in battllescape, dugh.) End of this arc give you next tech level and promotion.
 
-Note: His entire charecter based on Officer Tenpenny from San Andreas or detective Harris form "Training day". I'm not sure if swearing or insluting player will be tolerated in Mod.oi, but who gives a shit :^)
+Note: His entire charecter based on Officer Tenpenny from San Andreas or detective Harris form "Training day". I'm not sure if swearing or insluting player will be tolerated in Mod.oi, but who gives a shit, fuck those furfags :^)
 
 >Corpo Arc
 
@@ -308,6 +311,7 @@ Member of board directors of M.A.G.M.A corporation contacts you about shady stuf
 
 - Optional arc - give you acces to uniqe guns and armour.
 
+ ### Adive notes, from erly testers  ### 
 You need:
 
 a villain organzation, pulling the strings (the big bad, showing up occasionally)

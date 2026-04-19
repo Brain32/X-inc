@@ -63,8 +63,50 @@ terrains:
       - name: URBAN18
         width: 10
         length: 10
-#TFTD Port
+#TFTD Ship Small
+  - name: OSIRON_CRUISE_LINER_SMALL
+    mapDataSets:
+      - BLANKS
+      - SEAURBAN
+      - LINERSHIPA
+      - LINERSHIPB
+      - LINERSHIPC
+      - LINERSHIPD
+      - DECKSHIPC
+      - LIFTER
+      - BATHBITZ_HT
+#   civilianTypes:
+    script: CRUISE_LINER_SMALL
+    mapBlocks:
+      - name: LINERTS00
+        width: 30
+        length: 20
+#        items:
+      - name: LINERTS01
+        width: 30
+        length: 40
+        items:
+          STR_MONEY_BRIEFCASE:
+            - [19, 16, 4]
+            - [9, 19, 5]
+            - [18, 30, 5]
+          STR_MONEY_BAG:
+            - [10, 24, 2]
+            - [27, 11, 2]
+          STR_LOOTBOX6:
+            - [2, 3, 2]
+            - [6, 1, 2]
+            - [25, 31, 2]
+            - [11, 35, 5]
+            - [7, 34, 4]
+            - [19, 31, 4]
+            - [14, 25, 0]
+            - [15, 25, 0]
+          STR_ELERIUM_115:
+            - [7, 34, 0]
+            - [13, 38, 0]
 
+#TFTD Port
   - name: PORTTFTD
     mapDataSets:
       - BLANKS
@@ -441,6 +483,127 @@ terrains:
         width: 30
         length: 30
 
+  - name: NUKE_RURAL
+    script: NUKE_RURAL
+    mapDataSets:
+      - BLANKS
+      - SHADSANDS
+      - SHADSANDS_BITS
+      - SHADSANDS_DECOR
+    mapBlocks: &NukeRural
+      - name: NUKE_RURAL_01
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_02
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_03
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_04
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_05
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_06
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_07
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_08
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_09
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_10
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_11
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_12
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_13
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_14
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_15
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_16
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_17
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_18
+        width: 10
+        length: 10
+      - name: NUKE_RURAL_BIG_01
+        width: 20
+        length: 20
+      - name: NUKE_RURAL_BIG_02
+        width: 20
+        length: 20
+      - name: NUKE_RURAL_BIG_03
+        width: 20
+        length: 20
+      - name: NUKE_RURAL_BIG_04
+        width: 20
+        length: 20
+      - name: NUKE_RURAL_BIG_05
+        width: 20
+        length: 20
+      - name: NUKE_RURAL_BIG_06
+        width: 20
+        length: 20
+      - name: NUKE_RURAL_BIG_07
+        width: 20
+        length: 20
+      - name: NUKE_RURAL_BIG_08
+        width: 20
+        length: 20
+      - name: NUKE_RURAL_H_01
+        width: 10
+        length: 10
+        groups: [1, 9]
+      - name: NUKE_RURAL_H_02
+        width: 10
+        length: 10
+        groups: [1, 9]
+      - name: NUKE_RURAL_H_03
+        width: 10
+        length: 10
+        groups: [1, 9]
+      - name: NUKE_RURAL_H_04
+        width: 10
+        length: 10
+        groups: [1, 9]
+      - name: NUKE_RURAL_H_05
+        width: 10
+        length: 10
+        groups: [1, 9]
+      - name: NUKE_RURAL_H_06
+        width: 10
+        length: 10
+        groups: [1, 9]
+      - name: NUKE_RURAL_H_07
+        width: 10
+        length: 10
+        groups: [1, 9]
+      - name: NUKE_RURAL_H_08
+        width: 10
+        length: 10
+        groups: [1, 9]
+      - name: NUKE_RURAL_HUGE_01
+        width: 30
+        length: 30
   - name: INDUSTRIALSLUM
     mapDataSets:
       - BLANKS
@@ -1178,6 +1341,18 @@ terrains:
         width: 10
         length: 10
       - name: XBASE_20
+        width: 10
+        length: 10
+      - name: XBASS_02 # Large Living Quarters 1
+        width: 10
+        length: 10
+      - name: XBASS_03 # Large Living Quarters 2
+        width: 10
+        length: 10
+      - name: XBASS_04 # Large Living Quarters 3
+        width: 10
+        length: 10
+      - name: XBASS_05 # Large Living Quarters 4
         width: 10
         length: 10
       - name: XBASS_22 # HQ

@@ -1,504 +1,1306 @@
 en-US:
                     ############# Armours #############
-  STR_RUNNER_COAT: "Runner Coat"
-  STR_RUNNERCOAT_UC: "RUNNER COAT"
-  STR_DEFLECTOR_SUIT: "Deflector"
-  STR_DEFLECTOR_SUIT_UC: "DEFLECTOR"
-  STR_DEFLECTOR_SUIT_UFOPEDIA: "An old model of power armor developed during the First Alien Invasion."
+# ARMOUR
+  STR_ARMOUR: "SPECIAL ARMOUR"
+  STR_RUNNER_COAT: "Coat"
+  STR_RUNNERCOAT_UC: "COAT"
+  STR_RUNNERCOAT_UFOPEDIA: "Standard dress code of our operations department. This coat is made of super-fiber that can, in theory, stop small-caliber bullets, but don't expect miracles."
+
   STR_JUMPSUIT: "Jumpsuit"
   STR_JUMPSUIT_UC: "JUMPSUIT"
-  STR_JUMPSUIT_UFOPEDIA: "Light clothing made of a widely used material known as the Durthread. The layer is quite ridiculous to be considered a full-fledged armor, but the suit is quite light and does not constrain the movement of the operative, allowing to lessen the maximum mobility on the battlefield."
-  STR_RUNNERCOAT_UFOPEDIA: "This trench coat is the latest fashion in the 23rd century! It's also made from durathread to protect our mercs from small caliber bullets."
+  STR_JUMPSUIT_UFOPEDIA: "Light specialized clothing made from the widely used material known as 'Super-Fiber'. The protective layer is quite laughable to be considered real armor, but the jumpsuit is very light and does not restrict the operative's movement, allowing maximum mobility on the battlefield."
+
   STR_BULDOZER_SUIT: "Bulldozer"
   STR_BULDOZER_SUIT_UC: "BULLDOZER"
-  STR_BULDOZER_SUIT_UFOPEDIA: "This sturdy plasteel suit protects well against small caliber bullets."
-  STR_COMBAT_ARMOUR_MK1: "Combat Armour mk. 1"
-  STR_COMBAT_ARMOUR_MK1_UC: "COMBAT ARMOUR MK 1" 
-  STR_COMBAT_ARMOUR_MK1_UFOPEDIA: "Made from advanced polymers and alloys, this armor provides excellent protection against small bullets and buckshot. The night vision device built into the visor allows good orientation at night."
-  STR_CIVILVEST_ARMOUR_UC: "CIVIL VEST"
-  STR_CIVILVEST_ARMOUR_UFOPEDIA: "A simple bulletproof vest that you can buy almost everywhere. A thin layer of Kevlar is able to stop small bullets, although the design is a little uncomfortable to wear."
+  STR_BULDOZER_SUIT_STUDY: "Bulldozer Armor"
+  STR_BULDOZER_SUIT_UFOPEDIA: "Heavy special suit made of plastisteel. It provides good protection against small-caliber bullets and buckshot. The built-in respirator and primitive night vision device help the wearer navigate in darkness."
+
+  STR_DEFENDER_SUIT: "Cyclops"
+  STR_DEFENDER_SUIT_UC: "CYCLOPS"
+  STR_DEFENDER_SUIT_STUDY: "Cyclops Armor"
+  STR_DEFENDER_SUIT_UFOPEDIA: "The main feature of this armor is its advanced and expensive visor, which assists with aiming. It allows the wearer to quickly orient themselves and make decisions in combat situations.{NEWLINE}Night Vision: {ALT}14{ALT}"
+
+  STR_DEFLECTOR_SUIT: "Deflector Power Armor"
+  STR_DEFLECTOR_SUIT_UC: "DEFLECTOR"
+  STR_DEFLECTOR_SUIT_UFOPEDIA: "An old model of power armor developed during the First Alien Invasion. Running is impossible."
+
+  STR_SWAT_SUIT_UC: "SWAT GEAR"
+  STR_SWAT_SUIT: "SWAT Gear"
+  STR_SWAT_SUIT_UFOPEDIA: "A modern set of armor used by special forces. Heavy plated armor combined with advanced electronics makes it an excellent personal protection suit for urban combat.{NEWLINE}Night Vision: {ALT}16{ALT}"
+  STR_SWAT_SUIT_STUDY: "Purchase SWAT Gear"
+
+  STR_COMBAT_ARMOUR_MK1: "Combat Armor Mk1"
+  STR_COMBAT_ARMOUR_MK1_UC: "COMBAT ARMOR MK1"
+  STR_COMBAT_ARMOUR_MK1_UFOPEDIA: "Made from advanced polymers and alloys, this armor offers excellent protection against small-caliber bullets and light buckshot. The built-in night vision device in the visor allows good visibility at night.{NEWLINE}Night Vision: {ALT}14{ALT}"
+  STR_COMBAT_ARMOUR_MK1_STUDY: "Purchase Combat Armor"
+
+  STR_COMBAT_ARMOUR_UPGRATE_PROJECT: "Manufacture Combat Armor Mk2"
+  STR_COMBAT_ARMOUR_MK2: "Combat Armor Mk2"
+  STR_COMBAT_ARMOUR_MK2_UC: "COMBAT ARMOR MK2"
+  STR_COMBAT_ARMOUR_MK2_UFOPEDIA: "Light plastisteel plates made it possible to reduce the weight of the armor without sacrificing protection. The improved visor electronics slightly assist with aiming.{NEWLINE}Night Vision: {ALT}16{ALT}"
+
+  STR_CIV_VEST: "Civilian Vest"
+  STR_CIVILVEST_ARMOUR_UC: "CIVILIAN VEST"
+  STR_CIVILVEST_ARMOUR_UFOPEDIA: "A simple ballistic vest that almost anyone can afford without dealing with bureaucratic nonsense. The Kevlar layer is quite laughable."
+  STR_CIVIL_VEST_ARMOR_STUDY: "Purchase Civilian Vest"
+
+  STR_ARMOUR_SECVEST: "Security Vest"
+  STR_SECVEST_ARMOUR_UC: "SECURITY VEST"
+  STR_SECVEST_ARMOUR_UFOPEDIA: "Thanks to some connections in Megapolis, we can order these simple Kevlar vests. The layer is thick enough to stop small-caliber bullets and buckshot. The helmet is equipped with a primitive night and thermal vision device.{NEWLINE}Night Vision: {ALT}10{ALT}"
+  STR_ARMOUR_SECVEST_STUDY: "Purchase Security Vest"
+
+  STR_ICARUS_COAT: "Icarus Coat"
+  STR_ICARUS_COAT_UC: "ICARUS COAT"
+  STR_ICARUS_COAT_STUDY: "Icarus Coat"
+  STR_ICARUS_COAT_UFOPEDIA: "After diving deep into plated armor design and spending a lot of time on development, we managed to make composite plates thin enough to be worn concealed under normal clothing. We used the freed space to install implants and other electronics."
+
+  STR_TAURUS_ARMOUR: "Taurus Armor"
+  STR_TAURUS_ARMOUR_UC: "TAURUS"
+  STR_TAURUS_ARMOUR_STUDY: "Taurus Armor"
+  STR_TAURUS_ARMOUR_UFOPEDIA: "Our first attempt at designing our own armor. The torso is reinforced with a thick layer of aquaplastic, and the helmet protects against concussive attacks."
+
+  STR_JUMPSUIT_JETPACK_STUDY: "Purchase Jetpack"
   STR_JUMPSUIT_JETPACK: "Jetpack"
   STR_JUMPSUIT_JETPACK_UC: "JETPACK"
-  STR_JUMPSUIT_JETPACK_UFOPEDIA: "Simple jetpack for commercial use. Mostly used for boring everyday affairs, but we could use it for our purposes.The controls take up one hand slot, so using two-handed weapons will be problematic."
-  STR_IRONCLAD: "Ironclad"
+  STR_JUMPSUIT_JETPACK_UFOPEDIA: "A simple commercial-grade jetpack. Mostly used for boring everyday tasks, but we could find a use for it. It occupies one hand slot, so using two-handed weapons will be problematic."
+
+  STR_IRONCLAD: "Ironclad Power Armor"
   STR_IRONCLAD_UC: "IRONCLAD"
-  STR_IRONCLAD_UFOPEDIA: "The popular model of power armor for the colonial marines of RimWorld. As the consumer of this product has to deal with the pheasant and the horrors of the depths of distant planets, the armor is made so that it would be good to pluck bites and cutting attacks, but not very well protects against energy weapons. {NEWLINE}Cannot run. {NEWLINE}HV:10"
-                    ############# Components #############
+  STR_IRONCLAD_UFOPEDIA: "A popular model of power armor for colonial infantry in the outer colonies. Since the users often face the fauna and horrors of distant planets, the armor is designed to excellently deflect bites and cutting attacks, but offers poor protection against energy weapons.{NEWLINE}Running is impossible.{NEWLINE}Night Vision: {ALT}16{ALT}"
 
-  STR_AQUA_PLASTICS: "Aquaplatics"
-  STR_AQUA_PLASTICS_UFOPEDIA: "It is widely used in the production of various tools and armor."
+  STR_NIGHTOPS_BUY: "Purchase Night Ops Jumpsuit"
+  STR_NIGHTOPS_ARMOR: "Night Ops Gear"
+  STR_NIGHTOPS_ARMOUR: "Night Ops Armor"
+  STR_NIGHTOPS_ARMOUR_UC: "NIGHT OPS"
+  STR_NIGHTOPS_ARMOUR_UFOPEDIA: "A simple Kevlar vest equipped with a night and thermal vision device. The vest is not thick enough to withstand rifle caliber, so it is recommended to keep operatives at a distance.{NEWLINE}Night Vision: {ALT}14{ALT}"
 
-                    ############# WEAPONS #############
+  STR_TEMPLAR_PA: "Templar Power Armor"
+  STR_TEMPLAR_PA_UC: "TEMPLAR"
+  STR_TEMPLAR_ARMOR_STUDY: "Super-Heavy Power Armor Project"
+  STR_TEMPLAR_PA_UFOPEDIA: "Super-heavy power armor. Running is impossible, as is crouching and sidestepping. HUGE target. Turning costs 2 TU."
 
+# YOUR ROBOTS
+  STR_MECHSUIT_ARMOR_UC: "MECH/SCOUT"
+  STR_MECHSUIT_ARMOR_UFOPEDIA: "Basic model of a MECH-robot designed for terrain reconnaissance."
 
-#Bows
-#Gun
+  STR_SECBOT_MK1_BUY: "Purchase Security Drone"
+  STR_SECBOT_MK1: "Security Drone Mk"
+  STR_SECBOT_MK1_UC: "SECURITY DRONE Mk1"
+  STR_SECBOT_MK1_UC_UFOPEDIA: "Simple commercial security drone."
+  STR_SECBOT_BLACK_CORPSE: "Security Drone Wreckage"
+
+# COMPONENTS
+  STR_POWER_ARMOR_PARTS: "Power Armor Parts"
+  STR_POWER_ARMOR_PARTS_UFOPEDIA: "Various components required for manufacturing powered armor."
+
+  STR_POWER_CELL: "Power Cell"
+  STR_POWER_CELL_UFOPEDIA: "Elerium power cell used to supply energy to various systems such as power armor or heavy weapons."
+
+  STR_SC_WIRE: "Superconductor"
+  STR_SC_WIRE_UFOPEDIA: "This material is intended for use in the production of aircraft or various types of laser weapons."
+
+  STR_OPTRONIC_PARTS: "Optronic Components"
+  STR_OPTRONIC_PARTS_UFOPEDIA: "The heart of any advanced device that uses light instead of electricity. Used by the aliens during the invasion as a component in navigation units."
+
+  STR_XENOLITE_BLOCK: "Xenolite Block"
+  STR_XENOLITE_BLOCK_UFOPEDIA: "A sentient crystal of extraterrestrial origin whose structure resembles the human brain, complete with its own neuron system and micro-conductors. Such blocks are quite rare and are usually used in the construction of AI systems for aircars or military and civilian drones."
+
+  STR_DURATHREAD: "Super-Fiber"
+  STR_DURATHREAD_UFOPEDIA: "Extremely durable fabric used in the production of clothing and protective equipment. Special treatment gives it excellent protective properties against electricity and chemicals."
+
+  STR_AQUA_PLASTICS: "Aquaplastic"
+  STR_AQUA_PLASTICS_UFOPEDIA: "Widely used in the production of various tools and plated armor."
+
+  STR_GRAV_MODULE: "Gravity Module"
+  STR_GRAV_MODULE_UFOPEDIA: "A small grav-module used in the production of levitation armor and transport vehicles."
+
+# WEAPONS - BUILT-IN
+  STR_MECHA_GRABBER: "Power Grabber"
+  STR_MECHA_RL: "MECH Rocket Launcher"
+  STR_MECHA_RL_ROCKET: "Rocket Set"
+
+# WEAPONS - MELEE
+  STR_UNARMED_BAISIC: "Fists"
+  STR_UNARMED_BAISIC_UFOPEDIA: "If you have nothing at hand, why not use your own fists? Damage and accuracy depend on your close combat skill, strength, and reflexes."
+
+  STR_UNARMED_ROBO: "Fists (Robot)"
+  STR_UNARMED_ROBO_UFOPEDIA: "Droids can fight too, though not as precisely as humans. However, their attacks deal slightly more stun damage."
+
+  STR_KNUCKLES: "Brass Knuckles"
+  STR_KNUCKLES_UFOPEDIA: "Popular street weapon among thugs of all kinds. Fits in a pocket and breaks faces just as well as any club. Requires some skill and strength from the user."
+
+  STR_STUN_BATON: "Police Baton"
+  STR_STUN_BATON_UFOPEDIA: "Even though we are a private mercenary organization, Megapol has still approved the use of these electro-batons. The discharge is non-lethal but still causes some harm to the target's health."
+
+  STR_SHIV: "Shiv"
+  STR_SHIV_UFOPEDIA: "A small piece of sharpened metal designed to inflict small but painful wounds."
+
+  STR_STABKNIFE: "Push Dagger"
+  STR_STABKNIFE_UFOPEDIA: "This special type of knife relies more on the user's strength than on their skill."
+
+  STR_MACHETE: "Machete"
+  STR_MACHETE_UFOPEDIA: "A wide and long blade originally intended for cutting vegetation."
+
+  STR_KNIFE_BANDIT: "Bandit Knife"
+  STR_KNIFE_BANDIT_UFOPEDIA: "This large knife is used by raiders and bandits. Requires determination from the wielder."
+
+  STR_COMBAT_KNIFE: "Combat Knife"
+  STR_COMBAT_KNIFE_UFOPEDIA: "A well-made steel knife. Effective use requires both strength and close combat skill."
+
+  STR_PIPE: "Metal Pipe"
+  STR_PIPE_UFOPEDIA: "A steel pipe that can serve as an improvised club if you have nothing better."
+
+  STR_CROWBAR: "Crowbar"
+  STR_CROWBAR_UFOPEDIA: "Favorite weapon of MIT graduates."
+
+  STR_WRENCH: "Wrench"
+  STR_WRENCH_UFOPEDIA: "Colonial marine legends say that once, with a wrench just like this, an unnamed soldier single-handedly wiped out hordes of mutants and berserk cyborgs aboard one of the mega starships. They might be exaggerating, but one thing you can't lie about is this heavy chunk of metal that can smash your skull in seconds."
+
+  STR_CUTLASS: "Cutlass"
+  STR_CUTLASS_UFOPEDIA: "A cool-looking saber once used by ancient bandits. Surprisingly still quite effective."
+
+  STR_GOLF_STICK: "Golf Club"
+  STR_GOLF_STICK_UFOPEDIA: "A golf club. A strange choice for melee combat, but no less effective."
+
+  STR_BATTO: "Baseball Bat"
+  STR_BATTO_UFOPEDIA: "In the old days it was used for a popular ball-hitting game. Now it's popular among thugs for cracking skulls — and does the job very well!"
+
+  STR_FIRE_AX: "Fire Axe"
+  STR_FIRE_AX_UFOPEDIA: "An axe for breaking down barriers or debris during fires."
+
+  STR_CARBONBLADE: "Carbon Blade"
+  STR_CARBONBLADE_UFOPEDIA: "A blade made of carbon fiber, currently popular among street thugs who want to become urban samurai."
+
+  STR_CYBER_SWORD: "Electro-Sword"
+  STR_CYBER_SWORD_UFOPEDIA: "A popular model of electro-sword powered by a small elerium battery. Cuts through armor like butter."
+
+  STR_HAMMER: "Sledgehammer"
+  STR_HAMMER_UFOPEDIA: "If something is in your way — smash it to fucking pieces."
+
+  STR_CYBER_KATANA: "Electro Katana"
+  STR_CYBER_KATANA_BUY: "Purchase Electro-Sword"
+  STR_CYBER_KATANA_UFOPEDIA: "A high-tech katana produced in Neo Japan. Excellent at cutting through armor."
+
+  STR_SUPER_HAMMER: "Super Sledgehammer"
+  STR_SUPER_HAMMER_UFOPEDIA: "A heavy beast with a pneumatic booster. Mostly used as a tool in everyday work."
+
+  STR_CHAINSAW: "Chainsaw"
+  STR_CHAINSAW_UFOPEDIA: "An old tool for cutting wood."
+
+# WEAPONS - PISTOLS
+  STR_LIBIRATOR_JUNK: "Junk Pistol"
+  STR_LIBIRATOR_JUNK_UFOPEDIA: "A pistol slapped together in the Wastes from whatever scrap was lying around (as is usual out there). The assembly is so terrible you can barely hit anything with it. Its only advantages are compactness and small size. Perfect for undercover missions."
+
+  STR_10MM_TRIPLE_CLIP: "10mm / AP Ammo"
+  STR_CIV_PISTOL_LT: "Pocket Pistol"
+  STR_PISTOL_LT_CLIP: "Pocket Pistol Mag"
+  STR_PISTOL_LT_CLIP_SLAYER: "Pocket Pistol Mag / Slayer"
+  STR_SMG_LINDA: "Linda SMG"
+  STR_SMG_LINDA_UFOPEDIA: "Civilian model submachine gun that uses 9mm magazines."
+
+  STR_CIV_PISTOL_LT_UFOPEDIA: "A successful attempt by MiliTech to conquer the civilian market. This small 'UTF-57' pistol fits in a pocket and is very easy to use. For those with a taste for violence, it also supports high-power ammunition with a smaller magazine."
+
+  STR_CIV_PISTOL_HW: "Heavy Shortbarrel"
+  STR_PISTOL_HW_CLIP: "Heavy Shortbarrel Mag"
+  STR_CIV_PISTOL_HW_UFOPEDIA: "The design of this mini-pistol allows the use of heavier ammunition, although it is slightly slower."
+
+  STR_MILITECH_PISTOL_HP93S: "MiliTech P93S Pistol"
+  STR_MILITECH_PISTOL_HP93S_CLIP: "MiliTech P93S Mag"
+  STR_MILITECH_PISTOL_HP93S_UFOPEDIA: "If you need a reliable, no-nonsense pistol without fancy gadgets, MiliTech has exactly what you want! This trustworthy sidearm is used by almost everyone living in the megacities and is considered the 'golden middle' among pistols."
+
+  STR_COLT_KJ58S: "Colt KJ58S"
+  STR_COLT_KJ58S_CLIP: "KJ58S Mag"
+  STR_COLT_KJ58S_UFOPEDIA: "The newly reorganized Colt company, together with the US government, proudly presents its new KJ-58-S pistol. The noticeable power of this weapon makes it excellent for neutralizing better-armored opponents."
+
+  STR_CHEAP_3DPISTOL: "Slaught-O-Matic"
+  STR_CHEAP_3DPISTOL_UFOPEDIA: "No cash for a proper gun? This cheap disposable pistol fits anyone's budget in the social pyramid! 3D-printed from plastic, this piece of junk tends to jam, break, and fall apart right in your hands. Don't even think about its stopping power. Cannot be reloaded."
+
+  STR_BANDIT_REVOLVER: "Bandit Revolver"
+  STR_BANDIT_REVOLVER_AMMO: "Bandit Revolver Cylinder"
+  STR_BANDIT_REVOLVER_UFOPEDIA: "Despite its respectable age, this revolver is still powerful. However, its cylinder mechanism makes reloading slow and tedious."
+
+  STR_PISTOL_10MM: "Bandit Pistol"
+  STR_PISTOL_10MM_MAG: "Bandit Pistol Mag"
+  STR_PISTOL_10MM_MAG_AA: "Bandit Pistol Mag / AP"
+  STR_PISTOL_10MM_UFOPEDIA: "A vicious-looking semi-automatic pistol assembled in the back alleys of the Wastes. Despite its origin, it is well-made and offers impressive accuracy and stopping power."
+
+  STR_D_EAGLE: "Freedom Eagle Pistol"
+  STR_D_EAGLE_CLIP: "Freedom Eagle Mag"
+  STR_D_EAGLE_UFOPEDIA: "American classic and a true rarity! Designed in Israel, this pistol — despite its heavy pop-culture fame — is damn impractical and uncomfortable. Still, some collectors and security company bosses are willing to pay big money to own one."
+
+  STR_SCOPED_MAGNUM: "Scoped Magnum"
+  STR_SCOPED_MAGNUM_DRUM: "Scoped Magnum Speedloader"
+  STR_SCOPED_MAGNUM_UFOPEDIA: "A heavy revolver with a simple collimator sight. The caliber is powerful enough to punch through basic armor, though ammo capacity is pretty poor. Comes with a convenient 5-round speedloader."
+
+  STR_MAGNUM: "Colt Python"
+  STR_MAGNUM_UFOPEDIA: "A living classic. This standard revolver was made long before the alien invasion. Despite its age, it is elegantly built and possesses lethal stopping power."
+
+  STR_COLT45: "Colt .45"
+  STR_COLT45_CLIP: "Colt Mag"
+  STR_COLT45_CLIP_AA: "Colt Mag / AP"
+  STR_COLT45_CLIP_EXT: "Extended Colt Mag"
+  STR_COLT45_CLIP_AA_EXT: "Extended Colt Mag / AP"
+  STR_COLT45_UFOPEDIA: "An elegant weapon from a more civilized age. This reliable pistol is a favorite personal sidearm among smugglers. Accurate, powerful, and simple to handle."
+
+  STR_REBEL_COLT45: "Advanced Colt .45"
+  STR_REBEL_COLT45_UFOPEDIA: "Manufactured by the Rebels, this modified M1911 can fire in full-auto thanks to its improved design."
+
+  STR_HB_GAUSS_PISTOL: "Gauss Pistol"
+  STR_HB_GAUSS_PISTOL_CLIP: "Gauss Pistol Mag"
+  STR_HB_GAUSS_PISTOL_UFOPEDIA: "Pre-war model gauss pistol."
+
+  STR_AUTO9_PISTOL: "Predator Pistol"
+  STR_AUTO9_PISTOL_UFOPEDIA: "Police issue pistol. Please return to the nearest Megapol office."
+  STR_AUTO9_PISTOL_CLIP: "Predator Mag"
+
+  STR_LASER_PISTOL_MIB: "Laser Pistol"
+  STR_LASER_PISTOL_MIB_UFOPEDIA: "Popular model of laser weapon."
+  STR_LASER_PISTOL_MIB_CLIP: "Laser Pistol Battery"
+  STR_LASER_PISTOL_MIB_CLIP_HI: "Laser Pistol Battery / PRO"
+
+# WEAPONS - RIFLES
   STR_G11: "G11"
   STR_G11E: "G11E"
   STR_G11_CLIP: "G11 Magazine"
-  STR_G11_UFOPEDIA: "This pre-war submachine gun was developed in the 20th century. Even though these guns are old and pain-in-the-ass to maintain, they are still popular among some experienced chief security officers around the world."
-  STR_G11E_UFOPEDIA: "This advanced version of G11 is equipped with an automatic stabilazer, a balistic computer and an optronic scope. In short - aim faster and worry less about the recoil!"
-  STR_BANDIT_REVOLVER: "Bandit Revolver"
-  STR_BANDIT_REVOLVER_AMMO: "Bandit Revolver Drum"
-  STR_BANDIT_REVOLVER_UFOPEDIA: "Despite its age, this revolver works almost perfectly."
-  STR_LUGER: "Luger"
-  STR_LUGER_CLIP: "Luger Clip"
-  STR_LUGER_UFOPEDIA: "An old pistol that uses a weird firing mechanism."
-  STR_BURST: "Small Burst"
+  STR_G11_UFOPEDIA: "Pre-war rifle. Its complex mechanism and expensive ammunition made it unpopular in the 20th century. Today it is highly valued by experienced fighters."
+  STR_G11E_UFOPEDIA: "Advanced G11 version equipped with automatic stabilizer, ballistic computer, and optronic sight. In short — aim faster and worry less about recoil! Unfortunately, this variant is quite rare and was probably custom-made."
+
+  STR_JUNKY_SAWED_OFF: "Junk Sawed-Off"
+  STR_JUNKY_SAWED_OFF_UFOPEDIA: "Double-barrel shotgun widely used by Wastelanders. Cheap, low-quality parts were used in its construction. The creator clearly didn't care."
+
+  STR_DOUBLE_BARRELED_BUCKSHOT: "Buckshot (.8g)"
+  STR_DOUBLE_BARRELED_BUCKSHOT_SLUG: "Slug (.6g)"
+
   STR_TEC9: "Ghetto SMG"
-  STR_TEC9_CLIP: "9mm SMG clip"
-  STR_TEC9_UFOPEDIA: "A rusty submachine gun, uses 9x19 millimeter ammunition. Popular, as its name suggests, among ghetto residents."
-  STR_RIFLE_M16: "Scavenger rifle"
-  STR_RIFLE_M16_CLIP: "Rifle M16 Clip"
-  STR_RIFLE_M16_UFOPEDIA: "A shoddy rifle, used mostly by Wastelanders."
-  STR_HUNTING_RIFLE_CLIP: "Rifle Ammo"
-  STR_HUNTING_RIFLE: "Old Hunting Rifle"
-  STR_HUNTING_RIFLE_UFOPEDIA: "A bolt-action rifle. Accurate at long ranges, but it requires skill and patience in order to master this gun properly."
+  STR_TEC9_CLIP: "9mm SMG Mag"
+  STR_TEC9_UFOPEDIA: "Rusty 9x19mm submachine gun. Popular, as the name suggests, among ghetto residents."
+
+  STR_OLD_RIFLE_M16: "Scavenger Rifle"
+  STR_RIFLE_M16_CLIP: "M16 Mag"
+  STR_OLD_RIFLE_M16_UFOPEDIA: "The only advantage of this poorly assembled rifle is the lack of an electronic trigger lock. Otherwise it is inferior even to civilian models."
+
+  STR_HUNTING_RIFLE_CLIP: "Hunting Rifle Clip"
+  STR_OLD_HUNTING_RIFLE: "Hunting Rifle"
+  STR_OLD_HUNTING_RIFLE_UFOPEDIA: "Slightly worn but very simple and reliable rifle. Requires patience from the shooter, but the results are worth it."
+
   STR_OLD_SHOTGUN: "Old Shotgun"
-  STR_OLD_SHOTGUN_SHELLS_SLUG: "Shells/AP"
-  STR_OLD_SHOTGUN_SHELLS: "Shells"
+  STR_OLD_SHOTGUN_SHELLS_SLUG: "Heavy Shotgun Slug / AP"
+  STR_OLD_SHOTGUN_SHELLS: "Heavy Shotgun Shells"
   STR_OLD_SHOTGUN_UFOPEDIA: "This shotgun has definitely seen better days."
-  STR_PIPEBOMB: "Pipe bomb"
-  STR_PIPEBOMB_UFOPEDIA: "This bomb was made from scrap materials that can barely be found in the Wastes. Used mainly by raiders and rebels."
+
   STR_PS94: "PS94"
-  STR_PS94_UFOPEDIA: "A small disposable device that you can easily put in your pocket. It releases a small plasma projectile but has a limited range. Despite the inconvenience and high price, this thing is very popular among ordinary citizens."
+  STR_PS94_UFOPEDIA: "A two-shot device that easily fits in a pocket. Fires a small plasma charge but has very limited range."
+
   STR_LASER_CIVIPHASER: "Pocket Laser"
-  STR_LASER_CIVIPHASER_UFOPEDIA: "Portable laser weapons made for civilian use, commonly called a 'phaser'. Has unlimited ammunition, but the inflicted damage is not very impressive. Suitable for scaring away punks or small mutants."
-  STR_BLACKOPS_COMPACT: "BlackOps Compact"
-  STR_BLACKOPS_COMMANDO: "BlaclOps Commando"
-  STR_BLACKOPS_COMMANDO_UFOPEDIA: "The design of this powerful gun was borrowed from the pre-war Desert Eagle pistol. Despite BlackOps' best efforts to eliminate the flaws of its predecessor, the gun still has a high recoil and a low capacity magazine. Nevertheless, that gun still works great in the hands of seasoned marines."
-  STR_BLACKOPS_SHOTGUN: "BlackOps Shotgun"
-  STR_BLACKOPS_SHOTGUN_UFOPEDIA: "This type of shotgun has a slightly fast rate of fire than its pump-action brethren."
-  STR_MAGNUM: "Colt Python"
-  STR_MAGNUM_UFOPEDIA: "A classic. This is a rare revolver that was manufactured long before Alien invasion. Despite its venerable age, this elegantly-assembled revolver has good lethal power."
-  STR_COLT45: "Colt .45"
-  STR_COLT45_UFOPEDIA: "This reliable pistol is a favorite personal weapon among smugglers. Precise, powerful and easy to handle."
-  STR_REBEL_COLT45: "Modified Colt .45"
-  STR_RIFLE_M16_SCARFACE: "Modified M16"
-  STR_RIFLE_M16_SCARFACE_UFOPEDIA: "A smuggler's little friend. Despite the smugglers' bias towards alien technology, this gun is equipped with sensors and optronic sights. The plasteel construction increases rate of fire, and the underbarrel grenade launcher is an excellent addition for delicate situations."
-  STR_REBEL_COLT45_UFOPEDIA: "Manufactured by the Resistance, this modified version of the M1911, with built-in laser sights, can fire in automatic mode due to its improved constitution."
-  STR_SMG_LINDA: "SMG Linda"
-  STR_SMG_LINDA_UFOPEDIA: "Civilian SMG, uses Glock's mags."
-  STR_SCOPED_HUNTING_RIFLE: "Scope Rifle"
-  STR_SCOPED_HUNTING_RIFLE_UFOPEDIA: "This polished hunting rifle is now have a scope ! Beri cool !"
-  STR_PISTOL_10MM: "Bandit Pistol"
-  STR_PISTOL_10MM_UFOPEDIA: "Brutal-looking semi-automatic pistol assembled in the dingy corners of the Wasteland. Despite that, it suprsingly well assembled and has impressive accuracy and stopping ability."
-  STR_SMG_10MM: "Bandit SMG"
-  STR_SMG_10MM_UFOPEDIA: "Widely loved among the inhabitants of the wasteland is the 10mm Submachine Gun."
-  STR_SMG_10MM_CLIP: "Mag. 10mm SMG"
-  STR_SMG_10MM_CLIP_AA: "Mag. 10mm SMG/AA"
-  STR_OICW:  "OICW"
-  STR_OICW_UFOPEDIA: "Even before the World War III, this rifle considered overdesigned and expensive to manufacture. But high precision and built-in grenade launcher allow this rifle to be flexible at almost any military situation."
+  STR_LASER_CIVIPHASER_UFOPEDIA: "Portable laser weapon, commonly called a 'Phaser'. Has unlimited ammo but unimpressive damage. Good for scaring off thugs or small mutants."
 
-#Melee
-  STR_KNUCKLES: "Brass knuckles"
-  STR_KNUCKLES_UFOPEDIA: "Popular among thugs of all stripes street melee weapons. Fits in a pocket and smashes faces no worse than clubs. It requires a certain skill and strength."
-  STR_SHIV: "Shiv"
-  STR_SHIV_UFOPEDIA: "A small piece of metal sharpened to cause small but painful wounds."
-  STR_STUN_BATON: "Stun Baton"
-  STR_STUN_BATON_UFOPEDIA: "Even though we are a private mercenary organization, Magapol did authorize the use of such electric batons. The shock isn�t lethal, but it still causes some damage to the target�s health."
-  STR_COMBAT_KNIFE: "Combat Knife"
-  STR_COMBAT_KNIFE_UFOPEDIA: "A high quality steel knife for close range combat. Effective use requires strength and melee skill."
-  STR_KNIFE_BANDIT: "Bandit knife"
-  STR_KNIFE_BANDIT_UFOPEDIA: "This large knife is used by raiders and bandits. Requires determination to use it."
-  STR_STABKNIFE: "Punch dagger"
-  STR_STABKNIFE_UFOPEDIA: "This particular type of knife relies more on the strength of the wearer than on their skill."
-  STR_MACHETE: "Machete"
-  STR_MACHETE_UFOPEDIA: "A wide and long dagger, intended for cutting vegetation."
-  STR_PIPE: "Lead pipe"
-  STR_PIPE_UFOPEDIA: "A pice of lead that can be handy to bash someone if you don't have someting else around."
-  STR_CROWBAR: "Crowbar"
-  STR_CROWBAR_UFOPEDIA: "The weapon of choice of MIT graduates."
-  STR_WRENCH: "Wernch"
-  STR_WRENCH_UFOPEDIA: "Colonial Marines' tales say that once upon a time, with exactly the same wrench, a nameless soldier single-handedly wiped out hordes of mutants and malfunctioned cyborgs on board one of the mega starships. Of course, the soldiers can lie, but what you definitely can't lie about to is a solid piece of metal that can't crush your skull in no time. A wrench is strong and powerful with it."
-  STR_CUTLASS: "Cutlass"
-  STR_CUTLASS_UFOPEDIA: "Awaken an urge within you to became a pirate. YARRR!"
-  STR_FIRE_AX: "Fire axe"
-  STR_FIRE_AX_UFOPEDIA: "An Axe that used to destroy debris during fires."
-  STR_CARBONBLADE: "Carbon blade"
-  STR_CARBONBLADE_UFOPEDIA: "Nowadays, a blade made of carbon fibers is popular among punks who want to become street samurai."
-  STR_CYBER_SWORD: "Electro Blade"
-  STR_CYBER_SWORD_UFOPEDIA: "Popular model of yje blade powerd by small Elerium battery. Good cutting trough armour."
-  STR_HAMMER: "Sledgehammer"
-  STR_HAMMER_UFOPEDIA: "If something gets in your way, just take it to the fuck out."
-  STR_SUPER_HAMMER: "Super Sledge"
-  STR_SUPER_HAMMER_UFOPEDIA: "Heavy bandura, with pneumatic booster."
-  STR_GOLF_STICK: "Golf club"
-  STR_GOLF_STICK_UFOPEDIA: "This summer...{NEWLINE} Prepare to...{NEWLINE} ...GOLF!{NEWLINE}{NEWLINE}You gonna need a bigger club."
-  STR_BATTO: "Baseballl bat"
-  STR_BATTO_UFOPEDIA: "In former times it was used for the popular game of hitting the ball. Now popular among thugs for beating off skulls."
+  STR_BLACKOPS_COMPACT: "Syndicate Compact"
+  STR_BLACKOPS_COMPACT_CLIP: "Syndicate Compact Mag"
+  STR_BLACKOPS_COMPACT_CLIP_AA: "Syndicate Compact Mag / AP"
+  STR_BLACKOPS_COMPACT_UFOPEDIA: "Custom-made for Syndicate agents — this high-quality pistol is small enough to be perfect for undercover missions."
 
-#Pistols
-  STR_CIV_PISTOL_LT: "Pocket pistol"
-  STR_CIV_PISTOL_LT_UFOPEDIA: "MiliTek's successful attempt to conquer the civilian market. This small UTF-57 pistol fits in your pocket and is very easy to use. For exquisite violence appriciaters pistol supports lethal ammunition with a smaller magazine capacity."
-  STR_PISTOL_LT_CLIP: "Mag. Pocket pistol/LETH"
-  STR_PISTOL_LT_CLIP_SLAYER: "Mag. Pocket pistol"
-  STR_GLOCK_NEO: "Glock RTT76"
-  STR_GLOCK_NEO_CLIP: "Glock clip"
-  STR_GLOCK_NEO_LARGE_CLIP: "Large Glock clip"
-  STR_GLOCK_NEO_LARGE_DRUM: "Drum Glock clip"
-  STR_GLOCK_NEO_UFOPEDIA: "This Austrian pistol became a sensation in the world of civilian weapons after the end of the nuclear war. The low power is compensated by the rate of fire. Supports big. (33) and drum (50) magaz."
-  STR_MILITECH_PISTOL_HP93S: "MiliTech P93S"
-  STR_MILITECH_PISTOL_HP93S_CLIP: "MiliTech P93S clip"
-  STR_MILITECH_PISTOL_HP93S_UFOPEDIA: "If you need a trusty and reliable pistol without any fancy toys, then MiliTech Corp has exacly what you need! This pistol is used by almost everyone who lives within mega-cities, and is the �golden mean� among pistols."
-  STR_COLT_KJ58S: "Colt KJ58S"
-  STR_COLT_KJ58S_CLIP: "Colt KJ58S clip"
-  STR_COLT_KJ58S_UFOPEDIA: "The newly reorganized Colt Company, in conjunction with the US government, is proud to introduce its new pistol, the KJ-58-S model. The noticeable power of this barrel is perfect for neutralizing more heavily armored opponents."
-  STR_SCOPED_MAGNUM: "Scoped Revolver"
-  STR_SCOPED_MAGNUM_DRUM: "Speedloader \ Scoped Revolver"
-  STR_SCOPED_MAGNUM_UFOPEDIA: "A hefty revolver, with a simple kalimatron sight. The caliber is very well known to penetrate simple types of armor, although the size of the ammunition is pretty shitty. The cartridges fit together with a convenient speedloader for 5 cartridges. How convenient!"
-  
-  STR_CHEAP_3DPISTOL: "Slaught-o-matic"
-  STR_CHEAP_3DPISTOL_UFOPEDIA: "Not enough green for a normal gun? This cheap-ass disposable pistol is available for every member of the social pyramid! 3D printed, this piece of plastic tends to jam, break and fall apart in the owner's hands. Don't even ask about the power of this fart. Cannot be reloaded."
+  STR_PISTOL: "BlackOps Pistol"
+  STR_PISTOL_UFOPEDIA: "Standard 10mm pistol from BlackOps. Equipped with a laser sight."
+
+  STR_SMART_PISTOL: "BlackOps Smart Pistol"
+  STR_SMART_PISTOL_UFOPEDIA: "The built-in electronics allow faster aiming and semi-automatic fire."
+
+  STR_BLACKOPS_COMMANDO: "BlackOps Commando"
+  STR_BLACKOPS_COMMANDO_CLIP: "BlackOps Commando Mag"
+  STR_BLACKOPS_COMMANDO_CLIP_AA: "BlackOps Commando Mag / AP"
+  STR_BLACKOPS_COMMANDO_UFOPEDIA: "This powerful pistol borrows its design from the pre-war Desert Eagle. Despite BlackOps' efforts to fix its flaws, it still has heavy recoil and low magazine capacity. Still looks badass in the hands of veteran marines."
+
+  STR_BLACKOPS_MAGNUM: "BlackOps Magnum"
+  STR_MAGNUM_ROUNDS: "Magnum Speedloader"
+  STR_MAGNUM_ROUNDS_AA: "Magnum Speedloader / AP"
+  STR_BLACKOPS_MAGNUM_UFOPEDIA: "This revolver variant comes with a built-in laser sight and primitive stabilizer."
+
+  STR_RIFLE: "BlackOps Rifle"
+  STR_RIFLE_UFOPEDIA: "Rumored to be similar to the rifle used by X-Com operatives during the alien invasion. Whether that's true or just clever marketing is up to you — but the rifle performs well at medium and long range."
+
+  STR_BLACKOPS_SHORTRIFLE: "BlackOps Carbine"
+  STR_BLACKOPS_SHORTRIFLE_UFOPEDIA: "A mix of carbine and rifle. Uses the same ammo as the standard BlackOps rifle, but long-range accuracy leaves much to be desired."
+
+  STR_RIFLE_CLIP_AA: "Rifle Magazine / AP"
+
+  STR_BLACKOPS_ADV_SMG: "Advanced BlackOps SMG"
+  STR_BLACKOPS_ADV_SMG_CLIP: "BlackOps SMG Mag"
+  STR_BLACKOPS_ADV_SMG_AA_CLIP: "BlackOps SMG Mag / AP"
+  STR_BLACKOPS_ADV_SMG_UFOPEDIA: "Compact, excellent close-range fire rate, and sensor suite for improved accuracy. What more could you want?"
+
+  STR_BO_LMG: "BlackOps Light Machine Gun"
+  STR_BO_LMG_CLIP: "BlackOps LMG Drum"
+  STR_BO_LMG_CLIP_AP: "BlackOps LMG Drum / AP"
+  STR_BO_LMG_CLIP_AA: "BlackOps LMG Drum / AP"
+  STR_BO_LMG_UFOPEDIA: "Heavy version of the BlackOps rifle. Equipped with a bipod and primitive stabilizer — ideal for suppressive fire."
+
+  STR_BO_SNIPER_RIFLE: "BlackOps Sniper Rifle"
+  STR_BO_SNIPER_RIFLE_CLIP: "BlackOps Sniper Mag"
+  STR_BO_SNIPER_RIFLE_CLIP_AP: "BlackOps Sniper Mag / AP"
+  STR_BO_SNIPER_RIFLE_CLIP_AA: "BlackOps Sniper Mag / AP"
+  STR_BO_SNIPER_RIFLE_UFOPEDIA: "A well-balanced sniper rifle. Accurate and relatively powerful at long range."
+
+  STR_BO_HEAVY_SNIPER_RIFLE: "Heavy Sniper Rifle"
+  STR_BO_HEAVY_SNIPER_RIFLE_CLIP: "Heavy BlackOps Sniper Mag"
+  STR_BO_HEAVY_SNIPER_RIFLE_CLIP_AP: "Heavy BlackOps Sniper Mag / AP"
+  STR_BO_HEAVY_SNIPER_RIFLE_CLIP_AA: "Heavy BlackOps Sniper Mag / AP"
+  STR_BO_HEAVY_SNIPER_RIFLE_UFOPEDIA: "Used by elite Syndicate units, this large-caliber sniper rifle is packed with expensive electronics to assist the shooter."
+
+  STR_RIFLE_M16: "M16 Rifle"
+  STR_RIFLE_M16_UFOPEDIA: "Used by militaries worldwide before the war. Now it's outdated and more of a collector's item than a service rifle."
+
+  STR_RIFLE_VHS: "VHS Rifle"
+  STR_RIFLE_VHS_UFOPEDIA: "French bullpup rifle."
+
+  STR_RIFLE_M16_SCARFACE: "Advanced Scarface M16"
+  STR_RIFLE_M16_SCARFACE_UFOPEDIA: "Smugglers' little friend. Despite their usual distrust of alien tech, this gun is equipped with sensors and an optronic sight. Plastisteel construction increases fire rate, and the underbarrel grenade launcher is perfect for delicate situations."
+
+  STR_RIFLE_GL_M16: "M16 Underbarrel Grenade Launcher"
+  STR_RIFLE_GL_M16_UFOPEDIA: "Underbarrel grenade launcher from the smuggler rifle. Uses standard 40mm grenades."
+
+  STR_SMARTRIFLE: "Smart Rifle"
+  STR_SMARTRIFLE_UFOPEDIA: "This magnificent rifle has a built-in optronic computer and homing module that assists with aiming. High fire rate dramatically increases its lethality."
+  STR_SMARTRIFLE_CLIP: "Smart Rifle Mag"
+  STR_SMARTRIFLE_CLIP_AA: "Smart Rifle Mag / AP"
+
+  STR_FLARE_PISTOL: "Flare Pistol"
+  STR_FLARE_PISTOL_UFOPEDIA: "Simple single-shot pistol. Fires signal flares for distress calls… OR for illuminating and igniting the area. Hard to believe that after almost 300 years the design has barely changed."
+  STR_FLARE_PISTOL_CLIP: "Flare Pistol Rocket"
+  STR_FLARE_PISTOL_SUPER_CLIP: "Heavy Flare Pistol Rocket"
+
   STR_TASER: "Taser"
-  STR_TASER_CLIP: "Taser cartridge"
-  STR_TASER_SUPER_CLIP: "Taser mega cartridge"
-  STR_TASER_UFOPEDIA: "A non-lethal device capable of cutting off a poorly armored thug."
-#SumMachineguns
+  STR_TASER_CLIP: "Taser Cartridge"
+  STR_TASER_SUPER_CLIP: "Ultra Taser Cartridge"
+  STR_TASER_UFOPEDIA: "Non-lethal device capable of disabling lightly armored thugs."
+
+  STR_SCOPED_HUNTING_RIFLE: "Scoped Hunting Rifle"
+  STR_SCOPED_HUNTING_RIFLE_UFOPEDIA: "Polished hunting rifle with a quality optical scope."
+
+  STR_COWRIFLE: "Lever-Action Rifle"
+  STR_COWRIFLE_UFOPEDIA: "Quite an interesting rifle for the Wastes. Features a tubular magazine. A skilled and quick shooter can empty almost the entire magazine in one burst!"
+  STR_COWRIFLE_AMMO: "Lever-Action Rifle Ammo"
+  STR_COWRIFLE_AMMO_AA: "Lever-Action Rifle Ammo / AP"
+
+  STR_OICW: "OICW Rifle"
+  STR_OICW_UFOPEDIA: "Even before World War III, this rifle's design was too complex for mass production. However, its high accuracy and integrated grenade launcher make it versatile in almost any combat situation."
+
+# WEAPONS - SMGs
+  STR_MICRO_UZI: "Uzi"
+  STR_UZI_CLIP: "Uzi Mag"
+  STR_MICRO_UZI_UFOPEDIA: "This weapon was a real hit among submachine guns in pre-war times. The stock allows the shooter to fire accurately."
+
+  STR_SMG_10MM: "Bandit SMG"
+  STR_SMG_10MM_UFOPEDIA: "A widely loved 10mm submachine gun among Wastelanders. Heavy, but reasonably practical."
+  STR_SMG_10MM_CLIP: "10mm SMG Mag"
+  STR_SMG_10MM_CLIP_AA: "10mm SMG Mag / AP"
+
+  STR_FN_P90_NEO: "P90 Neo"
+  STR_FN_P90_NEO_CLIP: "P90 Mag"
+  STR_FN_P90_NEO_UFOPEDIA: "Submachine gun. Very cute."
+
   STR_MAC12: "MAC12 & C.E.S."
-  STR_MAC12_UFOPEDIA: "MAC12 Submachine Gun with illegal attachment (Calculating Enhance System) provieds shooter with better fire control during long bursts. The powerfull .45 caliber is a small chery on top, but the range of this thing is leaving much to be desired."
-  STR_MAC12_CLIP: "MAC12 Clip"
-  STR_MAC12_AP_CLIP: "MAC12 Clip/AP"
-#Shotguns
-  STR_SMALL_SHOTGUN: "Small Shotgun"
-  STR_SMALL_SHOTGUN_SHELLS: "Birdshot"
-  STR_SMALL_SHOTGUN_SHELLS_SLUG: "Birdshot (Slug)"
-  STR_SMALL_SHOTGUN_UFOPEDIA: "Compact pump-action shotgun manufactured by Ryder Arms Corporation. Its firing range is not so great, but it can be hidden under clothes."
-  STR_DOMESTIC_SHOTGUN: "Domestic shotgun"
-  STR_DOMESTIC_SHOTGUN_UFOPEDIA: "A simple pump-action shotgun for civilian use. The only advantage of this piece of scrap metal is its somewhat decent firing range. Uses birdshot."
-  STR_JUNKY_SAWED_OFF_UFOPEDIA: "Shoddy double barreled shotgun, widely used by Wastelanders. The assembly of this decrepit gun uses low quality parts, but it doesn't seem to bother the creator."
-  STR_JUNKY_SAWED_OFF: "Cheap Sawed-Off"
-  STR_DOUBLE_BARRELED_BUCKSHOT: "8. Buckshot"
-  STR_SHOTGUN: "Shotgun"
-  STR_SHOTGUN_UFOPEDIA: "A standard pump-action shotgun manufactured by �Ryder Arms�."
-  STR_DEBUGUN: "DebuGun"
-  STR_DEBUGUN_CLIP: "DebuGun Clip"
-  STR_DEBUGUN_UFOPEDIA: "An excellent choice for defending your diner from mutants, bandits and pizza monsters. {NEWLINE} {NEWLINE} {NEWLINE} If you reading this, you probably a cheater, or a dev xoxo... "
-  STR_SHOTGUN_STREETCLEANER: "Street cleaner Shotgun"
-  STR_STREETCLEANER_CLIP1: "Street cleaner mag."
-  STR_STREETCLEANER_CLIP2: "Street cleaner mag./AA"
-  STR_STREETCLEANER_UFOPEDIA: "Combat shotgun. Fast and perfect for crampted spaces." 
-  STR_AUTOSHOTGUN1: "Combat Shotgun"
-  STR_AUTOSHOTGUN1_UFOPEDIA: "Cool Auto Shotty !"
-  STR_AUTOSHOTGUN1_CLIP1: "Combat Shotgun Drum"
-  STR_AUTOSHOTGUN1_CLIP2: "Combat Shotgun Drum/Slug"
-  STR_CRUSHER_SHOTGUN: "Crusher Shotgun"
-  STR_CRUSHER_SHOTGUN_CLIP1: "Crusher mag/Buck"
-  STR_CRUSHER_SHOTGUN_CLIP2: "Crusher mag/Slug"
-  STR_CRUSHER_SHOTGUN_UFOPEDIA: "A fashionable and stylish shotgun for dandies."
+  STR_MAC12_UFOPEDIA: "MAC12 submachine gun with an illegal modification (Calculating Enhance System) that gives the shooter much better control during long bursts. The powerful .45 caliber is the cherry on top, though the effective range leaves a lot to be desired."
+  STR_MAC12_CLIP: "MAC12 Magazine"
+  STR_MAC12_AP_CLIP: "MAC12 Magazine / AP"
 
-#Rifle
+  STR_MILITECH_SMG: "MiliTech SMG"
+  STR_MILITECH_SMG_CLIP: "MiliTech SMG Mag"
+  STR_MILITECH_SMG_AA_CLIP: "MiliTech SMG Mag / AP"
+  STR_MILITECH_SMG_UFOPEDIA: "MiliTech submachine gun. Good armor penetration. Deadly in the hands of an experienced operative."
+
+  STR_SMG_SMARTLOCK: "Smartlock SMG"
+  STR_SMG_SMARTLOCK_UFOPEDIA: "An SMG packed with optronics and a specially tuned AI to assist with shooting — even for complete amateurs. The downside is that it fires small-caliber 9x19mm rounds, which reduces its lethality."
+  STR_SMG_SMARTLOCK_CLIP: "Smartlock Magazine"
+  STR_SMG_SMARTLOCK_CLIP_EMP: "Smartlock Magazine / EMP"
+
+# WEAPONS - RIFLES
   STR_RIFLE_AK: "Kalashnikov"
-  STR_RIFLE_AK_UFOPEDIA: "This rusty machine gun, glued together with snot, still hits hard, although not accurately."
-  STR_RIFLE_AK_CLIP: "AK Clip"
-  STR_M52S_AJAX_RIFLE: "AJAX Rifle"
-  STR_M52S_AJAX_RIFLE_CLIP: "AJAX Rifle clip" 
-  STR_M52S_AJAX_RIFLE_UFOPEDIA: "Sleek assault rifle M52S-AJAX, popular with military forces and private police forces around the globe. Smooth trigger and red dot sight provide near perfect fire control."
-  STR_BATTLE_RIFLE: "Military autorifle"
-  STR_BATTLE_RIFLE_CLIP: "Autorifle mag"
-  STR_BATTLE_RIFLE_CLIP_AP: "Autorifle mag/AP"
-  STR_BATTLE_RIFLE_CLIP_PS: "Autorifle mag/PS"
-  STR_BATTLE_RIFLE_UFOPEDIA: "A best friend of any colonial Marine of the rimworlds, this heavy military-grade rifle has been handed to billions of colonists around the galaxy. Accuracy when firing in bursts is very poor, but snapshots is accurate for its class."
-  STR_BANDIT_RIFLE: "Bandit rifle"
-  STR_BANDIT_RIFLE_UFOPEDIA: "Well built rifle, ideal for caravan robbery."
-  STR_LAS_RIFLE_SCAV: "Scav las rifle"
-  STR_LAS_RIFLE_SCAV_UFOPEDIA: "A primitive laser rifle made by the junkers of the Wastelands. Powered by a small nuclear battery capable of firing 8 shots."
-  STR_LAS_RIFLE_SCAV_ADV: "Scav las rifle modded"  
-  STR_LAS_RIFLE_SCAV_ADV_UFOPEDIA: "An advanced scavenger lasgun with super cool mods."
-  STR_LAS_RIFLE_SCAV_CLIP: "Scav las rifle Cell"
-  STR_LAS_RIFLE_SCAV_SUPER_CLIP: "Scav las rifle Super Cell"
-#Sniper Rifles
-  STR_PIPERIFLE: "Piperifle"
-  STR_PIPERIFLE_UFOPEDIA: "This wreck shoots armor-piercing rounds, which is surprisingly considering how accurate it is."
-  STR_COWRIFLE: "Lever Rifle"
-  STR_COWRIFLE_UFOPEDIA: "A very interesting, for a Wasteland, rifle with a tubular underbarrel magazine. An experienced and fast shooter, can empty almost the entire mag in one go!"
-  STR_COWRIFLE_AMMO: "Ammo Lever Rifle"
-  STR_COWRIFLE_AMMO_AA: "Ammo Lever Rifle/AA"
+  STR_RIFLE_AK_UFOPEDIA: "This rusty, barely-held-together assault rifle still hits hard, even if it isn't very accurate."
+  STR_RIFLE_AK_CLIP: "Assault Rifle Magazine"
+
+  STR_M52S_AJAX_RIFLE: "M52S-AJAX Rifle"
+  STR_M52S_AJAX_RIFLE_CLIP: "M52S-AJAX Mag"
+  STR_M52S_AJAX_RIFLE_UFOPEDIA: "An elegant assault rifle popular among armed forces and private police units worldwide. Smooth trigger and collimator sight provide nearly perfect fire control."
+
+  STR_BATTLE_RIFLE: "Battle Rifle"
+  STR_BATTLE_RIFLE_CLIP: "Battle Rifle Mag"
+  STR_BATTLE_RIFLE_CLIP_AP: "Battle Rifle Mag / AP"
+  STR_BATTLE_RIFLE_CLIP_PS: "Battle Rifle Mag / PS"
+  STR_BATTLE_RIFLE_UFOPEDIA: "The trusted friend of frontier marines, this heavy military-grade rifle has spread into the hands of billions of colonists. Burst fire accuracy is terrible, but single shots are quite precise for its class."
+
+  STR_BANDIT_RIFLE: "Bandit Rifle"
+  STR_BANDIT_RIFLE_UFOPEDIA: "A well-made rifle, perfect for raiding caravans."
+  STR_BANDIT_RIFLE_CLIP: "Bandit Rifle Mag"
+  STR_BANDIT_RIFLE_CLIP_AP: "Bandit Rifle Mag / AP"
+
+  STR_LAS_RIFLE_SCAV: "Scavenger Lasgun"
+  STR_LAS_RIFLE_SCAV_UFOPEDIA: "A primitive laser rifle assembled by Wasteland junkers. Powered by a small nuclear battery good for 8 shots."
+  STR_LAS_RIFLE_SCAV_ADV: "Advanced Scavenger Lasgun"
+  STR_LAS_RIFLE_SCAV_ADV_UFOPEDIA: "Upgraded Scavenger lasgun with fancy features."
+  STR_LAS_RIFLE_SCAV_CLIP: "Scavenger Lasgun Battery"
+  STR_LAS_RIFLE_SCAV_SUPER_CLIP: "Super Scavenger Lasgun Battery"
+
+  STR_MIL_PLASMA_RIFLE: "Nova Plasma Rifle"
+  STR_MIL_PLASMA_RIFLE_UFOPEDIA: "Military-grade plasma rifle. Based on alien designs but in an extremely simplified form. Rate of fire and range have noticeably decreased."
+  STR_MIL_PLASMA_RIFLE_CLIP: "Nova Battery"
+
+# WEAPONS - SNIPER RIFLES
+  STR_PIPERIFLE: "Pipe Rifle"
+  STR_PIPERIFLE_UFOPEDIA: "This piece of junk fires armor-piercing rounds and, surprisingly, is quite accurate."
+
+  STR_SNIPER_RIFLE_LT: "Light Sniper Rifle"
+  STR_SNIPER_RIFLE_LT_UFOPEDIA: "A lightweight sniper rifle with a 7-round magazine. Easy to handle — just keep your distance. Used by military police during riots."
+  STR_SNIPER_RIFLE_LT_CLIP: "Light Sniper Mag"
+
   STR_MSR770: "MSR-770 Rifle"
-  STR_MSR770_CLIP: "Clip. MSR-770"
-  STR_MSR770_BIG_CLIP: "Big Clip. MSR-770"
-  STR_MSR770_UFOPEDIA: "Signature weapon of the Russian Air Force. Based on the Russian SKS, this rifle has a polymer frame, plasteel parts and has a fashionable and sophisticated optronic sight! Large clips reduce accuracy by 20% (Clip frame covers the sight. What kind of moron came up with the idea of putting the magazine ON TOP, between the sight?!)."  
+  STR_MSR770_CLIP: "MSR-770 Mag"
+  STR_MSR770_BIG_CLIP: "Large MSR-770 Mag"
+  STR_MSR770_UFOPEDIA: "Signature weapon of the Russian Federation Air Force. Based on the Russian SKS, this rifle features a polymer frame with plastisteel parts and a fancy optronic sight. Large magazines reduce accuracy by 20% (because the magazine blocks the sight... what idiot put the magazine on top of the scope?!)."
 
-#HMG
-  STR_M60: "M60"
+  STR_ASSAULT_AUTO_SNIPER_RIFLE: "Smart Auto-Sniper"
+  STR_ASSAULT_AUTO_SNIPER_RIFLE_UFOPEDIA: "The pinnacle of our weapons engineering. Extremely accurate, has full-auto mode, and an integrated AI targeting system makes this weapon truly lethal. Damage and accuracy heavily depend on the shooter's skill and reflexes."
+  STR_ASSAULT_AUTO_SNIPER_RIFLE_CLIP: "Auto-Sniper Mag"
+  STR_ASSAULT_AUTO_SNIPER_RIFLE_PS_CLIP: "Auto-Sniper Mag / PS"
+
+  STR_NITRO_EXPRESS_BUY: "Purchase Nitro Express Rifle"
+  STR_NITRO_EXPRESS: "Nitro Express"
+  STR_NITRO_EXPRESS_UFOPEDIA: "Rifle chambered in .700 H&H Nitro Express. Usually used by Wasteland hunters to take down particularly thick mutants. Monstrous recoil."
+
+  STR_SNIPER_RIFLE: "Sniper Rifle"
+  STR_SNIPER_RIFLE_CLIP: "Sniper Rifle Mag"
+  STR_SNIPER_RIFLE_CLIP_AP: "Sniper Rifle Mag / AP"
+  STR_SNIPER_RIFLE_CLIP_PS: "Sniper Rifle Mag / PS"
+  STR_SNIPER_RIFLE_UFOPEDIA: "The perfect choice for long-range combat. However, it is not recommended to give this weapon to inexperienced operatives."
+
+  # WEAPONS - SHOTGUNS
+  STR_SMART_SAWNOFF: "Smart Sawed-Off"
+  STR_SMART_SAWNOFF_UFOPEDIA: "The result of our long and hard work in shotguns and electronics. A gyroscopic stabilizer combined with computerized internals makes it deadly at close range."
+
+  STR_SMART_SAWNOFF_STOCK: "Smart Sawed-Off (Stock)"
+  STR_SMART_SAWNOFF_STOCK_UFOPEDIA: "The added stock allows our mini-shotgun to shoot more accurately and at longer range, at the cost of a slight drop in rate of fire. Reloading takes a bit longer (12 TU)."
+
+  STR_SMALL_SHOTGUN: "Compact Shotgun"
+  STR_SMALL_SHOTGUN_SHELLS: "Small Shotgun Shells"
+  STR_SMALL_SHOTGUN_SHELLS_SLUG: "Small Slug"
+  STR_SMALL_SHOTGUN_UFOPEDIA: "A compact pump-action shotgun produced by Ryder Arms. Its range isn't great, but it can be easily concealed under clothing."
+
+  STR_DOMESTIC_SHOTGUN: "Civilian Shotgun"
+  STR_DOMESTIC_SHOTGUN_UFOPEDIA: "A simple civilian pump-action shotgun. The only real advantage of this piece of scrap metal is some{NEWLINE}decent range. Uses small buckshot and slugs."
+
+  STR_SHOTGUN: "Shotgun"
+  STR_SHOTGUN_UFOPEDIA: "Standard pump-action shotgun manufactured by Ryder Arms."
+
+  STR_CHROME_SHOTGUN: "Chrome Shotgun"
+  STR_CHROME_SHOTGUN_UFOPEDIA: "A skillfully assembled old-model pump-action shotgun."
+
+  STR_SHOTGUN_ACQUISITION: "Purchase: Shotgun"
+  STR_SCOPED_MAGNUM_ACQUISITION: "Purchase: Scoped Magnum"
+
+  STR_BLACKOPS_SHOTGUN: "BlackOps Shotgun"
+  STR_SHOTGUN_SHELLS: "Shotgun Shells"
+  STR_SHOTGUN_SHELLS_BS: "Shotgun Shells / AP"
+  STR_SHOTGUN_SHELLS_BATON: "Shotgun Shells / Rubber"
+  STR_SHOTGUN_SHELLS_ZAP: "Shotgun Shells / Shock"
+  STR_SHOTGUN_AA_SHELLS_BS: "Shotgun PS Shells / AP"
+  STR_SHOTGUN_AA_SHELLS: "Shotgun PS Shells"
+  STR_BLACKOPS_SHOTGUN_UFOPEDIA: "This shotgun variant has a slightly faster rate of fire than other pump-action models."
+
+  STR_BLACKOPS_SUPERSHOTGUN: "BlackOps Super Shotgun"
+  STR_BLACKOPS_SUPERSHOTGUN_UFOPEDIA: "One of the craziest shotguns around. The built-in magazine feeds shells to two barrels at once. The weapon is equipped with a full suite of electronic sensors and sights that improve rate of fire and effective range."
+
+  STR_BLACKOPS_TACTICOOL_SHOTGUN: "BlackOps Auto Shotgun"
+  STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM: "BlackOps Auto Shotgun Drum"
+  STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM_AA: "BlackOps Auto Shotgun Drum (PS)"
+  STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM_BIG: "Large BlackOps Auto Shotgun Drum"
+  STR_BLACKOPS_TACTICOOL_SHOTGUN_DRUM_BIG_AA: "Large BlackOps Auto Shotgun Drum (PS)"
+  STR_BLACKOPS_TACTICOOL_SHOTGUN_UFOPEDIA: "This shotgun is perfect for breaching enemy positions thanks to its full-auto mode. For prolonged fun it supports drum magazines."
+
+  STR_OGRE_SHOTGUN: "O.R.C. Shotgun"
+  STR_OGRE_SHOTGUN_SHELLS: "O.R.C. Shells"
+  STR_OGRE_SHOTGUN_UFOPEDIA: "A monstrously heavy double-barrel shotgun that fires devastating heavy buckshot."
+
+  STR_DEBUGUN: "Debug Gun"
+  STR_DEBUGUN_CLIP: "Debug Gun Ammo"
+  STR_DEBUGUN_UFOPEDIA: "An excellent choice when defending your small establishment from living pizza.{NEWLINE}{NEWLINE}{NEWLINE}If you're reading this, you're most likely a Developer... Or a cheater :^)"
+
+  STR_SHOTGUN_STREETCLEANER: "Street Cleaner Shotgun"
+  STR_STREETCLEANER_CLIP1: "Street Cleaner Shotgun Mag"
+  STR_STREETCLEANER_CLIP2: "Street Cleaner Shotgun Mag / TT"
+  STR_STREETCLEANER_UFOPEDIA: "Bullpup combat shotgun. Allows rapid burst fire."
+
+  STR_AUTOSHOTGUN1: "Boar Shotgun"
+  STR_AUTOSHOTGUN1_UFOPEDIA: "A heavy automatic bullpup shotgun."
+  STR_AUTOSHOTGUN1_CLIP1: "Boar Drum"
+  STR_AUTOSHOTGUN1_CLIP2: "Boar Drum / AP"
+
+  STR_OL_WINCHESTER: "Lever-Action Shotgun"
+  STR_OL_WINCHESTER_UFOPEDIA: "A true Wasteland classic! Popularized by pre-war cyborg movies, this lever-action shotgun has a fast rate of fire, though its range is limited."
+
+  STR_DOUBLE_BARRELE_SHOTGUN: "Double-Barreled Shotgun"
+  STR_DOUBLE_BARRELE_UFOPEDIA: "A primitive double-barrel shotgun with decent range."
+
+  STR_CRUSHER_SHOTGUN: "Crusher Shotgun"
+  STR_CRUSHER_SHOTGUN_CLIP1: "Crusher Mag / Buckshot"
+  STR_CRUSHER_SHOTGUN_CLIP2: "Crusher Mag / Slug"
+  STR_CRUSHER_SHOTGUN_UFOPEDIA: "Stylish, fashionable shotgun for posers."
+
+# WEAPONS - HMG
+  STR_M60: "M60 Machine Gun"
   STR_M60_CLIP_SMALL: "M60 Belt"
-  STR_M60_CLIP_BIG: "M60 Crate"
-  STR_M60_UFOPEDIA: "Ancient but well-assembled 7.62 mm machine gun. Not a bad for a fire support weapon, but in the XXIV century, morally outdated compared to similar weapon classes."
+  STR_M60_CLIP_BIG: "M60 Ammo Box"
+  STR_M60_UFOPEDIA: "An ancient but well-made 7.62mm machine gun. It was a solid support weapon until the 24th century, when it became outdated compared to newer models."
 
-#Flamethrowers
-  STR_FLAMETHROWER_DIY: "Makeshift flamethrower"
-  STR_FLAMETHROWER_DIY_UFOPEDIA: "A pipe here, a pipe there, a couple of screws, and from this pile of scrap metal you get a decent flamethrower."
-  STR_FLAMETHROWER: "Combat flamethrower"
-  STR_FLAMETHROWER_UFOPEDIA: "Heavy flamethrower intended for military use. It has a high rate of fire but limited range."
-  STR_FLAMETHROWER_CLIP: "Fuel bottle"
+  STR_SAW: "Assault Machine Gun"
+  STR_SAW_UFOPEDIA: "A rifle modified for situations where suppressive fire is needed."
+  STR_SAW_CLIP: "Assault MG Mag"
+  STR_SAW_CLIP_AP: "Assault MG Mag / AP"
 
-#HeavyGuns
+# WEAPONS - MINIGUNS
   STR_MINIGUN_1: "Assault Minigun"
-  STR_MINIGUN_1_AMMO: "Drum Assault Minigun"
-  STR_MINIGUN_1_UFOPEDIA: "A small minigun. Light enough to hold in your hands."
-  STR_MINIGUN_2: "Minigun"
-  STR_MINIGUN_2_AMMO: "Minigun box of ammo"
-  STR_MINIGUN_2_UFOPEDIA: "A large cannon with a rotating barrel block. Heavy and not very accurate, but it generously douses its target with lead. Damages armor."
+  STR_MINIGUN_1_AMMO: "Assault Minigun Drum"
+  STR_MINIGUN_1_UFOPEDIA: "A relatively compact minigun. Light enough to be fired from the hip."
 
-#Rocket Launchers
-  STR_GEP_GUN: "GEP Gun"
-  STR_GEP_GUN_UFOPEDIA: "Guided Explosive Projectile Launcher, or just a GEP Gun. This weapon can launch rockets with a simple, yet accurate trajectory (2 waypoints)."
+  STR_MINIGUN_2: "Heavy Minigun"
+  STR_MINIGUN_2_AMMO: "Minigun Ammo Box"
+  STR_MINIGUN_2_UFOPEDIA: "A big gun with a rotating barrel assembly. Heavy and not very accurate, but it generously showers a good portion of the battlefield with molten lead. Good against armor."
 
-#Nades
-  STR_MOLOTOV: "Molotov"
-  STR_MOLOTOV_UFOPEDIA: "Favorite coctail f anarchists and other pesky terrorists. Just light it and throw it!{NEWLINE}{NEWLINE}Range:20"
-  STR_GAS_GRENADE: "Gas Grenade"
-  STR_GAS_GRENADE_UFOPEDIA: "When detonated, a corrosive gas is released, which, when inhailed, causes mild poisoning and death. Better to have gas masks around against this shit."
-  STR_EMP_GRENADE: "EMP grenade"
-  STR_EMP_GRENADE_UFOPEDIA: "A small device that, when activated, emits a powerful electromagnetic pulse. Harmless for humans but devestaed for robots and mechs."
-  STR_NITRO_GRENADE: "Nitro Pack"
-  STR_NITRO_GRENADE_UFOPEDIA: "Small but very deadly explosive."
+  STR_GATLING_LASER: "Gatling Laser"
+  STR_GATLING_LASER_UFOPEDIA: "The name says it all. A heavy laser minigun powered by an endless turbo-nuclear energy source."
 
-                    ############# Support Shit #############
-#SemiGuns
-  STR_FLARE_PISTOL: "Flare Gun"
-  STR_FLARE_PISTOL_UFOPEDIA: "A simple self-propelled pistol. Fires flares to send distress signals... OR to illuminate and set the area on fire. It's hard to believe that even after almost 300 years, the design of this pistol has hardly changed."
-  STR_FLARE_PISTOL_CLIP: "Flare rocket"
-  STR_FLARE_PISTOL_SUPER_CLIP: "Super flare rocket"
-#Light
-  STR_FLASHLIGHT: "Flashlight"
-  STR_FLASHLIGHT_UFOPEDIA: "Device powered by small Elerium battery that allows illumination of the area around. Careful when you turn this thing on at night, cuz enemies can see and shoot you!"
-  STR_PAPER_FLARE: "Paper flare"
-  STR_PAPER_FLARE_UFOPEDIA: "Paper flare that can light area around for short period (3 turns), but after that became completely useless. Just open the cover and pull the pin away! {NEWLINE}{NEWLINE} WARNING: Cannot be turned off after activation."
-#Meds
-  STR_SMALL_MEDKIT: "Small Medkit"
-  STR_SMALL_MEDKIT_UFOPEDIA: "A small first aid kit with a basic set of medications for treating wounds on the battlefield. In order to use it, face the operative who needs treatment and use it."
+  STR_MINING_LASER: "Mining Laser"
+  STR_MINING_LASER_UFOPEDIA: "This beast is normally used by colonial miners to cut through hard rock."
+
+# WEAPONS - FLAMETHROWERS
+  STR_FLAMETHROWER_DIY: "DIY Flamethrower"
+  STR_FLAMETHROWER_DIY_UFOPEDIA: "A gun assembled from various pipes and scrap metal capable of spraying fire and flames."
+
+  STR_FLAMETHROWER: "Combat Flamethrower"
+  STR_FLAMETHROWER_UFOPEDIA: "Heavy military-grade flamethrower. High rate of fire but limited range."
+  STR_FLAMETHROWER_CLIP: "Fuel Canister"
+
+# WEAPONS - ROCKET LAUNCHERS
+  STR_SSRL: "OPTO"
+  STR_SSRL_UFOPEDIA: "Single-shot Anti-Tank Weapon. A disposable anti-tank grenade launcher. As the name suggests, it's excellent against armored vehicles."
+
+  STR_GEP_GUN: "URSA Launcher"
+  STR_GEP_GUN_UFOPEDIA: "Reusable Laser-Guided Rocket System, or simply URSA. This launcher can fire rockets along a primitive guided trajectory (maximum 2 waypoints)."
+
+  STR_GEP_GUN_ROCKET_1: "URSA Launcher Pack"
+  STR_GEP_GUN_ROCKET_2: "URSA Launcher Pack / Incendiary"
+
+  STR_M202_FLASH: "M202 Flash"
+  STR_M202_FLASH_PACK: "M202 Rockets"
+
+  STR_RPG: "RPG"
+  STR_RPG_UFOPEDIA: "Light rocket launcher that uses several types of rockets. High-explosive rockets have a large blast radius, while armor-piercing ones penetrate protected vehicles well, but have a smaller explosion radius."
+
+  STR_SMALL_ROCKET_RPG: "High-Explosive Rocket"
+  STR_SMALL_ROCKET_ADV: "Armor-Piercing Rocket"
+  STR_SMALL_ROCKET_FAE: "Incendiary Rocket"
+
+# WEAPONS - GRENADE LAUNCHERS
+  STR_GRENADE_LAUNCHER: "Old Grenade Launcher"
+  STR_GRENADE_LAUNCHER_UFOPEDIA: "A worn-out and poorly assembled grenade launcher. Allows firing projectiles along a high-arcing trajectory."
+
+  STR_GRENADE_LAUNCHER_VICE: "Grenade Launcher"
+  STR_GRENADE_LAUNCHER_VICE_UFOPEDIA: "Modernized grenade launcher with improved accuracy and blast radius."
+
+  STR_GL_HE: "High-Explosive Grenade"
+  STR_GL_INCENDIARY: "Incendiary Grenade"
+  STR_GL_SMOKE: "Smoke Grenade"
+
+# MEDICAL SUPPLIES
+  STR_STIMM: "Stimulant"
+  STR_STIMM_UFOPEDIA: "This injector contains a stimulating substance that can get a person back on their feet and restore consciousness. Restores 50 TU and removes 25 stun."
+
   STR_MEDIPACK_SMALL: "Small Medipack"
-  STR_MEDIPACK_SMALL_UFOPEDIA: "Device, containing small amount of medicine for use at the battlefield. The dosage of medications is enough for 2 applications. (Heals 2HP per use). Also contains 2 doses of painkillers (restores morale) and 2 doses of stimulant (restores 25 stun).{NEWLINE}Cannot be used for self healing."
-  STR_STIMM: "Stimm"
-  STR_STIMM_UFOPEDIA: "This injector contains a stimulant that can bring him to his senses. Restores 50 stamina and removes 25 Stun points."
-  STR_MEDI_PATCH: "Med patch"
-  STR_MEDI_PATCH_UFOPEDIA: "Medical patch produced by 'Med Tech' corp. When applied to the wound injects a complex of chemicals that stop the bleeding. Can be used for self-applience."
-  
-  STR_GOLDEN_DRAGONS: "Golden Dragon"
-  STR_GOLDEN_DRAGONS_UFOPEDIA: "Cigarettes of the popular brand Golden Dragon." 
+  STR_MEDIPACK_SMALL_UFOPEDIA: "A device containing a small amount of medication for treating wounds on the battlefield. Enough for 2 uses (each wound treatment restores 2 HP). Also contains 2 doses of painkillers (restores lost morale from injuries) and 2 powerful stimulant injections (each removes 25 stun).{NEWLINE}Self-treatment is not possible."
+
+  STR_MEDIPACK_MID: "Medipack"
+  STR_MEDIPACK_MID_UFOPEDIA: "A pack with advanced medication containing a wider range of drugs.{NEWLINE}Self-treatment is not possible."
+
+  STR_SMALL_MEDKIT: "Small First Aid Kit"
+  STR_SMALL_MEDKIT_UFOPEDIA: "A small first aid kit with basic supplies for treating battlefield wounds. To use it, stand face-to-face with the operative who needs treatment."
+
+  STR_MEDI_PATCH: "Medi-Patch"
+  STR_MEDI_PATCH_UFOPEDIA: "Special-purpose patch from MedTek. When applied to a wound, it delivers a complex of chemicals that stops bleeding. Can be used on yourself."
+
+  STR_ADV_MEDIPACK: "Advanced Medipack"
+  STR_ADV_MEDIPACK_UFOPEDIA: "A device packed with various tools for treating gunshot wounds and energy weapon burns."
+
+  STR_GOLDEN_DRAGONS: "Golden Dragon Cigarettes"
+  STR_GOLDEN_DRAGONS_UFOPEDIA: "Cigarettes from the popular Golden Dragon brand."
+
   STR_PIZZA_SLICE: "Slice of Pizza"
-  STR_PIZZA_SLICE_UFOPEDIA: "Cheese, pepperoni, tomato sauce, a little oregano seasoning and... unknown dough recipe. This mysterious gift was delivered to us right at the base entrance, which is alarming, because someone knows the location of our hideout! But who got the idea of delivering a pizza trough the Wasteland to God-knows where? At least, the encouraging thing is that in this dark era of synthetic slop, there are people around there who know how to make good-ass Pizza."
+  STR_PIZZA_SLICE_UFOPEDIA: "Cheese, pepperoni, tomato sauce, a bit of oregano seasoning and... an unknown dough composition. This mysterious gift was delivered right to our base entrance, which is concerning — someone knows the location of our base! But who the hell would deliver pizza to the middle of nowhere in the Wastes? The only comforting thought is that even in this era of synthetic slop, there are still real chefs using natural ingredients."
 
-                    #############  Other crap #############
-  STR_MONEY_BRIEFCASE: "Money case"
-  STR_MONEY_BRIEFCASE_UFOPEDIA: "Some of our clients do not have much confidence in financial systems and banking transactions and will sometimes demand cash directly. This suitcase contains 100000 credits. If we are lucky we can find such suitcases during missions."
-  STR_MONEY_BAG: "Bag of money"
-  STR_MONEY_BAG_UFOPEDIA: "Some of our clients do not have much confidence in financial systems and banking transactions and will sometimes demand cash directly. This bag contains 500000 credits. If we are lucky we can find such bags during missions."
-  STR_WAD_O_CASH: "Wad o' Cash"
-  STR_WAD_O_CASH_UFOPEDIA: "Some of our clients do not have much confidence in financial systems and banking transactions and will sometimes demand cash directly. This wad contains 50000 credits. If we are lucky we can find such wads during missions."
-  
-                    #############  Other crap - Data #############
-  STR_FLASHDRIVE_RAIDERS: "Raider Flash Drive"
-  STR_FLASHDRIVE_RAIDERS_UFOPEDIA: "Aside from porn and raider convoy route plans, there's a surprising amount of useful data on this old device. Various energy schemes of shelters, blueprints for laser and plasma weapons and God knows how much else that the Raiders managed to rewrite during their pogroms. {NEWLINE}{NEWLINE}Digging deeper, we found out that there are even more extensive military bunkers. If we could ask the inhabitants of the Wasteland, we could find such points and settle down with the pre-war treasures of these bunkers."
+# MISC EQUIPMENT
+  STR_PEPPER_GUN: "Pepper Gun"
+  STR_PEPPER_GUN_UFOPEDIA: "In these hard times not everyone can get a firearms license, so some civilians use this non-lethal device filled with pepper spray. On hit it reduces TU and deals stun damage to the target."
 
-                    #############  Boxes and containers #############
+  STR_PAPER_FLARE: "Paper Flare"
+  STR_PAPER_FLARE_UFOPEDIA: "A paper flare that illuminates the area for a short time (3 turns), after which it becomes useless. Just open the cap and pull the pin!{NEWLINE}{NEWLINE}WARNING: Once activated, it cannot be turned off."
 
-  STR_WEAPON_LOOTBOX_CHEAP: "Decrepit weapon crate"
-  STR_WEAPON_LOOTBOX_CHEAP_UFOPEDIA: "A dilapidated weapon storage box. Usually, raiders and other wasteland weaponsmiths store their guns in it for transportation to salvage and dismantling, but sometimes we can find newly minted weapons here."
+  STR_FLASHLIGHT: "Flashlight"
+  STR_FLASHLIGHT_UFOPEDIA: "A device powered by an Elerium battery that illuminates the surrounding area. Be careful when turning it on at night — enemies might see you and open fire."
 
-#Crafts
-  STR_FUTURECAR1: "BANSHEE"
-  STR_FUTURECAR1_UFOPEDIA: "An elegant and reliable means of transportation in this dystopian world. Two-seated. Can only carry 50 units of equipment."
-  STR_HOVERSCOOTER_UFOPEDIA: "A fast, single-seater hover scooter. This model is popular amoung poor citizens of megacities due to low price and cheap maintenance. The trunk is small and can only hold 15 units of equipment."
-  STR_HOVERSCOOTER: "FAGGIO"
-  STR_HOVERVAN_BUY: "Acquisition hover van"
-  STR_HOVERVAN: "HOVER VAN"
-  STR_HOVERVAN_UFOPEDIA: "Triline telephone company van, powered by grav engines. Despite its low speed, it is quite capacious and invisible to enemy vessels."
-  STR_CICADA_CRAFT: "CICADA"
-  STR_CICADA_UFOPEDIA: "A SMALL VTOL ATTACK VESSEL, CAPABLE OF CARRYING A SMALL TEAM ON BOARD."
-  STR_FUTUREHAMVEE_BUY: "HUMVEE acquisition"
-  STR_DODO_CRAFT: "DODO"
-  STR_DODO_CRAFT_UFOPEDIA: "DODO"
-  STR_DODO_BIG_CRAFT: ""
-  STR_DODO_BIG_CRAFT_UFOPEDIA: ""
-  STR_FUTUREHAMVEE: "HUMVEE"
-  STR_FUTUREHAMVEE_UFOPEDIA: "A DURABLE CAR CAPABLE OF ACCOMMODATING A SMALL TEAM. ON TOP OF THIS, HAS AN AUTOMATIC TURRET RIGHT ON THE ROOF!"
-  STR_WRECKED_SAVAGE_UFOPEDIA: "This old bucket of bolts and nuts that collects dust in our hngar - an old savage-class assault transport. In general we could get rid of it without a second thought, but if we put a little work and cash, we could bring it back in the sky. But we have to keep in mind that this craft eats compressed Elerium, witch is we have a few and it's take us a while to find relible suppliers of this stuff."
+  STR_FIRE_EXTINGUISHER: "Fire Extinguisher"
+  STR_FIRE_EXTINGUISHER_UFOPEDIA: "A canister with powder foam for extinguishing fires. It also deals 32 stun damage and removes the same amount of TU. Can also be used to bash someone over the head. Our Occupational Safety inspector *strongly* insists we keep this on hand."
 
-#Unit Description
-  #Raiders
-  STR_RAIDER_BOSS_UFOPEDIA: "Woah those guys have metal armour ! Better use someting heavy against those faggots !"
-  STR_RAIDER_BOSS: "Raider Boss"
-  STR_WASTELAND_BOSS_INV: "Raider Boss: Analysis"
-  STR_RAIDER_GOON_UFOPEDIA: "Those assholes just a cannon fodder for local radier gangs ! Piss easy !"
-  STR_RAIDER_GOON: "Raider goon"
-  STR_WASTELAND_GOON_INV: "Raider goon: Analysis"
-  STR_RAIDER_SCOUT: "Raider Scout"
-  STR_RAIDER_SCOUT_UFOPEDIA: "Those whores have Night vision. Can you belive that ?! That's mean they can snipe you even at night ! Dsgustiong !"
-  STR_WASTELAND_SCOUT_INV: "Raider Scout: Analysis"
+  STR_CYBERDECK_BEGGINER: "Cyberdeck"
+  STR_CYBERDECK_BEGGINER_UFOPEDIA: "A device that allows dealing EMP damage. Effectiveness heavily depends on the operative's skill."
 
-        #Vice Smugglers
-  STR_SMUGGLER_GOON: "Smuggler - Thug"
-  STR_SMUGGLER_GOON_UFOPEDIA: "Earning their living by transporting expensive junk around the globe to all sorts of goons, corporate sharks, or even representatives of various colonies. These are low-level smugglers, but do not underestimate them. They are well-versed in their business and are good at firing old weapons. Their old-fashioned costume of the past millennium offers no such advantage as underlining their pretentiousness."
-  STR_SMUGGLER_TOMMY: "Smuggler - Goon"
-  STR_SMUGGLER_TOMMY_UFOPEDIA: "Members of the lower ranks who show zeal and diligence can go as far as goons. The toughest, baddest bastards in their group are them. Good at almost any kind of weapon, excellent negotiators and can hit so hard that your head turns against its axis several times. By the way, what�s wrong with their look? Do they think they�re a strippers and beer party?"
-  STR_SMUGGLER_LANCE: "Smuggler - Entrepreneur"
-  STR_SMUGGLER_LANCE_UFOPEDIA: "Your name is Lance Vance? Poor basterd."
-  STR_SMUGGLER_DIAZ: "Smuggler - Boss"
-  STR_SMUGGLER_DIAZ_UFOPEDIA: "Those guys are fixers. They buy and sell corpo shit. Sorry, Placeshodlder Text :("
-        #GunRunners
-  STR_GUNRUNNER_WORKER: "Gunrunner Worker"
-  STR_GUNRUNNER_WORKER_UFOPEDIA: "Brute force of gunrunners. These guys are not very bright, but they are very diligent with lathe and other hardware. Usually, they are hired by various bandit factions of the Wasteland to help with production of more solid guns, unlike those that can be found in the ruins. Basically, their job is to control the production line so that some moron would not press someting that shouldn't be pressed."
-  STR_GUNRUNNERS_WORKER_INV: "Gunrunner Worker: Analysis"
+# GRENADES
+  STR_MOLOTOV: "Molotov Cocktail"
+  STR_MOLOTOV_UFOPEDIA: "The anarchists' favorite drink. Just light and throw!{NEWLINE}{NEWLINE}Range: {ALT}20{ALT}"
+
+  STR_PIPEBOMB: "Pipe Bomb"
+  STR_PIPEBOMB_UFOPEDIA: "This bomb was made from scrap materials scavenged in the Wastes. Mostly used by raiders, rebels, and other anarchists."
+
+  STR_GAS_GRENADE: "Gas Grenade"
+  STR_GAS_GRENADE_UFOPEDIA: "Upon detonation it releases a caustic gas that causes poisoning and death when inhaled. Better wear gas masks against this crap."
+
+  STR_EMP_GRENADE: "EMP Grenade"
+  STR_EMP_GRENADE_UFOPEDIA: "A small device that emits a powerful electromagnetic pulse upon detonation."
+
+  STR_NITRO_GRENADE: "Nitro Pack"
+  STR_NITRO_GRENADE_UFOPEDIA: "This small explosive has a truly bombastic charge that can vaporize even a corpse."
+
+# MINES
+  STR_MINE: "Mine"
+  STR_MINE_UFOPEDIA: "Anti-personnel sensor mine. As the name suggests, it's effective against ground infantry. The sensor triggers when anything moves in an adjacent tile (tiles above or below are ignored).{NEWLINE}{NEWLINE}The upward-directed blast wave covers 2 tiles and the explosion ignores 20% of armor. So be extremely careful when placing mines.{NEWLINE}{NEWLINE}Throw Accuracy: {ALT}50%{ALT}"
+
+  STR_SATCHEL_CHARGE: "Satchel Charge"
+  STR_SATCHEL_CHARGE_UFOPEDIA: "Quite a powerful explosive. Mostly used by colonial miners to blast through ultra-hard rock."
+
+  # MISC ITEMS
+
+# Cash & Valuables
+  STR_MONEY_BRIEFCASE: "Briefcase of Money"
+  STR_MONEY_BRIEFCASE_UFOPEDIA: "Some of our clients don't trust financial systems and bank transfers, so they sometimes demand cash directly. This briefcase contains {ALT}100,000{ALT} credits.{NEWLINE}With some luck, we might find such briefcases during missions."
+
+  STR_MONEY_BAG: "Bag of Money"
+  STR_MONEY_BAG_UFOPEDIA: "Some of our clients don't trust financial systems and bank transfers, so they sometimes demand cash directly. This bag contains {ALT}500,000{ALT} credits.{NEWLINE}With some luck, we might find such bags during missions."
+
+  STR_WAD_O_CASH: "Wad of Cash"
+  STR_WAD_O_CASH_UFOPEDIA: "Some of our clients don't trust financial systems and bank transfers, so they sometimes demand cash directly. This wad contains {ALT}50,000{ALT} credits.{NEWLINE}With some luck, we might find such wads during missions."
+
+# Insurance Contracts
+  STR_INSURANCE_CONTRACT: "Insurance Contract"
+  STR_INSURANCE_CONTRACT_UFOPEDIA: "When we capture stolen civilian hovercars, we receive these contracts. As private police and a PMC, we can return the vehicle to its rightful owner for a good reward...{NEWLINE}...Or disassemble the junker for parts and power cells to use for our own purposes. Keep in mind that such actions damage our reputation. [-100 Reputation per broken contract]"
+
+  STR_INS_CONTRACT_DISASSAMBLE: "Insurance Contract: Disassemble Aircar"
+
+# Data Loot
+  STR_FLASHDRIVE_RAIDERS: "Raiders Data Drive"
+  STR_FLASHDRIVE_RAIDERS_UFOPEDIA: "Besides porn and raider convoy route plans, this old drive surprisingly contains a lot of useful data. Various power schematics for bunkers, blueprints for laser and plasma weapons, and who knows what else the Raiders managed to copy during their raids.{NEWLINE}{NEWLINE}After digging deeper, we discovered there are even larger military bunkers out there. If we ask the right Wastelanders, we might locate these sites and help ourselves to pre-war treasures."
+
+# Lootboxes & Containers
+  STR_EXTRACTION: "Extraction"
+
+  STR_WEAPON_LOOTBOX_CHEAP: "Worn Weapon Crate"
+  STR_WEAPON_LOOTBOX_CHEAP_UFOPEDIA: "A rotting weapon storage crate. Raiders and Wasteland gunsmiths usually use them to transport guns for scrapping, but sometimes you can find brand new weapons inside."
+  STR_WEAPON_LOOTBOX_CHEAP_EX: "Open: Worn Weapon Crate"
+
+  STR_LOOTBOX6: "Military Container"
+  STR_LOOTBOX6_UFOPEDIA: "A tough, brutal-looking box. These containers usually carry pretty decent military equipment."
+  STR_LOOTBOX6_EX: "Open: Military Container"
+
+  STR_LOOTBOX7: "Reinforced Container"
+  STR_LOOTBOX7_UFOPEDIA: "Contains equipment for colonists."
+
+  STR_SYNDICATE_SUPBOX: "Syndicate Supply Crate"
+  STR_SYNDICATE_SUPBOX_UFOPEDIA: "A rather spacious crate full of various useful junk that the Syndicate transports for their shady purposes. We can help ourselves to whatever we pry from their cold, dead hands."
+
+  STR_AUG_CONTAINTER_1: "Old Implant Container"
+  STR_AUG_CONTAINTER_1_UFOPEDIA: "A rusty canister with old, second-rate implants. Usually full of cheap consumer-grade junk that's better off as scrap, but we can refurbish this garbage and use it as a base for future implant upgrades."
+  STR_AUG_CONTAINTER_1_EX: "Open: Old Implant Container"
+
+  STR_AUG_CONTAINTER_2: "Implant Container"
+  STR_AUG_CONTAINTER_2_UFOPEDIA: "Container with fairly decent cyber implants. Can yield some good equipment."
+  STR_AUG_CONTAINTER_2_EX: "Open: Implant Container"
+
+  STR_AUG_CONTAINTER_3: "Reinforced Implant Container"
+  STR_AUG_CONTAINTER_3_UFOPEDIA: "What a find! Just the container itself is worth a fortune. The hardware inside must be top-tier!"
+  STR_AUG_CONTAINTER_3_EX: "Open: Reinforced Implant Container"
+
+# Turrets
+  STR_DEPLOY_SENTRY_TURRET_MK1: "Portable Turret Mk1"
+  STR_DEPLOY_SENTRY_TURRET_MK1_UFOPEDIA: "The colonial marine's best friend. This portable 5.7mm turret provides extra firepower to your squad. The container is heavy and deploying the turret to full readiness takes time (1 full turn)."
+
+  STR_CORPSE_SENTRY_TURRET_MK1: "Turret Wreckage"
+  STR_SENTRY_TURRET_MK1: "Sentry Turret Mk1"
+  STR_SENTRY_TURRET_MK1_ARMOR: "Sentry Turret Mk1"
+  AUX_SENTRY_TURRET_GUN: "5.7mm Gun"
+
+  STR_CORPSE_OLD_TURRET_MINIGUN: "Sentry Turret Wreckage"
+
+# Other
+  STR_SAVAGE_CRAFT: "SAVAGE"
+  STR_SAVAGE_UFOPEDIA: "An old military troop transport from the Mega Primus War era. Can carry a large number of soldiers, but fuel costs are significant." 
+
+  STR_WRECKED_SAVAGE_CRAFT: "Wrecked Savage Hull"
+  STR_WRECKED_SAVAGE: "Study Savage Hull"
+  STR_WRECKED_SAVAGE_UFOPEDIA: "This old bucket of bolts gathering dust in our hangar is a pre-war military transport of the 'Savage' class. We could just scrap it and stop wasting time, but with some work we might get this bird back in the air. Just keep in mind — this thing guzzles compressed elerium, which we currently have very little of, and it's hard to find suppliers."
+
+# FACTIONS
+  STR_FACTIONS_UC: "FACTIONS & OTHER"
+  STR_FAC_RAIDERS_RIPPERS: "Raider Clan - Rippers"
+  STR_FAC_RAIDERS_RIPPERS_UPED: "Raider Clan - Rippers"
+  STR_FAC_RAIDERS_RIPPERS_UFOPEDIA: "The Rippers are one of many bandit groups roaming the Wastes. They mostly consist of societal rejects and even some recruited Megaprim citizens. In essence, the Rippers are a semi-military organization with anarchist tendencies, as they often lack a single leader overseeing their activities. They engage in looting, raiding private farms, and occasional attacks on corporate hovercar transports."
+
+  # MEGAPOL
+  STR_MEGAPOL_COP: "Megapol Cop"
+
+  # SMUGGLERS
+  STR_SMUGLERS_GUNS: "Smuggler Weapons"
+  STR_SMUGLERS_GUNS_UFOPEDIA: "After questioning some members and examining their weapons, we found that smugglers use old but well-made pre-war firearms, most likely 3D-printed. If we can track down the source, we could obtain the schematics and blueprints for producing these guns."
+
+  STR_SMUGLERS: "Smugglers"
+  STR_SMUGLER: "Smuggler"
+  STR_FAC_SMUGLERS: "Faction - Smugglers"
+  STR_FAC_SMUGLERS_UFOPEDIA: "One of the branches of Earth's mafia, specializing in the illegal transportation of drugs, weapons, and various goods across the planet. Their groups consist of desperate people tired of boring megacity life. Despite their ridiculous outfits, these guys are determined, brave, and well-armed. Smugglers avoid elerium-powered engines, making them difficult to track."
+
+  STR_SMUGLERS_BELIVES: "Smuggler Ideals"
+  STR_SMUGLERS_BELIVES_UFOPEDIA: "Blah-blah something about Miami Police and pre-war lifestyle."
+
+  # BIKERS
+  STR_BIKERS: "Bikers"
+  STR_BIKERS_UFOPEDIA: "A group of anarchists who refuse to follow any rules or laws. They mostly travel in small packs across the Wastes, occasionally visiting Megaprims to resupply or cause trouble in local bars."
+
+  # RIPPER RAIDERS
+  STR_WST_RIPPER_RACE: "Rippers"
+  STR_WST_RIPPER03: "Ripper Scout"
+  STR_WST_RIPPER03_ARMOUR: "Ripper Scout: Analysis"
+
+  # TERRORISTS - SiN
   STR_FAC_SIN_UFOPEDIA: "SiN"
-  STR_FAC_SIN_UFOPEDIA_UFOPEDIA: "SiN is a terrorist organization that everyone desoise, but at the same time, more mega-corporations support. In addition to the production of crnige recruitment videos, to brainwash youth of the Wasteland, they also do the looting and murdfering citizens of mega-cities and Earth governments. Their structure is more like a private military formation than a gathering of justice fighters, because the recruitment to higher ranks is quite strict and cruel."
-  STR_AUTOCOP_UPED: "Auto Cop"
-  STR_AUTOCOP_UFOPEDIA: "These metal wardrobes were once the best of the finest officers in Megapol. But after, um...accidents at work, their remnants were cybernized so that their skills wouldn�t be wasted. Of course, such incidents are relatively rare, because. such cybernization projects are expensive. In fact - their armor is an automated power suit, which perfectly protects against bullets and shotguns. But the excess of electronics and servos make them almost useless against Electivity and EMP waves. Serve and protect until the grave - thats their motto."
+  STR_FAC_SIN_UFOPEDIA_UFOPEDIA: "A terrorist organization despised by everyone, yet secretly supported by many megacorporations. In addition to producing cringy recruitment videos to brainwash Wasteland youth, they engage in robberies and assassinations targeting megacity citizens and Earth governments. Their structure resembles a private military company more than a gathering of freedom fighters, as recruitment into higher ranks is extremely strict and brutal."
 
-#UFOPedia_Factions
-  STR_SMUGLERS: "Faction: Smugglers"
-  STR_FAC_SMUGLERS_UFOPEDIA: "Smugglers are a group of desperate people who got bored with boring life in mega cities. These guys make a living by transporting and selling drugs, guns and all kinds of illegal corporate crap all over the world. Needless to say, this is a hell of a way of life. Do not let that dumb pre-war outfit fool you - those guys are determined and well-armed. They never use elerium-powered crafts in their shipping, so tracking them will be a hell of a task."
-  STR_SMUGLERS_GUNS_UFOPEDIA: "Smugglers use old pre-war weapons in their operations. These guns were most likely 3D-printed."
-  STR_SMUGLERS_BELIVES: "Beliefs of the Smugglers"
-  STR_SMUGLERS_BELIVES_UFOPEDIA: "After questioning few smugglers, we began to notice some strange ditales. Unlike other mafia syndicates, smugglers stick to prewar ideolos. They drive old cars, wear old suits, and use old weapons, even though it�s the XXIV century! Smugglers believe in the style and passion of their work. Even, a little romanticizing their illigal craft."
-  STR_WASTELAND_MISSIONS: "Foray into Wasteland"
-  STR_WASTELAND_MISSIONS_UFOPEDIA: "Wasteland is a place of opportunity, even it�s a stinking shitholehole fuilled by mutants, bandits, and other outcasts of society. Locals would be very interested doing business with people from mega-cities, like us. Besides, it wouldn't hurt to have more associates, right? {NEWLINE}{NEWLINE}If our informants find someting anything out, we'll let you know, Chief."
-  STR_INTEL_OFFICER_1: "Introduction"
-  INTEL_OFFICER_INTRODUCTION_UFOPEDIA: "Greetings Boss! I hope your recovery from the cryosymosis went smoothly. Since youve been in the freezer for almost 150 years, please let me fill you in. Our organization is a private police force that specializes in culling scum around mega-cities. We also collaborate with Megapol and other Earth power structures. But since our organization has been in decline for the past few years, the board of directors has decided to appoint a new commander - you!{NEWLINE} I really hope you can handle this task, Chief. "
+  STR_TERRORIST_SIN_1: "SiN Soldier"
+  STR_TERRORIST_SIN_2: "SiN Scout"
+  STR_TERRORIST_SIN_3: "SiN Instructor"
+  STR_TERRORIST_SIN_4: "SiN Lieutenant"
 
-              ### Transformation ###
-#Augs
-  STR_AUG_EYE_MK1: "Eye Implants Mk1"
-  STR_AUG_EYE_MK1_UFOPEDIA: "Complete eyeballs replacemant with artificial ones is such a savagery  nowdays! These cheap implants are placed on top of the eyeball and act like contact lenses with a simple cyber interface. The model is quite cheap and basic, so don't expect much.{NEWLINE}{NEWLINE} +3 Accuracy"
-  STR_AUG_EYE_MK2: "Eye Implants Mk2"
-  STR_AUG_EYE_MK2_UFOPEDIA: "������� ������� �������� ������� ���������� �� ������ ��������. ����� ��������� ����� ������� ������� ������ ������������. {NEWLINE}{NEWLINE}+4 � ��������. {NEWLINE}-1 ����������� ����������� �� ���."
-  STR_AUG_EYE_MK3: "Eye Implants Mk3"
-  STR_AUG_EYE_MK3_UFOPEDIA: "����� ������� � ������ ��������� ������� ������� ���������. �� ���������� ���� ��������� ��� ��������� � ������� ������� � ������������ ���� ����������� ������ � ������ ����� ����� ! {NEWLINE}{NEWLINE}+5 � ��������.{NEWLINE}+ 2 ��"
-#NaturalTransforamtions
-  STR_TRNS_BASICSHOOTING_PED: "Basic firearms training"
-  STR_BASIC_FIREARMS_TRAINING: "Basic firearms training"
-  STR_BASICSHOOTING_UFOPEDIA: "After talking to recutment department,to your dismay you learn to that none of the new recruits are going through basic marksmanship training! We had to fiddle a bit with resources from outside to organize normal training.{NEWLINE}{NEWLINE}Now our operatives can take shooting courses which will increase their Accuracy by 12 and Reaction by 4. Training lasts 6 days and costs 7000 credits, Gym required."
+# BASE MODULES / FACILITIES
+  STR_ACCESS_LIFT_UFOPEDIA: "The foundation of any base. This is where personnel and equipment are delivered straight underground. Unfortunately, it is a vulnerable part of our base, as we cannot fully secure the surface entrance. Provides {ALT}25{ALT} units of storage space.{NEWLINE}Rest: 1"
 
+  STR_LIVING_QUARTERS_UFOPEDIA: "Our base personnel — scientists, engineers, and operatives — live and rest here. Each module accommodates {ALT}35{ALT} people.{NEWLINE}Rest: 2"
 
-#Base moduels
-  STR_ACCESS_LIFT_UFOPEDIA: "The basis is the basis of any base. Personnel and necessary equipment are delivered here directly underground. Unfortunately, it is a vulnerable part of our base for enemies and adversaries, since we cannot completely secure the entrance from the surface. Provides 15 storage space.{NEWLINE}Rest: 1"
-  STR_LIVING_QUARTERS_UFOPEDIA: "The personnel of our base live and rest here: scientists, engineers and agients. Each module is designed for 35 residential places.{NEWLINE}Vacation: 5"
-  STR_PRISON_CELLS: "Prison cells"
-  STR_PRISON_CELLS_UFOPEDIA: "All the ignorant and other riffraff that we can get through life we throw here. Have 12 spaces."
-  STR_RECREATION_ROOM: "Recreation Room"
-  STR_RECREATION_ROOM_UFOPEDIA: "A small compartment with a minibar, arcade machines and a canteen, everything for a quiet time between missions for our operatives. Have a small warehouse. {NEWLINE}Concentration regen per day: 8"
+  STR_PRISON_CELLS: "Prison Cells"
+  STR_PRISON_CELLS_UFOPEDIA: "All sorts of idiots and scum we manage to capture alive end up here. Designed for 12 occupants."
 
   STR_GYM: "Gym"
-  STR_GYM_UFOPEDIA: "This module provides training space for our agents. Can only train 8 units simultaneously."
-  STR_MEDBAY: "Med bay"
-  STR_MEDBAY_UFOPEDIA: "The medical bay allows us to hospitalize our operatives directly at our base, which reduces the recovery period. Facilety also includes equipment and services of a fixer who can perform cyber augmentations for our agents."
-  STR_ADVANCED_MEDBAY: "Advanced medbay"
-  STR_ADVANCED_MEDBAY_UFOPEDIA: "Med bay but even cooler with more flashy eqipemnt that make recovery for our agents even shorter! Fixer how can make advanced augmentations for our agents."
-  STR_CORRIDOR: "Corridor"
-  STR_CORRIDOR_UFOPEDIA: "A simple corridor, nuff said. You can build other modules on top of this to make building time shorter."
-  STR_HQ: "HQ"
-  STR_HQ_UFOPEDIA: "This module handles our customer requests. It is also equipped with a simple radar and lab for 10 scientists that can carry simple interrogations or research." 
-  STR_POWER_PLANT: "Power plant"
-  STR_POWER_PLANT_UFOPEDIA: "This small power plant is needed for some facileties at our base. Incredibly expensive to build, but upon completion, we can sell the excesses can be sold to nearby settlements.{NEWLINE}Requires 2 Core Engines to build."
+  STR_GYM_UFOPEDIA: "This module is equipped for training our agents. Designed for 8 operatives."
 
-#Tech Shit
-  STR_TRANSFORMATIONS_AND_AUGS_UC: "TRANSFORMATIONS AND AUGMENTATIONS"
+  STR_MEDBAY: "Medical Bay"
+  STR_MEDBAY_UFOPEDIA: "The medical bay allows us to hospitalize our operatives on-site, significantly reducing recovery time. It also includes equipment and a fixer who can perform cybernetic augmentations on our agents."
+
+  STR_ADVANCED_MEDBAY: "Advanced Medical Bay"
+  STR_ADVANCED_MEDBAY_UFOPEDIA: "More features, more toys. Recovery time is further reduced thanks to superior equipment. The fixer can also perform advanced augmentations."
+
+  STR_CORRIDOR: "Corridor"
+  STR_CORRIDOR_UFOPEDIA: "A corridor for corridor-ing corridors. Can be built over to speed up construction of new modules."
+
+  STR_BIG_LIVING_QUARTERS: "Large Living Quarters"
+  STR_BIG_LIVING_QUARTERS_UFOPEDIA: "A spacious module designed for 185 people. Efficiently saves space and includes a small storage area ({ALT}50{ALT} units).{NEWLINE}Rest: 4"
+
+  STR_HQ: "Headquarters"
+  STR_HQ_UFOPEDIA: "This module processes client requests. It is also equipped with a basic radar and a small laboratory for 10 people, where basic research or interrogations can be conducted."
+
+  STR_RECREATION_ROOM: "Recreation Room"
+  STR_RECREATION_ROOM_UFOPEDIA: "A small area with a minibar, arcade machines, and a cafeteria — everything for our operatives to relax between missions. Includes a small storage closet ({ALT}+10{ALT} storage). Generates {ALT}15,000{ALT} credits in passive monthly income.{NEWLINE}Rest: 8"
+
+  STR_POWER_PLANT: "Power Plant"
+  STR_POWER_PLANT_UFOPEDIA: "A small power station required for some base facilities. Extremely expensive to build, but once completed it generates income by selling excess power to nearby settlements.{NEWLINE}Requires 2 Core Engines to build."
+
+  STR_ALLOY_FACTORY: "Alloy Factory"
+  STR_ALLOY_FACTORY_UFOPEDIA: "With the necessary blueprints and knowledge, we can now produce alloys ourselves without depending on suppliers or battlefield loot. This module is equipped with all necessary tools for manufacturing plastisteel. It is also required for producing more precise plastisteel components. Requires Power Plant. Provides 20 workspaces."
+
+  STR_ROBOT_WORKSHOP: "Robot Workshop"
+  STR_ROBOT_WORKSHOP_UFOPEDIA: "This section is equipped with everything needed to manufacture drones, load simple AIs into central processors, and assemble our own robots and combat platforms! Requires Power Plant. Provides 80 workspaces."
+
+  STR_COMM_CENTER: "Communications Center"
+  STR_COMM_CENTER_UFOPEDIA: "A useful module for accessing the Hypernet and establishing contacts. We can also process additional jobs and contracts from our employers here. Provides 5 scientist workspaces.{NEWLINE}Requires Power Plant. Only one per base."
+
+  STR_SCIENCE_CENTER: "Science Center"
+  STR_SCIENCE_CENTER_UFOPEDIA: "A large complex where up to 30 scientists can work on developing equipment and other useful gadgets. Equipped with a state-of-the-art bio-lab, high-speed data processing hardware, and access to military research databases. The cherry on top is a small medical section that reduces wounded operatives' recovery time.{NEWLINE}Only one per base."
+
+  STR_CYBER_HQ: "Cyber Headquarters"
+  STR_CYBER_HQ_UFOPEDIA: "By expanding our knowledge in cybernetics, we created a project to upgrade our Headquarters. By installing cutting-edge (and expensive) toys such as speech synthesis recognizers and personality modules, we increased operational efficiency by 140%. In other words, we can now fit 4 more eggheads here than usual!"
+
+  STR_LAB_T1: "Basic Laboratory"
+  STR_LAB_T1_UFOPEDIA: "A small laboratory for 10 scientists. Contains basic equipment for developing simple projects such as materials and components."
+
+  STR_MEDBAY_FACILITY: "Medical Bay Project"
+
+# VEHICLES
+  STR_FAGGIO_BIKE_UFOPEDIA: "A single-seat sports bike from the French company «Moteurs Occasionnels»."
+  STR_FAGGIO_BIKE: "FAGGIO"
+
+  STR_FUTURECAR1: "BANSHEE"
+  STR_FUTURECAR1_UFOPEDIA: "An elegant and reliable form of transport in this grim world. Cheap."
+
+  STR_HOVERVAN_BUY: "Purchase Hover Van"
+  STR_HOVERVAN: "HOVER VAN"
+  STR_HOVERVAN_UFOPEDIA: "A converted gravity van from the Triline phone company. Despite its low speed, it is quite spacious and inconspicuous to enemy vessels."
+
+  STR_CICADA_CRAFT: "CICADA"
+  STR_CICADA_CRAFT_BUY: "Purchase CICADA"
+  STR_CICADA_UFOPEDIA: "A small vertical-takeoff assault craft capable of carrying a small squad."
+
+  STR_FUTUREHAMVEE_BUY: "Purchase HAMVEE"
+  STR_FUTUREHAMVEE: "HAMVEE"
+  STR_FUTUREHAMVEE_UFOPEDIA: "A tough vehicle capable of carrying a small squad. It also features an automatic turret mounted on the roof!"
+
+  STR_DODO_CRAFT_SMALL_BUY: "Purchase HUMMINGBIRD"
+  STR_DODO_SMALL_CRAFT: "HUMMINGBIRD"
+  STR_DODO_SMALL_CRAFT_UFOPEDIA: "Small transport craft."
+
+  STR_DODO_CRAFT: "DODO"
+  STR_DODO_CRAFT_UFOPEDIA: "It's ironic that this junker was named after an extinct bird species, as it uses ancient energy systems for vertical takeoff and landing."
+
+  STR_DODO_BIG_CRAFT: "HAMMERHEAD"
+  STR_DODO_BIG_CRAFT_UFOPEDIA: "A modified DODO for transporting larger numbers of operatives."
+
+  STR_GOSHAWK_PURCHES: "Purchase GOSHAWK"
+  STR_GOSHAWK: "GOSHAWK"
+  STR_GOSHAWK_UFOPEDIA: "An outdated combat aircraft model. Features two pulse engines, a primitive radar system, and weak armor."
+
+# VEHICLE ARMAMENT
+  STR_AUTOCANNON_25MM: "25mm Autocannon"
+  STR_AUTOCANNON_25MM_UC: "25MM AUTOCANNON"
+  STR_AUTOCANNON_25MM_ROUNDS_X50: "25mm Cannon Ammo (x50)"
+  STR_AUTOCANNON_25MM_PURCHES: "Purchase 25mm Aircraft Cannon"
+  STR_AUTOCANNON_25MM_UC_UFOPEDIA: "A primitive aircraft cannon chambered in 25mm. Not as powerful compared to other weapon systems."
+
+  STR_LASER_MINICANNON_PURCHES: "Purchase Aircraft Mini-Laser"
+  STR_LASER_MINICANNON_UC: "MINI-LASER"
+  STR_LASER_MINICANNON_UFOPEDIA: "A lightweight laser weapon. It recharges from the base's power systems, so ammunition is practically unlimited."
+
+# UNIT DESCRIPTIONS (UFOPEDIA)
+
+  # Street Gangs - Tiger Claw
+  STR_RACE_TIGERCLAW: "Tiger Claw Gang"
+  STR_TIGERCALW: "Tiger Claw"
+  STR_TIGERCALW_FEMGOON: "Tiger Claw She-Goon"
+  STR_TIGERCALW_GOON: "Tiger Claw Gang Member"
+  STR_TIGERCALW_WARCHEEF: "Tiger Claw Leader"
+  STR_STREETGANG_TG_GOON: "Tiger Claw Goon"
+  STR_STREETGANG_TG_GOON_UFOPEDIA: "New recruits of the young street gang Tiger Claw. They take their initiation very seriously. They excel in melee combat but are terrible shots with firearms."
+
+  # MILITARISTS
+  STR_WARDOGS_GOON: "Militarist Goon"
+  STR_WARDOGS_HANCHMAN: "Militarist Henchman"
+  STR_WARDOGS_GUNMAN: "Militarist Gunman"
+  STR_WARDOGS_HEAVY: "Militarist Machine Gunner"
+  STR_WARDOGS_VETERAN: "Militarist Veteran"
+
+  # WASTELAND RAIDERS
+  STR_RACE_WASTELAND_RAIDERS: "Wasteland Raiders"
+
+  STR_RAIDER_BOSS_UFOPEDIA: "Clad in scrap-metal armor, these guys are the toughest and most vicious bastards in their gangs."
+  STR_RAIDER_BOSS: "Raider Boss"
+  STR_WASTELAND_BOSS_INV: "Raider Boss: Analysis"
+
+  STR_RAIDER_GOON_UFOPEDIA: "Hardened by the brutal life of the Wastes, these guys are at the very bottom of the raider hierarchy."
+  STR_RAIDER_GOON: "Raider Goon"
+  STR_WASTELAND_GOON_INV: "Raider Goon: Analysis"
+
+  STR_RAIDER_SCOUT: "Raider Scout"
+  STR_RAIDER_SCOUT_UFOPEDIA: "Extremely agile and nimble girls. Their night-vision visors allow them to navigate perfectly in the dark."
+  STR_WASTELAND_SCOUT_INV: "Raider Scout: Analysis"
+
+  # SMUGGLERS
+  STR_SMUGGLER_GOON: "Smuggler Goon"
+  STR_SMUGGLER_GOON_UFOPEDIA: "They make their living transporting expensive goods for all sorts of losers, corporate fat cats, and even colonial representatives. These are low-ranking smugglers, but don't underestimate them — they know their business and shoot decently with old weapons. Their outdated millennium-old outfits offer no tactical advantage other than emphasizing their flamboyance."
+
+  STR_SMUGGLER_TOMMY: "Smuggler Enforcer"
+  STR_SMUGGLER_TOMMY_UFOPEDIA: "Low-ranking members who show zeal and diligence can rise to become enforcers. They are the toughest and meanest bastards in their crews. Proficient with almost any weapon, excellent negotiators, and can deliver a punch that will spin your head several times. By the way, what's with their outfits? Do they think they're at a stripper party with beer?"
+
+  STR_SMUGGLER_LANCE_INV: "Smuggler Adventurer: Analysis"
+  STR_SMUGGLER_LANCE: "Smuggler Adventurer"
+  STR_SMUGGLER_LANCE_UFOPEDIA: "Entrepreneurs. These guys have bigger egos than any corporate shark."
+
+  STR_SMUGGLER_DIAZ: "Smuggler Fixer"
+  STR_SMUGGLER_DIAZ_UFOPEDIA: "Dealers and fixers — influential smugglers who control the supply and sale of a wide range of goods to various factions. They handle firearms well and wear solid ballistic vests."
+
+  # MEGAPOL
+  STR_AUTOCOP_UPED: "Autocop"
+  STR_AUTOCOP_UFOPEDIA: "Serve and protect until death — that is their motto. These walking metal wardrobes were once the best Megapol officers. After... unfortunate on-the-job accidents, it was decided to cybernetize what remained of them so their skills wouldn't go to waste. Such cases are relatively rare because cyberization projects are expensive. Their armor is essentially an automated power suit that protects excellently against bullets and buckshot. However, the excessive electronics and servos make them almost useless against electricity and EMP."
+
+  STR_COP1_UPED: "Military Policeman"
+  STR_COP1_UFOPEDIA: "Low-ranking Megapol representatives. These poorly educated people were mostly recruited through quotas with the promise of being able to beat other citizens with impunity."
+
+  # GUNRUNNERS
+  STR_GUNRUNNER_WORKER: "Gunrunner Worker"
+  STR_GUNRUNNER_WORKER_UFOPEDIA: "The brute force of the gunrunners. These guys aren't the brightest, but they are very diligent with machines and metal. Various Wasteland gangs hire them to help produce decent weapons — unlike the junk you find in ruins. Their job is to monitor the production line so some idiot doesn't press the wrong button."
+  STR_GUNRUNNERS_WORKER_INV: "Gunrunner Worker: Analysis"
+
+  STR_GUNRUNNER_MASTER: "Gunrunner Machinist"
+  STR_GUNRUNNER_MASTER_UFOPEDIA: "Master machinists who are fanatically devoted to their craft. They usually run larger factories and personally oversee the supply of raw materials for weapon and ammo production."
+  STR_GUNRUNNER_MASTER_INV: "Gunrunner Machinist: Analysis"
+
+  # OLD ROBOTS
+  STR_OLD_TURRET_MINIGUN_ARMOR: "Old Sentry Turret: Analysis"
+  STR_OLD_TURRET_MINIGUN: "Old Sentry Turret"
+  STR_OLD_TURRET_MINIGUN_UFOPEDIA: "An old, rust-eaten stationary automatic turret. It's a miracle this junk can still stuff enemies with lead — and with such enthusiasm! The electronic systems are still in good condition, so beware of return fire. Equipped with a fast caseless 14mm machine gun that can mow down your operatives like grass."
+
+  STR_OLD_LIGHT_DRONE_ARMOR: "Rusty Maintenance Drone: Analysis"
+  STR_OLD_LIGHT_DRONE: "Rusty Maintenance Drone"
+  STR_OLD_LIGHT_DRONE_UFOPEDIA: "An old model of maintenance drone. Before the war these tin cans were used to repair equipment and service bunkers. A powerful laser cannon is mounted on the robot's head, capable of piercing almost any decent armor. Although the internal systems and armor look decrepit, the drone has good reaction speed and fairly decent protection."
+
+  STR_OLD_SEC_ROBOT: "Old Security Robot"
+  STR_OLD_SEC_ROBOT_ARMOR: "Old Security Robot: Analysis"
+  STR_OLD_SEC_ROBOT_UFOPEDIA: "This droid was once the pride of the bunker."
+
+  # SYNDICATE
+  STR_SYNDICATE_SOLDIER_ARMOR: "Syndicate Soldier: Analysis"
+  STR_SYNDICATE_BREACHER_ARMOR: "Syndicate Heavy Soldier: Analysis"
+  STR_SYNDICATE_COMMANDO_ARMOR: "Syndicate Commando: Analysis"
+  STR_SYNDICATE_SHADOWOP_ARMOR: "Syndicate Shadow Operative: Analysis"
+  STR_SYNDICATE_PA_UNIT_ARMOR: "Syndicate Assault Trooper: Analysis"
+  STR_SYNDICATE_MANAGER_ARMOR: "Syndicate Manager: Analysis"
+
+  # MUTANTS
+  STR_MUTANT_WRETCH_INV: "Mutant Wretch: Analysis"
+  STR_MUTANT_WALKER_INV: "Mutant Walker: Analysis"
+
+  # TERMINATORS - ASSASSINS
+  STR_ECHOPROTOCOL_RACE: "Echo Protocol Order"
+  STR_SKYNET1_ARMOR: "Assassin Droid: Analysis"
+  STR_SKYNET1_ARMOR_UFOPEDIA: "Very durable and have good reaction speed."
+
+# MISSION BRIEFINGS
+  STR_ALERT_GANG_BURGLARY: "Raid on Residential District"
+  STR_BURGLARY_APPREHENSION: "Raid on Residential District"
+
+  STR_SNEEDS_YOUR_FEEDS: "Names and Seeds"
+  STR_SNEEDS_YOUR_FEEDS_DESCRIPTION: "Local Wasteland residents in this area are complaining about one idiotic mutant who constantly steals other people's stuff and tries to sell it back to them. Outrageous! The locals are furious at such audacity and ask us to deal with this asshole."
+  STR_SNEEDS_YOUR_FEEDS_BRIEFING: "Local Wasteland residents in this area are complaining about one idiotic mutant who constantly steals other people's stuff and tries to sell it back to them. Outrageous! The locals are furious at such audacity and ask us to deal with this asshole.{NEWLINE}To abort the mission, move X-INC operatives to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_SMUGLER_CLUB_MARK: "Smuggler Club"
+  STR_SMUGLER_CLUB: "Smuggler Club"
+  STR_SMUGLER_CLUB_BRIEFING: "Megapol informed us about a hideout of local dealers who... don't want to cooperate nicely with law enforcement. We 'accidentally' obtained the coordinates of their nightclub where they stash all their goods. Why not pay them a visit?{NEWLINE}WARNING! — Only civilian armor and melee weapons are allowed on this mission."
+  STR_SMUGLER_CLUB_ALERT_DESCRIPTION: "Megapol informed us about a hideout of local dealers who... don't want to cooperate nicely with law enforcement. We 'accidentally' obtained the coordinates of their nightclub where they stash all their goods. Why not pay them a visit?{NEWLINE}WARNING! — Only civilian armor and melee weapons are allowed on this mission."
+
+  STR_GANG_BURGLARY: "Raid on Residential District"
+  STR_GANG_BURGLARY_DESCRIPTION: "A raid on a residential district in this megacity sector was recently carried out. We managed to track the attackers in this area. If we can intercept them, we can apprehend them!"
+  STR_GANG_BURGLARY_BRIEFING: "A raid on a residential district in this megacity sector was recently carried out. We managed to track the attackers in this area. If we can intercept them, we can apprehend them!"
+
+  STR_GANG_BURGLARY_T2: "Raid on Residential District"
+  STR_GANG_BURGLARY_T2_DESCRIPTION: "A raid on a residential district in this megacity sector was recently carried out. We managed to track the attackers in this area. If we can intercept them, we can apprehend them!{NEWLINE}{NEWLINE}Be careful — witnesses report the attackers were armed with firearms."
+  STR_GANG_BURGLARY_T2_BRIEFING: "A raid on a residential district in this megacity sector was recently carried out. We managed to track the attackers in this area. If we can intercept them, we can apprehend them!{NEWLINE}{NEWLINE}Be careful — witnesses report the attackers were armed with firearms.{NEWLINE}To abort the mission, move X-INC operatives to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_GANG_BURGLARY_T3: "Raid on Residential District"
+  STR_GANG_BURGLARY_T3_DESCRIPTION: "A raid on a residential district in this megacity sector was recently carried out. We managed to track the attackers in this area. If we can intercept them, we can apprehend them!{NEWLINE}{NEWLINE}Be careful — witnesses report extremely erratic behavior and excessive aggression from the attackers."
+  STR_GANG_BURGLARY_T3_BRIEFING: "A raid on a residential district in this megacity sector was recently carried out. We managed to track the attackers in this area. If we can intercept them, we can apprehend them!{NEWLINE}{NEWLINE}Be careful — witnesses report extremely erratic behavior and excessive aggression from the attackers.{NEWLINE}To abort the mission, move X-INC operatives to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_POLICE_PD_ASSAULT: "Assault on Police Station"
+  STR_POLICE_PD_ASSAULT_DESCRIPTION: "A Megapol representative urgently contacted us with an important request. Just five hours ago, a full-scale takeover of a megacity police station was carried out by some fanatics. They ask us to help local authorities clear out and eliminate the occupiers."
+  STR_POLICE_PD_ASSAULT_BRIEFING: "A Megapol representative urgently contacted us with an important request. Just five hours ago, a full-scale takeover of a megacity police station was carried out by some fanatics. They ask us to help local authorities clear out and eliminate the occupiers.{NEWLINE}To abort the mission, move X-INC operatives to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_HOOD_APPREHENSION: "Gangster District"
+
+  STR_MUTANT_HUNT_SMALL: "Mutant Hunt"
+  STR_MUTANT_HUNT_SMALL_DESCRIPTION: "Local Wasteland residents report a small mutant nest in this area. They asked us to get rid of this filth."
+  STR_MUTANT_HUNT_SMALL_BRIEFING: "Local Wasteland residents report a small mutant nest in this area. They asked us to get rid of this filth.{NEWLINE}To abort the mission, move X-INC operatives to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_WASTELAND_GANG: "Raider Outpost"
+  STR_WASTELAND_GANG_BRIEFING: "Local Wasteland residents are complaining about frequent raider attacks in this area. Obviously local governments can't be bothered to waste resources on some small-time bandits in the middle of nowhere. Raiding this place will not only bring us some fame, but we can also seize some guns and equipment as... evidence. If you know what I mean.{NEWLINE}To abort the mission, move X-INC operatives to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_WASTELAND_FACTORY_RAID: "Raider Weapons Factory"
+  STR_WASTELAND_FACTORY_DESCRIPTION: "Our contacts in the Wastes asked around and found a small bandit factory somewhere in this part of the desert. It looks like a weapons workshop where local bandits make guns! We could pay them a visit and take their weapons and equipment. But be careful — the local bandits are well armed."
+  STR_WASTELAND_FACTORY_RAID_BRIEFING: "Our contacts in the Wastes asked around and found a small bandit factory somewhere in this part of the desert. It looks like a weapons workshop where local bandits make guns! We could pay them a visit and take their weapons and equipment. But be careful — the local bandits are well armed.{NEWLINE}To abort the mission, move X-INC operatives to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_WASTELAND_BIG_FACTORY_RAID: "Large Raider Weapons Factory"
+  STR_WASTELAND_BIG_FACTORY_RAID_DESCRIPTION: "After interrogating a machinist, we located one of the large weapons manufacturing plants."
+  STR_WASTELAND_BIG_FACTORY_RAID_BRIEFING: "After interrogating a machinist, we located one of the large weapons manufacturing plants.{NEWLINE}To abort the mission, move X-INC operatives to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: "!Raid on Old Military Base!"
+  STR_SCAVANGER_HUNT_OLD_BASE: "Scavengers: Old Base"
+  STR_SCAVANGER_HUNT_OLD_BASE_ALERT: "Scavenging in Old Base"
+  STR_SCAVANGER_HUNT_OLD_BASE_DESCRIPTION: "The Junkers contacted us and reported the location of an old base built during the Great Invasion. They are asking for our help because the base is crawling with security robots and mutants.{NEWLINE}Our employers won't be happy that we're poking around old government bases (-250 Reputation). However, the equipment and technology hidden deep in this bunker might be worth it."
+  STR_SCAVANGER_HUNT_OLD_BASE_BRIEFING: "The Junkers contacted us and reported the location of an old base built during the Great Invasion. They are asking for our help because the base is crawling with security robots and mutants.{NEWLINE}Our employers won't be happy that we're poking around old government bases (-250 Reputation). However, the equipment and technology hidden deep in this bunker might be worth it."
+
+  STR_GANG_HI_RISE_HOUSE_TAKEOVER: "Clearing Out a Den"
+  STR_GANG_HR_TAKEOVER_ALERT: "Clearing Out a Den"
+  STR_GANG_HI_RISE_HOUSE_TAKEOVER_BRIEFING: "Megapol contacted us with a job offer. In this megacity sector, a bunch of drugged-up street thugs have taken over a building and refuse to leave peacefully. Why not teach these bastards a lesson and carry them out feet first? Plus, it'll be great PR for our agency!"
+  STR_GANG_HR_TAKEOVER_DESCRIPTION: "Megapol contacted us with a job offer. In this megacity sector, a bunch of drugged-up street thugs have taken over a building and refuse to leave peacefully. Why not teach these bastards a lesson and carry them out feet first? Plus, it'll be great PR for our agency!"
+
+  STR_WASTELAND_FARM_RAID: "Farm Raid"
+  STR_WASTELAND_FARM_RAID_ALERT: "Raider Attack on Farm"
+  STR_WASTELAND_FARM_RAID_DESCRIPTION: "One of our clients contacted us asking for help. His small farm is frequently attacked by various thugs from the Wastes. It's gotten to the point where they're shooting directly at the farm workers! Time to teach these fuckers a lesson and earn our pay. We will be accompanied by several armed farmers — try to keep them alive if possible."
+  STR_WASTELAND_FARM_RAID_BRIEFING: "One of our clients contacted us asking for help. His small private farm is frequently attacked by various thugs from the Wastes. It's gotten to the point where they're shooting directly at the farm workers! Time to teach these fuckers a lesson and earn our pay. We will be accompanied by several armed farmers — try to keep them alive if possible.{NEWLINE}To abort the mission, move X-INC agents to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_SIN_CRAFT_SHOOTDOWN: "Unplanned Landing"
+  STR_SIN_CRAFT_SHOOTDOWN_DESCRIPTION: "“Alert! Alert! Anyone who can hear us! Our craft was shot down by rebels and we need help! Get our guys out of here and our corporation will reward you generously. But be careful — these bastards are well armed, and the engine of this junker could explode at any moment.”"
+  STR_SIN_CRAFT_SHOOTDOWN_BRIEFING: "“Alert! Alert! Anyone who can hear us! Our craft was shot down by rebels and we need help! Get our guys out of here and our corporation will reward you generously. But be careful — these bastards are well armed, and the engine of this junker could explode at any moment.”{NEWLINE}To abort the mission, move X-INC operatives to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_BANDIT_BUNKER_RAID: "Raider Military Bunker"
+  STR_BANDIT_BUNKER_RAID_ALERT: "Military Bunker"
+  STR_BANDIT_BUNKER_RAID_DESCRIPTION: "A local Wasteland ranger leader gave us the coordinates of this pre-war bunker occupied by a local raider gang. The place is well fortified, and according to former slaves, it has a working security system with turrets. So be extremely careful, and bring a couple of EMP grenades if possible."
+  STR_BANDIT_BUNKER_RAID_RIEFING: "A local Wasteland ranger leader gave us the coordinates of this pre-war bunker occupied by a local raider gang. The place is well fortified, and according to former slaves, it has a working security system with turrets. So be extremely careful, and bring a couple of EMP grenades if possible.{NEWLINE}To abort the mission, move X-INC operatives to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_SIN_OUTPOST: "Terrorist Outpost"
+  STR_ALERT_SIN_OUTPOST: "Terrorist Outpost"
+  STR_SIN_OUTPOST_DESCRIPTION: "Locals say a terrorist cell recently set up here. We should deal with them!"
+  STR_SIN_OUTPOST_BRIEFING: "Locals say a terrorist cell recently set up here. We should deal with them!{NEWLINE}To abort the mission, move X-INC operatives to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_BUTCHERY_RAID: "Butcher Shop of Horrors"
+  STR_BUTCHERY_RAID_ALERT: "Butcher Shop of Horrors"
+  STR_BUTCHERY_RAID_APPREHENSION: "Butcher Shop of Horrors"
+  STR_BUTCHERY_RAID_DESCRIPTION: "We received a job from Megapol. After a failed raid on one street gang, several Megapol officers were taken alive and are being held in an old dog food production facility. Of course none of those lazy bastards in Megapol will risk their own asses, so they want to send those they don't mind losing to the meat grinder — us. Be careful, the thugs are well armed and prepared."
+  STR_BUTCHERY_RAID_BRIEFING: "We received a job from Megapol. After a failed raid on one street gang, several Megapol officers were taken alive and are being held in an old dog food production facility. Of course none of those lazy bastards in Megapol will risk their own asses, so they want to send those they don't mind losing to the meat grinder — us. Be careful, the thugs are well armed and prepared.{NEWLINE}To abort the mission, move X-COM agents to the exit zone and click the 'Leave Battlefield' icon."
+
+  STR_SIN_TERROR: "Act of Terror"
+  STR_MARKER_SIN_TERROR_MISSION: "Terrorist Attack"
+  STR_SIN_TERROR_MISSION_DESC: "Local authorities are asking for help! The SiN terrorist group has attacked a residential district in the megacity. Local special services are busy suppressing terror in other parts of the city. But if we storm in and wipe out all the bastards killing civilians, it will be excellent PR for us!"
+  STR_SIN_TERROR_MISSION_BRIEFING: "Local authorities are asking for help! The SiN terrorist group has attacked a residential district in the megacity. Local special services are busy suppressing terror in other parts of the city. But if we storm in and wipe out all the bastards killing civilians, it will be excellent PR for us!{NEWLINE}To abort the mission, move X-COM agents to the exit zone and click the 'Leave Battlefield' icon."
+
+# TERRAINS
+  MAP_NUKE_ZONE: "Wasteland"
+  MAP_URBAN_WASTE: "Wasteland - Ruins"
+  MAP_NUKE_RURAL: "Wasteland - Village"
+  MAP_FORESTWASTE: "Wasteland - Forest"
+  MAP_FORESTSWAMP_WASTE: "Wasteland - Swamps"
+
+# FACTIONS
+  STR_RACE_WARDOGS: "Militarists"
+  STR_RACE_GUNRUNNERS: "Wasteland Gunrunners"
+  STR_MUTANTS: "Mutants"
+  STR_SYNDICATE: "Syndicate"
+  STR_RACE_SYNDICATE: "Syndicate"
+  STR_RACE_OLD_ROBOTS: "Pre-War Robots"
+  STR_RACE_BIKERS: "Bikers"
+  STR_TERRORIST_SIN: "SiN Terrorists"
+  STR_RACE_SMUGLERS: "Smugglers"
+
+# TECH SHIT
+  # ATTACK TYPES
+  STR_BURST: "Short Burst"
+
+  # DAMAGE TYPES
   STR_DAMAGE_10: "EMP"
   STR_DAMAGE_11: "ELECTRIC"
   STR_DAMAGE_12: "PSI"
   STR_DAMAGE_13: "WARP"
-  STR_DAMAGE_14: "Anti-E-115"
+  STR_DAMAGE_14: "ANTI-E115"
   STR_DAMAGE_15: "BIO"
-  STR_SHOT_TYPE_AUTO: "Auto (x{0})"
-  STR_SHOT_TYPE_SNAP: "Snap (x{0})"
-  STR_SHOT_TYPE_AIMED: "Aimed (x{0})"
-#Tech Shit - Inv
-  STR_QD_SLOT: "QD"
+  STR_DAMAGE_16: "PIERCING"
+  STR_DAMAGE_17: "THERMAL"
+  STR_DAMAGE_18: "CRYOGENIC"
 
-#Mission Breeefing
-  STR_SNEEDS_YOUR_FEEDS: "Sneed your feeds"
-  STR_SNEEDS_YOUR_FEEDS_DESCRIPTION: "One of the members of a dangerous hacker group known as Federation of Asshole Gamers (F.A.G. in short) has been spotted in this area! We have to capture him at all costs!"
-  STR_SNEEDS_YOUR_FEEDS_BRIEFING: "SNEED. FEED AND SEED. CHUCK. FUCK AND SUCK. WE GET IT. HAHAHAHA! SO FUNNY! BECAUSE FUCK AND SUCK FUCK! WHOOOOOA BRO LIKE HAVING INTERCOURSE AND FELLATIO! HOLY WOW HOW DID THE SIMPSONS GET AWAY WITH THIS ONE?! GOLLY GEE WILLIKERS WHAT THE FUCK IT'S ABSOLUTELY HILARIOUS AHAHAHAHAHA! BECAUSE SNEED SELLS FEED AND SEED WHICH IS TOTALLY NORMAL BUT CHUCK, CHUCKY, CHUCK SELLS FUCK AND SUCK! CHUCK SELLS FUCK AND SUCK! FUCK AND SUCK!"
-  STR_WASTELAND_GANG: "Wasteland Gang"
-  STR_WASTELAND_GANG_BRIEFING: "We have located a small group of raiders in this area, neutralize them all!"
-  STR_WASTELAND_FARM_RAID: "Raider farm attack"
-  STR_WASTELAND_FARM_RAID_ALERT: "Raider farm attack"
-  STR_WASTELAND_FARM_RAID_DESCRIPTION: "One of our clients contacted us and asked for help. His small farm is often attacked by various thugs from the Wasteland. It got to the point that they started shooting directly at the farm workers! It's time to teach these fuckers a lesson and earn our paychek. We will be accompanied by several armed farmers, try to save their lives if possible."
-  STR_WASTELAND_FARM_RAID_BRIEFING: "One of our clients contacted us and asked for help. His small farm is often attacked by various thugs from the Wasteland. It got to the point that they started shooting directly at the farm workers! It's time to teach these fuckers a lesson and earn our paychek. We will be accompanied by several armed farmers, try to save their lives if possible. To abort the mission return X-Com operatives to the exit area and click on the 'Abort Mission' icon."
-  STR_GANG_HI_RISE_HOUSE_TAKEOVER: "Brothel cleaning service"
-  STR_GANG_HR_TAKEOVER_ALERT: "Brothel cleaning service"
-  STR_GANG_HI_RISE_HOUSE_TAKEOVER_BRIEFING: "Megapol contacted us and offerd a job. In this sector of the mega city, a gathering of stoned city goons was formed who did not want to get out of here at good terms. Why not teach these pricks a lesson and get them out of this building feet first? Besides, it wont be a bad PR move for our agency!"
+  # OTHER
+  STR_DEPLOY: "Deploy"
+  STR_LAUNCH_GRENADE_M16: "Underbarrel Grenade Launcher"
+  STR_PUNCH: "Punch"
 
-  STR_SMUGLER_CLUB: "Smuglers Club"
-  STR_SMUGLER_CLUB_BRIEFING: "Мегапол сообщил нам о укрытии местных барыг которые... нехотят сотрудничать с органами правопорядка по хорошему. Нам СЛУЧАЙНО попли кординаты их ночного клуба в котором они прячут всё своё барахло, так почему бы нам туда ненаведатся ? {NEWLINE} ВНИМАНИЕ! - На задание можно взять только гражданскую броню и оружие ближнего боя. {NEWLINE}Чтобы прервать задание, приведите оперотивников X-INC в зону выхода и кликните по иконке «Покинуть поле боя»."
-  STR_SMUGLER_CLUB_ALERT_DESCRIPTION: "Мегапол сообщил нам о укрытии местных барыг которые... нехотят сотрудничать с органами правопорядка по хорошему. Нам СЛУЧАЙНО попли кординаты их ночного клуба в котором они прячут всё своё барахло, так почему бы нам туда ненаведатся ? {NEWLINE} ВНИМАНИЕ! - На задание можно взять только гражданскую броню и оружие ближнего боя."
-  STR_GANG_BURGLARY: "Налёт на Мега город"
-  STR_GANG_BURGLARY_DESCRIPTION: "Недавно было совершён налёт на жилой район мега-города в этом секторе. Нам удалось засечь нападавших в этом секторе. Если нам удастся их перехватить, то мы можем их задержать!"
-  STR_WASTELAND_GANG: "Raiders Outpost"
-  STR_WASTELAND_GANG_BRIEFING: "Местные жители Пустишей жалуются на частые налёты рейдеров в этом районе. Ясное дело что местным правительствам не до того что бы тратить рессурсы на каких-то мелких бандюг хрен-знает-где. Облава на это место не только принесёт нам немного известности, но мы можем изъять кое-какие стволы и экиперовку в качестве... доказательств. Если вы понимаете о чём я. {NEWLINE}Чтобы прервать задание, приведите оперотивников X-INC в зону выхода и кликните по иконке «Покинуть поле боя». "
-  STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: "!Налёт на Старую Военную базу!"
-  STR_SCAVANGER_HUNT_OLD_BASE: "Мусорщики: Старая база"
-  STR_SCAVANGER_HUNT_OLD_BASE_ALERT: "Мусарка в старой базе"
-  STR_SCAVANGER_HUNT_OLD_BASE_DESCRIPTION: "Жестянщики связалась с нами и сообщили о местонахождении старой базы, построенной ещё во времена Великого Вторжения. Они просят нас помощи т.к. база кешит охранными роботами и мутантоми.{NEWLINE} Наши работадатили не будут в восторге от того что мы будем лазить по старым правительствинным базам (-250 рейтинга). Однако экиперовка и технологии таящиеся в глубинах этого бункера могут того стоить."
-  STR_SCAVANGER_HUNT_OLD_BASE_BRIEFING: "Жестянщики связалась с нами и сообщили о местонахождении старой базы, построенной ещё во времена Великого Вторжения. Они просят помощи т.к. база кешит охранными роботами и мутантоми. Наши работадатили не будут в восторге от того что мы будем лазить по старым правительствинным базам (-250 рейтинга). Однако экиперовка и технологии таящиеся в глубинах этого бункера могут того стоить."
-  STR_GANG_HI_RISE_HOUSE_TAKEOVER: "Чистка притона"
-  STR_GANG_HR_TAKEOVER_ALERT: "Чистка притона"
-  STR_GANG_HI_RISE_HOUSE_TAKEOVER_BRIEFING: "Мегапол связался с нами и предложил нам работу. В этом секторе мага города образавалось сборище обдолбаных городских гловорезов которые нехотять свалить отсюда по хорошему. Почему бы не приподать этим ублюдкам урок и не вынести их из этого здания ногами вперёд? К тому же, это будет неплохой пиар ход нашего агенства!"
-  STR_GANG_HR_TAKEOVER_DESCRIPTION: "Мегапол связался с нами и предложил нам работу. В этом секторе мага города образавалось сборище обдолбаных городских гловорезов которые нехотять свалить отсюда по хорошему. Почему бы не приподать этим ублюдкам урок и не вынести их из этого здания ногами вперёд? К тому же, это будет неплохой пиар ход нашего агенства!"
-  STR_WASTELAND_FARM_RAID: "Налёт на ферму"
-  STR_WASTELAND_FARM_RAID_ALERT: "Атака Рейдеров на ферму"
-  STR_WASTELAND_FARM_RAID_DESCRIPTION: "С нам связался один из наших клиентов который просит о помощи. На его небольшую ферму часто нападают различные головорезы из пустышей. Дошло до того что они начали стрелять прямо в работников фермы! Пора бы преподать этим уёбкам урок и отрабтать нашу зарплату. Нас буду сопровождать несколько вооружонных фермеров, постарайтесь сохранить им жизнь если это возможно."
-  STR_WASTELAND_FARM_RAID_BRIEFING: "С нам связался один из наших клиентов который просит о помощи. На его небольшую частную ферму часто наподают различные головорезы из пустышей. Дошло до того что они начали стрелять прямо в работников фермы! Пора бы преподать этим уёбкам урок и отрабтать нашу зарплату. Нас буду сопровождать несколько вооружонных фермеров, постарайтесь сохранить им жизнь если это возможно. Чтобы прервать задание, приведите агентов X-COM в зону выхода и кликните по иконке «Покинуть поле боя»."
-  STR_SIN_CRAFT_SHOOTDOWN: "Незаплонированная посадка"
-  STR_SIN_CRAFT_SHOOTDOWN_DESCRIPTION: "«Тревога, Тревога, всем кто нас слышит! Наше судно было сбито повстанцеми и мы просим помощи! Выташите наших ребят отсюда и наша корпорация щедро вас вознаградит. Но будтье осторожны эти ублюдки хорошо вооружены, а двигатель этой калымагы может взорватся в любой момент.»"
-  STR_SIN_CRAFT_SHOOTDOWN_BRIEFING: "«Тревога, Тревога, всем кто нас слышит! Наше судно было сбито повстанцеми и мы просим помощи! Выташите наших ребят отсюда и наша корпорация щедро вас вознаградит.Но будтье осторожны эти ублюдки хорошо вооружены, а двигатель этой калымагы может взорватся в любой момент.{NEWLINE}Чтобы прервать задание, приведите оперотивников X-INC в зону выхода и кликните по иконке «Покинуть поле боя»."
-  STR_SIN_OUTPOST: "Аутпост Рейдеров"
-  STR_ALERT_SIN_OUTPOST: "Аутпост Рейдеров"
-  STR_SIN_OUTPOST_DESCRIPTION: "Местные говорят что недавно здесь обосновлось ячейка террористов нам бы следовало с ними разобратся!"
-  STR_SIN_OUTPOST_BRIEFING: "Местные говорят что недавно здесь обосновлось ячейка террористов нам бы следовало с ними разобратся!{NEWLINE}Чтобы прервать задание, приведите оперотивников X-INC в зону выхода и кликните по иконке «Покинуть поле боя»."
-  STR_BUTCHERY_RAID: "Мясная лавка ужасов"
-  STR_BUTCHERY_RAID_ALERT: "Butcher horror"
-  STR_BUTCHERY_RAID_DESCRIPTION: "К нам посутпило задание от Мегапола. После неудачного облавы на одну из улченых групировок, некоторые официеры Мегапорла были захвачены живём и держатся в старой базе по производтсву собачей еды.  Конечно же никто из этих ленивых ублёдков в Мегаполе не будет рисковать своей жопой, так что на фарш хотят пустить того кого не жалко, тоесть нас. Будте осторожны головорезы хорошо вооружены и подготовлены."
-  STR_BUTCHERY_RAID_BRIEFING: "К нам посутпило задание от Мегапола. После неудачного облавы на одну из улченых групировок, некоторые официеры Мегапорла были захвачены живём и держатся в старой базе по производтсву собачей еды.  Конечно же никто из этих ленивых ублёдков в Мегаполе не будет рисковать своей жопой, так что на фарш хотят пустить того кого не жалко, тоесть нас. Будте осторожны головорезы хорошо вооружены и подготовлены. Чтобы прервать задание, приведите агентов X-COM в зону выхода и кликните по иконке «Покинуть поле боя»."
+  # ATTACK / FIRING MODES
+  STR_CHAINSAW_SHORT: "Saw"
+  STR_PUNCH_SHORT: "Punch"
+  STR_LIT_AND_THROW: "Light and Throw"
+  STR_UNPRIME_GRENADE: "Unprime"
 
+# EVENTS
+  STR_PIZZA_TIME_EVENT: "Pizza Time!"
+  STR_PIZZA_TIME_EVENT_DESCRIPTION: "Someone delivered pizza right to our base entrance!"
 
-#Tech Tree
-  STR_OURORIGINS: "Our origins"
-  STR_OURORIGINS_UFOPEDIA: "More than 200 years have passed since the X-com space defense fleet of the Earth destroyed the last strongholds of aliens in our solar system.A lot has changed since then, and humanity has mastered deep space and begun to sow colonies in the nearest corners of the galaxy.{NEWLINE}Who are we exacly? A bunch of enterprising mercenaries who rent a small military base on Earth. Our corporate leadership has chosen you, a cryoprisoner from 2068, to lead our mercenary army! You had experience in leading such organizations, right?"
+  STR_TEST_EVENT: "Pleasant Surprise"
+  STR_TEST_EVENT_DESCRIPTION: "{NEWLINE}The base we chose to operate from is quite old, but it still holds its secrets. It looks like the previous team left some equipment in one of the sectors!{NEWLINE}{NEWLINE}[{ALT}Found 3 Military Crates!{ALT}]"
+
+  # NEWS
+  STR_GNN_NEWS_001: "Shadow News"
+  STR_GNN_NEWS_002: "Shadow News"
+  STR_GNN_NEWS_003: "Shadow News"
+  STR_GNN_NEWS_004: "Shadow News"
+  STR_GNN_NEWS_005: "Shadow News"
+  STR_GNN_NEWS_006: "Shadow News"
+
+  STR_GNN_MURDER_1_DESCRIPTION: "{NEWLINE}Yesterday morning, the bodies of three prominent anti-corruption activists were found in one of the abandoned landfills of Megaprim {0}. Megapol denies any political motive, stating that these individuals should have spent more money on their own security instead of foolish things like fighting corruption."
+
+  STR_GNN_MURDER_2_DESCRIPTION: "Last week, the body of a journalist investigating one of Zaibatsu's enterprises was found. Her skull was crushed and signs of sexual assault were discovered on the body. At a recent press conference, a Zaibatsu representative smiled brightly and commented on the incident, advising media companies to pay less attention to ordinary thug attacks."
+
+  STR_GNN_MURDER_3_DESCRIPTION: "{NEWLINE}Last Tuesday, eco-activists staged a protest in the Megaprim {ALT}{0}{ALT} museum. The protesters poured paint on an ancient artifact found in the Tau Ceti-12 system as a sign of protest against the use of nuclear energy in warp engines. The exhibition curator, who personally killed the vandals in front of a cheering crowd, called the incident an act of disrespect toward the Astronauts Guild and will demand compensation from the families of the deceased for damaging expensive property."
+
+  STR_GNN_EXPLOTION_1_DESCRIPTION: "{NEWLINE}...And in other news. Last Tuesday, an explosion occurred in a residential complex in one of the sectors of Megaprim {0}. Residents and victims claim they saw people and vans from the construction company «Construction Inc.» a few days earlier. Company representatives state that the building demolition was pre-planned and pre-approved by local authorities. Megapol leadership promised to investigate the matter as soon as possible."
+
+  STR_GNN_EXPLOTION_2_DESCRIPTION: "...and in other news! Yesterday morning a terrorist attack was carried out in one of the sectors of Megaprim {ALT}{0}{ALT}. Separatists carried out a series of explosions in a residential area — dozens dead, hundreds injured. Megapol is investigating this inhumane act; suspects are being questioned and have already been detained.{NEWLINE}This news was brought to you by the Central European restaurant chain «Chyrvony Kutok».{NEWLINE}«Eat till you burst!»"
+
+  STR_GNN_SIN_TERROR_1_DESCRIPTION: "{NEWLINE}Fierce fighting took place in the city of {0} between security forces and the terrorist group «SiN». Megapol forces suffered losses but managed to contain the terrorist rampage. One anonymous soldier reports that some attackers were using advanced weapons and armor."
+
+  STR_GNN_SIN_AD_1_DESCRIPTION: "{NEWLINE}...And this news block was sponsored by «Bloodsport». (Voice switches to a male announcer) Every Saturday. At 11:00. We Make HISTORY in the entertainment industry! We take twenty recently paroled prisoners, give them rifles, machine guns and rocket launchers, and make them fight to the death! This is the reality show that changed "
+
+# NEGATIVE EVENTS
+  STR_TRAFFIC_TICKET: "Traffic Violation"
+  STR_TRAFFIC_TICKET_DESCRIPTION: "After one of our missions we received a fine for illegal parking. Such minor offenses still damage your reputation.{NEWLINE}[-25 Reputation]{NEWLINE}[-1,000 Credits]"
+
+# STARTING EVENTS
+  STR_START_LOCATION_EVENT_RUSSIA: "Starting Country: Russian Federation"
+  STR_START_LOCATION_EVENT_RUSSIA_DESCRIPTION: ">One of the largest countries in the world with vast lands and rich history. Our patrons managed to convince the military to assign us a couple of experienced soldiers.{NEWLINE}>Local governments reluctantly allowed us to operate in their country... for a small compensation.{NEWLINE}[-350,000 Credits]{NEWLINE}Political Pressure: Moderate [-50 Starting Reputation]"
+
+  STR_START_LOCATION_EVENT_UK: "Starting Country: United Kingdom"
+  STR_START_LOCATION_EVENT_UK_DESCRIPTION: ">The United Kingdom is a union of two old nations. This state is known for its harshness toward civilians. Therefore, local authorities issued us elite special forces protective gear.{NEWLINE}Political Pressure: Moderate [-50 Starting Reputation]"
+
+# RESEARCH / TECH TREE
+  STR_OURORIGINS: "Our Origins"
+  STR_OURORIGINS_UFOPEDIA: "More than 200 years have passed since the Earth Defense Fleet X-Com destroyed the last alien strongholds in our Solar System. Much has changed since then and humanity has mastered deep space, beginning to colonize nearby corners of the galaxy.{NEWLINE}Who are we? A bunch of enterprising mercenaries who seized a small military base on Earth. Our board of directors chose you — a cryo-prisoner from 2068 — to lead our mercenary army! You do have experience commanding such organizations, right?"
+
+  STR_INTEL_OFFICER_1: "Briefing"
+  INTEL_OFFICER_INTRODUCTION_UFOPEDIA: "Greetings, Chief! I hope the recovery from cryo-sleep went smoothly. Since you spent almost 150 years in the freezer, allow me to bring you up to speed. Our organization is a private police force that specializes in catching all kinds of scum around megacities. We also cooperate with Megapol and other Earth security structures. But after several years of decline, the board of directors decided to appoint a new commander — you!{NEWLINE}I really hope you can handle this difficult task, Chief."
+
+  STR_MEDICAL_BRANCH: "Medicine"
+  STR_MEDICAL_BRANCH_UFOPEDIA: "We can now develop our own projects for various medications and augmentations."
+
+  STR_PERSONNEL_REFORM: "Personnel Reform"
+  STR_PERSONEL_REFORM_UFOPEDIA: "To effectively manage your new company, you decided to review its history. It turned out that X-INC was essentially a shell company for guarding private enterprises and government facilities. Its former leader and founders were influential people. So why bother creating such a small subsidiary? Who knows. Your task is to turn this dumpster fire into something worthwhile, so you started working with the resources you have. Time to expand."
+
   STR_WEAPON_SHOPPING: "Weapon Shopping"
-  STR_WEAPON_SHOPPING_UFOPEDIA: "We've go through many shops in the mega cityies, looking for more suitable guns for our organization. As expected, we ain't find anything interesting except some useless junk. However, this search has led us to think of going deeper into the Black Market. Of course, we will not immediately put on a cool military equipment, and it will take a lot of time to build up contacts, but it is still worth trying. {NEWLINE}(You can check new weapons in CyberPredia)"
-  STR_GUNSHOP_ACCESS: "Gun shop access"
-  STR_GUNSHOP_ACCESS_UFOPEDIA: "You can now buy better guns like shotguns or SMGs :)"
-  STR_SCAVENGERS_OLD_MILBASE_MISSION_RES: "!Old Military base raid!"
+  STR_WEAPON_SHOPPING_UFOPEDIA: "We scoured city shops looking for more suitable equipment for our organization. As expected, we found nothing interesting — just useless junk. However, these searches gave us the idea to dive into the Black Market. Of course, we won't immediately get top-tier military gear, and it will take time to build connections, but it's worth trying.{NEWLINE}{NEWLINE}{ALT}You can check out the new weapons in the Cyberpedia.{ALT}"
+
+  STR_GUNSHOP_ACCESS: "Gun Shop Access"
+  STR_GUNSHOP_ACCESS_UFOPEDIA: "We can now buy NORMAL weapons. The quality isn't great, but at least we can arm ourselves with what street thugs buy under the counter in shady shops."
+
+  STR_WASTELAND_MISSIONS: "Wasteland Operations"
+  STR_WASTELAND_MISSIONS_UFOPEDIA: "The Wastes are a place of opportunity, even if it's a stinking hole populated by mutants, bandits, and other societal rejects. Locals will be very interested in cooperating with people from the megacities, like us. After all, having friends and allies never hurts, right?{NEWLINE}{NEWLINE}If our informants dig up anything, we'll let you know, Chief."
+
+  STR_WASTELAND_WEAPON_FACTORY_PED: "Makeshift Weapons Factories"
+  STR_WASTELAND_WEAPON_FACTORY_UFOPEDIA: "Finding a gun in the Wastes is not easy. Finding a good gun is even harder. After questioning raiders and bandits, we learned that some groups have small but functional makeshift factories producing homemade firearms! If our informants can locate such sites, we could get our hands on this kind of weaponry."
+
+  STR_WEAPON_FACIL_RES: "!Raider Weapons Factory!"
+  STR_WASTELAND_LORE_1_PED: "The Wastes"
+  STR_WASTELAND_LORE_1_UFOPEDIA: "After World War III, 84% of Earth's surface was scorched by nuclear fire. These territories are simply called the Wastes by the people. City dwellers rarely venture here because of the numerous bandits and mutants, and the Earth government and Megapol don't like wasting precious time and resources on petty squabbles among the inhabitants. This place is perfect for criminal elements. That's why there's plenty of work for us!"
+
+  STR_BLACK_MARKET_ACCES: "Black Market"
+  STR_BLACK_MARKET_UFOPEDIA: "Navigating through layers of conspiracy and secrecy to find useful contacts wasn't easy, but we succeeded! After meeting the right people and waving some cash in front of their noses, an entire world of illegal implants, armor, and weapons opened up to us."
+
+  STR_MILITARY_SUPLIES: "Military Supplies Access"
   STR_MILITARY_SUPPLIES: "Military Supplies"
-  STR_MILITARY_SUPPLIES_UFOPEDIA: "Now that we have extensive connections with the military, we don�t have to worry about the lack of supply of normal weapons and armor! Now we can buy standard military weapons and armor for our needs."
-  STR_ELECTRONICS_UFOPED: "Electronics supplies"
-  STR_ELECTRONICS_UFOPEDIA: "In general, modern electronics of the 24th century is not something that complicated in order to understand or require to disassemble and research. General information is already available. All we need is to find good and reliable suppliers of such stuff. And now that the job is done, we can order specific types of electronics and equipment for our base."
-  STR_BASIC_ARMOUR_DESIGN: "Basic Armour Design"
-  STR_BASIC_ARMOUR_DESIGN_UFOPEDIA: "By studying the available armor models, we figured that they are mostly made of light but durable materials, such as polymers or plaststeel. They are usually well suited for the dispersion of kinetic energy. Having learned how to process these complex materials, we can develop our own conventional armour suits without buying them from those FUCKING greedy speculators who sells used and overpriced crap."
+  STR_MILITARY_SUPPLIES_UFOPEDIA: "Now that we have strong connections with the military, we no longer have to worry about shortages of proper weapons and armor! We can now purchase standard military-grade equipment for our needs."
 
+  STR_RIMWORLD_SUPPLIES_ACCES: "Colonial Supplies Access"
+  STR_RIMWORLD_SUPPLIES_UFOPEDIA: "We can now order equipment from colonial infantry suppliers."
 
-#Events
-  STR_PIZZA_TIME_EVENT: "It's Pizza time !"
-  STR_PIZZA_TIME_EVENT_DESCRIPTION: "Someone deliverd a pizza at the doors of your base !"
-  STR_TEST_EVENT: "Pleasent suprise"
-  STR_TEST_EVENT_DESCRIPTION: "{NEWLINE}The base we work on is quite old, but it still keeps its secrets. It looks like the previous team before us left some equipment in one of the compartments!{NEWLINE} [3 military boxes found!]"
+  STR_ELECTRONICS_UFOPED: "Electronics Supplies"
+  STR_ELECTRONICS: "Electronics Supplies"
+  STR_ELECTRONICS_UFOPEDIA: "Modern 24th-century electronics aren't particularly complicated to understand or study in detail. Most information is already publicly available, except for patented and highly complex power schemes. All we needed was to find reliable suppliers. Now that it's done, we can order specific types of electronics and equipment for our needs."
 
-#Events - News
-  STR_GNN_NEWS_001: "GNN Report"
-  STR_GNN_NEWS_002: "GNN Report"
-  STR_GNN_NEWS_003: "GNN Report"
-  STR_GNN_MURDER_1_DESCRIPTION: "{NEWLINE}Last morning, in one of the abandoned junctures of {0} city, the bodies of three notible corruption division at the highest levels of power were found. Megapol refutes political assassination, saying that these noisy individuals should have spent more money and time on their own security than on stupid things like fighting corruption."
-  STR_GNN_MURDER_2_DESCRIPTION: "{NEWLINE}Last week, the corpse of a journalist involved in an investigation at one of Zaibatsu enterprises was found. Her skull was broken and there were signs of rape on the body. At a recent conference, the representative of �Zaibatsu� corporation with a bright smile on her face, commented on this event and advised media companies to pay less attention to the common thugs attacks."
-  STR_GNN_MURDER_3_DESCRIPTION: "{NEWLINE}Last Tuesday there was a performance by eco-activists in the museum of mega-city {0}. The protesters smeared ancient artifact, found in Tau Kita - 12 solar system, with a paint, in protest against the useage of nuclear energy in warp engines. The show's curator, who personally killed the hooligans in front of a jubilant audience, has claimed that this incident was an act of disrespect towards the Space Guild and will demand compensation from the families of nutrlized hooligans for damaging expensive property."
-#Events - BadEvents
-  STR_TRAFFIC_TICKET: "Traffic Ticket"
-  STR_TRAFFIC_TICKET_DESCRIPTION: "After one of our missions we received a bill for parking in the wrong place. This kind of small misdemeanors still hurt your reputation. {NEWLINE}[-25 Raiting] {NEWLINE}[-500 Credits]"
-#Missions
-  STR_OLD_MILBASE_MISSION_PED: "!Old Military base raid!"
-  STR_OLD_MILBASE_MISSION_READY_UFOPEDIA: "We speak with a few wasteland rangers warchiefs and they agreed to let us in in their old military base expeditions.But they warn us that this facility would be filled with mutants and old security robots that will shred anyone who dares to step inside. So they suggest us be prepared, they let us know if opportunity arise.But some of our shareholders won't be happy about this type of... liberties that we are taking."
+  STR_BASIC_ARMOUR_DESIGN: "Basic Armor Design"
+  STR_BASIC_ARMOUR_DESIGN_UFOPEDIA: "After studying the combat armor available on the market, we noticed that they mostly use light but durable materials such as polymers and plastisteel. They are usually good at dispersing kinetic energy. By studying the processing of such complex materials, we can now develop our own armor suits instead of depending on those damn greedy second-hand speculators."
 
-#Commendations and rewards
+  STR_MINIGUN_LICENSE_PED: "Minigun License Acquisition"
+  STR_MINIGUN_LICENSE_UFOPEDIA: "After a long struggle with bureaucracy, we can finally purchase machine guns and even military-grade miniguns. Of course we still need to find and study their manufacturers, but at least buying them will be easier now."
+  STR_MINIGUN_LICENSE: "License: Machine Guns"
 
-  STR_MELEE_PSYCHO_NAME: "Melee psycho"
-  STR_MELEE_PSYCHO_UFOPEDIA: "You REALLY like hurt other people. Deliver justice using non-standard melee weapons such as bats, axes, knives or brass knuckles.{NEWLINE}{NEWLINE} Every even level: +1 to TU.{NEWLINE} Every odd level: +2 to stamina.{NEWLINE} On Level 5: + 1 stamina regen per turn.{NEWLINE} On Level 10: +10 Bravery."
-  STR_OLD_WOLRD_ENJOYER_NAME: "Old world enjoyer"
-  STR_OLD_WOLRD_ENJOYER_UFOPEDIA: "Whats the point of using all these fancy new guns, if good ol Colt is still kicking? Besides, using those weapon gives you a strange sense of nostalgia that you've never had before... Use pre-war weapons to uphold law and order on Earth.{NEWLINE}{NEWLINE}Gives +1 to Accuracy and Reactions alternately.{NEWLINE}At level V: +5 to Concentration.{NEWLINE}At level X: + 1 stamina regen per turn and +10 Bravery. "
+  STR_EXPLOSIVES_LICENSE_PED: "Explosives License Acquisition"
+  STR_EXPLOSIVES_LICENSE_UFOPEDIA: "We can now purchase rocket launchers and grenades from verified suppliers."
+  STR_EXPLOSIVES_LICENSE: "License: Explosives"
 
-#BadBoys
-  STR_SYNDICATE: "Syndicate"
-  STR_SMUGLERS: "Smuglers"
+  STR_BASE_EXPANSION_PROJECT: "Base Expansion Project"
+  STR_BASE_EXPANSION_PROJECT_UFOPEDIA: "We can now build base modules!"
+
+  STR_ALIEN_ALLOYS_MATRIX: "Plastisteel Matrix"
+  STR_ALIEN_ALLOYS_MATRIX_UFOPEDIA: "After finding the necessary blueprints on the black market, we can now produce plastisteel and all related components ourselves."
+
+  OLD_MILBASE_MISSION_PED: "!Raids on Old Military Bases!"
+  STR_OLD_MILBASE_MISSION_READY_UFOPEDIA: "We spoke with several Wasteland ranger leaders, and they agreed to let us access old military bases. They warn that the bases may contain mutants and old security robots that will tear apart anyone who dares enter. They advise us to be prepared for such expeditions and will notify us immediately if an opportunity arises. However, some of our 'shareholders' will not be pleased with this kind of... liberty."
+
+# TRANSFORMATIONS & AUGMENTATIONS
+  # TRAINING
+  STR_TRANSFORMATIONS_AND_AUGS_UC: "TRANSFORMATIONS & AUGMENTATIONS"
+  STR_BASIC_FIREARMS_TRAINING: "Basic Firearms Training"
+  STR_TRNS_BASICSHOOTING_PED: "Basic Firearms Training"
+  STR_BASICSHOOTING_UFOPEDIA: "After a short talk with HR, you were horrified to learn that none of the recruits had received basic firearms training! You had to spend some resources to organize proper instruction.{NEWLINE}{NEWLINE}Our operatives can now take shooting courses that increase their {ALT}Firing Accuracy{ALT} by 12 and {ALT}Reactions{ALT} by 4. Training lasts 6 days and costs 7,000 credits. Requires a Gym."
+
+  # AUGMENTATIONS
+  STR_AUGMENTATION_BASICS: "Agent Augmentations"
+  STR_AUGMENTATION_BASICS_UFOPEDIA: "We live in an age where human cyberization is no longer rare or prohibitively expensive. All we need is the equipment, a specialist to install it, and the hardware itself. However, installing implants from other manufacturers is quite risky. So we came up with a simple but brilliant solution — reinstall the OS on existing implants and just upgrade the hardware. Therefore, implants should be installed on our operatives one at a time."
+
+  STR_AUG_MIL_NEIROIMPLANT: "Military Neuroimplant"
+  STR_AUG_MIL_NEIROIMPLANT_UFOPEDIA: "A very expensive piece of hardware. Usually installed on members of elite units or bodyguards of corporate CEOs. The interface is so good it doesn't even affect the operative's concentration.{NEWLINE}{NEWLINE}+8 Accuracy;{NEWLINE}+8 Reactions;{NEWLINE}+6 Melee;{NEWLINE}+8 Throwing Accuracy;{NEWLINE}+1 Concentration;{NEWLINE}+3 Morale (per turn)."
+
+  STR_AUG_SPAMTON_GLASSES: "BROKEN GLASSES"
+  STR_AUG_SPAMTON_GLASSES_UFOPEDIA: "THESE [[Magnificent]] AND [[Mind-Blowing]] [Trade Name] WILL TURN YOU INTO A TRUE [[Link Blocked]]. ALL YOU NEED IS [Account Details] AND [[Numbers On The Back]]. SIDE EFFECTS INCLUDE [[Stomach Discomfort And Pain?]].{NEWLINE}+65,535 TU.{NEWLINE}+65,535 Energy.{NEWLINE}+65,535 Health.{NEWLINE}+65,535 [[Guts]].{NEWLINE}+65,535 Reactions.{NEWLINE}+65,535 Firing Accuracy.{NEWLINE}+65,535 Throwing Accuracy.{NEWLINE}+65,535 Strength.{NEWLINE}+65,535 Psi Strength.{NEWLINE}+65,535 Psi Skill."
+
+  # EYE AUGMENTATIONS
+  STR_AUG_EYE_MK1: "Eye Implant Mk1"
+  STR_AUG_EYE_MK1_UFOPEDIA: "Corporate 'Scanner' ocular. Magnified vision, built-in sign translator and micro-expression loyalty analyzer. Advertising disabled for an extra fee.{NEWLINE}{NEWLINE}+12 Accuracy;{NEWLINE}-1 Concentration."
+
+  STR_AUG_EYE_MK2: "Eye Implant Mk2"
+  STR_AUG_EYE_MK2_UFOPEDIA: "Military-grade eye implant optimized for combat. The new interface will slightly mess with the user's head.{NEWLINE}{NEWLINE}+8 Accuracy;{NEWLINE}+2 Night Vision."
+
+  STR_AUG_EYE_MK3: "Eye Implant Mk3"
+  STR_AUG_EYE_MK3_UFOPEDIA: "Tactical 'Falcon' visor. Night vision, thermal imaging, rangefinder and ballistic computer. Designed for private military company snipers.{NEWLINE}{NEWLINE}+6 Accuracy;{NEWLINE}+6 Reactions;{NEWLINE}+4 Night Vision."
+
+  # ARM AUGMENTATIONS
+  STR_AUG_ARM_MK1: "Arm Implant Mk1"
+  STR_AUG_ARM_MK1_UFOPEDIA: "Budget exomuscle enhancers. Flimsy, often squeaky, but let you tighten nuts without a wrench and open pickle jars with one hand. Popular with loaders and plumbers.{NEWLINE}{NEWLINE}+10 Strength;{NEWLINE}-1 Concentration."
+
+  STR_AUG_ARM_MK2: "Arm Implant Mk2"
+  STR_AUG_ARM_MK2_UFOPEDIA: "Sturdy stabilized frame. Provides an iron grip, improves accuracy with heavy weapons, and lets you bend a steel beam in a fight. Standard issue for corporate security.{NEWLINE}{NEWLINE}+6 Strength;{NEWLINE}+2 Accuracy."
+
+  STR_AUG_ARM_MK3: "Arm Implant Mk3"
+  STR_AUG_ARM_MK3_UFOPEDIA: "Hydraulic monster with carbon-fiber coating. Full forearm replacement with integrated light weapon mount and a laser sight built into the palm!{NEWLINE}{NEWLINE}+8 Strength;{NEWLINE}+5 Accuracy."
+
+  # LEG AUGMENTATIONS
+  STR_AUG_LEG_MK1: "Leg Implant Mk1"
+  STR_AUG_LEG_MK1_UFOPEDIA: "Consumer 'Courier' model. Light shock absorption for delivery people and those who are always late. Cushions jumps from the 2nd floor and saves 15% energy while running. Tends to squeak in rainy weather. The ad promised 'kangaroo-like jumps', but didn't specify which kangaroo.{NEWLINE}{NEWLINE}+12 TU;{NEWLINE}+8 Stamina;{NEWLINE}-2 Morale (per turn)."
+
+  STR_AUG_LEG_MK2: "Leg Implant Mk2"
+  STR_AUG_LEG_MK2_UFOPEDIA: "Tactical 'Runner' frame. Increases movement speed and jump height, stabilizes stance. Adaptive shock absorption. Popular with neo-city parkour runners and installers.{NEWLINE}{NEWLINE}+8 TU;{NEWLINE}+6 Stamina."
+
+  STR_AUG_LEG_MK3: "Leg Implant Mk3"
+  STR_AUG_LEG_MK3_UFOPEDIA: "Tactical sprint complex 'Griffon'. Allows sprinting up to 55 km/h over short distances. Does not strain leg and torso muscles.{NEWLINE}{NEWLINE}+6 TU;{NEWLINE}+10 Stamina."
+
+  # BRAIN AUGMENTATIONS
+  STR_AUG_BRAIN_MK1: "Brain Implant Mk1"
+  STR_AUG_BRAIN_MK1_UFOPEDIA: "Basic neuroimplant for office plankton. Lets you keep three work chats, two calendars, and a reminder to buy milk in your head. Side effects include mild tinnitus (-1 Concentration per turn) and intrusive ads while sleeping.{NEWLINE}{NEWLINE}+12 Reactions;{NEWLINE}+8 Melee;{NEWLINE}+10 Psi Skill;{NEWLINE}+10 Psi Strength;{NEWLINE}-1 Concentration."
+
+  STR_AUG_BRAIN_MK2: "Brain Implant Mk2"
+  STR_AUG_BRAIN_MK2_UFOPEDIA: "Favorite model of mid-level hackers and corporate sharks. Speeds up reaction, improves threat and target recognition, stimulates key brain areas, and lets you slow down subjective time for 5 minutes a day.{NEWLINE}{NEWLINE}+10 Reactions;{NEWLINE}+6 Melee;{NEWLINE}+8 Psi Skill;{NEWLINE}+8 Psi Strength."
+
+  STR_AUG_BRAIN_MK3: "Brain Implant Mk3"
+  STR_AUG_BRAIN_MK3_UFOPEDIA: "Tactical AI 'Oracle'. Custom product for special forces and corporate bodyguards. Improved threat analyzer software, slowed time perception, and direct neural interface. May cause sociopathic tendencies and loss of empathy.{NEWLINE}{NEWLINE}+8 Reactions;{NEWLINE}+6 Melee;{NEWLINE}+6 Psi Skill;{NEWLINE}+6 Psi Strength."
+
+  # LUNG AUGMENTATIONS
+  STR_AUG_LUNG_MK1: "Lung Implant Mk1"
+  STR_AUG_LUNG_MK1_UFOPEDIA: "Cheap lung implant.{NEWLINE}{NEWLINE}+12 Stamina;{NEWLINE}+4 Stamina per turn;{NEWLINE}+2 TU per turn;{NEWLINE}-1 Concentration per turn."
+
+  STR_AUG_LUNG_MK2: "Lung Implant Mk2"
+  STR_AUG_LUNG_MK2_UFOPEDIA: "Standard lung implant.{NEWLINE}{NEWLINE}+8 Stamina;{NEWLINE}+2 Stamina per turn;{NEWLINE}+1 TU per turn;{NEWLINE}-1 Concentration per turn."
+
+  STR_AUG_LUNG_MK3: "Lung Implant Mk3"
+  STR_AUG_LUNG_MK3_UFOPEDIA: "Expensive lung implant. Banned by the 2132 Hague Convention.{NEWLINE}{NEWLINE}+6 Stamina;{NEWLINE}+5 Health;{NEWLINE}+3 Stamina per turn;{NEWLINE}+2 TU per turn;{NEWLINE}+4 Stun Recovery per turn."
+
+  # HEART AUGMENTATIONS
+  STR_AUG_HEART_MK1: "Heart Implant Mk1"
+  STR_AUG_HEART_MK1_UFOPEDIA: "Cheap heart implant.{NEWLINE}{NEWLINE}+6 Stamina;{NEWLINE}+12 Health;{NEWLINE}+2 Energy Regeneration per turn;{NEWLINE}-1 Concentration per turn."
+
+  STR_AUG_HEART_MK2: "Heart Implant Mk2"
+  STR_AUG_HEART_MK2_UFOPEDIA: "Standard heart implant.{NEWLINE}{NEWLINE}+4 Stamina;{NEWLINE}+10 Health;{NEWLINE}+2 Energy Regeneration per turn."
+
+  STR_AUG_HEART_MK3: "Heart Implant Mk3"
+  STR_AUG_HEART_MK3_UFOPEDIA: "Expensive heart implant.{NEWLINE}{NEWLINE}+8 Health;{NEWLINE}+1 Health Regeneration per turn;{NEWLINE}+2 Energy Regeneration per turn."
+
+  # SKIN / CHEST AUGMENTATIONS
+  STR_AUG_CHEST_MK1: "Skin Implant Mk1"
+  STR_AUG_CHEST_MK1_UFOPEDIA: "Cheap subdermal armor. Usually installed by office plankton who can't handle their job stress.{NEWLINE}{NEWLINE}+6 Front Armor;{NEWLINE}+6 Side Armor;{NEWLINE}-3 Morale per turn."
+
+  STR_AUG_CHEST_MK2: "Skin Implant Mk2"
+  STR_AUG_CHEST_MK2_UFOPEDIA: "Standard subdermal armor.{NEWLINE}{NEWLINE}+4 Front Armor;{NEWLINE}+4 Side Armor;{NEWLINE}-6 TU."
+
+  STR_AUG_CHEST_MK3: "Skin Implant Mk3"
+  STR_AUG_CHEST_MK3_UFOPEDIA: "Expensive subdermal armor.{NEWLINE}{NEWLINE}+6 Front Armor;{NEWLINE}+6 Side Armor;{NEWLINE}-4 TU."
+
+# REWARDS & ACHIEVEMENTS
+  STR_MELEE_PSYCHO_NAME: "Melee Psycho"
+  STR_MELEE_PSYCHO_UFOPEDIA: "You REALLY enjoy causing pain to other people. Deliver justice using unconventional melee weapons such as bats, axes, knives or brass knuckles.{NEWLINE}{NEWLINE}Even levels grant +2 Stamina.{NEWLINE}Odd levels grant +1 TU.{NEWLINE}Level 5 gives +1 Stamina regeneration per turn.{NEWLINE}Level 10 grants +10 Bravery."
+
+  STR_MEDAL_MELEE_PSYCHO_NAME: "Medal - Psycho"
+  STR_MEDAL_MELEE_PSYCHO_UFOPEDIA: "You REALLY enjoy causing pain to other people. Deliver justice using unconventional melee weapons such as bats, axes, special knives or brass knuckles."
+
+  STR_OLD_WOLRD_ENJOYER_NAME: "Old World Enjoyer"
+  STR_OLD_WOLRD_ENJOYER_UFOPEDIA: "Who needs all these fancy new guns when a good old .45 Colt is just as good? Besides, using this weapon gives you a strange feeling of nostalgia you never actually had... Use pre-war weapons to uphold Law and Order on Earth.{NEWLINE}{NEWLINE}Grants +1 Accuracy and Reactions alternately.{NEWLINE}At level V increases Concentration by 5.{NEWLINE}At level X grants +1 Stamina regeneration per turn and +10 Bravery."
 
 #Cities
   # ARCTIC CITIES
@@ -811,6 +1613,7 @@ en-US:
   STR_AMUNDSENSCOTTSTATION: "Amundsen-Scott"
 
   # COUNTRIES
+  STR_JAPAN: "NEO JAPAN"
   STR_CALI_REPUBLIC: "CALI REPUBLIC"
   STR_CARIBBEAN_UNION: "CARIBBEAN UNION"
   STR_COLOMBIA: "COLOMBIA"

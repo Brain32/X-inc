@@ -1,4 +1,10 @@
 interfaces:
+  - type: geoscape
+    elements:
+      - id: button
+        color: 170
+        color2: 6
+        custom: -20  # above Intercept button
   - type: articleItem
     elements:
       - id: button

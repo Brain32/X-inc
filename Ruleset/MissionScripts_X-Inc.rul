@@ -26,7 +26,9 @@ missionScripts:
         STR_INDIAN_OCEAN: 20
     useTable: false
     startDelay: 20
-    randomDelay: 43500     
+    randomDelay: 43500
+    researchTriggers:
+      STR_FAC_RAIDERS_RIPPERS: true
   - type: Wastelandfactory
     firstMonth: 2
     executionOdds: 70
@@ -42,6 +44,8 @@ missionScripts:
     useTable: false
     startDelay: 20
     randomDelay: 43500
+    researchTriggers:
+      STR_FAC_RAIDERS_RIPPERS: true  #<---------------------  CHANGE ME FAGGOT !!!
   - type: Wastelandfactory_big
     firstMonth: 3
     executionOdds: 75
@@ -60,6 +64,8 @@ missionScripts:
     useTable: false
     startDelay: 20
     randomDelay: 43500
+    researchTriggers:
+     STR_GUNRUNNER_WORKER: true #<---------------------  CHANGE ME FAGGOT !!!
 
   - type: WastelandFarmRaid
     firstMonth: 3
@@ -100,6 +106,8 @@ missionScripts:
     useTable: false
     startDelay: 120
     randomDelay: 43500
+    researchTriggers:
+      STR_FAC_RAIDERS_RIPPERS: true
   - type: TerroristShootDown
     firstMonth: 4
     executionOdds: 70
@@ -122,11 +130,30 @@ missionScripts:
                                                           ### MUTANTS ###
 
   - type: MutantHuntSmallApprehension
-    firstMonth: 3
-    executionOdds: 70
+    firstMonth: 4
+    executionOdds: 60
     missionWeights:
       0:
         STR_MUTANT_HUNT_SMALL_APPREHENSION : 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_EUROPE: 250
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+
+  - type: MutantHuntMidApprehension
+    firstMonth: 6
+    executionOdds: 60
+    missionWeights:
+      0:
+        STR_MUTANT_HUNT_MID_APPREHENSION: 100
     regionWeights: &WastelandRegions
       0:
         STR_EUROPE: 250
@@ -144,7 +171,7 @@ missionScripts:
 
   - type: GangBurglaryApprehension
     firstMonth: 0
-    executionOdds: 70
+    executionOdds: 85
     missionWeights:
       0:
         STR_BURGLARY_APPREHENSION: 100
@@ -160,10 +187,48 @@ missionScripts:
     useTable: false
     startDelay: 20
     randomDelay: 43500
+  - type: GangBurglaryApprehension_t2
+    firstMonth: 1
+    executionOdds: 75
+    missionWeights:
+      0:
+        STR_BURGLARY_T2_APPREHENSION: 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_EUROPE: 250
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+  - type: GangBurglaryApprehension_t3
+    firstMonth: 5
+    executionOdds: 55
+    missionWeights:
+      0:
+        STR_BURGLARY_T3_APPREHENSION: 100
+    regionWeights: &WastelandRegions
+      0:
+        STR_EUROPE: 250
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500    
+
+                                                          ### CityGangHood ###
 
   - type: CityGangHoodApprehension
-    firstMonth: 0
-    executionOdds: 70
+    firstMonth: 1
+    executionOdds: 55
     missionWeights:
       0:
         STR_GANG_HOOD_APPREHENSION: 100
@@ -203,7 +268,7 @@ missionScripts:
 
   - type: butcheryHouse
     firstMonth: 2
-    executionOdds: 70
+    executionOdds: 65
     missionWeights:
       0:
         STR_BUTCHERY_RAID: 100
@@ -218,13 +283,32 @@ missionScripts:
         STR_NORTH_ATLANTIC: 10
         STR_SOUTH_ATLANTIC: 25
     startDelay: 20
-#    randomDelay: 43500
+    randomDelay: 43500
+                                                          ### PoliceDepartmentAssault ###
+  - type: PolicePDAssault
+    firstMonth: 7
+    executionOdds: 50
+    missionWeights:
+      0:
+        STR_POLICE_PD_ASSAULT: 100
+    useTable: false
+    regionWeights:
+      0:
+        STR_EUROPE: 250
+        STR_SOUTH_EAST_ASIA: 175
+        STR_AUSTRALASIA: 40
+        STR_PACIFIC: 20
+        STR_INDIAN_OCEAN: 20
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 25
+    startDelay: 20
+    randomDelay: 43500
 
                                                           ### Smuglers ###
 
   - type: SmuglerClub
     firstMonth: 2
-    executionOdds: 75
+    executionOdds: 70
     missionWeights:
       0:
         STR_SMUGLER_CLUB: 100
@@ -241,11 +325,28 @@ missionScripts:
     startDelay: 20
     randomDelay: 43500
 
+  - type: SmuglerShipSmall
+    firstMonth: 6
+    executionOdds: 35
+    missionWeights:
+      0:
+        STR_SMUGLER_CRUISE: 100
+    regionWeights:
+      0:
+        STR_PACIFIC: 100
+        STR_NORTH_ATLANTIC: 100
+        STR_SOUTH_ATLANTIC: 100
+        STR_INDIAN_OCEAN: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+
+
                                                           ### OldRobots ###
 
   - type: OldMilitaryBaseApprehension
     firstMonth: 4
-    executionOdds: 65
+    executionOdds: 50
     missionWeights:
       0:
         STR_ABANDAND_MILITARY_APPREHENSION: 100
@@ -269,7 +370,7 @@ missionScripts:
 
   - type: TerroristShootDown
     firstMonth: 4
-    executionOdds: 70
+    executionOdds: 55
     missionWeights:
       0:
         STR_SIN_CRAFT_SHOOTDOWN: 100
@@ -279,7 +380,7 @@ missionScripts:
 
   - type: TerroristOutpost
     firstMonth: 5
-    executionOdds: 70
+    executionOdds: 65
     missionWeights:
       0:
         STR_SIN_OUTPOST: 100
@@ -288,8 +389,8 @@ missionScripts:
     randomDelay: 43500
 
   - type: recurringTerrorEarly
-    firstMonth: 7
-    executionOdds: 85
+    firstMonth: 8
+    executionOdds: 70
     missionWeights:
       0:
         STR_SIN_TERROR: 100
@@ -299,9 +400,46 @@ missionScripts:
 
                                                           ### UFOMission ###
 
-  - type: SyndocateFlyBy
+  - type: StolenAeroVan00 #AeroSportcar01
+    firstMonth: 0
+    executionOdds: 35
+    missionWeights:
+      0:
+        STR_STOLEN_AEROCAR_FLYBY_00: 100
+    targetBaseOdds: 100
+    startDelay: 4500
+    randomDelay: 700
+  - type: StolenAeroVan01 #AeroSportcar02
+    firstMonth: 0
+    executionOdds: 45
+    missionWeights:
+      0:
+        STR_STOLEN_AEROCAR_FLYBY_01: 100
+    targetBaseOdds: 80
+    startDelay: 9000
+    randomDelay: 90
+  - type: StolenAeroVan02 #AeroBus01
+    firstMonth: 0
+    executionOdds: 45
+    missionWeights:
+      0:
+        STR_STOLEN_AEROCAR_FLYBY_02: 100
+    targetBaseOdds: 90
+    startDelay: 2000
+    randomDelay: 500
+  - type: StolenAeroVan03 #SmallAeroCar
+    firstMonth: 0
+    executionOdds: 40
+    missionWeights:
+      0:
+        STR_STOLEN_AEROCAR_FLYBY_03: 100
+    targetBaseOdds: 90
+    startDelay: 5000
+    randomDelay: 250
+#Syndicate
+  - type: SyndocateFlyBy #FlyByMission
     firstMonth: 2
-    executionOdds: 95
+    executionOdds: 60
     missionWeights:
       0:
         STR_SYNDICATE_FLYBY: 100
@@ -309,19 +447,30 @@ missionScripts:
     startDelay: 4500
     randomDelay: 700
 
-  - type: SyndocateSupply
+  - type: SyndocatePatrol
     firstMonth: 4
-    executionOdds: 65
+    executionOdds: 55
     missionWeights:
       0:
-        STR_SYNDICATE_SUPPLY: 100
+        STR_SYNDICATE_PATROL: 100
+    targetBaseOdds: 100
+    startDelay: 4500
+    randomDelay: 700
+
+  - type: SyndSmallScout #FlyByMission
+    firstMonth: 4
+    executionOdds: 50
+    missionWeights:
+      0:
+        STR_SYNDICATE_SCOUT: 100
     targetBaseOdds: 100
     startDelay: 8000
     randomDelay: 1200
-
+    
+#Syndicate
   - type: RaiderBuggy
-    firstMonth: 2
-    executionOdds: 70
+    firstMonth: 4
+    executionOdds: 55
     missionWeights:
       0:
         STR_RAIDER_SCOUT_MISSION: 100

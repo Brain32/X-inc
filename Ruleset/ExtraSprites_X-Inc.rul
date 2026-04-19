@@ -1,8 +1,26 @@
 extraSprites:
+  - type: GEOBORD.SCR
+    singleImage: true
+    files:
+      0: Resources/Backgrounds/Space.png
   - type: AvatarBackground
     singleImage: true
     files:
       0: Resources/UI/avatar-background.png
+  - type: CommendationDecorations
+    width: 31
+    height: 80
+    subX: 31
+    subY: 8
+    files:
+      0: Resources/UI/Decorations.png
+  - type: Commendations
+    width: 31
+    height: 48
+    subX: 31
+    subY: 8
+    files:
+      0: Resources/UI/MedalBars.png
   - type: BACK01.SCR
     singleImage: true
     width: 320
@@ -51,7 +69,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/CLUB1.png
-
+  - type: OFFICE01.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Office_01.png
+  - type: CRUISE_LINER_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/CRUISE_LINER_BACKGROUND.png
                                                       #Icons
 # Broken atm :P
 #  - type: GlobeMarkers
@@ -88,7 +117,12 @@ extraSprites:
     height: 52
     files:
       0: Resources/Interwin/RAIDER_SCOUT_CAR.png
-
+  - type: InterceptionStolenAerocar00
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/HOVER_CAR00.png
 
                                                       #MissionBG
 
@@ -135,6 +169,43 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/City_2.png
+  - type: CITY_UK_BG.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/City_UK_Cover.png
+  - type: CITY_EUROSYNDICATE_BG.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/City_Eurosyndicate_Cover.png
+  - type: CITY_RUSSIA_BG.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/City_Russia_Cover.png
+  - type: CITY_LA_BG.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/City_LA_Cover.png
+  - type: CITY_USA_BG.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/City_NY_Cover.png
+  - type: CITY_SOUTH_AFRICA_BG.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/City_SouthAfrica_Cover.png
+
   - type: BACK10.SCR
     singleImage: true
     width: 320
@@ -186,6 +257,9 @@ extraSprites:
     fileSingle: Resources/Armours/Defender/Inv_Defender.png
   - typeSingle: HUMAN_RUNNER__11__DEFENDER_SUIT_VISOR
     fileSingle: Resources/Armours/Defender/Inv_Defender_Visor.png
+#SWAT_Suit
+  - typeSingle: HUMAN_RUNNER__7__SWAT_SUIT
+    fileSingle: Resources/Armours/SWATSuit/Inv_SWARSuit.png
 #CombatArmour
   - typeSingle: HUMAN_RUNNER__7__COMBAT_ARMOUR_MK1
     fileSingle: Resources/Armours/Combat Armour/Inv_CombarArmour_Mk1.png
@@ -240,7 +314,16 @@ extraSprites:
       0: Resources/Armours/NONE/Inv_NONE.png
 
                            ###SingleInvPics### 
-
+#AI
+  - type: AI_05.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/AI/Humanoid/Inv_Humanoid.png
+  - type: AI_10.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/AI/Humanoid/Inv_Humanoid_Jetpack.png
+#Human
   - type: MAN_20.SPK
     singleImage: true
     files:
@@ -253,6 +336,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Armours/Deflector/Inv_Deflector.png
+  - type: MAN_27
+    singleImage: true
+    files:
+      0: Resources/Armours/SWATSuit/Inv_SWARSuit.png
   - type: MAN_23.SPK
     singleImage: true
     files:
@@ -304,6 +391,11 @@ extraSprites:
       0: Resources/Armours/Ironclad_PA/Inv_Ironclad.png
 
                                                       #### Your Tanks ####
+#Mech 
+  - type: INV_MECH_RL_CLAW.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/AI/Mech/Inv_Mech_RL_CLAW.png                                
 #HoverTank
   - type: INV_HOVER_TANK_CANNON.SPK
     singleImage: true
@@ -329,6 +421,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Armours/AI/SecBot/inv_SecBot_12MM.png
+  - type: SECBOT_BLACK.SPK
+    singleImage: true
+    files:
+      0: Resources/Armours/AI/SecBot/inv_SecBot_12MM_Black.png      
 
 #OldRobots
   - type: OLDROBO_1.SPK
@@ -365,11 +461,23 @@ extraSprites:
                                                       #### Enemies inv pics ####
 ###Mutants###
 
-  - type: inventory_MUTANT01
+  - type: inv_MUTANT01
     singleImage: true
     files:
       0: Resources/FactionPack/Mutants/inv_Wretch.png
-
+  - type: inv_MUTANT02
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Mutants/inv_Walker.png
+###Skynet###
+  - type: FAKECIV_01.SPK
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Skynet/Inv_CivImposter_Female.png
+  - type: SKYNET01.SPK
+    singleImage: true
+    files:
+      0: Resources/FactionPack/Skynet/Inv_T900.png
 ###WastelandGangProto###
   - type: inventory_WASTELAND_GOON
     singleImage: true
@@ -439,7 +547,27 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/FactionPack/City_Gang/TygerClaw/inventory_TygersClaw_Warcheef.png
-
+#CITY_ANORCHISTS
+  - type: inv_Wardogs01
+    singleImage: true
+    files:
+      0: Resources/FactionPack/City_Gang/Wardogs/inv_Wardogs1.png
+  - type: inv_Wardogs02
+    singleImage: true
+    files:
+      0: Resources/FactionPack/City_Gang/Wardogs/inv_Wardogs2.png
+  - type: inv_Wardogs03
+    singleImage: true
+    files:
+      0: Resources/FactionPack/City_Gang/Wardogs/inv_Wardogs3.png
+  - type: inv_Wardogs04
+    singleImage: true
+    files:
+      0: Resources/FactionPack/City_Gang/Wardogs/inv_Wardogs4.png
+  - type: inv_Wardogs05
+    singleImage: true
+    files:
+      0: Resources/FactionPack/City_Gang/Wardogs/inv_Wardogs5.png      
 #CORPO SYNDICATE
   - type: inventory_SYNDICATE_SOLDIER
     singleImage: true
@@ -543,8 +671,8 @@ extraSprites:
       67: Resources/Weapons/JunkWeapons/bigob_Buckshot.png
       68: Resources/Weapons/JunkWeapons/bigob_JunkColt.png
       69: Resources/Weapons/JunkWeapons/bigob_Colt45_Ammo.png
-      70: Resources/Weapons/JunkWeapons/bigob_Luger.png
-      71: Resources/Weapons/JunkWeapons/bigob_LugerClip.png
+      70: Resources/OtherItems/bigob_PowerCell.png
+      71: Resources/OtherItems/bigob_PowerArmourParts.png
       72: Resources/Weapons/JunkWeapons/bigob_TAC9.png
       73: Resources/Weapons/JunkWeapons/bigob_9MMSMGClip.png
       74: Resources/Weapons/JunkWeapons/bigob_Old_AutoRifle.png
@@ -609,7 +737,7 @@ extraSprites:
       133: Resources/Weapons/BlackOps/bigob_SyndicateHeavySniperRifle_clip.png
       134: Resources/Weapons/BlackOps/bigob_SyndicateHeavySniperRifle_clip_AP.png
       135: Resources/Weapons/BlackOps/bigob_SyndicateHeavySniperRifle_clip_AA.png
-      136: Resources/Weapons/PreWarWeapons/bigob_Magnum.png
+      136: Resources/Weapons/PreWarWeapons/bigob_Deagle.png
       137: Resources/Weapons/PreWarWeapons/bigob_Colt45.png
       138: Resources/Weapons/SmartWeapons/bigob_RebelColt45.png
       139: Resources/Weapons/PreWarWeapons/bigob_Clip_Colt45.png
@@ -621,7 +749,7 @@ extraSprites:
       145: Resources/MedicalShit/bigob_Medikit_Small.png
       146: Resources/MedicalShit/bigob_Medikit.png
       147: Resources/MedicalShit/bigob_Stim.png
-      148: Resources/Weapons/PreWarWeapons/bigob_Ruger.png
+      148: Resources/OtherItems/bigob_XenoliteBlock.png
       149: Resources/Weapons/PreWarWeapons/bigob_M16.png
       150: Resources/Weapons/PreWarWeapons/bigob_M16_Scarface.png
       151: Resources/Weapons/PreWarWeapons/bigob_GrenadeLauncher.png
@@ -643,10 +771,10 @@ extraSprites:
       167: Resources/Weapons/CityWeapons/bigob_PocketPistol_LT_SLAYER_clip.png
       168: Resources/Weapons/CityWeapons/bigob_PocketPistol_HV.png
       169: Resources/Weapons/CityWeapons/bigob_PocketPistol_HV_Clip.png
-      170: Resources/Weapons/CityWeapons/bigob_Pistol_Glock_RTT76.png
-      171: Resources/Weapons/CityWeapons/bigob_Pistol_Glock_RTT76_Clip.png
-      172: Resources/Weapons/CityWeapons/bigob_Pistol_Glock_RTT76_ClipBig.png
-      173: Resources/Weapons/CityWeapons/bigob_Pistol_Glock_RTT76_ExtraBig.png
+      170: Resources/Weapons/LaserWeapons/bigob_LasPistol.png
+      171: Resources/Weapons/LaserWeapons/bigob_LasPistol_Clip.png
+      172: Resources/Weapons/LaserWeapons/bigob_LasPistol_Clip_Hi.png
+      173: Resources/Weapons/PreWarWeapons/bigob_Deagle_Mag.png
       174: Resources/Weapons/CityWeapons/bigob_Pistol_MiliTech_HiPower_93.png
       175: Resources/Weapons/CityWeapons/bigob_Pistol_MiliTech_HiPower_93_ALT.png
       176: Resources/Weapons/CityWeapons/bigob_Pistol_MiliTech_HiPower_93_Clip.png
@@ -934,6 +1062,30 @@ extraSprites:
       461: Resources/Weapons/MilitWeapons/bigob_AR3_clip.png 
       462: Resources/Weapons/MilitWeapons/bigob_AR3_clip_AA.png
       463: Resources/Weapons/LaserWeapons/bigob_GatLaser.png
+      464: Resources/Armours/AI/Mech/BigOb_Mech_RL.png
+      465: Resources/Armours/AI/Mech/BigOb_RL_AmmoBox.png 
+      466: Resources/Armours/AI/Mech/Mecha_Grabber.gif 
+      467: Resources/FactionPack/City_Gang/Wardogs/BigOb_Wardogs1.png
+      468: Resources/FactionPack/City_Gang/Wardogs/BigOb_Wardogs2.png
+      469: Resources/FactionPack/City_Gang/Wardogs/BigOb_Wardogs3.png
+      470: Resources/FactionPack/City_Gang/Wardogs/BigOb_Wardogs4.png
+      471: Resources/FactionPack/City_Gang/Wardogs/BigOb_Wardogs5.png
+      472: Resources/Armours/AI/SecBot/bigob_SecBot_Black.png
+      473: Resources/OtherItems/bigob_MutantBloodPlasma.png
+      474: Resources/FactionPack/SkyNet/bigob_CivImposter_Female.png
+      475: Resources/FactionPack/SkyNet/BigOb_T900.png
+      476: Resources/FactionPack/SkyNet/BigOb_PlasmaCannon.png
+      477: Resources/Armours/AI/Humanoid/bigobs_Humanoid_Drone.png
+      478: Resources/FactionPack/Mutants/bigobs_Walker.png
+      479: Resources/Weapons/SmartWeapons/bigob_SmartSMG.png
+      480: Resources/Weapons/SmartWeapons/bigob_SmartSMG_clip.png
+      481: Resources/Weapons/SmartWeapons/bigob_SmartSMG_clip2.png
+      482: Resources/Armours/SWATSuit/bigob_SWAT_Suit.png
+      483: Resources/Weapons/LaserWeapons/bigob_LasSMG.png
+      484: Resources/Weapons/LaserWeapons/bigob_LasSMG_Clip.png
+      485: Resources/Weapons/LaserWeapons/bigob_LasSMG_EMPClip.png
+      486: Resources/OtherItems/Augs/bigob_SpamtonGlasses.png
+      
 # Handobj (Hands) Note - add +8 for each ID number (128-136-144 and so on)
   - type: HANDOB.PCK
     height: 40
@@ -948,7 +1100,7 @@ extraSprites:
       152: Resources/Weapons/JunkWeapons/handob_SawedOff.png
       160: Resources/Weapons/SmartWeapons/handob_Itemblank.png
       168: Resources/Weapons/JunkWeapons/handob_Colt.png
-      176: Resources/Weapons/JunkWeapons/handob_Luger.png
+      #176: Resources/Weapons/JunkWeapons/handob_Luger.png
       184: Resources/Weapons/JunkWeapons/HandOb_TAC9.png
       192: Resources/Weapons/JunkWeapons/handob_OldAutoRifle.png
       200: Resources/Weapons/JunkWeapons/handob_HuntingRifle.png
@@ -1079,6 +1231,9 @@ extraSprites:
       1200: Resources/Weapons/MilitWeapons/handob_Thrasher.png
       1208: Resources/Weapons/MilitWeapons/handob_AR3.png
       1216: Resources/Weapons/LaserWeapons/HandOb_GatLaser.png
+      1224: Resources/Weapons/SmartWeapons/handob_SmartSMG.png
+      1232: Resources/Weapons/LaserWeapons/HandOb_LasPistol.png
+      1240: Resources/Weapons/LaserWeapons/HandOb_LasSMG.png
 
 # FloorBattlescape (FLOOR)
   - type: FLOOROB.PCK
@@ -1092,8 +1247,8 @@ extraSprites:
       75: Resources/Weapons/JunkWeapons/floorob_Buckshot.png
       76: Resources/Weapons/JunkWeapons/floorob_JunkColt.png
       77: Resources/Weapons/JunkWeapons/floorob_Colt45Ammo.png
-      78: Resources/Weapons/JunkWeapons/floorob_Luger.png
-      79: Resources/Weapons/JunkWeapons/floorob_LugerClip.png
+      78: Resources/OtherItems/floorOb_PowerCell.png
+      79: Resources/OtherItems/Floorob_PowerArmourParts.png
       80: Resources/Weapons/JunkWeapons/floorob_TAC9.png
       81: Resources/Weapons/JunkWeapons/floorob_Tec9Clip.png
       82: Resources/Weapons/JunkWeapons/floorob_oldAutoRifle.png
@@ -1134,7 +1289,7 @@ extraSprites:
       117: Resources/Weapons/BlackOps/floorob_SyndicateTactiCOOLShotgun.png
       118: Resources/Weapons/PreWarWeapons/floorob_MicroUzi.png
       119: Resources/MedicalShit/floorob_Medikit_Small.png
-      120: Resources/Weapons/PreWarWeapons/floorob_Ruger.png
+      120: Resources/OtherItems/floorob_XenoliteBlock.png
       121: Resources/Weapons/PreWarWeapons/floorob_M16.png
       122: Resources/Weapons/PreWarWeapons/floorob_GL.png
       123: Resources/Weapons/PreWarWeapons/floorob_GL_Vice.png
@@ -1169,8 +1324,8 @@ extraSprites:
       152: Resources/Weapons/_HWP_Guns/floorob_SecBot12MMAmmo.png
       154: Resources/Weapons/HeavyWeapons/floorob_GEP_Gun.png
       155: Resources/Weapons/HeavyWeapons/floorob_GEP_Gun_R1.png
-      #156: Resources/Weapons/HeavyWeapons/floorob_GEP_Gun_R2.png
-      #157: Resources/Weapons/HeavyWeapons/floorob_GEP_Gun_R3.png
+      156: Resources/Weapons/LaserWeapons/FloorOb_LasPistol.png
+      157: Resources/Weapons/LaserWeapons/FloorOb_LasPistol_clip.png
       158: Resources/Weapons/JunkWeapons/floorob_DB_Shotgun.png
       159: Resources/Weapons/MeleeWeapons/floorob_bat.png
       218: Resources/FactionPack/City_Gang/TygerClaw/floorob_TygersClaw_FemGoon.png
@@ -1358,7 +1513,44 @@ extraSprites:
       462: Resources/Weapons/MilitWeapons/Floorob_AR3_clip.png
       463: Resources/Weapons/MilitWeapons/Floorob_AR3_clip_aa.png
       464: Resources/Weapons/LaserWeapons/FloorOb_GatLaser.png
+      465: Resources/Armours/AI/Mech/FloorOb_RL_AmmoBox.png
+   #  466: Resources/FactionPack/City_Gang/Wardogs/BigOb_Wardogs1.png
+      467: Resources/FactionPack/City_Gang/Wardogs/FloorOb_Wardogs1.png
+      468: Resources/FactionPack/City_Gang/Wardogs/FloorOb_Wardogs2.png
+      469: Resources/FactionPack/City_Gang/Wardogs/FloorOb_Wardogs3.png
+      470: Resources/FactionPack/City_Gang/Wardogs/FloorOb_Wardogs4.png
+      471: Resources/FactionPack/City_Gang/Wardogs/FloorOb_Wardogs5.png
+      472: Resources/Armours/AI/SecBot/floorob_SecBot_Black.png
+      473: Resources/OtherItems/bigob_MutantBloodPlasma.png
+      474: Resources/FactionPack/SkyNet/floorob_CivImposter_Female.png
+      475: Resources/FactionPack/SkyNet/FloorOb_T900.png
+   #  476: Resources/FactionPack/SkyNet/BigOb_PlasmaCannon.png
+      477: Resources/Armours/AI/Humanoid/floorob_Humanoid_Drone.png
+      478: Resources/FactionPack/Mutants/floorob_Walker.png
+      479: Resources/Weapons/SmartWeapons/floorob_SmartSMG.png
+      480: Resources/Weapons/SmartWeapons/floorob_SmartSMG_clip.png
+      481: Resources/Weapons/SmartWeapons/floorob_SmartSMG_clip2.png
+      482: Resources/Armours/SWATSuit/floorob_SWATSuit_corps.png
+      483: Resources/Weapons/LaserWeapons/FloorOb_LasSMG.png
+      484: Resources/Weapons/LaserWeapons/FloorOb_LasSMG_Clip.png
+      485: Resources/Weapons/LaserWeapons/FloorOb_LasSMG_ClipEMP.png
+   #  486: Resources/OtherItems/Augs/bigob_SpamtonGlasses.png
                                    ### Sprite sheet (Battlescape) ###
+### YourArmourAI ###
+  - type: AI_05.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/AI/Humanoid/Humanoid_Drone.png
+  - type: AI_10.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/AI/Humanoid/Humanoid_Drone_JetPack.png
 ### YourArmour ###
 #StartingJumpSuit_Spritesheet
   - type: XCOM_35.PCK
@@ -1397,6 +1589,15 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Armours/Deflector/DEFLECTOR_SUIT.png
+#SWATSuit
+  - type: XCOM_50.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/SWATSuit/SWAT_SUIT.png
+#CombatArmour
   - type: XCOM_40.PCK
     width: 512
     height: 720
@@ -1477,6 +1678,13 @@ extraSprites:
 
 
                                                                   ###Your Tanks###
+  - type: MECH_RL.PCK
+    width: 256
+    height: 840
+    subX: 32
+    subY: 40
+    files:
+      0:Resources/Armours/AI/Mech/Ass.png                             
   - type: HOVER_TANK_CANNON.PCK
     subX: 32
     subY: 40
@@ -1508,6 +1716,13 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Armours/AI/SecBot/SecBot_12mm.png
+  - type: SECBOT_BLACK.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/AI/SecBot/SecBot_12mm_Black.png
                                                                   ###CorpoFirendly###
   - type: CORPOFIREND_EXEC.PCK
     width: 512
@@ -1550,7 +1765,28 @@ extraSprites:
     subY: 40
     files:
       0: Resources/FactionPack/Mutants/Wretch.png
-
+  - type: MUTANT02.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/Mutants/Walker.png
+                                                                  ###SkyNet###
+  - type: FAKECIV1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/SkyNet/SusCiv.png
+  - type: SKYNET01.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/SkyNet/T900.png
                                                                   ###OldRobots###
   - type: OLDROBO_1.PCK
     width: 512
@@ -1735,6 +1971,42 @@ extraSprites:
     files:
       0: Resources/FactionPack/City_Gang/TygerClaw/TYGERS_CLAW_WARCHEEF.png
 
+                                                                        ###CityGang - Wardogs###
+  - type: WARDOG01.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/City_Gang/Wardogs/WARDOGS1.png
+  - type: WARDOG02.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/City_Gang/Wardogs/WARDOGS2.png
+  - type: WARDOG03.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/City_Gang/Wardogs/WARDOGS3.png
+  - type: WARDOG04.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/City_Gang/Wardogs/WARDOGS4.png
+  - type: WARDOG05.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FactionPack/City_Gang/Wardogs/WARDOGS5.png        
                                                                   ###Smuglers###
 
   - type: SMUG_1.PCK
@@ -1826,6 +2098,13 @@ extraSprites:
     subY: 40
     files:
       0: Resources/FactionPack/Terrorists/SiN_Instructor.png
+  - type: MECHSUIT_RL_CLAW.PCK
+    width: 256
+    height: 840
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armours/AI/Mech/White_Mech_RL_CLAW.png
 
 
 #Explotion same as Hand Obj with IDs
@@ -1924,9 +2203,10 @@ extraSprites:
          #Interception
   - type: INTICON.PCK
     files:
-      797: Resources/Vessels/Inticon/HoverScooter_minimised.png
-
-      808: Resources/Vessels/Inticon/HoverScooter_dogfight.png
+      797: Resources/Vessels/Inticon/HighstarMinimised.gif
+      799: Resources/Vessels/Inticon/goshawk_minimised.png
+      808: Resources/Vessels/Inticon/HighstarDogfight.gif
+      810: Resources/Vessels/Inticon/goshawk_dogfight.png
       832: Resources/Vessels/Inticon/Car1_minimised.png
       829: Resources/Vessels/Inticon/HoverVan_minimised.png
       830: Resources/Vessels/Inticon/DodoBig_minimised.png
@@ -1949,6 +2229,14 @@ extraSprites:
       0: Resources/BaseSprites/Bedrock.png
       18: Resources/BaseSprites/LQ_0.png
       24: Resources/BaseSprites/GS_0.png
+      301: Resources/BaseSprites/LQ2_1.png
+      302: Resources/BaseSprites/LQ2_2.png
+      303: Resources/BaseSprites/LQ2_3.png
+      304: Resources/BaseSprites/LQ2_4.png
+      305: Resources/BaseSprites/LQ2_b_1.png
+      306: Resources/BaseSprites/LQ2_b_2.png
+      307: Resources/BaseSprites/LQ2_b_3.png
+      308: Resources/BaseSprites/LQ2_b_4.png
       317: Resources/BaseSprites/HQ.png
       318: Resources/BaseSprites/HQ_SUPER.png
       320: Resources/BaseSprites/RB_1.png
@@ -1970,8 +2258,9 @@ extraSprites:
       336: Resources/BaseSprites/RECROOM.png
       798: Resources/Vessels/Inticon/DodoSmall_minimised.png
       809: Resources/Vessels/Inticon/DodoSmall_dogfight.png
-      830: Resources/Vessels/Basebits/HoverScooter_base.png
+      830: Resources/Vessels/Basebits/HighstarBase.png
       831: Resources/Vessels/Basebits/DodoSmall_Base.png
+      832: Resources/Vessels/Basebits/Goshawk_Base.png
 
       862: Resources/Vessels/Basebits/HoverVan_base.png
       863: Resources/Vessels/Basebits/DodoBig_Base.png
@@ -1991,17 +2280,30 @@ extraSprites:
       885: Resources/BaseSprites/LAB_T1.png
       901: Resources/Vessels/Basebits/Cicada_base.png
       903: Resources/Vessels/Basebits/Hamvee_base.png
-      904: Resources/Vessels/Basebits/Savage_base.png
+      908: Resources/Vessels/Basebits/Savage_base.png
          
                            ###UFOPEDIA###
 
-         #Crafts
-  - type: UFOPEDIA_HOVERSCOOTER_CPAL.SPK
+         #WeaponsCrafts
+  - type: LAS_MINICANNON
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Vessels/Ufopedia/FAGGIO_UFOPEDIA_CPAL.png
+      0: Resources/CraftWeapons/Ufopedia/Uped_MiniLaser.png
+  - type: 25MM_AIRCANNON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/Ufopedia/UPED_Cannon_25mm.png
+         #Crafts
+  - type: UFOPEDIA_STR_FAGGIO_BIKE.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vessels/Ufopedia/Highway_Star.png
   - type: UFOPEDIA_CAR1.SPK
     singleImage: true
     width: 320
@@ -2050,6 +2352,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Vessels/Ufopedia/HOVER_VAN.png
+  - type: UFOPEDIA_GOSHAWK_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vessels/Ufopedia/GOSHAWK_CPAL.png
 
   #Lore#
   - type: LORE_OURORIGINS_CPAL.SPK
@@ -2060,6 +2368,12 @@ extraSprites:
       0: Resources/UFOpedia/CITYFIRST_CPAL.png
 
   #Factions#
+  - type: FAC_RAIDERS_UFOPEDIA_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/Raiders_CPAL.png
   - type: FAC_SMUGLERS_UFOPEDIA_OG_CPAL.SPK
     singleImage: true
     width: 320
@@ -2091,7 +2405,33 @@ extraSprites:
     files:
       0: Resources/UFOpedia/UPED_Sin_Logo.png
 
+#SoldierTypes#
+  - type: VET_RECRUTMENT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopedia/Vetrans_Recruts.png
+  - type: BATTLE_DROID.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopedia/Battle_Droids.png
+
 #TechTree Topics#
+  - type: PERSONEL_REFORM_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/Office_01_CPAL.png
+  - type: MEDICAL_BRANCH.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/Medical_T1.png
   - type: ADVANCED_CIVILIAN_WEAPONS_CPAL.SPK
     singleImage: true
     width: 320
@@ -2164,6 +2504,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/BasicAlloyArmourDesign.png
+  - type: ALIEN_ALLOYS_MATRIX.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/AlienAlloy_Matrix.png
 
   - type: BUILDEXPANSION.SPK
     singleImage: true
@@ -2243,8 +2589,9 @@ extraSprites:
     fileSingle: Resources/UFOpedia/UNITS/UPed_Gunrunner_Worker.png
   - typeSingle: GUNRUNNER_MASTER_UFOPEDIA_PICTURE
     fileSingle: Resources/UFOpedia/UNITS/UPed_Gunrunner_Master.png
+#CorpoSecBot
   - typeSingle: SEC_BOT_12MM_UFOPEDIA_PICTURE
-    fileSingle: Resources/UFOpedia/UNITS/Uped_SecBot_12MM.png
+    fileSingle: Resources/UFOpedia/UNITS/Uped_SecBot_12MM.png  
 #Vice Smugglers
   - typeSingle: SMUG_DIAZ_UFOPEDIA_PICTURE
     fileSingle: Resources/UFOpedia/UNITS/UPed_SMUG_DIAZ.png
@@ -2279,6 +2626,12 @@ extraSprites:
     subY: 16
     files:
       0: Resources/UI/kneelButton.png
+  - type: oxceLinks
+    width: 32
+    height: 16
+    singleImage: true
+    files:
+      0: Resources/UI/xincLinks.png
 #UI n'stuff
   - type: BigBurnIndicator
     singleImage: true

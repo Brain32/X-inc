@@ -6,6 +6,7 @@ countries:
   - delete: STR_RUSSIA
   - delete: STR_CHINA
   - delete: STR_FRANCE
+  - delete: STR_UK
   - delete: STR_SPAIN
   - type: STR_USA
     fundingBase: 120
@@ -92,7 +93,10 @@ countries:
     labelLon: 358
     labelLat: -53.625
     areas:
-      - [352, 2, -60, -50]
+      - - 349.487845052083
+        - 1.9124009330896001
+        - -59.622864583334
+        - -50.087826376468
   - type: STR_SPAIN
     fundingBase: 10
     fundingCap: 5000

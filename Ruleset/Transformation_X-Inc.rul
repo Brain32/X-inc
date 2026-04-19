@@ -10,6 +10,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     forbiddenPreviousTransformations:
       - STR_BASIC_FIREARMS_TRAINING
     cost: 7000
@@ -33,6 +34,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     forbiddenPreviousTransformations:
       - STR_AUG_EYE_MK1
     requiresBaseFunc:
@@ -57,6 +59,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_EYE_MK1
     forbiddenPreviousTransformations:
@@ -83,6 +86,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_EYE_MK2
     forbiddenPreviousTransformations:
@@ -111,6 +115,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     forbiddenPreviousTransformations:
       - STR_AUG_ARM_MK1
     requiresBaseFunc:
@@ -135,6 +140,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_ARM_MK1
     forbiddenPreviousTransformations:
@@ -161,6 +167,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_ARM_MK2
     forbiddenPreviousTransformations:
@@ -188,6 +195,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     forbiddenPreviousTransformations:
       - STR_AUG_LEG_MK1
     requiresBaseFunc:
@@ -212,6 +220,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_LEG_MK1
     forbiddenPreviousTransformations:
@@ -238,6 +247,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_LEG_MK2
     forbiddenPreviousTransformations:
@@ -265,6 +275,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     forbiddenPreviousTransformations:
       - STR_AUG_BRAIN_MK1
     requiresBaseFunc:
@@ -289,6 +300,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_BRAIN_MK1
     forbiddenPreviousTransformations:
@@ -315,6 +327,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_BRAIN_MK2
     forbiddenPreviousTransformations:
@@ -331,7 +344,7 @@ soldierTransformation:
     lowerBoundAtMinStats: true
     upperBoundAtMaxStats: true
     includeBonusesForMinStats: true
-#Ñhest
+#ï¿½hest
   - name: STR_AUG_CHEST_MK1
     requires:
       - STR_AUG_CHEST_MK1
@@ -342,6 +355,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     forbiddenPreviousTransformations:
       - STR_AUG_CHEST_MK1
     requiresBaseFunc:
@@ -366,6 +380,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_CHEST_MK1
     forbiddenPreviousTransformations:
@@ -392,6 +407,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_CHEST_MK2
     forbiddenPreviousTransformations:
@@ -419,6 +435,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     forbiddenPreviousTransformations:
       - STR_AUG_LUNG_MK1
     requiresBaseFunc:
@@ -443,6 +460,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_LUNG_MK1
     forbiddenPreviousTransformations:
@@ -469,6 +487,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_LUNG_MK2
     forbiddenPreviousTransformations:
@@ -496,6 +515,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     forbiddenPreviousTransformations:
       - STR_AUG_HEART_MK1
     requiresBaseFunc:
@@ -520,6 +540,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_HEART_MK1
     forbiddenPreviousTransformations:
@@ -546,6 +567,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     requiredPreviousTransformations:
       - STR_AUG_HEART_MK2
     forbiddenPreviousTransformations:
@@ -573,6 +595,7 @@ soldierTransformation:
     allowsWoundedSoldiers: false
     allowedSoldierTypes:
       - STR_SOLDIER
+      - STR_SOLDIER_M
     forbiddenPreviousTransformations:
       - STR_AUG_MIL_NEIROIMPLANT
     requiresBaseFunc:

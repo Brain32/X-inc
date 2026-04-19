@@ -52,21 +52,22 @@ soldierBonuses:
     stats:
       visibilityAtDark: 4
       reactions: 6
-      firing: 5
+      firing: 6
 #Arm
   - name: STR_AUG_ARM_MK1
     stats:
       mana: 1
-      strength: 8
+      strength: 10
     recovery:
       mana:
         flatOne: -1
   - name: STR_AUG_ARM_MK2
     stats:
       strength: 6
+      firing: 2
   - name: STR_AUG_ARM_MK3
     stats:
-      strength: 6
+      strength: 8
       firing: 5
 #Leg
   - name: STR_AUG_LEG_MK1
@@ -82,21 +83,18 @@ soldierBonuses:
       stamina: 6
   - name: STR_AUG_LEG_MK3
     stats:
-      tu: 6
-      stamina: 10
+      tu: 10
+      stamina: 14
 #Brain
   - name: STR_AUG_BRAIN_MK1
     stats:
-      reactions: 10
+      reactions: 12
       melee: 8
       psiStrength: 10
       psiSkill: 10
-    recovery:
-      mana:
-        flatOne: -1
   - name: STR_AUG_BRAIN_MK2
     stats:
-      reactions: 8
+      reactions: 10
       melee: 6
       psiStrength: 8
       psiSkill: 8
@@ -106,7 +104,7 @@ soldierBonuses:
       melee: 6
       psiStrength: 6
       psiSkill: 6
-#Ñhest
+#Chest
   - name: STR_AUG_CHEST_MK1
     stats:
       frontArmor: 6
@@ -118,12 +116,12 @@ soldierBonuses:
     stats:
       frontArmor: 4
       sideArmor: 4
-      tu: -2
+      tu: -6
   - name: STR_AUG_CHEST_MK3
     stats:
-      frontArmor: 4
-      sideArmor: 4
-      tu: -2
+      frontArmor: 6
+      sideArmor: 6
+      tu: -4
 #Lung
   - name: STR_AUG_LUNG_MK1
     stats:
@@ -160,8 +158,6 @@ soldierBonuses:
       stamina: 6
       health: 12
     recovery:
-      health:
-        flatOne: 1
       energy:
         flatOne: 2
       mana:
@@ -189,8 +185,11 @@ soldierBonuses:
       reactions: 10
       throwing: 10
       melee: 15
+    recovery:
       morale:
-        flatOne: 3 
+        flatOne: 5 
+      mana:
+        flatOne: 1
 #NaturalTransformations
   - name: STR_BASIC_FIREARMS_TRAINING
     stats:

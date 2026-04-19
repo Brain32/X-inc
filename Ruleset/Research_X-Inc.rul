@@ -12,7 +12,8 @@ research:
     cost: 100
     points: 20
     dependencies:
-      - STR_ELECTRONICS
+      - STR_OPTRONIC_PARTS
+      - STR_WORKSHOP
   - name: STR_PERSONAL_ARMOR
     cost: 180
     points: 20
@@ -22,6 +23,15 @@ research:
     cost: 210
     points: 20
     dependencies:
+      - STR_IDDQD
+  - name: STR_UFO_CONSTRUCTION
+    cost: 450
+    points: 30
+    dependencies:
+      - STR_ALIEN_ALLOYS
+      - STR_ELERIUM_115
+      - STR_UFO_POWER_SOURCE
+      - STR_UFO_NAVIGATION
       - STR_IDDQD
 #Enemies
 # ---- Wasteland niggas
@@ -154,16 +164,17 @@ research:
     points: 20
     needItem: true
     listOrder: 151020
+
 # ---- TigerClaw niggas
   - name: STR_TIGERCALW_FEMGOON #pedia?
     destroyItem: true
-    cost: 10 #balance me
+    cost: 5
     points: 10
     needItem: true
     listOrder: 151020
   - name: STR_TIGERCALW_GOON
     destroyItem: true
-    cost: 10 #balance me
+    cost: 10
     points: 10
     needItem: true
     listOrder: 151030
@@ -173,7 +184,132 @@ research:
     points: 20
     needItem: true
     listOrder: 151040
-
+# ---- Raiders Ripper niggas
+  - name: STR_WST_RIPPER01
+    cost: 15
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 151050
+    unlocks:
+      - STR_FAC_RAIDERS_RIPPERS
+    getOneFree:
+      - STR_LIBIRATOR_JUNK
+      - STR_LUGER
+      - STR_BANDIT_REVOLVER
+      - STR_PISTOL_10MM
+      - STR_TEC9
+      - STR_SMG_10MM
+      - STR_JUNKY_SAWED_OFF
+      - STR_OLD_SHOTGUN
+      - STR_RIFLE_AK
+      - STR_OLD_RIFLE_M16
+      - STR_BANDIT_RIFLE
+      - STR_PIPERIFLE
+      - STR_COWRIFLE
+      - STR_OLD_HUNTING_RIFLE
+      - STR_PIPEBOMB
+      - STR_MOLOTOV
+  - name: STR_WST_RIPPER02
+    cost: 15
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 151050
+    unlocks:
+      - STR_FAC_RAIDERS_RIPPERS
+    getOneFree:
+      - STR_LIBIRATOR_JUNK
+      - STR_LUGER
+      - STR_BANDIT_REVOLVER
+      - STR_PISTOL_10MM
+      - STR_TEC9
+      - STR_SMG_10MM
+      - STR_JUNKY_SAWED_OFF
+      - STR_OLD_SHOTGUN
+      - STR_RIFLE_AK
+      - STR_OLD_RIFLE_M16
+      - STR_BANDIT_RIFLE
+      - STR_PIPERIFLE
+      - STR_COWRIFLE
+      - STR_OLD_HUNTING_RIFLE
+      - STR_PIPEBOMB
+      - STR_MOLOTOV
+  - name: STR_WST_RIPPER03
+    cost: 15
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 151050
+    unlocks:
+      - STR_FAC_RAIDERS_RIPPERS
+    getOneFree:
+      - STR_LIBIRATOR_JUNK
+      - STR_LUGER
+      - STR_BANDIT_REVOLVER
+      - STR_PISTOL_10MM
+      - STR_TEC9
+      - STR_SMG_10MM
+      - STR_JUNKY_SAWED_OFF
+      - STR_OLD_SHOTGUN
+      - STR_RIFLE_AK
+      - STR_OLD_RIFLE_M16
+      - STR_BANDIT_RIFLE
+      - STR_PIPERIFLE
+      - STR_COWRIFLE
+      - STR_OLD_HUNTING_RIFLE
+      - STR_PIPEBOMB
+      - STR_MOLOTOV
+  - name: STR_WST_RIPPER_PA_UNT
+    cost: 15
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 151050
+    unlocks:
+      - STR_FAC_RAIDERS_RIPPERS
+    getOneFree:
+      - STR_LIBIRATOR_JUNK
+      - STR_LUGER
+      - STR_BANDIT_REVOLVER
+      - STR_PISTOL_10MM
+      - STR_TEC9
+      - STR_SMG_10MM
+      - STR_JUNKY_SAWED_OFF
+      - STR_OLD_SHOTGUN
+      - STR_RIFLE_AK
+      - STR_OLD_RIFLE_M16
+      - STR_BANDIT_RIFLE
+      - STR_PIPERIFLE
+      - STR_COWRIFLE
+      - STR_OLD_HUNTING_RIFLE
+      - STR_PIPEBOMB
+      - STR_MOLOTOV
+  - name: STR_WST_RIPPER_COMMANDO
+    cost: 25
+    points: 50
+    needItem: true
+    destroyItem: true
+    listOrder: 151050
+    unlocks:
+      - STR_FAC_RAIDERS_RIPPERS
+    getOneFree:
+      - STR_LIBIRATOR_JUNK
+      - STR_LUGER
+      - STR_BANDIT_REVOLVER
+      - STR_PISTOL_10MM
+      - STR_TEC9
+      - STR_SMG_10MM
+      - STR_JUNKY_SAWED_OFF
+      - STR_OLD_SHOTGUN
+      - STR_RIFLE_AK
+      - STR_OLD_RIFLE_M16
+      - STR_BANDIT_RIFLE
+      - STR_PIPERIFLE
+      - STR_COWRIFLE
+      - STR_OLD_HUNTING_RIFLE
+      - STR_PIPEBOMB
+      - STR_MOLOTOV
 # ---- Smugglers niggas
   - name: STR_SMUGLER_GOON
     cost: 10
@@ -181,13 +317,14 @@ research:
     needItem: true
     destroyItem: true
     listOrder: 151050
-    getOneFree:
+    unlocks:
       - STR_FAC_SMUGLERS
+    getOneFree:
       - STR_SMUGLERS_GUNS
       - STR_SMUGLERS_BELIVES
       - STR_COLT45
       - STR_REBEL_COLT45
-      - STR_MAGNUM
+      - STR_D_EAGLE
       - STR_TEC9
       - STR_MICRO_UZI
       - STR_RIFLE_M16
@@ -200,13 +337,15 @@ research:
     needItem: true
     destroyItem: true
     listOrder: 151050
+    unlocks:
+      - STR_FAC_SMUGLERS
     getOneFree:
       - STR_FAC_SMUGLERS
       - STR_SMUGLERS_GUNS
       - STR_SMUGLERS_BELIVES
       - STR_COLT45
       - STR_REBEL_COLT45
-      - STR_MAGNUM
+      - STR_D_EAGLE
       - STR_TEC9
       - STR_MICRO_UZI
       - STR_RIFLE_M16
@@ -219,13 +358,14 @@ research:
     needItem: true
     destroyItem: true
     listOrder: 151050
-    getOneFree:
+    unlocks:
       - STR_FAC_SMUGLERS
+    getOneFree:
       - STR_SMUGLERS_GUNS
       - STR_SMUGLERS_BELIVES
       - STR_COLT45
       - STR_REBEL_COLT45
-      - STR_MAGNUM
+      - STR_D_EAGLE
       - STR_TEC9
       - STR_MICRO_UZI
       - STR_RIFLE_M16
@@ -239,34 +379,59 @@ research:
     needItem: true
     destroyItem: true
     listOrder: 151050
-    getOneFree:
+    unlocks:
       - STR_FAC_SMUGLERS
+    getOneFree:
       - STR_SMUGLERS_GUNS
       - STR_SMUGLERS_BELIVES
       - STR_COLT45
       - STR_REBEL_COLT45
-      - STR_MAGNUM
+      - STR_D_EAGLE
       - STR_TEC9
       - STR_MICRO_UZI
       - STR_RIFLE_M16
       - STR_RIFLE_M16_SCARFACE
       - STR_RIFLE_AK
       - STR_M60    
+
+#FriendlyCorpos
+  - name: STR_FRNDCORPO_HIGH_EXEC
+    cost: 35
+    points: 15
+    needItem: true
+    destroyItem: true
+    listOrder: 151050
 #DeadRobots
+  - name: STR_SECBOT_BLACK_CORPSE
+    cost: 15 
+    points: 5
+    needItem: true
+    destroyItem: true
+    listOrder: 151050
   - name: STR_CORPSE_OLD_LIGHT_DRONE
     cost: 25 
     points: 10
     needItem: true
+    destroyItem: true
     listOrder: 151050
   - name: STR_CORPSE_OLD_TURRET_MINIGUN
     cost: 25
     points: 10
     needItem: true
+    destroyItem: true
     listOrder: 151050
   - name: STR_CORPSE_OLD_SEC_ROBOT
     cost: 40
     points: 15
     needItem: true
+    destroyItem: true
+    listOrder: 151050
+#DeadTerminators
+  - name: STR_SKYNET01_CORPSE
+    cost: 40
+    points: 15
+    needItem: true
+    destroyItem: true
     listOrder: 151050
 #Crafts
   - name: STR_HOVERVAN_BUY
@@ -302,13 +467,39 @@ research:
       - STR_WORKSHOP
       - STR_ALIEN_ALLOYS
     listOrder: 151060
-    
   - name: STR_WRECKED_SAVAGE_CRAFT
     cost: 35 
     points: 10
     needItem: true
     listOrder: 151060
-#Facileties
+#CraftsInterceptor
+  - name: STR_GOSHAWK_PURCHES
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_CICADA_CRAFT_BUY
+      - STR_MILITARY_SUPLIES
+    listOrder: 151060
+  - name: STR_WRECKED_SAVAGE_CRAFT
+    cost: 35 
+    points: 10
+    needItem: true
+    listOrder: 151060
+#CraftWeapons
+  - name: STR_LASER_MINICANNON_PURCHES
+    cost: 150
+    points: 50
+    dependencies:
+      - STR_LAS_RIFLE_SCAV   #<---FixMe!
+      - STR_GOSHAWK_PURCHES
+    listOrder: 151060
+  - name: STR_AUTOCANNON_25MM_PURCHES
+    cost: 150
+    points: 50
+    dependencies:
+      - STR_GOSHAWK_PURCHES
+    listOrder: 151060
+                                            ###Facileties###
 
   - name: STR_RECREATION_ROOM
     cost: 25
@@ -344,7 +535,7 @@ research:
     cost: 100 
     points: 30
     dependencies:
-      - STR_ALIEN_ALLOYS
+      - STR_ALIEN_ALLOYS_MATRIX
       - STR_WORKSHOP
     listOrder: 151060
   - name: STR_ROBOT_WORKSHOP
@@ -352,6 +543,13 @@ research:
     points: 30
     dependencies:
       - STR_ALLOY_FACTORY
+    listOrder: 151060
+  - name: STR_POWER_PLANT
+    cost: 150 
+    points: 30
+    dependencies:
+      - STR_ELERIUM_115
+      - STR_UFO_POWER_SOURCE
     listOrder: 151060
   - name: STR_CYBER_HQ
     cost: 250
@@ -375,6 +573,14 @@ research:
     dependencies:
       - STR_COMM_CENTER
     listOrder: 151060
+  - name: STR_SCIENCE_CENTER
+    cost: 100 
+    points: 30
+    dependencies:
+      - STR_MEDICAL_BRANCH
+      - STR_LAB_T1
+    listOrder: 151060
+
   - name: STR_SMALL_RADAR_SYSTEM
     cost: 175
     points: 30
@@ -382,20 +588,39 @@ research:
       - STR_ELECTRONICS
       - STR_MILITARY_SUPLIES
     listOrder: 151060
+    
   - name: STR_LARGE_RADAR_SYSTEM
     cost: 250
     points: 30
     dependencies:
       - STR_SMALL_RADAR_SYSTEM
     listOrder: 151060
-#Lore
+#FactionLore
+     #Riaders
+  - name: STR_FAC_RAIDERS_RIPPERS
+    cost: 15
+    points: 50
+    listOrder: 151060
+    dependencies:
+      - STR_WST_RIPPER01
+      - STR_WST_RIPPER02
+      - STR_WST_RIPPER03
+      - STR_WST_RIPPER_PA_UNT
+      - STR_WST_RIPPER_COMMANDO
+
      #Smuglers
   - name: STR_FAC_SMUGLERS
-    points: 5
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_SMUGLER_GOON
+      - STR_SMUGLER_NEGOTIATOR
+      - STR_SMUGLER_LANCE
+      - STR_SMUGLER_FIXER
     listOrder: 151060
-    needItem: true    
   - name: STR_SMUGLERS_GUNS
-    points: 10
+    cost: 10
+    points: 40
     listOrder: 151060
     needItem: true    
     
@@ -405,36 +630,47 @@ research:
     needItem: true           
 #TechTree
   - name: STR_PERSONNEL_REFORM
-    cost: 45 
-    points: 5
+    cost: 25 
+    points: 15
     listOrder: 151060 
   - name: STR_WEAPON_SHOPPING
-    cost: 45 
-    points: 10
+    cost: 25 
+    points: 15
     listOrder: 151060
   - name: STR_GUNSHOP_ACCESS
-    cost: 45 
-    points: 10
+    cost: 25 
+    points: 15
     dependencies:
-      - STR_BASIC_FIREARMS_TRAINING
       - STR_PERSONNEL_REFORM
       - STR_WEAPON_SHOPPING
     listOrder: 151060
   - name: STR_ELECTRONICS
     cost: 35 
-    points: 10
+    points: 15
     dependencies:
       - STR_WEAPON_SHOPPING
     listOrder: 151060
 #BaseExpansion    
   - name: STR_BASE_EXPANSION_PROJECT
-    cost: 45 
+    cost: 25 
     points: 15
     dependencies:
       - STR_ELECTRONICS
       - STR_PERSONNEL_REFORM
-    listOrder: 151060    
-#techtree Milestones
+    listOrder: 151060
+
+                                            ###Techtree Milestones###
+
+#MedTree
+  - name: STR_MEDICAL_BRANCH
+    cost: 50 
+    points: 40
+    dependencies:
+      - STR_PERSONNEL_REFORM
+      - STR_MEDBAY_FACILITY
+    listOrder: 151060
+
+#PurchesTierse
   - name: STR_BLACK_MARKET_ACCES
     cost: 50 
     points: 40
@@ -452,13 +688,15 @@ research:
     cost: 150 
     points: 100
     dependencies:
+      - STR_FRNDCORPO_HIGH_EXEC
       - STR_MILITARY_SUPLIES
     listOrder: 151060
 
   - name: STR_ADV_WEAPON_MANUFACTURE
-    cost: 250 
-    points: 100
+    cost: 300 
+    points: 80
     dependencies:
+      - STR_WORKSHOP
       - STR_MILITARY_SUPLIES
     listOrder: 151060  
 #TechTree - License
@@ -495,36 +733,49 @@ research:
     dependencies:
       - STR_BLACK_MARKET_ACCES
     listOrder: 151060
+#Recrutment
+  - name: STR_SOLDIER_M_RECRUITMENT
+    cost: 100 
+    points: 10
+    listOrder: 151060
+    dependencies:
+      - STR_MILITARY_SUPLIES
 #Armour
   - name: STR_CIVIL_VEST_ARMOR_STUDY
-    cost: 10 
-    points: 5
+    cost: 25 
+    points: 10
     listOrder: 151060
     dependencies:
       - STR_WEAPON_SHOPPING
   - name: STR_JUMPSUIT_JETPACK_STUDY
-    cost: 50 
-    points: 20
+    cost: 45 
+    points: 15
     listOrder: 151060
     dependencies:
       - STR_BLACK_MARKET_ACCES
   - name: STR_ARMOUR_SECVEST_STUDY
-    cost: 35
+    cost: 45
     points: 25
     listOrder: 151070
     dependencies:
       - STR_MEGAPOL_COP
       - STR_CIVIL_VEST_ARMOR_STUDY
       - STR_BLACK_MARKET_ACCES
-  - name: STR_COMBAT_ARMOUR_MK1_STUDY 
-    cost: 35
+  - name: STR_SWAT_SUIT_STUDY
+    cost: 45
     points: 25
     listOrder: 151070
     dependencies:
       - STR_ARMOUR_SECVEST_STUDY
+  - name: STR_COMBAT_ARMOUR_MK1_STUDY 
+    cost: 65
+    points: 20
+    listOrder: 151070
+    dependencies:
+      - STR_SWAT_SUIT_STUDY
       - STR_MILITARY_SUPLIES
   - name: STR_COMBAT_ARMOUR_UPGRATE_PROJECT
-    cost: 200
+    cost: 100
     points: 50
     listOrder: 151070
     dependencies:
@@ -569,11 +820,12 @@ research:
     dependencies:
       - STR_TAURUS_ARMOUR_STUDY
       - STR_OPTRONIC_PARTS
-  - name: STR_NIGHTOPS_ARMOR
+  - name: STR_NIGHTOPS_BUY
     cost: 100
     points: 10
     listOrder: 151070
     dependencies:
+      - STR_ARMOUR_SECVEST_STUDY
       - STR_BLACK_MARKET_ACCES
   - name: STR_DEFLECTOR_SUIT
     cost: 100
@@ -603,11 +855,10 @@ research:
 
 #Items - components
   - name: STR_ELERIUM_115
-    dependencies:
-      - STR_IDDQD
-    cost: 30
+    cost: 100
     points: 5
     needItem: true
+    destroyItem: true
     requiresBaseFunc: [BASIC_LAB]
     listOrder: 151070
   - name: STR_DURATHREAD
@@ -626,23 +877,51 @@ research:
     cost: 150
     points: 20
     needItem: true
+    destroyItem: true
+    listOrder: 151070
+  - name: STR_ALIEN_ALLOYS_MATRIX
+    cost: 250
+    points: 20
+    needItem: true
+    destroyItem: true
     listOrder: 151070
   - name: STR_AQUA_PLASTICS
-    cost: 50
-    points: 5
+    cost: 45
+    points: 10
+    destroyItem: true
     needItem: true
     listOrder: 151070
   - name: STR_SC_WIRE
-    cost: 50
+    cost: 25
     points: 5
+    destroyItem: true
     needItem: true
     listOrder: 151070
   - name: STR_GRAV_MODULE
     cost: 50
     points: 5
+    destroyItem: true
     needItem: true
     listOrder: 151070
-
+  - name: STR_POWER_CELL
+    dependencies:
+      - STR_ELERIUM_115
+    cost: 75
+    points: 5
+    destroyItem: true
+    needItem: true
+    listOrder: 151070
+  - name: STR_POWER_ARMOR_PARTS
+    cost: 75
+    points: 5
+    destroyItem: true
+    needItem: true
+    listOrder: 151070
+  - name: STR_XENOLITE_BLOCK
+    cost: 100
+    points: 25
+    needItem: true
+    listOrder: 151070
 #Guns - Melee
 
   - name: STR_CHAINSAW
@@ -664,7 +943,6 @@ research:
 #Guns - Bows
 
 #Guns - Pistols
-
         #JunkTier
   - name: STR_LIBIRATOR_JUNK
     cost: 3
@@ -682,8 +960,8 @@ research:
     needItem: true
     listOrder: 151070
   - name: STR_BANDIT_REVOLVER
-    cost: 3
-    points: 5
+    cost: 5
+    points: 3
     needItem: true
     listOrder: 151070
         #PreWarTier
@@ -692,9 +970,9 @@ research:
     points: 5
     needItem: true
     listOrder: 151070
-  - name: STR_MAGNUM
-    cost: 3
-    points: 5
+  - name: STR_D_EAGLE
+    cost: 5
+    points: 3
     needItem: true
     listOrder: 151070
         #PreWarModern
@@ -714,6 +992,12 @@ research:
     points: 5
     needItem: true
     listOrder: 151070
+  - name: STR_LASER_PISTOL_MIB
+    requiresBaseFunc: [BASIC_LAB]
+    cost: 25
+    points: 10
+    needItem: true
+    listOrder: 151070
         #Lazor - SIN
   - name: STR_LASER_PISTOL_SIN
     requiresBaseFunc: [BASIC_LAB]
@@ -729,6 +1013,13 @@ research:
     needItem: true
     listOrder: 151070
         #BlackMarketTier
+  - name: STR_SMG_SMARTLOCK
+    cost: 20
+    points: 3
+    needItem: true
+    listOrder: 151070
+    dependencies:
+      - STR_GUNSHOP_ACCESS
   - name: STR_MAC12_BUY
     cost: 20
     points: 3
@@ -863,12 +1154,6 @@ research:
     points: 5
     needItem: true
     destroyItem: true
-  - name: STR_RUGER_RIFLE
-    cost: 5
-    points: 3
-    needItem: true
-    destroyItem: true
-        #MilitaryTier
   - name: STR_RIFLE_VHS
     cost: 5
     points: 5
@@ -942,31 +1227,32 @@ research:
     destroyItem: true
 #HeavyGuns
   - name: STR_MINING_LASER
-    cost: 10
+    cost: 25
     points: 5
     needItem: true
-    destroyItem: true
 #HeavyMachineguns
   - name: STR_M60
     cost: 10
     points: 5
     needItem: true
-    destroyItem: true
   - name: STR_SAW
     cost: 5
     points: 10
     needItem: true
-    destroyItem: true
   - name: STR_MINIGUN_1
     cost: 5
     points: 10
     needItem: true
-    destroyItem: true
   - name: STR_MINIGUN_2
     cost: 5
     points: 10
     needItem: true
-    destroyItem: true        
+
+  - name: STR_GATLING_LASER
+    cost: 50
+    points: 10
+    needItem: true
+
 #Guns - Grenades
   - name: STR_PIPEBOMB
     cost: 3
@@ -1119,6 +1405,13 @@ research:
     dependencies:
       - STR_TEST_EVENT
 #Data
+  - name: STR_INSURANCE_CONTRACT
+    cost: 25
+    points: 50
+    requiresBaseFunc: [COMMCENT]
+    needItem: true
+    listOrder: 151070
+#Data
   - name: STR_FLASHDRIVE_RAIDERS
     cost: 35
     points: 10
@@ -1140,7 +1433,7 @@ research:
     cost: 50
     points: 4
     dependencies:
-      - STR_MEDBAY_FACILITY
+      - STR_MEDICAL_BRANCH
 #Eye
   - name: STR_AUG_EYE_MK1
     needItem: true
@@ -1284,5 +1577,15 @@ research:
 
 #TransforamtionsNatural
   - name: STR_BASIC_FIREARMS_TRAINING
+    dependencies:
+      - STR_WEAPON_SHOPPING
     cost: 15
     points: 25
+
+#TransforamtionsNatural
+  - name: STR_BATTLE_DROIDS
+    cost: 50
+    points: 25
+    dependencies:
+      - STR_XENOLITE_BLOCK
+      - STR_UFO_NAVIGATION

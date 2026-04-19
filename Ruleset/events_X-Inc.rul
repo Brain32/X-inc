@@ -27,6 +27,8 @@ eventScripts:
         STR_GNN_NEWS_001: 60
         STR_GNN_NEWS_002: 60
         STR_GNN_NEWS_003: 60
+        STR_GNN_NEWS_004: 60
+        STR_GNN_NEWS_005: 60
     researchTriggers:
        STR_WEAPON_SHOPPING: true
     executionOdds: 100
@@ -34,7 +36,57 @@ eventScripts:
     eventWeights:
       0:
         STR_TRAFFIC_TICKET: 100
+    firstMonth: 1
+    executionOdds: 55
+
+#================ Starting Bonus Script ================#
+#Britan
+  - type: STR_START_LOCATION_SCRIPT_UK
+    oneTimeRandomEvents:
+      STR_START_LOCATION_EVENT_UK: 100
     firstMonth: 0
+    xcomBaseInCountryTriggers:
+       STR_UK: true
+    executionOdds: 100
+#Eurosyndicate
+  - type: STR_SB_SCRIPT_EUROSYNDICATE
+    oneTimeRandomEvents:
+      STR_SB_EVENT_EUROSYNDICATE: 100
+    firstMonth: 0
+    xcomBaseInCountryTriggers:
+       STR_FRANCE: true
+    executionOdds: 100
+#Russian Fediration
+  - type: STR_START_LOCATION_SCRIPT_RUSSIA
+    oneTimeRandomEvents:
+      STR_START_LOCATION_EVENT_RUSSIA: 100
+    firstMonth: 0
+    xcomBaseInCountryTriggers:
+       STR_RUSSIA: true
+    executionOdds: 100
+#California
+  - type: STR_SB_SCRIPT_CALI
+    oneTimeRandomEvents:
+      STR_SB_EVENT_CALI: 100
+    firstMonth: 0
+    xcomBaseInCountryTriggers:
+       STR_CALI_REPUBLIC: true
+    executionOdds: 100
+#USA
+  - type: STR_SB_SCRIPT_USA
+    oneTimeRandomEvents:
+      STR_SB_EVENT_USA: 100
+    firstMonth: 0
+    xcomBaseInCountryTriggers:
+       STR_USA: true
+    executionOdds: 100
+#SouthAfrica
+  - type: STR_SB_SCRIPT_SOUTH_AFRICA
+    oneTimeRandomEvents:
+      STR_SB_EVENT_SOUTH_AFRICA: 100
+    firstMonth: 0
+    xcomBaseInCountryTriggers:
+       STR_SOUTH_AFRICA: true
     executionOdds: 100
 
 ####################test script
@@ -80,6 +132,7 @@ events:
     points: 10
     timer: 10000
     timerRandom: 20000
+
 #>>>News=====#
 
   - name: STR_GNN_NEWS_001
@@ -109,15 +162,105 @@ events:
     city: true
     timer: 60
     timerRandom: 300
-
+  - name: STR_GNN_NEWS_004
+    description: STR_GNN_EXPLOTION_1_DESCRIPTION
+    music: NEWS
+    background: NEWS_BG.SCR
+    researchList: [STR_WEAPON_SHOPPING]
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    city: true
+    timer: 60
+    timerRandom: 300
+  - name: STR_GNN_NEWS_005
+    description: STR_GNN_EXPLOTION_2_DESCRIPTION
+    music: NEWS
+    background: NEWS_BG.SCR
+    researchList: [STR_WEAPON_SHOPPING]
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    city: true
+    timer: 60
+    timerRandom: 300
 #=============================================== NegativeEvents===============================================#
   - name: STR_TRAFFIC_TICKET
     description: STR_TRAFFIC_TICKET_DESCRIPTION
     background: CITY2_BG.SCR
     points: -25
-    funds: -500
+    funds: -1000
     timer: 20
     timerRandom: 43500
 #=============================================== PositiveEvents===============================================#
 
-
+#================ Starting Bonus Event  ================#
+#=== UK ===#
+  - name: STR_START_LOCATION_EVENT_UK
+    description: STR_START_LOCATION_EVENT_UK_DESCRIPTION
+    background: CITY_UK_BG.SCR
+    points: -50
+    researchList: [STR_ARMOUR_SECVEST_STUDY]
+    music: HUNTER_C
+    everyMultiItemList:
+      STR_ARMOUR_SECVEST: 6
+      STR_STUN_ROD: 6
+    timer: 60
+    timerRandom: 300
+#=== Eurosyndicate ===#
+  - name: STR_SB_EVENT_EUROSYNDICATE
+    description: STR_SB_EVENT_EUROSYNDICATE_DESCRIPTION
+    background: CITY_EUROSYNDICATE_BG.SCR
+    points: -50
+    funds: 200000
+    researchList:
+      STR_ARMOUR_SECVEST_STUDY
+    music: HUNTER_C
+    everyMultiItemList:
+      STR_ARMOUR_SECVEST: 6
+      STR_STUN_ROD: 6
+    timer: 60
+    timerRandom: 300
+#=== Russia ===#
+  - name: STR_START_LOCATION_EVENT_RUSSIA
+    description: STR_START_LOCATION_EVENT_RUSSIA_DESCRIPTION
+    background: CITY_RUSSIA_BG.SCR
+    points: -50
+    funds: -350000
+    spawnedPersons: 2
+    spawnedPersonType: STR_SOLDIER_M
+    music: HUNTER_C
+    timer: 60
+    timerRandom: 300
+#=== Cali Republic ===#
+  - name: STR_SB_EVENT_CALI
+    description: STR_SB_EVENT_CALI_DESCRIPTION
+    background: CITY_LA_BG.SCR
+    points: 100
+    funds: 50000
+    music: HUNTER_C
+    timer: 60
+    timerRandom: 300
+#=== USA ===#
+  - name: STR_SB_EVENT_USA
+    description: STR_SB_EVENT_USA_DESCRIPTION
+    background: CITY_USA_BG.SCR
+    everyMultiItemList:
+      STR_M52S_AJAX_RIFLE: 4
+      STR_M52S_AJAX_RIFLE_CLIP: 12
+      STR_SAW: 2
+      STR_SAW_CLIP: 6
+    points: 20
+    funds: 10000
+    music: HUNTER_C
+    timer: 60
+    timerRandom: 300
+#=== SouthAfrica ===#
+  - name: STR_SB_EVENT_SOUTH_AFRICA
+    description: STR_SB_EVENT_SOUTH_AFRICA_DESCRIPTION
+    background: CITY_SOUTH_AFRICA_BG.SCR
+    researchList: [STR_GOSHAWK_PURCHES]
+    spawnedCraftType: STR_GOSHAWK
+    everyMultiItemList:
+      STR_AUTOCANNON_25MM: 1
+      STR_AUTOCANNON_25MM_ROUNDS_X50: 12
+    points: 50
+    music: HUNTER_C
+    timer: 60
+    timerRandom: 300

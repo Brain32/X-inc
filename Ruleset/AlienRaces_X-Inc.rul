@@ -2,7 +2,7 @@ alienRaces:
   - id: STR_WST_RIPPER_RACE
     members:
       - STR_WST_RIPPER_COMMANDO # 0 - Commander
-      - STR_WST_RIPPER_COMMANDO # 0 - Commander
+      - STR_WST_RIPPER_COMMANDO # 1 - Commander
       - STR_WST_RIPPER03 # 2 - Engineer
       - STR_WST_RIPPER03 # 3 - scientist
       - STR_WST_RIPPER02 # 4 - Navigator
@@ -13,18 +13,18 @@ alienRaces:
       - STR_WST_RIPPER01 # 9 - Terrorist PowerSuit Dude
       - STR_WST_RIPPER01 # 10 - Terrorist PowerSuit Dude
     retaliationAggression: -100
-  - id: STR_RACE_WASTELAND_RAIDERS
-    members:
-      - STR_WASTELAND_GOON
-      - STR_WASTELAND_GOON
-      - STR_WASTELAND_GOON
-      - STR_WASTELAND_GOON
-      - STR_WASTELAND_SCOUT
-      - STR_WASTELAND_SCOUT
-      - STR_WASTELAND_SCOUT
-      - STR_WASTELAND_BOSS
-      - STR_WASTELAND_BOSS
-    retaliationAggression: -100
+#  - id: STR_RACE_WASTELAND_RAIDERS #Old one Do not use !
+#    members:
+#      - STR_WASTELAND_GOON
+#      - STR_WASTELAND_GOON
+#      - STR_WASTELAND_GOON
+#      - STR_WASTELAND_GOON
+#      - STR_WASTELAND_SCOUT
+#      - STR_WASTELAND_SCOUT
+#      - STR_WASTELAND_SCOUT
+#      - STR_WASTELAND_BOSS
+#      - STR_WASTELAND_BOSS
+#    retaliationAggression: -100
   - id: STR_RACE_GUNRUNNERS
     members:
       - STR_GUNRUNNER_WORKER
@@ -35,18 +35,34 @@ alienRaces:
       - STR_GUNRUNNER_WORKER
       - STR_GUNRUNNER_WORKER
     retaliationAggression: -100
-  - id: STR_RACE_TIGERCALW
+  - id: STR_RACE_TIGERCLAW
     members:
-      - STR_TIGERCALW_GOON
-      - STR_TIGERCALW_GOON
-      - STR_TIGERCALW_GOON
-      - STR_TIGERCALW_GOON
-      - STR_TIGERCALW_FEMGOON
-      - STR_TIGERCALW_FEMGOON
-      - STR_TIGERCALW_FEMGOON
-      - STR_TIGERCALW_WARCHEEF
-      - STR_TIGERCALW_WARCHEEF
+      - STR_TIGERCALW_WARCHEEF # 0
+      - STR_TIGERCALW_GOON     # 1
+      - STR_TIGERCALW_GOON     # 2
+      - STR_TIGERCALW_GOON     # 3
+      - STR_TIGERCALW_FEMGOON  # 4
+      - STR_TIGERCALW_FEMGOON  # 5
+      - STR_TIGERCALW_FEMGOON  # 6
+      - STR_TIGERCALW_GOON     # 7
+      - STR_TIGERCALW_GOON     # 8
+      - STR_TIGERCALW_GOON     # 9
+
     retaliationAggression: -100
+  - id: STR_RACE_WARDOGS
+    members:
+      - STR_WARDOGS_VETERAN # 0
+      - STR_WARDOGS_VETERAN # 1
+      - STR_WARDOGS_HEAVY # 2
+      - STR_WARDOGS_HEAVY # 3
+      - STR_WARDOGS_GUNMAN # 4
+      - STR_SECBOT_BLACK # 5
+      - STR_WARDOGS_HANCHMAN # 6
+      - STR_WARDOGS_HANCHMAN # 7
+      - STR_WARDOGS_GOON # 8
+      - STR_WARDOGS_GOON # 9
+    retaliationAggression: -100
+
   - id: STR_RACE_SYNDICATE
     members:
       - STR_SYNDICATE_MANAGER # 0 - Commander
@@ -64,6 +80,7 @@ alienRaces:
       - STR_SYNDICATE_PA_UNIT # 12 - Non-Combatant 2
       - STR_SYNDICATE_PA_UNIT # 13 - Special Guest 3
     retaliationAggression: -100
+    
   - id: STR_RACE_SMUGLERS
     members:
       - STR_SMUGLER_FIXER # 0; placeholder
@@ -106,15 +123,30 @@ alienRaces:
 #Mutants
   - id: STR_MUTANTS
     members:
-      - STR_MUTANT_WRETCH
-      - STR_MUTANT_WRETCH
-      - STR_MUTANT_WRETCH
-      - STR_MUTANT_WRETCH
-      - STR_MUTANT_WRETCH
-      - STR_MUTANT_WRETCH
-      - STR_MUTANT_WRETCH
-      - STR_MUTANT_WRETCH
-      - STR_MUTANT_WRETCH
+      - STR_MUTANT_WRETCH # 0 - Mastermind
+      - STR_MUTANT_WRETCH # 1 - Leader
+      - STR_MUTANT_WRETCH # 2 - Controller
+      - STR_MUTANT_WALKER # 3 - placeholder
+      - STR_MUTANT_WALKER # 4 - Fatty
+      - STR_MUTANT_WRETCH # 5 - Wretch
+      - STR_MUTANT_WALKER # 6 - Terrorist_02
+      - STR_MUTANT_WALKER # 7 - Walker
+      - STR_MUTANT_WALKER # 8 - Terrorist_01
+      - STR_MUTANT_WALKER # 9 - placeholder
+    retaliationAggression: -100
+
+  - id: STR_ECHOPROTOCOL_RACE
+    members:
+      - STR_FAKECIV1 # 0
+      - STR_FAKECIV1 # 0
+      - STR_FAKECIV1 # 0
+      - STR_FAKECIV1 # 0
+      - STR_FAKECIV1 # 0
+      - STR_SKYNET01 # 0
+      - STR_SKYNET01 # 0
+      - STR_SKYNET01 # 0
+      - STR_SKYNET01 # 0
+      - STR_SKYNET01 # 0
     retaliationAggression: -100
 
   - id: STR_RACE_OLD_ROBOTS

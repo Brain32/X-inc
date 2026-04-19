@@ -39,36 +39,36 @@ crafts:
     refuelRate: 50
     transferTime: 96
     score: 250
-  - type: STR_HOVERSCOOTER
+  - type: STR_FAGGIO_BIKE
     sprite: 797
     fuelMax: 9999
-    damageMax: 5
-    speedMax: 85
-    accel: 1 
+    damageMax: 40
+    speedMax: 525
+    accel: 4
+    maxAltitude: 1
+    pilots: 1
     soldiers: 1
     vehicles: 0
-    pilots: 1
-    costBuy: 2500
-    costRent: 50
-    costSell: 670
-    refuelRate: 9999
-    repairRate: 1
-    radarRange: 10
-    radarChance: 25
-    sightRange: 400
-    transferTime: 8
-    score: 5
     undetectable: true
+    costBuy: 50000
+    costSell: 45000
+    costRent: 1000
+    refuelRate: 9999
+    sightRange: 100
+    radarRange: 100
+    radarChance: 80
+    transferTime: 12
+    score: 75
     battlescapeTerrainData:
-      name: HOVERSCOOTER
+      name: HIGHSTAR
       mapDataSets:
         - BLANKS
-        - SCI_FI_CARS_TILESET
+        - HIGHSTAR
       mapBlocks:
-        - name: HOVER_SCOOTER
+        - name: HIGHSTAR
           width: 10
           length: 10
-    listOrder: 7294
+    listOrder: 383
   - type: STR_FUTURECAR1
     sprite: 832
     fuelMax: 9999
@@ -210,51 +210,20 @@ crafts:
       - [5, 3, 0, 2]
       - [4, 3, 0, 2]
     listOrder: 382
-  - type: STR_HIGHWAY_STAR
-    requires:
-      - STR_IDDQD
-    sprite: 230
-    fuelMax: 9999
-    damageMax: 40
-    speedMax: 525
-    accel: 4
-    maxAltitude: 1
-    pilots: 1
-    soldiers: 1
-    vehicles: 0
-    undetectable: true
-    costBuy: 500000
-    costSell: 450000
-    costRent: 10000
-    refuelRate: 9999
-    sightRange: 100
-    radarRange: 100
-    radarChance: 80
-    transferTime: 12
-    score: 75
-    battlescapeTerrainData:
-      name: HIGHSTAR
-      mapDataSets:
-        - BLANKS
-        - HIGHSTAR
-      mapBlocks:
-        - name: HIGHSTAR
-          width: 10
-          length: 10
-          items:
-    listOrder: 383
+
+
 
   - type: STR_SAVAGE_CRAFT
     requires:
       - IDDQD
-    sprite: 871 # this sprite is the number for minimized in INTICON.pck
+    sprite: 875
     soldiers: 10
     pilots: 2
     costBuy: 240000
     costRent: 12000
     costSell: 670000
     fuelMax: 1500
-    refuelRate: 5
+    refuelRate: 25
     refuelItem: STR_ELERIUM_115
     repairRate: 10
     transferTime: 72
@@ -437,3 +406,35 @@ crafts:
       - [6, 6, 1, 2]
       - [6, 4, 1, 2]
       - [6, 5, 1, 2]
+#Interceptors
+
+  - type: STR_GOSHAWK
+    requires:
+      - STR_GOSHAWK_PURCHES
+    sprite: 799
+    fuelMax: 1000
+    damageMax: 100
+    speedMax: 2100
+    pilots: 1
+    soldiers: 1
+    accel: 3
+    weapons: 2
+    costBuy: 1200000
+    costRent: 200000
+    forceShowInMonthlyCosts: true
+    refuelRate: 50
+    radarRange: 500
+    radarChance: 80
+    transferTime: 96
+    score: 300
+    battlescapeTerrainData:
+      name: PLANE_GOSHAWK
+      mapDataSets:
+        - BLANKS
+        - PLANE2
+      mapBlocks:
+        - name: PLANE_GOSHAWK
+          width: 10
+          length: 20
+    deployment:
+      - [5, 13, 0, 2]
